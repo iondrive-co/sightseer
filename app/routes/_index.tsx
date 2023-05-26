@@ -1,6 +1,7 @@
 import { Link } from "@remix-run/react";
 import { useState } from "react";
 import "../styles/styles.css";
+import Content from "../components/Content";
 
 export const meta: V2_MetaFunction = () => {
   return [
@@ -10,22 +11,21 @@ export const meta: V2_MetaFunction = () => {
 };
 
 export default function Index() {
-  const [content, setContent] = useState(''); // Initialize state
+  const [content, setContent] = useState('');
   return (
     <div className="app">
       <div className="sidebar">
-        <Link to="/links" className="text-xl text-blue-600 underline">
-          Links
-        </Link>
         <button 
-          onClick={() => setContent('These are some references.')}
-          className="text-xl text-blue-600 underline cursor-pointer"
+          onClick={() => setContent(<Content />)}
+          className="text-xl text-blue-600 underline cursor-pointer toc-style"
         >
           References
         </button>
+        <Link to="/links" className="text-xl text-blue-600 underline cursor-pointer">
+          Links
+        </Link>
       </div>
       <div className="main-content">
-        {/* main content will change based on state */}
         <p>{content}</p>
       </div>
     </div>
