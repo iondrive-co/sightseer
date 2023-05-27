@@ -1,7 +1,5 @@
-import { Link } from "@remix-run/react";
-import { useState } from "react";
 import "../styles/styles.css";
-import Content from "../components/Content";
+import Sidebar from "../components/Sidebar";
 
 export const meta: V2_MetaFunction = () => {
   return [
@@ -11,22 +9,11 @@ export const meta: V2_MetaFunction = () => {
 };
 
 export default function Index() {
-  const [content, setContent] = useState('');
   return (
     <div className="app">
-      <div className="sidebar">
-        <button 
-          onClick={() => setContent(<Content />)}
-          className="text-xl text-blue-600 underline cursor-pointer toc-style"
-        >
-          References
-        </button>
-        <Link to="/links" className="text-xl text-blue-600 underline cursor-pointer">
-          Links
-        </Link>
-      </div>
+      <Sidebar />
       <div className="main-content">
-        <p>{content}</p>
+        <p>{/* ... */}</p>
       </div>
     </div>
   );
