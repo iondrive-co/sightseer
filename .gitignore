@@ -4,5 +4,9 @@ node_modules
 /functions/\[\[path\]\].js
 /functions/\[\[path\]\].js.map
 /public/build
+/build
+/kotlin-js-store
+/gradle
+/.gradle
 .dev.vars
 *.code-workspace

@@ -6,8 +6,8 @@ export default function Sidebar() {
   
   return (
     <div className="sidebar">
-      <Link to="/references" className="text-xl text-blue-600 underline cursor-pointer">
-        References
+      <Link to="/rendering" className="text-xl text-blue-600 underline cursor-pointer">
+        Rendering
       </Link>
       <Link to="/links" className="text-xl text-blue-600 underline cursor-pointer">
         Links
