@@ -1,22 +1,55 @@
-import { useEffect } from 'react';
-import Sidebar from "../components/Sidebar";
+import React, { useEffect } from 'react';
+import * as PIXI from 'pixi.js-legacy';
 
-export default function Content() {
+const PixiComponent: React.FC = () => {
+  let app: PIXI.Application | null;
+  let sprite: PIXI.Sprite | null;
+
+  const setup = () => {
+    if (!PIXI.Loader.shared.resources["rocket"]) return;
+    sprite = new PIXI.Sprite(PIXI.Loader.shared.resources["rocket"].texture);
+    sprite.x = 0;
+    sprite.y = 0;
+    app?.stage.addChild(sprite);
+  };
+
+  const gameLoop = () => {
+    //Move the sprite 1 pixel to the right each frame
+    if (sprite) sprite.x += 1;
+  };
+
   useEffect(() => {
-    import("../components/sightseer.js").then(() => {
-      const sightseer = (window as any).sightseer;
-      sightseer.draw();
+    app = new PIXI.Application({ 
+      width: 800, 
+      height: 600,
+      // Any other options needed for your version of PIXI.js
     });
+    document.querySelector("#pixiContainer")?.appendChild(app.view);
+
+    PIXI.Loader.shared
+      .add("rocket", "/public/favicon.ico")
+      .load(setup);
+
+    app.ticker.add(() => gameLoop());
+
+    return () => {
+      if (sprite) app?.stage.removeChild(sprite);
+      sprite?.destroy();
+      sprite = null;
+      app = null;
+    };
   }, []);
 
+  return <div id="pixiContainer" />;
+};
+
+const RenderingIndexRoute: React.FC = () => {
   return (
-    <div className="app">
-      <Sidebar />
-      <main className="main-content">
-        <h1>Kotlin Rendering Test</h1>
-        <p>The following is rendered via some js transpiled from kotlin:</p>
-        <div id="canvas-container"></div>
-      </main>
+    <div>
+      <h1>Rendering with PixiJS</h1>
+      <PixiComponent />
     </div>
   );
-}
+};
+
+export default RenderingIndexRoute;
