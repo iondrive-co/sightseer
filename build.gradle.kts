@@ -10,7 +10,6 @@ repositories {
 }
 
 dependencies {
-    // implementation("org.jetbrains.kotlinx:kotlinx-html-js:0.8.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2")
     testImplementation(kotlin("test"))
 }
@@ -27,14 +26,6 @@ tasks.named("assemble") {
 }
 
 kotlin {
-    // js(LEGACY) {
-    //     binaries.executable()
-    //     browser {
-    //         commonWebpackConfig {
-    //             cssSupport.enabled = true
-    //         }
-    //     }
-    // }
    js(IR) {
        browser()
        binaries.executable()

@@ -10,3 +10,4 @@ node_modules
 /.gradle
 .dev.vars
 *.code-workspace
+/.idea
