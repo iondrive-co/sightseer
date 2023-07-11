@@ -1,0 +1,12 @@
+node_modules
+/.cache
+/functions/\[\[path\]\].js
+/functions/\[\[path\]\].js.map
+/public/build
+/build
+.dev.vars
+wrangler.toml
+*.code-workspace
+modules.xml
+sightseer.iml
+vcs.xml
