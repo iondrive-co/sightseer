@@ -6,10 +6,13 @@ export default function Sidebar() {
   
   return (
     <div className="sidebar">
-      <Link to="/editor" className="text-xl text-blue-600 underline cursor-pointer">
+      <Link to="/Editor" className="text-xl text-blue-600 underline cursor-pointer">
         Editor
       </Link>
-      <Link to="/movies" className="text-xl text-blue-600 underline cursor-pointer">
+      <Link to="/Exobase" className="text-xl text-blue-600 underline cursor-pointer">
+        Exobase
+      </Link>
+      <Link to="/Movies" className="text-xl text-blue-600 underline cursor-pointer">
         Movies
       </Link>
     </div>

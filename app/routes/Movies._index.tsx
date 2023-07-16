@@ -1,6 +1,6 @@
 import {json, LoaderFunction} from "@remix-run/cloudflare";
 import {useLoaderData} from "@remix-run/react";
-import {Movie, moviesData} from "~/components/moviesData";
+import {Movie, moviesData} from "~/components/MoviesData";
 import Sidebar from "~/components/Sidebar";
 import '~/styles/styles.css';
 import '~/styles/movies.css';
