@@ -21,5 +21,7 @@ stuck in a mimetic feedback loop with itself.`],
 Its main distinguishing features compared to short range network systems are:
 - A protocol stack layer dedicated to ultra high frequency phonon modulation compression and error correction
 - Better handling of high round trip times via bidirectional transfer with lack of protocol negotiation
-- More resilient to route distribution and routing over a diverse topology including store and forward routers`],
+- More resilient to route distribution and routing over a diverse topology including store and forward routers
+- CDN caching built into the application layer, allowing popular sites such as [[Exobase]] to be hosted locally
+- Lack of many peer to peer and distributed ledger functions present in the InterMesh`],
 ]);

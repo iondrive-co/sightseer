@@ -1,0 +1,30 @@
+.article-container {
+    display: flex;
+}
+
+.article-content {
+    flex: 1;
+    padding: 0 12%;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 600px) {
+    .article-content {
+        padding: 0 1%;
+    }
+}
+
+.title {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.title h1 {
+    text-transform: capitalize;
+}
+
+.article {
+    font-size: 1.5em;
+    text-align: justify;
+}

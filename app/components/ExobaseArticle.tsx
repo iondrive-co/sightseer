@@ -1,11 +1,13 @@
 import {useLoaderData, useLocation} from '@remix-run/react';
 import Sidebar from '~/components/Sidebar';
+import '~/styles/styles.css';
+import '~/styles/exobase.css';
 
 function TitleAndBreadcrumbs() {
     const location = useLocation();
     const currentPage = location.pathname.split('/').pop() || 'exobase';
     return (
-        <div style={{ textAlign: 'center', paddingTop: '10%' }}>
+        <div className="title">
             <h1>{currentPage}</h1>
         </div>
     )
@@ -16,11 +18,11 @@ function ExobaseArticle() {
     const { content } = useLoaderData();
 
     return (
-        <div key={location.key} style={{ display: "flex" }}>
+        <div key={location.key} className="article-container">
             <Sidebar />
-            <div style={{ flex: 1, padding: '0 10%', whiteSpace: 'pre' }}>
+            <div className="article-content">
                 <TitleAndBreadcrumbs />
-                <article style={{ fontSize: '25px' }}>
+                <article className="article">
                     <div dangerouslySetInnerHTML={{ __html: content }} />
                 </article>
             </div>
