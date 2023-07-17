@@ -4,7 +4,7 @@
 
 .title {
     text-align: center;
-    padding-top: 10%;
+    padding-top: 8%;
 }
 
 .title h1 {
@@ -14,16 +14,15 @@
 .article {
     flex: 1;
     padding: 0 12%;
-    white-space: pre-wrap;
-    word-wrap: break-word;
+    white-space: pre-line;
 }
 
 @media screen and (max-width: 1500px) {
     .title {
-        padding: 0 5%;
+        padding: 0 4%;
     }
     .article {
-        padding: 0 5%;
+        padding: 0 6%;
     }
 }
 
@@ -38,7 +37,7 @@
 
 .article-text {
     font-size: 1.5em;
-    text-align: justify;
-    overflow-y: scroll;
-    height: 80vh;
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 75vh;
 }
