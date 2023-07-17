@@ -9,7 +9,7 @@ html, body {
 .app {
     display: flex;
     height: 100vh;
-    font-family: "system-ui, sans-serif";
+    font-family: "system-ui, sans-serif", serif;
     line-height: 1.8;
     overflow: hidden;
 }
@@ -27,6 +27,12 @@ html, body {
     position: sticky;
     top: 0;
     overflow-y: auto;
+}
+
+@media (max-width: 600px) {
+    .sidebar {
+        flex: 0 0 50px;
+    }
 }
 
 .container {

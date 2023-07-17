@@ -9,7 +9,7 @@ export default function Sidebar() {
       <Link to="/Editor" className="text-xl text-blue-600 underline cursor-pointer">
         Editor
       </Link>
-      <Link to="/Exobase" className="text-xl text-blue-600 underline cursor-pointer">
+      <Link to="/exobase/Exobase" className="text-xl text-blue-600 underline cursor-pointer">
         Exobase
       </Link>
       <Link to="/Movies" className="text-xl text-blue-600 underline cursor-pointer">

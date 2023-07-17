@@ -20,9 +20,9 @@ function ExobaseArticle() {
     return (
         <div key={location.key} className="article-container">
             <Sidebar />
-            <div className="article-content">
+            <div className="article">
                 <TitleAndBreadcrumbs />
-                <article className="article">
+                <article className="article-text">
                     <div dangerouslySetInnerHTML={{ __html: content }} />
                 </article>
             </div>

@@ -2,19 +2,6 @@
     display: flex;
 }
 
-.article-content {
-    flex: 1;
-    padding: 0 12%;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-}
-
-@media screen and (max-width: 600px) {
-    .article-content {
-        padding: 0 1%;
-    }
-}
-
 .title {
     text-align: center;
     padding-top: 10%;
@@ -25,6 +12,33 @@
 }
 
 .article {
+    flex: 1;
+    padding: 0 12%;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 1500px) {
+    .title {
+        padding: 0 5%;
+    }
+    .article {
+        padding: 0 5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        padding: 0 1%;
+    }
+    .article {
+        padding: 0 1%;
+    }
+}
+
+.article-text {
     font-size: 1.5em;
     text-align: justify;
+    overflow-y: scroll;
+    height: 80vh;
 }
