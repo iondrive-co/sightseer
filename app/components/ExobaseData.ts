@@ -10,7 +10,8 @@ In 2052 the first version of Exobase was conceived as a subset of the larger Exo
 generative AI which had been tasked with finding ways to distribute simple summaries of notable facts to the numerous 
 migrants in the [[Ceres Wave]]. It was never widely used by its intended audience, but later became popular in certain 
 communities such as the [[Retrograde Diaspora]] and over time has become one of the most widely consulted resources by 
-[[personal infocom agents]] in the outer solar system.
+[[infocom agents]] in the outer solar system. The most popular feature by number of requests is the cache of 
+[[InterMesh]] profile data about nearby people.
 
 During the [[Value Crisis]] the original AI author was decommissioned. Articles are still frequently added and updated, 
 although the current author is unknown. One popular theory is that the Exobase is now maintained by a [[cognosym]] 

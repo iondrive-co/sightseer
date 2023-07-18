@@ -1,4 +1,5 @@
 import {ChangeEvent, MouseEvent, useEffect, useRef, useState} from "react";
+import {saveAs} from 'file-saver';
 import Sidebar from "../components/Sidebar";
 import '../styles/editor.css';
 
@@ -152,6 +153,46 @@ function ImageUploader() {
     }
   };
 
+  const handleSave = () => {
+    // Ensure that imageRef and selection are valid
+    if (
+        imageRef.current &&
+        imageRef.current.complete &&
+        isCropped
+    ) {
+      const currentImageDataUrl = images[currentImage];
+
+      // Split the base64 string in data and contentType
+      const block = currentImageDataUrl.split(";");
+      // Get the content type
+      const contentType = block[0].split(":")[1];
+      // Convert the base64 to byte array
+      const realData = block[1].split(",")[1];
+      const blob = b64toBlob(realData, contentType);
+
+      saveAs(blob, `cropped_image_${new Date().getTime()}.png`);
+    }
+  };
+
+  function b64toBlob(b64Data: string, contentType: string = '', sliceSize: number = 512): Blob {
+    const byteCharacters = atob(b64Data);
+    const byteArrays = [];
+
+    for (let offset = 0; offset < byteCharacters.length; offset += sliceSize) {
+      const slice = byteCharacters.slice(offset, offset + sliceSize);
+
+      const byteNumbers = new Array(slice.length);
+      for (let i = 0; i < slice.length; i++) {
+        byteNumbers[i] = slice.charCodeAt(i);
+      }
+
+      const byteArray = new Uint8Array(byteNumbers);
+      byteArrays.push(byteArray);
+    }
+
+    return new Blob(byteArrays, {type: contentType});
+  }
+
   useEffect(() => {
     // Add a listener to the document for the mouseup event
     const handleGlobalMouseUp = () => {
@@ -245,7 +286,7 @@ function ImageUploader() {
           <button onClick={handleCrop} disabled={selection.width <= 0 || selection.height <= 0}>
             Crop
           </button>
-          <button disabled={!isCropped}>
+          <button onClick={handleSave} disabled={!isCropped}>
             Save
           </button>
         </div>

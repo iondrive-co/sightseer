@@ -10,7 +10,6 @@ html, body {
     display: flex;
     height: 100vh;
     font-family: "system-ui, sans-serif", serif;
-    line-height: 1.8;
     overflow: hidden;
 }
 
