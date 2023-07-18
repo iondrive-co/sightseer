@@ -19,9 +19,11 @@ stuck in a mimetic feedback loop with itself.`],
 `The Exonet, commonly known as X.O.N. or The Zon, is the interplanetary system of interconnected [[InterMesh]] networks.
 
 Its main distinguishing features compared to short range network systems are:
+
 - A protocol stack layer dedicated to ultra high frequency phonon modulation compression and error correction
-- Better handling of high round trip times via bidirectional transfer with lack of protocol negotiation
+- Better handling of high round trip times via bidirectional transfer, lack of protocol negotiation, and long burst flow control
 - More resilient to route distribution and routing over a diverse topology including store and forward routers
 - CDN caching built into the application layer, allowing popular sites such as [[Exobase]] to be hosted locally
-- Lack of many peer to peer and distributed ledger functions present in the InterMesh`],
+- Lack of many peer to peer and distributed ledger functions present in the InterMesh
+- Built in support for large (Yottabyte+) size out-of-band one time pads to prevent quantum cracking of large data streams`],
 ]);

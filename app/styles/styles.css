@@ -35,6 +35,19 @@ html, body {
     }
 }
 
+@media (prefers-color-scheme: dark) {
+    .sidebar {
+        background-color: #000;
+    }
+    .sidebar a,
+    .sidebar a:link {
+        color: white;
+    }
+    .sidebar a:visited {
+        color: lightgray;
+    }
+}
+
 .container {
     flex-grow: 1;
     overflow-y: auto;

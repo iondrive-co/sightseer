@@ -41,3 +41,8 @@
     overflow-y: auto;
     height: 75vh;
 }
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
