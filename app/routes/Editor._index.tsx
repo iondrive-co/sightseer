@@ -107,13 +107,15 @@ function ImageUploader() {
     ) {
       // Create a canvas element
       const canvas = document.createElement("canvas");
-      canvas.width = selection.width;
-      canvas.height = selection.height;
+      const dpr = window.devicePixelRatio || 1;
+      canvas.width = selection.width * dpr;
+      canvas.height = selection.height * dpr;
       const ctx = canvas.getContext("2d");
       if (ctx == null) {
         console.error("Missing context for crop");
         return;
       }
+      ctx.scale(dpr, dpr);
 
       try {
         // Draw the selected portion of the image onto the canvas
