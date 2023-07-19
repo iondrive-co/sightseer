@@ -25,4 +25,18 @@ export const moviesData: Movie[] = [
         indifferent beauty of the moon to perfectly set up an atmosphere of claustrophobic isolation, 
         into which Sam Rockwell delivers a riveting performance through some tightly written plot beats`
     },
+    {
+        title: "Gravity",
+        thumbnail: "https://www.themoviedb.org/t/p/w1280/krQrQSNb0EXd5L0e2CkoU5V6XNq.jpg",
+        summary: `Watching this sci-fi thriller in IMAX was like being on a roller-coaster, it was a completely 
+        engrossing white knuckle ride with stunning SFX vistas and a simple compelling plot that was both 
+        compelling and gloriously executed by both main characters`
+    },
+    {
+        title: "Donnie Darko",
+        thumbnail: "https://www.themoviedb.org/t/p/w1280/3PiQIQzJX2oE8Uw6gjL08BXQRoB.jpg",
+        summary: `A weird teenage angst-y film that peels back an outer layer of superficial 80s suburbia to thoughtfully 
+        delve into quantum physics and time travel, and Gyllenhaal and the compelling screenplay manage to tie that 
+        together and turn what could easily have been a corny or stoner movie in beautiful and soulful piece of art`
+    },
 ];

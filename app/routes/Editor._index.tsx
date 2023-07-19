@@ -115,20 +115,19 @@ function ImageUploader() {
         console.error("Missing context for crop");
         return;
       }
-      ctx.scale(dpr, dpr);
 
       try {
         // Draw the selected portion of the image onto the canvas
         ctx.drawImage(
             imageRef.current,
-            selection.x,
-            selection.y,
-            selection.width,
-            selection.height,
+            selection.x * dpr,
+            selection.y * dpr,
+            selection.width * dpr,
+            selection.height * dpr,
             0,
             0,
-            selection.width,
-            selection.height
+            canvas.width,
+            canvas.height
         );
 
         // Extract the data URL of the canvas
