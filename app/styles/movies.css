@@ -5,9 +5,10 @@
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  grid-gap: 20px;
-  padding: 20px;
   flex-grow: 1;
+}
+
+.description-container {
   margin-left: 20px;
 }
 
@@ -44,12 +45,8 @@
   transition: transform .3s ease-in-out;
   display: flex;
   flex-direction: column;
-  /* remove the line below */
-  /* justify-content: center; */
   text-align: center;
-  overflow: auto; /* Allow scrolling if content overflows */
-  /* Add padding to position the text */
-  padding-top: 30%; /* adjust as needed */
+  overflow: auto;
 }
 
 .movie h2, .movie p {

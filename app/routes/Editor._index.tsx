@@ -306,6 +306,7 @@ function ImageUploader() {
                   onTouchStart={handleTouchStart}
                   onTouchMove={handleTouchMove}
                   onTouchEnd={handleTouchEnd}
+                  onContextMenu={e => e.preventDefault()}
                   style={{ userSelect: 'none', maxWidth: '100%', maxHeight: '100%' }}
               />
               {selection.width > 0 && selection.height > 0 && (

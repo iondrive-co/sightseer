@@ -26,21 +26,28 @@ export default function Movies() {
     return (
         <div className="app">
             <Sidebar />
-            <div className="container">
-                {sortedGroupKeys.map(groupKey => (
-                    <div key={groupKey}>
-                        <h1>{groupKey}</h1>
-                        {movieGroups[groupKey].map(movie => (
-                            <div key={movie.title} className="movie">
-                                <img src={movie.thumbnail} alt={movie.title} />
-                                <div className="content">
-                                    <h2>{movie.title}</h2>
-                                    <p>{movie.summary}</p>
+            <div className="main-container">
+                <div className="description-container">
+                    <p>
+                        Enjoyable sci-fi movies, mouse over each for a no-spoiler one line review.
+                    </p>
+                </div>
+                <div className="container">
+                    {sortedGroupKeys.map(groupKey => (
+                        <div key={groupKey}>
+                            <h1>{groupKey}</h1>
+                            {movieGroups[groupKey].map(movie => (
+                                <div key={movie.title} className="movie">
+                                    <img src={movie.thumbnail} alt={movie.title} />
+                                    <div className="content">
+                                        <h2>{movie.title}</h2>
+                                        <p>{movie.summary}</p>
+                                    </div>
                                 </div>
-                            </div>
-                        ))}
-                    </div>
-                ))}
+                            ))}
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     );

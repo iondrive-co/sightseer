@@ -15,22 +15,8 @@ export const moviesData: Movie[] = [
     {
         title: "Animatrix, The",
         thumbnail: "https://static.wikia.nocookie.net/toonami/images/8/82/Animatrix.jpg",
-        summary: `Directed by some of the most respected names in animation, The Animatrix is an 
-        atmospheric and engrossing series of philosophically charged short films`
-    },
-    {
-        title: "Moon",
-        thumbnail: "https://upload.wikimedia.org/wikipedia/en/a/af/Moon_%282009_film%29.jpg",
-        summary: `This minimalistic gem uses a haunting score and few slick effect shots of the 
-        indifferent beauty of the moon to perfectly set up an atmosphere of claustrophobic isolation, 
-        into which Sam Rockwell delivers a riveting performance through some tightly written plot beats`
-    },
-    {
-        title: "Gravity",
-        thumbnail: "https://www.themoviedb.org/t/p/w1280/krQrQSNb0EXd5L0e2CkoU5V6XNq.jpg",
-        summary: `Watching this sci-fi thriller in IMAX was like being on a roller-coaster, it was a completely 
-        engrossing white knuckle ride with stunning SFX vistas and a simple compelling plot that was both 
-        compelling and gloriously executed by both main characters`
+        summary: `Directed by some notable animators, The Animatrix was a slick way to add flavour to the Matrix 
+        universe via an atmospheric series of short films, which ended up being more enjoyable than the subsequent movies`
     },
     {
         title: "Donnie Darko",
@@ -38,5 +24,25 @@ export const moviesData: Movie[] = [
         summary: `A weird teenage angst-y film that peels back an outer layer of superficial 80s suburbia to thoughtfully 
         delve into quantum physics and time travel, and Gyllenhaal and the compelling screenplay manage to tie that 
         together and turn what could easily have been a corny or stoner movie in beautiful and soulful piece of art`
+    },
+    {
+        title: "Gravity",
+        thumbnail: "https://www.themoviedb.org/t/p/w1280/krQrQSNb0EXd5L0e2CkoU5V6XNq.jpg",
+        summary: `Watching this sci-fi thriller in IMAX was a wild, this movie is a completely engrossing white knuckle 
+        ride with stunning SFX vistas and a simple compelling plot that is exceptionally well executed by both main 
+        characters`
+    },
+    {
+        title: "Martian, The",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/c/cd/The_Martian_film_poster.jpg",
+        summary: `Andy Weir's upbeat, funny protagonist of science Mark Watney is a perfect fit for Matt Damon, and
+         coupled with Ridley Scott's eye for the stunning visuals this is a glorious and very enjoyable movie`
+    },
+    {
+        title: "Moon",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/a/af/Moon_%282009_film%29.jpg",
+        summary: `This minimalistic gem uses a haunting score and few slick effect shots of the 
+        indifferent beauty of the moon to perfectly set up an atmosphere of claustrophobic isolation, 
+        into which Sam Rockwell delivers a riveting performance through some tightly written plot beats`
     },
 ];
