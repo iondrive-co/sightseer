@@ -1,7 +1,7 @@
 export const pageData = new Map<string, string>([
     ['Exobase',
 `The Exobase is an [[Exonet]] hosted encyclopedic compendium, consisting of a small number of articles on notable 
-locations, people, events, and technology. It is notable for having concise articles that gracefully degrade to 
+locations, people, events, and technology. It is known for having concise articles that gracefully degrade to 
 holographic AR and even to text, and is often used at extremely high latency endpoints where [[QuanLan]] is unavailable 
 or prohibitively expensive. It is also notable for not being community edited, and for its popularity despite its lack 
 of citations[1] and having numerous factual inaccuracies which often remain uncorrected for extended periods of time.

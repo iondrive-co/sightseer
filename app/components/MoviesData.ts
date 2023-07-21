@@ -8,9 +8,8 @@ export const moviesData: Movie[] = [
     {
         title: "Alien",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/c/c3/Alien_movie_poster.jpg",
-        summary: `Ridley Scott's masterclass in slow-burning, atmospheric filmmaking cements its place 
-        in cinema history with its groundbreaking visual effects and an almost perfectly cast crew capped
-        off by Sigourney Weaver's formidable performance as Ellen Ripley`
+        summary: `Ridley Scott's slow-burning, atmospheric filmmaking melds a first-rate screenplay, Giger's art, and
+        Sigourney Weaver's formidable performance into a masterpiece of sci-fi cinema`
     },
     {
         title: "Animatrix, The",
