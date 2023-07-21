@@ -105,11 +105,14 @@ function ImageUploader() {
         selection.width > 0 &&
         selection.height > 0
     ) {
+      // Calculate scale factors
+      const scaleX = imageRef.current.naturalWidth / imageRef.current.width;
+      const scaleY = imageRef.current.naturalHeight / imageRef.current.height;
+
       // Create a canvas element
       const canvas = document.createElement("canvas");
-      const dpr = window.devicePixelRatio || 1;
-      canvas.width = selection.width * dpr;
-      canvas.height = selection.height * dpr;
+      canvas.width = selection.width * scaleX;
+      canvas.height = selection.height * scaleY;
       const ctx = canvas.getContext("2d");
       if (ctx == null) {
         console.error("Missing context for crop");
@@ -120,14 +123,14 @@ function ImageUploader() {
         // Draw the selected portion of the image onto the canvas
         ctx.drawImage(
             imageRef.current,
-            selection.x * dpr,
-            selection.y * dpr,
-            selection.width * dpr,
-            selection.height * dpr,
+            selection.x * scaleX,
+            selection.y * scaleY,
+            selection.width * scaleX,
+            selection.height * scaleY,
             0,
             0,
-            canvas.width,
-            canvas.height
+            selection.width * scaleX,
+            selection.height * scaleY
         );
 
         // Extract the data URL of the canvas
