@@ -20,14 +20,13 @@ export const moviesData: Movie[] = [
     {
         title: "Donnie Darko",
         thumbnail: "https://www.themoviedb.org/t/p/w1280/3PiQIQzJX2oE8Uw6gjL08BXQRoB.jpg",
-        summary: `A weird teenage angst-y film that peels back an outer layer of superficial 80s suburbia to thoughtfully 
-        delve into quantum physics and time travel, and Gyllenhaal and the compelling screenplay manage to tie that 
-        together and turn what could easily have been a corny or stoner movie in beautiful and soulful piece of art`
+        summary: `A weird, soulful film that peels back an outer layer of teenage angst and superficial 80s suburbia to 
+        delve into mental illness, quantum physics and time travel, and tie them together into a beautiful piece of art`
     },
     {
         title: "Gravity",
         thumbnail: "https://www.themoviedb.org/t/p/w1280/krQrQSNb0EXd5L0e2CkoU5V6XNq.jpg",
-        summary: `Watching this sci-fi thriller in IMAX was a wild, this movie is a completely engrossing white knuckle 
+        summary: `Watching this sci-fi thriller in IMAX was wild, this movie is a completely engrossing white knuckle 
         ride with stunning SFX vistas and a simple compelling plot that is exceptionally well executed by both main 
         characters`
     },
