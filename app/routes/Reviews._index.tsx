@@ -1,15 +1,15 @@
 import {json, LoaderFunction} from "@remix-run/cloudflare";
 import {useLoaderData} from "@remix-run/react";
-import {Movie, moviesData} from "~/components/MoviesData";
+import {Movie, sciFiMoviesData} from "~/components/ReviewsData";
 import Sidebar from "~/components/Sidebar";
 import '~/styles/styles.css';
-import '~/styles/movies.css';
+import '~/styles/reviews.css';
 
 export let loader: LoaderFunction = async () => {
-  return json(moviesData);
+  return json(sciFiMoviesData);
 };
 
-export default function Movies() {
+export default function Reviews() {
     let movies: Movie[] = useLoaderData();
 
     let movieGroups = movies.reduce((groups, movie) => {

@@ -1,0 +1,23 @@
+.email {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    align-self: center;
+}
+
+.index-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 1rem 1rem 1rem 0; /* top right bottom left */
+    text-align: left;
+    gap: 20px;
+}
+
+.descriptions {
+    margin-bottom: -2rem;
+}

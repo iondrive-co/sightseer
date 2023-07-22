@@ -4,7 +4,7 @@ export interface Movie {
     summary: string;
 }
 
-export const moviesData: Movie[] = [
+export const sciFiMoviesData: Movie[] = [
     {
         title: "Alien",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/c/c3/Alien_movie_poster.jpg",
