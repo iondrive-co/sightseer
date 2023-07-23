@@ -43,4 +43,11 @@ export const sciFiMoviesData: Movie[] = [
         indifferent beauty of the moon to perfectly set up an atmosphere of claustrophobic isolation, 
         into which Sam Rockwell delivers a riveting performance through some tightly written plot beats`
     },
+    {
+        title: "Solaris (2002)",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/b/bf/Solaris2002poster.jpg",
+        summary: `Soderbergh's adaptation is more approachable and less cerebral than Tarkovsky's due to his focus
+        on the character relationships rather than the larger metaphysical concerns of the novel, and this angle 
+        ultimately yields an enjoyable and well told tale`
+    },
 ];

@@ -7,7 +7,7 @@ export default function Sidebar() {
   return (
     <div className="sidebar">
         <Link to="/">
-            <img src="/turtle.png" alt="Home" />
+            <img src="/favicon.ico" alt="Home" />
         </Link>
       <Link to="/Editor" className="text-xl underline cursor-pointer">
         Editor
