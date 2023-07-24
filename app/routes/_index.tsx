@@ -16,7 +16,7 @@ export default function Index() {
         <div className="index-content">
             <p className="email">c@iondrive.co</p>
             <div className="descriptions">
-                <p>&lt;--Edit images in your browser without them leaving your computer</p>
+                <p>&lt;--Edit images in your browser without them leaving your device</p>
                 <p>&lt;--Intelligence Dampening Sphere</p>
                 <p>&lt;--Very short movie and game reviews</p>
             </div>

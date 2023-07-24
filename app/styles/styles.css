@@ -6,6 +6,14 @@ html, body {
     overflow: hidden;
 }
 
+.container {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 1rem 20px;
+    text-align: left;
+    gap: 20px;
+}
+
 .app {
     display: flex;
     height: 100vh;
@@ -35,14 +43,13 @@ html, body {
     bottom: 20px;
 }
 
-.sidebar a,
-.descriptions p {
-    height: 50px;
-}
-
 @media (max-width: 600px) {
     .sidebar {
         flex: 0 0 50px;
+    }
+    .sidebar a,
+    .descriptions p {
+        height: 4rem;
     }
 }
 
@@ -57,12 +64,4 @@ html, body {
     .sidebar a:visited {
         color: lightgray;
     }
-}
-
-.container {
-    flex-grow: 1;
-    overflow-y: auto;
-    padding: 1rem 20px;
-    text-align: left;
-    gap: 20px;
 }
