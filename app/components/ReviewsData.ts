@@ -50,4 +50,13 @@ export const sciFiMoviesData: Movie[] = [
         on the character relationships rather than the larger metaphysical concerns of the novel, and this angle 
         ultimately yields an enjoyable and well told tale`
     },
+    {
+        title: "War Of The Worlds (2005)",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/8/83/War_of_the_Worlds_2005_poster.jpg",
+        summary: `There is something very cathartic about the deadbeat dad redemption and post 9-11 trauma themes
+        worked throughout, and along with the effective build up of tension and amazing special effects, that makes 
+        this an extremely enjoyable movie`
+    },
+
+
 ];
