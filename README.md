@@ -1,6 +1,7 @@
 # Sightseer
 
-Code for my [website](https://iondrive.co)
+Code for the [website](https://iondrive.co). 
+Uses the remix framework and is deployed to cloudflare pages.
 
 * /editor is a client side image editor that currently supports cropping images
 * /exobase is a simple text concept linker use to make a wiki

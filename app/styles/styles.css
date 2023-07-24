@@ -54,8 +54,11 @@ html, body {
 }
 
 @media (prefers-color-scheme: dark) {
+    .app {
+        background-color: lightgray;
+    }
     .sidebar {
-        background-color: #000;
+        background-color: darkgray;
     }
     .sidebar a,
     .sidebar a:link {
