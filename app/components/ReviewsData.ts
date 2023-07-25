@@ -31,6 +31,12 @@ export const sciFiMoviesData: Movie[] = [
         characters`
     },
     {
+        title: "Jurassic Park",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/e/e7/Jurassic_Park_poster.jpg",
+        summary: `Michael Crichton’s page turner was the perfect Spielberg blockbuster, best watched as a small child
+        but really timeless action packed sci-fi for all ages, with a few darker warnings remaining from the novel`
+    },
+    {
         title: "Martian, The",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/c/cd/The_Martian_film_poster.jpg",
         summary: `Andy Weir's upbeat, funny protagonist of science Mark Watney is a perfect fit for Matt Damon, and
@@ -57,6 +63,4 @@ export const sciFiMoviesData: Movie[] = [
         worked throughout, and along with the effective build up of tension and amazing special effects, that makes 
         this an extremely enjoyable movie`
     },
-
-
 ];

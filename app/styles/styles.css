@@ -57,6 +57,9 @@ html, body {
     .app {
         background-color: lightgray;
     }
+    .article-container {
+        background-color: lightgray;
+    }
     .sidebar {
         background-color: darkgray;
     }
