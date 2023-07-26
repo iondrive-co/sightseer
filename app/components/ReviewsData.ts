@@ -12,6 +12,12 @@ export const sciFiMoviesData: Movie[] = [
         Sigourney Weaver's formidable performance into a masterpiece of sci-fi cinema`
     },
     {
+        title: "Aliens",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/f/fb/Aliens_poster.jpg",
+        summary: `A textbook sequel which takes the essence of the first and pivots to a larger action movie while 
+        keeping the atmosphere, suspense, and strong lead of the original`
+    },
+    {
         title: "Animatrix, The",
         thumbnail: "https://static.wikia.nocookie.net/toonami/images/8/82/Animatrix.jpg",
         summary: `Directed by some notable animators, The Animatrix was a slick way to add flavour to the Matrix 
@@ -29,6 +35,12 @@ export const sciFiMoviesData: Movie[] = [
         summary: `Watching this sci-fi thriller in IMAX was wild, this movie is a completely engrossing white knuckle 
         ride with stunning SFX vistas and a simple compelling plot that is exceptionally well executed by both main 
         characters`
+    },
+    {
+        title: "Inception",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg",
+        summary: `A cultural phenomenon that overcomes its absurdity and weak characters with blockbuster effects
+        and a few intriguing plot hooks, much like the Matrix 11 years earlier`
     },
     {
         title: "Jurassic Park",
