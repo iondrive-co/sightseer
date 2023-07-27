@@ -1,5 +1,6 @@
-export const pageData = new Map<string, string>([
-    ['Exobase',
+export const pageData = new Map<string, {content: string, classification: string}>([
+    ['Exobase', {
+        content:
 `The Exobase is an [[Exonet]] hosted encyclopedic compendium, consisting of a small number of articles on notable 
 locations, people, events, and technology. It is known for having concise articles that gracefully degrade to 
 holographic AR and even to text, and is often used at extremely high latency endpoints where [[QuanLan]] is unavailable 
@@ -15,8 +16,11 @@ communities such as the [[Retrograde Diaspora]] and over time has become one of 
 
 During the [[Value Crisis]] the original AI author was decommissioned. Articles are still frequently added and updated, 
 although the current author is unknown. One popular theory is that the Exobase is now maintained by a [[cognosym]] 
-stuck in a mimetic feedback loop with itself.`],
-    ['Exonet',
+stuck in a mimetic feedback loop with itself.`,
+        classification: 'Society'
+    }],
+    ['Exonet',{
+        content:
 `The Exonet, commonly known as X.O.N. or The Zon, is the interplanetary system of interconnected [[InterMesh]] networks.
 
 Its main distinguishing features compared to short range network systems are:
@@ -26,5 +30,7 @@ Its main distinguishing features compared to short range network systems are:
 - More resilient to route distribution and routing over a diverse topology including store and forward routers
 - CDN caching built into the application layer, allowing popular sites such as [[Exobase]] to be hosted locally
 - Lack of many peer to peer and distributed ledger functions present in the InterMesh
-- Built in support for large (Yottabyte+) size out-of-band one time pads to prevent quantum cracking of large data streams`],
+- Built in support for large (Yottabyte+) size out-of-band one time pads to prevent quantum cracking of large data streams`,
+        classification: 'Technology'
+    }],
 ]);

@@ -55,6 +55,13 @@ export const sciFiMoviesData: Movie[] = [
          coupled with Ridley Scott's eye for the stunning visuals this is a glorious and very enjoyable movie`
     },
     {
+        title: "Monsters",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/3/35/MonstersUK.jpg",
+        summary: `Jon Hopkins delicate, beautiful score is the perfect accompaniment to this sci-fi romance, and along 
+        with the top notch cinematography it brings to life the wonder of the strange alien life in the film's 
+        believable devastated landscape, despite the shoestring budget this was shot on`
+    },
+    {
         title: "Moon",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/a/af/Moon_%282009_film%29.jpg",
         summary: `This minimalistic gem uses a haunting score and few slick effect shots of the 

@@ -15,13 +15,14 @@ function TitleAndBreadcrumbs() {
 
 function ExobaseArticle() {
     const location = useLocation();
-    const { content } = useLoaderData();
+    const { content, classification } = useLoaderData();
 
     return (
         <div key={location.key} className="article-container">
             <Sidebar />
             <div className="article">
                 <TitleAndBreadcrumbs />
+                <div>Classification: {classification}</div>
                 <article className="article-text">
                     <div dangerouslySetInnerHTML={{ __html: content }} />
                 </article>

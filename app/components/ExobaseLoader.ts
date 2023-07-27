@@ -4,11 +4,12 @@ import {pageData} from '~/components/ExobaseData';
 export const exobaseLoader: LoaderFunction = async ({ params }) => {
     try {
         const slug = params.slug ?? 'exobase';
-        const content = pageData.get(slug);
-
-        if (!content) {
+        const page = pageData.get(slug);
+        if (!page) {
             throw new Error('Page not found');
         }
+        const content = page.content;
+        const classification = page.classification;
 
         const lines = content.split(/\n|\r\n/);
         const processedLines = lines.map(line => {
@@ -30,7 +31,7 @@ export const exobaseLoader: LoaderFunction = async ({ params }) => {
 
         const finalHtml = `<ul>${finalContent}</ul>`;
 
-        return json({ content: finalHtml });
+        return json({ content: finalHtml, classification });
     } catch (error) {
         return json({ error: (error as any).message }, { status: 404 });
     }
