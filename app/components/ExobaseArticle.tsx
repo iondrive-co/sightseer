@@ -22,10 +22,10 @@ function ExobaseArticle() {
             <Sidebar />
             <div className="article">
                 <TitleAndBreadcrumbs />
-                <div>Classification: {classification}</div>
                 <article className="article-text">
                     <div dangerouslySetInnerHTML={{ __html: content }} />
                 </article>
+                <div>Classification: <a href={`/exobase/Category-${classification}`}>{classification}</a></div>
             </div>
         </div>
     );

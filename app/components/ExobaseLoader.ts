@@ -1,12 +1,22 @@
 import {json, LoaderFunction} from "@remix-run/cloudflare";
 import {pageData} from '~/components/ExobaseData';
 
+type ArticleData = [string, {content: string, classification: string}];
+
 export const exobaseLoader: LoaderFunction = async ({ params }) => {
     try {
         const slug = params.slug ?? 'exobase';
+        const isClassification = slug.startsWith('Category-');
+        if (isClassification) {
+            const classification = slug.replace('Category-', '');
+            const articles: ArticleData[] = Array.from(pageData).filter(([, data]) => data.classification === classification);
+            return json({ isClassification, articles });
+        }
         const page = pageData.get(slug);
+        // If the slug does not correspond to a page, treat it as a classification
         if (!page) {
-            throw new Error('Page not found');
+            const classificationArticles: ArticleData[] = Array.from(pageData).filter(([, data]) => data.classification === slug);
+            return json({ isClassification: true, articles: classificationArticles });
         }
         const content = page.content;
         const classification = page.classification;
