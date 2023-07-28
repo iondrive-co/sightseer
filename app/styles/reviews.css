@@ -11,7 +11,7 @@
 
 .container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 }
 
 .container h1:first-of-type {
@@ -29,6 +29,8 @@
   position: relative;
   transition: all .3s ease-in-out;
   cursor: pointer;
+  width: 100px;  /* specify the width */
+  height: 150px; /* specify the height */
 }
 
 .movie:hover {
@@ -37,9 +39,10 @@
 }
 
 .movie img {
-  width: 100%;
-  height: auto;
+  width: 100px;
+  height: 150px;
   display: block;
+  object-fit: cover; /* To maintain aspect ratio, even if the width and height are not proportional */
   transition: all .3s ease-in-out;
 }
 
