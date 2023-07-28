@@ -47,14 +47,13 @@
 }
 
 .movie .content {
-  font-size: 0.9em;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   background: rgba(0,0,0,0.75);
   color: white;
   transform: translateY(100%);
@@ -65,7 +64,13 @@
   overflow: auto;
 }
 
-.movie h2, .movie p {
+.movie h2 {
+  font-size: 0.7rem;
+  margin: 0 0 10px;
+}
+
+.movie p {
+  font-size: 0.6rem;
   margin: 0 0 10px;
 }
 
