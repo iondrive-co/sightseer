@@ -8,7 +8,7 @@ function TitleAndBreadcrumbs() {
     const currentPage = location.pathname.split('/').pop() || 'exobase';
     return (
         <div className="title">
-            <h1>{currentPage}</h1>
+            <h1>{currentPage.replace(/_/g, ' ')}</h1>
         </div>
     )
 }
@@ -25,7 +25,7 @@ function ExobaseArticle() {
                 <article className="article-text">
                     <div dangerouslySetInnerHTML={{ __html: content }} />
                 </article>
-                <div>Classification: <a href={`/exobase/Category-${classification}`}>{classification}</a></div>
+                <div>Classification: <a href={`/exobase/Category-${classification.replace(/ /g, '_')}`}>{classification}</a></div>
             </div>
         </div>
     );

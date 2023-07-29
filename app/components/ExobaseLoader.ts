@@ -5,7 +5,7 @@ type ArticleData = [string, {content: string, classification: string}];
 
 export const exobaseLoader: LoaderFunction = async ({ params }) => {
     try {
-        const slug = params.slug ?? 'exobase';
+        const slug = (params.slug ?? 'exobase').replace(/_/g, ' ');
         const isClassification = slug.startsWith('Category-');
         if (isClassification) {
             const classification = slug.replace('Category-', '');
@@ -36,7 +36,7 @@ export const exobaseLoader: LoaderFunction = async ({ params }) => {
         });
         const processedContent = processedLines.join(' ');
         const finalContent = processedContent.replace(/\[\[(.*?)\]\]/g, function (match, p1) {
-            return `<a href="/exobase/${p1}">${p1}</a>`;
+            return `<a href="/exobase/${p1.replace(/ /g, '_')}">${p1}</a>`;
         });
 
         const finalHtml = `<ul>${finalContent}</ul>`;

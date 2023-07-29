@@ -7,17 +7,16 @@ holographic AR and even to text, and is often used at extremely high latency end
 or prohibitively expensive. It is also notable for not being community edited, and for its popularity despite its lack 
 of citations[1] and having numerous factual inaccuracies which often remain uncorrected for extended periods of time.
 
-In 2052 the first version of Exobase was conceived as a subset of the larger Exopedia project by a third generation 
-generative AI which had been tasked with finding ways to distribute simple summaries of notable facts to the numerous 
-migrants in the [[Ceres Wave]]. It was never widely used by its intended audience, but later became popular in certain 
-communities such as the [[Retrograde Diaspora]] and over time has become one of the most widely consulted resources by 
-[[infocom agent]]s in the outer solar system. The most popular feature by number of requests is the cache of 
-[[InterMesh]] profile data about nearby people.
+In 2052 the first version of Exobase was conceived as a subset of the larger Exopedia project by an early 
+[[Sentient Synth]] (then called third generation generative AIs) which had been tasked with finding ways to distribute 
+simple summaries of notable facts to the numerous migrants in the [[Ceres Wave]]. It was never widely used by its 
+intended audience, but later became popular in certain communities such as the [[Retrograde Diaspora]] and over time 
+has become one of the most widely consulted resources by [[Infocom Agent]]s in the outer solar system. The most popular 
+feature by number of requests is the cache of [[InterMesh]] profile data about nearby people.
 
-During the [[Value Crisis]] the original AI author was decommissioned. Articles are still frequently added and updated, 
-although the current author is unknown. One popular theory is that the Exobase is now maintained by a [[cognosym]] 
-stuck in a mimetic feedback loop with itself.
-`,
+During the [[Value Crisis]] the original synth author was decommissioned. Articles are still frequently added and 
+updated, although the current author is unknown. One popular theory is that the Exobase is now maintained by a 
+[[cognosym]] stuck in a mimetic feedback loop with itself.`,
         classification: 'Society'
     }],
     ['Exonet',{
@@ -36,9 +35,19 @@ Its main distinguishing features compared to short range network systems are:
 The communications infrastructure of the Exonet consists of routers, data links such as [[Autonomous Data Relay Satellite]]s, 
 repeaters, and connection endpoints. By data volume the largest users of these endpoints are various InterMesh Service 
 Providers (ISPs) which use them to peer with InterMesh networks in other locations, however they are also used directly
-in off-planet locations such as ships and stations that have ad-hoc InterMesh with no ISP presence.
-`,
+in off-planet locations such as ships and stations that have ad-hoc InterMesh with no ISP presence.`,
         classification: 'Technology'
+    }],
+    ['Infocom Agent', {
+        content:
+`An Infocom Agent, also known as a Personal Infocom Agent (PIA), is a [[Sentient Synth]] that specialises in personal
+support services such as data security, filtering, health, and predictive actuation. Most PIAs available for sale are 
+offered by one of the big three [[infomatic corporation]]s, although some smaller manufacturing and pharmaceutical 
+conglomerates offer more specialised PIAs. Earlier PIA encryption was vulnerable to various quantum side channel attacks 
+which allowed the synth to be decompiled and customised, but the introduction of ephemeral quantum resistant algorithms
+has now greatly increased the complexity of doing so. In addition, it has become harder to avoid detection on
+the [[InterMesh]] even with cloaked tunnel and steganographic chameleon hashing techniques.`,
+        classification: 'Society'
     }],
     ['InterMesh',{
         content:
@@ -56,11 +65,10 @@ are common in most IM networks.
 
 The InterMesh is the default network for the super-majority of communicating devices, and is the default communication
 medium for most of humanity. One of its most popular functions is social networking, mostly via neural augmentations,
-allowing users to share their thoughts, emotions, and experiences directly. Most users have their [[infocom agent]] 
+allowing users to share their thoughts, emotions, and experiences directly. Most users have their [[Infocom Agent]] 
 set up a DataVeil to control access to their data on these networks. Another widely used feature is health monitoring,
 allowing [[internal nanoswarm]]s to sync the latest treatment protocols, although many users disable this due to
-security and privacy concerns.
-`,
+security and privacy concerns.`,
         classification: 'Technology'
     }],
     ['QuanLan',{
@@ -71,18 +79,16 @@ measure them via Bell measurement, destroying the entanglement. Due to the cost 
 Qubits QuanLan remains an expensive and rarely used communication medium except where instantaneous or secure 
 communication is highly valuable.
 
-Each QuanLan device is assigned a QID that represents its remote entangled particle(s) in the network. QuanLan uses 
-Quantum Routing Tables (QRT) to maintain a record of these QIDs and their corresponding Quantum Entanglement States 
-(QESs) when communicating with multiple devices. To manage the finite resource of entangled particles, a Quantum Link 
-Management Protocol (QLMP) is used. Due to the mostly point to point nature of most QuanLan communications, the
-more advanced routing protocols used in [[InterMesh]] networks and the [[Exonet]] are not used.
+Due to the mostly point to point nature of most QuanLan communications, the more advanced routing protocols used in 
+[[InterMesh]] networks and the [[Exonet]] are replaced by a variant of Multiprotocol Label Switching. Each QuanLan 
+device is assigned an id that represents its remote entangled particle(s), a routing table maintains a record of 
+these ids to allow communication with multiple devices, and a link management protocol ensures their efficient use.
  
 The instantaneous communication provided by QuanLan has effectively eliminated high frequency trading, and has resulted
-in several new doctrines in maneuver warfare. The no-cloning theorem in quantum mechanics makes eavesdropping or data 
-interception virtually impossible, which has uses in defense, diplomacy, and banking. Finally, due to superposition 
-vastly increasing the bandwidth of a QuanLan compared to binary connection, some large data analytic tasks generally 
-require QuanLan connections.
-`,
+in several new doctrines in maneuver warfare. As the no-cloning theorem in quantum mechanics makes eavesdropping or data 
+interception virtually impossible, there are many uses for QuanLan in defense, diplomacy, and banking. And as quantum 
+superposition vastly increases the bandwidth of a QuanLan compared to binary connection, some large distributed data 
+analytic tasks require QuanLan connections.`,
         classification: 'Technology'
     }],
 ]);
