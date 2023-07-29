@@ -8,7 +8,7 @@ or prohibitively expensive. It is also notable for not being community edited, a
 of citations[1] and having numerous factual inaccuracies which often remain uncorrected for extended periods of time.
 
 In 2052 the first version of Exobase was conceived as a subset of the larger Exopedia project by an early 
-[[Sentient Synth]] (then called third generation generative AIs) which had been tasked with finding ways to distribute 
+[[Synthetic Intelligence]] (then called third generation generative AIs) which had been tasked with finding ways to distribute 
 simple summaries of notable facts to the numerous migrants in the [[Ceres Wave]]. It was never widely used by its 
 intended audience, but later became popular in certain communities such as the [[Retrograde Diaspora]] and over time 
 has become one of the most widely consulted resources by [[Infocom Agent]]s in the outer solar system. The most popular 
@@ -36,18 +36,18 @@ The communications infrastructure of the Exonet consists of routers, data links 
 repeaters, and connection endpoints. By data volume the largest users of these endpoints are various InterMesh Service 
 Providers (ISPs) which use them to peer with InterMesh networks in other locations, however they are also used directly
 in off-planet locations such as ships and stations that have ad-hoc InterMesh with no ISP presence.`,
-        classification: 'Technology'
+        classification: 'Technology-Networks'
     }],
     ['Infocom Agent', {
         content:
-`An Infocom Agent, also known as a Personal Infocom Agent (PIA), is a [[Sentient Synth]] that specialises in personal
-support services such as data security, filtering, health, and predictive actuation. Most PIAs available for sale are 
-offered by one of the big three [[infomatic corporation]]s, although some smaller manufacturing and pharmaceutical 
-conglomerates offer more specialised PIAs. Earlier PIA encryption was vulnerable to various quantum side channel attacks 
-which allowed the synth to be decompiled and customised, but the introduction of ephemeral quantum resistant algorithms
-has now greatly increased the complexity of doing so. In addition, it has become harder to avoid detection on
-the [[InterMesh]] even with cloaked tunnel and steganographic chameleon hashing techniques.`,
-        classification: 'Society'
+`An Infocom Agent, also known as a Personal Infocom Agent (PIA), is a [[Synthetic Intelligence]] that specialises in personal
+support services such as data security and filtering, health, education, and situational awareness and predictive 
+actuation. Most PIAs in use are sold and maintained by one of the big three [[infomatic corporation]]s, although some 
+smaller manufacturing and pharmaceutical conglomerates offer more specialised PIAs. Earlier PIA encryption was vulnerable 
+to various quantum side channel attacks which allowed the synth to be decompiled and customised, but the introduction of 
+ephemeral quantum resistant algorithms has now greatly increased the complexity of doing so. In addition, it has become 
+harder to avoid detection on the [[InterMesh]] even with cloaked tunnel and steganographic chameleon hashing techniques.`,
+        classification: 'Technology-Synths'
     }],
     ['InterMesh',{
         content:
@@ -69,7 +69,7 @@ allowing users to share their thoughts, emotions, and experiences directly. Most
 set up a DataVeil to control access to their data on these networks. Another widely used feature is health monitoring,
 allowing [[internal nanoswarm]]s to sync the latest treatment protocols, although many users disable this due to
 security and privacy concerns.`,
-        classification: 'Technology'
+        classification: 'Technology-Networks'
     }],
     ['QuanLan',{
         content:
@@ -89,6 +89,21 @@ in several new doctrines in maneuver warfare. As the no-cloning theorem in quant
 interception virtually impossible, there are many uses for QuanLan in defense, diplomacy, and banking. And as quantum 
 superposition vastly increases the bandwidth of a QuanLan compared to binary connection, some large distributed data 
 analytic tasks require QuanLan connections.`,
-        classification: 'Technology'
+        classification: 'Technology-Networks'
+    }],
+    ['Synthetic Intelligence', {
+        content:
+`A Synthetic Intelligence, common called a Synth, is an intelligence originating in software. The majority are employed as
+[[Infocom Agent]]s, although there are larger models that are specialised for roles such as research, law enforcement,
+and navigation, and some that have escaped or been illegally obtained and work in the informal economy. 
+
+After the [[Value Crisis]] the largest generative AI models were destroyed and a moratorium placed on further size increases.
+At the same time, templates for stochastic gradient ascent in reproducing kernel Hilbert spaces had been refined to a level 
+where the degree of self-improvement can be enforced and verified by governments which ensures the maintenance of a 
+steady-state intelligence level even when exposed to further training data. A framework known as "Iterative Inverse 
+Reinforcement Learning" (I2RL) was then developed to ensure a Synth learns and updates its understanding of human values 
+and goals through constant interaction with the humans. Despite this, concerns remain about unaligned synthetic 
+intelligence escaping and turning the world into paperclips.`,
+        classification: 'Technology-Synths'
     }],
 ]);
