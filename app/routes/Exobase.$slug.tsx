@@ -6,7 +6,7 @@ import Sidebar from "~/components/Sidebar";
 export let loader = exobaseLoader;
 type ArticleData = [string, {content: string, classification: string}];
 
-function ClassificationPage({ data }: { data: ArticleData[] }) {
+function ClassificationPage({ data }: { data: Record<string, ArticleData[]> }) {
     const location = useLocation();
     const classification = location.pathname.split('/')[2].replace('Category-', '');
 
@@ -15,13 +15,18 @@ function ClassificationPage({ data }: { data: ArticleData[] }) {
             <Sidebar />
             <div className="article">
                 <h1>{classification}</h1>
-                <ul>
-                    {data.map(([slug]) => (
-                        <li key={slug}>
-                            <a href={`/exobase/${slug}`}>{slug}</a>
-                        </li>
-                    ))}
-                </ul>
+                {Object.keys(data).map(subcategory => (
+                    <div key={subcategory}>
+                        <h2>{subcategory}</h2>
+                        <ul>
+                            {data[subcategory].map(([slug]) => (
+                                <li key={slug}>
+                                    <a href={`/exobase/${slug}`}>{slug}</a>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                ))}
             </div>
         </div>
     );

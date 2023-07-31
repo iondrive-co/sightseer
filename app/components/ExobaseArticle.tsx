@@ -5,7 +5,7 @@ import '~/styles/exobase.css';
 
 function TitleAndBreadcrumbs() {
     const location = useLocation();
-    const currentPage = location.pathname.split('/').pop() || 'exobase';
+    const currentPage = decodeURIComponent(location.pathname.split('/').pop() || 'exobase');
     return (
         <div className="title">
             <h1>{currentPage.replace(/_/g, ' ')}</h1>
@@ -25,7 +25,7 @@ function ExobaseArticle() {
                 <article className="article-text">
                     <div dangerouslySetInnerHTML={{ __html: content }} />
                 </article>
-                <div>Classification: <a href={`/exobase/Category-${classification.replace(/ /g, '_')}`}>{classification}</a></div>
+                <div>Classification: <a href={`/exobase/Category-${classification.split('/')[0].replace(/ /g, '_')}`}>{classification}</a></div>
             </div>
         </div>
     );

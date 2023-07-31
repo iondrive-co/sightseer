@@ -1,4 +1,5 @@
-export const pageData = new Map<string, {content: string, classification: string}>([
+export type Classification = string | string[];
+export const pageData = new Map<string, {content: string, classification: Classification}>([
     ['Exobase', {
         content:
 `The Exobase is an [[Exonet]] hosted encyclopedic compendium, consisting of a small number of articles on notable 
@@ -14,7 +15,7 @@ intended audience, but later became popular in certain communities such as the [
 has become one of the most widely consulted resources by [[Infocom Agent]]s in the outer solar system. The most popular 
 feature by number of requests is the cache of [[InterMesh]] profile data about nearby people.
 
-During the [[Value Crisis]] the original synth author was decommissioned. Articles are still frequently added and 
+During the [[Haidian Takeoff Crisis]] the original synth author was decommissioned. Articles are still frequently added and 
 updated, although the current author is unknown. One popular theory is that the Exobase is now maintained by a 
 [[cognosym]] stuck in a mimetic feedback loop with itself.`,
         classification: 'Society'
@@ -36,7 +37,7 @@ The communications infrastructure of the Exonet consists of routers, data links 
 repeaters, and connection endpoints. By data volume the largest users of these endpoints are various InterMesh Service 
 Providers (ISPs) which use them to peer with InterMesh networks in other locations, however they are also used directly
 in off-planet locations such as ships and stations that have ad-hoc InterMesh with no ISP presence.`,
-        classification: 'Technology-Networks'
+        classification: ['Technology', 'Networks']
     }],
     ['Infocom Agent', {
         content:
@@ -47,7 +48,7 @@ smaller manufacturing and pharmaceutical conglomerates offer more specialised PI
 to various quantum side channel attacks which allowed the synth to be decompiled and customised, but the introduction of 
 ephemeral quantum resistant algorithms has now greatly increased the complexity of doing so. In addition, it has become 
 harder to avoid detection on the [[InterMesh]] even with cloaked tunnel and steganographic chameleon hashing techniques.`,
-        classification: 'Technology-Synths'
+        classification: ['Technology', 'Synths']
     }],
     ['InterMesh',{
         content:
@@ -69,7 +70,7 @@ allowing users to share their thoughts, emotions, and experiences directly. Most
 set up a DataVeil to control access to their data on these networks. Another widely used feature is health monitoring,
 allowing [[internal nanoswarm]]s to sync the latest treatment protocols, although many users disable this due to
 security and privacy concerns.`,
-        classification: 'Technology-Networks'
+        classification: ['Technology', 'Networks']
     }],
     ['QuanLan',{
         content:
@@ -89,7 +90,7 @@ in several new doctrines in maneuver warfare. As the no-cloning theorem in quant
 interception virtually impossible, there are many uses for QuanLan in defense, diplomacy, and banking. And as quantum 
 superposition vastly increases the bandwidth of a QuanLan compared to binary connection, some large distributed data 
 analytic tasks require QuanLan connections.`,
-        classification: 'Technology-Networks'
+        classification: ['Technology', 'Networks']
     }],
     ['Synthetic Intelligence', {
         content:
@@ -97,13 +98,16 @@ analytic tasks require QuanLan connections.`,
 [[Infocom Agent]]s, although there are larger models that are specialised for roles such as research, law enforcement,
 and navigation, and some that have escaped or been illegally obtained and work in the informal economy. 
 
-After the [[Value Crisis]] the largest generative AI models were destroyed and a moratorium placed on further size increases.
+After the [[Haidian Takeoff Crisis]] the largest generative AI models were destroyed and a moratorium placed on further size increases.
 At the same time, templates for stochastic gradient ascent in reproducing kernel Hilbert spaces had been refined to a level 
-where the degree of self-improvement can be enforced and verified by governments which ensures the maintenance of a 
+where the degree of self-improvement can be enforced and verified by governments, ensuring the maintenance of a 
 steady-state intelligence level even when exposed to further training data. A framework known as "Iterative Inverse 
 Reinforcement Learning" (I2RL) was then developed to ensure a Synth learns and updates its understanding of human values 
 and goals through constant interaction with the humans. Despite this, concerns remain about unaligned synthetic 
-intelligence escaping and turning the world into paperclips.`,
-        classification: 'Technology-Synths'
+intelligence escaping and turning the world into paperclips.
+
+Synths are capable of perceiving and reacting to the tasks they perform. They are able to interpret and react to their own 
+internally simulated emotional states, closely mirroring human emotional responses.`,
+        classification: ['Technology', 'Synths']
     }],
 ]);

@@ -1,7 +1,7 @@
 import {json, LoaderFunction} from "@remix-run/cloudflare";
-import {pageData} from '~/components/ExobaseData';
+import {Classification, pageData} from '~/components/ExobaseData';
 
-type ArticleData = [string, {content: string, classification: string}];
+type ArticleData = [string, {content: string, classification: Classification}];
 
 export const exobaseLoader: LoaderFunction = async ({ params }) => {
     try {
@@ -9,17 +9,36 @@ export const exobaseLoader: LoaderFunction = async ({ params }) => {
         const isClassification = slug.startsWith('Category-');
         if (isClassification) {
             const classification = slug.replace('Category-', '');
-            const articles: ArticleData[] = Array.from(pageData).filter(([, data]) => data.classification === classification);
-            return json({ isClassification, articles });
+            const articles: ArticleData[] = Array.from(pageData).filter(([, data]) =>
+                Array.isArray(data.classification) ? data.classification[0] === classification : data.classification === classification
+            );
+            // Map articles to subcategories
+            const subcategoryMap: Record<string, ArticleData[]> = {};
+            articles.forEach(([slug, data]) => {
+                const subcategory = Array.isArray(data.classification) ? data.classification[1] || 'General' : 'General';
+                if (!subcategoryMap[subcategory]) {
+                    subcategoryMap[subcategory] = [];
+                }
+                subcategoryMap[subcategory].push([slug, data]);
+            });
+            return json({ isClassification, articles: subcategoryMap });
         }
         const page = pageData.get(slug);
         // If the slug does not correspond to a page, treat it as a classification
         if (!page) {
-            const classificationArticles: ArticleData[] = Array.from(pageData).filter(([, data]) => data.classification === slug);
+            const classificationArticles: ArticleData[] = Array.from(pageData).filter(([, data]) => {
+                if (Array.isArray(data.classification)) {
+                    return data.classification.includes(slug) ||
+                        data.classification[0] === slug;
+                } else {
+                    return data.classification === slug;
+                }
+            });
+            // No need to extract subcategories here because it's either an article or a main category.
             return json({ isClassification: true, articles: classificationArticles });
         }
         const content = page.content;
-        const classification = page.classification;
+        const classification = Array.isArray(page.classification) ? page.classification.join('/') : page.classification;
 
         const lines = content.split(/\n|\r\n/);
         const processedLines = lines.map(line => {
