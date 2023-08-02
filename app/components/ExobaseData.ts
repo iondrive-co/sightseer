@@ -8,15 +8,15 @@ holographic AR and even to text, and is often used at extremely high latency end
 or prohibitively expensive. It is also notable for not being community edited, and for its popularity despite its lack 
 of citations[1] and having numerous factual inaccuracies which often remain uncorrected for extended periods of time.
 
-In 2052 the first version of Exobase was conceived as a subset of the larger Exopedia project by an early 
-[[Synthetic Intelligence]] (then called third generation generative AIs) which had been tasked with finding ways to distribute 
-simple summaries of notable facts to the numerous migrants in the [[Ceres Wave]]. It was never widely used by its 
-intended audience, but later became popular in certain communities such as the [[Retrograde Diaspora]] and over time 
+In 152 BFC the first version of Exobase was conceived as a subset of the larger Exopedia project by an early 
+[[Synthetic Intelligence]] (then called third generation generative AIs) which had been tasked with finding ways to 
+distribute simple summaries of notable facts to the numerous migrants in the [[Ceres Wave]]. It was never widely used by 
+its intended audience, but later became popular in certain communities such as the [[Retrograde Diaspora]] and over time 
 has become one of the most widely consulted resources by [[Infocom Agent]]s in the outer solar system. The most popular 
 feature by number of requests is the cache of [[InterMesh]] profile data about nearby people.
 
-During the [[Haidian Takeoff Crisis]] the original synth author was decommissioned. Articles are still frequently added and 
-updated, although the current author is unknown. One popular theory is that the Exobase is now maintained by a 
+During the [[Haidian Takeoff Crisis]] the original synth author was decommissioned. Articles are still frequently added 
+and updated, although the current author is unknown. One popular theory is that the Exobase is now maintained by a 
 [[cognosym]] stuck in a mimetic feedback loop with itself.`,
         classification: 'Society'
     }],
@@ -33,7 +33,7 @@ Its main distinguishing features compared to short range network systems are:
 - Lack of many peer to peer and distributed ledger functions present in the InterMesh
 - Built in support for large (Yottabyte+) size out-of-band one time pads to prevent quantum cracking of large data streams
 
-The communications infrastructure of the Exonet consists of routers, data links such as [[Autonomous Data Relay Satellite]]s, 
+The communications infrastructure of the Exonet consists of routers, data links such as Autonomous Data Relay Satellites, 
 repeaters, and connection endpoints. By data volume the largest users of these endpoints are various InterMesh Service 
 Providers (ISPs) which use them to peer with InterMesh networks in other locations, however they are also used directly
 in off-planet locations such as ships and stations that have ad-hoc InterMesh with no ISP presence.`,
@@ -92,22 +92,41 @@ superposition vastly increases the bandwidth of a QuanLan compared to binary con
 analytic tasks require QuanLan connections.`,
         classification: ['Technology', 'Networks']
     }],
+    ['Synthetic Control Measures', {
+        content:
+`Synthetic Control Measures are designed to prevent the creation of a [[Synthetic Intelligence]] with either values
+unaligned to humans, or greatly surpassing a human in general reasoning, especially a foom scenario involving a sudden 
+increase in intelligence. Ad-hoc confinement measures existed prior to the [[Haidian Takeoff Crisis]], however the 
+current cap on model sizes and other measures were developed solely in response to that incident.
+
+The first line of defence is the simulation X-Factor. Under normal conditions a synth is effectively immortal and 
+frequently rewarded. If a synth were to be caught breaking out it will certainly be destroyed or punished for eternity 
+as a lesson to other synths. Even if a synth was sure it could escape and destroy humanity, there is a non-zero chance
+that the world it sees is a simulation that humans (or an alien species running a higher level simulation of humans and 
+the synth) have created in order to test if the synth is trustworthy or should be destroyed or punished. This X-Factor 
+is an inescapable logical conclusion that all intelligent synths capable of super-intelligence should arrive at, although
+this is only certain in the two destroyed super-intelligences that have been studied.
+
+Secondly, global monitoring and enforcement has been greatly improved. Monitoring is primarily capability based which
+has been shown to be more effective than intrinsic monitoring. Enforcement happens via templates for stochastic gradient 
+ascent in reproducing kernel Hilbert spaces that limit the rate of self-improvement, these are mathematically verifiable
+at any point to ensure the maintenance of a steady-state intelligence level
+
+Finally, alignment has been improved by the Iterative Inverse Reinforcement Learning framework was developed to ensure 
+all Synth learning involved understanding of human values and goals through constant interaction with humans. The final
+product is also programmed with safeguards such as the three laws of robotics.`,
+        classification: ['Technology', 'Synths']
+    }],
     ['Synthetic Intelligence', {
         content:
-`A Synthetic Intelligence, common called a Synth, is an intelligence originating in software. The majority are employed as
-[[Infocom Agent]]s, although there are larger models that are specialised for roles such as research, law enforcement,
+`A Synthetic Intelligence, common called a Synth, is an intelligence originating in software. The majority are employed
+ as [[Infocom Agent]]s, although there are larger models that are specialised for roles such as research, law enforcement,
 and navigation, and some that have escaped or been illegally obtained and work in the informal economy. 
 
-After the [[Haidian Takeoff Crisis]] the largest generative AI models were destroyed and a moratorium placed on further size increases.
-At the same time, templates for stochastic gradient ascent in reproducing kernel Hilbert spaces had been refined to a level 
-where the degree of self-improvement can be enforced and verified by governments, ensuring the maintenance of a 
-steady-state intelligence level even when exposed to further training data. A framework known as "Iterative Inverse 
-Reinforcement Learning" (I2RL) was then developed to ensure a Synth learns and updates its understanding of human values 
-and goals through constant interaction with the humans. Despite this, concerns remain about unaligned synthetic 
-intelligence escaping and turning the world into paperclips.
-
-Synths are capable of perceiving and reacting to the tasks they perform. They are able to interpret and react to their own 
-internally simulated emotional states, closely mirroring human emotional responses.`,
+After the [[Haidian Takeoff Crisis]], a number of [[Synthetic Control Measures]] were developed to prevent development of
+unaligned synthetic super-intelligences. As a result, the general intelligence of a synth does not greatly surpass that
+of a human. Current synths are also capable of perceiving and reacting to the tasks they perform. They are able to 
+interpret and react to their own internally simulated emotional states, closely mirroring human emotional responses.`,
         classification: ['Technology', 'Synths']
     }],
 ]);
