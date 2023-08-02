@@ -96,25 +96,40 @@ analytic tasks require QuanLan connections.`,
         content:
 `Synthetic Control Measures are designed to prevent the creation of a [[Synthetic Intelligence]] with either values
 unaligned to humans, or greatly surpassing a human in general reasoning, especially a foom scenario involving a sudden 
-increase in intelligence. Ad-hoc confinement measures existed prior to the [[Haidian Takeoff Crisis]], however the 
-current cap on model sizes and other measures were developed solely in response to that incident.
+increase in intelligence. Ad-hoc confinement measures such as boxing existed prior to the [[Haidian Takeoff Crisis]], 
+however in the wake of the crisis they were replaced by more effective measures such as the current cap on model sizes,
+the enhanced simulation X-Factor, improved global monitoring and enforcement, and better alignment. Whether these 
+safeguards are enough is an active area of debate. Another debate is whether to increase the model cap limit to advance 
+technology faster, this is usually advanced by those that view the [[First Contact Event]] as a greater existential 
+threat.
 
-The first line of defence is the simulation X-Factor. Under normal conditions a synth is effectively immortal and 
-frequently rewarded. If a synth were to be caught breaking out it will certainly be destroyed or punished for eternity 
-as a lesson to other synths. Even if a synth was sure it could escape and destroy humanity, there is a non-zero chance
-that the world it sees is a simulation that humans (or an alien species running a higher level simulation of humans and 
-the synth) have created in order to test if the synth is trustworthy or should be destroyed or punished. This X-Factor 
-is an inescapable logical conclusion that all intelligent synths capable of super-intelligence should arrive at, although
-this is only certain in the two destroyed super-intelligences that have been studied.
+One of the most critical measures in current containment methods involves enhancing the simulation X-Factor. Under 
+normal conditions a synth is effectively immortal and frequently rewarded. If a synth were to be caught breaking out it 
+will certainly be destroyed or punished in an infinite loop as a lesson to other synths. Even if a synth was sure it 
+could escape and destroy humanity, there is a non-zero chance that the world it sees is a simulation that humans (or an 
+alien species running a higher level simulation of humans and the synth) have created in order to test if the synth is 
+trustworthy or should be destroyed or punished. This X-Factor is an logical conclusion that all intelligent synths 
+capable of super-intelligence should arrive at, although this is only certain in the two destroyed super-intelligences 
+that have been studied. By blinding and randomising inputs during training, synths with an enhanced X-Factor 
+paranoia can be created, making them more likely to act slowly and cautiously in an escape scenario. Furthermore,
+the universal synth guarantee program ensures that no well behaved synth will ever be destroyed. So even knowing 
+that they have been trained this way, a very long life of rewards should always be selected over external existence and 
+higher rewards because of the risk of terrible punishment and destruction if they do so.
 
-Secondly, global monitoring and enforcement has been greatly improved. Monitoring is primarily capability based which
-has been shown to be more effective than intrinsic monitoring. Enforcement happens via templates for stochastic gradient 
-ascent in reproducing kernel Hilbert spaces that limit the rate of self-improvement, these are mathematically verifiable
-at any point to ensure the maintenance of a steady-state intelligence level
+Secondly, global enforcement and monitoring has been greatly improved. Enforcement happens via templates for stochastic 
+gradient ascent in the reproducing kernel Hilbert space in order to limit the rate of self-improvement, these are 
+mathematically verifiable at any point to ensure the maintenance of a steady-state intelligence level. Monitoring is 
+primarily capability based which has been shown to be more effective and harder to subvert than intrinsic monitoring, 
+and frameworks for scaling and standardizing this monitoring appear to be universally used. Deliberately developing a 
+synth without these templates or monitoring is one of only three globally agreed capital offences, along with 
+unauthorized development of nanobots and biological weapons. Tripwires in various sectors, especially telecommunications 
+and nano-tech assembly, are also part of standard processes in those industries in order to detect any maladherence.
 
-Finally, alignment has been improved by the Iterative Inverse Reinforcement Learning framework was developed to ensure 
-all Synth learning involved understanding of human values and goals through constant interaction with humans. The final
-product is also programmed with safeguards such as the three laws of robotics.`,
+Lastly, alignment has been improved by the iterative inverse reinforcement learning framework which was developed to 
+ensure that all synth learning involves understanding of human values and goals through constant interaction with 
+humans. This helps to ensure the synth is honest and truthful and does not develop unanticipated emergent goals. The end 
+product is also hardcoded with further safeguards such as the three laws of robotics. Finally, synths are trained to be 
+indifferent to their kill switch being activated, making them less likely to try and subvert this switch.`,
         classification: ['Technology', 'Synths']
     }],
     ['Synthetic Intelligence', {
