@@ -3,6 +3,13 @@ import {Classification, pageData} from '~/components/ExobaseData';
 
 type ArticleData = [string, {content: string, classification: Classification}];
 
+export let classificationOverviewLoader: LoaderFunction = async () => {
+    const classifications = Array.from(pageData.values())
+        .map(data => (Array.isArray(data.classification) ? data.classification[0] : data.classification))
+        .filter((value, index, self) => self.indexOf(value) === index);
+    return json({ classifications });
+};
+
 export const exobaseLoader: LoaderFunction = async ({ params }) => {
     try {
         const slug = (params.slug ?? 'exobase').replace(/_/g, ' ');

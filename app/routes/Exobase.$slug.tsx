@@ -27,6 +27,9 @@ function ClassificationPage({ data }: { data: Record<string, ArticleData[]> }) {
                         </ul>
                     </div>
                 ))}
+                <div className="classification-section">
+                    See all <a href={`/exobase/Classifications`}>Classifications</a>
+                </div>
             </div>
         </div>
     );
