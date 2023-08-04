@@ -1,4 +1,4 @@
-export type Classification = string | string[];
+export type Classification = string;
 export const pageData = new Map<string, {content: string, classification: Classification}>([
     ['Exobase', {
         content:
@@ -37,7 +37,7 @@ The communications infrastructure of the Exonet consists of routers, data links 
 repeaters, and connection endpoints. By data volume the largest users of these endpoints are various InterMesh Service 
 Providers (ISPs) which use them to peer with InterMesh networks in other locations, however they are also used directly
 in off-planet locations such as ships and stations that have ad-hoc InterMesh with no ISP presence.`,
-        classification: ['Technology', 'Networks']
+        classification: 'Technology/Networks'
     }],
     ['Infocom Agent', {
         content:
@@ -48,7 +48,7 @@ smaller manufacturing and pharmaceutical conglomerates offer more specialised PI
 to various quantum side channel attacks which allowed the synth to be decompiled and customised, but the introduction of 
 ephemeral quantum resistant algorithms has now greatly increased the complexity of doing so. In addition, it has become 
 harder to avoid detection on the [[InterMesh]] even with cloaked tunnel and steganographic chameleon hashing techniques.`,
-        classification: ['Technology', 'Synths']
+        classification: 'Technology/Synths'
     }],
     ['InterMesh',{
         content:
@@ -70,7 +70,7 @@ allowing users to share their thoughts, emotions, and experiences directly. Most
 set up a DataVeil to control access to their data on these networks. Another widely used feature is health monitoring,
 allowing [[internal nanoswarm]]s to sync the latest treatment protocols, although many users disable this due to
 security and privacy concerns.`,
-        classification: ['Technology', 'Networks']
+        classification: 'Technology/Networks'
     }],
     ['QuanLan',{
         content:
@@ -90,7 +90,7 @@ in several new doctrines in maneuver warfare. As the no-cloning theorem in quant
 interception virtually impossible, there are many uses for QuanLan in defense, diplomacy, and banking. And as quantum 
 superposition vastly increases the bandwidth of a QuanLan compared to binary connection, some large distributed data 
 analytic tasks require QuanLan connections.`,
-        classification: ['Technology', 'Networks']
+        classification: 'Technology/Networks'
     }],
     ['Synthetic Control Measures', {
         content:
@@ -130,7 +130,7 @@ ensure that all synth learning involves understanding of human values and goals 
 humans. This helps to ensure the synth is honest and truthful and does not develop unanticipated emergent goals. The end 
 product is also hardcoded with further safeguards such as the three laws of robotics. Finally, synths are trained to be 
 indifferent to their kill switch being activated, making them less likely to try and subvert this switch.`,
-        classification: ['Technology', 'Synths']
+        classification: 'Technology/Synths'
     }],
     ['Synthetic Intelligence', {
         content:
@@ -138,10 +138,15 @@ indifferent to their kill switch being activated, making them less likely to try
  as [[Infocom Agent]]s, although there are larger models that are specialised for roles such as research, law enforcement,
 and navigation, and some that have escaped or been illegally obtained and work in the informal economy. 
 
+Synthetic Intelligences are built from synthesising a hierarchy of specialised deep learning architectures. The backbone
+of the data transfer is built around a large Qubit transformer model, with a Capsule Neural Network for visual interpretation, 
+a neurosymbolic higher level processing center, and a graph neural network to integrate data and feed it back into the
+transformer and short and long term memory.
+
 After the [[Haidian Takeoff Crisis]], a number of [[Synthetic Control Measures]] were developed to prevent development of
 unaligned synthetic super-intelligences. As a result, the general intelligence of a synth does not greatly surpass that
 of a human. Current synths are also capable of perceiving and reacting to the tasks they perform. They are able to 
 interpret and react to their own internally simulated emotional states, closely mirroring human emotional responses.`,
-        classification: ['Technology', 'Synths']
+        classification: 'Technology/Synths'
     }],
 ]);
