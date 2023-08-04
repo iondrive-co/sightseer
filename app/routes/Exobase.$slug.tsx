@@ -15,31 +15,19 @@ function ClassificationPage({ data }: { data: Record<string, ArticleData[]> }) {
             <Sidebar />
             <div className="article">
                 <h1>{classification}</h1>
-                {Object.entries(data).map(([slug, articleData]) => {
-                    // Create a subcategory map
-                    const subcategoryMap: Record<string, ArticleData[]> = {};
-                    articleData.forEach(([slug, data]) => {
-                        const subcategory = data.classification.includes('/') ? data.classification.split('/')[1] : 'General';
-                        if (!subcategoryMap[subcategory]) {
-                            subcategoryMap[subcategory] = [];
-                        }
-                        subcategoryMap[subcategory].push([slug, data]);
-                    });
-
-                    // Here, articleData is an array of ArticleData
-                    return Object.entries(subcategoryMap).map(([subcategory, subcategoryArticles]) => (
-                        <div key={subcategory}>
-                            <h2>{subcategory}</h2>
-                            <ul>
-                                {subcategoryArticles.map(([articleSlug, {content, classification: classif}]) => (
-                                    <li key={articleSlug}>
-                                        <a href={`/exobase/${articleSlug}`}>{articleSlug}</a>
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                    ));
-                })}
+                {Object.keys(data).map(subcategory => (
+                    <div key={subcategory}>
+                        {subcategory !== '' && <h2>{subcategory}</h2>}
+                        <ul>
+                            {data[subcategory].map(([slug]) => (
+                                <li key={slug}>
+                                    <a href={`/exobase/${slug}`}>{slug}</a>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                ))}
+                <br/>
                 <div className="classification-section">
                     See all <a href={`/exobase/Classifications`}>Classifications</a>
                 </div>

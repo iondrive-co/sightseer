@@ -21,7 +21,7 @@ export const exobaseLoader: LoaderFunction = async ({ params }) => {
             // Map articles to subcategories
             const subcategoryMap: Record<string, ArticleData[]> = {};
             articles.forEach(([slug, data]) => {
-                const subcategory = Array.isArray(data.classification) ? data.classification[1] || 'General' : 'General';
+                const subcategory = data.classification.includes('/') ? data.classification.split('/')[1] : '';
                 if (!subcategoryMap[subcategory]) {
                     subcategoryMap[subcategory] = [];
                 }

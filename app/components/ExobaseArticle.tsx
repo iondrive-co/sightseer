@@ -25,7 +25,9 @@ function ExobaseArticle() {
                 <article className="article-text">
                     <div dangerouslySetInnerHTML={{ __html: content }} />
                 </article>
-                <div className="classification-section">Classification: <a href={`/exobase/Category-${classification.split('/')[0].replace(/ /g, '_')}`}>{classification}</a></div>
+                <div className="classification-section">
+                    Classification: <a href={`/exobase/Category-${classification.split('/')[0].replace(/ /g, '_')}`}>{classification}</a>
+                </div>
             </div>
         </div>
     );
