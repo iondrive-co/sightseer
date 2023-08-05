@@ -30,6 +30,13 @@ export const sciFiMoviesData: Movie[] = [
         delve into mental illness, quantum physics and time travel, and tie them together into a beautiful piece of art`
     },
     {
+        title: "Ex Machina",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/b/ba/Ex-machina-uk-poster.jpg",
+        summary: `An excellently paced sci-fi thriller, we are driven through a beautifully atmospheric setting by an 
+        extremely compelling idea to the inevitable conclusion, with the conflicting personalities and strength of the
+        ideas making this a completely enthralling journey from start to finish.`
+    },
+    {
         title: "Gravity",
         thumbnail: "https://www.themoviedb.org/t/p/w1280/krQrQSNb0EXd5L0e2CkoU5V6XNq.jpg",
         summary: `Watching this sci-fi thriller in IMAX was wild, this movie is a completely engrossing white knuckle 
@@ -53,6 +60,12 @@ export const sciFiMoviesData: Movie[] = [
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/c/cd/The_Martian_film_poster.jpg",
         summary: `Andy Weir's upbeat, funny protagonist of science Mark Watney is a perfect fit for Matt Damon, and
          coupled with Ridley Scott's eye for the stunning visuals this is a glorious and very enjoyable movie`
+    },
+    {
+        title: "Matrix, The",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg",
+        summary: `The Matrix was a groundbreaking and visually stunning sci-fi that survives multiple rewatchings
+        due to the tight plot, pop philosophy, and fun action sequences leading up to a satisfying conclusion`
     },
     {
         title: "Monsters",
