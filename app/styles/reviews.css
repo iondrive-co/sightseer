@@ -81,3 +81,12 @@
 .movie:hover img {
   opacity: 0.3;
 }
+
+.movie .rating {
+  margin: 0 0 10px;
+  font-size: 0.6rem;
+}
+
+.movie .rating-item {
+  margin-right: 0.25rem;
+}
