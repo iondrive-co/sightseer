@@ -47,7 +47,7 @@ export default function Reviews() {
                 </div>
                 <div className="container">
                     {orderedBuckets.map(bucket => (
-                        <div key={bucket}>
+                        <div key={bucket} className="movie-bucket">
                             <h1>{bucket}</h1>
                             {(movieGroups[bucket] || []).sort((a, b) => {
                                 let totalRatingA = a.e + a.a + a.n + a.c;

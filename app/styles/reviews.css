@@ -10,28 +10,21 @@
 }
 
 .container {
-  display: flex;           /* Change to flex for horizontal flow of buckets */
-  overflow-x: auto;        /* Horizontal scrolling for categories/buckets */
-  white-space: nowrap;     /* Prevents wrapping of buckets to the next line */
+  display: flex;
+  flex-direction: column; /* each movie-bucket is a row */
+  gap: 20px;
 }
 
-.container > div {
-  margin-right: 20px;      /* Spacing between the score buckets */
-  width: 400px;            /* Fixed width for each score bucket. Adjust based on how many movies you want per row. */
-  display: grid;           /* Keeps the grid behavior for movies within each bucket */
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-}
-
-.container h1:first-of-type {
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-.description-container {
-  margin-left: 20px;
+.movie-bucket {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: start;
 }
 
 .movie {
+  margin: 10px;
   border: 1px solid #ddd;
   overflow: hidden;
   position: relative;

@@ -40,6 +40,17 @@ export const sciFiMoviesData: Movie[] = [
         c: 6,
     },
     {
+        title: "Blade Runner 2049",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/9/9b/Blade_Runner_2049_poster.png",
+        summary: `Villeneuve creates a visually stunning and dark future worthy of the original, which along with 
+        Zimmer's score and masterful acting performances creates a magnificent backdrop to an engaging and well 
+        thought out screenplay`,
+        e: 7,
+        a: 10,
+        n: 8,
+        c: 7,
+    },
+    {
         title: "Donnie Darko",
         thumbnail: "https://www.themoviedb.org/t/p/w1280/3PiQIQzJX2oE8Uw6gjL08BXQRoB.jpg",
         summary: `A weird, soulful film that peels back an outer layer of teenage angst and superficial 80s suburbia to 
