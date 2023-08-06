@@ -6,22 +6,34 @@ import '~/styles/styles.css';
 import '~/styles/reviews.css';
 
 export let loader: LoaderFunction = async () => {
-  return json(sciFiMoviesData);
+    return json(sciFiMoviesData);
 };
 
 export default function Reviews() {
     let movies: Movie[] = useLoaderData();
 
+    // Group by score buckets
     let movieGroups = movies.reduce((groups, movie) => {
         let totalRating = movie.e + movie.a + movie.n + movie.c;
-        if (!groups[totalRating]) {
-            groups[totalRating] = [];
-        }
-        groups[totalRating].push(movie);
-        return groups;
-    }, {} as { [key: number]: Movie[] });
+        let bucket: string;
 
-    let sortedGroupKeys = Object.keys(movieGroups).sort((a, b) => parseInt(b) - parseInt(a));
+        if (totalRating >= 33) {
+            bucket = "33+";
+        } else if (totalRating >= 30) {
+            bucket = "30+";
+        } else {
+            bucket = "Others";
+        }
+
+        if (!groups[bucket]) {
+            groups[bucket] = [];
+        }
+
+        groups[bucket].push(movie);
+        return groups;
+    }, {} as { [key: string]: Movie[] });
+
+    let orderedBuckets = ["33+", "30+"];
 
     return (
         <div className="app">
@@ -29,15 +41,20 @@ export default function Reviews() {
             <div className="main-container">
                 <div className="description-container">
                     <p>
-                    Enjoyable sci-fi movies, mouse over each for a no-spoiler one line review. Rating is out of 40 based
-                    on 4 equal categories, (e)xploration of premise, (a)tmosphere, (n)arrative structure, (c)haracterisation
+                        Enjoyable sci-fi movies, mouse over each for a no-spoiler one line review. Rating is out of 40 based
+                        on 4 equal categories, (e)xploration of premise, (a)tmosphere, (n)arrative structure, (c)haracterisation
                     </p>
                 </div>
                 <div className="container">
-                    {sortedGroupKeys.map((groupKey: any) => (
-                        <div key={groupKey}>
-                            <h1>{groupKey}</h1>
-                            {movieGroups[+groupKey].map(movie => (
+                    {orderedBuckets.map(bucket => (
+                        <div key={bucket}>
+                            <h1>{bucket}</h1>
+                            {(movieGroups[bucket] || []).sort((a, b) => {
+                                let totalRatingA = a.e + a.a + a.n + a.c;
+                                let totalRatingB = b.e + b.a + b.n + b.c;
+
+                                return totalRatingB - totalRatingA; // sort in descending order
+                            }).map(movie => (
                                 <div key={movie.title} className="movie">
                                     <img src={movie.thumbnail} alt={movie.title} />
                                     <div className="content">
