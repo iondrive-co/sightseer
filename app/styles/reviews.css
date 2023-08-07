@@ -17,10 +17,22 @@
 
 .movie-bucket {
   display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+}
+
+.movie-bucket h1 {
+  margin-left: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.movie-wrapper {
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 10px;
-  align-items: start;
 }
 
 .movie {

@@ -49,26 +49,28 @@ export default function Reviews() {
                     {orderedBuckets.map(bucket => (
                         <div key={bucket} className="movie-bucket">
                             <h1>{bucket}</h1>
-                            {(movieGroups[bucket] || []).sort((a, b) => {
-                                let totalRatingA = a.e + a.a + a.n + a.c;
-                                let totalRatingB = b.e + b.a + b.n + b.c;
+                            <div className="movie-wrapper">
+                                {(movieGroups[bucket] || []).sort((a, b) => {
+                                    let totalRatingA = a.e + a.a + a.n + a.c;
+                                    let totalRatingB = b.e + b.a + b.n + b.c;
 
-                                return totalRatingB - totalRatingA; // sort in descending order
-                            }).map(movie => (
-                                <div key={movie.title} className="movie">
-                                    <img src={movie.thumbnail} alt={movie.title} />
-                                    <div className="content">
-                                        <h2>{movie.title}</h2>
-                                        <p>{movie.summary}</p>
-                                        <div className="rating">
-                                            <span className="rating-item">e: {movie.e}</span>
-                                            <span className="rating-item">a: {movie.a}</span>
-                                            <span className="rating-item">n: {movie.n}</span>
-                                            <span className="rating-item">c: {movie.c}</span>
+                                    return totalRatingB - totalRatingA; // sort in descending order
+                                }).map(movie => (
+                                    <div key={movie.title} className="movie">
+                                        <img src={movie.thumbnail} alt={movie.title}/>
+                                        <div className="content">
+                                            <h2>{movie.title}</h2>
+                                            <p>{movie.summary}</p>
+                                            <div className="rating">
+                                                <span className="rating-item">e: {movie.e}</span>
+                                                <span className="rating-item">a: {movie.a}</span>
+                                                <span className="rating-item">n: {movie.n}</span>
+                                                <span className="rating-item">c: {movie.c}</span>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            ))}
+                                ))}
+                            </div>
                         </div>
                     ))}
                 </div>

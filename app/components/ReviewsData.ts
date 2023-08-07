@@ -40,6 +40,17 @@ export const sciFiMoviesData: Movie[] = [
         c: 6,
     },
     {
+        title: "Blade Runner",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/9/9f/Blade_Runner_%281982_poster%29.png",
+        summary: `The beautiful over the top noir cinematography established Scott and the crew's creation as the 
+        definitive cyberpunk environment, and although parts of the film are a bit empty the story is compelling and 
+        filled with both spectacular scenes and fascinating mundane details courtesy of Syd Mead's background design`,
+        e: 8,
+        a: 10,
+        n: 6,
+        c: 7,
+    },
+    {
         title: "Blade Runner 2049",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/9/9b/Blade_Runner_2049_poster.png",
         summary: `Villeneuve creates a visually stunning and dark future worthy of the original, which along with 
