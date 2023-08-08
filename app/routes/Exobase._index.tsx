@@ -1,15 +1,14 @@
 import {useLoaderData} from '@remix-run/react';
-import {classificationOverviewLoader} from '~/components/exobase/ExobaseLoader';
 import Sidebar from "~/components/Sidebar";
+import {classificationOverviewLoader} from '~/components/exobase/ExobaseLoader';
 
 export let loader = classificationOverviewLoader;
-
-function ExobaseClassifications() {
-    const { classifications } = useLoaderData<{classifications: string[]}>();
+function Exobase() {
+    const { classifications } = useLoaderData<{ classifications: string[] }>();
 
     return (
         <div className="article-container">
-            <Sidebar/>
+            <Sidebar />
             <div className="article">
                 <h1>Classifications</h1>
                 {classifications.map(classification => (
@@ -21,5 +20,4 @@ function ExobaseClassifications() {
         </div>
     );
 }
-
-export default ExobaseClassifications;
+export default Exobase;

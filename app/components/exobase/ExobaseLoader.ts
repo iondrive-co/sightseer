@@ -3,15 +3,18 @@ import {Classification, pageData} from '~/components/exobase/ExobaseData';
 
 type ArticleData = [string, {content: string, classification: Classification}];
 
-export let classificationOverviewLoader: LoaderFunction = async () => {
+export let classificationOverviewLoader: LoaderFunction = async ({ params, request, context }) => {
     const classifications = Array.from(pageData.values())
         .map(data => data.classification.split('/')[0]) // only use top-level classification
         .filter((value, index, self) => self.indexOf(value) === index); // remove duplicates
     return json({ classifications });
 };
-export const exobaseLoader: LoaderFunction = async ({ params }) => {
+export const exobaseLoader: LoaderFunction = async ({ params, request, context }) => {
     try {
         const slug = (params.slug ?? 'exobase').replace(/_/g, ' ');
+        if (slug === 'exobase') {
+            return classificationOverviewLoader({ params, request, context });
+        }
         const isClassification = slug.startsWith('Category-');
         if (isClassification) {
             const classification = slug.replace('Category-', '');
@@ -33,7 +36,7 @@ export const exobaseLoader: LoaderFunction = async ({ params }) => {
                     subcategoryMap[subcategory].push([slug, data]);
                 }
             });
-            return json({ isClassification, noSubcategoryArticles, articles: subcategoryMap });
+            return json({ isClassification, noSubcategory: noSubcategoryArticles, articles: subcategoryMap });
         }
         const page = pageData.get(slug);
         if (!page) {

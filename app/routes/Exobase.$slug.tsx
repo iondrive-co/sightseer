@@ -36,7 +36,7 @@ function ClassificationPage({ data, noSubcategory }: { data: Record<string, Arti
                 ))}
                 <br/>
                 <div className="classification-section">
-                    See all <a href={`/exobase/Classifications`}>Classifications</a>
+                    See all <a href={`/exobase`}>Classifications</a>
                 </div>
             </div>
         </div>
@@ -45,12 +45,10 @@ function ClassificationPage({ data, noSubcategory }: { data: Record<string, Arti
 
 function Exobase() {
     const data = useLoaderData();
-
     if (data.isClassification) {
-        return <ClassificationPage data={data.articles} noSubcategory={data.noSubcategoryArticles} />;
+        return <ClassificationPage data={data.articles} noSubcategory={data.noSubcategory} />;
     } else {
         return <ExobaseArticle />;
     }
 }
-
 export default Exobase;

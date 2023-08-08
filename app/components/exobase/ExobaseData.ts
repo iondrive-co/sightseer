@@ -5,9 +5,10 @@ export const pageData = new Map<string, {content: string, classification: Classi
             ``,
         classification: 'Society/Events'
     }],
-    ['Cognosym', {
+    ['Cognostim', {
         content:
-            ``,
+`A Cognostim, a Portmanteau from the Latin to know and stimulate, is a [[Synthetic Intelligence]] that specialises in
+producing human educational material`,
         classification: 'Technology/Synths'
     }],
     ['Exobase', {
@@ -27,7 +28,7 @@ feature by number of requests is the cache of [[InterMesh]] profile data about n
 
 During the [[Haidian Takeoff Crisis]] the original synth author was decommissioned. Articles are still frequently added 
 and updated, although the current author is unknown. One popular theory is that the Exobase is now maintained by a 
-[[Cognosym]] stuck in a mimetic feedback loop with itself.`,
+[[Cognostim]] stuck in a mimetic feedback loop with itself.`,
         classification: 'Society'
     }],
     ['Exonet',{
@@ -48,6 +49,11 @@ repeaters, and connection endpoints. By data volume the largest users of these e
 Providers (ISPs) which use them to peer with InterMesh networks in other locations, however they are also used directly
 in off-planet locations such as ships and stations that have ad-hoc InterMesh with no ISP presence.`,
         classification: 'Technology/Networks'
+    }],
+    ['First Contact Event', {
+        content:
+            ``,
+        classification: 'Society/Events'
     }],
     ['Haidian Takeoff Crisis', {
         content:
@@ -122,7 +128,7 @@ analytic tasks require QuanLan connections.`,
 `Synthetic Control Measures are designed to prevent the creation of a [[Synthetic Intelligence]] with either values
 unaligned to humans, or greatly surpassing a human in general reasoning, especially a foom scenario involving a sudden 
 increase in intelligence. Ad-hoc confinement measures such as boxing existed prior to the [[Haidian Takeoff Crisis]], 
-however in the wake of the crisis they were replaced by more effective measures such as the current cap on model sizes,
+however in the wake of the crisis they were replaced by more effective controls such as the current cap on model sizes,
 the enhanced simulation X-Factor, improved global monitoring and enforcement, and better alignment. Whether these 
 safeguards are enough is an active area of debate. Another debate is whether to increase the model cap limit to advance 
 technology faster, this is usually advanced by those that view the [[First Contact Event]] as a greater existential 
