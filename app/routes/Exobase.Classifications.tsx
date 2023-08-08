@@ -1,5 +1,5 @@
 import {useLoaderData} from '@remix-run/react';
-import {classificationOverviewLoader} from '~/components/ExobaseLoader';
+import {classificationOverviewLoader} from '~/components/exobase/ExobaseLoader';
 import Sidebar from "~/components/Sidebar";
 
 export let loader = classificationOverviewLoader;

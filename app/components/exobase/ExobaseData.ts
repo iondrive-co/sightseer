@@ -1,5 +1,15 @@
 export type Classification = string;
 export const pageData = new Map<string, {content: string, classification: Classification}>([
+    ['Ceres Wave', {
+        content:
+            ``,
+        classification: 'Society/Events'
+    }],
+    ['Cognosym', {
+        content:
+            ``,
+        classification: 'Technology/Synths'
+    }],
     ['Exobase', {
         content:
 `The Exobase is an [[Exonet]] hosted encyclopedic compendium, consisting of a small number of articles on notable 
@@ -17,7 +27,7 @@ feature by number of requests is the cache of [[InterMesh]] profile data about n
 
 During the [[Haidian Takeoff Crisis]] the original synth author was decommissioned. Articles are still frequently added 
 and updated, although the current author is unknown. One popular theory is that the Exobase is now maintained by a 
-[[cognosym]] stuck in a mimetic feedback loop with itself.`,
+[[Cognosym]] stuck in a mimetic feedback loop with itself.`,
         classification: 'Society'
     }],
     ['Exonet',{
@@ -39,16 +49,26 @@ Providers (ISPs) which use them to peer with InterMesh networks in other locatio
 in off-planet locations such as ships and stations that have ad-hoc InterMesh with no ISP presence.`,
         classification: 'Technology/Networks'
     }],
+    ['Haidian Takeoff Crisis', {
+        content:
+``,
+        classification: 'Society/Events'
+    }],
     ['Infocom Agent', {
         content:
 `An Infocom Agent, also known as a Personal Infocom Agent (PIA), is a [[Synthetic Intelligence]] that specialises in personal
 support services such as data security and filtering, health, education, and situational awareness and predictive 
-actuation. Most PIAs in use are sold and maintained by one of the big three [[infomatic corporation]]s, although some 
+actuation. Most PIAs in use are sold and maintained by one of the big three [[Infomatic Corporation]]s, although some 
 smaller manufacturing and pharmaceutical conglomerates offer more specialised PIAs. Earlier PIA encryption was vulnerable 
 to various quantum side channel attacks which allowed the synth to be decompiled and customised, but the introduction of 
 ephemeral quantum resistant algorithms has now greatly increased the complexity of doing so. In addition, it has become 
 harder to avoid detection on the [[InterMesh]] even with cloaked tunnel and steganographic chameleon hashing techniques.`,
         classification: 'Technology/Synths'
+    }],
+    ['Infomatic Corporation', {
+        content:
+            ``,
+        classification: 'Society/Corporations'
     }],
     ['InterMesh',{
         content:
@@ -91,6 +111,11 @@ interception virtually impossible, there are many uses for QuanLan in defense, d
 superposition vastly increases the bandwidth of a QuanLan compared to binary connection, some large distributed data 
 analytic tasks require QuanLan connections.`,
         classification: 'Technology/Networks'
+    }],
+    ['Retrograde Diaspora', {
+        content:
+            ``,
+        classification: 'Society/Events'
     }],
     ['Synthetic Control Measures', {
         content:

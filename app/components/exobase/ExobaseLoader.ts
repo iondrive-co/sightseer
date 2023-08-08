@@ -1,5 +1,5 @@
 import {json, LoaderFunction} from "@remix-run/cloudflare";
-import {Classification, pageData} from '~/components/ExobaseData';
+import {Classification, pageData} from '~/components/exobase/ExobaseData';
 
 type ArticleData = [string, {content: string, classification: Classification}];
 
@@ -19,15 +19,21 @@ export const exobaseLoader: LoaderFunction = async ({ params }) => {
                 data.classification.startsWith(classification)
             );
             // Map articles to subcategories
+            const noSubcategoryArticles: ArticleData[] = [];
             const subcategoryMap: Record<string, ArticleData[]> = {};
+
             articles.forEach(([slug, data]) => {
                 const subcategory = data.classification.includes('/') ? data.classification.split('/')[1] : '';
-                if (!subcategoryMap[subcategory]) {
-                    subcategoryMap[subcategory] = [];
+                if (subcategory === '') {
+                    noSubcategoryArticles.push([slug, data]);
+                } else {
+                    if (!subcategoryMap[subcategory]) {
+                        subcategoryMap[subcategory] = [];
+                    }
+                    subcategoryMap[subcategory].push([slug, data]);
                 }
-                subcategoryMap[subcategory].push([slug, data]);
             });
-            return json({ isClassification, articles: subcategoryMap });
+            return json({ isClassification, noSubcategoryArticles, articles: subcategoryMap });
         }
         const page = pageData.get(slug);
         if (!page) {
