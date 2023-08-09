@@ -8,7 +8,12 @@ export const pageData = new Map<string, {content: string, classification: Classi
     ['Cognostim', {
         content:
 `A Cognostim, a Portmanteau from the Latin to know and stimulate, is a [[Synthetic Intelligence]] that specialises in
-producing human educational material`,
+elenctic teaching, that is in stimulating learning by expanding on concepts such that one or more expanded elements
+can be refuted, in order to clarify the limits of the original concept. This dialogic or dialectic approach to refining 
+knowledge has been shown to be effective in increasing non-augmented human knowledge retrieval and rhetorical abilities.
+These were extremely popular with certain groups such as lawyers and politicians [[BFC~First Contact Event]], but the 
+widespread availability of affordable [[Neurogenesis Treatment]]s as well as neurodevices such as [[MemAmp]]s have 
+greatly reduced their usefulness for most people.`,
         classification: 'Technology/Synths'
     }],
     ['Exobase', {
@@ -19,7 +24,7 @@ holographic AR and even to text, and is often used at extremely high latency end
 or prohibitively expensive. It is also notable for not being community edited, and for its popularity despite its lack 
 of citations[1] and having numerous factual inaccuracies which often remain uncorrected for extended periods of time.
 
-In 152 BFC the first version of Exobase was conceived as a subset of the larger Exopedia project by an early 
+In 152 [[BFC~First Contact Event]] the first version of Exobase was conceived as a subset of the larger Exopedia project by an early 
 [[Synthetic Intelligence]] (then called third generation generative AIs) which had been tasked with finding ways to 
 distribute simple summaries of notable facts to the numerous migrants in the [[Ceres Wave]]. It was never widely used by 
 its intended audience, but later became popular in certain communities such as the [[Retrograde Diaspora]] and over time 
@@ -97,6 +102,19 @@ set up a DataVeil to control access to their data on these networks. Another wid
 allowing [[internal nanoswarm]]s to sync the latest treatment protocols, although many users disable this due to
 security and privacy concerns.`,
         classification: 'Technology/Networks'
+    }],
+    ['MemAmp', {
+        content:
+`A MemAmp is a neural lace that improves precision and recall of memories in the user via amplification of the action 
+potential of relevant neuron ensembles. This first requires a learning period, where the user is observed forming 
+different kinds of memories, although newer devices have reduced this significantly by shipping with more sophisticated
+prebuilt model data.`,
+        classification: 'Technology/Augmentations'
+    }],
+    ['Neurogenesis Treatment', {
+        content:
+            ``,
+        classification: 'Technology/Medicine'
     }],
     ['QuanLan',{
         content:

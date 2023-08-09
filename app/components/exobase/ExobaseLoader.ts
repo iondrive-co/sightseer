@@ -63,8 +63,10 @@ export const exobaseLoader: LoaderFunction = async ({ params, request, context }
             }
         });
         const processedContent = processedLines.join(' ');
-        const finalContent = processedContent.replace(/\[\[(.*?)\]\]/g, function (match, p1) {
-            return `<a href="/exobase/${p1.replace(/ /g, '_')}">${p1}</a>`;
+        const finalContent = processedContent.replace(/\[\[(.*?)(?:~(.*?))?\]\]/g, function (match, p1, p2) {
+            const displayName = p1.trim();
+            const linkTarget = (p2 || p1).trim().replace(/ /g, '_');
+            return `<a href="/exobase/${linkTarget}">${displayName}</a>`;
         });
 
         const finalHtml = `<ul>${finalContent}</ul>`;
