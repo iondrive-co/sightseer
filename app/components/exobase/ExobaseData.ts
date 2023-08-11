@@ -57,7 +57,29 @@ in off-planet locations such as ships and stations that have ad-hoc InterMesh wi
     }],
     ['First Contact Event', {
         content:
-            ``,
+`The First Contact Event refers to the discovery and subsequent observations of an extraterrestrial spacecraft, likely 
+a von Neumann probe, in the Kuiper Belt. The event ended with an attempt to rendezvous with the spacecraft, which then 
+changed trajectory and subsequently left the range of all radar satellites. Although the spacecraft is presumed to have
+left the solar system and no contact has been made since, the event has had significant and lasting effects on society.
+In recognition of this a proposal for a replacement to the Gregorian calender system, denoting the year of contact as 0 
+AFC (After First Contact) and prior years as BFC (Before First Contact) eventually became an adopted standard and is
+the most common calendar system in use system-wide.
+
+The anomaly was initially detected when several gamma ray detectors in the outer solar system picked up periodic
+gamma ray burst with energy signature not consistent with natural sources. The source was confirmed to be within the 
+Kuiper Belt when the Sub-millimeter Array component of the Titania Armstrong Observatory was directed towards the 
+estimated source and identified an unusual energy signature which did not match any known celestial bodies. The anomaly 
+was subsequently observed by a radar satellite orbiting Neptune, and then several others in the outer solar system. 
+These provided imaging of the object, and the doppler shift helped predict its trajectory, which appeared to change as 
+a result of the active radar.
+
+The imaging revealed a 4.7m long spherical object, emitting gamma rays which were later determined to be the result of 
+the electron-anti-election collisions in an [[Antimatter Engine]]. Although this was not known at the time, the 
+trajectory change and gamma ray bursts which by this time had been observed by many independent sources lead to an 
+system-wide crisis due to public accusations by both the [[Independent Habitats]] and [[Greater Zhōngguó]] that the 
+[[Peacekeepers]] were preparing a first strike attack using a new weapon system.
+
+`,
         classification: 'Society/Events'
     }],
     ['Haidian Takeoff Crisis', {
