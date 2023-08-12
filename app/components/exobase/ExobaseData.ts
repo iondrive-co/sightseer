@@ -73,13 +73,43 @@ was subsequently observed by a radar satellite orbiting Neptune, and then severa
 These provided imaging of the object, and the doppler shift helped predict its trajectory, which appeared to change as 
 a result of the active radar.
 
-The imaging revealed a 4.7m long spherical object, emitting gamma rays which were later determined to be the result of 
-the electron-anti-election collisions in an [[Antimatter Engine]]. Although this was not known at the time, the 
-trajectory change and gamma ray bursts which by this time had been observed by many independent sources lead to an 
-system-wide crisis due to public accusations by both the [[Independent Habitats]] and [[Greater Zhōngguó]] that the 
-[[Peacekeepers]] were preparing a first strike attack using a new weapon system.
+The imaging revealed a roughly 5m long spherical object, emitting gamma rays which were later determined to be the result of 
+the electron-anti-election collisions in an [[Antimatter Engine]]. Although the cause of the gamma ray bursts was not 
+known, their existence and the trajectory change, which by this time had been observed by many independent sources, lead 
+to a system-wide crisis as both [[FreeHab~Independent Habitats]] and [[GZ~Greater Zhōngguó]] publicly accused the 
+[[Peacekeepers]] of fielding a new first strike weapon system. [[Loitering Missile]] swarms were orbited by both GZ
+and the Peacekeepers, and all three polities moved fleets into high orbit. Freehab had several autonomous survey ships 
+within a few AU and similar trajectories to the object when it was detected, and announced they were moving them to 
+intercept. Over the next several days the lack of further trajectory changes or new objects helped to deescalate 
+tensions, and all three polities announced they were initiating their respective first contact protocols.
 
-`,
+Over the next week the nearest Freehab ship had moved close enough to use infrared thermography from its survey 
+equipment to determine that the object was likely assembling something inside itself. This is now generally accepted to 
+have been the early stages of a second probe, manufactured from previously gathered material. Once the survey vessel
+had closed the distance to 50 million kilometers, the object accelerated into an escape velocity. That fact that it was
+able to do this without gravitational assistance demonstrated the immense power of the tiny internal engine, and was 
+critical in dispelling most doubt about the extra-terrestrial origin of the object. Radar tracking of the object was 
+lost shortly after, and to date there have been no further contact events.
+
+Subsequently declassified files show that both the Peacekeepers and GZ immediately launched large scale research and 
+development projects based on data passively gathered from the object. Freehab also launched a smaller scale overt 
+effort, focussed mostly on the engineering of the replicating probe rather than the harder issues of antimatter 
+containment and propulsion that occupied the larger polities. These programs were likely a large contributor to the 
+successful engineering of the first large scale antimatter engines in 14 AFC, although effort to quantify the impact 
+have been hampered due to a large part of the research still being classified due to the overlap with 
+[[Antimatter Weapons]].
+
+The event also had a widespread effect on society. Many political parties used the issue to advance and in some cases 
+pass legislation on the ethical treatment of animals, religious tolerance, promoting atheism, better direct communication 
+systems between the larger powers, higher defence spending, and better sensor networks in the outer solar system. In the
+subsequent years there was a small decrease in those observing the three Abrahamic religions, and a larger increase in 
+people declaring themselves as atheists in census data. There was also a marked decrease in both local conflicts and
+in violent crimes, and several new inter-faction agencies such as the [[Outer Planets Trade Association]] were formed 
+during this period. The majority of people in several large scale surveys reported significant differences in outlook 
+due to the event, these included greater scientific interest, a sense of fear and uncertainly, and much weaker political 
+affiliations in some cases and much stronger in others. Overall these effects were profound and widespread enough that
+they were used to reform the Gregorian calendar years to recognise the first contact year as the first year of a new
+era.`,
         classification: 'Society/Events'
     }],
     ['Haidian Takeoff Crisis', {
