@@ -60,36 +60,48 @@ in off-planet locations such as ships and stations that have ad-hoc InterMesh wi
 `The First Contact Event refers to the discovery and subsequent observations of an extraterrestrial spacecraft, likely 
 a von Neumann probe, in the Kuiper Belt. The event ended with an attempt to rendezvous with the spacecraft, which then 
 changed trajectory and subsequently left the range of all radar satellites. Although the spacecraft is presumed to have
-left the solar system and no contact has been made since, the event has had significant and lasting effects on society.
-In recognition of this a proposal for a replacement to the Gregorian calender system, denoting the year of contact as 0 
-AFC (After First Contact) and prior years as BFC (Before First Contact) eventually became an adopted standard and is
-the most common calendar system in use system-wide.
+left the solar system and no contact has been made since, the event has had significant and lasting effects on society,
+such as an revised Gregorian calender year denoting 0 AFC (After First Contact) and prior years BFC 
+(Before First Contact).
 
-The anomaly was initially detected when several gamma ray detectors in the outer solar system picked up periodic
-gamma ray burst with energy signature not consistent with natural sources. The source was confirmed to be within the 
-Kuiper Belt when the Sub-millimeter Array component of the Titania Armstrong Observatory was directed towards the 
-estimated source and identified an unusual energy signature which did not match any known celestial bodies. The anomaly 
-was subsequently observed by a radar satellite orbiting Neptune, and then several others in the outer solar system. 
-These provided imaging of the object, and the doppler shift helped predict its trajectory, which appeared to change as 
-a result of the active radar.
+# Events 
 
-The imaging revealed a roughly 5m long spherical object, emitting gamma rays which were later determined to be the result of 
-the electron-anti-election collisions in an [[Antimatter Engine]]. Although the cause of the gamma ray bursts was not 
-known, their existence and the trajectory change, which by this time had been observed by many independent sources, lead 
-to a system-wide crisis as both [[FreeHab~Independent Habitats]] and [[GZ~Greater Zhōngguó]] publicly accused the 
-[[Peacekeepers]] of fielding a new first strike weapon system. [[Loitering Missile]] swarms were orbited by both GZ
-and the Peacekeepers, and all three polities moved fleets into high orbit. Freehab had several autonomous survey ships 
-within a few AU and similar trajectories to the object when it was detected, and announced they were moving them to 
-intercept. Over the next several days the lack of further trajectory changes or new objects helped to deescalate 
-tensions, and all three polities announced they were initiating their respective first contact protocols.
+The spacecraft was initially registered as an anomalous reading from several gamma ray detectors in the outer solar 
+system, which picked up periodic gamma ray bursts with energy signature not consistent with natural sources. The origin 
+was confirmed to be within the Kuiper Belt when the Sub-millimeter Array component of the Titania Armstrong Observatory 
+was directed towards the area and identified an unusual energy signature which did not match any known celestial bodies. 
+The anomaly was subsequently observed by a radar satellite orbiting Neptune, and then several others in the outer solar 
+system. These provided imaging of the object, and the doppler shift helped predict its trajectory, which appeared to 
+change as a result of the active radar.
+
+The imaging revealed a roughly 5m long spherical object, emitting gamma rays which were later determined to be the 
+result of electron-anti-election collisions in an [[Antimatter Engine]]. Although the cause of the gamma ray bursts was 
+not known at the time, their existence and the trajectory change, which by this time had been observed by many 
+independent sources, lead to a system-wide crisis as both [[FreeHab~Independent Habitats]] and [[GZ~Greater Zhōngguó]] 
+publicly accused the [[Peacekeepers]] of fielding a new first strike weapon system. 
+
+[[Loitering Missile]] swarms were orbited by both GZ and the Peacekeepers, and all three polities moved fleets into 
+high orbit. Freehab had several autonomous survey ships within a few AU and similar trajectories to the object when it 
+was detected, and announced they were moving them to intercept. Over the next several days the lack of further 
+trajectory changes or new objects helped to deescalate tensions, and all three polities announced they were initiating 
+their respective first contact protocols.
 
 Over the next week the nearest Freehab ship had moved close enough to use infrared thermography from its survey 
 equipment to determine that the object was likely assembling something inside itself. This is now generally accepted to 
-have been the early stages of a second probe, manufactured from previously gathered material. Once the survey vessel
-had closed the distance to 50 million kilometers, the object accelerated into an escape velocity. That fact that it was
-able to do this without gravitational assistance demonstrated the immense power of the tiny internal engine, and was 
-critical in dispelling most doubt about the extra-terrestrial origin of the object. Radar tracking of the object was 
-lost shortly after, and to date there have been no further contact events.
+have been the early stages of a second probe, manufactured from material gathered further out in our solar system. Once 
+the survey vessel had closed the distance to 50 million kilometers, the object accelerated into an escape velocity. 
+The fact that it was able to do this without gravitational assistance demonstrated the immense power of the tiny 
+internal engine, and was critical in dispelling doubt about the extra-terrestrial origin of the object. Radar tracking 
+of the object was lost shortly after, and to date there have been no further contact events.
+
+# Scientific Impact
+
+Scientific consensus around the events was fairly quickly established for some basic facts. Based on the exit 
+trajectory, the best estimate for the next destination of the probe is the Sirius binary system. 
+The technological level of the society that built the probe is likely to be at least a Kardashev 1, potentially a
+Kardashev 2, civilisation in our galaxy. The fact that the probe was gathering resources from the outer solar system 
+and left once approach indicates that its designers had no knowledge of us, are located at some distance, and have an
+interest in exploring distant systems.
 
 Subsequently declassified files show that both the Peacekeepers and GZ immediately launched large scale research and 
 development projects based on data passively gathered from the object. Freehab also launched a smaller scale overt 
@@ -99,17 +111,22 @@ successful engineering of the first large scale antimatter engines in 14 AFC, al
 have been hampered due to a large part of the research still being classified due to the overlap with 
 [[Antimatter Weapons]].
 
+# Societal Implications
+
 The event also had a widespread effect on society. Many political parties used the issue to advance and in some cases 
 pass legislation on the ethical treatment of animals, religious tolerance, promoting atheism, better direct communication 
 systems between the larger powers, higher defence spending, and better sensor networks in the outer solar system. In the
 subsequent years there was a small decrease in those observing the three Abrahamic religions, and a larger increase in 
 people declaring themselves as atheists in census data. There was also a marked decrease in both local conflicts and
 in violent crimes, and several new inter-faction agencies such as the [[Outer Planets Trade Association]] were formed 
-during this period. The majority of people in several large scale surveys reported significant differences in outlook 
+during this period. 
+
+The majority of people in several large scale surveys reported significant differences in outlook 
 due to the event, these included greater scientific interest, a sense of fear and uncertainly, and much weaker political 
-affiliations in some cases and much stronger in others. Overall these effects were profound and widespread enough that
-they were used to reform the Gregorian calendar years to recognise the first contact year as the first year of a new
-era.`,
+affiliations in some cases and much stronger in others. As a result, a proposal for a replacement to the Gregorian 
+calender system, denoting the year of contact as 0 AFC (After First Contact) and prior years as BFC (Before First 
+Contact) gained enough support to became an standard and eventually the most common calendar system in use system-wide.
+`,
         classification: 'Society/Events'
     }],
     ['Haidian Takeoff Crisis', {

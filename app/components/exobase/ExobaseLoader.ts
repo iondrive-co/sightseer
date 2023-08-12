@@ -54,6 +54,9 @@ export const exobaseLoader: LoaderFunction = async ({ params, request, context }
             if (line.startsWith("- ")) {
                 // This is a list item
                 return `<li>${line.substring(2)}</li>`;  // Remove the "- " and wrap in <li>
+            } else if (line.startsWith("# ")) {
+                // This is a heading
+                return `</ul><h2>${line.substring(2)}</h2><ul>`;
             } else if (line.trim() === '') {
                 // This is a blank line, treat it as a paragraph separator
                 return '</ul><p></p><ul>';

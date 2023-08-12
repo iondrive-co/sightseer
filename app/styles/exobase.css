@@ -17,6 +17,10 @@
     white-space: pre-line;
 }
 
+h2 {
+    font-size: 1.4rem;
+}
+
 @media screen and (max-width: 1500px) {
     .title {
         padding: 0 4%;
