@@ -60,9 +60,7 @@ in off-planet locations such as ships and stations that have ad-hoc InterMesh wi
 `The First Contact Event refers to the discovery and subsequent observations of an extraterrestrial spacecraft, likely 
 a von Neumann probe, in the Kuiper Belt. The event ended with an attempt to rendezvous with the spacecraft, which then 
 changed trajectory and subsequently left the range of all radar satellites. Although the spacecraft is presumed to have
-left the solar system and no contact has been made since, the event has had significant and lasting effects on society,
-such as an revised Gregorian calender year denoting 0 AFC (After First Contact) and prior years BFC 
-(Before First Contact).
+left the solar system and no contact has been made since, the event has had significant and lasting effects on society.
 
 # Events 
 
@@ -83,7 +81,7 @@ publicly accused the [[Peacekeepers]] of fielding a new first strike weapon syst
 [[Loitering Missile]] swarms were orbited by both GZ and the Peacekeepers, and all three polities moved fleets into 
 high orbit. Freehab had several autonomous survey ships within a few AU and similar trajectories to the object when it 
 was detected, and announced they were moving them to intercept. Over the next several days the lack of further 
-trajectory changes or new objects helped to deescalate tensions, and all three polities announced they were initiating 
+trajectory changes or new objects helped to de-escalate tensions, and all three polities announced they were initiating 
 their respective first contact protocols.
 
 Over the next week the nearest Freehab ship had moved close enough to use infrared thermography from its survey 
@@ -96,36 +94,39 @@ of the object was lost shortly after, and to date there have been no further con
 
 # Scientific Impact
 
-Scientific consensus around the events was fairly quickly established for some basic facts. Based on the exit 
-trajectory, the best estimate for the next destination of the probe is the Sirius binary system. 
-The technological level of the society that built the probe is likely to be at least a Kardashev 1, potentially a
-Kardashev 2, civilisation in our galaxy. The fact that the probe was gathering resources from the outer solar system 
-and left once approach indicates that its designers had no knowledge of us, are located at some distance, and have an
-interest in exploring distant systems.
+Based on the exit trajectory, the best estimate for the next destination of the probe is the Sirius binary system. 
+It is unlikely that a civilisation at less than a Kardashev 1 level would be able to build a spacecraft that was not
+only powered by antimatter, but also either carrying enough antimatter for interstellar travel or able to generate more
+on route. The fact that the probe was gathering resources from the outer solar system and left once approached might
+indicate that its designers had no knowledge of us, which implies they are located at some distance. There has been 
+plenty of other speculation, such as that the senders are a radiotrophic life form actually travelling with the probe, 
+but all that is certain is that they have some interest in exploring other systems.
 
 Subsequently declassified files show that both the Peacekeepers and GZ immediately launched large scale research and 
 development projects based on data passively gathered from the object. Freehab also launched a smaller scale overt 
 effort, focussed mostly on the engineering of the replicating probe rather than the harder issues of antimatter 
 containment and propulsion that occupied the larger polities. These programs were likely a large contributor to the 
-successful engineering of the first large scale antimatter engines in 14 AFC, although effort to quantify the impact 
-have been hampered due to a large part of the research still being classified due to the overlap with 
+successful engineering of the first antimatter engine prototypes in 14 AFC, although public efforts to quantify the 
+impact have been hampered due to a large part of the research still being classified due to the overlap with 
 [[Antimatter Weapons]].
 
 # Societal Implications
 
-The event also had a widespread effect on society. Many political parties used the issue to advance and in some cases 
-pass legislation on the ethical treatment of animals, religious tolerance, promoting atheism, better direct communication 
-systems between the larger powers, higher defence spending, and better sensor networks in the outer solar system. In the
-subsequent years there was a small decrease in those observing the three Abrahamic religions, and a larger increase in 
+Many political parties used the event to advance, and in some cases pass, legislation on matters such as the ethical 
+treatment of animals, religious tolerance, promoting atheism, better direct communication systems between the larger 
+powers, higher defence spending, and better sensor networks in the outer solar system. The majority of people in several 
+large scale surveys at the time reported significantly weaker national political affiliations, and where more favourable
+to legislation on larger scale issues such as global defence and large scientific projects.
+ 
+The subsequent years were a period of economic prosperity with a distinct cultural edge, with significant new trends in
+lifestyle and culture. The period was marked by a general feeling of novelty associated with modernity and a break with 
+tradition. There was a small decrease in those observing the three Abrahamic religions, and a larger increase in 
 people declaring themselves as atheists in census data. There was also a marked decrease in both local conflicts and
-in violent crimes, and several new inter-faction agencies such as the [[Outer Planets Trade Association]] were formed 
-during this period. 
-
-The majority of people in several large scale surveys reported significant differences in outlook 
-due to the event, these included greater scientific interest, a sense of fear and uncertainly, and much weaker political 
-affiliations in some cases and much stronger in others. As a result, a proposal for a replacement to the Gregorian 
+in violent crimes. Several new inter-faction agencies such as the [[Outer Planets Trade Association]] were formed 
+during this period. As a result of the widespread effects on society, a proposal for a replacement to the Gregorian 
 calender system, denoting the year of contact as 0 AFC (After First Contact) and prior years as BFC (Before First 
-Contact) gained enough support to became an standard and eventually the most common calendar system in use system-wide.
+Contact) eventually gained enough support to became a certified standard. Over time it gained in popularity and the FC 
+calender is now the most common calendar in use system-wide.
 `,
         classification: 'Society/Events'
     }],
