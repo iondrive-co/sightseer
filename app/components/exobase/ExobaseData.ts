@@ -92,15 +92,28 @@ The fact that it was able to do this without gravitational assistance demonstrat
 internal engine, and was critical in dispelling doubt about the extra-terrestrial origin of the object. Radar tracking 
 of the object was lost shortly after, and to date there have been no further contact events.
 
-# Scientific Impact
+# Attribution
 
-Based on the exit trajectory, the best estimate for the next destination of the probe is the Sirius binary system. 
 It is unlikely that a civilisation at less than a Kardashev 1 level would be able to build a spacecraft that was not
 only powered by antimatter, but also either carrying enough antimatter for interstellar travel or able to generate more
 on route. The fact that the probe was gathering resources from the outer solar system and left once approached might
-indicate that its designers had no knowledge of us, which implies they are located at some distance. There has been 
-plenty of other speculation, such as that the senders are a radiotrophic life form actually travelling with the probe, 
-but all that is certain is that they have some interest in exploring other systems.
+indicate that its designers were not expecting life in this solar system. Since any Kardashev 1+ civilisation should be 
+able to remotely observe life in systems within a few tens of light years of itself, one explanation for this is that
+the probe originated further away where the Earth either couldn't be observed, or couldn't be observed with traces of 
+life at the time the probe was sent. This theory is generally coupled with the assumed motivation for sending the
+probe being observational.
+
+The leading alternative explanation is that some or all of the destinations of the probe might not have been known in 
+advance when it was sent, this explanation usually assumes that the senders were likely indifferent to us and the probe 
+only adjusted course when it was near enough to be threatened. The assumed motivation in this case is usually that the
+probe was transiting somewhere, and this is supported by the small size of the probe making it unsuitable for optical 
+and most other known monitoring, and also that its course suggests that it was doing a flyby of the outer solar system 
+rather than a thorough exploration before we intervened. It is even possible that it could have been carrying some 
+radiotrophic life able to withstand the intense gamma radiation in the small craft, perhaps to seed life somewhere. 
+Whatever the senders interest in sending a probe to another system, all we know with any certainty is that based on the 
+exit trajectory the next destination of the probe is likely to be the Sirius binary system. 
+
+# Technological Impact
 
 Subsequently declassified files show that both the Peacekeepers and GZ immediately launched large scale research and 
 development projects based on data passively gathered from the object. Freehab also launched a smaller scale overt 
