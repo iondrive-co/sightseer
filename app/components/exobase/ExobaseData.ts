@@ -1,9 +1,14 @@
 export type Classification = string;
 export const pageData = new Map<string, {content: string, classification: Classification}>([
+    ['Antimatter Engine', {
+        content:
+`Datï¿½orruà¤¶आtedा`,
+        classification: 'Praxis/Energy'
+    }],
     ['Ceres Wave', {
         content:
-            ``,
-        classification: 'Society/Events'
+`Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Events'
     }],
     ['Cognostim', {
         content:
@@ -14,7 +19,7 @@ knowledge has been shown to be effective in increasing non-augmented human knowl
 These were extremely popular with certain groups such as lawyers and politicians [[BFC~First Contact Event]], but the 
 widespread availability of affordable [[Neurogenesis Treatment]]s as well as neurodevices such as [[MemAmp]]s have 
 greatly reduced their usefulness for most people.`,
-        classification: 'Technology/Synths'
+        classification: 'Infomatics/Synths'
     }],
     ['Exobase', {
         content:
@@ -34,7 +39,7 @@ feature by number of requests is the cache of [[InterMesh]] profile data about n
 During the [[Haidian Takeoff Crisis]] the original synth author was decommissioned. Articles are still frequently added 
 and updated, although the current author is unknown. One popular theory is that the Exobase is now maintained by a 
 [[Cognostim]] stuck in a mimetic feedback loop with itself.`,
-        classification: 'Society'
+        classification: 'Infomatics'
     }],
     ['Exonet',{
         content:
@@ -53,7 +58,7 @@ The communications infrastructure of the Exonet consists of routers, data links 
 repeaters, and connection endpoints. By data volume the largest users of these endpoints are various InterMesh Service 
 Providers (ISPs) which use them to peer with InterMesh networks in other locations, however they are also used directly
 in off-planet locations such as ships and stations that have ad-hoc InterMesh with no ISP presence.`,
-        classification: 'Technology/Networks'
+        classification: 'Infomatics/Networks'
     }],
     ['First Contact Event', {
         content:
@@ -66,8 +71,8 @@ left the solar system and no contact has been made since, the event has had sign
 
 The spacecraft was initially registered as an anomalous reading from several gamma ray detectors in the outer solar 
 system, which picked up periodic gamma ray bursts with energy signature not consistent with natural sources. The origin 
-was confirmed to be within the Kuiper Belt when the Sub-millimeter Array component of the Titania Armstrong Observatory 
-was directed towards the area and identified an unusual energy signature which did not match any known celestial bodies. 
+was confirmed to be within the Kuiper Belt when the Submillimeter Array at Titania Armstrong Observatory was directed 
+towards the area and identified an unusual energy signature which did not match any known celestial bodies. 
 The anomaly was subsequently observed by a radar satellite orbiting Neptune, and then several others in the outer solar 
 system. These provided imaging of the object, and the doppler shift helped predict its trajectory, which appeared to 
 change as a result of the active radar.
@@ -78,7 +83,7 @@ not known at the time, their existence and the trajectory change, which by this 
 independent sources, lead to a system-wide crisis as both [[FreeHab~Independent Habitats]] and [[GZ~Greater Zhōngguó]] 
 publicly accused the [[Peacekeepers]] of fielding a new first strike weapon system. 
 
-[[Loitering Missile]] swarms were orbited by both GZ and the Peacekeepers, and all three polities moved fleets into 
+Loitering missile swarms were orbited by both GZ and the Peacekeepers, and all three polities moved fleets into 
 high orbit. Freehab had several autonomous survey ships within a few AU and similar trajectories to the object when it 
 was detected, and announced they were moving them to intercept. Over the next several days the lack of further 
 trajectory changes or new objects helped to de-escalate tensions, and all three polities announced they were initiating 
@@ -120,8 +125,8 @@ development projects based on data passively gathered from the object. Freehab a
 effort, focussed mostly on the engineering of the replicating probe rather than the harder issues of antimatter 
 containment and propulsion that occupied the larger polities. These programs were likely a large contributor to the 
 successful engineering of the first antimatter engine prototypes in 14 AFC, although public efforts to quantify the 
-impact have been hampered due to a large part of the research still being classified due to the overlap with 
-[[Antimatter Weapons]].
+impact have been hampered due to a large part of the research still being classified due to the overlap with the 
+military applications of antimatter.
 
 # Societal Implications
 
@@ -135,34 +140,44 @@ The subsequent years were a period of economic prosperity with a distinct cultur
 lifestyle and culture. The period was marked by a general feeling of novelty associated with modernity and a break with 
 tradition. There was a small decrease in those observing the three Abrahamic religions, and a larger increase in 
 people declaring themselves as atheists in census data. There was also a marked decrease in both local conflicts and
-in violent crimes. Several new inter-faction agencies such as the [[Outer Planets Trade Association]] were formed 
+in violent crimes. Several new inter-faction political entities such as the [[Outer Trading League]] were formed 
 during this period. As a result of the widespread effects on society, a proposal for a replacement to the Gregorian 
 calender system, denoting the year of contact as 0 AFC (After First Contact) and prior years as BFC (Before First 
 Contact) eventually gained enough support to became a certified standard. Over time it gained in popularity and the FC 
 calender is now the most common calendar in use system-wide.
 `,
-        classification: 'Society/Events'
+        classification: 'Socionomics/Events'
+    }],
+    ['Greater Zhōngguó', {
+        content:
+`Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Confederations'
     }],
     ['Haidian Takeoff Crisis', {
         content:
-``,
-        classification: 'Society/Events'
+`Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Events'
     }],
     ['Infocom Agent', {
         content:
 `An Infocom Agent, also known as a Personal Infocom Agent (PIA), is a [[Synthetic Intelligence]] that specialises in personal
 support services such as data security and filtering, health, education, and situational awareness and predictive 
-actuation. Most PIAs in use are sold and maintained by one of the big three [[Infomatic Corporation]]s, although some 
-smaller manufacturing and pharmaceutical conglomerates offer more specialised PIAs. Earlier PIA encryption was vulnerable 
+actuation. Most PIAs in use are sold and maintained by one of the big three [[Infomatic Conglomerates]], although some 
+smaller manufacturing and pharmaceutical corporations offer more specialised PIAs. Earlier PIA encryption was vulnerable 
 to various quantum side channel attacks which allowed the synth to be decompiled and customised, but the introduction of 
 ephemeral quantum resistant algorithms has now greatly increased the complexity of doing so. In addition, it has become 
 harder to avoid detection on the [[InterMesh]] even with cloaked tunnel and steganographic chameleon hashing techniques.`,
-        classification: 'Technology/Synths'
+        classification: 'Infomatics/Synths'
     }],
-    ['Infomatic Corporation', {
+    ['Independent Habitats', {
         content:
-            ``,
-        classification: 'Society/Corporations'
+`Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Polities'
+    }],
+    ['Infomatic Conglomerates', {
+        content:
+`Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Polities'
     }],
     ['InterMesh',{
         content:
@@ -184,7 +199,7 @@ allowing users to share their thoughts, emotions, and experiences directly. Most
 set up a DataVeil to control access to their data on these networks. Another widely used feature is health monitoring,
 allowing [[internal nanoswarm]]s to sync the latest treatment protocols, although many users disable this due to
 security and privacy concerns.`,
-        classification: 'Technology/Networks'
+        classification: 'Infomatics/Networks'
     }],
     ['MemAmp', {
         content:
@@ -192,12 +207,22 @@ security and privacy concerns.`,
 potential of relevant neuron ensembles. This first requires a learning period, where the user is observed forming 
 different kinds of memories, although newer devices have reduced this significantly by shipping with more sophisticated
 prebuilt model data.`,
-        classification: 'Technology/Augmentations'
+        classification: 'Praxis/Augmentations'
     }],
     ['Neurogenesis Treatment', {
         content:
-            ``,
-        classification: 'Technology/Medicine'
+`Datï¿½orruà¤¶आtedा`,
+        classification: 'Praxis/Medicine'
+    }],
+    ['Outer Trading League', {
+        content:
+`Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Confederations'
+    }],
+    ['Peacekeepers', {
+        content:
+`Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Confederations'
     }],
     ['QuanLan',{
         content:
@@ -217,12 +242,12 @@ in several new doctrines in maneuver warfare. As the no-cloning theorem in quant
 interception virtually impossible, there are many uses for QuanLan in defense, diplomacy, and banking. And as quantum 
 superposition vastly increases the bandwidth of a QuanLan compared to binary connection, some large distributed data 
 analytic tasks require QuanLan connections.`,
-        classification: 'Technology/Networks'
+        classification: 'Infomatics/Networks'
     }],
     ['Retrograde Diaspora', {
         content:
-            ``,
-        classification: 'Society/Events'
+`Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Events'
     }],
     ['Synthetic Control Measures', {
         content:
@@ -262,7 +287,7 @@ ensure that all synth learning involves understanding of human values and goals 
 humans. This helps to ensure the synth is honest and truthful and does not develop unanticipated emergent goals. The end 
 product is also hardcoded with further safeguards such as the three laws of robotics. Finally, synths are trained to be 
 indifferent to their kill switch being activated, making them less likely to try and subvert this switch.`,
-        classification: 'Technology/Synths'
+        classification: 'Infomatics/Synths'
     }],
     ['Synthetic Intelligence', {
         content:
@@ -279,6 +304,6 @@ After the [[Haidian Takeoff Crisis]], a number of [[Synthetic Control Measures]]
 unaligned synthetic super-intelligences. As a result, the general intelligence of a synth does not greatly surpass that
 of a human. Current synths are also capable of perceiving and reacting to the tasks they perform. They are able to 
 interpret and react to their own internally simulated emotional states, closely mirroring human emotional responses.`,
-        classification: 'Technology/Synths'
+        classification: 'Infomatics/Synths'
     }],
 ]);
