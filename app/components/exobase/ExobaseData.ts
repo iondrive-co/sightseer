@@ -193,9 +193,15 @@ and many links use higher bandwidth mediums. The routing protocol is similarly f
 almost exclusively via the Ad-hoc On-Demand Hyperplane Vector (AOHV) protocol due to the highly mobile data paths that 
 are common in most IM networks.
 
+In the BFC 70s the ability to affordably print basic smart dust InterMesh relays from home devices caused a several 
+order of magnitude increase in the connection density in many urban centers. In the subsequent decades the falling cost 
+and increasing capabilities of smart dust made large amounts of computing power available across large swathes of Earth 
+as well as many of the colonies. As a result [[Infocom Agent]]s start to be able to perform tasks such as run complex 
+simulations, train models to solve issues, and provide AR and other complex entertainment from most locations on Earth.
+
 The InterMesh is the default network for the super-majority of communicating devices, and is the default communication
 medium for most of humanity. One of its most popular functions is social networking, mostly via neural augmentations,
-allowing users to share their thoughts, emotions, and experiences directly. Most users have their [[Infocom Agent]] 
+allowing users to share their thoughts, emotions, and experiences directly. Most users have their Infocom Agent
 set up a DataVeil to control access to their data on these networks. Another widely used feature is health monitoring,
 allowing [[internal nanoswarm]]s to sync the latest treatment protocols, although many users disable this due to
 security and privacy concerns.`,
