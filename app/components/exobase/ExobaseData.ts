@@ -4,16 +4,15 @@ export const pageData = new Map<string, {content: string, classification: Classi
         content:
 `Antimatter engines are a class of propulsion technology that make use of the energy released during the annihilation of 
 matter and antimatter particles. The engineering advances required to produce the first working prototype were only made 
-possible due to the [[First Contact Event]], and they still remain in extremely limited use due to the challenges and 
-costs associated with producing and storing antimatter.
+possible due to the [[First Contact Event]], and they still remain in extremely limited use in only the largest military 
+and corporate fleets due to the challenges and costs associated with producing and storing antimatter.
 
 # Production
 
-All current large scale (>mg) antimatter production occurs in large fully automated stations in sun-polar orbits, which
-avoid the high density solar winds in the Sun's equatorial zones. They use large arrays of solar panels to power 
-particle accelerators which generate high-energy photons. These are directed towards a target material to create 
-particle-antiparticle pairs such as an electron (matter) and a positron (antimatter) when they interact with the strong 
-electric field of a nucleus.
+All current mg+ scale antimatter production occurs in large fully automated stations. They are all in sun-polar orbits, 
+which avoid the high density solar winds in the Sun's equatorial zones, and use large arrays of solar panels to power 
+particle accelerators generating high-energy photons. These are directed towards a target material to create 
+particle-antiparticle pairs when the photon interacts with the strong electric field of a nucleus.
 
 Penning traps are used to store antimatter particles, and transportation off the station is performed by automated 
 drones designed with multiple fail-safes to maintain power to the magnetic containment system. If the target spacecraft
@@ -22,23 +21,30 @@ the propulsion system of the spacecraft is riskier than running the engine norma
 
 # Operation
 
-The fundamental principle behind antimatter engines is the energy released when matter and antimatter come into contact 
-and annihilate each other. This annihilation produces high-energy gamma rays, which can then be used to produce thrust. 
-Specifically, when an antiparticle collides with its corresponding particle (e.g., an electron and a positron), they 
-annihilate, producing gamma radiation. Gamma rays themselves are not directly useful for propulsion. Instead, they heat
-a propellant, usually methane, to high temperatures, producing a high-pressure and high-speed exhaust that is ejected 
-through a nozzle to produce thrust. Alternatively some designs use gamma rays to generate electricity, which is then 
-used to accelerate charged particles for thrust.
+Antimatter engines are powered by the gamma ray energy released when matter and antimatter come into contact and 
+annihilate each other. This energy is used to heat a propellant, usually methane or lithium, producing a high-pressure 
+and high-speed exhaust that is ejected through a nozzle to produce thrust. Alternatively some designs use gamma rays to 
+generate electricity, which is then used to accelerate charged particles for thrust.
 
-E=mc^2, Einstein's famous equation, dictates that even small amounts of mass can be converted into vast amounts of 
-energy. This is especially true in the case of matter-antimatter reactions, which are among the most energy-dense 
-reactions known. The kinetic energy for an object moving at a velocity vv is given by 1/2 mv^2, where m is the mass of
-the object. Therefore achieving a velocity of 0.01c for a 100 000kg craft requires 4.5×10^17 joules of energy, which 
-from E=mc2 is approximately 10kg of matter-antimatter fuel.
+Matter-antimatter reactions such as electron positron collisions are among the most energy-dense reactions known. 
+The kinetic energy for an object moving at a velocity vv is given by 1/2 mv^2, where m is the mass of
+the object. Therefore achieving a velocity of 0.01c for a 100 tonne craft requires 4.5×10^17 joules of energy, which 
+from E=mc^2 is only approximately 10kg of matter-antimatter fuel. As such most of the crafts displacement is the 
+propellant, with the 100 tonne craft requiring 64 tonnes of lithium for the 0.01c burn. 
 
-If containment failed for this amount of antimatter, the explosion would release around 10^8 megatons of energy. The 
-safe distance to keep radiation under 1msv would be around 20 000km, and this is the generally accepted guideline for 
-the minimum distance an antimatter engine should be located from human life, other than any crew.`,
+Warships requiring a higher ISP are equipped with methane burn engines, these are not used commercially as several times 
+as much liquid propellant is required for the same acceleration. The most expensive long range scientific probes use
+antimatter propulsion via an alternative system of generating electricity for photon thrust directly from the gamma 
+rays, this system is more reliable than other antimatter engines due to its simplicity, and incredibly efficient due to 
+the lack of non-antimatter propellant, however the low ISP makes this unsuitable for normal commercial transportation 
+purposes.
+
+If containment for the average 10kg antimatter load failed, the explosion would release around 10^8 megatons of energy.
+The safe distance to keep radiation under 1msv would be around 20 000km, and this is the generally accepted guideline 
+for the minimum distance a standard antimatter engine should be located from people other than crew. Other than early
+prototypes there has never been a publicly disclosed containment failure in either a factory or craft. There have 
+recently been attempts by several corporations to remove some of the redundant safeguards in order to reduce the 
+exorbitant cost of operating an antimatter engine.`,
         classification: 'Praxis/Energy'
     }],
     ['Ceres Wave', {
