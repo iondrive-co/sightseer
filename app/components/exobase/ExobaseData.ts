@@ -2,7 +2,43 @@ export type Classification = string;
 export const pageData = new Map<string, {content: string, classification: Classification}>([
     ['Antimatter Engine', {
         content:
-`Datï¿½orruà¤¶आtedा`,
+`Antimatter engines are a class of propulsion technology that make use of the energy released during the annihilation of 
+matter and antimatter particles. The engineering advances required to produce the first working prototype were only made 
+possible due to the [[First Contact Event]], and they still remain in extremely limited use due to the challenges and 
+costs associated with producing and storing antimatter.
+
+# Production
+
+All current large scale (>mg) antimatter production occurs in large fully automated stations in sun-polar orbits, which
+avoid the high density solar winds in the Sun's equatorial zones. They use large arrays of solar panels to power 
+particle accelerators which generate high-energy photons. These are directed towards a target material to create 
+particle-antiparticle pairs such as an electron (matter) and a positron (antimatter) when they interact with the strong 
+electric field of a nucleus.
+
+Penning traps are used to store antimatter particles, and transportation off the station is performed by automated 
+drones designed with multiple fail-safes to maintain power to the magnetic containment system. If the target spacecraft
+is crewed, rendezvous normally occurs before they have boarded since integrating the antimatter containment unit with 
+the propulsion system of the spacecraft is riskier than running the engine normally.
+
+# Operation
+
+The fundamental principle behind antimatter engines is the energy released when matter and antimatter come into contact 
+and annihilate each other. This annihilation produces high-energy gamma rays, which can then be used to produce thrust. 
+Specifically, when an antiparticle collides with its corresponding particle (e.g., an electron and a positron), they 
+annihilate, producing gamma radiation. Gamma rays themselves are not directly useful for propulsion. Instead, they heat
+a propellant, usually methane, to high temperatures, producing a high-pressure and high-speed exhaust that is ejected 
+through a nozzle to produce thrust. Alternatively some designs use gamma rays to generate electricity, which is then 
+used to accelerate charged particles for thrust.
+
+E=mc^2, Einstein's famous equation, dictates that even small amounts of mass can be converted into vast amounts of 
+energy. This is especially true in the case of matter-antimatter reactions, which are among the most energy-dense 
+reactions known. The kinetic energy for an object moving at a velocity vv is given by 1/2 mv^2, where m is the mass of
+the object. Therefore achieving a velocity of 0.01c for a 100 000kg craft requires 4.5×10^17 joules of energy, which 
+from E=mc2 is approximately 10kg of matter-antimatter fuel.
+
+If containment failed for this amount of antimatter, the explosion would release around 10^8 megatons of energy. The 
+safe distance to keep radiation under 1msv would be around 20 000km, and this is the generally accepted guideline for 
+the minimum distance an antimatter engine should be located from human life, other than any crew.`,
         classification: 'Praxis/Energy'
     }],
     ['Ceres Wave', {
@@ -16,7 +52,7 @@ export const pageData = new Map<string, {content: string, classification: Classi
 elenctic teaching, that is in stimulating learning by expanding on concepts such that one or more expanded elements
 can be refuted, in order to clarify the limits of the original concept. This dialogic or dialectic approach to refining 
 knowledge has been shown to be effective in increasing non-augmented human knowledge retrieval and rhetorical abilities.
-These were extremely popular with certain groups such as lawyers and politicians [[BFC~First Contact Event]], but the 
+These were popular with public speaking professions such as lawyers and politicians [[BFC~First Contact Event]], but the 
 widespread availability of affordable [[Neurogenesis Treatment]]s as well as neurodevices such as [[MemAmp]]s have 
 greatly reduced their usefulness for most people.`,
         classification: 'Infomatics/Synths'
