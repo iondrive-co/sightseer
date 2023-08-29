@@ -3,9 +3,10 @@ export const pageData = new Map<string, {content: string, classification: Classi
     ['Antimatter Engine', {
         content:
 `Antimatter engines are a class of propulsion technology that make use of the energy released during the annihilation of 
-matter and antimatter particles. The engineering advances required to produce the first working prototype were only made 
-possible due to the [[First Contact Event]], and they still remain in extremely limited use in only the largest military 
-and corporate fleets due to the challenges and costs associated with producing and storing antimatter.
+matter and antimatter particles. The engineering advances required to produce the containment required for the first 
+working prototype were only made possible due to the [[First Contact Event]]. Antimatter engines still remain in 
+extremely limited use, in only the largest military and corporate fleets, due to the challenges and costs associated 
+with producing and storing antimatter.
 
 # Production
 
@@ -22,22 +23,27 @@ the propulsion system of the spacecraft is riskier than running the engine norma
 # Operation
 
 Antimatter engines are powered by the gamma ray energy released when matter and antimatter come into contact and 
-annihilate each other. This energy is used to heat a propellant, usually methane or lithium, producing a high-pressure 
-and high-speed exhaust that is ejected through a nozzle to produce thrust. Alternatively some designs use gamma rays to 
-generate electricity, which is then used to accelerate charged particles for thrust.
+annihilate each other. This energy is used to vaporize a solid propellant such as lithium (or more rarely heat a liquid
+propellant such as methane), producing a high-pressure high-speed exhaust which is ejected through a nozzle to produce 
+thrust. Alternatively some designs use gamma rays to generate electricity, which is then used to accelerate charged 
+particles for thrust.
 
 Matter-antimatter reactions such as electron positron collisions are among the most energy-dense reactions known. 
 The kinetic energy for an object moving at a velocity vv is given by 1/2 mv^2, where m is the mass of
 the object. Therefore achieving a velocity of 0.01c for a 100 tonne craft requires 4.5×10^17 joules of energy, which 
-from E=mc^2 is only approximately 10kg of matter-antimatter fuel. As such most of the crafts displacement is the 
-propellant, with the 100 tonne craft requiring 64 tonnes of lithium for the 0.01c burn. 
+from E=mc^2 is only approximately 10kg of matter-antimatter fuel. As such most of the crafts tonnage is the propellant, 
+with approximately half the displacement of a 100 tonne craft being the lithium for the 0.01c burn. The engineering
+required to make required volume of solid propellant available for vaporization is a commercial and military secret and
+other than containment is the main barrier preventing smaller corporations from developing competing antimatter engines.
 
 Warships requiring a higher ISP are equipped with methane burn engines, these are not used commercially as several times 
 as much liquid propellant is required for the same acceleration. The most expensive long range scientific probes use
 antimatter propulsion via an alternative system of generating electricity for photon thrust directly from the gamma 
 rays, this system is more reliable than other antimatter engines due to its simplicity, and incredibly efficient due to 
 the lack of non-antimatter propellant, however the low ISP makes this unsuitable for normal commercial transportation 
-purposes.
+purposes. No propellant was observed being used in the first contact vessels antimatter engine, combined with the tiny 
+size and extremely high ISP this suggests it was using the antimatter energy to kickstart a reaction in some form of 
+exotic propellant such as dark matter or vacuum energy.
 
 If containment for the average 10kg antimatter load failed, the explosion would release around 10^8 megatons of energy.
 The safe distance to keep radiation under 1msv would be around 20 000km, and this is the generally accepted guideline 
