@@ -40,6 +40,17 @@ export const sciFiMoviesData: Movie[] = [
         c: 6,
     },
     {
+        title: "Avatar",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/d/d6/Avatar_%282009_film%29_poster.jpg",
+        summary: `This groundbreaking 3D cinematic experience, despite the simple plot, is still enjoyable in 2d due to
+        the passion and detail that has clearly gone into each shot and some interesting world building and sci-fi 
+        elements to boot`,
+        e: 6,
+        a: 10,
+        n: 8,
+        c: 7,
+    },
+    {
         title: "Blade Runner",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/9/9f/Blade_Runner_%281982_poster%29.png",
         summary: `The beautiful over the top noir cinematography established Scott and the crew's creation as the 
@@ -153,6 +164,16 @@ export const sciFiMoviesData: Movie[] = [
         e: 8,
         a: 10,
         n: 8,
+        c: 7,
+    },
+    {
+        title: "Prometheus",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/a/a3/Prometheusposterfixed.jpg",
+        summary: `A more cerebral and big-picture exploration of the origins of Alien, this has the same slow building
+        tension although lacks some of the tight focus and attention to detail`,
+        e: 9,
+        a: 9,
+        n: 6,
         c: 7,
     },
     {
