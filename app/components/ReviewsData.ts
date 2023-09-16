@@ -94,6 +94,16 @@ export const sciFiMoviesData: Movie[] = [
         c: 8,
     },
     {
+        title: "Fifth Element, The",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/6/65/Fifth_element_poster_%281997%29.jpg",
+        summary: `Visually stunning cinematography, amazing goofball costumes and lines, and thoroughly entertaining 
+        from start to finish, there has never been anything else quite like this sci-fi blockbuster`,
+        e: 6,
+        a: 8,
+        n: 10,
+        c: 6,
+    },
+    {
         title: "Gravity",
         thumbnail: "https://www.themoviedb.org/t/p/w1280/krQrQSNb0EXd5L0e2CkoU5V6XNq.jpg",
         summary: `Watching this sci-fi thriller in IMAX was wild, this movie is a completely engrossing white knuckle 
@@ -103,6 +113,16 @@ export const sciFiMoviesData: Movie[] = [
         a: 10,
         n: 8,
         c: 8,
+    },
+    {
+        title: "Her",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/4/44/Her2013Poster.jpg",
+        summary: `Set in a bright glossy future L.A, this warm and engaging human machine romance has some interesting 
+        takes on a well-worn formula`,
+        e: 8,
+        a: 7,
+        n: 7,
+        c: 9,
     },
     {
         title: "Inception",
