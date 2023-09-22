@@ -83,6 +83,15 @@ export const sciFiMoviesData: Movie[] = [
         c: 8,
     },
     {
+        title: "Event Horizon",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/8/8c/Event_horizon_ver1.jpg",
+        summary: `Enjoyable well paced sci-fi horror`,
+        e: 6,
+        a: 9,
+        n: 8,
+        c: 7,
+    },
+    {
         title: "Ex Machina",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/b/ba/Ex-machina-uk-poster.jpg",
         summary: `An excellently paced sci-fi thriller, we are driven through a beautifully atmospheric setting by an 
@@ -206,6 +215,16 @@ export const sciFiMoviesData: Movie[] = [
         a: 8,
         n: 8,
         c: 8,
+    },
+    {
+        title: "Sunshine",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/6/68/Sunshine_poster.jpg",
+        summary: `Stunning cinematography, a solid cast, and interesting premise mostly overcome the weird metaphysical 
+        elements in the screenplay, although the second half is much weaker than the first`,
+        e: 8,
+        a: 10,
+        n: 5,
+        c: 7,
     },
     {
         title: "War Of The Worlds (2005)",
