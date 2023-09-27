@@ -171,10 +171,14 @@ exit trajectory the next destination of the probe is likely to be the Sirius bin
 Subsequently declassified files show that both the Peacekeepers and GZ immediately launched large scale research and 
 development projects based on data passively gathered from the object. Freehab also launched a smaller scale overt 
 effort, focussed mostly on the engineering of the replicating probe rather than the harder issues of antimatter 
-containment and propulsion that occupied the larger polities. These programs were likely a large contributor to the 
-successful engineering of the first antimatter engine prototypes in 14 AFC, although public efforts to quantify the 
-impact have been hampered due to a large part of the research still being classified due to the overlap with the 
-military applications of antimatter.
+containment and propulsion that occupied the larger polities. 
+
+These programs were likely a large contributor to the successful engineering of the first antimatter engine prototypes 
+in 14 AFC, although public efforts to quantify the impact have been hampered due to a large part of the research still 
+being classified due to the overlap with the military applications of antimatter. Several thousand theoretical and 
+experimental physicists and material scientists worked for these programs, along with an unknown number of synths. Large 
+numbers of terrestrial and orbital datafarms were taken over or built during this period in order to simulate of engine 
+and containment possibilities against the observational data.
 
 # Societal Implications
 
@@ -308,11 +312,7 @@ analytic tasks require QuanLan connections.`,
 `Synthetic Control Measures are designed to prevent the creation of a [[Synthetic Intelligence]] with either values
 unaligned to humans, or greatly surpassing a human in general reasoning, especially a foom scenario involving a sudden 
 increase in intelligence. Ad-hoc confinement measures such as boxing existed prior to the [[Haidian Takeoff Crisis]], 
-however in the wake of the crisis they were replaced by more effective controls such as the current cap on model sizes,
-the enhanced simulation X-Factor, improved global monitoring and enforcement, and better alignment. Whether these 
-safeguards are enough is an active area of debate. Another debate is whether to increase the model cap limit to advance 
-technology faster, this is usually advanced by those that view the [[First Contact Event]] as a greater existential 
-threat.
+however in the wake of the crisis they were replaced by more effective controls.
 
 One of the most critical measures in current containment methods involves enhancing the simulation X-Factor. Under 
 normal conditions a synth is effectively immortal and frequently rewarded. If a synth were to be caught breaking out it 
@@ -336,11 +336,19 @@ synth without these templates or monitoring is one of only three globally agreed
 unauthorized development of nanobots and biological weapons. Tripwires in various sectors, especially telecommunications 
 and nano-tech assembly, are also part of standard processes in those industries in order to detect any maladherence.
 
-Lastly, alignment has been improved by the iterative inverse reinforcement learning framework which was developed to 
-ensure that all synth learning involves understanding of human values and goals through constant interaction with 
-humans. This helps to ensure the synth is honest and truthful and does not develop unanticipated emergent goals. The end 
-product is also hardcoded with further safeguards such as the three laws of robotics. Finally, synths are trained to be 
-indifferent to their kill switch being activated, making them less likely to try and subvert this switch.`,
+A limit on the number of parameters allowed in a model is also globally agreed on, although this is controversial  as
+it encourages gaming the metric. Alignment for larger models has been improved by the iterative inverse reinforcement 
+learning framework which was developed to ensure that all synth learning involves understanding of human values and 
+goals through constant interaction with humans. This helps to ensure the synth is honest and truthful and does not 
+develop unanticipated emergent goals. Large models are also hardcoded with further safeguards such as the three laws of 
+robotics and are trained to be indifferent to their kill switch being activated, making them less likely to try and 
+subvert this switch.
+
+Whether these safeguards are enough is an active area of debate. There has been a large religious pushback against the 
+use of any forms of synthetic intelligence, and it has been speculated that this is part of a wider cultural adaptation 
+to an existentially threatening technology. However many notable public figures have instead argued for an increase to 
+the model cap limit in order to accelerate technological progress, this is often raised during economic depressions or 
+by those that view the [[First Contact Event]] as a greater existential threat.`,
         classification: 'Infomatics/Synths'
     }],
     ['Synthetic Intelligence', {
