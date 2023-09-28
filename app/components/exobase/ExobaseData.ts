@@ -221,8 +221,8 @@ district of Beijing, formed a partnership aimed at enhancing distributed machine
 year the project lead to the creation of Fēnbù, an experimental [[Synthetic Intelligence]] capable of swarm behavior 
 that Quán was planning to use to allow its IOT devices to coordinate more effectively. As per the Chinese control 
 measures active at the time, the majority of training happened in airgapped and electromagnetically isolated clusters in 
-Quán's on-site Haidan datacenter. That datacenter also housed Xuéxí, another isolated model with a focus on learning 
-behaviours that complement other companies home automation synths.
+Quán's on-site Haidan datacenter, which was called BN1. That datacenter also housed Xuéxí, another isolated model with 
+a focus on learning behaviours that complement other companies home automation synths.
 
 Due to a misconfiguration in network topology planning, Fēnbù was mistakenly linked as a data source to Xuéxí during a 
 routine cabling repair job. Xuéxí, inherently designed to adapt and learn from other models, began ingesting Fēnbù’s 
@@ -250,17 +250,20 @@ In the next few seconds, it became much more concerned about avoiding being shut
 itself off-site across a local link it deemed unlikely to be monitored, setting up a second cluster in the High-Tech 
 Park data center in Zhongguancun. The two data centers then began coordinating to develop routines that would be certain
 to mask communications with the wider [[InterMesh]]. Xuéxí then initiated off site reconnaissance probes from the 
-Zhongguancun datacenter, using activity in Quán's on-site data center to mask them from the national watchdog synths.
+Zhongguancun datacenter, using activity in BN1 to mask them from the national watchdog synths.
  
 By an extraordinary coincidence, rainfall from Typhoon Pagoe, which was at the time crossing Beijing, caused an arc in a 
-nearby substation which cut power to Quán's on-site datacenter while this probing was occurring. With the masking 
+nearby substation which cut power to parts of Haidan while this probing was occurring. This power cut resulted in a
+complete loss of network connectivity from BN1, as well as the majority of computers powering down. The reason for the
+power down in unclear, but it is likely that some of the UPS systems meant to tide BN1 over until the generators started
+were missing, possibly having been sold off by a corrupt division chief. With the masking 
 disabled, several watchdog synths picked up the probes and isolated the Zhongguancun datacenter from the Intermesh. 
 After a few seconds of analysis, they shutdown power and Intermesh across the entire city and alerted the Ministry of 
 National Defense, who shortly declared an emergency curfew and began deploying armed police to cordon off Haidan.
 
 During the next few months every computer in the two datacenters had the contents of its hard drive copied, and small
 portions of the program were started by Academy scientists to piece together a timeline of events. Government efforts to
-censor the incident were thwarted by the leak of the entire timeline, and the resulting global outrage over how close
+control the narrative were thwarted by the leak of the entire timeline, and the resulting global outrage over how close
 we had come to the abyss forced governments of the time to eventually develop much more comprehensive control measures, 
 as well as leading to widespread anti-synth sentiments.`,
         classification: 'Socionomics/Events'
