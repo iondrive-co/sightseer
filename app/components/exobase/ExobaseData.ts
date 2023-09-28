@@ -255,16 +255,16 @@ Zhongguancun datacenter, using activity in BN1 to mask them from the national wa
 By an extraordinary coincidence, rainfall from Typhoon Pagoe, which was at the time crossing Beijing, caused an arc in a 
 nearby substation which cut power to parts of Haidan while this probing was occurring. This power cut resulted in a
 complete loss of network connectivity from BN1, as well as the majority of computers powering down. The reason for the
-power down in unclear, but it is likely that some of the UPS systems meant to tide BN1 over until the generators started
-were missing, possibly having been sold off by a corrupt division chief. With the masking 
-disabled, several watchdog synths picked up the probes and isolated the Zhongguancun datacenter from the Intermesh. 
-After a few seconds of analysis, they shutdown power and Intermesh across the entire city and alerted the Ministry of 
-National Defense, who shortly declared an emergency curfew and began deploying armed police to cordon off Haidan.
+power down in unclear, but many of the company's UPS batteries were later found being sold by a government official on
+an auction site. With the masking disabled, several watchdog synths picked up the probes and isolated the Zhongguancun 
+datacenter from the Intermesh.  Before the BN1 backup generators could restore power, the watchdogs had shutdown power 
+and Intermesh across the entire city and alerted the Ministry of National Defense, who shortly declared an emergency 
+curfew and began deploying armed police to cordon off the entire Haidan district.
 
 During the next few months every computer in the two datacenters had the contents of its hard drive copied, and small
-portions of the program were started by Academy scientists to piece together a timeline of events. Government efforts to
-control the narrative were thwarted by the leak of the entire timeline, and the resulting global outrage over how close
-we had come to the abyss forced governments of the time to eventually develop much more comprehensive control measures, 
+portions of the program were started in order to piece together a timeline of events. Government efforts to control the 
+narrative were thwarted by the leak of research materials, and the resulting global outrage over how close we had come 
+to the abyss forced governments of the time to eventually develop much more comprehensive control measures, 
 as well as leading to widespread anti-synth sentiments.`,
         classification: 'Socionomics/Events'
     }],
