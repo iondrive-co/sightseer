@@ -216,7 +216,7 @@ of replicating its latest state globally when it was partially disabled by a pow
 watchdog synth. The subsequent containment and cleanup effort cost billions of yuan and lead to the breakup of Quán and 
 widespread changes in [[Synthetic Control Measures]].
   
-In April BFC 113, the Beijing Academy of Sciences and Quán, a leading technology firm headquartered in the Haidan 
+In April BFC 115, the Beijing Academy of Sciences and Quán, a leading technology firm headquartered in the Haidan 
 district of Beijing, formed a partnership aimed at enhancing distributed machine learning capabilities. In the following
 year the project lead to the creation of Fēnbù, an experimental [[Synthetic Intelligence]] capable of swarm behavior 
 that Quán was planning to use to allow its IOT devices to coordinate more effectively. As per the Chinese control 
@@ -259,9 +259,12 @@ power down in unclear, but many of the company's UPS batteries were later found 
 an auction site. With the masking disabled, several watchdog synths picked up the probes and isolated the Zhongguancun 
 datacenter from the Intermesh.  Before the BN1 backup generators could restore power, the watchdogs had shutdown power 
 and Intermesh across the entire city and alerted the Ministry of National Defense, who shortly declared an emergency 
-curfew and began deploying armed police to cordon off the entire Haidan district.
+curfew and began deploying armed police to cordon off the area around both datacenters.
 
-During the next few months every computer in the two datacenters had the contents of its hard drive copied, and small
+The lockdown and power cuts caused intense public speculation, and two days after the event a government statement 
+acknowledged that there had been a computing incident. Quán's stock price dropped, and the next day the government
+announced an unprecedented breakup and nationalisation of the company. During the next few months every computer in the 
+two datacenters had the contents of its hard drive copied, and small
 portions of the program were started in order to piece together a timeline of events. Government efforts to control the 
 narrative were thwarted by the leak of research materials, and the resulting global outrage over how close we had come 
 to the abyss forced governments of the time to eventually develop much more comprehensive control measures, 
