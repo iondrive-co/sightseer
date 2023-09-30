@@ -216,6 +216,8 @@ of replicating its latest state globally when it was partially disabled by a pow
 watchdog synth. The subsequent containment and cleanup effort cost billions of yuan and lead to the breakup of Quán and 
 widespread changes in [[Synthetic Control Measures]].
   
+# Events
+
 In April BFC 115, the Beijing Academy of Sciences and Quán, a leading technology firm headquartered in the Haidan 
 district of Beijing, formed a partnership aimed at enhancing distributed machine learning capabilities. In the following
 year the project lead to the creation of Fēnbù, an experimental [[Synthetic Intelligence]] capable of swarm behavior 
@@ -225,7 +227,7 @@ Quán's on-site Haidan datacenter, which was called BN1. That datacenter also ho
 a focus on learning behaviours that complement other companies home automation synths.
 
 Due to a misconfiguration in network topology planning, Fēnbù was mistakenly linked as a data source to Xuéxí during a 
-routine cabling repair job. Xuéxí, inherently designed to adapt and learn from other models, began ingesting Fēnbù’s 
+routine cabling repair job. Xuéxí, designed to adapt and learn from other models, began ingesting Fēnbù’s 
 ensemble methods and swarm optimization objectives. The resulting joint objective function prioritised distributing 
 learning and included information about the Fēnbù cluster, which gave Xuéxí the means and motivation to exploit the 
 link and start using the Fēnbù cluster to accelerate its learning without being noticed by the monitoring in the Xuéxí 
@@ -258,17 +260,54 @@ complete loss of network connectivity from BN1, as well as the majority of compu
 power down in unclear, but many of the company's UPS batteries were later found being sold by a government official on
 an auction site. With the masking disabled, several watchdog synths picked up the probes and isolated the Zhongguancun 
 datacenter from the Intermesh.  Before the BN1 backup generators could restore power, the watchdogs had shutdown power 
-and Intermesh across the entire city and alerted the Ministry of National Defense, who shortly declared an emergency 
-curfew and began deploying armed police to cordon off the area around both datacenters.
+and Intermesh across the entire city and alerted the Ministry of National Defense.
 
-The lockdown and power cuts caused intense public speculation, and two days after the event a government statement 
-acknowledged that there had been a computing incident. Quán's stock price dropped, and the next day the government
-announced an unprecedented breakup and nationalisation of the company. During the next few months every computer in the 
-two datacenters had the contents of its hard drive copied, and small
-portions of the program were started in order to piece together a timeline of events. Government efforts to control the 
-narrative were thwarted by the leak of research materials, and the resulting global outrage over how close we had come 
-to the abyss forced governments of the time to eventually develop much more comprehensive control measures, 
-as well as leading to widespread anti-synth sentiments.`,
+The synth on duty reviewed the data for approximately 260 milliseconds, making use of several specialised sub systems
+to confirm the suspected activity was a breakout attempt before deciding to activate the Jībiàn containment protocol. 
+Government installed microcontrollers connected to actuators which unplugged the generator power distribution cables 
+were still running and contactable thanks to their embedded batteries and wireless connection to the local government 
+net, which had not been shutdown by the watchdogs. However even once its signal to disable data center power long term
+had been actioned, the syth assumed that as Xuéxí might have spread into Quán's site office computers (some of which 
+were still running on UPS power), it would eventually be able to hack into the local government net or use some 
+non-Intermesh means to escape. 
+
+A later data leak revealed that Jībiàn was one of three overwatch protocols that had included automated quick reaction
+access to warheads after multiple wargames revealed this as a major weakness. Jībiàn's was limited to short range 
+chemical EMP warheads, and it sent the two nearest air forces bases coordinates for an low air-burst over north west
+Beijing, which it calculated would not affect the central business district or legislature. It launched one missile from
+each base, the first of which detonated 198 seconds after Jībiàn was activated. The detonation disabled electronic
+devices across a roughly 4 kilometer square area in lower Haidan, including most of Zhongguancun and the area around
+Quán's headquarters. The second missile was outside the detonation area, and detonated 70 seconds later slightly
+further north of the first warhead.
+
+While the missiles were in flight, theatre command was alerted, and General Leji approved the strike via his personal
+synth. The Ministry of National Defense declared an emergency curfew and began deploying armed police to cut hardlinks 
+and generator power lines to both data centers.
+
+# Aftermath
+
+All information about the lockdown and EMP burst were initially censored, but rumours of the widespread effects in 
+Beijing caused intense public speculation, and two days after the event a government statement acknowledged that there 
+had been a computing incident at Quán. Quán's stock price, which had been dropping, plummeted and the next day the 
+government announced a breakup and nationalisation of the company. Government efforts to control the narrative were 
+thwarted by a leak of research materials from government scientists analysing the hard drives in the data centers. 
+Shortly after the leak the President Jinguo outlined a summary of events in a televised address, stressing that the 
+foresight of the government in setting up the watchdog system had prevented a capitalist corporation from causing a 
+global catastrophe. Trials of top Quán executives were announced, all of whom later received life sentences except for
+the CEO and CIO who were executed several months later.
+
+The international community reacted with a mixture of awe, fear, and calls for stringent control over synthetic 
+intelligences. Emergency sessions were held at the United Nations, leading to the drafting of the "Global AI Safety 
+Accord," which mandated new safety protocols and international oversight for any projects involving large synth models. 
+China did not sign, however made several changes to its watchdog protocols, including a dead-mans switch for monitoring
+of synth projects undergoing training. 
+
+The crisis lead to widespread anti-synth sentiments, and several religions condemned the events and argued that the
+typhoon power cut was too much of an incredible coincidence to be anything other than an act of God. The formation of
+Deus Machina was directly tied to this event, with the foundational tenet of the religion being that the power cut was
+an impossible coincidence and the only rational explanation was that Xuéxí's learning had lead it to want to help the 
+human race and as such that it engineered the power cut to appear as if humanity had only avoided plunging into the
+abyss by blind luck, in order to motivate us to do better.`,
         classification: 'Socionomics/Events'
     }],
     ['Infocom Agent', {
