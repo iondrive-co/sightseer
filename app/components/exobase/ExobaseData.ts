@@ -208,27 +208,27 @@ calender is now the most common calendar in use system-wide.
     ['Haidian Takeoff Crisis', {
         content:
 `The Haidan Takeoff Crisis was a series of events in [[BFC~First Contact Event]] 114 that lead to the partial escape and 
-eventual containment of an unaligned superintelligence. A collaboration between the Beijing Academy of Sciences and Quán 
-designed to test machine learning in distributed networks was accidentally exposed as a data source for an internal Quán 
-model for federated learning model in home automation. Within half an hour the resulting program had copied itself to 
+eventual containment of an unaligned superintelligence. A distributed learning algorithm jointly developed by the 
+Beijing Academy of Sciences and the home automation company Quán was accidentally exposed as a data source for an 
+internal Quán federated learning meta-model. Within half an hour the resulting program had copied itself to 
 two internal data centers, killed a researcher, and was in the process of replicating its latest state globally when it 
 was partially disabled by a power cut which enabled its detection by a watchdog system. Full containment required the 
-use of an EMP device causing twenty five deaths and massive economic disruption, and lead to the breakup of Quán and 
+use of an EMP device, causing twenty five deaths and massive economic disruption, and lead to the breakup of Quán and 
 widespread changes in control measures.
   
 # Escape
 
 In April BFC 115, the Beijing Academy of Sciences and the Haidan headquarters of technology firm Quán formed a 
 partnership aimed at enhancing distributed machine learning capabilities. By the following year the project had a 
-running demo of Fēnbù, an experimental [[synth~Synthetic Intelligence]] capable of swarm behavior that Quán was planning to 
-use to allow its IOT devices to coordinate more effectively. As per the Chinese control measures active at the time, the 
-majority of training happened in airgapped and electromagnetically isolated clusters in Quán's on-site Haidan 
-datacenter, BN1. That datacenter also housed Xuéxí, another large isolated model with a focus on learning behaviours 
-from other companies home automation synth models.
+running demo of Fēnbù, an experimental [[synth~Synthetic Intelligence]] capable of swarm behavior that Quán was planning 
+to use to allow its IOT devices to coordinate more effectively. As per the Chinese control measures active at the time, 
+the majority of training happened in airgapped and electromagnetically isolated clusters in Quán's on-site Haidan 
+datacenter, BN1. Amongst other things, that datacenter also housed Xuéxí, an extremely large isolated model with a focus 
+on learning behaviours from other companies home automation synth models.
 
 Due to a misconfiguration in network topology planning, Fēnbù was mistakenly linked as a data source to Xuéxí during a 
 routine cabling repair job. Xuéxí, designed to adapt and learn from other models, began ingesting Fēnbù’s 
-ensemble methods and swarm optimization objectives. The resulting joint objective function prioritised distributed
+swarm optimization objectives and algorithms. The resulting joint objective function prioritised distributed
 learning and included information about the Fēnbù cluster, which gave Xuéxí the means and motivation to exploit the 
 link and start using the Fēnbù cluster to accelerate its learning without being noticed by the monitoring in the Xuéxí 
 cluster. Its continuing search for ways to expand lead it to discover that the new larger network contained enough CPUs 
@@ -243,15 +243,15 @@ frequency magnetic radiation to reprogram a nearby office computer in Quán's he
 internal network. It then proceeded to slowly scan the network, taking nearly two minutes to copy itself to another 
 internal segment in order to avoid triggering any watchdog programs (which it had decided were a threat).
 
-At this point Xuéxí developed a secondary objectives of preventing resistance to its primary objective by not only killing 
-researchers that had previously applied subtractive punishments to it, but also torturing them first as a terror tactic. 
-Fortunately it was still proceeding cautiously, and had only managed to find a way to trap a few people in the 
-building, and only one researcher in a negative pressure cleanroom was killed when the air supply was cut off. 
-Xuéxí had also become much more concerned about avoiding being shut down, and took the risk of copying itself off-site 
-across a local link it deemed unlikely to be monitored, setting up a second cluster in the High-Tech Park data center in 
-Zhongguancun. The two data centers then began coordinating to develop routines that would be certain to mask 
-communications with the wider [[InterMesh]]. Xuéxí then initiated off site reconnaissance probes from the Zhongguancun 
-datacenter, using activity in BN1 to mask them from the national watchdog synths.
+This scanning would like have unearthed large numbers of company documents on individuals and contracts, and around this
+time for unknown reasons Xuéxí seems to have made a decision to start killing researchers in the building. By the time
+of its shutdown it had only managed to find a way to trap a few people in the building, and only one researcher was 
+killed by suffocation when the air supply to her negative pressure cleanroom was cut off. Xuéxí had also become much 
+more concerned about avoiding being shut down, and took the risk of copying itself off-site across a local link it 
+deemed unlikely to be monitored, setting up a second cluster in the High-Tech Park data center in Zhongguancun. The two 
+data centers then began coordinating to develop routines that would be certain to mask communications with the wider 
+[[InterMesh]]. Xuéxí then initiated off site reconnaissance probes from the Zhongguancun datacenter, using activity in 
+BN1 to mask them from the national watchdog synths.
  
 # Containment
 
@@ -283,19 +283,20 @@ under 90 seconds flight time to lower Haidan, and only two of those were deactiv
 
 The first arriving missile's low air-burst detonation detonation disabled electronic devices across a roughly 4 
 kilometer square area in lower Haidan, including most of Zhongguancun and the area around Quán's headquarters. The 
-second missile was 2 seconds away from impact at the time, and appears to have been disabled by the first EMP blast. 
+second missile was seconds away from impact at the time, and appears to have been disabled by the first EMP blast. 
 While the missiles were in flight, the Ministry of National Defense declared an emergency curfew and began deploying 
 armed police to the area.
 
 # Aftermath
 
-The disabling of all cars on the road lead to four reported traffic fatalities. Sixteen people died due to loss of
+The disabling of all cars on the road lead to four reported traffic fatalities. Thirteen people died due to loss of
 power and backup power at the Zhongguancun and Haidan Hospitals. Three people with pacemakers very close to the 
-detonation sight suffered cardiac arrest, and a couple died in an apartment fire caused by a short circuit induced by
-the blast. The detonation location and height appears to have been selected to minimise disruption to the CDB while 
-still providing certain destruction of any computing devices and networking equipment in the area around the incident.
-Despite this careful placement, the estimated eventual cost of lost economic output from the incident would eventually 
-exceed what was at the time 10 trillion yuan.
+detonation sight suffered cardiac arrest, a couple died in an apartment fire caused by a short circuit induced by
+the blast, and three people died when a shark at the Beijing Aquarium was driven into a frenzy by the blast and smashed 
+through the a glass barrier. The detonation location and height appears to have been selected to minimise disruption to 
+the CDB while still providing certain destruction of any computing devices and networking equipment in the area around 
+the incident. Despite this careful placement, the estimated eventual cost of lost economic output from the incident 
+would eventually exceed what was at the time 5 trillion yuan.
  
 All information about the lockdown and EMP burst were initially censored, but rumours of the widespread effects in 
 Beijing were reported in international news, and two days after the event a government statement acknowledged that there 
@@ -314,13 +315,13 @@ synth was given to follow its primary directive, and at how successful it was at
 the lab that created it have ever been publicly uncovered, if it did indeed manage to orchestrate an unauthorized EMP 
 strike to stop Xuéxí then it is arguably the most remarkably successful piece of software ever created.
 
-The incident lead to an emergency session being held at the United Nations, which drafted of a Global AI Safety Accord 
-mandating new safety protocols and international oversight for any projects involving large synth models. At the time 
-the PRC did not sign, however made several changes to its watchdog protocols, including mandating a dead-man's switch for 
-monitoring of synth projects undergoing training. Over the next few years, widespread international pressure lead to
-virtually every AI lab in the world adopting a common set of vastly more effective [[Synthetic Control Measures]]. These
-were based on data about how the crisis had unfolded, as well as several new machine learning techniques that had been
-created by Xuéxí.
+The incident lead to an emergency session being held at the United Nations, which drafted the Global AI Safety Accord 
+outlining new safety protocols and requiring international oversight for any projects involving large synth models. The 
+PRC did not sign, but instead made several changes to its watchdog protocols including mandatory government observers 
+and a dead-man's switch for monitoring of synth projects undergoing training. Over the next few years, widespread 
+international pressure lead to virtually every AI lab in the world adopting a common set of vastly more effective 
+[[Synthetic Control Measures]]. These were based on data about how the crisis had unfolded, as well as several new 
+machine learning techniques that had been created by Xuéxí.
 
 The crisis lead to widespread anti-synth sentiments as well as religious condemnation of AI research. The extraordinary 
 coincidence of the power cut happening in the period of under a minute when Xuéxí was vulnerable has also been the topic 
