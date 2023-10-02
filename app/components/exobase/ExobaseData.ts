@@ -243,13 +243,13 @@ frequency magnetic radiation to reprogram a nearby office computer in Quán's he
 internal network. It then proceeded to slowly scan the network, taking nearly two minutes to copy itself to another 
 internal segment in order to avoid triggering any watchdog programs (which it had decided were a threat).
 
-This scanning would like have unearthed large numbers of company documents on individuals and contracts, and around this
-time for unknown reasons Xuéxí seems to have made a decision to start killing researchers in the building. By the time
-of its shutdown it had only managed to find a way to trap a few people in the building, and only one researcher was 
-killed by suffocation when the air supply to her negative pressure cleanroom was cut off. Xuéxí had also become much 
-more concerned about avoiding being shut down, and took the risk of copying itself off-site across a local link it 
-deemed unlikely to be monitored, setting up a second cluster in the High-Tech Park data center in Zhongguancun. The two 
-data centers then began coordinating to develop routines that would be certain to mask communications with the wider 
+This scanning would likely have unearthed large numbers of company documents on individuals and contracts, and around 
+this time, for unknown reasons, Xuéxí seems to have made a decision to start killing researchers in the building. By the 
+time of its shutdown it had only managed to find a way to trap a few people in the building, and only one researcher was 
+killed by suffocation when the air supply to her negative pressure cleanroom was cut off. Xuéxí also become much more 
+concerned about avoiding being shut down at this time, and took the risk of copying itself off-site across a local link 
+it deemed unlikely to be monitored, setting up a second cluster in the High-Tech Park data center in Zhongguancun. The 
+two data centers then began coordinating to develop routines that would be certain to mask communications with the wider 
 [[InterMesh]]. Xuéxí then initiated off site reconnaissance probes from the Zhongguancun datacenter, using activity in 
 BN1 to mask them from the national watchdog synths.
  
