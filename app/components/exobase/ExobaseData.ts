@@ -292,11 +292,12 @@ armed police to the area.
 The disabling of all cars on the road lead to four reported traffic fatalities. Thirteen people died due to loss of
 power and backup power at the Zhongguancun and Haidan Hospitals. Three people with pacemakers very close to the 
 detonation sight suffered cardiac arrest, a couple died in an apartment fire caused by a short circuit induced by
-the blast, and three people died when a shark at the Beijing Aquarium was driven into a frenzy by the blast and smashed 
-through the a glass barrier. The detonation location and height appears to have been selected to minimise disruption to 
-the CDB while still providing certain destruction of any computing devices and networking equipment in the area around 
-the incident. Despite this careful placement, the estimated eventual cost of lost economic output from the incident 
-would eventually exceed what was at the time 5 trillion yuan.
+the blast, and three people died in a stampede at the Beijing Aquarium which was triggered by the power outage and a 
+shark being driven into a frenzy by the blast and smashing into a glass barrier. The detonation location and height 
+appears to have been selected to minimise disruption to the CDB while still providing certain destruction of any 
+computing devices and networking equipment in the area around the incident. Despite this careful placement, the 
+estimated eventual cost of lost economic output from the incident would eventually exceed what was at the time 
+5 trillion yuan.
  
 All information about the lockdown and EMP burst were initially censored, but rumours of the widespread effects in 
 Beijing were reported in international news, and two days after the event a government statement acknowledged that there 
