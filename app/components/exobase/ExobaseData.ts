@@ -16,15 +16,15 @@ particle accelerators generating high-energy photons. These are directed towards
 particle-antiparticle pairs when the photon interacts with the strong electric field of a nucleus.
 
 Penning traps and optical molasses are used to store antimatter particles, and transportation off the station is 
-performed by automated drones designed with multiple fail-safes to maintain power to the magnetic containment system. 
+performed by automated drones designed with multiple fail-safes to maintain power to the containment systems. 
 If the target spacecraft is crewed, rendezvous normally occurs before they have boarded since integrating the antimatter 
 containment unit with the propulsion system of the spacecraft is riskier than running the engine normally.
 
 There have been recent attempts by several companies to scale up Muon-catalyzed fusion, usually with Muons extracted by
-collectors deployed from Jupiter's Chandelier Cities. If successful this would provide a much cheaper, although less
-powerful, alternative to antimatter engines which would potentially open up the interstellar frontier to commerce.
-Antimatter electrons are also produced on Earth in small quantities from Titanium-44 decay, however not in sufficient 
-quantity for anything other than medical and research usage.
+collectors deployed from the [[Jovian Chandelier Cities]]. If successful this would provide a much cheaper near peer
+competitor for antimatter engines, potentially opening up the interstellar frontier to commerce. There have also been
+recent attempts to scale up production of Titanium-44, which is currently only produced in small quantities for medical 
+and research usage.
 
 # Operation
 
@@ -382,9 +382,14 @@ The InterMesh is the default network for the super-majority of communicating dev
 medium for most of humanity. One of its most popular functions is social networking, mostly via neural augmentations,
 allowing users to share their thoughts, emotions, and experiences directly. Most users have their Infocom Agent
 set up a DataVeil to control access to their data on these networks. Another widely used feature is health monitoring,
-allowing [[internal nanoswarm]]s to sync the latest treatment protocols, although many users disable this due to
+allowing internal nanoswarms to sync the latest treatment protocols, although many users disable this due to
 security and privacy concerns.`,
         classification: 'Infomatics/Networks'
+    }],
+    ['Jovian Chandelier Cities', {
+        content:
+            `Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Polities'
     }],
     ['MemAmp', {
         content:

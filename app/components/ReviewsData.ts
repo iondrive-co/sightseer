@@ -85,7 +85,7 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Event Horizon",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/8/8c/Event_horizon_ver1.jpg",
-        summary: `Enjoyable well paced sci-fi horror`,
+        summary: `This well paced sci-fi horror works well as an enjoyable late-night popcorn flick`,
         e: 6,
         a: 9,
         n: 8,
@@ -213,6 +213,17 @@ export const sciFiMoviesData: Movie[] = [
         ultimately yields an enjoyable and well told tale`,
         e: 9,
         a: 8,
+        n: 8,
+        c: 8,
+    },
+    {
+        title: "Strange Days",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/0/0c/Strangedays.jpeg",
+        summary: `Kathryn Bigelow's underrated cyberpunk noir is a whirlwind drive through the last days of the 20th
+        century, foreshadowing the issues of the 21st with its backdrop of a dysfunctional society and a confronting 
+        series of virtually experienced murders`,
+        e: 7,
+        a: 7,
         n: 8,
         c: 8,
     },
