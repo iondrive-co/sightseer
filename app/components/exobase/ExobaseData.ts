@@ -15,10 +15,16 @@ which avoid the high density solar winds in the Sun's equatorial zones, and use 
 particle accelerators generating high-energy photons. These are directed towards a target material to create 
 particle-antiparticle pairs when the photon interacts with the strong electric field of a nucleus.
 
-Penning traps are used to store antimatter particles, and transportation off the station is performed by automated 
-drones designed with multiple fail-safes to maintain power to the magnetic containment system. If the target spacecraft
-is crewed, rendezvous normally occurs before they have boarded since integrating the antimatter containment unit with 
-the propulsion system of the spacecraft is riskier than running the engine normally.
+Penning traps and optical molasses are used to store antimatter particles, and transportation off the station is 
+performed by automated drones designed with multiple fail-safes to maintain power to the magnetic containment system. 
+If the target spacecraft is crewed, rendezvous normally occurs before they have boarded since integrating the antimatter 
+containment unit with the propulsion system of the spacecraft is riskier than running the engine normally.
+
+There have been recent attempts by several companies to scale up Muon-catalyzed fusion, usually with Muons extracted by
+collectors deployed from Jupiter's Chandelier Cities. If successful this would provide a much cheaper, although less
+powerful, alternative to antimatter engines which would potentially open up the interstellar frontier to commerce.
+Antimatter electrons are also produced on Earth in small quantities from Titanium-44 decay, however not in sufficient 
+quantity for anything other than medical and research usage.
 
 # Operation
 
