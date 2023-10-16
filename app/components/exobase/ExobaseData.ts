@@ -61,7 +61,18 @@ exorbitant cost of operating an antimatter engine.`,
     }],
     ['Ceres Wave', {
         content:
-`Datï¿½orruà¤¶आtedा`,
+`The Ceres Wave (168 - 144 BFC) was the first large scale migration of people out of cislunar space, made possible by
+infrastructure developed by the early asteroid mining companies. It began in 168 BFC when Lunar Eagle, on the verge of 
+bankruptcy, falsified surveys of Eunomia showing exceptionally large reserves of rare earth elements. This lead to a 
+funding and hiring frenzy which in turn created the conditions for several opportunistic resettlement efforts which 
+created enough momentum to sustain the migration even after the fraud was discovered. It ended with the
+normalisation of relations between the Chinese and Russian sponsored State of Ceres and the United Nations, India, and 
+Luso-Nigeria. The wave was instrumental in creating the infrastructure for inter-system commerce, as well causing major
+structural and political upheaval on Earth.
+
+# Background
+
+Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Events'
     }],
     ['Cognostim', {
