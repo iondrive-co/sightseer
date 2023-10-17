@@ -62,13 +62,18 @@ exorbitant cost of operating an antimatter engine.`,
     ['Ceres Wave', {
         content:
 `The Ceres Wave (168 - 144 BFC) was the first large scale migration of people out of cislunar space, made possible by
-infrastructure developed by the early asteroid mining companies. It began in 168 BFC when Lunar Eagle, on the verge of 
-bankruptcy, falsified surveys of Eunomia showing exceptionally large reserves of rare earth elements. This lead to a 
-funding and hiring frenzy which in turn created the conditions for several opportunistic resettlement efforts which 
-created enough momentum to sustain the migration even after the fraud was discovered. It ended with the
-normalisation of relations between the Chinese and Russian sponsored State of Ceres and the United Nations, India, and 
-Luso-Nigeria. The wave was instrumental in creating the infrastructure for inter-system commerce, as well causing major
-structural and political upheaval on Earth.
+infrastructure developed by the early asteroid mining companies. It began in 168 BFC when Lunar Eagle falsified the
+amount of rare earth elements in surveys of Eunomia in order to secure additional loans. This led to a funding frenzy
+across the sector, and many larger companies began expanding from mostly automated mining operations to crewed survey 
+missions to get to the best prospects faster, which in turn led to the growth of several permanent supply bases such 
+as the SpaceX base on Ceres and the joint U.N. and Luso-Nigerian base on Vesta.
+
+In 166 BFC a terrorist attack on Ceres killed several Russian scientists, and the Chinese government seized control of 
+the base from SpaceX under the pretext of securing it. Several U.S. and Indian citizens were killed resisting the 
+operation, and the U.N. demanded an immediate withdrawal and began shipping weapons to the belt. The incident ended 
+with the normalisation of relations between the Chinese and Russian sponsored State of Ceres and the United Nations, 
+India, and Luso-Nigeria. The wave was instrumental in opening up inter-system commerce, as well causing major
+structural and political upheaval on Earth and eventually leading to the formation of the [[Peacekeepers]].
 
 # Background
 
