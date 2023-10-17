@@ -63,10 +63,11 @@ exorbitant cost of operating an antimatter engine.`,
         content:
 `The Ceres Wave (168 - 144 BFC) was the first large scale migration of people out of cislunar space, made possible by
 infrastructure developed by the early asteroid mining companies. It began in 168 BFC when Lunar Eagle falsified the
-amount of rare earth elements in surveys of Eunomia in order to secure additional loans. This led to a funding frenzy
-across the sector, and many larger companies began expanding from mostly automated mining operations to crewed survey 
-missions to get to the best prospects faster, which in turn led to the growth of several permanent supply bases such 
-as the SpaceX base on Ceres and the joint U.N. and Luso-Nigerian base on Vesta.
+amount of rare earth elements in surveys of Eunomia in order to secure additional loans. One of the elements, Xenotine,
+was desperately needed by India, which started repurposing its automated mining operations in the belt to set up 
+permanent crewed bases in an attempt to take control of the supply chain for Xenotine extraction. To protect Lunar Eagle
+the US gave large amounts of funding to SpaceX to set up a base on Ceres in order to supply miners in the belt. 
+Luso-Nigerian also accelerated plans for a base on Vesta.
 
 In 166 BFC a terrorist attack on Ceres killed several Russian scientists, and the Chinese government seized control of 
 the base from SpaceX under the pretext of securing it. Several U.S. and Indian citizens were killed resisting the 
