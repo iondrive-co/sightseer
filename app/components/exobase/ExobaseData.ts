@@ -61,26 +61,44 @@ exorbitant cost of operating an antimatter engine.`,
     }],
     ['Ceres Wave', {
         content:
-`The Ceres Wave (168 - 144 BFC) was the first large scale migration of people out of cislunar space, made possible by
+`The Ceres Wave (166 - 134 BFC) was the first large scale migration of people out of cislunar space, made possible by
 infrastructure developed by the early asteroid mining companies mining platinum from near Earth asteroids. It began in 
 168 BFC when Lunar Eagle falsified the amount of lithium in surveys of an M-class asteroid in order to secure additional 
 loans. Lithium was in huge demand due to a massive growth in battery usage, and was most desperately needed by India at
-the time which had exhausted its reserves and was unable to trade for large quantities due to stockpiling. India started 
-repurposing its automated mining operations in the belt to set up permanent crewed bases in an attempt to take control 
-of what was expected to be a vast supply of Lithium from other similar asteroids. To protect Lunar Eagle the US funded 
-SpaceX to set up a base on Ceres in order to supply miners in the belt, and began diverting more resources to asteroid
-exploration. Luso-Nigerian also accelerated plans for a base on Vesta.
+the time which had exhausted its reserves and was unable to trade for large quantities due to having no strategic 
+partnerships with producing blocs. 
 
-In 166 BFC a terrorist attack on Ceres killed several Russian scientists, and the Chinese government seized control of 
-the base from SpaceX under the pretext of securing it. Several U.S. and Indian citizens were killed resisting the 
-operation, and the U.N. demanded an immediate withdrawal and began shipping weapons to the belt. The incident ended 
-with the normalisation of relations between the Chinese and Russian sponsored State of Ceres and the United Nations, 
-India, and Luso-Nigeria. The wave was instrumental in opening up inter-system commerce, as well causing major
-structural and political upheaval on Earth and eventually leading to the formation of the [[Peacekeepers]].
+India started repurposing its automated mining operations in the belt to set up permanent crewed bases in an attempt to 
+take control of what was expected to be a vast supply of Lithium from other similar asteroids. To protect Lunar Eagle's 
+operations and to speed up their own prospecting in the belt, the US funded SpaceX to set up a subterranean crewed base
+of significant size on the large M-class asteroid Lutetia. The PRC and Russia, who had jointly established the first 
+permanent crewed base in the belt on Vesta in 175 BFC, announced they were establishing four more bases in the inner 
+belt. The space agencies of both [[Luso-Nigeria]] and the [[Eurasian League]] launched crash programs to establish 
+crewed asteroid bases before the decade was out.
+ 
+Over the next 15 years a supply chain for life support and building materials for prospecting developed. By the time
+the Lunar Eagle fraud was discovered, the results of mining of platinum group metals, ice, and smaller quantities of 
+lithium, cobalt, and nickel had already begun reaching Earth. The PRC and the Eurasian League, both heavy users of fuel 
+cell transportation on Earth, had tens of automated mining operations focused on platinum. SpaceX, controlling a 
+significant fraction of the launch market and a supply chain producing building materials from what was now a small 
+colony on Lutetia, was making enormous profits. Many other smaller companies began their own smaller scale versions
+of these type of operations, for example several began mining silicates from S-class asteroids.
 
-# Background
+By 148 BFC there were over a thousand automated mining operations, and by this time Luso-Nigeria has the largest 
+network of crewed bases, with 26 in operation. Their focus on a water economy from low density carbonaceous asteroids, 
+along with a state-sponsored initiative recruiting (and in some cases blackmailing) specialists to work long periods in 
+these bases, lead to rapid expansion. This network allowed them to beat the PRC in establishing a base on the largest 
+asteroid, Ceres, which had significant water reserves. The PRC and Russian subsequently set up their own base on Ceres.
 
-Datï¿½orruà¤¶आtedा`,
+Luso-Nigeria's policy of shipping up what were effectively poor indentured servants eventually backfired in 134 BFC, 
+when a large proportion of the Ceres colony rebelled and declared independence. The administrator and several visiting
+Russian scientists were killed. The PRC used this as a justification to send its security forces across to seize control
+of the base. The ensuing battle of Ceres resulted in ten PRC security dead compared to twenty one members of the 
+Luso-Nigerian base, which included two US and one Indian citizen. The U.N. demanded an immediate withdrawal and began 
+shipping weapons to Lutetia. After several weeks of negotiation, the incident ended with the normalisation of relations 
+between the Chinese and Russian sponsored State of Ceres and the United Nations, marking the end of the Ceres wave. 
+The wave was instrumental in opening up inter-system commerce, as well causing major structural and political upheaval 
+on Earth and eventually leading to the formation of the [[Peacekeepers]].`,
         classification: 'Socionomics/Events'
     }],
     ['Cognostim', {
