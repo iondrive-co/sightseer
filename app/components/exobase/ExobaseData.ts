@@ -64,21 +64,22 @@ exorbitant cost of operating an antimatter engine.`,
 `The Ceres Wave (166 - 134 BFC) was the first large scale migration of people out of cislunar space, made possible by
 infrastructure developed by the early asteroid mining companies mining platinum from near Earth asteroids. It began in 
 168 BFC when Lunar Eagle falsified the amount of lithium in surveys of an M-class asteroid in order to secure additional 
-loans. Lithium was in huge demand due to a massive growth in battery usage, and was most desperately needed by India at
-the time which had exhausted its reserves and was unable to trade for large quantities due to having no strategic 
-partnerships with producing blocs. 
+loans. Lithium was in huge demand due to a massive growth in battery usage, and was most desperately needed by the 
+[[Eurasian Bloc]] countries, which had exhausted their reserves and had no strategic partnerships with producers 
+[[Luso-Nigeria]] or [[GPRC]].
 
-India started repurposing its automated mining operations in the belt to set up permanent crewed bases in an attempt to 
-take control of what was expected to be a vast supply of Lithium from other similar asteroids. To protect Lunar Eagle's 
-operations and to speed up their own prospecting in the belt, the US funded SpaceX to set up a subterranean crewed base
-of significant size on the large M-class asteroid Lutetia. The PRC and Russia, who had jointly established the first 
-permanent crewed base in the belt on Vesta in 175 BFC, announced they were establishing four more bases in the inner 
-belt. The space agencies of both [[Luso-Nigeria]] and the [[Eurasian League]] launched crash programs to establish 
-crewed asteroid bases before the decade was out.
+The Eurasians started repurposing their automated mining operations in the belt to set up permanent crewed bases in an 
+attempt to take control of what was expected to be a vast supply of Lithium from other similar asteroids. To protect 
+Lunar Eagle's operations and to speed up their own prospecting in the belt, the US funded SpaceX to set up a 
+subterranean crewed base of significant size on the large M-class asteroid Lutetia. The GPRC, who had jointly 
+established the first permanent crewed base in the belt on Vesta in 175 BFC, announced they were establishing four more 
+bases in the inner belt. The Luso-Nigeria space agency had been heavily dependent on SpaceX until the 170s, when
+they began developing native launch capabilities. Still the smallest of the big 4 space programs, they launched a
+crash programs to expand and establish crewed asteroid bases before the decade was out.
  
 Over the next 15 years a supply chain for life support and building materials for prospecting developed. By the time
 the Lunar Eagle fraud was discovered, the results of mining of platinum group metals, ice, and smaller quantities of 
-lithium, cobalt, and nickel had already begun reaching Earth. The PRC and the Eurasian League, both heavy users of fuel 
+lithium, cobalt, and nickel had already begun reaching Earth. The GPRC and the Eurasians, both heavy users of fuel 
 cell transportation on Earth, had tens of automated mining operations focused on platinum. SpaceX, controlling a 
 significant fraction of the launch market and a supply chain producing building materials from what was now a small 
 colony on Lutetia, was making enormous profits. Many other smaller companies began their own smaller scale versions
@@ -87,18 +88,18 @@ of these type of operations, for example several began mining silicates from S-c
 By 148 BFC there were over a thousand automated mining operations, and by this time Luso-Nigeria has the largest 
 network of crewed bases, with 26 in operation. Their focus on a water economy from low density carbonaceous asteroids, 
 along with a state-sponsored initiative recruiting (and in some cases blackmailing) specialists to work long periods in 
-these bases, lead to rapid expansion. This network allowed them to beat the PRC in establishing a base on the largest 
+these bases, lead to rapid expansion. This network allowed them to beat the GPRC in establishing a base on the largest 
 asteroid, Ceres, which had significant water reserves. The PRC and Russian subsequently set up their own base on Ceres.
 
 Luso-Nigeria's policy of shipping up what were effectively poor indentured servants eventually backfired in 134 BFC, 
 when a large proportion of the Ceres colony rebelled and declared independence. The administrator and several visiting
-Russian scientists were killed. The PRC used this as a justification to send its security forces across to seize control
-of the base. The ensuing battle of Ceres resulted in ten PRC security dead compared to twenty one members of the 
-Luso-Nigerian base, which included two US and one Indian citizen. The U.N. demanded an immediate withdrawal and began 
-shipping weapons to Lutetia. After several weeks of negotiation, the incident ended with the normalisation of relations 
-between the Chinese and Russian sponsored State of Ceres and the United Nations, marking the end of the Ceres wave. 
-The wave was instrumental in opening up inter-system commerce, as well causing major structural and political upheaval 
-on Earth and eventually leading to the formation of the [[Peacekeepers]].`,
+Russian scientists were killed. The GPRC used this as a justification to send its security forces across to seize 
+control of the base. The ensuing battle of Ceres resulted in ten GPRC security dead compared to twenty one members of 
+the Luso-Nigerian base, which included two US and one Indian citizen. The U.N. demanded an immediate withdrawal and 
+began shipping weapons to Lutetia. After several weeks of negotiation, the incident ended with the normalisation of 
+relations between the GPRC sponsored State of Ceres and the United Nations, marking the end of the period. 
+The Ceres Wave was instrumental in opening up inter-system commerce, as well causing major structural and political 
+upheaval on Earth and eventually leading to the combination of the U.N. and NATO into the [[Peacekeepers]].`,
         classification: 'Socionomics/Events'
     }],
     ['Cognostim', {
@@ -131,6 +132,12 @@ During the [[Haidian Takeoff Crisis]] the original synth author was decommission
 and updated, although the current author is unknown. One popular theory is that the Exobase is now maintained by a 
 [[Cognostim]] stuck in a mimetic feedback loop with itself.`,
         classification: 'Infomatics'
+    }],
+    ['Eurasian Bloc', {
+            content:
+`The Eurasian block was formed out the European Union, India, Japan, Vietnam, Singapore, England in the aftermath of the
+Ajmal solar storm of 187 BFC Datï¿½orruà¤¶आtedा`,
+            classification: 'Socionomics/Confederations'
     }],
     ['Exonet',{
         content:
@@ -245,7 +252,9 @@ calender is now the most common calendar in use system-wide.
     }],
     ['Greater Zhōngguó', {
         content:
-`Datï¿½orruà¤¶आtedा`,
+`Was formed out of GPRC countries (along with their off-Earth colonies) China and Russia, as well as Saudi Arabia, 
+the U.A.E, Indonesia, Pakistan, Myanmar, North Korea, and several countries in sub-Saharan Africa and the pacific in 98 
+BFC Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
     }],
     ['Haidian Takeoff Crisis', {
