@@ -51,6 +51,15 @@ export const sciFiMoviesData: Movie[] = [
         c: 7,
     },
     {
+        title: "Battle For Terra",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/e/e2/Battle-for-terra-poster.jpg",
+        summary: `A clever and original kids sci-fi with some excellent world building`,
+        e: 7,
+        a: 9,
+        n: 8,
+        c: 6,
+    },
+    {
         title: "Blade Runner",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/9/9f/Blade_Runner_%281982_poster%29.png",
         summary: `The beautiful over the top noir cinematography established Scott and the crew's creation as the 
@@ -194,6 +203,15 @@ export const sciFiMoviesData: Movie[] = [
         a: 10,
         n: 8,
         c: 7,
+    },
+    {
+        title: "Pandorum",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/3/3d/Pandorum-Poster.jpg",
+        summary: `A slick, bleak, atmospheric sci-fi horror with some great action scenes`,
+        e: 7,
+        a: 9,
+        n: 8,
+        c: 6,
     },
     {
         title: "Prometheus",
