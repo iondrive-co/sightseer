@@ -73,9 +73,9 @@ attempt to take control of what was expected to be a vast supply of Lithium from
 Lunar Eagle's operations and to speed up their own prospecting in the belt, the US funded SpaceX to set up a 
 subterranean crewed base of significant size on the large M-class asteroid Lutetia. The GPRC, who had jointly 
 established the first permanent crewed base in the belt on Vesta in 175 BFC, announced they were establishing four more 
-bases in the inner belt. The Luso-Nigeria space agency had been heavily dependent on SpaceX until the 170s, when
-they began developing native launch capabilities. Still the smallest of the big 4 space programs, they launched a
-crash programs to expand and establish crewed asteroid bases before the decade was out.
+bases in the inner belt. The Luso-Nigeria space agency, the smallest of the big 4 space programs and heavily dependent 
+on SpaceX until the 170s, began a crash programs to expand their new native launch capabilities and establish crewed 
+asteroid bases before the decade was out.
  
 Over the next 15 years a supply chain for life support and building materials for prospecting developed. By the time
 the Lunar Eagle fraud was discovered, the results of mining of platinum group metals, ice, and smaller quantities of 
@@ -88,18 +88,32 @@ of these type of operations, for example several began mining silicates from S-c
 By 148 BFC there were over a thousand automated mining operations, and by this time Luso-Nigeria has the largest 
 network of crewed bases, with 26 in operation. Their focus on a water economy from low density carbonaceous asteroids, 
 along with a state-sponsored initiative recruiting (and in some cases blackmailing) specialists to work long periods in 
-these bases, lead to rapid expansion. This network allowed them to beat the GPRC in establishing a base on the largest 
-asteroid, Ceres, which had significant water reserves. The PRC and Russian subsequently set up their own base on Ceres.
+these bases, lead to rapid expansion. In March 148 this network allowed them to leapfrog the GPRC in establishing a base 
+on Ceres, the largest asteroid which had significant water reserves. After adjusting their plans the GPRC was able to
+set up an adjacent base in December 148.
 
 Luso-Nigeria's policy of shipping up what were effectively poor indentured servants eventually backfired in 134 BFC, 
 when a large proportion of the Ceres colony rebelled and declared independence. The administrator and several visiting
 Russian scientists were killed. The GPRC used this as a justification to send its security forces across to seize 
 control of the base. The ensuing battle of Ceres resulted in ten GPRC security dead compared to twenty one members of 
-the Luso-Nigerian base, which included two US and one Indian citizen. The U.N. demanded an immediate withdrawal and 
-began shipping weapons to Lutetia. After several weeks of negotiation, the incident ended with the normalisation of 
-relations between the GPRC sponsored State of Ceres and the United Nations, marking the end of the period. 
-The Ceres Wave was instrumental in opening up inter-system commerce, as well causing major structural and political 
-upheaval on Earth and eventually leading to the combination of the U.N. and NATO into the [[Peacekeepers]].`,
+the Luso-Nigerian base, which included two US and one Indian citizen. 
+
+An emergency session of the U.N. security council voted 3 to 1 to demand an immediate withdrawal. The Luso-Nigerian
+government, having strong economic ties to the GPRC and with a space force with no breaching capability, ruled out use 
+of force to retake the station. This was extremely unpopular domestically, however the government was effective at 
+squashing dissent. The strongest reaction came from U.S, which had proposed the U.N. motion, publicly pushed for
+sanctions, and was later found to have secretly contracted the Constellis group to began shipping personnel and weapons 
+to Lutetia.
+
+The fait accompli situation, combined with lack of Luso-Nigerian power and the logistical nightmare of any military 
+response, helped the GPRC push for an advantageous diplomatic resolution. They proposed establishing a nominally 
+independent state on Ceres in exchange for sharing lucrative mining rights from several other operations they had 
+established in the belt. After several weeks of negotiation, the incident ended with the normalisation of relations 
+between the GPRC "sponsored" State of Ceres and the remaining United Nations security council members. 
+
+This marked the end of the Ceres Wave period, which was ultimately instrumental in opening up inter-system commerce, as 
+well causing major structural and political upheaval on Earth and eventually leading to the combination of the U.N. and 
+NATO into the [[Peacekeepers]].`,
         classification: 'Socionomics/Events'
     }],
     ['Cognostim', {
