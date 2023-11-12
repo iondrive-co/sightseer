@@ -40,6 +40,16 @@ export const sciFiMoviesData: Movie[] = [
         c: 6,
     },
     {
+        title: "Arrival",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/d/df/Arrival%2C_Movie_Poster.jpg",
+        summary: `A graceful adaptation of Ted Chiang's novella, this captures a lot of its fascination with language 
+        and time, tying everything together with nuanced performances by the leads and some excellent cinematography.`,
+        e: 8,
+        a: 8,
+        n: 7,
+        c: 7,
+    },
+    {
         title: "Avatar",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/d/d6/Avatar_%282009_film%29_poster.jpg",
         summary: `This groundbreaking 3D cinematic experience, despite the simple plot, is still enjoyable in 2d due to
@@ -80,6 +90,17 @@ export const sciFiMoviesData: Movie[] = [
         a: 10,
         n: 8,
         c: 7,
+    },
+    {
+        title: "Cloud Atlas",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/2/20/Cloud_Atlas_Poster.jpg",
+        summary: `A dreamlike, intoxicating epic of intertwined stories, connected from past to future by repeated 
+        motifs, with each period lovingly designed and the philosophic themes underpinning them working on some 
+        subliminal level even when it is emotionally difficult to connect to some of the stories.`,
+        e: 8,
+        a: 9,
+        n: 7,
+        c: 6,
     },
     {
         title: "Donnie Darko",
@@ -150,6 +171,16 @@ export const sciFiMoviesData: Movie[] = [
         e: 8,
         a: 9,
         n: 8,
+        c: 7,
+    },
+    {
+        title: "Interstellar",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
+        summary: `A behemoth of a movie, the sheer scope and spectacle is enthralling enough to overlook the weak 
+        characters and hit-and-miss mystical themes`,
+        e: 8,
+        a: 8,
+        n: 7,
         c: 7,
     },
     {
