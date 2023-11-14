@@ -95,21 +95,22 @@ set up an adjacent base in December 148.
 Luso-Nigeria's policy of shipping up what were effectively poor indentured servants eventually backfired in 134 BFC, 
 when a large proportion of the Ceres colony rebelled and declared independence. The administrator and several visiting
 Russian scientists were killed. The GPRC used this as a justification to send its security forces across to seize 
-control of the base. The ensuing battle of Ceres resulted in ten GPRC security dead compared to twenty one members of 
-the Luso-Nigerian base, which included two US and one Indian citizen. 
+control of the base. Due to the lack of automated weapon systems by either side, the ensuing battle of Ceres was 
+primarily fought by humans and resulted in ten GPRC security dead, compared to twenty one members of the Luso-Nigerian 
+base in the attempt to repel them, included two US and one Indian citizens. 
 
 An emergency session of the U.N. security council voted 3 to 1 to demand an immediate withdrawal. The Luso-Nigerian
-government, having strong economic ties to the GPRC and with a space force with no breaching capability, ruled out use 
-of force to retake the station. This was extremely unpopular domestically, however the government was effective at 
+junta, having strong economic ties to the GPRC and with a space force with no breaching capability, ruled out use 
+of force to retake the station. This was extremely unpopular domestically, however the junta was effective at 
 squashing dissent. The strongest reaction came from U.S, which had proposed the U.N. motion, publicly pushed for
-sanctions, and was later found to have secretly contracted the Constellis group to began shipping personnel and weapons 
+sanctions, and was later found to have secretly contracted the Constellis group to began shipping drones and weapons 
 to Lutetia.
 
 The fait accompli situation, combined with lack of Luso-Nigerian power and the logistical nightmare of any military 
 response, helped the GPRC push for an advantageous diplomatic resolution. They proposed establishing a nominally 
 independent state on Ceres in exchange for sharing lucrative mining rights from several other operations they had 
 established in the belt. After several weeks of negotiation, the incident ended with the normalisation of relations 
-between the GPRC "sponsored" State of Ceres and the remaining United Nations security council members. 
+between the GPRC sponsored State of Ceres and the remaining United Nations security council members. 
 
 This marked the end of the Ceres Wave period, which was ultimately instrumental in opening up inter-system commerce, as 
 well causing major structural and political upheaval on Earth and eventually leading to the combination of the U.N. and 
@@ -150,7 +151,8 @@ and updated, although the current author is unknown. One popular theory is that 
     ['Eurasian Bloc', {
             content:
 `The Eurasian block was formed out the European Union, India, Japan, Vietnam, Singapore, England in the aftermath of the
-Ajmal solar storm of 187 BFC Datï¿½orruà¤¶आtedा`,
+Ajmal solar storm of 187 BFC. It is governed by a supranational bureaucracy supplemented with a meritocratic sortition 
+system of random selection of experts for drafting legislation. Datï¿½orruà¤¶आtedा`,
             classification: 'Socionomics/Confederations'
     }],
     ['Exonet',{
