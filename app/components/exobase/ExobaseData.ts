@@ -85,12 +85,12 @@ significant fraction of the launch market and a supply chain producing building 
 colony on Lutetia, was making enormous profits. Many other smaller companies began their own smaller scale versions
 of these type of operations, for example several began mining silicates from S-class asteroids.
 
-By 148 BFC there were over a thousand automated mining operations, and by this time Luso-Nigeria has the largest 
-network of crewed bases, with 26 in operation. Their focus on a water economy from low density carbonaceous asteroids, 
-along with a state-sponsored initiative recruiting (and in some cases blackmailing) specialists to work long periods in 
-these bases, lead to rapid expansion. In March 148 this network allowed them to leapfrog the GPRC in establishing a base 
-on Ceres, the largest asteroid which had significant water reserves. After adjusting their plans the GPRC was able to
-set up an adjacent base in December 148.
+By 148 BFC, the improved [[Fusion Engine]] had increased the pace of development and there were over a thousand 
+automated mining operations, and by this time Luso-Nigeria has the largest network of crewed bases, with 26 in operation. 
+Their focus on a water economy from low density carbonaceous asteroids, along with a state-sponsored initiative 
+recruiting (and in some cases blackmailing) specialists to work long periods in these bases, lead to rapid expansion. 
+In March 148 this network allowed them to leapfrog the GPRC in establishing a base on Ceres, the largest asteroid which 
+had significant water reserves. After adjusting their plans the GPRC was able to set up an adjacent base in December 148.
 
 Luso-Nigeria's policy of shipping up what were effectively poor indentured servants eventually backfired in 134 BFC, 
 when a large proportion of the Ceres colony rebelled and declared independence. The administrator and several visiting
@@ -136,12 +136,12 @@ holographic AR and even to text, and is often used at extremely high latency end
 or prohibitively expensive. It is also notable for not being community edited, and for its popularity despite its lack 
 of citations[1] and having numerous factual inaccuracies which often remain uncorrected for extended periods of time.
 
-In 152 [[BFC~First Contact Event]] the first version of Exobase was conceived as a subset of the larger Exopedia project by an early 
-[[Synthetic Intelligence]] (then called third generation generative AIs) which had been tasked with finding ways to 
-distribute simple summaries of notable facts to the numerous migrants in the [[Ceres Wave]]. It was never widely used by 
-its intended audience, but later became popular in certain communities such as the [[Retrograde Diaspora]] and over time 
-has become one of the most widely consulted resources by [[Infocom Agent]]s in the outer solar system. The most popular 
-feature by number of requests is the cache of [[InterMesh]] profile data about nearby people.
+In 152 [[BFC~First Contact Event]] the first version of Exobase was conceived as a subset of the larger Exopedia project 
+by an early [[Synthetic Intelligence]] (then called third generation generative AIs) which had been tasked with finding 
+ways to distribute simple summaries of notable facts to the numerous migrants in the [[Ceres Wave]]. It was never widely 
+used by its intended audience, but later became popular in certain communities such as the [[Retrograde Diaspora]] and 
+over time has become one of the most widely consulted resources by [[Infocom Agent]]s in the outer solar system. The 
+most popular feature by number of requests is the cache of [[InterMesh]] profile data about nearby people.
 
 During the [[Haidian Takeoff Crisis]] the original synth author was decommissioned. Articles are still frequently added 
 and updated, although the current author is unknown. One popular theory is that the Exobase is now maintained by a 
@@ -250,21 +250,28 @@ and containment possibilities against the observational data.
 
 Many political parties used the event to advance, and in some cases pass, legislation on matters such as the ethical 
 treatment of animals, religious tolerance, promoting atheism, better direct communication systems between the larger 
-powers, higher defence spending, and better sensor networks in the outer solar system. The majority of people in several 
-large scale surveys at the time reported significantly weaker national political affiliations, and where more favourable
-to legislation on larger scale issues such as global defence and large scientific projects.
+powers, higher defence spending, better sensor networks in the outer solar system, and a renewed focus on off Earth
+settlement. The majority of people in several large scale surveys at the time reported significantly weaker national 
+political affiliations, and where more favourable to legislation on larger scale issues such as global defence and large 
+scientific projects.
  
 The subsequent years were a period of economic prosperity with a distinct cultural edge, with significant new trends in
 lifestyle and culture. The period was marked by a general feeling of novelty associated with modernity and a break with 
 tradition. There was a small decrease in those observing the three Abrahamic religions, and a larger increase in 
 people declaring themselves as atheists in census data. There was also a marked decrease in both local conflicts and
 in violent crimes. Several new inter-faction political entities such as the [[Outer Trading League]] were formed 
-during this period. As a result of the widespread effects on society, a proposal for a replacement to the Gregorian 
-calender system, denoting the year of contact as 0 AFC (After First Contact) and prior years as BFC (Before First 
-Contact) eventually gained enough support to became a certified standard. Over time it gained in popularity and the FC 
-calender is now the most common calendar in use system-wide.
-`,
+during this period, and there was a large increase in migration from Earth to the Lunar and Martian colonies. As a 
+result of the widespread effects on society, a proposal for a replacement to the Gregorian calender system, denoting 
+the year of contact as 0 AFC (After First Contact) and prior years as BFC (Before First Contact) eventually gained 
+enough support to became a certified standard. Over time it gained in popularity and the FC calender is now the most 
+common calendar in use system-wide.`,
         classification: 'Socionomics/Events'
+    }],
+    ['Fusion Engine', {
+        content:
+`Fusion engines are the most common form of spacecraft propulsion. The modern fusion engine was developed in the 140s by
+SpaceX based on improved heat dissipation techniques pioneered by the Lunar Atomic Research Group. Datï¿½orruà¤¶आtedा`,
+        classification: 'Praxis/Energy'
     }],
     ['Greater Zhōngguó', {
         content:
