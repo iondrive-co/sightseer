@@ -87,15 +87,23 @@ of these type of operations, for example several began mining silicates from S-c
 
 By 148 BFC, the improved [[Fusion Engine]] had increased the pace of development and there were over a thousand 
 automated mining operations, and by this time Luso-Nigeria has the largest network of crewed bases, with 26 in operation. 
-Their focus on a water economy from low density carbonaceous asteroids, along with a state-sponsored initiative 
-recruiting (and in some cases blackmailing) specialists to work long periods in these bases, lead to rapid expansion. 
-In March 148 this network allowed them to leapfrog the GPRC in establishing a base on Ceres, the largest asteroid which 
-had significant water reserves. After adjusting their plans the GPRC was able to set up an adjacent base in December 
-148.
+Their focus on a water economy from low density carbonaceous asteroids such as 52 Europa, along with a state-sponsored 
+initiative recruiting (and in some cases blackmailing) specialists to work long periods in these bases, lead to rapid 
+expansion. In March 148 this network allowed them to leapfrog the GPRC in establishing a base on Ceres, the largest 
+asteroid which had significant water reserves. After adjusting their plans the GPRC was able to set up an adjacent base 
+in December 148.
 
-On 12 March, 143 BFC, the first reported act of space piracy occurred. A Lilium Solid Power shuttle carrying many 
-thousands of Amazon industrial robots of various models to some of the larger bases in the outer belt was last seen
-being approached by another ship, and subsequently vanished.
+The first reported act of space piracy occurred on 12 April, 143 BFC, when an automated Lilium Solid Power shuttle 
+carrying many thousands of Amazon industrial robots to the outer asteroid belt disappeared near Cybele. At this time
+there were still almost no large scale radar or infrared tracking satellites in the belt, and many ships had failed and
+been abandoned, including several which had failed to transmit a cause of failure. Because of the value of the cargo, 
+LSP had secretly invested in developing and installing a much higher power tighter beam transmitter for this shuttle, 
+which recorded an attempted signal jamming followed by another ship approaching and burning out the transmitter with a 
+laser. The belligerent was never identified, but several historians have used the increased output of multiple SpaceX 
+assembly lines in the subsequent years to argue that this was a case of corporate privateering. Over the next 5 years
+there were a handful of other smaller ship hijackings, but the development of better transmitters, more tracking 
+satellites, and in-situ manufacturing of more valuable goods reduced and eventually stopped any more incidents after 
+138 BFC.
 
 Luso-Nigeria's policy of shipping up what were effectively poor indentured servants eventually backfired in 134 BFC, 
 when a large proportion of the Ceres colony rebelled and declared independence. The administrator and several visiting
