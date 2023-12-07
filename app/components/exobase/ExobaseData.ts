@@ -90,7 +90,12 @@ automated mining operations, and by this time Luso-Nigeria has the largest netwo
 Their focus on a water economy from low density carbonaceous asteroids, along with a state-sponsored initiative 
 recruiting (and in some cases blackmailing) specialists to work long periods in these bases, lead to rapid expansion. 
 In March 148 this network allowed them to leapfrog the GPRC in establishing a base on Ceres, the largest asteroid which 
-had significant water reserves. After adjusting their plans the GPRC was able to set up an adjacent base in December 148.
+had significant water reserves. After adjusting their plans the GPRC was able to set up an adjacent base in December 
+148.
+
+On 12 March, 143 BFC, the first reported act of space piracy occurred. A Lilium Solid Power shuttle carrying many 
+thousands of Amazon industrial robots of various models to some of the larger bases in the outer belt was last seen
+being approached by another ship, and subsequently vanished.
 
 Luso-Nigeria's policy of shipping up what were effectively poor indentured servants eventually backfired in 134 BFC, 
 when a large proportion of the Ceres colony rebelled and declared independence. The administrator and several visiting
