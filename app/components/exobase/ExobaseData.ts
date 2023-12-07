@@ -96,7 +96,7 @@ in December 148.
 The first reported act of space piracy occurred on 12 April, 143 BFC, when an automated Lilium Solid Power shuttle 
 carrying many thousands of Amazon industrial robots to the outer asteroid belt disappeared near Cybele. At this time
 there were still almost no large scale radar or infrared tracking satellites in the belt, and many ships had failed and
-been abandoned, including several which had failed to transmit a cause of failure. Because of the value of the cargo, 
+been abandoned, including several which had not transmitted a cause of failure. Because of the value of the cargo, 
 LSP had secretly invested in developing and installing a much higher power tighter beam transmitter for this shuttle, 
 which recorded an attempted signal jamming followed by another ship approaching and burning out the transmitter with a 
 laser. The belligerent was never identified, but several historians have used the increased output of multiple SpaceX 
@@ -114,10 +114,10 @@ base in the attempt to repel them, included two US and one Indian citizens.
 
 An emergency session of the U.N. security council voted 3 to 1 to demand an immediate withdrawal. The Luso-Nigerian
 junta, having strong economic ties to the GPRC and with a space force with no breaching capability, ruled out use 
-of force to retake the station. This was extremely unpopular domestically, however the junta was effective at 
-squashing dissent. The strongest reaction came from U.S, which had proposed the U.N. motion, publicly pushed for
-sanctions, and was later found to have secretly contracted the Constellis group to began shipping drones and weapons 
-to Lutetia.
+of force to retake the station. This was extremely unpopular domestically, however the junta effectively censored the 
+decision in local media and arrested protestors, which effectively stopped any further dissent. The U.S, which had 
+proposed the U.N. motion, publicly pushed for sanctions, and was later found to have secretly contracted the Constellis 
+group to began shipping drones and weapons to Lutetia.
 
 The fait accompli situation, combined with lack of Luso-Nigerian power and the logistical nightmare of any military 
 response, helped the GPRC push for an advantageous diplomatic resolution. They proposed establishing a nominally 
@@ -125,9 +125,12 @@ independent state on Ceres in exchange for sharing lucrative mining rights from 
 established in the belt. After several weeks of negotiation, the incident ended with the normalisation of relations 
 between the GPRC sponsored State of Ceres and the remaining United Nations security council members. 
 
-This marked the end of the Ceres Wave period, which was ultimately instrumental in opening up inter-system commerce, as 
-well causing major structural and political upheaval on Earth and eventually leading to the combination of the U.N. and 
-NATO into the [[Peacekeepers]].`,
+134 BFC is considered to be the end of the Ceres Wave period, as resource depletion on the more accessible asteroids and 
+oversupply of raw resources to earth had made most new mining ventures unprofitable, and the belt had evolved into a 
+steady state economy with stable population supplying the existing operations and longer range missions, with no more
+major political shifts until formation of [[Greater Zhōngguó]] 36 years later. The Ceres Wave was ultimately 
+instrumental in opening up inter-system commerce, as well causing major structural and political upheaval 
+on Earth and eventually leading to the combination of the U.N. and NATO into the [[Peacekeepers]].`,
         classification: 'Socionomics/Events'
     }],
     ['Cognostim', {
