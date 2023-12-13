@@ -1,5 +1,9 @@
 export type Classification = string;
 export const pageData = new Map<string, {content: string, classification: Classification}>([
+    ['Ajmal Solar Storm', {
+        content: `Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Events'
+    }],
     ['Antimatter Engine', {
         content:
 `Antimatter engines are a class of propulsion technology that make use of the energy released during the annihilation of 
@@ -66,7 +70,7 @@ infrastructure developed by the early asteroid mining companies mining platinum 
 168 BFC when Lunar Eagle falsified the amount of lithium in surveys of an M-class asteroid in order to secure additional 
 loans. Lithium was in huge demand due to a massive growth in battery usage, and was most desperately needed by the 
 [[Eurasian Bloc]] countries, which had exhausted their reserves and had no strategic partnerships with producers 
-[[Luso-Nigeria]] or [[GPRC]].
+[[Luso-Nigeria]] or the [[GPRC]].
 
 The Eurasians started repurposing their automated mining operations in the belt to set up permanent crewed bases in an 
 attempt to take control of what was expected to be a vast supply of Lithium from other similar asteroids. To protect 
@@ -166,9 +170,15 @@ and updated, although the current author is unknown. One popular theory is that 
     }],
     ['Eurasian Bloc', {
             content:
-`The Eurasian block was formed out the European Union, India, Japan, Vietnam, Singapore, England in the aftermath of the
-Ajmal solar storm of 187 BFC. It is governed by a supranational bureaucracy supplemented with a meritocratic sortition 
-system of random selection of experts for drafting legislation. Datï¿½orruà¤¶आtedा`,
+`The Eurasian Bloc is an astropolitical and economic entity which formed out the European Union, India, Japan, Vietnam, 
+Singapore, and Great Britain in the aftermath of the political upheaval following the [[Ajmal Solar Storm]] of 187 BFC.
+The Bloc's treaties of governance primarily concern trade, colony administration, and defence, leaving its constituent 
+members with legislative autonomy in other areas. It is governed by a supranational bureaucracy supplemented with 
+meritocratic sortition, whereby a random selection of experts is drawn from the general populace for the purposes of 
+drafting legislation. 
+
+The proposal for a new set of international treaties to replace the role the U.S. and NATO had played prior to Ajmal was
+first made by Yoshikawa Satō at the Conference of Hiroshima in 185 BFC. Datï¿½orruà¤¶आtedा`,
             classification: 'Socionomics/Confederations'
     }],
     ['Exonet',{
