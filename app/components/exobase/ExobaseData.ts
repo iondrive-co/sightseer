@@ -1,6 +1,13 @@
 export type Classification = string;
 export const pageData = new Map<string, {content: string, classification: Classification}>([
-    ['Ajmal Solar Storm', {
+    ['10 Day War', {
+content: `The 10 Day War was a conflict between [[Luso-Nigeria]] and an alliance of the People's Republic of China, 
+Russia, North Korea over positioning at the EM1 Lagrange Point. It began with [[Intermesh]] industrial sabotage and 
+culminated in the Battle of the Apex which was the first large scale space battle. It directly resulted in the formation 
+of the [[GPR]] as a military and informatic alliance, and led to major changes in military tactics. Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Events'
+    }],
+    ['Ajayan Solar Storm', {
         content: `Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Events'
     }],
@@ -70,12 +77,12 @@ infrastructure developed by the early asteroid mining companies mining platinum 
 168 BFC when Lunar Eagle falsified the amount of lithium in surveys of an M-class asteroid in order to secure additional 
 loans. Lithium was in huge demand due to a massive growth in battery usage, and was most desperately needed by the 
 [[Eurasian Bloc]] countries, which had exhausted their reserves and had no strategic partnerships with producers 
-[[Luso-Nigeria]] or the [[GPRC]].
+[[Luso-Nigeria]] or the [[GPR]].
 
 The Eurasians started repurposing their automated mining operations in the belt to set up permanent crewed bases in an 
 attempt to take control of what was expected to be a vast supply of Lithium from other similar asteroids. To protect 
 Lunar Eagle's operations and to speed up their own prospecting in the belt, the US funded SpaceX to set up a 
-subterranean crewed base of significant size on the large M-class asteroid Lutetia. The GPRC, who had jointly 
+subterranean crewed base of significant size on the large M-class asteroid Lutetia. The GPR, who had jointly 
 established the first permanent crewed base in the belt on Vesta in 175 BFC, announced they were establishing four more 
 bases in the inner belt. The Luso-Nigeria space agency, the smallest of the big 4 space programs and heavily dependent 
 on SpaceX until the 170s, began a crash programs to expand their new native launch capabilities and establish crewed 
@@ -83,7 +90,7 @@ asteroid bases before the decade was out.
  
 Over the next 15 years a supply chain for life support and building materials for prospecting developed. By the time
 the Lunar Eagle fraud was discovered, the results of mining of platinum group metals, ice, and smaller quantities of 
-lithium, cobalt, and nickel had already begun reaching Earth. The GPRC and the Eurasians, both heavy users of fuel 
+lithium, cobalt, and nickel had already begun reaching Earth. The GPR and the Eurasians, both heavy users of fuel 
 cell transportation on Earth, had tens of automated mining operations focused on platinum. SpaceX, controlling a 
 significant fraction of the launch market and a supply chain producing building materials from what was now a small 
 colony on Lutetia, was making enormous profits. Many other smaller companies began their own smaller scale versions
@@ -93,8 +100,8 @@ By 148 BFC, the improved [[Fusion Engine]] had increased the pace of development
 automated mining operations, and by this time Luso-Nigeria has the largest network of crewed bases, with 26 in operation. 
 Their focus on a water economy from low density carbonaceous asteroids such as 52 Europa, along with a state-sponsored 
 initiative recruiting (and in some cases blackmailing) specialists to work long periods in these bases, lead to rapid 
-expansion. In March 148 this network allowed them to leapfrog the GPRC in establishing a base on Ceres, the largest 
-asteroid which had significant water reserves. After adjusting their plans the GPRC was able to set up an adjacent base 
+expansion. In March 148 this network allowed them to leapfrog the GPR in establishing a base on Ceres, the largest 
+asteroid which had significant water reserves. After adjusting their plans the GPR was able to set up an adjacent base 
 in December 148.
 
 The first reported act of space piracy occurred on 12 April, 143 BFC, when an automated Lilium Solid Power shuttle 
@@ -111,23 +118,23 @@ satellites, and in-situ manufacturing of more valuable goods reduced and eventua
 
 Luso-Nigeria's policy of shipping up what were effectively poor indentured servants eventually backfired in 134 BFC, 
 when a large proportion of the Ceres colony rebelled and declared independence. The administrator and several visiting
-Russian scientists were killed. The GPRC used this as a justification to send its security forces across to seize 
+Russian scientists were killed. The GPR used this as a justification to send its security forces across to seize 
 control of the base. Due to the lack of automated weapon systems by either side, the ensuing battle of Ceres was 
-primarily fought by humans and resulted in ten GPRC security dead, compared to twenty one members of the Luso-Nigerian 
+primarily fought by humans and resulted in ten GPR security dead, compared to twenty one members of the Luso-Nigerian 
 base in the attempt to repel them, included two US and one Indian citizens. 
 
 An emergency session of the U.N. security council voted 3 to 1 to demand an immediate withdrawal. The Luso-Nigerian
-junta, having strong economic ties to the GPRC and with a space force with no breaching capability, ruled out use 
+junta, having strong economic ties to the GPR and with a space force with no breaching capability, ruled out use 
 of force to retake the station. This was extremely unpopular domestically, however the junta effectively censored the 
 decision in local media and arrested protestors, which effectively stopped any further dissent. The U.S, which had 
 proposed the U.N. motion, publicly pushed for sanctions, and was later found to have secretly contracted the Constellis 
 group to began shipping drones and weapons to Lutetia.
 
 The fait accompli situation, combined with lack of Luso-Nigerian power and the logistical nightmare of any military 
-response, helped the GPRC push for an advantageous diplomatic resolution. They proposed establishing a nominally 
+response, helped the GPR push for an advantageous diplomatic resolution. They proposed establishing a nominally 
 independent state on Ceres in exchange for sharing lucrative mining rights from several other operations they had 
 established in the belt. After several weeks of negotiation, the incident ended with the normalisation of relations 
-between the GPRC sponsored State of Ceres and the remaining United Nations security council members. 
+between the GPR sponsored State of Ceres and the remaining United Nations security council members. 
 
 134 BFC is considered to be the end of the Ceres Wave period, as resource depletion on the more accessible asteroids and 
 oversupply of raw resources to earth had made most new mining ventures unprofitable, and the belt had evolved into a 
@@ -171,14 +178,14 @@ and updated, although the current author is unknown. One popular theory is that 
     ['Eurasian Bloc', {
             content:
 `The Eurasian Bloc is an astropolitical and economic entity which formed out the European Union, India, Japan, Vietnam, 
-Singapore, and Great Britain in the aftermath of the political upheaval following the [[Ajmal Solar Storm]] of 187 BFC.
+Singapore, and Great Britain in the aftermath of the political upheaval following the [[Ajayan Solar Storm]] of 187 BFC.
 The Bloc's treaties of governance primarily concern trade, colony administration, and defence, leaving its constituent 
 members with legislative autonomy in other areas. It is governed by a supranational bureaucracy supplemented with 
 meritocratic sortition, whereby a random selection of experts is drawn from the general populace for the purposes of 
 drafting legislation. 
 
-The proposal for a new set of international treaties to replace the role the U.S. and NATO had played prior to Ajmal was
-first made by Yoshikawa Satō at the Conference of Hiroshima in 185 BFC. Datï¿½orruà¤¶आtedा`,
+The proposal for a new set of international treaties to replace the role the U.S. and NATO had played prior to Ajayan 
+was first made by Japanese Defense Minister Matsumoto Koji at the Lausanne Convention in 185 BFC. Datï¿½orruà¤¶आtedा`,
             classification: 'Socionomics/Confederations'
     }],
     ['Exonet',{
@@ -299,16 +306,23 @@ common calendar in use system-wide.`,
 SpaceX based on improved heat dissipation techniques pioneered by the Lunar Atomic Research Group. Datï¿½orruà¤¶आtedा`,
         classification: 'Praxis/Energy'
     }],
+    ['GPR', {
+        content:
+`The Greater People's Republic, commonly known as the GPR, was a political union that existed from 174 BFC until being 
+replaced by [[Greater Zhōngguó]] in 98 BFC. It originated in a military and political alliance formed by the People's 
+Republic of China, Russia, North Korea, Myanmar, and their respective off-Earth colonies during the events preceding 
+the [[10 day war]].  Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Confederations'
+    }],
     ['Greater Zhōngguó', {
         content:
-`Was formed out of GPRC countries (along with their off-Earth colonies) China and Russia, as well as Saudi Arabia, 
-the U.A.E, Indonesia, Pakistan, Myanmar, North Korea, and several countries in sub-Saharan Africa and the pacific in 98 
-BFC Datï¿½orruà¤¶आtedा`,
+`Greater Zhōngguó is a political entity which was formed in 98 BFC from the unification of the [[GPR]] with Iran, the 
+U.A.E, Ethiopia, Sudan, Djibouti, Indonesia, Pakistan, and Papua New Guinea Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
     }],
     ['Haidian Takeoff Crisis', {
         content:
-`The Haidan Takeoff Crisis was a series of events in [[BFC~First Contact Event]] 114 that lead to the partial escape and 
+`The Haidan Takeoff Crisis was a series of events in 114 BFC that lead to the partial escape and 
 eventual containment of an unaligned superintelligence. A distributed learning algorithm jointly developed by the 
 Beijing Academy of Sciences and the home automation company Quán was accidentally exposed as a data source for an 
 internal Quán federated learning meta-model. Within half an hour the resulting program had copied itself to 
@@ -319,7 +333,7 @@ widespread changes in control measures.
   
 # Escape
 
-In April BFC 115, the Beijing Academy of Sciences and the Haidan headquarters of technology firm Quán formed a 
+In April 115 BFC, the Beijing Academy of Sciences and the Haidan headquarters of technology firm Quán formed a 
 partnership aimed at enhancing distributed machine learning capabilities. By the following year the project had a 
 running demo of Fēnbù, an experimental [[synth~Synthetic Intelligence]] capable of swarm behavior that Quán was planning 
 to use to allow its IOT devices to coordinate more effectively. As per the Chinese control measures active at the time, 
@@ -376,7 +390,7 @@ for riot control, effectively cutting off all remaining Intermesh access to the 
 
 A later data leak revealed that the Jībiàn sandbox had been used to train military overwatch protocols, which for 
 several years had included automated quick reaction access to SAM batteries across the country after multiple wargames 
-revealed this as a major weakness in the PRC's defense posture. It is assumed that the synth was able to recover the 
+revealed this as a major weakness in the [[GPR]]'s defense posture. It is assumed that the synth was able to recover the 
 military overwatch launch codes and access lines from this sandbox, as every SAM battery in range of Beijing which had 
 ballistic missiles with chemical EMP warheads launched them at this time. Most missiles were deactivated in flight,
 presumably by humans in theatre command overriding the launch, however 4 missiles were launched from one SAM battery
@@ -410,7 +424,7 @@ that the foresight of the government in setting up the watchdog system and EMP m
 corporation from causing a global catastrophe. Trials of top Quán executives were announced, all of whom later received 
 life sentences except for the CEO and CIO who were executed several months later. 
 
-The PRC and [[Greater Zhōngguó]] continue to maintain the official stance that the EMP missile strike capability 
+The GPR (and later [[Greater Zhōngguó]]) maintain the official stance that the EMP missile strike capability 
 was part of the Jībiàn containment protocol at the time and that any copies of official documents showing otherwise
 are U.S. or Indian propaganda. Many in the AI research community have expressed amazement at how much autonomy the MND 
 synth was given to follow its primary directive, and at how successful it was at doing so. Although no details of it or 
@@ -419,7 +433,7 @@ strike to stop Xuéxí then it is arguably the most remarkably successful piece 
 
 The incident lead to an emergency session being held at the United Nations, which drafted the Global AI Safety Accord 
 outlining new safety protocols and requiring international oversight for any projects involving large synth models. The 
-PRC did not sign, but instead made several changes to its watchdog protocols including mandatory government observers 
+GPR did not sign, but instead made several changes to its watchdog protocols including mandatory government observers 
 and a dead-man's switch for monitoring of synth projects undergoing training. Over the next few years, widespread 
 international pressure lead to virtually every AI lab in the world adopting a common set of vastly more effective 
 [[Synthetic Control Measures]]. These were based on data about how the crisis had unfolded, as well as several new 
