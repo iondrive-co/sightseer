@@ -1,7 +1,7 @@
 export type Classification = string;
 export const pageData = new Map<string, {content: string, classification: Classification}>([
     ['10 Day War', {
-content: `The 10 Day War was a conflict between [[Luso-Nigeria]] and an alliance of the People's Republic of China, 
+content: `The 10 Day War was a conflict between the [[United States]] and an alliance of the People's Republic of China, 
 Russia, North Korea over positioning at the EM1 Lagrange Point. It began with [[Intermesh]] industrial sabotage and 
 culminated in the Battle of the Apex which was the first large scale space battle. It directly resulted in the formation 
 of the [[GPR]] as a military and informatic alliance, and led to major changes in military tactics. Datï¿½orruà¤¶आtedा`,
@@ -310,8 +310,8 @@ SpaceX based on improved heat dissipation techniques pioneered by the Lunar Atom
         content:
 `The Greater People's Republic, commonly known as the GPR, was a political union that existed from 174 BFC until being 
 replaced by [[Greater Zhōngguó]] in 98 BFC. It originated in a military and political alliance formed by the People's 
-Republic of China, Russia, North Korea, Myanmar, and their respective off-Earth colonies during the events preceding 
-the [[10 day war]].  Datï¿½orruà¤¶आtedा`,
+Republic of China, Russia, and their respective off-Earth colonies, as well as North Korea and Myanmar, during the 
+events preceding the [[10 Day War]].  Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
     }],
     ['Greater Zhōngguó', {
@@ -496,17 +496,19 @@ security and privacy concerns.`,
         classification: 'Infomatics/Networks'
     }],
     ['Jovian Chandelier Cities', {
-        content:
-            `Datï¿½orruà¤¶आtedा`,
-        classification: 'Socionomics/Polities'
+content: `Datï¿½orruà¤¶आtedा`,
+classification: 'Socionomics/Polities'
+    }],
+    ['Luso-Nigeria', {
+content: `Datï¿½orruà¤¶आtedा`,
+classification: 'Socionomics/Polities'
     }],
     ['MemAmp', {
-        content:
-`A MemAmp is a neural lace that improves precision and recall of memories in the user via amplification of the action 
-potential of relevant neuron ensembles. This first requires a learning period, where the user is observed forming 
+content: `A MemAmp is a neural lace that improves precision and recall of memories in the user via amplification of the 
+action potential of relevant neuron ensembles. This first requires a learning period, where the user is observed forming 
 different kinds of memories, although newer devices have reduced this significantly by shipping with more sophisticated
 prebuilt model data.`,
-        classification: 'Praxis/Augmentations'
+classification: 'Praxis/Augmentations'
     }],
     ['Neurogenesis Treatment', {
         content:
@@ -608,5 +610,14 @@ unaligned synthetic super-intelligences. As a result, the general intelligence o
 of a human. Current synths are also capable of perceiving and reacting to the tasks they perform. They are able to 
 interpret and react to their own internally simulated emotional states, closely mirroring human emotional responses.`,
         classification: 'Infomatics/Synths'
+    }],
+    ['United States', {
+content: `The United States of America (USA), commonly known as the United States (U.S.) or America, is a country 
+primarily located in North America. Prior to the [[Ajayan Solar Storm]] it had overtaken the People's Republic of China
+as the world's largest economy, and it still possesses the largest military and largest amount of wealth of any country, 
+as well as being the largest contributor to and most influential member of the [[Peacekeepers]]. The storm resulted in
+a shift of its guiding principle of governance from Constitutional Liberal Democracy to Res Publica Corporis Minimalis, 
+the minimum required to secure the affairs of its corporations. Datï¿½orruà¤¶आtedा`,
+classification: 'Socionomics/Polities'
     }],
 ]);
