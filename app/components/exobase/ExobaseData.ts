@@ -522,7 +522,7 @@ classification: 'Praxis/Augmentations'
     }],
     ['Peacekeepers', {
         content:
-`Datï¿½orruà¤¶आtedा`,
+`In 102 BFC Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
     }],
     ['QuanLan',{
@@ -616,8 +616,13 @@ content: `The United States of America (USA), commonly known as the United State
 primarily located in North America. Prior to the [[Ajayan Solar Storm]] it had overtaken the People's Republic of China
 as the world's largest economy, and it still possesses the largest military and largest amount of wealth of any country, 
 as well as being the largest contributor to and most influential member of the [[Peacekeepers]]. The storm resulted in
-a shift of its guiding principle of governance from Constitutional Liberal Democracy to Res Publica Corporis Minimalis, 
-the minimum required to secure the affairs of its corporations. Datï¿½orruà¤¶आtedा`,
+a shift of its guiding principle of governance from E pluribus unum and a constitutional oligarchic liberal democracy, 
+to Res Publica Corporis Minimalis and the minimum required to secure the affairs of its corporations. The shock of the 
+prosperous and optimistic period prior to 187 BCF being cut short by Ajayan began a nearly two century long period of 
+isolation and abdication of public affairs to corporations. Although becoming more involved in system wide affairs 
+through the peacekeepers in in the last century BFC, the U.S. has only recently emerged as an active international 
+political force after the [[First Contact Event]].
+Datï¿½orruà¤¶आtedा`,
 classification: 'Socionomics/Polities'
     }],
 ]);
