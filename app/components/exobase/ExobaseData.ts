@@ -311,13 +311,15 @@ SpaceX based on improved heat dissipation techniques pioneered by the Lunar Atom
 `The Greater People's Republic, commonly known as the GPR, was a political union that existed from 174 BFC until being 
 replaced by [[Greater Zhōngguó]] in 98 BFC. It originated in a military and political alliance formed by the People's 
 Republic of China, Russia, and their respective off-Earth colonies, as well as North Korea and Myanmar, during the 
-events preceding the [[10 Day War]].  Datï¿½orruà¤¶आtedा`,
+events preceding the [[10 Day War]]. It broadened to include tight economic integration, with Russia shipping 
+increasingly large qunatities of food to China as global warming increased in exchange for machinery and electronics.
+Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
     }],
     ['Greater Zhōngguó', {
-        content:
-`Greater Zhōngguó is a political entity which was formed in 98 BFC from the unification of the [[GPR]] with Iran, the 
-U.A.E, Ethiopia, Sudan, Djibouti, Indonesia, Pakistan, and Papua New Guinea Datï¿½orruà¤¶आtedा`,
+content:  `Greater Zhōngguó is a political entity which was formed in 98 BFC from the unification of the [[GPR]] with 
+Iran, the U.A.E, Ethiopia, Sudan, Djibouti, Indonesia, Pakistan, and Papua New Guinea. Despite having significantly less
+industrial capacity than the [[Peacekeepers]] it fields a nearly equivalently size navy. Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
     }],
     ['Haidian Takeoff Crisis', {
@@ -500,7 +502,9 @@ content: `Datï¿½orruà¤¶आtedा`,
 classification: 'Socionomics/Polities'
     }],
     ['Luso-Nigeria', {
-content: `Datï¿½orruà¤¶आtedा`,
+content: `Luso-Nigeria is a political federation of African and South American states, initially formed to more 
+efficiently mine seabed resources in the South Atlantic and eventually evolving into a tightly integrated military junta.
+Datï¿½orruà¤¶आtedा`,
 classification: 'Socionomics/Polities'
     }],
     ['MemAmp', {
@@ -615,13 +619,18 @@ interpret and react to their own internally simulated emotional states, closely 
 content: `The United States of America (USA), commonly known as the United States (U.S.) or America, is a country 
 primarily located in North America. Prior to the [[Ajayan Solar Storm]] it had overtaken the People's Republic of China
 as the world's largest economy, and it still possesses the largest military and largest amount of wealth of any country, 
-as well as being the largest contributor to and most influential member of the [[Peacekeepers]]. The storm resulted in
-a shift of its guiding principle of governance from E pluribus unum and a constitutional oligarchic liberal democracy, 
-to Res Publica Corporis Minimalis and the minimum required to secure the affairs of its corporations. The shock of the 
-prosperous and optimistic period prior to 187 BCF being cut short by Ajayan began a nearly two century long period of 
-isolation and abdication of public affairs to corporations. Although becoming more involved in system wide affairs 
-through the peacekeepers in in the last century BFC, the U.S. has only recently emerged as an active international 
-political force after the [[First Contact Event]].
+as well as being the largest contributor to and most influential member of the [[Peacekeepers]]. 
+
+# Post-Ajayan United States
+
+The storm resulted in a shift of its guiding principle of governance from E pluribus unum and a constitutional 
+oligarchic liberal democracy, to Res Publica Corporis Minimalis and the minimum required to secure the affairs of its 
+corporations. The shock of the prosperous and optimistic period prior to 187 BCF being cut short by Ajayan began a 
+nearly two century long period of isolation and abdication of public affairs to corporations. A notable exception was
+a much closer integration with Canada and Mexico in the first years after the storm due to on-shoring supply chains, this
+then resulted in much closer political and terrestrial military co-operation as well as a number of colonies founded as 
+joint ventures. Although becoming more involved in system wide affairs through the peacekeepers in in the last century 
+BFC, the U.S. has only recently emerged as an active international political force after the [[First Contact Event]].
 Datï¿½orruà¤¶आtedा`,
 classification: 'Socionomics/Polities'
     }],
