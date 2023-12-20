@@ -7,8 +7,30 @@ culminated in the Battle of the Apex which was the first large scale space battl
 of the [[GPR]] as a military and informatic alliance, and led to major changes in military tactics. Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Events'
     }],
-    ['Ajayan Solar Storm', {
-        content: `Datï¿½orruà¤¶आtedा`,
+    ['Khan Solar Storm', {
+content: `The Khan Solar Storm of Jan 10th and 11th, 187 BFC was the most intense geomagnetic storm in history. It 
+crippled much of industrial society for months by destroying infrastructure required for services such as electricity 
+generation, navigation, and water supply, causing worldwide economic devastation that lasted for years as well as a 
+major shift in geopolitical balance of power due to the comparatively slow recovery of the [[United States]]. The storm 
+was named after Indian astronaut and solar astronomer Raja Khan who perished onboard the Aryabhata L5 solar observatory 
+after being one of the first to observe the coronal mass ejection.
+
+Datï¿½orruà¤¶आtedा
+# Japanese Response
+
+Datï¿½orruà¤¶आtedा
+
+# Trypanosoma Pandemic
+
+The supply chain disruptions caused major issues with public health in many countries due to shortage of drugs, lack of 
+clean drinking water, and power rationing. With global surveillance networks and contact tracing non-functional, some 
+of the seasonal virus spread further than normal, but the extremely effective universal vaccines and nano-adjuvant 
+antiviral drugs developed before Khan were still effective in controlling viral pandemics. However the lack of 
+surveillance allowed a human to human strain of Trypanosomiasis to spread outside of sub-Saharan Africa, becoming 
+endemic in subsequent decades in large parts of Africa and South America. It was estimated to have killed over a hundred 
+million people, further devastating the economies of most countries in the [[Luso-Nigeria]] trading block, leading to
+the establishment of a military junta which retained power in its early days by providing effective healthcare.
+`,
         classification: 'Socionomics/Events'
     }],
     ['Antimatter Engine', {
@@ -178,13 +200,13 @@ and updated, although the current author is unknown. One popular theory is that 
     ['Eurasian Bloc', {
             content:
 `The Eurasian Bloc is an astropolitical and economic entity which formed out the European Union, India, Japan, Vietnam, 
-Singapore, and Great Britain in the aftermath of the political upheaval following the [[Ajayan Solar Storm]] of 187 BFC.
+Singapore, and Great Britain in the aftermath of the political upheaval following the [[Khan Solar Storm]] of 187 BFC.
 The Bloc's treaties of governance primarily concern trade, colony administration, and defence, leaving its constituent 
 members with legislative autonomy in other areas. It is governed by a supranational bureaucracy supplemented with 
 meritocratic sortition, whereby a random selection of experts is drawn from the general populace for the purposes of 
 drafting legislation. 
 
-The proposal for a new set of international treaties to replace the role the U.S. and NATO had played prior to Ajayan 
+The proposal for a new set of international treaties to replace the role the U.S. and NATO had played prior to Khan 
 was first made by Japanese Defense Minister Matsumoto Koji at the Lausanne Convention in 185 BFC. Datï¿½orruà¤¶आtedा`,
             classification: 'Socionomics/Confederations'
     }],
@@ -503,7 +525,8 @@ classification: 'Socionomics/Polities'
     }],
     ['Luso-Nigeria', {
 content: `Luso-Nigeria is a political federation of African and South American states, initially formed to more 
-efficiently mine seabed resources in the South Atlantic and eventually evolving into a tightly integrated military junta.
+efficiently mine seabed resources in the South Atlantic and eventually evolving into a tightly integrated military 
+junta in 181 BFC in the aftermath of the [[Khan Solar Storm]].
 Datï¿½orruà¤¶आtedा`,
 classification: 'Socionomics/Polities'
     }],
@@ -617,21 +640,22 @@ interpret and react to their own internally simulated emotional states, closely 
     }],
     ['United States', {
 content: `The United States of America (USA), commonly known as the United States (U.S.) or America, is a country 
-primarily located in North America. Prior to the [[Ajayan Solar Storm]] it had overtaken the People's Republic of China
+primarily located in North America. Prior to the [[Khan Solar Storm]] it had overtaken the People's Republic of China
 as the world's largest economy, and it still possesses the largest military and largest amount of wealth of any country, 
 as well as being the largest contributor to and most influential member of the [[Peacekeepers]]. 
 
-# Post-Ajayan United States
+Datï¿½orruà¤¶आtedा
+
+# Post-Khan United States
 
 The storm resulted in a shift of its guiding principle of governance from E pluribus unum and a constitutional 
 oligarchic liberal democracy, to Res Publica Corporis Minimalis and the minimum required to secure the affairs of its 
-corporations. The shock of the prosperous and optimistic period prior to 187 BCF being cut short by Ajayan began a 
+corporations. The shock of the prosperous and optimistic period prior to 187 BCF being cut short by Khan began a 
 nearly two century long period of isolation and abdication of public affairs to corporations. A notable exception was
 a much closer integration with Canada and Mexico in the first years after the storm due to on-shoring supply chains, this
 then resulted in much closer political and terrestrial military co-operation as well as a number of colonies founded as 
 joint ventures. Although becoming more involved in system wide affairs through the peacekeepers in in the last century 
-BFC, the U.S. has only recently emerged as an active international political force after the [[First Contact Event]].
-Datï¿½orruà¤¶आtedा`,
+BFC, the U.S. has only recently emerged as an active international political force after the [[First Contact Event]].`,
 classification: 'Socionomics/Polities'
     }],
 ]);
