@@ -1,38 +1,5 @@
 export type Classification = string;
 export const pageData = new Map<string, {content: string, classification: Classification}>([
-    ['10 Day War', {
-content: `The 10 Day War was a conflict between the [[United States]] and an alliance of the People's Republic of China, 
-Russia, North Korea over positioning at the EM1 Lagrange Point. It began with [[Intermesh]] industrial sabotage and 
-culminated in the Battle of the Apex which was the first large scale space battle. It directly resulted in the formation 
-of the [[GPR]] as a military and informatic alliance, and led to major changes in military tactics. Datï¿½orruà¤¶आtedा`,
-        classification: 'Socionomics/Events'
-    }],
-    ['Khan Solar Storm', {
-content: `The Khan Solar Storm of Jan 10th and 11th, 187 BFC was the most intense geomagnetic storm in history. It 
-crippled much of industrial society for months by destroying infrastructure required for services such as electricity 
-generation, navigation, and water supply, causing worldwide economic devastation that lasted for years as well as a 
-major shift in geopolitical balance of power due to the comparatively slow recovery of the [[United States]]. The storm 
-was named after Indian astronaut and solar astronomer Raja Khan who perished onboard the Aryabhata L5 solar observatory 
-after being one of the first to observe the coronal mass ejection.
-
-Datï¿½orruà¤¶आtedा
-# Japanese Response
-
-Datï¿½orruà¤¶आtedा
-
-# Trypanosoma Pandemic
-
-The supply chain disruptions caused major issues with public health in many countries due to shortage of drugs, lack of 
-clean drinking water, and power rationing. With global surveillance networks and contact tracing non-functional, some 
-of the seasonal virus spread further than normal, but the extremely effective universal vaccines and nano-adjuvant 
-antiviral drugs developed before Khan were still effective in controlling viral pandemics. However the lack of 
-surveillance allowed a human to human strain of Trypanosomiasis to spread outside of sub-Saharan Africa, becoming 
-endemic in subsequent decades in large parts of Africa and South America. It was estimated to have killed over a hundred 
-million people, further devastating the economies of most countries in the [[Luso-Nigeria]] trading block, leading to
-the establishment of a military junta which retained power in its early days by providing effective healthcare.
-`,
-        classification: 'Socionomics/Events'
-    }],
     ['Antimatter Engine', {
         content:
 `Antimatter engines are a class of propulsion technology that make use of the energy released during the annihilation of 
@@ -53,11 +20,11 @@ performed by automated drones designed with multiple fail-safes to maintain powe
 If the target spacecraft is crewed, rendezvous normally occurs before they have boarded since integrating the antimatter 
 containment unit with the propulsion system of the spacecraft is riskier than running the engine normally.
 
-There have been recent attempts by several companies to scale up Muon-catalyzed fusion, usually with Muons extracted by
-collectors deployed from the [[Jovian Chandelier Cities]]. If successful this would provide a much cheaper near peer
-competitor for antimatter engines, potentially opening up the interstellar frontier to commerce. There have also been
-recent attempts to scale up production of Titanium-44, which is currently only produced in small quantities for medical 
-and research usage.
+There have been recent attempts by [[Semiotican]] to scale up Muon-catalyzed fusion via Muons extracted by collectors 
+deployed from its Jovian Chandelier Cities. If successful this would provide a much cheaper near peer competitor for 
+antimatter engines, potentially opening up the interstellar frontier to commerce. There have also been recent attempts 
+by several smaller companies to scale up production of Titanium-44, which is currently only produced in tiny quantities 
+for medical and research usage.
 
 # Operation
 
@@ -91,6 +58,15 @@ prototypes there has never been a publicly disclosed containment failure in eith
 recently been attempts by several corporations to remove some of the redundant safeguards in order to reduce the 
 exorbitant cost of operating an antimatter engine.`,
         classification: 'Praxis/Energy'
+    }],
+    ['Bioforge Hivegen', {
+content: `Bioforge Hivegen is a multiplanetary genetic engineering company headquartered in Lausanne, Switzerland. It is
+best known for its personalised medicine, agriculture, organic electronic, and cosmetic products. It was formed in 65 
+BFC when gene-therapy company Bioforge acquired Hivegen, the agricultural technology company famous for saving bees from 
+extinction, when Hivegen was fighting multiple legal battles, most notably for breeding and selling extinct animals on 
+stations outside of the jurisdiction of any animal welfare treaties.
+Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Polities'
     }],
     ['Ceres Wave', {
         content:
@@ -333,7 +309,7 @@ SpaceX based on improved heat dissipation techniques pioneered by the Lunar Atom
 `The Greater People's Republic, commonly known as the GPR, was a political union that existed from 174 BFC until being 
 replaced by [[Greater Zhōngguó]] in 98 BFC. It originated in a military and political alliance formed by the People's 
 Republic of China, Russia, and their respective off-Earth colonies, as well as North Korea and Myanmar, during the 
-events preceding the [[10 Day War]]. It broadened to include tight economic integration, with Russia shipping 
+events preceding the [[Ten-Day War]]. It broadened to include tight economic integration, with Russia shipping 
 increasingly large qunatities of food to China as global warming increased in exchange for machinery and electronics.
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
@@ -487,8 +463,26 @@ harder to avoid detection on the [[InterMesh]] even with cloaked tunnel and steg
         classification: 'Socionomics/Polities'
     }],
     ['Infomatic Conglomerates', {
-        content:
-`Datï¿½orruà¤¶आtedा`,
+content: `The Infomatic Conglomerates are large corporate groups deriving a significant portion of their revenue from 
+informatic product lines. The largest product lines by revenue are from Semiotican (industrial, mining, and construction
+[[synths~Synthetic Intelligence]]), Sinogroup (network management; e-commerce, banking, and military synths), Amazon 
+(robot management, compute rental, healthcare optimisation), MetaFox (entertainment synths, virtual worlds), Pharmatica 
+Group (computational biology), Microsoft Sythetica (business, finance, and military synths; compute rental), X 
+(navigation, propulsion management, and e-commerce synths),  the ARM-ASML alliance (computer design), and 
+[[Bioforge Hivegen]] (genetic engineering management).
+Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Polities'
+    }],
+    ['Semiotican', {
+content: `Semiotican is a multiplantery industrial conglomerate headquartered in the Jovian Chandelier Cities,
+which it owns and operates. It develops and operates industrial, mining, and construction 
+[[synths~Synthetic Intelligence]] and is currently the largest corporation in the solar system. Its origins were in a 
+merger between comodity trading and mining company Glencore and the Mitsubishi group in order to mine S-class asteroids 
+during the [[Ceres Wave]], it subsequently acquired other mining companies after developing a large lead in machine 
+industry products, allowing it to achieve better economies of scale than its competitors. It has recently started 
+expanding into energy generation by developing Muon-catalyzed fusion engines powered by Muon production from collectors
+deployed from several of the Chandelier Cities.
+Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
     ['InterMesh',{
@@ -519,9 +513,33 @@ allowing internal nanoswarms to sync the latest treatment protocols, although ma
 security and privacy concerns.`,
         classification: 'Infomatics/Networks'
     }],
-    ['Jovian Chandelier Cities', {
-content: `Datï¿½orruà¤¶आtedा`,
-classification: 'Socionomics/Polities'
+    ['Khan Solar Storm', {
+        content: `The Khan Solar Storm of Jan 10th and 11th, 187 BFC was the most intense geomagnetic storm in history. It 
+crippled much of industrial society for months by destroying infrastructure required for services such as electricity 
+generation, navigation, and water supply, causing worldwide economic devastation that lasted for years as well as a 
+major shift in geopolitical balance of power due to the comparatively slow recovery of the [[United States]]. The storm 
+was named after Indian astronaut and solar astronomer Raja Khan who perished onboard the Aryabhata L5 solar observatory 
+after being one of the first to observe the coronal mass ejection.
+
+Datï¿½orruà¤¶आtedा
+# Japanese Response
+
+Datï¿½orruà¤¶आtedा
+
+# Trypanosoma Pandemic
+
+The supply chain disruptions caused major issues with public health in many countries due to shortage of drugs, lack of 
+clean drinking water, and power rationing. With global surveillance networks and contact tracing non-functional, some 
+of the seasonal virus spread further than normal, but the extremely effective universal vaccines and nano-adjuvant 
+antiviral drugs developed before Khan were still effective in controlling viral pandemics. However the lack of 
+surveillance allowed a human to human strain of Trypanosomiasis to spread outside of sub-Saharan Africa, becoming 
+endemic in subsequent decades in large parts of Africa and South America due to large amounts of ocean travel between 
+the countries while air travel was still extremely limited due to the effects of Khan. The outbreak was estimated to 
+have killed over a hundred million people, further devastating the economies of most countries in the [[Luso-Nigeria]] 
+trading block, leading to the establishment of a military junta which retained power in its early days by providing 
+effective healthcare.
+`,
+        classification: 'Socionomics/Events'
     }],
     ['Luso-Nigeria', {
 content: `Luso-Nigeria is a political federation of African and South American states, initially formed to more 
@@ -637,6 +655,13 @@ unaligned synthetic super-intelligences. As a result, the general intelligence o
 of a human. Current synths are also capable of perceiving and reacting to the tasks they perform. They are able to 
 interpret and react to their own internally simulated emotional states, closely mirroring human emotional responses.`,
         classification: 'Infomatics/Synths'
+    }],
+    ['Ten-Day War', {
+        content: `The Ten-Day War was a conflict between the [[United States]] and an alliance of the People's Republic of China, 
+Russia, North Korea over positioning at the EM1 Lagrange Point. It began with [[Intermesh]] industrial sabotage and 
+culminated in the Battle of the Apex which was the first large scale space battle. It directly resulted in the formation 
+of the [[GPR]] as a military and infomatic alliance, and led to major changes in military tactics. Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Events'
     }],
     ['United States', {
 content: `The United States of America (USA), commonly known as the United States (U.S.) or America, is a country 
