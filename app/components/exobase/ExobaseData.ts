@@ -473,18 +473,6 @@ Group (computational biology), Microsoft Sythetica (business, finance, and milit
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
-    ['Semiotican', {
-content: `Semiotican is a multiplantery industrial conglomerate headquartered in the Jovian Chandelier Cities,
-which it owns and operates. It develops and operates industrial, mining, and construction 
-[[synths~Synthetic Intelligence]] and is currently the largest corporation in the solar system. Its origins were in a 
-merger between comodity trading and mining company Glencore and the Mitsubishi group in order to mine S-class asteroids 
-during the [[Ceres Wave]], it subsequently acquired other mining companies after developing a large lead in machine 
-industry products, allowing it to achieve better economies of scale than its competitors. It has recently started 
-expanding into energy generation by developing Muon-catalyzed fusion engines powered by Muon production from collectors
-deployed from several of the Chandelier Cities.
-Datï¿½orruà¤¶आtedा`,
-        classification: 'Socionomics/Polities'
-    }],
     ['InterMesh',{
         content:
 `An InterMesh (IM) is any network of decentralised high bandwidth endpoints communicating autonomously over low latency 
@@ -594,6 +582,18 @@ analytic tasks require QuanLan connections.`,
         content:
 `Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Events'
+    }],
+    ['Semiotican', {
+content: `Semiotican is a multiplantery industrial conglomerate headquartered in the Jovian Chandelier Cities, which it 
+owns and operates. It develops and operates industrial, mining, and construction [[synths~Synthetic Intelligence]] and 
+is currently the largest corporation in the solar system. Its origins were in a merger between commodity trading and 
+mining company Glencore and the Mitsubishi group, in order to mine S-class asteroids during the [[Ceres Wave]]. It 
+subsequently acquired other mining companies after developing a large lead in machine industry products, allowing it to 
+achieve better economies of scale than its competitors. It has recently started expanding into energy generation by 
+developing Muon-catalyzed fusion engines which are powered by Muons extracted from collectors deployed from the 
+Chandelier Cities.
+Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Polities'
     }],
     ['Synthetic Control Measures', {
         content:
