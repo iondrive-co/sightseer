@@ -584,14 +584,14 @@ analytic tasks require QuanLan connections.`,
         classification: 'Socionomics/Events'
     }],
     ['Semiotican', {
-content: `Semiotican is a multiplantery industrial conglomerate headquartered in the Jovian Chandelier Cities, which it 
-owns and operates. It develops and operates industrial, mining, and construction [[synths~Synthetic Intelligence]] and 
-is currently the largest corporation in the solar system. Its origins were in a merger between commodity trading and 
-mining company Glencore and the Mitsubishi group, in order to mine S-class asteroids during the [[Ceres Wave]]. It 
-subsequently acquired other mining companies after developing a large lead in machine industry products, allowing it to 
-achieve better economies of scale than its competitors. It has recently started expanding into energy generation by 
-developing Muon-catalyzed fusion engines which are powered by Muons extracted from collectors deployed from the 
-Chandelier Cities.
+content: `Semiotican is a multiplantery industrial conglomerate headquartered in the Jovian Chandelier Cities (JCC), 
+which it owns and operates. It develops and operates control and monitoring [[synths~Synthetic Intelligence]] in the 
+industrial, mining, and construction sectors, and is currently the largest corporation by revenue. Its origins were in 
+a merger between commodity trading and mining company Glencore and the Mitsubishi group, in order to mine S-class 
+asteroids during the [[Ceres Wave]]. It subsequently acquired other mining and infomatic companies after developing a 
+large lead in machine industry products, allowing it to achieve better economies of scale than its competitors. It has 
+recently started expanding into energy generation by scaling-up a Muon atmospheric mining process it was using to supply
+the vast power needs of its atmospheric mining research plants on the JCC.
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
