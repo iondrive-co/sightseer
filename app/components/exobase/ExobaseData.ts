@@ -60,11 +60,11 @@ exorbitant cost of operating an antimatter engine.`,
         classification: 'Praxis/Energy'
     }],
     ['Bioforge Hivegen', {
-content: `Bioforge Hivegen is a multiplanetary genetic engineering company headquartered in Lausanne, Switzerland. It is
-best known for its personalised medicine, agriculture, organic electronic, and cosmetic products. It was formed in 65 
-BFC when gene-therapy company Bioforge acquired Hivegen, the agricultural technology company famous for saving bees from 
-extinction, when Hivegen was fighting multiple legal battles, most notably for breeding and selling extinct animals on 
-stations outside of the jurisdiction of any animal welfare treaties.
+content: `Bioforge Hivegen is a multiplanetary genetic engineering conglomerate headquartered in Lausanne, Switzerland. 
+It is best known for its personalised medicine, agriculture, organic electronic, and cosmetic products. It was formed in 
+65 BFC when gene-therapy company Bioforge acquired Hivegen, the agricultural technology company famous for saving bees 
+from extinction, when Hivegen was fighting multiple legal battles, most notably for breeding and selling extinct animals 
+on stations outside of the jurisdiction of any animal welfare treaties.
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
@@ -464,12 +464,12 @@ harder to avoid detection on the [[InterMesh]] even with cloaked tunnel and steg
     }],
     ['Infomatic Conglomerates', {
 content: `The Infomatic Conglomerates are large corporate groups deriving a significant portion of their revenue from 
-informatic product lines. The largest product lines by revenue are from Semiotican (industrial, mining, and construction
-[[synths~Synthetic Intelligence]]), Sinogroup (network management; e-commerce, banking, and military synths), Amazon 
-(robot management, compute rental, healthcare optimisation), MetaFox (entertainment synths, virtual worlds), Pharmatica 
-Group (computational biology), Microsoft Sythetica (business, finance, and military synths; compute rental), X 
-(navigation, propulsion management, and e-commerce synths),  the ARM-ASML alliance (computer design), and 
-[[Bioforge Hivegen]] (genetic engineering management).
+informatic product lines. The largest product lines by revenue are from [[Semiotican]] (industrial, mining, and 
+construction [[synths~Synthetic Intelligence]]), Sinogroup (network management; e-commerce, banking, and military 
+synths), Amazon (robot management, compute rental, healthcare optimisation), MetaFox (entertainment synths, virtual 
+worlds), Pharmatica Group (computational biology), Microsoft Sythetica (business, finance, and military synths; 
+compute rental), X (navigation, propulsion management, and e-commerce synths), the ARM-ASML alliance (computer design), 
+and [[Bioforge Hivegen]] (genetic engineering management).
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
@@ -502,15 +502,24 @@ security and privacy concerns.`,
         classification: 'Infomatics/Networks'
     }],
     ['Khan Solar Storm', {
-        content: `The Khan Solar Storm of Jan 10th and 11th, 187 BFC was the most intense geomagnetic storm in history. It 
-crippled much of industrial society for months by destroying infrastructure required for services such as electricity 
+        content: `The Khan Solar Storm of Jan 10th and 11th, 187 BFC was the most intense geomagnetic storm in history. 
+It crippled much of industrial society for months by destroying infrastructure required for services such as electricity 
 generation, navigation, and water supply, causing worldwide economic devastation that lasted for years as well as a 
 major shift in geopolitical balance of power due to the comparatively slow recovery of the [[United States]]. The storm 
 was named after Indian astronaut and solar astronomer Raja Khan who perished onboard the Aryabhata L5 solar observatory 
 after being one of the first to observe the coronal mass ejection.
 
 Datï¿½orruà¤¶आtedा
-# Japanese Response
+
+Japan's remarkably effective response to this crisis was largely attributed to its hardened infrastructure, developed
+in response to the cold war with the PRC and its history of disaster preparedness. Most importantly, their investment
+in Automated Modular Solid-State Transformers (AMSSTs) allowed the power grid to remain largely untouched and key 
+manufacturing hubs to remain operating. AMSSTs do not use magnetic induction for operation so are not susceptible to
+current surges through power lines, however replacement of the labour intensive but cheap to manufacture magnetic core 
+with semiconductors means they are cost prohibitive, however Japan was in the unique position of being a highly 
+automated society with an abundance of semiconductors and lots of money to spend preparing for an EMP attack. Unlike 
+other countries which either had no strategic transformer reserves or had to use them up, Japan was able to donate its 
+large reserve in order to bootstrap industry in other countries and to continue manufacturing new transformers.
 
 Datï¿½orruà¤¶आtedा
 
