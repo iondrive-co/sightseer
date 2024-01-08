@@ -516,14 +516,12 @@ in response to the cold war with the PRC and its history of disaster preparednes
 in Automated Modular Solid-State Transformers (AMSSTs) allowed the power grid to remain largely untouched and key 
 manufacturing hubs to remain operating. AMSSTs do not use magnetic induction for operation so are not susceptible to
 current surges through power lines, however replacement of the labour intensive but cheap to manufacture magnetic core 
-with semiconductors means they are cost prohibitive, however Japan was in the unique position of being a highly 
-automated society with an abundance of semiconductors and lots of money to spend preparing for an EMP attack. Unlike 
-other countries which either had no strategic transformer reserves or had to use them up, Japan was able to donate its 
+with semiconductors means they are cost prohibitive. Japan was in the unique position of being a highly automated 
+society with an abundance of semiconductors and lots of money to spend preparing for an EMP attack. Unlike other 
+countries which either had no strategic transformer reserves or had to use them up, Japan was able to donate its 
 large reserve in order to bootstrap industry in other countries and to continue manufacturing new transformers.
 
 Datï¿½orruà¤¶आtedा
-
-# Trypanosoma Pandemic
 
 The supply chain disruptions caused major issues with public health in many countries due to shortage of drugs, lack of 
 clean drinking water, and power rationing. With global surveillance networks and contact tracing non-functional, some 
@@ -598,9 +596,12 @@ which it owns and operates. It develops and operates control and monitoring [[sy
 industrial, mining, and construction sectors, and is currently the largest corporation by revenue. Its origins were in 
 a merger between commodity trading and mining company Glencore and the Mitsubishi group, in order to mine S-class 
 asteroids during the [[Ceres Wave]]. It subsequently acquired other mining and infomatic companies after developing a 
-large lead in machine industry products, allowing it to achieve better economies of scale than its competitors. It has 
-recently started expanding into energy generation by scaling-up a Muon atmospheric mining process it was using to supply
-the vast power needs of its atmospheric mining research plants on the JCC.
+large lead in machine industry products, allowing it to achieve better economies of scale than most competitors (other 
+than Amazon, which initially achieved a high level of vertical integration in the [[United States]] mining supply chains 
+but without the deep integration of Semiotican was not able to undercut on price and ended up as just another components
+supplier for industrial robots). It has recently started expanding into energy generation by scaling-up a Muon 
+atmospheric mining process it was using to supply the vast power needs of its atmospheric mining research plants on the 
+JCC.
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
@@ -680,16 +681,15 @@ as well as being the largest contributor to and most influential member of the [
 
 Datï¿½orruà¤¶आtedा
 
-# Post-Khan United States
-
-The storm resulted in a shift of its guiding principle of governance from E pluribus unum and a constitutional 
-oligarchic liberal democracy, to Res Publica Corporis Minimalis and the minimum required to secure the affairs of its 
-corporations. The shock of the prosperous and optimistic period prior to 187 BCF being cut short by Khan began a 
-nearly two century long period of isolation and abdication of public affairs to corporations. A notable exception was
-a much closer integration with Canada and Mexico in the first years after the storm due to on-shoring supply chains, this
-then resulted in much closer political and terrestrial military co-operation as well as a number of colonies founded as 
-joint ventures. Although becoming more involved in system wide affairs through the peacekeepers in in the last century 
-BFC, the U.S. has only recently emerged as an active international political force after the [[First Contact Event]].`,
+The USA has always nominally been a constitutional oligarchic liberal democracy, however the storm resulted in a shift 
+of its governing principles from E pluribus unum to Res Publica Corporis Minimalis, the minimum required to secure the 
+affairs of its corporations. The shock of the prosperous and optimistic period prior to 187 BCF being cut short by Khan 
+began a nearly two century long period of isolation and abdication of many public affairs to corporations. A notable 
+exception was a much closer integration with Canada and Mexico in the first years after the storm due to on-shoring 
+supply chains, this then resulted in much closer political and terrestrial military co-operation as well as a number of 
+colonies founded as corporate joint ventures. Although becoming more involved in system wide affairs through the 
+Peacekeepers in in the last century BFC, the US government has only recently emerged as an active international 
+political force in its own right after the [[First Contact Event]].`,
 classification: 'Socionomics/Polities'
     }],
 ]);
