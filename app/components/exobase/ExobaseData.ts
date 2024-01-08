@@ -466,7 +466,7 @@ harder to avoid detection on the [[InterMesh]] even with cloaked tunnel and steg
 content: `The Infomatic Conglomerates are large corporate groups deriving a significant portion of their revenue from 
 informatic product lines. The largest product lines by revenue are from [[Semiotican]] (industrial, mining, and 
 construction [[synths~Synthetic Intelligence]]), Sinogroup (network management; e-commerce, banking, and military 
-synths), Amazon (robot management, compute rental, healthcare optimisation), MetaFox (entertainment synths, virtual 
+synths), Amazon (robot management, compute rental, healthcare optimisation), [[MetaFox]] (entertainment synths, virtual 
 worlds), Pharmatica Group (computational biology), Microsoft Sythetica (business, finance, and military synths; 
 compute rental), X (navigation, propulsion management, and e-commerce synths), the ARM-ASML alliance (computer design), 
 and [[Bioforge Hivegen]] (genetic engineering management).
@@ -519,13 +519,16 @@ current surges through power lines, however replacement of the labour intensive 
 with semiconductors means they are cost prohibitive. Japan was in the unique position of being a highly automated 
 society with an abundance of semiconductors and lots of money to spend preparing for an EMP attack. Unlike other 
 countries which either had no strategic transformer reserves or had to use them up, Japan was able to donate its 
-large reserve in order to bootstrap industry in other countries and to continue manufacturing new transformers.
+large reserve in order to bootstrap industry in other countries and to continue manufacturing new transformers. This
+laid the groundwork for the 2nd Japanese Economic Miracle, where Japan was able to acquire a remarkable amount of 
+geopolitical influence via tight economic integration into large number of advanced economies, bringing them together
+to form the [[Eurasian Bloc]]
 
 Datï¿½orruà¤¶आtedा
 
 The supply chain disruptions caused major issues with public health in many countries due to shortage of drugs, lack of 
 clean drinking water, and power rationing. With global surveillance networks and contact tracing non-functional, some 
-of the seasonal virus spread further than normal, but the extremely effective universal vaccines and nano-adjuvant 
+seasonal viruses spread further than normal, however the extremely effective universal vaccines and nano-adjuvant 
 antiviral drugs developed before Khan were still effective in controlling viral pandemics. However the lack of 
 surveillance allowed a human to human strain of Trypanosomiasis to spread outside of sub-Saharan Africa, becoming 
 endemic in subsequent decades in large parts of Africa and South America due to large amounts of ocean travel between 
@@ -549,6 +552,16 @@ action potential of relevant neuron ensembles. This first requires a learning pe
 different kinds of memories, although newer devices have reduced this significantly by shipping with more sophisticated
 prebuilt model data.`,
 classification: 'Praxis/Augmentations'
+    }],
+    ['MetaFox', {
+        content: `MetaFox is a [[United States]] mass media company based in Menlo Park, California. It specialises in 
+entertainment synths and virtual worlds, and is the largest media group in terms of both revenue and assets. It acquired
+its name in a merger between NewsCorp (which owned the Fox media brand), and Meta Platforms Inc, at the time the largest
+provider of entertainment technology services, in 150BFC. Policy outcome tracking shows it has achieved almost complete 
+regulatory capture of the media policy decisions of the US government, especially in regards to issuing media licenses
+and in the application of antitrust laws to competitors.
+Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Polities'
     }],
     ['Neurogenesis Treatment', {
         content:
