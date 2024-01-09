@@ -298,6 +298,12 @@ enough support to became a certified standard. Over time it gained in popularity
 common calendar in use system-wide.`,
         classification: 'Socionomics/Events'
     }],
+    ['Fatimid Trade Caliphate', {
+        content:
+`The Fatimid Trade Caliphate is a trading alliance between several majority Shi'a nations, Iran, Iraq, Bahrain, 
+Azerbaijan, Lebanon, North Yemen, and Alawite Syria.  Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Confederations'
+    }],
     ['Fusion Engine', {
         content:
 `Fusion engines are the most common form of spacecraft propulsion. The modern fusion engine was developed in the 140s by
@@ -316,8 +322,9 @@ Datï¿½orruà¤¶आtedा`,
     }],
     ['Greater Zhōngguó', {
 content:  `Greater Zhōngguó is a political entity which was formed in 98 BFC from the unification of the [[GPR]] with 
-Iran, the U.A.E, Ethiopia, Sudan, Djibouti, Indonesia, Pakistan, and Papua New Guinea. Despite having significantly less
-industrial capacity than the [[Peacekeepers]] it fields a nearly equivalently size navy. Datï¿½orruà¤¶आtedा`,
+the U.A.E, Ethiopia, Sudan, Djibouti, Indonesia, Pakistan, and Papua New Guinea; as well as an informal agreement with
+the [[Fatimid Trade Caliphate]] on spheres of influence. Despite having significantly less industrial capacity than the 
+[[Peacekeepers]] it fields a nearly equivalently size navy. Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
     }],
     ['Haidian Takeoff Crisis', {
@@ -466,10 +473,10 @@ harder to avoid detection on the [[InterMesh]] even with cloaked tunnel and steg
 content: `The Infomatic Conglomerates are large corporate groups deriving a significant portion of their revenue from 
 informatic product lines. The largest product lines by revenue are from [[Semiotican]] (industrial, mining, and 
 construction [[synths~Synthetic Intelligence]]), Sinogroup (network management; e-commerce, banking, and military 
-synths), Amazon (robot management, compute rental, healthcare optimisation), [[MetaFox]] (entertainment synths, virtual 
-worlds), Pharmatica Group (computational biology), Microsoft Sythetica (business, finance, and military synths; 
-compute rental), X (navigation, propulsion management, and e-commerce synths), the ARM-ASML alliance (computer design), 
-and [[Bioforge Hivegen]] (genetic engineering management).
+synths), Amazon (robot management, compute rental, healthcare optimisation), [[Quan12]] (quantum computer software) 
+[[MetaFox]] (entertainment synths, virtual worlds), Pharmatica Group (computational biology), Micro-synth (business, 
+finance, and military synths; compute rental), X (navigation, propulsion management, and e-commerce synths), 
+the ARM-ASML alliance (computer design), and [[Bioforge Hivegen]] (genetic engineering management).
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
@@ -577,6 +584,16 @@ Datï¿½orruà¤¶आtedा`,
         content:
 `In 102 BFC Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
+    }],
+    ['Quan12', {
+        content: `Quan12 is an Iranian conglomerate with a wide range of product lines such as physics simulation 
+software, quantum computers, [[QuanLan]] devices, [[Fusion Engine]] and reactors, and drone assembly. Initially
+established with funding from Bonyad Mostazafan to develop a secret fusion reactor program, several scientists 
+established a side business selling physics simulators. When the feasibility of large scale chemical and physical 
+simulations on quantum computers was developed, this activity was quietly repurposed into government sanctioned sales of 
+quantum computers along with bundled software packages to other [[Fatimid Trade Caliphate]] members.
+Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Polities'
     }],
     ['QuanLan',{
         content:
