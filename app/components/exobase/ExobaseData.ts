@@ -568,7 +568,11 @@ effective healthcare.
     ['Luso-Nigeria', {
 content: `Luso-Nigeria is a political federation of African and South American states, initially formed to more 
 efficiently mine seabed resources in the South Atlantic and eventually evolving into a tightly integrated military 
-junta in 181 BFC in the aftermath of the [[Khan Solar Storm]].
+junta in 181 BFC in the aftermath of the [[Khan Solar Storm]]. The majority religion of Luso-Nigeria is new Roman 
+Catholic, and senior junta members are drawn from the clergy and follow the new Roman Catholic position of rule by
+their own cardinals rather than taking direction from the Vatican. Despite nominally being a theocracy, the junta 
+encourages some degree of religious tolerance, especially in African states with significant populations following 
+Muslim or traditional African religious practices. 
 Datï¿½orruà¤¶आtedा`,
 classification: 'Socionomics/Polities'
     }],
@@ -583,7 +587,7 @@ classification: 'Praxis/Augmentations'
         content: `MetaFox is a [[United States]] mass media company based in Menlo Park, California. It specialises in 
 entertainment synths and virtual worlds, and is the largest media group in terms of both revenue and assets. It acquired
 its name in a merger between NewsCorp (which owned the Fox media brand), and Meta Platforms Inc, at the time the largest
-provider of entertainment technology services, in 150BFC. Policy outcome tracking shows it has achieved almost complete 
+provider of entertainment technology services, in 150 BFC. Policy outcome tracking shows it has achieved almost complete 
 regulatory capture of the media policy decisions of the US government, especially in regards to issuing media licenses
 and in the application of antitrust laws to competitors.
 Datï¿½orruà¤¶आtedा`,
