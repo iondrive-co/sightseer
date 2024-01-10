@@ -197,7 +197,12 @@ meritocratic sortition, whereby a random selection of experts is drawn from the 
 drafting legislation. 
 
 The proposal for a new set of international treaties to replace the role the U.S. and NATO had played prior to Khan 
-was first made by Japanese Defense Minister Matsumoto Koji at the Lausanne Convention in 185 BFC. Datï¿½orruà¤¶आtedा`,
+was first made by Japanese Defense Minister Matsumoto Koji at the Lausanne Convention in 185 BFC. Due to the 2nd 
+Japanese Economic Miracle and integration into the economies of Bloc countries via its supply of AMSSTs Japan was able 
+to play a major role in the construction of the Bloc's political organisations, despite having less than 5% of the total 
+population of the Bloc countries. The merger of Japanese, European, Indian, and Chinese leadership culture has lead to 
+institutions that are highly engineering and environmentally focused, and which emphasise flexibility and practicality 
+in the development of policy and use of technology to deal with environmental and political crises. Datï¿½orruà¤¶आtedा`,
             classification: 'Socionomics/Confederations'
     }],
     ['Exonet',{
