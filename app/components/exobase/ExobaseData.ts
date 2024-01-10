@@ -1,5 +1,19 @@
 export type Classification = string;
 export const pageData = new Map<string, {content: string, classification: Classification}>([
+    ['12Quan', {
+        content: `12Quan is an Iranian conglomerate which produces physics simulation software, quantum computers, 
+[[QuanLan]] devices, [[Fusion Engine]] and reactors, and drones. It was initially established with funding from Bonyad 
+Mostazafan to develop a secret fusion reactor program, and shortly afterwards several of its scientists established a 
+side business selling physics simulators developed as part of the program. When 12Quan demonstrated the feasibility of 
+large scale chemical and physical simulations on quantum computers, the government nationalised simulation software 
+sales to maintain export controls, resulting in sales mainly to [[Fatimid Trade Caliphate]] members and as part of 
+sanctions relief. This was so successful that they managed to bootstrap a domestic quantum computer industry, and 
+subsequently gain a global niche in production of QuanLan devices, as well as greatly expand their nuclear industry. 
+The 12Quan name was initially a religious reference to the 12th Hidden Imam as well as Quantum, but is now generally 
+pronounced as 1-2-kwon.
+Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Polities'
+    }],
     ['Antimatter Engine', {
         content:
 `Antimatter engines are a class of propulsion technology that make use of the energy released during the annihilation of 
@@ -176,7 +190,7 @@ and updated, although the current author is unknown. One popular theory is that 
     ['Eurasian Bloc', {
             content:
 `The Eurasian Bloc is an astropolitical and economic entity which formed out the European Union, India, Japan, Vietnam, 
-Singapore, and Great Britain in the aftermath of the political upheaval following the [[Khan Solar Storm]] of 187 BFC.
+and Singapore in the aftermath of the political upheaval following the [[Khan Solar Storm]] of 187 BFC.
 The Bloc's treaties of governance primarily concern trade, colony administration, and defence, leaving its constituent 
 members with legislative autonomy in other areas. It is governed by a supranational bureaucracy supplemented with 
 meritocratic sortition, whereby a random selection of experts is drawn from the general populace for the purposes of 
@@ -473,7 +487,7 @@ harder to avoid detection on the [[InterMesh]] even with cloaked tunnel and steg
 content: `The Infomatic Conglomerates are large corporate groups deriving a significant portion of their revenue from 
 informatic product lines. The largest product lines by revenue are from [[Semiotican]] (industrial, mining, and 
 construction [[synths~Synthetic Intelligence]]), Sinogroup (network management; e-commerce, banking, and military 
-synths), Amazon (robot management, compute rental, healthcare optimisation), [[Quan12]] (quantum computer software) 
+synths), Amazon (robot management, compute rental, healthcare optimisation), [[12Quan]] (quantum computer software) 
 [[MetaFox]] (entertainment synths, virtual worlds), Pharmatica Group (computational biology), Micro-synth (business, 
 finance, and military synths; compute rental), X (navigation, propulsion management, and e-commerce synths), 
 the ARM-ASML alliance (computer design), and [[Bioforge Hivegen]] (genetic engineering management).
@@ -584,16 +598,6 @@ Datï¿½orruà¤¶आtedा`,
         content:
 `In 102 BFC Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
-    }],
-    ['Quan12', {
-        content: `Quan12 is an Iranian conglomerate with a wide range of product lines such as physics simulation 
-software, quantum computers, [[QuanLan]] devices, [[Fusion Engine]] and reactors, and drone assembly. Initially
-established with funding from Bonyad Mostazafan to develop a secret fusion reactor program, several scientists 
-established a side business selling physics simulators. When the feasibility of large scale chemical and physical 
-simulations on quantum computers was developed, this activity was quietly repurposed into government sanctioned sales of 
-quantum computers along with bundled software packages to other [[Fatimid Trade Caliphate]] members.
-Datï¿½orruà¤¶आtedा`,
-        classification: 'Socionomics/Polities'
     }],
     ['QuanLan',{
         content:
@@ -717,9 +721,11 @@ affairs of its corporations. The shock of the prosperous and optimistic period p
 began a nearly two century long period of isolation and abdication of many public affairs to corporations. A notable 
 exception was a much closer integration with Canada and Mexico in the first years after the storm due to on-shoring 
 supply chains, this then resulted in much closer political and terrestrial military co-operation as well as a number of 
-colonies founded as corporate joint ventures. Although becoming more involved in system wide affairs through the 
-Peacekeepers in in the last century BFC, the US government has only recently emerged as an active international 
-political force in its own right after the [[First Contact Event]].`,
+colonies founded as corporate joint ventures. It has also maintained close ties to its traditional allies Great Britain, 
+Australia, and Israel; and largely as a result they have remained non-aligned with any of the large confederations 
+outside of the Peacekeepers. Although becoming more involved in system wide affairs through the Peacekeepers in in the 
+last century BFC, the US government has only recently emerged as an active international political force in its own 
+right after the [[First Contact Event]].`,
 classification: 'Socionomics/Polities'
     }],
 ]);
