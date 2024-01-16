@@ -635,17 +635,48 @@ analytic tasks require QuanLan connections.`,
     }],
     ['Semiotican', {
 content: `Semiotican is a multiplantery industrial conglomerate headquartered in the Jovian Chandelier Cities (JCC), 
-which it owns and operates. It develops and operates control and monitoring [[synths~Synthetic Intelligence]] in the 
-industrial, mining, and construction sectors, and is currently the largest corporation by revenue. Its origins were in 
-a merger between commodity trading and mining company Glencore and the Mitsubishi group, in order to mine S-class 
-asteroids during the [[Ceres Wave]]. It subsequently acquired other mining and infomatic companies after developing a 
-large lead in machine industry products, allowing it to achieve better economies of scale than most competitors (other 
-than Amazon, which initially achieved a high level of vertical integration in the [[United States]] mining supply chains 
-but without the deep integration of Semiotican was not able to undercut on price and ended up as just another components
-supplier for industrial robots). It has recently started expanding into energy generation by scaling-up a Muon 
-atmospheric mining process it was using to supply the vast power needs of its atmospheric mining research plants on the 
-JCC.
-Datï¿½orruà¤¶आtedा`,
+which it owns and operates, and is the largest corporation by revenue. Its name and current structure were established 
+in a merger between commodity trading and mining company Glencore and the Mitsubishi group, and its largest revenue 
+sources are from the operation of control and monitoring products in the industrial, mining, and construction sectors. 
+Since its founding in 158 BFC it has made a number of acquisitions in mining and informatics companies and managed to 
+take advantage of many new growth opportunities, notably mining S-class asteroids during the [[Ceres Wave]], better 
+integration of [[synths~Synthetic Intelligence]] across supply chains, smart dust monitoring, and most recently 
+Muon-catalyzed fusion.
+ 
+# History
+
+The merger of Glencore and the Mitsubishi group was driven by the need to create an entity capable of exploiting the 
+then-emerging market of space resource extraction which required advanced technologies and significant capital 
+investment. One of the major focuses of Semiotican's early years was establishing a foothold in S-class asteroid mining 
+via series of acquisitions of informatic and robotics firms, and notably acquiring Aphabet's abandoned deep-sea mining 
+robotics division and refocusing it on space mining.
+
+Initially Semiotican faced significant market challenges, particularly in regions where Amazon was well established 
+with its advanced robotic and control software systems, especially the [[United States]]. Amazon's dominance in these 
+areas was marked by its extensive supply chain network and competitive pricing models, making it difficult for new 
+entrants like Semiotican to gain a substantial market share. However, Semiotican began to strategically refine its
+Synths for autonomous decision-making, adaptability to diverse industrial environments, and leveraging their existing 
+strengths in vertical integration, which included control over their entire supply chain from raw material acquisition 
+to manufacturing and software deployment. This allowed Semiotican to streamline its operations, reduce costs, and 
+improve the overall functionality and reliability of its products.
+
+The significant turning point for Semiotican came during the antitrust breakup of Amazon's e-commerce and industrial 
+divisions. This regulatory intervention led to a redistribution of market opportunities, breaking up Amazon's 
+near-monopoly in certain sectors. Semiotican capitalized on this opportunity by positioning its now-optimized products 
+as viable and competitively priced alternatives to Amazon's offerings. They offered solutions that were not only 
+technologically on par with Amazon's but also boasted improvements in efficiency and integration. Without the ability to 
+leverage its previous pricing strategies and facing robust competition from a technologically revitalized Semiotican, 
+Amazon’s influence in the robotic and control software market diminished. It found itself transitioning from a market 
+leader to a component supplier for industrial robots, as companies like Semiotican began to lead with more advanced and 
+integrated solutions.
+ 
+Semiotican remained focussed on optimising its mining operations, and began spinning off products such as selling synths 
+developed for managing new mine construction into the construction sector, and selling logistics and shipping synths to
+shipping companies. Its monitoring synths were also useful in many industrial and chemical processing factories, and 
+its development of smart dust monitoring in the 70s brought another huge boost to revenue. Intended as a strategic 
+mining and resupply base, construction of the JCC commenced in 23 BFC and have been expanded multiple times. Semiotican 
+has recently started expanding into energy generation by scaling-up a Muon atmospheric mining process it was using to 
+supply the vast power needs of its atmospheric mining research plants on the JCC.`,
         classification: 'Socionomics/Polities'
     }],
     ['Synthetic Control Measures', {
