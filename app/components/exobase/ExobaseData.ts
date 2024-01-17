@@ -651,24 +651,20 @@ investment. One of the major focuses of Semiotican's early years was establishin
 via series of acquisitions of informatic and robotics firms, and notably acquiring Aphabet's abandoned deep-sea mining 
 robotics division and refocusing it on space mining.
 
-Initially Semiotican faced significant market challenges, particularly in regions where Amazon was well established 
-with its advanced robotic and control software systems, especially the [[United States]]. Amazon's dominance in these 
-areas was marked by its extensive supply chain network and competitive pricing models, making it difficult for new 
-entrants like Semiotican to gain a substantial market share. However, Semiotican began to strategically refine its
-Synths for autonomous decision-making, adaptability to diverse industrial environments, and leveraging their existing 
-strengths in vertical integration, which included control over their entire supply chain from raw material acquisition 
-to manufacturing and software deployment. This allowed Semiotican to streamline its operations, reduce costs, and 
-improve the overall functionality and reliability of its products.
+Initially Semiotican faced significant market challenges, particularly in regions where Amazon had well established
+supply chains network and significant regulatory capture, such as the [[United States]]. Semiotican was initially
+forced to pursue bespoke joint parternships tailored to unique local environmental challenges and resource types where
+Amazon's one-size-fits-all approach failed to address local conditions. Over time they developed entirely new mining 
+techniques, such as precise extraction methods for volatile compounds.
 
-The significant turning point for Semiotican came during the antitrust breakup of Amazon's e-commerce and industrial 
-divisions. This regulatory intervention led to a redistribution of market opportunities, breaking up Amazon's 
-near-monopoly in certain sectors. Semiotican capitalized on this opportunity by positioning its now-optimized products 
-as viable and competitively priced alternatives to Amazon's offerings. They offered solutions that were not only 
-technologically on par with Amazon's but also boasted improvements in efficiency and integration. Without the ability to 
-leverage its previous pricing strategies and facing robust competition from a technologically revitalized Semiotican, 
-Amazon’s influence in the robotic and control software market diminished. It found itself transitioning from a market 
-leader to a component supplier for industrial robots, as companies like Semiotican began to lead with more advanced and 
-integrated solutions.
+In 120 BFC a number of space industry import tariffs were removed as part of a global round of trade talks. Semiotican 
+with its diverse range of operations was able lengthen many space supply chains into more terrestrial markets, often at 
+the expense of Amazon who had relied on tariffs protecting its localized monopolistic practices. It was able to 
+streamline its operations, reduce costs, and improve the overall functionality and reliability of its products. Without 
+the ability to leverage its previous pricing strategies and facing robust competition from a technologically revitalized 
+Semiotican, Amazon’s influence in the robotic and control software market diminished. It found itself transitioning from 
+a market leader to a component supplier for industrial robots, as companies like Semiotican began to lead with more 
+advanced and integrated solutions.
  
 Semiotican remained focussed on optimising its mining operations, and began spinning off products such as selling synths 
 developed for managing new mine construction into the construction sector, and selling logistics and shipping synths to
