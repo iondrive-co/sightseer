@@ -35,10 +35,10 @@ If the target spacecraft is crewed, rendezvous normally occurs before they have 
 containment unit with the propulsion system of the spacecraft is riskier than running the engine normally.
 
 There have been recent attempts by [[Semiotican]] to scale up Muon-catalyzed fusion via Muons extracted by collectors 
-deployed from its Jovian Chandelier Cities. If successful this would provide a much cheaper near peer competitor for 
-antimatter engines, potentially opening up the interstellar frontier to commerce. There have also been recent attempts 
-by several smaller companies to scale up production of Titanium-44, which is currently only produced in tiny quantities 
-for medical and research usage.
+deployed from its automated Jovian mining aerostat fleet. If successful this would provide a much cheaper near peer 
+competitor for antimatter engines, potentially opening up the interstellar frontier to commerce. There have also been 
+recent attempts by several smaller companies to scale up production of Titanium-44, which is currently only produced in 
+tiny quantities for medical and research usage.
 
 # Operation
 
@@ -634,18 +634,18 @@ analytic tasks require QuanLan connections.`,
         classification: 'Socionomics/Events'
     }],
     ['Semiotican', {
-content: `Semiotican is a multiplantery industrial conglomerate headquartered in the Jovian Chandelier Cities (JCC), 
-which it owns and operates, and is the largest corporation by revenue. Its name and current structure were established 
-in a merger between smart manufacturing giant Reiser3D and the Mitsubishi group, and its largest revenue sources are 
-from control and monitoring products in the industrial, mining, and construction sectors. Since its founding in 158 BFC 
-it has made a number of acquisitions of companies in mining technology and informatics and managed to take advantage of 
-many new growth opportunities, notably mining S-class asteroids during the [[Ceres Wave]], better integration of 
-[[synths~Synthetic Intelligence]] across supply chains, smart dust monitoring, and most recently Muon-catalyzed fusion.
+content: `Semiotican is a multiplantery industrial conglomerate headquartered in Hellas Planitia, Mars, and is the 
+largest corporation by revenue. Its name and current structure were established in a merger between smart manufacturing 
+giant Reiser3D and the Mitsubishi group, and its largest revenue sources are from control and monitoring products in the 
+industrial, mining, and construction sectors. Since its founding in 158 BFC it has made a number of acquisitions of 
+companies in mining technology and informatics and managed to take advantage of many new growth opportunities, notably 
+mining S-class asteroids during the [[Ceres Wave]], better integration of [[synths~Synthetic Intelligence]] across 
+supply chains, smart dust monitoring, and most recently Muon-catalyzed fusion.
  
 # History
 
 The merger of Reiser3D and the Mitsubishi group was driven by the need to create an entity capable of exploiting the 
-then-emerging market of space resource extraction which required advanced technologies and significant capital 
+then-emerging market of space resource extraction, which required advanced technologies and significant capital 
 investment. One of the major focuses of Semiotican's early years was establishing a foothold in S-class asteroid mining 
 operations via series of acquisitions of informatic and robotics firms, and notably acquiring Aphabet's abandoned 
 deep-sea mining robotics division and refocusing it on space mining.
@@ -659,20 +659,19 @@ new mining techniques, such as precise extraction methods for volatile compounds
 In 120 BFC a number of space industry import tariffs were removed as part of a global round of trade talks. Semiotican 
 with its diverse range of operations was able produce products integrating many space supply chains into terrestrial 
 markets, often at the expense of Amazon who had relied on tariffs protecting its localized monopolistic practices. In 
-contrast Semiotican was able to 
-streamline its operations, reduce costs, and improve the overall functionality and reliability of its products. Without 
-the ability to leverage its previous pricing strategies and facing robust competition from a technologically revitalized 
-Semiotican, Amazon’s influence in the robotic and control software market diminished. It found itself transitioning from 
-a market leader to a component supplier for industrial robots, as companies like Semiotican began to lead with more 
-advanced and integrated solutions.
+contrast Semiotican was able to streamline its operations to reduce costs, and improve the overall functionality and 
+reliability of its products. Without the ability to leverage its previous pricing strategies and facing robust 
+competition from a technologically revitalized Semiotican, Amazon’s influence in the robotic and control software market 
+diminished. It found itself transitioning from a market leader to a component supplier for industrial robots.
  
 Semiotican remained focussed on optimising its mining operations, and began spinning off products such as selling synths 
 developed for managing new mine construction into the construction sector, and selling logistics and shipping synths to
 shipping companies. Its monitoring synths were also useful in many industrial and chemical processing factories, and 
-its development of smart dust monitoring in the 70s brought another huge boost to revenue. Intended as a strategic 
-mining and resupply base, construction of the JCC commenced in 23 BFC and have been expanded multiple times. Semiotican 
-has recently started expanding into energy generation by scaling-up a Muon atmospheric mining process it was using to 
-supply the vast power needs of its atmospheric mining research plants on the JCC.`,
+its development of smart dust monitoring in the 70s brought another huge boost to revenue. 
+
+Intended as a strategic mining and resupply base, construction of the automated Jovian mining aerostat fleet commenced 
+in 23 BFC and has been expanded multiple times. Semiotican has recently started expanding into energy generation by 
+scaling-up a Muon atmospheric mining process it was using to supply the vast power needs of the fleet.`,
         classification: 'Socionomics/Polities'
     }],
     ['Synthetic Control Measures', {
