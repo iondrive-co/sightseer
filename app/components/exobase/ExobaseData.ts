@@ -636,30 +636,30 @@ analytic tasks require QuanLan connections.`,
     ['Semiotican', {
 content: `Semiotican is a multiplantery industrial conglomerate headquartered in the Jovian Chandelier Cities (JCC), 
 which it owns and operates, and is the largest corporation by revenue. Its name and current structure were established 
-in a merger between commodity trading and mining company Glencore and the Mitsubishi group, and its largest revenue 
-sources are from the operation of control and monitoring products in the industrial, mining, and construction sectors. 
-Since its founding in 158 BFC it has made a number of acquisitions in mining and informatics companies and managed to 
-take advantage of many new growth opportunities, notably mining S-class asteroids during the [[Ceres Wave]], better 
-integration of [[synths~Synthetic Intelligence]] across supply chains, smart dust monitoring, and most recently 
-Muon-catalyzed fusion.
+in a merger between smart manufacturing giant Reiser3D and the Mitsubishi group, and its largest revenue sources are 
+from control and monitoring products in the industrial, mining, and construction sectors. Since its founding in 158 BFC 
+it has made a number of acquisitions of companies in mining technology and informatics and managed to take advantage of 
+many new growth opportunities, notably mining S-class asteroids during the [[Ceres Wave]], better integration of 
+[[synths~Synthetic Intelligence]] across supply chains, smart dust monitoring, and most recently Muon-catalyzed fusion.
  
 # History
 
-The merger of Glencore and the Mitsubishi group was driven by the need to create an entity capable of exploiting the 
+The merger of Reiser3D and the Mitsubishi group was driven by the need to create an entity capable of exploiting the 
 then-emerging market of space resource extraction which required advanced technologies and significant capital 
 investment. One of the major focuses of Semiotican's early years was establishing a foothold in S-class asteroid mining 
-via series of acquisitions of informatic and robotics firms, and notably acquiring Aphabet's abandoned deep-sea mining 
-robotics division and refocusing it on space mining.
+operations via series of acquisitions of informatic and robotics firms, and notably acquiring Aphabet's abandoned 
+deep-sea mining robotics division and refocusing it on space mining.
 
 Initially Semiotican faced significant market challenges, particularly in regions where Amazon had well established
 supply chains network and significant regulatory capture, such as the [[United States]]. Semiotican was initially
 forced to pursue bespoke joint parternships tailored to unique local environmental challenges and resource types where
-Amazon's one-size-fits-all approach failed to address local conditions. Over time they developed entirely new mining 
-techniques, such as precise extraction methods for volatile compounds.
+Amazon's one-size-fits-all approach failed to address local conditions. Over time they developed tooling for entirely 
+new mining techniques, such as precise extraction methods for volatile compounds.
 
 In 120 BFC a number of space industry import tariffs were removed as part of a global round of trade talks. Semiotican 
-with its diverse range of operations was able lengthen many space supply chains into more terrestrial markets, often at 
-the expense of Amazon who had relied on tariffs protecting its localized monopolistic practices. It was able to 
+with its diverse range of operations was able produce products integrating many space supply chains into terrestrial 
+markets, often at the expense of Amazon who had relied on tariffs protecting its localized monopolistic practices. In 
+contrast Semiotican was able to 
 streamline its operations, reduce costs, and improve the overall functionality and reliability of its products. Without 
 the ability to leverage its previous pricing strategies and facing robust competition from a technologically revitalized 
 Semiotican, Amazon’s influence in the robotic and control software market diminished. It found itself transitioning from 
