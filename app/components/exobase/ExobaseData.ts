@@ -644,11 +644,25 @@ supply chains, smart dust monitoring, and most recently Muon-catalyzed fusion.
  
 # History
 
-The merger of Reiser3D and the Mitsubishi group was driven by the need to create an entity capable of exploiting the 
-then-emerging market of space resource extraction, which required advanced technologies and significant capital 
-investment. One of the major focuses of Semiotican's early years was establishing a foothold in S-class asteroid mining 
-operations via series of acquisitions of informatic and robotics firms, and notably acquiring Aphabet's abandoned 
-deep-sea mining robotics division and refocusing it on space mining.
+Since 166 BFC JAXA had received significant year on year increases to its budget in order to accelerate a number of 
+space resource extraction plans, especially for M-class asteroids potentially containing lithium. Mitsubishi Heavy 
+Industries was awarded contracts for developing orbital transport and refuelling infrastructure, a number of spaceship 
+modules, refining technology, and a large number of smaller components such as anchoring and communication 
+infrastructure. Some of these contracts it did not have the capability to realistically deliver on, but it had been
+pressured by the government to accept. Acquiring German additive manufacturing giant Reiser3D was seen as the best 
+solution to deliver on these contracts, due to that companies expertise in mining and construction machine tools, 
+combined with their acquisition of 3D printed rocket firm Relativity Space in 177 BFC, and the [Eurasian Bloc]] granted 
+permission for the merger between two of its largest firms which was expected to be its best change of securing a long 
+term lithium supply.
+
+The huge amounts of capital required to setup the infrastructure required to extract resources were initially borne 
+entirely by public space agencies, but over time as Mitsubishi and others began planning for expanding into mining 
+metals from S-class asteroids they were required to seek more government partnerships to cover the research and 
+development costs. In order to do this effectively in the European market they maintained the Reiser3D headquarters and
+began to market themselves as a Japanese-European firm. The name Semiotican, from the latin for signalling meaning, was
+chosen for the corporate rebrand as the growth areas of the company were correctly forecast to be in machine learning in
+industrial control and space mining. At the same time they began a series of acquisitions of informatic and robotics 
+firms, notably acquiring Aphabet's abandoned deep-sea mining robotics division and refocusing it on space mining.
 
 Initially Semiotican faced significant market challenges, particularly in regions where Amazon had well established
 supply chains network and significant regulatory capture, such as the [[United States]]. Semiotican was initially
