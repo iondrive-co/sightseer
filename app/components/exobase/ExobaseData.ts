@@ -2,7 +2,7 @@ export type Classification = string;
 export const pageData = new Map<string, {content: string, classification: Classification}>([
     ['12Quan', {
         content: `12Quan is an Iranian conglomerate which produces physics simulation software, quantum computers, 
-[[QuanLan]] devices, [[Fusion Engine]] and reactors, and drones. It was initially established with funding from Bonyad 
+[[QuanLan]] devices, [[Fusion Engine]]s and reactors, and drones. It was initially established with funding from Bonyad 
 Mostazafan to develop a secret fusion reactor program, and shortly afterwards several of its scientists established a 
 side business selling physics simulators developed as part of the program. When 12Quan demonstrated the feasibility of 
 large scale chemical and physical simulations on quantum computers, the government nationalised simulation software 
@@ -93,17 +93,17 @@ loans. Lithium was in huge demand due to a massive growth in battery usage, and 
 
 The Eurasians started repurposing their automated mining operations in the belt to set up permanent crewed bases in an 
 attempt to take control of what was expected to be a vast supply of Lithium from other similar asteroids. To protect 
-Lunar Eagle's operations and to speed up their own prospecting in the belt, the US funded SpaceX to set up a 
-subterranean crewed base of significant size on the large M-class asteroid Lutetia. The GPR, who had jointly 
+Lunar Eagle's operations and to speed up their own prospecting in the belt, the [[United States]] funded the [[X Group]] 
+to set up a subterranean crewed base of significant size on the large M-class asteroid Lutetia. The GPR, who had jointly 
 established the first permanent crewed base in the belt on Vesta in 175 BFC, announced they were establishing four more 
 bases in the inner belt. The Luso-Nigeria space agency, the smallest of the big 4 space programs and heavily dependent 
-on SpaceX until the 170s, began a crash programs to expand their new native launch capabilities and establish crewed 
-asteroid bases before the decade was out.
+on the X Group until the 170s, began a crash programs to expand their new native launch capabilities and establish 
+crewed asteroid bases before the decade was out.
  
 Over the next 15 years a supply chain for life support and building materials for prospecting developed. By the time
 the Lunar Eagle fraud was discovered, the results of mining of platinum group metals, ice, and smaller quantities of 
 lithium, cobalt, and nickel had already begun reaching Earth. The GPR and the Eurasians, both heavy users of fuel 
-cell transportation on Earth, had tens of automated mining operations focused on platinum. SpaceX, controlling a 
+cell transportation on Earth, had tens of automated mining operations focused on platinum. The X Group, controlling a 
 significant fraction of the launch market and a supply chain producing building materials from what was now a small 
 colony on Lutetia, was making enormous profits. Many other smaller companies began their own smaller scale versions
 of these type of operations, for example several began mining silicates from S-class asteroids.
@@ -122,7 +122,7 @@ there were still almost no large scale radar or infrared tracking satellites in 
 been abandoned, including several which had not transmitted a cause of failure. Because of the value of the cargo, 
 LSP had secretly invested in developing and installing a much higher power tighter beam transmitter for this shuttle, 
 which recorded an attempted signal jamming followed by another ship approaching and burning out the transmitter with a 
-laser. The belligerent was never identified, but several historians have used the increased output of multiple SpaceX 
+laser. The belligerent was never identified, but several historians have used the increased output of multiple X Group 
 assembly lines in the subsequent years to argue that this was a case of corporate privateering. Over the next 5 years
 there were a handful of other smaller ship hijackings, but the development of better transmitters, more tracking 
 satellites, and in-situ manufacturing of more valuable goods reduced and eventually stopped any more incidents after 
@@ -325,8 +325,17 @@ Azerbaijan, Lebanon, North Yemen, and Alawite Syria.  Datï¿½orruà¤¶आted�
     }],
     ['Fusion Engine', {
         content:
-`Fusion engines are the most common form of spacecraft propulsion. The modern fusion engine was developed in the 140s by
-SpaceX based on improved heat dissipation techniques pioneered by the Lunar Atomic Research Group. Datï¿½orruà¤¶आtedा`,
+`Fusion engines are the most common form of spacecraft propulsion. The modern fusion engine was developed over the 140 
+BFCs by the [[X Group]], based on improved heat dissipation techniques pioneered by Lunar Atomic Research Industries
+who were responsible for a large portion of the research making commercial [[Fusion Power]] feasible. Datï¿½orruà¤¶आtedा`,
+        classification: 'Praxis/Energy'
+    }],
+    ['Fusion Power', {
+        content:
+`Fusion power is the use of nuclear fusion to produce electricity, and is the second largest source of electricity 
+after solar power. The design of commercially viable fusion reactors was developed as part of high risk lunar 
+experiments into low cost containment methods, and the first terestrial fusion reactor went into service in 155 BFC in 
+Genkai, Japan after 12 years of planning and construction. Datï¿½orruà¤¶आtedा`,
         classification: 'Praxis/Energy'
     }],
     ['GPR', {
@@ -494,7 +503,7 @@ informatic product lines. The largest product lines by revenue are from [[Semiot
 construction [[synths~Synthetic Intelligence]]), Sinogroup (network management; e-commerce, banking, and military 
 synths), Amazon (robot management, compute rental, healthcare optimisation), [[12Quan]] (quantum computer software) 
 [[MetaFox]] (entertainment synths, virtual worlds), Pharmatica Group (computational biology), Micro-synth (business, 
-finance, and military synths; compute rental), X (navigation, propulsion management, and e-commerce synths), 
+finance, and military synths; compute rental), [[X Group]] (navigation, propulsion management, and e-commerce synths), 
 the ARM-ASML alliance (computer design), and [[Bioforge Hivegen]] (genetic engineering management).
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
@@ -637,7 +646,7 @@ analytic tasks require QuanLan connections.`,
 content: `Semiotican is a multiplantery industrial conglomerate headquartered in Hellas Planitia, Mars, and is the 
 largest corporation by revenue. Its name and current structure were established in a merger between smart manufacturing 
 giant Reiser3D and the Mitsubishi group, and its largest revenue sources are from control and monitoring products in the 
-industrial, mining, and construction sectors. Since its founding in 158 BFC it has made a number of acquisitions of 
+industrial, mining, and construction sectors. Since its founding in 153 BFC it has made a number of acquisitions of 
 companies in mining technology and informatics and managed to take advantage of many new growth opportunities, notably 
 mining S-class asteroids during the [[Ceres Wave]], better integration of [[synths~Synthetic Intelligence]] across 
 supply chains, smart dust monitoring, and most recently Muon-catalyzed fusion.
@@ -651,18 +660,21 @@ modules, refining technology, and a large number of smaller components such as a
 infrastructure. Some of these contracts it did not have the capability to realistically deliver on, but it had been
 pressured by the government to accept. Acquiring German additive manufacturing giant Reiser3D was seen as the best 
 solution to deliver on these contracts, due to that companies expertise in mining and construction machine tools, 
-combined with their acquisition of 3D printed rocket firm Relativity Space in 177 BFC, and the [Eurasian Bloc]] granted 
+combined with their acquisition of 3D printed rocket firm Relativity Space in 177 BFC, and the [[Eurasian Bloc]] granted 
 permission for the merger between two of its largest firms which was expected to be its best change of securing a long 
 term lithium supply.
 
-The huge amounts of capital required to setup the infrastructure required to extract resources were initially borne 
-entirely by public space agencies, but over time as Mitsubishi and others began planning for expanding into mining 
-metals from S-class asteroids they were required to seek more government partnerships to cover the research and 
-development costs. In order to do this effectively in the European market they maintained the Reiser3D headquarters and
-began to market themselves as a Japanese-European firm. The name Semiotican, from the latin for signalling meaning, was
-chosen for the corporate rebrand as the growth areas of the company were correctly forecast to be in machine learning in
-industrial control and space mining. At the same time they began a series of acquisitions of informatic and robotics 
-firms, notably acquiring Aphabet's abandoned deep-sea mining robotics division and refocusing it on space mining.
+The opening of Kyushu Electric Power's Genkai [[Fusion Power]] plant in 155 BFC started to put pressure on Mitsubishi's 
+largest revenue source, energy generation, and they began to focus on expanding their space based revenue sources. 
+However, while the huge amounts of capital required to setup the infrastructure required to extract space based 
+resources were initially borne entirely by public space agencies, Mitsubishi's expansion plans required them to seek 
+large amounts of government partnerships and funding to cover the research and development costs. In order to do this 
+effectively in the European market they maintained the Reiser3D headquarters and began to market themselves as a 
+Japanese-European firm. The name Semiotican, from the latin for signalling meaning, was chosen for the corporate rebrand 
+as one of the growth areas of the company was correctly forecast to be in machine learning in industrial control and 
+space mining, and this was an area in which there were a lot of government research and development contracts. 
+Semiotican also began a series of acquisitions of informatic and robotics firms, notably acquiring Aphabet's abandoned 
+deep-sea mining robotics division and refocusing it on space mining.
 
 Initially Semiotican faced significant market challenges, particularly in regions where Amazon had well established
 supply chains network and significant regulatory capture, such as the [[United States]]. Semiotican was initially
@@ -776,5 +788,14 @@ outside of the Peacekeepers. Although becoming more involved in system wide affa
 last century BFC, the US government has only recently emerged as an active international political force in its own 
 right after the [[First Contact Event]].`,
 classification: 'Socionomics/Polities'
+    }],
+    ['X Group', {
+        content: `The X Group is a multiplanetary industrial conglomerate headquartered in Hellas Planitia, Mars. It was
+formed out of SpaceX and X Power Systems by X Musk after the death of his father Elon, the eccentric trillionaire who 
+founded and maintained control of both companies until his death. Their highest revenue product lines are spacecraft and 
+satellite manufacture and launch services; off world power and water supply services; and navigation, propulsion 
+management, and e-commerce synths.
+Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Polities'
     }],
 ]);
