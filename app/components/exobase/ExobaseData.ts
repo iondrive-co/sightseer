@@ -14,6 +14,17 @@ pronounced as 1-2-kwon.
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
+    ['Ångström', {
+        content: `Ångström is a photonics conglomerate specialising in the manufacture of [[Synthetic Intelligence]] 
+produced two-photon polymerization designs. Named after the Swedish physicist Anders Jonas Ångström, who developed the 
+science of spectroscopy, the company is the largest supplier of photonic crystals and waveguides used in the production
+of computer chips, as well as a major supplier of biomedical devices, and of many high performance materials used in the
+aerospace sector. The company was formed in 189 BFC as a result of an ongoing joint venture between photolithography 
+giant ASML and the AI compute architecture design firm ARM, which proved extremely successful in producing multiple
+generations of superior chips to rival Nvidia.
+Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Polities'
+    }],
     ['Antimatter Engine', {
         content:
 `Antimatter engines are a class of propulsion technology that make use of the energy released during the annihilation of 
@@ -499,12 +510,12 @@ harder to avoid detection on the [[InterMesh]] even with cloaked tunnel and steg
     }],
     ['Infomatic Conglomerates', {
 content: `The Infomatic Conglomerates are large corporate groups deriving a significant portion of their revenue from 
-informatic product lines. The largest product lines by revenue are from [[Semiotican]] (industrial, mining, and 
+infomatic product lines. The largest product lines by revenue are from [[Semiotican]] (industrial, mining, and 
 construction [[synths~Synthetic Intelligence]]), Sinogroup (network management; e-commerce, banking, and military 
 synths), Amazon (robot management, compute rental, healthcare optimisation), [[12Quan]] (quantum computer software) 
 [[MetaFox]] (entertainment synths, virtual worlds), Pharmatica Group (computational biology), Micro-synth (business, 
 finance, and military synths; compute rental), [[X Group]] (navigation, propulsion management, and e-commerce synths), 
-the ARM-ASML alliance (computer design), and [[Bioforge Hivegen]] (genetic engineering management).
+[[Ångström]] (photonics), and [[Bioforge Hivegen]] (genetic engineering management).
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
@@ -647,7 +658,7 @@ content: `Semiotican is a multiplantery industrial conglomerate headquartered in
 largest corporation by revenue. Its name and current structure were established in a merger between smart manufacturing 
 giant Reiser3D and the Mitsubishi group, and its largest revenue sources are from control and monitoring products in the 
 industrial, mining, and construction sectors. Since its founding in 153 BFC it has made a number of acquisitions of 
-companies in mining technology and informatics and managed to take advantage of many new growth opportunities, notably 
+companies in mining technology and infomatics and managed to take advantage of many new growth opportunities, notably 
 mining S-class asteroids during the [[Ceres Wave]], better integration of [[synths~Synthetic Intelligence]] across 
 supply chains, smart dust monitoring, and most recently Muon-catalyzed fusion.
  
@@ -673,7 +684,7 @@ effectively in the European market they maintained the Reiser3D headquarters and
 Japanese-European firm. The name Semiotican, from the latin for signalling meaning, was chosen for the corporate rebrand 
 as one of the growth areas of the company was correctly forecast to be in machine learning in industrial control and 
 space mining, and this was an area in which there were a lot of government research and development contracts. 
-Semiotican also began a series of acquisitions of informatic and robotics firms, notably acquiring Aphabet's abandoned 
+Semiotican also began a series of acquisitions of infomatic and robotics firms, notably acquiring Aphabet's abandoned 
 deep-sea mining robotics division and refocusing it on space mining.
 
 Initially Semiotican faced significant market challenges, particularly in regions where Amazon had well established
