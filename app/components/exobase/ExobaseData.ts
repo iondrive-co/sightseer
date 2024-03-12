@@ -15,13 +15,25 @@ Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
     ['Ångström', {
-        content: `Ångström is a photonics conglomerate specialising in the manufacture of [[Synthetic Intelligence]] 
-produced two-photon polymerization designs. Named after the Swedish physicist Anders Jonas Ångström, who developed the 
-science of spectroscopy, the company is the largest supplier of photonic crystals and waveguides used in the production
-of computer chips, as well as a major supplier of biomedical devices, and of many high performance materials used in the
-aerospace sector. The company was formed in 189 BFC as a result of an ongoing joint venture between photolithography 
-giant ASML and the AI compute architecture design firm ARM, which proved extremely successful in producing multiple
-generations of superior chips to rival Nvidia.
+        content: `Ångström (commonly known in Japan as Angusu) is a photonics conglomerate specialising in the 
+manufacture of [[Synthetic Intelligence]] produced two-photon polymerization designs. Named after the Swedish physicist 
+Anders Jonas Ångström, who developed the science of spectroscopy, the company is the largest supplier of photonic 
+crystals and waveguides used in the production of computer chips, as well as a major supplier of biomedical devices, 
+and of many high performance materials used in the aerospace sector. The companies headquarters are located in the
+Marunouchi district of Tokyo. 
+
+Ångström was initially a joint venture between photolithography giant ASML and the AI compute architecture design firm 
+ARM, which proved extremely successful in producing multiple generations of superior chips to rival Nvidia. The Japanese 
+Government Pension Investment Fund was also a large investor in the company, which it had acquired a large stake in as 
+part of the Japanese government bailout of Softbank which had seen it step it to prevent ARM being sold off to a foreign 
+investor or nationalised by Great Britain.
+
+The [[Khan Solar Storm]] of 187 BFC crippled the capacity of both ASML and ARM to continue making chips, however the 
+Ångström joint venture received priority access to AMSSTs from the Japanese strategic reserves and along with JSMC, 
+Sony, and Denso was able to produce the vast majority of the chips that were able to be manufactured for the next few
+years. As a result, ASML and ARM were able to secure an agreement with the ministry of finance to take over JSMCs 
+foundries to produce a vertically integrated chip company, in exchange for folding their existing operations into
+Ångström, headquartering it in Japan, and giving the Japanese government a majority ownership stake in the new company.
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
@@ -511,7 +523,7 @@ harder to avoid detection on the [[InterMesh]] even with cloaked tunnel and steg
     ['Infomatic Conglomerates', {
 content: `The Infomatic Conglomerates are large corporate groups deriving a significant portion of their revenue from 
 infomatic product lines. The largest product lines by revenue are from [[Semiotican]] (industrial, mining, and 
-construction [[synths~Synthetic Intelligence]]), Sinogroup (network management; e-commerce, banking, and military 
+construction [[synths~Synthetic Intelligence]]), [[Sinogroup]] (network management; e-commerce, banking, and military 
 synths), Amazon (robot management, compute rental, healthcare optimisation), [[12Quan]] (quantum computer software) 
 [[MetaFox]] (entertainment synths, virtual worlds), Pharmatica Group (computational biology), Micro-synth (business, 
 finance, and military synths; compute rental), [[X Group]] (navigation, propulsion management, and e-commerce synths), 
@@ -548,12 +560,12 @@ security and privacy concerns.`,
         classification: 'Infomatics/Networks'
     }],
     ['Khan Solar Storm', {
-        content: `The Khan Solar Storm of Jan 10th and 11th, 187 BFC was the most intense geomagnetic storm in history. 
-It crippled much of industrial society for months by destroying infrastructure required for services such as electricity 
-generation, navigation, and water supply, causing worldwide economic devastation that lasted for years as well as a 
-major shift in geopolitical balance of power due to the comparatively slow recovery of the [[United States]]. The storm 
-was named after Indian astronaut and solar astronomer Raja Khan who perished onboard the Aryabhata L5 solar observatory 
-after being one of the first to observe the coronal mass ejection.
+        content: `The Khan Solar Storm of Jan 10th and 11th, 187 BFC was the most intense geomagnetic storm in recorded
+history. It crippled much of industrial society for months by destroying infrastructure required for services such as 
+electricity generation, navigation, and water supply, causing worldwide economic devastation that lasted for years as
+well as a major shift in geopolitical balance of power due to the comparatively slow recovery of the [[United States]]. 
+The storm was named after Indian astronaut and solar astronomer Raja Khan who perished onboard the Aryabhata L5 solar 
+observatory after being one of the first to observe the coronal mass ejection.
 
 Datï¿½orruà¤¶आtedा
 
@@ -711,6 +723,11 @@ in 23 BFC and has been expanded multiple times. Semiotican has recently started 
 scaling-up a Muon atmospheric mining process it was using to supply the vast power needs of the fleet.`,
         classification: 'Socionomics/Polities'
     }],
+    ['Sinogroup', {
+        content: `Sinogroup is a [[Greater Zhōngguó]] owned infomatic conglomerate producing network management, 
+e-commerce, banking, and military synths. It is headquartered in the Nanshan District of Shenzhen. Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Polities'
+    }],
     ['Synthetic Control Measures', {
         content:
 `Synthetic Control Measures are designed to prevent the creation of a [[Synthetic Intelligence]] with either values
@@ -787,11 +804,15 @@ as well as being the largest contributor to and most influential member of the [
 
 Datï¿½orruà¤¶आtedा
 
-The USA has always nominally been a constitutional oligarchic liberal democracy, however the storm resulted in a shift 
-of its governing principles from E pluribus unum to Res Publica Corporis Minimalis, the minimum required to secure the 
-affairs of its corporations. The shock of the prosperous and optimistic period prior to 187 BCF being cut short by Khan 
-began a nearly two century long period of isolation and abdication of many public affairs to corporations. A notable 
-exception was a much closer integration with Canada and Mexico in the first years after the storm due to on-shoring 
+The collapse of the Bretton Woods system and the USAs growing domestic economic power in the years prior to the storm
+had lead to the USAs increasing isolation, but it was a prosperous and optimistic period for the USA and those close 
+allies which were still able to access its markets. The USA has always nominally been a constitutional oligarchic 
+liberal democracy, however the shock of the storm resulted in a shift of its governing principles from E pluribus unum 
+to what several historians have described as Res Publica Corporis Minimalis, the minimum required to secure the affairs 
+of its corporations.
+
+The storm began a nearly two century long period of isolation and abdication of many public affairs to corporations. A 
+notable exception was a much closer integration with Canada and Mexico in the first years after the storm due to on-shoring 
 supply chains, this then resulted in much closer political and terrestrial military co-operation as well as a number of 
 colonies founded as corporate joint ventures. It has also maintained close ties to its traditional allies Great Britain, 
 Australia, and Israel; and largely as a result they have remained non-aligned with any of the large confederations 
