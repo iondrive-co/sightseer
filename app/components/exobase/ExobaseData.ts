@@ -342,8 +342,9 @@ common calendar in use system-wide.`,
     }],
     ['Fatimid Trade Caliphate', {
         content:
-`The Fatimid Trade Caliphate is a trading alliance between several majority Shi'a nations, Iran, Iraq, Bahrain, 
-Azerbaijan, Lebanon, North Yemen, and Alawite Syria.  Datï¿½orruà¤¶आtedा`,
+`The Fatimid Trade Caliphate is a trading alliance between several majority Shi'a nations, Iran, South Iraq, Bahrain, 
+the Beqaa State, North Yemen, and Sogdia.  The trading alliance also encompasses a free trade zone with the Azerbaijani 
+region of the Türkiye confederation. Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
     }],
     ['Fusion Engine', {
@@ -373,9 +374,9 @@ Datï¿½orruà¤¶आtedा`,
     }],
     ['Greater Zhōngguó', {
 content:  `Greater Zhōngguó is a political entity which was formed in 98 BFC from the unification of the [[GPR]] with 
-the U.A.E, Ethiopia, Sudan, Djibouti, Indonesia, Pakistan, and Papua New Guinea; as well as an informal agreement with
-the [[Fatimid Trade Caliphate]] on spheres of influence. Despite having significantly less industrial capacity than the 
-[[Peacekeepers]] it fields a nearly equivalently size navy. Datï¿½orruà¤¶आtedा`,
+the U.A.E, Ethiopia, Sudan, Djibouti, Indonesia, Greater Uzbekistan, Pakistan, and Papua New Guinea; as well as an 
+informal agreement with the [[Fatimid Trade Caliphate]] on spheres of influence. Despite having significantly less 
+industrial capacity than the [[Peacekeepers]] it fields a nearly equivalently size navy. Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
     }],
     ['Haidian Takeoff Crisis', {
@@ -592,9 +593,29 @@ surveillance allowed a human to human strain of Trypanosomiasis to spread outsid
 endemic in subsequent decades in large parts of Africa and South America due to large amounts of ocean travel between 
 the countries while air travel was still extremely limited due to the effects of Khan. The outbreak was estimated to 
 have killed over a hundred million people, further devastating the economies of most countries in the [[Luso-Nigeria]] 
-trading block, leading to the establishment of a military junta which retained power in its early days by providing 
-effective healthcare.
-`,
+trading block and was a major contributor to the [[Reset of Nations]]. It laid the seeds for the establishment of a 
+military junta in Luso-Nigeria, which retained power in its early days by providing effective healthcare.`,
+classification: 'Socionomics/Events'
+    }],
+    ['Levantine Republic', {
+        content: `The Levantine Republic is a country in the Eastern Mediterranean and the Levant. It is bounded by the 
+Mediterranean Sea, Israel, and Egypt to the west, Alawite Syria and the Beqaa State to the North, North and South Iraq 
+to the East, and Saudi Arabia to the South. It was formed out of the territories of central Iraq, Lebanon, Syria, and 
+Jordan by Tariq Al-Hashim in the aftermath of the [[Reset of Nations]].
+Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Polities'
+    }],
+    ['Reset of Nations', {
+        content: `The period between the [[Khan Solar Storm]] of 187 BFC and the formation of the [[Eurasian Bloc]] in
+185 BFC is sometimes known as the Reset of Nations, due to the rapid geopolitical shifts that occurred in this period.
+The foundations for many of these changes had previously been laid by the collapse of the Bretton Woods system and the 
+[[United States]] increasing disinterest in intervening in international conflicts, but were accelerated by the 
+disintegration of large amounts of state power in the aftermath of the storm. The major geopolitical changes that 
+occurred were the disintegration of Syria, Georgia, and Lebanon and the corresponding expansion of [[Türkiye]] and
+foundation of the [[Levantine Republic]]; a series of annexations leading to the formation of Greater Uzbekistan; the 
+Trypanosomiasis crisis which destabilised much of West Africa and South America; and finally the formation of the 
+Eurasian Bloc.
+Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Events'
     }],
     ['Luso-Nigeria', {
@@ -795,6 +816,16 @@ Russia, North Korea over positioning at the EM1 Lagrange Point. It began with [[
 culminated in the Battle of the Apex which was the first large scale space battle. It directly resulted in the formation 
 of the [[GPR]] as a military and infomatic alliance, and led to major changes in military tactics. Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Events'
+    }],
+    ['Türkiye', {
+        content: `Türkiye is a federation of countries in West Asia and Europe, controlled by the eponymous country. It
+consists of Türkiye, North Iraq, Azerbaijan, and Crimea, as well as the semi-autonomous regions of Alawite Syria and 
+Georgia. It was a close ally of Greater Uzbekistan until that country joined [[Greater Zhōngguó]], and continues to 
+maintain its historical military presence in Saudi Arabia which was established during the time of its alliance with 
+Pakistan. It frequently is involved in border disputes with [[Levantine Republic]], and has sometimes tense diplomatic 
+relations with Iran despite maintaining a free trade zone in Azerbaijan for the [[Fatimid Trade Caliphate]].
+Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Confederations'
     }],
     ['United States', {
 content: `The United States of America (USA), commonly known as the United States (U.S.) or America, is a country 
