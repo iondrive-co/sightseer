@@ -112,14 +112,14 @@ infrastructure developed by the early asteroid mining companies mining platinum 
 168 BFC when Lunar Eagle falsified the amount of lithium in surveys of an M-class asteroid in order to secure additional 
 loans. Lithium was in huge demand due to a massive growth in battery usage, and was most desperately needed by the 
 [[Eurasian Bloc]] countries, which had exhausted their reserves and had no strategic partnerships with producers 
-[[Luso-Nigeria]] or the [[GPR]].
+[[Dominio]] or the [[GPR]].
 
 The Eurasians started repurposing their automated mining operations in the belt to set up permanent crewed bases in an 
 attempt to take control of what was expected to be a vast supply of Lithium from other similar asteroids. To protect 
 Lunar Eagle's operations and to speed up their own prospecting in the belt, the [[United States]] funded the [[X Group]] 
 to set up a subterranean crewed base of significant size on the large M-class asteroid Lutetia. The GPR, who had jointly 
 established the first permanent crewed base in the belt on Vesta in 175 BFC, announced they were establishing four more 
-bases in the inner belt. The Luso-Nigeria space agency, the smallest of the big 4 space programs and heavily dependent 
+bases in the inner belt. The Dominio space agency, the smallest of the big 4 space programs and heavily dependent 
 on the X Group until the 170s, began a crash programs to expand their new native launch capabilities and establish 
 crewed asteroid bases before the decade was out.
  
@@ -132,7 +132,7 @@ colony on Lutetia, was making enormous profits. Many other smaller companies beg
 of these type of operations, for example several began mining silicates from S-class asteroids.
 
 By 148 BFC, the improved [[Fusion Engine]] had increased the pace of development and there were over a thousand 
-automated mining operations, and by this time Luso-Nigeria has the largest network of crewed bases, with 26 in operation. 
+automated mining operations, and by this time Dominio has the largest network of crewed bases, with 26 in operation. 
 Their focus on a water economy from low density carbonaceous asteroids such as 52 Europa, along with a state-sponsored 
 initiative recruiting (and in some cases blackmailing) specialists to work long periods in these bases, lead to rapid 
 expansion. In March 148 this network allowed them to leapfrog the GPR in establishing a base on Ceres, the largest 
@@ -151,21 +151,21 @@ there were a handful of other smaller ship hijackings, but the development of be
 satellites, and in-situ manufacturing of more valuable goods reduced and eventually stopped any more incidents after 
 138 BFC.
 
-Luso-Nigeria's policy of shipping up what were effectively poor indentured servants eventually backfired in 134 BFC, 
+Dominio's policy of shipping up what were effectively poor indentured servants eventually backfired in 134 BFC, 
 when a large proportion of the Ceres colony rebelled and declared independence. The administrator and several visiting
 Russian scientists were killed. The GPR used this as a justification to send its security forces across to seize 
 control of the base. Due to the lack of automated weapon systems by either side, the ensuing battle of Ceres was 
-primarily fought by humans and resulted in ten GPR security dead, compared to twenty one members of the Luso-Nigerian 
+primarily fought by humans and resulted in ten GPR security dead, compared to twenty one members of the Dominio 
 base in the attempt to repel them, included two US and one Indian citizens. 
 
-An emergency session of the U.N. security council voted 3 to 1 to demand an immediate withdrawal. The Luso-Nigerian
+An emergency session of the U.N. security council voted 3 to 1 to demand an immediate withdrawal. The Dominio
 junta, having strong economic ties to the GPR and with a space force with no breaching capability, ruled out use 
 of force to retake the station. This was extremely unpopular domestically, however the junta effectively censored the 
 decision in local media and arrested protestors, which effectively stopped any further dissent. The U.S, which had 
 proposed the U.N. motion, publicly pushed for sanctions, and was later found to have secretly contracted the Constellis 
 group to began shipping drones and weapons to Lutetia.
 
-The fait accompli situation, combined with lack of Luso-Nigerian power and the logistical nightmare of any military 
+The fait accompli situation, combined with lack of Dominio power and the logistical nightmare of any military 
 response, helped the GPR push for an advantageous diplomatic resolution. They proposed establishing a nominally 
 independent state on Ceres in exchange for sharing lucrative mining rights from several other operations they had 
 established in the belt. After several weeks of negotiation, the incident ended with the normalisation of relations 
@@ -343,7 +343,7 @@ common calendar in use system-wide.`,
     ['Fatimid Trade Caliphate', {
         content:
 `The Fatimid Trade Caliphate is a trading alliance between several majority Shi'a nations, Iran, South Iraq, Bahrain, 
-the Beqaa State, North Yemen, and Sogdia.  The trading alliance also encompasses a free trade zone with the Azerbaijani 
+the Beqaa State, and North Yemen.  The trading alliance also encompasses a free trade zone with the Azerbaijani 
 region of the Türkiye confederation. Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
     }],
@@ -592,9 +592,9 @@ antiviral drugs developed before Khan were still effective in controlling viral 
 surveillance allowed a human to human strain of Trypanosomiasis to spread outside of sub-Saharan Africa, becoming 
 endemic in subsequent decades in large parts of Africa and South America due to large amounts of ocean travel between 
 the countries while air travel was still extremely limited due to the effects of Khan. The outbreak was estimated to 
-have killed over a hundred million people, further devastating the economies of most countries in the [[Luso-Nigeria]] 
+have killed over a hundred million people, further devastating the economies of most countries in the [[Dominio]] 
 trading block and was a major contributor to the [[Reset of Nations]]. It laid the seeds for the establishment of a 
-military junta in Luso-Nigeria, which retained power in its early days by providing effective healthcare.`,
+military junta in Dominio, which retained power in its early days by providing effective healthcare.`,
 classification: 'Socionomics/Events'
     }],
     ['Levantine Republic', {
@@ -607,27 +607,29 @@ Datï¿½orruà¤¶आtedा`,
     }],
     ['Reset of Nations', {
         content: `The period between the [[Khan Solar Storm]] of 187 BFC and the formation of the [[Eurasian Bloc]] in
-185 BFC is sometimes known as the Reset of Nations, due to the rapid geopolitical shifts that occurred in this period.
+185 BFC is sometimes known as the Reset of Nations or simply the Reset, due to the rapid geopolitical shifts that 
+occurred in this period.
 The foundations for many of these changes had previously been laid by the collapse of the Bretton Woods system and the 
 [[United States]] increasing disinterest in intervening in international conflicts, but were accelerated by the 
 disintegration of large amounts of state power in the aftermath of the storm. The major geopolitical changes that 
 occurred were the disintegration of Syria, Georgia, and Lebanon and the corresponding expansion of [[Türkiye]] and
-foundation of the [[Levantine Republic]]; a series of annexations leading to the formation of Greater Uzbekistan; the 
-Trypanosomiasis crisis which destabilised much of West Africa and South America; and finally the formation of the 
-Eurasian Bloc.
+foundation of the [[Levantine Republic]]; a series of annexations leading to the dissolution of the Sogdia economic zone 
+and the formation of Greater Uzbekistan; the Trypanosomiasis crisis which destabilised much of West Africa and South 
+America; and finally the formation of the Eurasian Bloc.
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Events'
     }],
-    ['Luso-Nigeria', {
-content: `Luso-Nigeria is a political federation of African and South American states, initially formed to more 
-efficiently mine seabed resources in the South Atlantic and eventually evolving into a tightly integrated military 
-junta in 181 BFC in the aftermath of the [[Khan Solar Storm]]. The majority religion of Luso-Nigeria is new Roman 
-Catholic, and senior junta members are drawn from the clergy and follow the new Roman Catholic position of rule by
-their own cardinals rather than taking direction from the Vatican. Despite nominally being a theocracy, the junta 
-encourages some degree of religious tolerance, especially in African states with significant populations following 
-Muslim or traditional African religious practices. 
+    ['Dominio', {
+content: `Dominio is a federation of theocratic West African and South American states, initially formed as a trade 
+alliance to more efficiently mine seabed resources in the South Atlantic and eventually evolving into a more tightly 
+integrated federation of military juntas in 181 BFC in the aftermath of the [[Khan Solar Storm]]. Its primary members 
+are Ufalme wa Nigeria, Ndongo, Brazil, Chile, Columbia, and Peru, as well as free trade zones in with Refugio de Datos 
+Paraguay and the Argentinian Mancomunidad. The majority religion of Dominio is new Roman Catholic, and senior junta 
+members are drawn from the clergy and follow the new Roman Catholic position of rule by their own cardinals rather than 
+taking direction from the Vatican. Despite nominally being a theocracy, the junta encourages some degree of religious 
+tolerance, especially in African regions with significant populations following Muslim or traditional practices. 
 Datï¿½orruà¤¶आtedा`,
-classification: 'Socionomics/Polities'
+classification: 'Socionomics/Federations'
     }],
     ['MemAmp', {
 content: `A MemAmp is a neural lace that improves precision and recall of memories in the user via amplification of the 
