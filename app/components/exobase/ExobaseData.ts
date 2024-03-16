@@ -624,9 +624,14 @@ Datï¿½orruà¤¶आtedा`,
     ['RDP', {
         content: `Paraguay, officially Refugio de Datos Paraguay and commonly known as the RDP, is a country and data 
 haven in South America. Traditionally the world's largest exporter of electric power due to its abundant 
-hydroelectricity, Paraguay began specialising in submersed computing data centers and has increasing built out 
-increasingly large data centers due to its geographic stability, abundance of cheap electricity and water, and extremely
-privacy friendly data laws.
+hydroelectricity, Paraguay began specialising in submersed computing data centers. It attracted a lot of business from
+surrounding countries during their boom periods, and over time built up a large number of fibre links to its neighbours
+as well as satellite infrastructure to service the global financial section. Its stable climate and geopolitics, 
+competitive compute pricing due to its abundance of cheap electricity and water, led to a economies of scale feedback 
+loop which encouraged building increasingly large submersed data centers. In an attempt to further grow this lucrative 
+sector, successive governments have passed strong user privacy laws and introduced extremely strict regulations against 
+unauthorized access to data, and eventually changed the official name of the country when its data havens accounted for 
+the vast majority of the economy.
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
