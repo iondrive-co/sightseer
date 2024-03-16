@@ -190,6 +190,27 @@ widespread availability of affordable [[Neurogenesis Treatment]]s as well as neu
 greatly reduced their usefulness for most people.`,
         classification: 'Infomatics/Synths'
     }],
+    ['Dominio', {
+content: `Dominio is a federation of theocratic West African and South American states, initially formed as a trade 
+alliance to more efficiently mine seabed resources in the South Atlantic and eventually evolving into a more tightly 
+integrated federation of military juntas in 181 BFC in the aftermath of the [[Khan Solar Storm]]. Its primary members 
+are Ufalme wa Nigeria, Ndongo, Brazil, Chile, Columbia, and Peru, as well as free trade zones in with the [[RDP]]] and 
+the Argentinian Mancomunidad. The majority religion of Dominio is new Roman Catholic, and senior junta 
+members are drawn from the clergy and follow the new Roman Catholic position of rule by their own cardinals rather than 
+taking direction from the Vatican. Despite nominally being a theocracy, the junta encourages some degree of religious 
+tolerance, especially in African regions with significant populations following Muslim or traditional practices. 
+Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Federations'
+    }],
+    ['RDP', {
+        content: `Paraguay, officially Refugio de Datos Paraguay and commonly known as the RDP, is a country and data 
+haven in South America. Traditionally the world's largest exporter of electric power due to its abundant 
+hydroelectricity, Paraguay began specialising in submersed computing data centers and has increasing built out 
+increasingly large data centers due to its geographic stability, abundance of cheap electricty and water, and extremely
+privacy friendly data laws.
+Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Federations'
+    }],
     ['Exobase', {
         content:
 `The Exobase is an [[Exonet]] hosted encyclopedic compendium, consisting of a small number of articles on notable 
@@ -618,18 +639,6 @@ and the formation of Greater Uzbekistan; the Trypanosomiasis crisis which destab
 America; and finally the formation of the Eurasian Bloc.
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Events'
-    }],
-    ['Dominio', {
-content: `Dominio is a federation of theocratic West African and South American states, initially formed as a trade 
-alliance to more efficiently mine seabed resources in the South Atlantic and eventually evolving into a more tightly 
-integrated federation of military juntas in 181 BFC in the aftermath of the [[Khan Solar Storm]]. Its primary members 
-are Ufalme wa Nigeria, Ndongo, Brazil, Chile, Columbia, and Peru, as well as free trade zones in with Refugio de Datos 
-Paraguay and the Argentinian Mancomunidad. The majority religion of Dominio is new Roman Catholic, and senior junta 
-members are drawn from the clergy and follow the new Roman Catholic position of rule by their own cardinals rather than 
-taking direction from the Vatican. Despite nominally being a theocracy, the junta encourages some degree of religious 
-tolerance, especially in African regions with significant populations following Muslim or traditional practices. 
-Datï¿½orruà¤¶आtedा`,
-classification: 'Socionomics/Federations'
     }],
     ['MemAmp', {
 content: `A MemAmp is a neural lace that improves precision and recall of memories in the user via amplification of the 
