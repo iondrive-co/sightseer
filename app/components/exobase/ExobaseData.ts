@@ -14,18 +14,23 @@ pronounced as 1-2-kwon.
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
+    ['Amazon', {
+        content: `
+Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Polities'
+    }],
     ['Ångström', {
         content: `Ångström (commonly known in Japan as Angusu) is a photonics conglomerate specialising in the 
 manufacture of [[Synthetic Intelligence]] produced two-photon polymerization designs. Named after the Swedish physicist 
-Anders Jonas Ångström, who developed the science of spectroscopy, the company is the largest supplier of photonic 
-crystals and waveguides used in the production of computer chips, as well as a major supplier of biomedical devices, 
+Anders Jonas Ångström who developed the science of spectroscopy, the company is the largest supplier of photonic 
+crystals and waveguides used in the production of computer chips, as well as a major supplier of biomedical devices 
 and of many high performance materials used in the aerospace sector. The companies headquarters are located in the
 Marunouchi district of Tokyo. 
 
 Ångström was initially a joint venture between photolithography giant ASML and the AI compute architecture design firm 
-ARM, which proved extremely successful in producing multiple generations of superior chips to rival Nvidia. The Japanese 
-Government Pension Investment Fund was also a large investor in the company, which it had acquired a large stake in as 
-part of the Japanese government bailout of Softbank which had seen it step it to prevent ARM being sold off to a foreign 
+ARM, which proved extremely successful in producing multiple generations of chips that were superior to its rival 
+Nvidia. The Japanese Government Pension Investment Fund was also a large investor in the company, which it had acquired 
+a significant stake in as part of the Japanese government bailout of Softbank to prevent ARM being sold off to a foreign 
 investor or nationalised by Great Britain.
 
 The [[Khan Solar Storm]] of 187 BFC crippled the capacity of both ASML and ARM to continue making chips, however the 
@@ -140,7 +145,7 @@ asteroid which had significant water reserves. After adjusting their plans the G
 in December 148.
 
 The first reported act of space piracy occurred on 12 April, 143 BFC, when an automated Lilium Solid Power shuttle 
-carrying many thousands of Amazon industrial robots to the outer asteroid belt disappeared near Cybele. At this time
+carrying many thousands of [[Amazon]] industrial robots to the outer asteroid belt disappeared near Cybele. At this time
 there were still almost no large scale radar or infrared tracking satellites in the belt, and many ships had failed and
 been abandoned, including several which had not transmitted a cause of failure. Because of the value of the cargo, 
 LSP had secretly invested in developing and installing a much higher power tighter beam transmitter for this shuttle, 
@@ -194,7 +199,7 @@ greatly reduced their usefulness for most people.`,
 content: `Dominio is a federation of theocratic West African and South American states, initially formed as a trade 
 alliance to more efficiently mine seabed resources in the South Atlantic and eventually evolving into a more tightly 
 integrated federation of military juntas in 181 BFC in the aftermath of the [[Khan Solar Storm]]. Its primary members 
-are Ufalme wa Nigeria, Ndongo, Brazil, Chile, Columbia, and Peru, as well as free trade zones in with the [[RDP]]] and 
+are Ufalme wa Nigeria, Ndongo, Brazil, Chile, Columbia, and Peru, as well as free trade zones in with the [[RDP]] and 
 the [[Argentinian Mancomunidad]]. The majority religion of Dominio is new Roman Catholic, and senior junta 
 members are drawn from the clergy and follow the new Roman Catholic position of rule by their own cardinals rather than 
 taking direction from the Vatican. Despite nominally being a theocracy, the junta encourages some degree of religious 
@@ -541,7 +546,7 @@ harder to avoid detection on the [[InterMesh]] even with cloaked tunnel and steg
 content: `The Infomatic Conglomerates are large corporate groups deriving a significant portion of their revenue from 
 infomatic product lines. The largest product lines by revenue are from [[Semiotican]] (industrial, mining, and 
 construction [[synths~Synthetic Intelligence]]), [[Sinogroup]] (network management; e-commerce, banking, and military 
-synths), Amazon (robot management, compute rental, healthcare optimisation), [[12Quan]] (quantum computer software) 
+synths), [[Amazon]] (robot management, compute rental, healthcare optimisation), [[12Quan]] (quantum computer software) 
 [[MetaFox]] (entertainment synths, virtual worlds), Pharmatica Group (computational biology), Micro-synth (business, 
 finance, and military synths; compute rental), [[X Group]] (navigation, propulsion management, and e-commerce synths), 
 [[Ångström]] (photonics), and [[Bioforge Hivegen]] (genetic engineering management).
@@ -624,15 +629,21 @@ Datï¿½orruà¤¶आtedा`,
     ['RDP', {
         content: `Paraguay, officially Refugio de Datos Paraguay and commonly known as the RDP, is a country and data 
 haven in South America. Traditionally the world's largest exporter of electric power due to its abundant 
-hydroelectricity, Paraguay began specialising in submersed computing data centers. It attracted a lot of business from
-surrounding countries during their boom periods, and over time built up a large number of fibre links to its neighbours
-as well as satellite infrastructure to service the global financial section. Its stable climate and geopolitics, 
-competitive compute pricing due to its abundance of cheap electricity and water, led to a economies of scale feedback 
-loop which encouraged building increasingly large submersed data centers. In an attempt to further grow this lucrative 
-sector, successive governments have passed strong user privacy laws and introduced extremely strict regulations against 
-unauthorized access to data, and eventually changed the official name of the country when its data havens accounted for 
-the vast majority of the economy.
-Datï¿½orruà¤¶आtedा`,
+hydroelectricity, Paraguay began specialising in submersed computing data centers during the vast increase of computing 
+requirements in the early [[Intermesh]] decades of the 170s and 160s. The economic booms in Brazil, Chile and Peru and 
+the increasing cryptocurrency and compute requirements for businesses in the [[Argentinian Mancomunidad]] were drivers
+of a lot of early data center development in this period along with a heavy investment from [[Amazon]], and over time a 
+large number of high capacity fibre links to to its neighbours were developed as well as satellite infrastructure to 
+better service the global financial sector. 
+
+Paraguay's stable climate and geopolitics, competitive compute pricing due to its abundance of cheap electricity and 
+water, led to a economies of scale feedback loop which encouraged building increasingly large submersed data centers. 
+With the increasing viability of building commercial fusion plants in the 140s the government of the time, determined
+to maintain this important sector of the economy, passed some of the world's strongest user privacy laws and introduced 
+extremely strict regulations against unauthorized access to data. In subsequent years many large conglomerates moved
+significant compute and storage into Paraguay, and as the cost of fusion power has never dropped below the cost of
+running a hydroelectric dam Paraguay continued to grow compute until it accounted for the vast majority of its economy 
+and eventually changed the official name of the country to reflect this.`,
         classification: 'Socionomics/Polities'
     }],
     ['Reset of Nations', {
