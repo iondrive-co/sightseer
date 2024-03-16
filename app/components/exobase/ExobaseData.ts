@@ -195,21 +195,16 @@ content: `Dominio is a federation of theocratic West African and South American 
 alliance to more efficiently mine seabed resources in the South Atlantic and eventually evolving into a more tightly 
 integrated federation of military juntas in 181 BFC in the aftermath of the [[Khan Solar Storm]]. Its primary members 
 are Ufalme wa Nigeria, Ndongo, Brazil, Chile, Columbia, and Peru, as well as free trade zones in with the [[RDP]]] and 
-the Argentinian Mancomunidad. The majority religion of Dominio is new Roman Catholic, and senior junta 
+the [[Argentinian Mancomunidad]]. The majority religion of Dominio is new Roman Catholic, and senior junta 
 members are drawn from the clergy and follow the new Roman Catholic position of rule by their own cardinals rather than 
 taking direction from the Vatican. Despite nominally being a theocracy, the junta encourages some degree of religious 
 tolerance, especially in African regions with significant populations following Muslim or traditional practices. 
 Datï¿½orruà¤¶आtedा`,
-        classification: 'Socionomics/Federations'
+        classification: 'Socionomics/Confederations'
     }],
-    ['RDP', {
-        content: `Paraguay, officially Refugio de Datos Paraguay and commonly known as the RDP, is a country and data 
-haven in South America. Traditionally the world's largest exporter of electric power due to its abundant 
-hydroelectricity, Paraguay began specialising in submersed computing data centers and has increasing built out 
-increasingly large data centers due to its geographic stability, abundance of cheap electricty and water, and extremely
-privacy friendly data laws.
-Datï¿½orruà¤¶आtedा`,
-        classification: 'Socionomics/Federations'
+    ['Argentinian Mancomunidad', {
+        content: `Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Polities'
     }],
     ['Exobase', {
         content:
@@ -623,6 +618,15 @@ classification: 'Socionomics/Events'
 Mediterranean Sea, Israel, and Egypt to the west, Alawite Syria and the Beqaa State to the North, North and South Iraq 
 to the East, and Saudi Arabia to the South. It was formed out of the territories of central Iraq, Lebanon, Syria, and 
 Jordan by Tariq Al-Hashim in the aftermath of the [[Reset of Nations]].
+Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Polities'
+    }],
+    ['RDP', {
+        content: `Paraguay, officially Refugio de Datos Paraguay and commonly known as the RDP, is a country and data 
+haven in South America. Traditionally the world's largest exporter of electric power due to its abundant 
+hydroelectricity, Paraguay began specialising in submersed computing data centers and has increasing built out 
+increasingly large data centers due to its geographic stability, abundance of cheap electricity and water, and extremely
+privacy friendly data laws.
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
