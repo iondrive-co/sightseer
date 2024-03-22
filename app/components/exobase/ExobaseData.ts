@@ -342,23 +342,23 @@ and containment possibilities against the observational data.
 
 # Societal Implications
 
-Many political parties used the event to advance, and in some cases pass, legislation on matters such as the ethical 
-treatment of animals, religious tolerance, promoting atheism, better direct communication systems between the larger 
-powers, higher defence spending, better sensor networks in the outer solar system, and a renewed focus on off Earth
-settlement. The majority of people in several large scale surveys at the time reported significantly weaker national 
-political affiliations, and where more favourable to legislation on larger scale issues such as global defence and large 
-scientific projects.
+There was widespread panic at the time of discovery until the ship was confirmed to have left, with several terrestrial 
+cities needing to deploy the military to control looting and keep essential services running. Many political parties 
+used the event to advance, and in some cases pass, legislation on matters such as the ethical treatment of animals, 
+religious tolerance, promoting atheism, better direct communication systems between the larger powers, higher defence 
+spending, better sensor networks in the outer solar system, and a renewed focus on off Earth settlement. The majority 
+of people in several large scale surveys at the time reported significantly weaker national political affiliations, and 
+were more favourable to legislation on larger scale issues such as global defence and large scientific projects.
  
 The subsequent years were a period of economic prosperity with a distinct cultural edge, with significant new trends in
 lifestyle and culture. The period was marked by a general feeling of novelty associated with modernity and a break with 
 tradition. There was a small decrease in those observing the three Abrahamic religions, and a larger increase in 
 people declaring themselves as atheists in census data. There was also a marked decrease in both local conflicts and
 in violent crimes. Several new inter-faction political entities such as the [[Outer Trading League]] were formed 
-during this period, and there was a large increase in migration from Earth to the Lunar and Martian colonies. As a 
-result of the widespread effects on society, a proposal for a replacement to the Gregorian calender system, denoting 
-the year of contact as 0 AFC (After First Contact) and prior years as BFC (Before First Contact) eventually gained 
-enough support to became a certified standard. Over time it gained in popularity and the FC calender is now the most 
-common calendar in use system-wide.`,
+during this period, and there was a large increase in migration from Earth to the Lunar and Martian colonies. An 
+informal system of referring to the year of contact as 0 AFC (After First Contact) and prior years as BFC (Before First 
+Contact) developed in popular culture, and over the next decade became so commonplace that it has mostly replaced the
+Gregorian calender system in daily life system-wide.`,
         classification: 'Socionomics/Events'
     }],
     ['Fatimid Trade Caliphate', {
@@ -547,9 +547,9 @@ content: `The Infomatic Conglomerates are large corporate groups deriving a sign
 infomatic product lines. The largest product lines by revenue are from [[Semiotican]] (industrial, mining, and 
 construction [[synths~Synthetic Intelligence]]), [[Sinogroup]] (network management; e-commerce, banking, and military 
 synths), [[Amazon]] (robot management, compute rental, healthcare optimisation), [[12Quan]] (quantum computer software) 
-[[MetaFox]] (entertainment synths, virtual worlds), Pharmatica Group (computational biology), Micro-synth (business, 
-finance, and military synths; compute rental), [[X Group]] (navigation, propulsion management, and e-commerce synths), 
-[[Ångström]] (photonics), and [[Bioforge Hivegen]] (genetic engineering management).
+[[MetaFox]] (entertainment synths, virtual worlds), Pharmatica Group (computational biology), [[Microsynth]] (business, 
+finance, law-enforcement, and military synths; compute rental), [[X Group]] (navigation, propulsion management, and 
+e-commerce synths), [[Ångström]] (photonics), and [[Bioforge Hivegen]] (genetic engineering management).
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
@@ -677,6 +677,15 @@ and in the application of antitrust laws to competitors.
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
+    ['Microsynth', {
+        content: `Microsynth is a [[United States]] [[synth~Synthetic Intelligence]] company headquartered in Redmond, 
+Washington. It produces synths specialised for business, finance, law-enforcement, and military uses, as well as 
+compute rental. It has been the world's largest supplier of synths to the military and law enforcement since its 
+acquisition of Palantir in 91 BFC, and the growth of non-government spending in those areas along with increasing 
+diversification of business and finance synth roles on the [[Intermesh]] has made that its most profitable business line.
+Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Polities'
+    }],
     ['Neurogenesis Treatment', {
         content:
 `Datï¿½orruà¤¶आtedा`,
@@ -777,7 +786,10 @@ scaling-up a Muon atmospheric mining process it was using to supply the vast pow
     }],
     ['Sinogroup', {
         content: `Sinogroup is a [[Greater Zhōngguó]] owned infomatic conglomerate producing network management, 
-e-commerce, banking, and military synths. It is headquartered in the Nanshan District of Shenzhen. Datï¿½orruà¤¶आtedा`,
+e-commerce, banking, and military synths. It is headquartered in the Nanshan District of Shenzhen. It does not report
+domestic revenue, but its military and law enforcement divisions are wildly profitable in the [[Dominio]] countries 
+and outer system navies and colonies, areas in constant crisis and with little competition from [[Mircosynth]]. 
+Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
     ['Synthetic Control Measures', {
