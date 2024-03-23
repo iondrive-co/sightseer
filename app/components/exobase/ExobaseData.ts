@@ -42,6 +42,13 @@ foundries to produce a vertically integrated chip company, in exchange for foldi
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
+    ['Antiakrasics', {
+        content: `Antiakrasics, commonly known as AAKs, are a class of drugs that provide a profound and prolonged 
+improvement to attention and executive functions, and are typically used as cognitive performance enhancers. AAKs were
+initially developed by [[Pharmatica Group]] and their Cognifirm brand is their most profitable medication and the most
+widely sold medication system wide.`,
+        classification: 'Praxis/Medicine'
+    }],
     ['Antimatter Engine', {
         content:
 `Antimatter engines are a class of propulsion technology that make use of the energy released during the annihilation of 
@@ -547,9 +554,9 @@ content: `The Infomatic Conglomerates are large corporate groups deriving a sign
 infomatic product lines. The largest product lines by revenue are from [[Semiotican]] (industrial, mining, and 
 construction [[synths~Synthetic Intelligence]]), [[Sinogroup]] (network management; e-commerce, banking, and military 
 synths), [[Amazon]] (robot management, compute rental, healthcare optimisation), [[12Quan]] (quantum computer software) 
-[[MetaFox]] (entertainment synths, virtual worlds), Pharmatica Group (computational biology), [[Microsynth]] (business, 
-finance, law-enforcement, and military synths; compute rental), [[X Group]] (navigation, propulsion management, and 
-e-commerce synths), [[Ångström]] (photonics), and [[Bioforge Hivegen]] (genetic engineering management).
+[[MetaFox]] (entertainment synths, virtual worlds), [[Pharmatica Group]] (computational biology), [[Microsynth]] 
+(business, finance, law-enforcement, and military synths; compute rental), [[X Group]] (navigation, propulsion 
+management, and e-commerce synths), [[Ångström]] (photonics), and [[Bioforge Hivegen]] (genetic engineering management).
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
@@ -626,6 +633,13 @@ Jordan by Tariq Al-Hashim in the aftermath of the [[Reset of Nations]].
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
+    ['Pharmatica Group', {
+        content: `Pharmatica Group is a bioinformatics and pharmaceutical conglomerate specialising in 
+[[synth~Synthetic Intelligence]] developed pharmaceutical products. It is the system's largest employer of computational 
+biologists and its [[Antiakrasic]] Cognifirm brand is the best selling medication and its most profitable product.
+Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Polities'
+    }],
     ['RDP', {
         content: `Paraguay, officially Refugio de Datos Paraguay and commonly known as the RDP, is a country and data 
 haven in South America. Traditionally the world's largest exporter of electric power due to its abundant 
@@ -682,7 +696,7 @@ Datï¿½orruà¤¶आtedा`,
 Washington. It produces synths specialised for business, finance, law-enforcement, and military uses, as well as 
 compute rental. It has been the world's largest supplier of synths to the military and law enforcement since its 
 acquisition of Palantir in 91 BFC, and the growth of non-government spending in those areas along with increasing 
-diversification of business and finance synth roles on the [[Intermesh]] has made that its most profitable business line.
+diversification of business and finance synth roles on the [[InterMesh]] has made that its most profitable business line.
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
@@ -788,7 +802,7 @@ scaling-up a Muon atmospheric mining process it was using to supply the vast pow
         content: `Sinogroup is a [[Greater Zhōngguó]] owned infomatic conglomerate producing network management, 
 e-commerce, banking, and military synths. It is headquartered in the Nanshan District of Shenzhen. It does not report
 domestic revenue, but its military and law enforcement divisions are wildly profitable in the [[Dominio]] countries 
-and outer system navies and colonies, areas in constant crisis and with little competition from [[Mircosynth]]. 
+and outer system navies and colonies, areas in constant crisis and with little competition from [[Microsynth]]. 
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
