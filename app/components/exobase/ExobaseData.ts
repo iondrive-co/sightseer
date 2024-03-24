@@ -44,9 +44,15 @@ Datï¿½orruà¤¶आtedा`,
     }],
     ['Antiakrasics', {
         content: `Antiakrasics, commonly known as AAKs, are a class of drugs that provide a profound and prolonged 
-improvement to attention and executive functions, and are typically used as cognitive performance enhancers. AAKs were
-initially developed by [[Pharmatica Group]] and their Cognifirm brand is their most profitable medication and the most
-widely sold medication system wide.`,
+improvement to motivation and executive functions, and are typically used as cognitive performance enhancers. AAKs were
+initially developed by [[Pharmatica Group]] and their Akrasinil brand is their most profitable medication and the most
+widely sold medication system wide. 
+
+Antiakrasics contain a thiazole ring and methy groups which selectively neurotransmitter systems to enhance focus and 
+limit extraneous thoughts. They also contain a benzene ring with an amine group and hydroxyl groups which mimics 
+neurotransmitters like dopamine and serotonin, allowing targeted receptor interaction, and an alkyl chain which aids in 
+crossing the blood-brain barrier. This structure enhances its ability to modulate glutamatergic neurotransmission and 
+increase prefrontal cortex activity.`,
         classification: 'Praxis/Medicine'
     }],
     ['Antimatter Engine', {
@@ -636,7 +642,8 @@ Datï¿½orruà¤¶आtedा`,
     ['Pharmatica Group', {
         content: `Pharmatica Group is a bioinformatics and pharmaceutical conglomerate specialising in 
 [[synth~Synthetic Intelligence]] developed pharmaceutical products. It is the system's largest employer of computational 
-biologists and its [[Antiakrasic]] Cognifirm brand is the best selling medication and its most profitable product.
+biologists and its [[Antiakrasic]] Akrasinil and its senolytic Renovacel have been respectively the number one and 
+number two best selling terrestrial pharmaceuticals since they were introduced.
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
