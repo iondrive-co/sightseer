@@ -48,7 +48,7 @@ improvement to motivation and executive functions, and are typically used as cog
 initially developed by [[Pharmatica Group]] and their Akrasinil brand is their most profitable medication and the most
 widely sold medication system wide. 
 
-Antiakrasics contain a thiazole ring and methy groups which selectively neurotransmitter systems to enhance focus and 
+Antiakrasics contain a thiazole ring and methy groups which selectively targets neurotransmitters to enhance focus and 
 limit extraneous thoughts. They also contain a benzene ring with an amine group and hydroxyl groups which mimics 
 neurotransmitters like dopamine and serotonin, allowing targeted receptor interaction, and an alkyl chain which aids in 
 crossing the blood-brain barrier. This structure enhances its ability to modulate glutamatergic neurotransmission and 
@@ -115,12 +115,16 @@ exorbitant cost of operating an antimatter engine.`,
         classification: 'Praxis/Energy'
     }],
     ['Bioforge Hivegen', {
-content: `Bioforge Hivegen is a multiplanetary genetic engineering conglomerate headquartered in Lausanne, Switzerland. 
-It is best known for its personalised medicine, agriculture, organic electronic, and cosmetic products. It was formed in 
-65 BFC when gene-therapy company Bioforge acquired Hivegen, the agricultural technology company famous for saving bees 
-from extinction, when Hivegen was fighting multiple legal battles, most notably for breeding and selling extinct animals 
-on stations outside of the jurisdiction of any animal welfare treaties.
-Datï¿½orruà¤¶आtedा`,
+content: `Bioforge Hivegen, often known as BioGen, is a multiplanetary genetic engineering conglomerate headquartered in 
+Lausanne, Switzerland. It is best known for its personalised medicine, agriculture, organic electronic, and cosmetic 
+products. It was formed in 61 BFC when gene-therapy company Bioforge acquired Hivegen, the agricultural technology 
+company famous for saving bees from extinction, when Hivegen was fighting multiple legal battles, most notably for 
+breeding and selling extinct animals on stations outside of the jurisdiction of any animal welfare treaties.
+
+It has divisions producing products in many parts of the bioeconomy including mRNA therapies where it competes with 
+[[Pharmatica Group]], but it dominates in CRISPR applications such as crop improvement, organ transplants, and tailored
+synthetic organisms. It also is the leading provider of direct reprogramming personalised medicine therapies, which are
+a more expensive alternative to Pharmatica's senolytic Renovacel.`,
         classification: 'Socionomics/Polities'
     }],
     ['Ceres Wave', {
@@ -643,8 +647,14 @@ Datï¿½orruà¤¶आtedा`,
         content: `Pharmatica Group is a bioinformatics and pharmaceutical conglomerate specialising in 
 [[synth~Synthetic Intelligence]] developed pharmaceutical products. It is the system's largest employer of computational 
 biologists and its [[Antiakrasic]] Akrasinil and its senolytic Renovacel have been respectively the number one and 
-number two best selling terrestrial pharmaceuticals since they were introduced.
-Datï¿½orruà¤¶आtedा`,
+number two best selling terrestrial pharmaceuticals since they were introduced. 
+
+The largest component of the conglomerate originated in European pharmaceutical giant Novo Nordisk's scaling out its
+semaglutide manufacture to meet the globally increasing year on year demand for them. Its cell free production lines
+were so effective that it was left with excess molecular farming capacity. While patent protected drugs remain its 
+largest revenue source to this day, over time it has begun to derive a significant portion of its revenue from 
+rental and APIs on top of its molecular farms. It also has a large division producing mRNA programming products, which
+was formed during its acquisition of AstraZeneca in 65 BFC and rename to Pharmatica Group.`,
         classification: 'Socionomics/Polities'
     }],
     ['RDP', {
