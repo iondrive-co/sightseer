@@ -123,8 +123,8 @@ breeding and selling extinct animals on stations outside of the jurisdiction of 
 
 It has divisions producing products in many parts of the bioeconomy including mRNA therapies where it competes with 
 [[Pharmatica Group]], but it dominates in CRISPR applications such as crop improvement, organ transplants, and tailored
-synthetic organisms. It also is the leading provider of direct reprogramming personalised medicine therapies, which are
-a more expensive alternative to Pharmatica's senolytic Renovacel.`,
+synthetic organisms. It also is the leading provider of partial cellular reprogramming personalised medicine therapies, 
+which are a more expensive alternative to Pharmatica's senolytic Renovacel.`,
         classification: 'Socionomics/Polities'
     }],
     ['Ceres Wave', {
@@ -651,9 +651,11 @@ number two best selling terrestrial pharmaceuticals since they were introduced.
 
 The largest component of the conglomerate originated in European pharmaceutical giant Novo Nordisk's scaling out its
 semaglutide manufacture to meet the globally increasing year on year demand for them. Its cell free production lines
-were so effective that it was left with excess molecular farming capacity. While patent protected drugs remain its 
-largest revenue source to this day, over time it has begun to derive a significant portion of its revenue from 
-rental and APIs on top of its molecular farms. It also has a large division producing mRNA programming products, which
+were so effective that it was left with excess molecular farming capacity. The advent of affordable powder bed drug
+printing lead to wide-spread drug piracy and over time greatly reduced the revenue from patent protected drugs, however
+they remain the highest margin physical good and still make up a significant portion of Pharmatica's revenue. To 
+compensate Pharmatica has invested significant resources into providing rental and APIs on top of its molecular farms,
+and this is now a significant revenue stream. It also has a large division producing mRNA programming products, which
 was formed during its acquisition of AstraZeneca in 65 BFC and rename to Pharmatica Group.`,
         classification: 'Socionomics/Polities'
     }],
