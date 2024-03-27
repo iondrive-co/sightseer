@@ -116,15 +116,17 @@ exorbitant cost of operating an antimatter engine.`,
     }],
     ['Bioforge Hivegen', {
 content: `Bioforge Hivegen, often known as BioGen, is a multiplanetary genetic engineering conglomerate headquartered in 
-Lausanne, Switzerland. It is best known for its personalised medicine, agriculture, organic electronic, and cosmetic 
-products. It was formed in 61 BFC when gene-therapy company Bioforge acquired Hivegen, the agricultural technology 
+Lausanne, Switzerland. It is best known for its [[synth~Synthetic Intelligence]] specialised in personalised medicine
+and  agricultural optimisation, as well as its organic electronic and cosmetic products. The current conglomerate was 
+formed in 61 BFC when gene-therapy company Bioforge acquired Hivegen, the agricultural technology 
 company famous for saving bees from extinction, when Hivegen was fighting multiple legal battles, most notably for 
 breeding and selling extinct animals on stations outside of the jurisdiction of any animal welfare treaties.
 
-It has divisions producing products in many parts of the bioeconomy including mRNA therapies where it competes with 
-[[Pharmatica Group]], but it dominates in CRISPR applications such as crop improvement, organ transplants, and tailored
-synthetic organisms. It also is the leading provider of partial cellular reprogramming personalised medicine therapies, 
-which are a more expensive alternative to Pharmatica's senolytic Renovacel.`,
+It has divisions producing products in many parts of the bio-economy including mRNA therapies where it competes with 
+[[Pharmatica Group]], but its largest revenue streams are from CRISPR editing applications such as crop improvement, 
+organ transplants, and tailored synthetic organisms. It also a is the leading provider of personalised medicine 
+therapies, with its partial cellular reprogramming product positioned as a more expensive alternative to Pharmatica's 
+senolytic Renovacel.`,
         classification: 'Socionomics/Polities'
     }],
     ['Ceres Wave', {
@@ -645,18 +647,21 @@ Datï¿½orruà¤¶आtedा`,
     }],
     ['Pharmatica Group', {
         content: `Pharmatica Group is a bioinformatics and pharmaceutical conglomerate specialising in 
-[[synth~Synthetic Intelligence]] developed pharmaceutical products. It is the system's largest employer of computational 
-biologists and its [[Antiakrasic]] Akrasinil and its senolytic Renovacel have been respectively the number one and 
-number two best selling terrestrial pharmaceuticals since they were introduced. 
+[[synth~Synthetic Intelligence]] developed pharmaceutical products and molecular production services. It is the system's 
+largest employer of computational biologists and produces the two best-selling pharmaceuticals, the [[Antiakrasic]] 
+Akrasinil and the senolytic Renovacel.
 
-The largest component of the conglomerate originated in European pharmaceutical giant Novo Nordisk's scaling out its
-semaglutide manufacture to meet the globally increasing year on year demand for them. Its cell free production lines
-were so effective that it was left with excess molecular farming capacity. The advent of affordable powder bed drug
-printing lead to wide-spread drug piracy and over time greatly reduced the revenue from patent protected drugs, however
-they remain the highest margin physical good and still make up a significant portion of Pharmatica's revenue. To 
-compensate Pharmatica has invested significant resources into providing rental and APIs on top of its molecular farms,
-and this is now a significant revenue stream. It also has a large division producing mRNA programming products, which
-was formed during its acquisition of AstraZeneca in 65 BFC and rename to Pharmatica Group.`,
+Pharmatica originated with European pharmaceutical giant Novo Nordisk's issues scaling out its semaglutide manufacture 
+to meet the continually increasing global demand for them. The solution, cell free synthesis production lines, were so 
+effective that Pharmatica was left with excess molecular farming capacity. At the same time the advent of affordable 
+powder bed drug printing was leading to to wide-spread drug piracy and over time reducing the revenue from patent 
+protected drugs (although they remain the highest margin physical good and today still make up a significant portion of 
+Pharmatica's revenue). Pharmatica's response was to invest significant resources into providing rental and APIs on top 
+of its molecular farms, and over time this has become their largest revenue stream. 
+
+In 65 BFC, looking to break into the new market of tailored mRNA programming products which was being explored by
+several startups as well as the giant [[Bioforge Hivegen]], it acquired biotechnology giant AstraZeneca which had
+the most IP in this space, and as part of the merger the combined conglomerate was renamed to Pharmatica Group.`,
         classification: 'Socionomics/Polities'
     }],
     ['RDP', {
