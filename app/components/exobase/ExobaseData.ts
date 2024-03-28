@@ -408,8 +408,9 @@ Genkai, Japan after 12 years of planning and construction. Datï¿½orruà¤¶�
 replaced by [[Greater Zhōngguó]] in 98 BFC. It originated in a military and political alliance formed by the People's 
 Republic of China, Russia, and their respective off-Earth colonies, as well as North Korea and Myanmar, during the 
 events preceding the [[Ten-Day War]]. It broadened to include tight economic integration, with Russia shipping 
-increasingly large qunatities of food to China as global warming increased in exchange for machinery and electronics.
-Datï¿½orruà¤¶आtedा`,
+increasingly large quantities of food to China as global warming increased in exchange for machinery and electronics.
+There was also a large state sponsored migration of people from North Korea and Myanmar into demographically collapsing 
+Russia and to a lesser extent China.`,
         classification: 'Socionomics/Confederations'
     }],
     ['Greater Zhōngguó', {
@@ -827,7 +828,19 @@ scaling-up a Muon atmospheric mining process it was using to supply the vast pow
 e-commerce, banking, and military synths. It is headquartered in the Nanshan District of Shenzhen. It does not report
 domestic revenue, but its military and law enforcement divisions are wildly profitable in the [[Dominio]] countries 
 and outer system navies and colonies, areas in constant crisis and with little competition from [[Microsynth]]. 
-Datï¿½orruà¤¶आtedा`,
+
+During the power centralisation of the [[GPR]] era the big four state automobile manufactures were struggling to adapt
+to the demand for highly efficient vehicle fleets, unlike the vertically integrated Byd-Geely which had extremely 
+efficient lithium mining and battery management solutions and which was taking the majority of the domestic auto market. 
+The state council issued an administrative measure to create an advanced technology transportation company by merging
+a number of companies and divisions of state owned companies into a new conglomerate named Sinogroup. The included 
+companies were all of the state owned auto companies and LONGi Green Energy Technology, and parts of Semiconductor 
+Manufacturing International Corporation, Sinopec, China Railway Engineering Corporation, Industrial and Commercial 
+Bank of China, and Xiaomi Corporation. The intent was to kick-start a system of shared autonomous vehicles and private 
+vehicles piggybacking on public mass transit, along with payment systems, networking, and a stronger industrial base 
+capable of quick conversion to the production of military vehicles. In later years when Alibaba and JD.com were 
+nationalised they were also folded into the group along with their e-commerce operations, and by the time GZ was formed 
+it was a sprawling conglomerate with interests in many sectors of the economy.`,
         classification: 'Socionomics/Polities'
     }],
     ['Synthetic Control Measures', {
