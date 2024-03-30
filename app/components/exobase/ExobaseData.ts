@@ -662,7 +662,9 @@ of its molecular farms, and over time this has become their largest revenue stre
 
 In 65 BFC, looking to break into the new market of tailored mRNA programming products which was being explored by
 several startups as well as the giant [[Bioforge Hivegen]], it acquired biotechnology giant AstraZeneca which had
-the most IP in this space, and as part of the merger the combined conglomerate was renamed to Pharmatica Group.`,
+the most IP in this space, and as part of the merger the combined conglomerate was renamed to Pharmatica Group. During 
+the lifestyle neo-opiod wave of the 50s the groups SynthAntagon antagonist became a best seller, and addiction treatment
+pharmaceuticals continue to be a large source of revenue.`,
         classification: 'Socionomics/Polities'
     }],
     ['RDP', {
@@ -937,13 +939,14 @@ to what several historians have described as Res Publica Corporis Minimalis, the
 of its corporations.
 
 The storm began a nearly two century long period of isolation and abdication of many public affairs to corporations. A 
-notable exception was a much closer integration with Canada and Mexico in the first years after the storm due to on-shoring 
-supply chains, this then resulted in much closer political and terrestrial military co-operation as well as a number of 
-colonies founded as corporate joint ventures. It has also maintained close ties to its traditional allies Great Britain, 
-Australia, and Israel; and largely as a result they have remained non-aligned with any of the large confederations 
-outside of the Peacekeepers. Although becoming more involved in system wide affairs through the Peacekeepers in in the 
-last century BFC, the US government has only recently emerged as an active international political force in its own 
-right after the [[First Contact Event]].`,
+notable exception was a much closer integration with the remaining independent Canadian provinces as well as Gran 
+México and Estado Libre de Sinaloa in the first years after the storm, due to a rapid increase in on-shoring supply 
+chains. This then resulted in much closer political and terrestrial military co-operation as well as a lunar colony
+founded a joint venture between several US and Mexican aerospace corporations. Throughout this period the US also 
+maintained close ties to its traditional allies Great Britain, Australia, and Israel; and largely as a result they have 
+remained non-aligned with any of the large confederations outside of the Peacekeepers. Although becoming more involved 
+in system wide affairs through the Peacekeepers in in the last century BFC, the US government has only recently emerged 
+as an active international political force in its own right after the [[First Contact Event]].`,
 classification: 'Socionomics/Polities'
     }],
     ['X Group', {
