@@ -219,10 +219,14 @@ content: `Dominio is a federation of theocratic West African and South American 
 alliance to more efficiently mine seabed resources in the South Atlantic and eventually evolving into a more tightly 
 integrated federation of military juntas in 181 BFC in the aftermath of the [[Khan Solar Storm]]. Its primary members 
 are Ufalme wa Nigeria, Ndongo, Brazil, Chile, Columbia, and Peru, as well as free trade zones in with the [[RDP]] and 
-the [[Argentinian Mancomunidad]]. The majority religion of Dominio is new Roman Catholic, and senior junta 
-members are drawn from the clergy and follow the new Roman Catholic position of rule by their own cardinals rather than 
-taking direction from the Vatican. Despite nominally being a theocracy, the junta encourages some degree of religious 
-tolerance, especially in African regions with significant populations following Muslim or traditional practices. 
+the [[Argentinian Mancomunidad]]. Its significant trade partners are [[Gran México]], the [[Mazatlán Zona Franca]], the 
+Philippines, and the big 4 non-aligned African economies (Uganda, Democratic Republic of the Congo, Tanzania, and 
+Kenya).
+
+The majority religion of Dominio is new Roman Catholic, and senior junta members are drawn from the clergy and follow 
+the new Roman Catholic position of rule by their own cardinals rather than taking direction from the Vatican. Despite 
+nominally being a theocracy, the junta encourages some degree of religious tolerance, especially in African regions 
+with significant populations following Muslim or traditional practices. 
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
     }],
@@ -414,15 +418,16 @@ Russia and to a lesser extent China.`,
         classification: 'Socionomics/Confederations'
     }],
     ['Gran México', {
-        content: `Gran México is the 15th most populous terrestrial country, the world's 12th largest economy, and 
-major trading partner of the [[United States]].
-Datï¿½orruà¤¶आtedा By allowing the establishment of the Mazatlán Zona Franca semi autonomous region the government
+        content: `Gran México is the world's 15th most populous country, the 7th largest terrestrial economy, and 
+largest trading partner of the [[United States]]. Its name dates back to when the United Mexican States annexed the 
+failed states of Guatemala and the parts of Venezuela not seized by [[Dominio]].
+Datï¿½orruà¤¶आtedा By allowing the establishment of the [[Mazatlán Zona Franca]] semi-autonomous region the government
 greatly empowered the Sinaloa cartel, allowing it to undercut JNGC with economies of scale and slowly drive them
 out of business, which greatly reduced violence back to the historically low levels of the golden era of Sinaloa.`,
         classification: 'Socionomics/Polities'
     }],
     ['Greater Zhōngguó', {
-content:  `Greater Zhōngguó is a political entity which was formed in 98 BFC from the unification of the [[GPR]] with 
+content: `Greater Zhōngguó is a political entity which was formed in 98 BFC from the unification of the [[GPR]] with 
 the U.A.E, Ethiopia, Sudan, Djibouti, Indonesia, Greater Uzbekistan, Pakistan, and Papua New Guinea; as well as an 
 informal agreement with the [[Fatimid Trade Caliphate]] on spheres of influence. Despite having significantly less 
 industrial capacity than the [[Peacekeepers]] it fields a nearly equivalently size navy. Datï¿½orruà¤¶आtedा`,
@@ -652,6 +657,10 @@ Mediterranean Sea, Israel, and Egypt to the west, Alawite Syria and the Beqaa St
 to the East, and Saudi Arabia to the South. It was formed out of the territories of central Iraq, Lebanon, Syria, and 
 Jordan by Tariq Al-Hashim in the aftermath of the [[Reset of Nations]].
 Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Polities'
+    }],
+    ['Mazatlán Zona Franca', {
+        content: `Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
     ['Pharmatica Group', {
@@ -948,14 +957,14 @@ of its corporations.
 
 The storm began a nearly two century long period of isolation and abdication of many public affairs to corporations. A 
 notable exception was a much closer integration with the remaining independent Canadian provinces as well as [[Gran 
-México]] and the Mazatlán Zona Franca in the first years after the storm, due to a rapid increase in on-shoring supply 
-chains. This then resulted in much closer political and terrestrial military co-operation as well as a lunar colony
-founded as a joint venture between several US and Mexican aerospace corporations. Throughout this period the US also 
-maintained close ties to its traditional allies Great Britain, Australia, Israel, and the Philippines; and largely as a 
-result they have remained non-aligned with any of the large confederations outside of the Peacekeepers (although Gran 
-México and the Philippines have close ties to Roman Catholic [[Dominio]]). Although becoming more involved 
-in system wide affairs through the Peacekeepers in in the last century BFC, the US government has only recently emerged 
-as an active international political force in its own right after the [[First Contact Event]].`,
+México]] and the [[Mazatlán Zona Franca]] in the first years after the storm, due to a rapid increase in on-shoring 
+supply chains. This then resulted in much closer political and terrestrial military co-operation as well as a lunar 
+colonyfounded as a joint venture between several US and Mexican aerospace corporations. Throughout this period the US 
+also maintained close ties to its traditional allies Great Britain, Australia, Israel, and the Philippines; and largely 
+as a result they have remained non-aligned with any of the large confederations outside of the Peacekeepers (although 
+Gran México, Mazatlán Zona Franca, and the Philippines have close ties to Roman Catholic [[Dominio]]). Although 
+becoming more involved in system wide affairs through the Peacekeepers in in the last century BFC, the US government has 
+only recently emerged as an active international political force in its own right after the [[First Contact Event]].`,
 classification: 'Socionomics/Polities'
     }],
     ['X Group', {
