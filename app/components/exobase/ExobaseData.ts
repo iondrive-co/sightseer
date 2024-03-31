@@ -413,6 +413,14 @@ There was also a large state sponsored migration of people from North Korea and 
 Russia and to a lesser extent China.`,
         classification: 'Socionomics/Confederations'
     }],
+    ['Gran México', {
+        content: `Gran México is the 15th most populous terrestrial country, the world's 12th largest economy, and 
+major trading partner of the [[United States]].
+Datï¿½orruà¤¶आtedा By allowing the establishment of the Mazatlán Zona Franca semi autonomous region the government
+greatly empowered the Sinaloa cartel, allowing it to undercut JNGC with economies of scale and slowly drive them
+out of business, which greatly reduced violence back to the historically low levels of the golden era of Sinaloa.`,
+        classification: 'Socionomics/Polities'
+    }],
     ['Greater Zhōngguó', {
 content:  `Greater Zhōngguó is a political entity which was formed in 98 BFC from the unification of the [[GPR]] with 
 the U.A.E, Ethiopia, Sudan, Djibouti, Indonesia, Greater Uzbekistan, Pakistan, and Papua New Guinea; as well as an 
@@ -939,12 +947,13 @@ to what several historians have described as Res Publica Corporis Minimalis, the
 of its corporations.
 
 The storm began a nearly two century long period of isolation and abdication of many public affairs to corporations. A 
-notable exception was a much closer integration with the remaining independent Canadian provinces as well as Gran 
-México and Estado Libre de Sinaloa in the first years after the storm, due to a rapid increase in on-shoring supply 
+notable exception was a much closer integration with the remaining independent Canadian provinces as well as [[Gran 
+México]] and the Mazatlán Zona Franca in the first years after the storm, due to a rapid increase in on-shoring supply 
 chains. This then resulted in much closer political and terrestrial military co-operation as well as a lunar colony
-founded a joint venture between several US and Mexican aerospace corporations. Throughout this period the US also 
-maintained close ties to its traditional allies Great Britain, Australia, and Israel; and largely as a result they have 
-remained non-aligned with any of the large confederations outside of the Peacekeepers. Although becoming more involved 
+founded as a joint venture between several US and Mexican aerospace corporations. Throughout this period the US also 
+maintained close ties to its traditional allies Great Britain, Australia, Israel, and the Philippines; and largely as a 
+result they have remained non-aligned with any of the large confederations outside of the Peacekeepers (although Gran 
+México and the Philippines have close ties to Roman Catholic [[Dominio]]). Although becoming more involved 
 in system wide affairs through the Peacekeepers in in the last century BFC, the US government has only recently emerged 
 as an active international political force in its own right after the [[First Contact Event]].`,
 classification: 'Socionomics/Polities'
@@ -954,7 +963,7 @@ classification: 'Socionomics/Polities'
 formed out of SpaceX and X Power Systems by X Musk after the death of his father Elon, the eccentric trillionaire who 
 founded and maintained control of both companies until his death. Their highest revenue product lines are spacecraft and 
 satellite manufacture and launch services; off world power and water supply services; and navigation, propulsion 
-management, and e-commerce synths.
+management, and e-commerce [[synths~Synthetic Intelligence]].
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
