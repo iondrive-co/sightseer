@@ -30,6 +30,16 @@ export const sciFiMoviesData: Movie[] = [
         c: 7,
     },
     {
+        title: "Alita: Battle Angel",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/e/ee/Alita_Battle_Angel_%282019_poster%29.png",
+        summary: `Rodriguez high energy directorial style does justice to Yukito Kishiro's cyberpunk spectacle, with
+        the movie remaining engaging and confident throughout`,
+        e: 7,
+        a: 9,
+        n: 7,
+        c: 7,
+    },
+    {
         title: "Animatrix, The",
         thumbnail: "https://static.wikia.nocookie.net/toonami/images/8/82/Animatrix.jpg",
         summary: `Directed by some notable animators, The Animatrix was a slick way to add flavour to the Matrix 
@@ -234,6 +244,15 @@ export const sciFiMoviesData: Movie[] = [
         a: 10,
         n: 8,
         c: 7,
+    },
+    {
+        title: "Passengers",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/8/8e/Passengers_2016_film_poster.jpg",
+        summary: `A slick, enjoyable sci-fi rom-com carried by the main characters and special effects`,
+        e: 7,
+        a: 8,
+        n: 7,
+        c: 8,
     },
     {
         title: "Pandorum",
