@@ -20,6 +20,16 @@ export const sciFiMoviesData: Movie[] = [
         c: 7,
     },
     {
+        title: "Alien3",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/b/b9/Alien3_poster.jpg",
+        summary: `Fincher takes the Aliens franchise in a grimmer direction, building a grimy and claustrophobic visual 
+        language that ultimately works well despite all the compromises that were made in the direction of this movie`,
+        e: 6,
+        a: 8,
+        n: 9,
+        c: 6,
+    },
+    {
         title: "Aliens",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/f/fb/Aliens_poster.jpg",
         summary: `A textbook sequel which takes the essence of the first and pivots to a larger action movie while 
@@ -121,6 +131,16 @@ export const sciFiMoviesData: Movie[] = [
         a: 7,
         n: 10,
         c: 8,
+    },
+    {
+        title: "Dune (2021)",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/8/8e/Dune_%282021_film%29.jpg",
+        summary: `Leaning into the colonial allegories from the source a bit more than the Lynch version works well in 
+        creating an engaging and atmospheric adaptation that is well paced and entertaining throughout`,
+        e: 8,
+        a: 9,
+        n: 7,
+        c: 6,
     },
     {
         title: "Event Horizon",
