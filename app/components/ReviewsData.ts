@@ -10,6 +10,16 @@ export interface Movie {
 
 export const sciFiMoviesData: Movie[] = [
     {
+        title: "A.I. Artificial Intelligence",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/e/e6/AI_Poster.jpg",
+        summary: `Spielberg's tribute to Kubrick is one of his best films and a great sci-fi, slick entertainment 
+        throughout and some great world building on top of some involving and melancholy moments`,
+        e: 8,
+        a: 8,
+        n: 6,
+        c: 7,
+    },
+    {
         title: "Alien",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/c/c3/Alien_movie_poster.jpg",
         summary: `Ridley Scott's slow-burning, atmospheric filmmaking melds a first-rate screenplay, Giger's art, and
@@ -324,6 +334,16 @@ export const sciFiMoviesData: Movie[] = [
         a: 10,
         n: 5,
         c: 7,
+    },
+    {
+        title: "WALL-E",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/4/4c/WALL-E_poster.jpg",
+        summary: `My favourite Pixar movie, Stanton's subtle screenplay turns what could have been a brain-dead kids
+        movie into a touching and intelligent sci-fi`,
+        e: 8,
+        a: 8,
+        n: 7,
+        c: 6,
     },
     {
         title: "War Of The Worlds (2005)",
