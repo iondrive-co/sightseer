@@ -356,4 +356,15 @@ export const sciFiMoviesData: Movie[] = [
         n: 9,
         c: 8,
     },
+    {
+        title: "Waterworld",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/5/5f/Waterworld.jpg",
+        summary: `Sure the characterisation is weak and the world building could have been more subtle, but the ascetic 
+        is top notch and every scene in this epic blockbuster is perfectly conceived and executed and they connect 
+        together into an intriguing and satisfying experience`,
+        e: 7,
+        a: 10,
+        n: 8,
+        c: 4,
+    },
 ];
