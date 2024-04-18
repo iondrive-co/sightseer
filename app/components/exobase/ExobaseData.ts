@@ -186,8 +186,8 @@ An emergency session of the U.N. security council voted 3 to 1 to demand an imme
 junta, having strong economic ties to the GPR and with a space force with no breaching capability, ruled out use 
 of force to retake the station. This was extremely unpopular domestically, however the junta effectively censored the 
 decision in local media and arrested protestors, which effectively stopped any further dissent. The U.S, which had 
-proposed the U.N. motion, publicly pushed for sanctions, and was later found to have secretly contracted the Constellis 
-group to began shipping drones and weapons to Lutetia.
+proposed the U.N. motion, publicly pushed for sanctions, and was later found to have secretly contracted the 
+[[Constellis Group]] to began shipping drones and weapons to Lutetia.
 
 The fait accompli situation, combined with lack of Dominio power and the logistical nightmare of any military 
 response, helped the GPR push for an advantageous diplomatic resolution. They proposed establishing a nominally 
@@ -214,6 +214,31 @@ widespread availability of affordable [[Neurogenesis Treatment]]s as well as neu
 greatly reduced their usefulness for most people.`,
         classification: 'Infomatics/Synths'
     }],
+    ['Constellis Group', {
+content:`Constellis Group are the system's largest private military contractor. Their headquarters are in Washington, 
+D.C., and they own and run White Sands Missile Range in New Mexico, the Panopticon Relay in Geostationary Orbit, and 
+Gateway Station Alpha in Near-rectilinear Halo Orbit.
+
+# Role in the [[Ten-Day War]]
+
+Constellis were contracted to escort supply ships constructing Fort Liberty at EM1 during the outbreak of hostilities.
+When the USNS Herrick came under fire from a privateer the two Constellis escort corvettes CS Drake and CS Thor 
+returned fire, crippling the ship and killing its crew. Constellis's largest ship, the cruiser CS Justice, was already 
+in a low-energy lunar transfer orbit and began a series of burns to join the Cruiser USS Unity, which was adjusting its 
+orbit to intercept Tianmen Station. The destruction of the Unity by the Russian missile carrier MRK Mirazh and the 
+commercial PRC drone cargo ship Tianzhou escalated the proxy war into a hot conflict and left the Justice isolated and 
+outnumbered with no nearby support. 
+
+Long range fast drones from the Tianzhou were launched to intercept the Justice as it was adjusting for a transfer back 
+to Earth, while the slower Mirazh started burning in pursuit. The Justice was able to shoot down several drones with 
+barrier missiles, however one drone was able to jink past its missile and launch a volley of self propelled explosives 
+before it was shot down by CIWS. Most of the explosives were also shot down, however parts of the hull and some external 
+antennas were destroyed. The Drake and the Thor were able to intercept a few hours later, and the Mirazh slowed its burn 
+and stalked the three ships for another day as they moved towards Earth. During this time no other ships from either 
+side were able to reach the combatants until the first US fleet came into range and forced the Mirzah to break away.`,
+        classification: 'Socionomics/Polities'
+    }],
+
     ['Dominio', {
 content: `Dominio is a federation of theocratic West African and South American states, initially formed as a trade 
 alliance to more efficiently mine seabed resources in the South Atlantic and eventually evolving into a more tightly 
@@ -924,10 +949,12 @@ interpret and react to their own internally simulated emotional states, closely 
         classification: 'Infomatics/Synths'
     }],
     ['Ten-Day War', {
-        content: `The Ten-Day War was a conflict between the [[United States]] and an alliance of the People's Republic of China, 
-Russia, North Korea over positioning at the EM1 Lagrange Point. It began with [[Intermesh]] industrial sabotage and 
-culminated in the Battle of the Apex which was the first large scale space battle. It directly resulted in the formation 
-of the [[GPR]] as a military and infomatic alliance, and led to major changes in military tactics. Datï¿½orruà¤¶आtedा`,
+        content: `The Ten-Day War was a conflict between the [[United States]] and an alliance of the People's Republic 
+of China, Russia, North Korea over positioning at the EM1 Lagrange Point. It began with [[Intermesh]] industrial 
+sabotage, stepped up as a proxy conflict between [[Constellis Group]] and African privateers, and culminated in the 
+Battle of the Apex which was the first large scale space battle. It directly resulted in the formation of the [[GPR]] 
+as a military and infomatic alliance, and led to major changes in military tactics. 
+Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Events'
     }],
     ['Türkiye', {
