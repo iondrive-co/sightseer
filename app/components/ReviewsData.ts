@@ -133,6 +133,16 @@ export const sciFiMoviesData: Movie[] = [
         c: 6,
     },
     {
+        title: "Contact",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/7/75/Contact_ver2.jpg",
+        summary: `A satisfying adaptation of Carl Sagan's novel which digs into the implications of first contact on 
+        science and faith`,
+        e: 8,
+        a: 6,
+        n: 7,
+        c: 8,
+    },
+    {
         title: "Donnie Darko",
         thumbnail: "https://www.themoviedb.org/t/p/w1280/3PiQIQzJX2oE8Uw6gjL08BXQRoB.jpg",
         summary: `A weird, soulful film that peels back an outer layer of teenage angst and superficial 80s suburbia to 

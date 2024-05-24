@@ -223,7 +223,8 @@ Gateway Station Alpha in Near-rectilinear Halo Orbit.
 
 Constellis were contracted to escort supply ships constructing Fort Liberty at EM1 during the outbreak of hostilities.
 When the USNS Herrick came under fire from a privateer the two Constellis escort corvettes CS Drake and CS Thor 
-returned fire, crippling the ship and killing its crew. Constellis's largest ship, the cruiser CS Justice, was already 
+returned fire, crippling the ship and killing its crew. Constellis's largest ship was the newly purchased CS Justice, 
+of similar size to a post-war cruiser although lacking longer range missiles. The Justice was already 
 in a low-energy lunar transfer orbit and began a series of burns to join the Cruiser USS Unity, which was adjusting its 
 orbit to intercept Tianmen Station. The destruction of the Unity by the Russian missile carrier MRK Mirazh and the 
 commercial PRC drone cargo ship Tianzhou escalated the proxy war into a hot conflict and left the Justice isolated and 
