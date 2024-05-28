@@ -244,6 +244,16 @@ export const sciFiMoviesData: Movie[] = [
         c: 6,
     },
     {
+        title: "Looper",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/0/0a/Looper_poster.jpg",
+        summary: `This time travel movie features a clever and surprisingly internally consistent plot, as well as 
+        likeable characters and (ignoring the time travel) glimpses of a solidly believable future`,
+        e: 7,
+        a: 6,
+        n: 9,
+        c: 7,
+    },
+    {
         title: "Martian, The",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/c/cd/The_Martian_film_poster.jpg",
         summary: `Andy Weir's upbeat, funny protagonist of science Mark Watney is a perfect fit for Matt Damon, and
@@ -376,5 +386,15 @@ export const sciFiMoviesData: Movie[] = [
         a: 10,
         n: 8,
         c: 4,
+    },
+    {
+        title: "World War Z",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/d/dc/World_War_Z_poster.jpg",
+        summary: `This tense and visually stunning zombie movie sneaks enough science into its slower third act to 
+        consider it a sci-fi, and for the rest is a enjoyable and smart series of fast paced action set pieces`,
+        e: 6,
+        a: 9,
+        n: 7,
+        c: 7,
     },
 ];
