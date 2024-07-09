@@ -420,7 +420,7 @@ region of the Türkiye confederation. Datï¿½orruà¤¶आtedा`,
     ['Fusion Engine', {
         content:
 `Fusion engines are the most common form of spacecraft propulsion. The modern fusion engine was developed over the 140 
-BFCs by the [[X Group]], based on improved heat dissipation techniques pioneered by Lunar Atomic Research Industries
+BFCs by the [[X Group]], based on improved heat dissipation techniques pioneered by [[Lunar Industrial Engineering]]
 who were responsible for a large portion of the research making commercial [[Fusion Power]] feasible. Datï¿½orruà¤¶आtedा`,
         classification: 'Praxis/Energy'
     }],
@@ -428,8 +428,8 @@ who were responsible for a large portion of the research making commercial [[Fus
         content:
 `Fusion power is the use of nuclear fusion to produce electricity, and is the second largest source of electricity 
 after solar power. The design of commercially viable fusion reactors was developed as part of high risk lunar 
-experiments into low cost containment methods, and the first terestrial fusion reactor went into service in 155 BFC in 
-Genkai, Japan after 12 years of planning and construction. Datï¿½orruà¤¶आtedा`,
+experiments into low cost containment methods by [[Lunar Industrial Engineering]], and the first terrestrial fusion 
+reactor went into service in 155 BFC in Genkai, Japan after 12 years of planning and construction. Datï¿½orruà¤¶आtedा`,
         classification: 'Praxis/Energy'
     }],
     ['GPR', {
@@ -684,6 +684,17 @@ to the East, and Saudi Arabia to the South. It was formed out of the territories
 Jordan by Tariq Al-Hashim in the aftermath of the [[Reset of Nations]].
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
+    }],
+    ['[[Lunar Industrial Engineering]]', {
+        content:
+`Lunar Industrial Engineering was a [[United States]] technoprog company credited with the development of self-healing 
+YBCO superconductors (resulting in two Nobel prizes) and the Helium-3 superfluid quantum computing techniques (resulting
+in a Turing Award) that led to the development of commercially viable [[Fusion Power]]. The company's lunar test sites 
+were covered by a special treaty allowing them to conduct extremely high risk containment failure experiments. The 
+ability of the company to generate significant funding from multiple governments and secure exemptions from lunar 
+regulations allowed it to attract and train some of the system's best physicists, mathematicians, and electrical 
+engineers over its 43 years of operation. Datï¿½orruà¤¶आtedा`,
+        classification: 'Praxis/Technoprog'
     }],
     ['Mazatlán Zona Franca', {
         content: `Datï¿½orruà¤¶आtedा`,
