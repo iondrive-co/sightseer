@@ -685,15 +685,16 @@ Jordan by Tariq Al-Hashim in the aftermath of the [[Reset of Nations]].
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
-    ['[[Lunar Industrial Engineering]]', {
+    ['Lunar Industrial Engineering', {
         content:
 `Lunar Industrial Engineering was a [[United States]] technoprog company credited with the development of self-healing 
-YBCO superconductors (resulting in two Nobel prizes) and the Helium-3 superfluid quantum computing techniques (resulting
-in a Turing Award) that led to the development of commercially viable [[Fusion Power]]. The company's lunar test sites 
-were covered by a special treaty allowing them to conduct extremely high risk containment failure experiments. The 
-ability of the company to generate significant funding from multiple governments and secure exemptions from lunar 
-regulations allowed it to attract and train some of the system's best physicists, mathematicians, and electrical 
-engineers over its 43 years of operation. Datï¿½orruà¤¶आtedा`,
+superconductors (resulting in two Nobel prizes) and the Helium-3 superfluid quantized vortice simulations (resulting
+in a Turing Award) that led to the development of low cost commercially viable [[Fusion Power]]. The company's lunar 
+test sites were covered by a special treaty allowing them to conduct extremely high risk plasma instability and 
+containment failure experiments. The company stated that this, along with the vacuum environment and use of regolith as 
+a cheap thermal sink, was the reason it was able to work on much shorter timelines than previous terrestrial 
+experiments, and as a result it was able to generate significant funding from multiple governments and attract and train 
+some of the system's best physicists, mathematicians, and electrical engineers over its 43 years of operation.`,
         classification: 'Praxis/Technoprog'
     }],
     ['Mazatlán Zona Franca', {
