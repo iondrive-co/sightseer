@@ -163,6 +163,15 @@ export const sciFiMoviesData: Movie[] = [
         c: 6,
     },
     {
+        title: "Edge Of Tomorrow",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/f/f9/Edge_of_Tomorrow_Poster.jpg",
+        summary: `Beautifully shot action packed movie with a great high concept, characters are a bit of a let down but have their moments`,
+        e: 7,
+        a: 8,
+        n: 8,
+        c: 6,
+    },
+    {
         title: "Event Horizon",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/8/8c/Event_horizon_ver1.jpg",
         summary: `This well paced sci-fi horror works well as an enjoyable late-night popcorn flick`,
