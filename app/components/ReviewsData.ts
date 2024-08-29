@@ -30,6 +30,16 @@ export const sciFiMoviesData: Movie[] = [
         c: 7,
     },
     {
+        title: "Alien: Romulus",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/c/cb/Alien_Romulus_2024_%28poster%29.jpg",
+        summary: `An excellently made and worthy neo-sequel to Alien, while in many places it lacks originality it 
+        does deliver a believable extension to the world building and claustrophobic atmosphere of the original`,
+        e: 7,
+        a: 9,
+        n: 7,
+        c: 6,
+    },
+    {
         title: "Alien3",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/b/b9/Alien3_poster.jpg",
         summary: `Fincher takes the Aliens franchise in a grimmer direction, building a grimy and claustrophobic visual 
@@ -344,6 +354,15 @@ export const sciFiMoviesData: Movie[] = [
         c: 8,
     },
     {
+        title: "Sputnik",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/a/a9/Sputnik_%282020%29_poster.jpg",
+        summary: `A punchy, back-to-basics Russian sci-fi that injects some introspection and novelty into a well worn formula`,
+        e: 7,
+        a: 7,
+        n: 8,
+        c: 7,
+    },
+    {
         title: "Strange Days",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/0/0c/Strangedays.jpeg",
         summary: `Kathryn Bigelow's underrated cyberpunk noir is a whirlwind drive through the last days of the 20th
@@ -362,6 +381,15 @@ export const sciFiMoviesData: Movie[] = [
         e: 8,
         a: 10,
         n: 5,
+        c: 7,
+    },
+    {
+        title: "Upgrade",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/2/24/UpgradePoster.jpg",
+        summary: `Fast paced, grimy cyberpunk flick featuring some interesting tech without delving too much into the implications`,
+        e: 8,
+        a: 7,
+        n: 7,
         c: 7,
     },
     {
