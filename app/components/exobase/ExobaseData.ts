@@ -317,6 +317,20 @@ Providers (ISPs) which use them to peer with InterMesh networks in other locatio
 in off-planet locations such as ships and stations that have ad-hoc InterMesh with no ISP presence.`,
         classification: 'Infomatics/Networks'
     }],
+    ['Fabricator', {
+        content:
+`A Fabricator is a device which constructs three-dimensional objects by layering materials such as plastic, metal, 
+biological matter, or composites, following a digital design. They vary in size, scale, and precision, and are used for 
+applications ranging from small consumer goods to large structures, advanced medical tissues, food, and nanotechnology.
+Simple residential consumer good fabricators for producing replacement parts for appliances, clothing, hobby activities, 
+and tools are widespread and can be used without monitoring, and many higher income residences have monitored 
+bioprinters for custom meals. Complex printing, electronics, medical, and bulk food production are more efficiently
+done in centralised locations, and require more extensive monitoring, so are performed by industrial machines and
+typically delivered by drone in most advanced economies. The Chandler Agreements of the 70s require all signatories to
+monitor for unauthorized fabrication, typically via smart dust, and many existential risk charities have funded regional 
+rollouts of denser smart dust in under-served areas to mitigate the danger of missing any fabrication.`,
+        classification: 'Praxis/Industrial'
+    }],
     ['First Contact Event', {
         content:
 `The First Contact Event refers to the discovery and subsequent observations of an extraterrestrial spacecraft, likely 
