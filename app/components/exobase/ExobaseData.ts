@@ -319,16 +319,19 @@ in off-planet locations such as ships and stations that have ad-hoc InterMesh wi
     }],
     ['Fabricator', {
         content:
-`A Fabricator is a device which constructs three-dimensional objects by layering materials such as plastic, metal, 
-biological matter, or composites, following a digital design. They vary in size, scale, and precision, and are used for 
-applications ranging from small consumer goods to large structures, advanced medical tissues, food, and nanotechnology.
-Simple residential consumer good fabricators for producing replacement parts for appliances, clothing, hobby activities, 
-and tools are widespread and can be used without monitoring, and many higher income residences have monitored 
-bioprinters for custom meals. Complex printing, electronics, medical, and bulk food production are more efficiently
-done in centralised locations, and require more extensive monitoring, so are performed by industrial machines and
-typically delivered by drone in most advanced economies. The Chandler Agreements of the 70s require all signatories to
-monitor for unauthorized fabrication, typically via smart dust, and many existential risk charities have funded regional 
-rollouts of denser smart dust in under-served areas to mitigate the danger of missing any fabrication.`,
+`Fabricators (or fabs) turn digital designs into three-dimensional objects by layering materials such as plastic, metal, 
+biological matter, or composites. They vary in size, scale, and precision, and are used to produce a range of physical
+consumer and industrial goods such as electronics, housing, medical tissues and devices, vehicles, clothing, and food.
+
+Simple consumer good fabricators for producing replacement parts for appliances, clothing, hobby activities, 
+and tools are found in the majority of residences and can be used without registered monitoring, unlike food biofabs 
+which are as a consequence much more rarely individually owned. More complex goods, electronics, medical, and bulk food 
+production are almost all produced and monitored in more efficient centralised locations by larger industrial fabs and 
+delivered by drone. 
+
+The Chandler-Kapoor Agreements of the 70s require all signatories to monitor for unauthorized fabrication. Many 
+existential risk charities have funded additional regional rollouts of denser distributions of [[Mote]]s in under-served 
+areas to mitigate the danger of missing any fabrication.`,
         classification: 'Praxis/Industrial'
     }],
     ['First Contact Event', {
@@ -640,11 +643,12 @@ and many links use higher bandwidth mediums. The routing protocol is similarly f
 almost exclusively via the Ad-hoc On-Demand Hyperplane Vector (AOHV) protocol due to the highly mobile data paths that 
 are common in most IM networks.
 
-In the BFC 70s the ability to affordably print basic smart dust InterMesh relays from home devices caused a several 
-order of magnitude increase in the connection density in many urban centers. In the subsequent decades the falling cost 
-and increasing capabilities of smart dust made large amounts of computing power available across large swathes of Earth 
-as well as many of the colonies. As a result [[Infocom Agent]]s start to be able to perform tasks such as run complex 
-simulations, train models to solve issues, and provide AR and other complex entertainment from most locations on Earth.
+In the BFC 70s the ability to affordably [[fab~Fabricator]] basic [[Mote]] InterMesh relays from home devices caused a 
+several order of magnitude increase in the connection density in many urban centers. In the subsequent decades the 
+falling cost and increasing capabilities of [[Mote]]s made large amounts of computing power available across large 
+swathes of Earth as well as many of the colonies. As a result [[Infocom Agent]]s start to be able to perform tasks such 
+as run complex simulations, train models to solve issues, and provide AR and other complex entertainment from most 
+locations on Earth.
 
 The InterMesh is the default network for the super-majority of communicating devices, and is the default communication
 medium for most of humanity. One of its most popular functions is social networking, mostly via neural augmentations,
@@ -710,6 +714,15 @@ a cheap thermal sink, was the reason it was able to work on much shorter timelin
 experiments, and as a result it was able to generate significant funding from multiple governments and attract and train 
 some of the system's best physicists, mathematicians, and electrical engineers over its 43 years of operation.`,
         classification: 'Praxis/Technoprog'
+    }],
+    ['Mote', {
+        content:
+`Motes, or smart dust, are floating sub-millimeter electronics devices equipped with sensors and connected to the 
+[[Intermesh]]. Research into smart dust had received large amounts of funding from the start of the final century BFC 
+due to the need to monitor for unauthorized [[Fabrication]], but the first design capable of widespread deployment was 
+not developed until the 70s due to better energy scavenging circuity which was developed out of the quantum chemical 
+breakthroughs of the previous decade.`,
+        classification: 'Praxis/Industrial'
     }],
     ['Mazatlán Zona Franca', {
         content: `Datï¿½orruà¤¶आtedा`,
@@ -843,7 +856,7 @@ giant Reiser3D and the Mitsubishi group, and its largest revenue sources are fro
 industrial, mining, and construction sectors. Since its founding in 153 BFC it has made a number of acquisitions of 
 companies in mining technology and infomatics and managed to take advantage of many new growth opportunities, notably 
 mining S-class asteroids during the [[Ceres Wave]], better integration of [[synths~Synthetic Intelligence]] across 
-supply chains, smart dust monitoring, and most recently Muon-catalyzed fusion.
+supply chains, industrial monitoring [[Mote]]s, and most recently Muon-catalyzed fusion.
  
 # History
 
@@ -887,7 +900,7 @@ diminished. It found itself transitioning from a market leader to a component su
 Semiotican remained focussed on optimising its mining operations, and began spinning off products such as selling synths 
 developed for managing new mine construction into the construction sector, and selling logistics and shipping synths to
 shipping companies. Its monitoring synths were also useful in many industrial and chemical processing factories, and 
-its development of smart dust monitoring in the 70s brought another huge boost to revenue. 
+its development of industrial monitoring [[Mote]]s in the 70s brought another huge boost to revenue. 
 
 Intended as a strategic mining and resupply base, construction of the automated Jovian mining aerostat fleet commenced 
 in 23 BFC and has been expanded multiple times. Semiotican has recently started expanding into energy generation by 
