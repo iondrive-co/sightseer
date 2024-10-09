@@ -123,7 +123,7 @@ company famous for saving bees from extinction, when Hivegen was fighting multip
 breeding and selling extinct animals on stations outside of the jurisdiction of any animal welfare treaties.
 
 It has divisions producing products in many parts of the bio-economy including mRNA therapies where it competes with 
-[[Pharmatica Group]], but its largest revenue streams are from CRISPR editing applications such as crop improvement, 
+[[Pharmatica Group]] but its largest revenue streams are from CRISPR editing applications such as crop improvement, 
 organ transplants, and tailored synthetic organisms. It also a is the leading provider of personalised medicine 
 therapies, with its partial cellular reprogramming product positioned as a more expensive alternative to Pharmatica's 
 senolytic Renovacel.`,
@@ -622,10 +622,11 @@ harder to avoid detection on the [[InterMesh]] even with cloaked tunnel and steg
 content: `The Infomatic Conglomerates are large corporate groups deriving a significant portion of their revenue from 
 infomatic product lines. The largest product lines by revenue are from [[Semiotican]] (industrial, mining, and 
 construction [[synths~Synthetic Intelligence]]), [[Sinogroup]] (network management; e-commerce, banking, and military 
-synths), [[Amazon]] (robot management, compute rental, healthcare optimisation), [[12Quan]] (quantum computer software) 
-[[MetaFox]] (entertainment synths, virtual worlds), [[Pharmatica Group]] (computational biology), [[Microsynth]] 
-(business, finance, law-enforcement, and military synths; compute rental), [[X Group]] (navigation, propulsion 
-management, and e-commerce synths), [[Ångström]] (photonics), and [[Bioforge Hivegen]] (genetic engineering management).
+synths), [[Amazon]] (robot management, compute rental, healthcare optimisation, pharmaceutical royalties), 
+[[12Quan]] (quantum computer software), [[MetaFox]] (entertainment synths, virtual worlds), 
+[[Pharmatica Group]] (computational biology), [[Microsynth]] (business, finance, law-enforcement, and military synths; 
+compute rental), [[X Group]] (navigation, propulsion management, and e-commerce synths), [[Ångström]] (photonics), 
+and [[Bioforge Hivegen]] (genetic engineering management).
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
@@ -718,8 +719,8 @@ some of the system's best physicists, mathematicians, and electrical engineers o
     ['Mote', {
         content:
 `Motes, or smart dust, are floating sub-millimeter electronics devices equipped with sensors and connected to the 
-[[Intermesh]]. Research into smart dust had received large amounts of funding from the start of the final century BFC 
-due to the need to monitor for unauthorized [[Fabrication]], but the first design capable of widespread deployment was 
+[[InterMesh]]. Research into smart dust had received large amounts of funding from the start of the final century BFC 
+due to the need to monitor for unauthorized [[fabs~Fabricator]], but the first design capable of widespread deployment was 
 not developed until the 70s due to better energy scavenging circuity which was developed out of the quantum chemical 
 breakthroughs of the previous decade.`,
         classification: 'Praxis/Industrial'
@@ -736,17 +737,22 @@ Akrasinil and the senolytic Renovacel.
 
 Pharmatica originated with European pharmaceutical giant Novo Nordisk's issues scaling out its semaglutide manufacture 
 to meet the continually increasing global demand for them. The solution, cell free synthesis production lines, were so 
-effective that Pharmatica was left with excess molecular farming capacity. At the same time the advent of affordable 
-powder bed drug printing was leading to to wide-spread drug piracy and over time reducing the revenue from patent 
-protected drugs (although they remain the highest margin physical good and today still make up a significant portion of 
-Pharmatica's revenue). Pharmatica's response was to invest significant resources into providing rental and APIs on top 
-of its molecular farms, and over time this has become their largest revenue stream. 
+effective that Pharmatica was left with excess molecular farming capacity. Pharmatica's response was to invest 
+significant resources into providing rental and APIs on top of its molecular farms, and over time this has become their 
+second largest revenue stream.
+
+At the same time the advent of affordable powder bed drug printing was leading to to wide-spread drug piracy and over 
+time reducing the revenue from direct sale of patent protected drugs (although they remain the highest margin physical 
+good and today direct sales still make up a significant portion of Pharmatica's revenue). To combat this Pharmatica 
+invested heavily in developing cell dynamic models from their internal datasets such as perturbation and genetic 
+interaction data in order to license drugs developed from them. Despite the heavy competition from [[Amazon]] in this 
+area, royalties from these drugs are now the companies biggest revenue source.
 
 In 65 BFC, looking to break into the new market of tailored mRNA programming products which was being explored by
 several startups as well as the giant [[Bioforge Hivegen]], it acquired biotechnology giant AstraZeneca which had
 the most IP in this space, and as part of the merger the combined conglomerate was renamed to Pharmatica Group. During 
 the lifestyle neo-opiod wave of the 50s the groups SynthAntagon antagonist became a best seller, and addiction treatment
-pharmaceuticals continue to be a large source of revenue.`,
+pharmaceuticals continue to be their single best selling product.`,
         classification: 'Socionomics/Polities'
     }],
     ['RDP', {
