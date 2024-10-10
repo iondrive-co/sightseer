@@ -132,11 +132,21 @@ senolytic Renovacel.`,
     ['Ceres Wave', {
         content:
 `The Ceres Wave (166 - 134 BFC) was the first large scale migration of people out of cislunar space, made possible by
-infrastructure developed by the early asteroid mining companies mining platinum from near Earth asteroids. It began in 
-168 BFC when Lunar Eagle falsified the amount of lithium in surveys of an M-class asteroid in order to secure additional 
-loans. Lithium was in huge demand due to a massive growth in battery usage, and was most desperately needed by the 
-[[Eurasian Bloc]] countries, which had exhausted their reserves and had no strategic partnerships with producers 
-[[Dominio]] or the [[GPR]].
+infrastructure developed by the early asteroid mining companies mining platinum from near Earth asteroids. A major
+contributing factor were the economic and geopolitical changes caused by the post-[[Khan~Khan Solar Storm]] baby boom.
+
+The development of commercially viable artificial wombs in the years prior to Khan had begun to increase birthrates in
+first years of the 180s across many advanced economies. After Khan, many new polities such as [[Dominio]] and [[GPR]] 
+began to heavily subsidise them as an attempt to leapfrog more advanced economies in the years ahead. Combined with the
+food abundance from engineered RuBisCO proteins, widespread availability of [[Synth~Synthetic Intelligence]] child care,
+and optimism from the recovery, the 180s and 170s were the largest baby in recorded history. In the 160s, the new 
+[[Eurasian Bloc]] was resurgent with young adults after a long period of demographic decline of its members, while the
+new polities became much more expansionist.
+
+The Ceres Wave is generally considered to have began in 168 BFC when Lunar Eagle falsified the amount of lithium in 
+surveys of an M-class asteroid in order to secure additional loans. Lithium was in huge demand due to a massive growth 
+in battery usage, and was most desperately needed by the Eurasian Bloc countries, which had exhausted their reserves 
+and had no strategic partnerships with producers Dominio or the GPR.
 
 The Eurasians started repurposing their automated mining operations in the belt to set up permanent crewed bases in an 
 attempt to take control of what was expected to be a vast supply of Lithium from other similar asteroids. To protect 
