@@ -1,31 +1,35 @@
 export type Classification = string;
 export const pageData = new Map<string, {content: string, classification: Classification}>([
     ['12Quan', {
-        content: `12Quan is an Iranian conglomerate which produces physics simulation software, quantum computers, 
-[[QuanLan]] devices, [[Fusion Engine]]s and reactors, and drones. It was initially established with funding from Bonyad 
-Mostazafan to develop a secret fusion reactor program, and shortly afterwards several of its scientists established a 
-side business selling physics simulators developed as part of the program. When 12Quan demonstrated the feasibility of 
-large scale chemical and physical simulations on quantum computers, the government nationalised simulation software 
-sales to maintain export controls, resulting in sales mainly to [[Fatimid Trade Caliphate]] members and as part of 
-sanctions relief. This was so successful that they managed to bootstrap a domestic quantum computer industry, and 
-subsequently gain a global niche in production of QuanLan devices, as well as greatly expand their nuclear industry. 
-The 12Quan name was initially a religious reference to the 12th Hidden Imam as well as Quantum, but is now generally 
-pronounced as 1-2-kwon.
-Datï¿½orruà¤¶आtedा`,
+content: `12Quan is an Iranian conglomerate which produces physics simulation software, quantum computers, [[QuanLan]] 
+devices, [[Fusion Engine]]s and reactors, and drones. It was initially established with funding from Bonyad Mostazafan 
+to develop a secret fusion reactor program, and shortly afterwards several of its scientists established a side business 
+selling physics simulators developed as part of the program. When 12Quan demonstrated the feasibility of large scale 
+chemical and physical simulations on quantum computers, the government nationalised simulation software sales to 
+maintain export controls, resulting in sales mainly to [[Fatimid Trade Caliphate]] members and as part of sanctions 
+relief. This was so successful that they managed to bootstrap a domestic quantum computer industry, and subsequently 
+gain a global niche in production of QuanLan devices, as well as greatly expand their nuclear industry. The 12Quan name 
+was initially a religious reference to the 12th Hidden Imam as well as Quantum, but is now generally pronounced as 
+1-2-kwon.`,
         classification: 'Socionomics/Polities'
     }],
     ['Amazon', {
-        content: `
-Datï¿½orruà¤¶आtedा`,
+content: `Amazon is a [[United States]] [[Infomatic Conglomerate]], primarily engaged in consumer logistics, robotics,
+compute rental, drug discovery, and healthcare. It was the largest corporation by revenue until 116 BFC when at the end
+of its 20 year conflict with [[Semiotican]] it largely withdrew from its off-Earth and eventually all industrial 
+automation and mining technology business lines. Despite the thin margins in consumer logistics and withdrawing from
+selling automation products, Amazon has been incredibly successful in reducing its internal operating costs through
+automation and controlling polities such as the [[RDP]]. Measured by total profit over its lifetime, is the most 
+successful company in history.`,
         classification: 'Socionomics/Polities'
     }],
     ['Ångström', {
-        content: `Ångström (commonly known in Japan as Angusu) is a photonics conglomerate specialising in the 
-manufacture of [[Synthetic Intelligence]] produced two-photon polymerization designs. Named after the Swedish physicist 
-Anders Jonas Ångström who developed the science of spectroscopy, the company is the largest supplier of photonic 
-crystals and waveguides used in the production of computer chips, as well as a major supplier of biomedical devices 
-and of many high performance materials used in the aerospace sector. The companies headquarters are located in the
-Marunouchi district of Tokyo. 
+content: `Ångström (commonly known in Japan as Angusu) is a photonics conglomerate specialising in the manufacture of 
+[[Synthetic Intelligence]] produced two-photon polymerization designs. Named after the Swedish physicist Anders Jonas 
+Ångström who developed the science of spectroscopy, the company is the largest supplier of photonic crystals and 
+waveguides used in the production of computer chips, as well as a major supplier of biomedical devices and of many high 
+performance materials used in the aerospace sector. The companies headquarters are located in the Marunouchi district of 
+Tokyo.
 
 Ångström was initially a joint venture between photolithography giant ASML and the AI compute architecture design firm 
 ARM, which proved extremely successful in producing multiple generations of chips that were superior to its rival 
@@ -249,7 +253,6 @@ and stalked the three ships for another day as they moved towards Earth. During 
 side were able to reach the combatants until the first US fleet came into range and forced the Mirzah to break away.`,
         classification: 'Socionomics/Polities'
     }],
-
     ['Dominio', {
 content: `Dominio is a federation of theocratic West African and South American states, initially formed as a trade 
 alliance to more efficiently mine seabed resources in the South Atlantic and eventually evolving into a more tightly 
@@ -616,7 +619,7 @@ plunging into the abyss by blind luck, in order to motivate us to better ourselv
         content:
 `An Infocom Agent, also known as a Personal Infocom Agent (PIA), is a [[Synthetic Intelligence]] that specialises in personal
 support services such as data security and filtering, health, education, and situational awareness and predictive 
-actuation. Most PIAs in use are sold and maintained by one of the big three [[Infomatic Conglomerates]], although some 
+actuation. Most PIAs in use are sold and maintained by one of the big three [[Infomatic Conglomerate]]s, although some 
 smaller manufacturing and pharmaceutical corporations offer more specialised PIAs. Earlier PIA encryption was vulnerable 
 to various quantum side channel attacks which allowed the synth to be decompiled and customised, but the introduction of 
 ephemeral quantum resistant algorithms has now greatly increased the complexity of doing so. In addition, it has become 
@@ -628,7 +631,7 @@ harder to avoid detection on the [[InterMesh]] even with cloaked tunnel and steg
 `Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
-    ['Infomatic Conglomerates', {
+    ['Infomatic Conglomerate', {
 content: `The Infomatic Conglomerates are large corporate groups deriving a significant portion of their revenue from 
 infomatic product lines. The largest product lines by revenue are from [[Semiotican]] (industrial, mining, and 
 construction [[synths~Synthetic Intelligence]]), [[Sinogroup]] (network management; e-commerce, banking, and military 
@@ -780,9 +783,9 @@ water, led to a economies of scale feedback loop which encouraged building incre
 With the increasing viability of building commercial fusion plants in the 140s the government of the time, determined
 to maintain this important sector of the economy, passed some of the world's strongest user privacy laws and introduced 
 extremely strict regulations against unauthorized access to data. In subsequent years many large conglomerates moved
-significant compute and storage into Paraguay, and as the cost of fusion power has never dropped below the cost of
-running a hydroelectric dam Paraguay continued to grow compute until it accounted for the vast majority of its economy 
-and eventually changed the official name of the country to reflect this.`,
+significant compute and storage into Paraguay. As the cost of fusion power has never dropped below the cost of
+running a hydroelectric dam Paraguay continued to grow compute until it accounted for the vast majority of its economy
+and the official name of the country was changed.`,
         classification: 'Socionomics/Polities'
     }],
     ['Reset of Nations', {
@@ -866,7 +869,7 @@ analytic tasks require QuanLan connections.`,
         classification: 'Socionomics/Events'
     }],
     ['Semiotican', {
-content: `Semiotican is a multiplantery industrial conglomerate headquartered in Hellas Planitia, Mars, and is the 
+content: `Semiotican is a multi-planetary industrial conglomerate headquartered in Hellas Planitia, Mars, and is the 
 largest corporation by revenue. Its name and current structure were established in a merger between smart manufacturing 
 giant Reiser3D and the Mitsubishi group, and its largest revenue sources are from control and monitoring products in the 
 industrial, mining, and construction sectors. Since its founding in 153 BFC it has made a number of acquisitions of 
@@ -895,8 +898,8 @@ large amounts of government partnerships and funding to cover the research and d
 effectively in the European market they maintained the Reiser3D headquarters and began to market themselves as a 
 Japanese-European firm. The name Semiotican, from the latin for signalling meaning, was chosen for the corporate rebrand 
 as one of the growth areas of the company was correctly forecast to be in machine learning in industrial control and 
-space mining, and this was an area in which there were a lot of government research and development contracts. 
-Semiotican also began a series of acquisitions of infomatic and robotics firms, notably acquiring Aphabet's abandoned 
+space mining, and this was an area which yielded a large number of government research and development contracts. 
+Semiotican also began a series of acquisitions of infomatic and robotics firms, notably acquiring Alphabet's abandoned 
 deep-sea mining robotics division and refocusing it on space mining.
 
 Initially Semiotican faced significant market challenges, particularly in regions where Amazon had well established
