@@ -17,10 +17,20 @@ was initially a religious reference to the 12th Hidden Imam as well as Quantum, 
 content: `Amazon is a [[United States]] [[Infomatic Conglomerate]], primarily engaged in consumer logistics, robotics,
 compute rental, drug discovery, and healthcare. It was the largest corporation by revenue until 116 BFC when at the end
 of its 20 year conflict with [[Semiotican]] it largely withdrew from its off-Earth and eventually all industrial 
-automation and mining technology business lines. Despite the thin margins in consumer logistics and withdrawing from
-selling automation products, Amazon has been incredibly successful in reducing its internal operating costs through
-automation and controlling polities such as the [[RDP]]. Measured by total profit over its lifetime, is the most 
-successful company in history.`,
+automation and mining technology business lines. Despite the thin margins in consumer logistics, Amazon has been 
+incredibly successful in reducing its internal operating costs through infomatics. Measured by total profit over its 
+lifetime, it is the most successful company in history.
+
+Initially known as an "e-commerce" company, Amazon has survived major technological and societal changes affecting its 
+business, often by embracing them. With cloud computing Amazon adopted a commoditize your complement strategy, driving 
+down the costs of undifferentiated compute by controlling polities such as the [[RDP]], which allowed them to more 
+effectively sell high margin differentiated compute products such as drug discovery. When the [[Intermesh]] began to 
+make real time physical indexing acceptable Amazon had the scale to develop vertically integrated universal content 
+recommendations that were difficult to compete with, and was also able to dramatically improve its consumer logistics
+and increase its home robotics sales as well. The long tail of cottage industries that grew from home [[Fabricator]]s 
+were a perfect fit for its growing automated marketplace, and their subscription and healthcare platforms were also 
+well positioned to fill the growing demand for rental of large items such as furniture and healthcare (although losing 
+out on automotive to the [[X Group]]).`,
         classification: 'Socionomics/Polities'
     }],
     ['Ångström', {
@@ -669,7 +679,8 @@ medium for most of humanity. One of its most popular functions is social network
 allowing users to share their thoughts, emotions, and experiences directly. Most users have their Infocom Agent
 set up a DataVeil to control access to their data on these networks. Another widely used feature is health monitoring,
 allowing internal nanoswarms to sync the latest treatment protocols, although many users disable this due to
-security and privacy concerns.`,
+security and privacy concerns. Much of the everyday human and industrial activity on Earth and to a lesser extent off 
+world is indexed and available for a small fee to the collector.`,
         classification: 'Infomatics/Networks'
     }],
     ['Khan Solar Storm', {
@@ -1045,7 +1056,7 @@ The storm began a nearly two century long period of isolation and abdication of 
 notable exception was a much closer integration with the remaining independent Canadian provinces as well as [[Gran 
 México]] and the [[Mazatlán Zona Franca]] in the first years after the storm, due to a rapid increase in on-shoring 
 supply chains. This then resulted in much closer political and terrestrial military co-operation as well as a lunar 
-colonyfounded as a joint venture between several US and Mexican aerospace corporations. Throughout this period the US 
+colony founded as a joint venture between several US and Mexican aerospace corporations. Throughout this period the US 
 also maintained close ties to its traditional allies Great Britain, Australia, Israel, and the Philippines; and largely 
 as a result they have remained non-aligned with any of the large confederations outside of the Peacekeepers (although 
 Gran México, Mazatlán Zona Franca, and the Philippines have close ties to Roman Catholic [[Dominio]]). Although 
