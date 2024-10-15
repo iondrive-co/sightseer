@@ -131,16 +131,27 @@ exorbitant cost of operating an antimatter engine.`,
     ['Bioforge Hivegen', {
 content: `Bioforge Hivegen, often known as BioGen, is a multiplanetary genetic engineering conglomerate headquartered in 
 Lausanne, Switzerland. It is best known for its [[synth~Synthetic Intelligence]] specialised in personalised medicine
-and  agricultural optimisation, as well as its organic electronic and cosmetic products. The current conglomerate was 
-formed in 61 BFC when gene-therapy company Bioforge acquired Hivegen, the agricultural technology 
-company famous for saving bees from extinction, when Hivegen was fighting multiple legal battles, most notably for 
-breeding and selling extinct animals on stations outside of the jurisdiction of any animal welfare treaties.
+and  agricultural optimisation, as well as its organic electronic and cosmetic products. It has divisions producing 
+products in many parts of the bio-economy including mRNA therapies where it competes with [[Pharmatica Group]], but its 
+largest revenue streams are from CRISPR editing applications such as crop improvement, organ transplants, and tailored 
+synthetic organisms. It also a is the leading provider of personalised medicine therapies, with its partial cellular 
+reprogramming product positioned as a more expensive alternative to Pharmatica's senolytic Renovacel.
 
-It has divisions producing products in many parts of the bio-economy including mRNA therapies where it competes with 
-[[Pharmatica Group]] but its largest revenue streams are from CRISPR editing applications such as crop improvement, 
-organ transplants, and tailored synthetic organisms. It also a is the leading provider of personalised medicine 
-therapies, with its partial cellular reprogramming product positioned as a more expensive alternative to Pharmatica's 
-senolytic Renovacel.`,
+Hivegen originated as a commercial spin off from an Australian Collaborative Research Center in food quality 
+optimization, with early products such as honey quality optimization and bio-fortified bananas. They achieved early
+success licensing their natural flavor engineering product lines, which used bio-engineered proteins to rebalance the 
+flavours of several popular foods, to food retailers. Hivegen's use of gene editing to produce more resilient bees with
+enhanced pollination capabilities is likely to have saved bees from extinction, and resulted in a Russ and Tyler Prize 
+for two of their scientists. The company is also notable for being the majority funder of the successful woolly mammoth 
+de-extinction project as a promotional initiative for their exotic lab grown meat and animal product lines.
+
+Bioforge was a German phytomining joint venture between BASF and Bayer CropScience that achieved success as a low cost
+method of extracting rare earth elements from otherwise marginal mining land. As they were developing a large amount of 
+valuable IP outside the core competencies of either company, such as many novel hyperaccumulator plant strains, and were
+starting to move into legally risky areas such as synthetic organisms and mRNA production platforms, an independent
+company was eventually created. Their success allowed them to control much of the [[Eurasian Bloc]] bio-regulation, 
+which helped them to acquire Hivegen in 61 BFC while it was fighting several battles with regulatory agencies over 
+breeding extinct animals on stations outside of the jurisdiction of animal welfare treaties.`,
         classification: 'Socionomics/Polities'
     }],
     ['Ceres Wave', {
