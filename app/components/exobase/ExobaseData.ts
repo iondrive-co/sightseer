@@ -324,13 +324,13 @@ meritocratic sortition, whereby a random selection of experts is drawn from the 
 drafting legislation. 
 
 The proposal for a new set of international treaties to replace the role the U.S. and NATO had played prior to Khan 
-was first made by Japanese Defense Minister Matsumoto Koji at the Lausanne Convention in 185 BFC. Due to the 2nd 
+was first made by Japanese Defense Minister [[Matsumoto Koji]] at the Lausanne Convention in 185 BFC. Due to the 2nd 
 Japanese Economic Miracle and integration into the economies of Bloc countries via its supply of AMSSTs Japan was able 
 to play a major role in the construction of the Bloc's political organisations, despite having less than 5% of the total 
 population of the Bloc countries. The merger of Japanese, European, Indian, and Chinese leadership culture has lead to 
 institutions that are highly engineering and environmentally focused, and which emphasise flexibility and practicality 
 in the development of policy and use of technology to deal with environmental and political crises. Datï¿½orruà¤¶आtedा`,
-            classification: 'Socionomics/Confederations'
+        classification: 'Socionomics/Confederations'
     }],
     ['Exonet',{
         content:
@@ -750,6 +750,31 @@ a cheap thermal sink, was the reason it was able to work on much shorter timelin
 experiments, and as a result it was able to generate significant funding from multiple governments and attract and train 
 some of the system's best physicists, mathematicians, and electrical engineers over its 43 years of operation.`,
         classification: 'Praxis/Technoprog'
+    }],
+    ['Matsumoto Koji', {
+content: `Matsumoto Koji (242 BFC – 97 BFC) is remembered as the architect of Japan’s post-[[Khan~Khan Solar Storm]] 
+rise to global influence. Born in the port of Mojiko, he was fascinated by its history of foreign trade during
+the industrialisation of the Meiji Period. Koji studied electrical engineering at the University of Tokyo, followed by a
+Master’s in International Governance and Diplomacy in Paris. While there he built many relationships in the European 
+diplomatic community, and he became an outspoken champion of developing a NATO style alliance in Japan. His first 
+posting as a power and infrastructure consultant in India while working for the Ministry of Foreign Affairs led to 
+connections with two of the worlds top Automated Modular Solid-State Transformers (AMSSTs) engineers. 
+
+Despite coming from a politically unconnected family, Koji was able to work his way into the political class through his 
+public engagement on the issue of a Japanese NATO, and through a university friendship with a future prime minister. 
+In 197 BFC he was appointed Vice-Minister for the Ministry of Economy, Trade, and Industry, where he was instrumental 
+in championing a crash program in Japan to develop and deploy AMSSTs to prepare against an EMP strike from the PRC. In 
+192 BFC he was elected and appointed as Minister of Economy, Trade and Industry, where he developed the free economic 
+zones that were an important driver of the 2nd Japanese Economic Miracle.
+
+During Khan, Koji's foresight in deploying AMSSTs left Japan as the only major power capable of aiding other nations, 
+and gave Koji the political capital to orchestrate a mass export of AMSSTs to Europe and India to aid in their recovery. 
+He was appointed to defense minister in 186 BFC. The AMSST rollout was instrumental in the result of the Lausanne 
+Convention in 185 BFC which Koji led, and this in turn laid the foundations for the [[Eurasian Bloc]] and the 
+integration of Japan into the Bloc's political organisations. Koji was appointed to two other cabinet positions, 
+Minister for Construction, and for a later government Minister for Foreign Affairs, before retiring from politics in 
+169 BFC as one of the longest tenured ministers in Japanese history.`,
+        classification: 'Socionomics/People'
     }],
     ['Mote', {
         content:
