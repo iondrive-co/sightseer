@@ -1,5 +1,7 @@
 .article-container {
     display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 .title {
@@ -15,6 +17,7 @@
     flex: 1;
     padding: 0 12%;
     white-space: pre-line;
+    overflow-y: auto;
 }
 
 h2 {
