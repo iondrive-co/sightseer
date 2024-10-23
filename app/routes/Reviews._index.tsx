@@ -5,16 +5,16 @@ import Sidebar from "~/components/Sidebar";
 import '~/styles/styles.css';
 import '~/styles/reviews.css';
 
-export let loader: LoaderFunction = async () => {
+export const loader: LoaderFunction = async () => {
     return json(sciFiMoviesData);
 };
 
 export default function Reviews() {
-    let movies: Movie[] = useLoaderData();
+    const movies: Movie[] = useLoaderData();
 
     // Group by score buckets
-    let movieGroups = movies.reduce((groups, movie) => {
-        let totalRating = movie.e + movie.a + movie.n + movie.c;
+    const movieGroups = movies.reduce((groups, movie) => {
+        const totalRating = movie.e + movie.a + movie.n + movie.c;
         let bucket: string;
 
         if (totalRating >= 33) {
@@ -35,7 +35,7 @@ export default function Reviews() {
         return groups;
     }, {} as { [key: string]: Movie[] });
 
-    let orderedBuckets = ["33+", "30+", "25+"];
+    const orderedBuckets = ["33+", "30+", "25+"];
 
     return (
         <div className="app">

@@ -10,3 +10,5 @@ wrangler.toml
 modules.xml
 sightseer.iml
 vcs.xml
+.env
+.wrangler

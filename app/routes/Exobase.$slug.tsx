@@ -3,7 +3,7 @@ import {useLoaderData, useLocation} from '@remix-run/react';
 import ExobaseArticle from '~/components/exobase/ExobaseArticle';
 import Sidebar from "~/components/Sidebar";
 
-export let loader = exobaseLoader;
+export const loader = exobaseLoader;
 type ArticleData = [string, {content: string, classification: string}];
 
 function ClassificationPage({ data, noSubcategory }: { data: Record<string, ArticleData[]>, noSubcategory: ArticleData[] }) {
@@ -45,7 +45,9 @@ function ClassificationPage({ data, noSubcategory }: { data: Record<string, Arti
 
 function Exobase() {
     const data = useLoaderData();
+    // @ts-expect-error data
     if (data.isClassification) {
+        // @ts-expect-error data
         return <ClassificationPage data={data.articles} noSubcategory={data.noSubcategory} />;
     } else {
         return <ExobaseArticle />;

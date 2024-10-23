@@ -15,6 +15,7 @@ function TitleAndBreadcrumbs() {
 
 function ExobaseArticle() {
     const location = useLocation();
+    // @ts-expect-error content, classification
     const { content, classification } = useLoaderData();
 
     return (

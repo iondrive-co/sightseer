@@ -2,7 +2,7 @@ import {useLoaderData} from '@remix-run/react';
 import Sidebar from "~/components/Sidebar";
 import {classificationOverviewLoader} from '~/components/exobase/ExobaseLoader';
 
-export let loader = classificationOverviewLoader;
+export const loader = classificationOverviewLoader;
 function Exobase() {
     const { classifications } = useLoaderData<{ classifications: string[] }>();
 

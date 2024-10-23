@@ -78,7 +78,7 @@ function ImageUploader() {
     }
   };
 
-  const handleTouchEnd = (e: React.TouchEvent<HTMLImageElement>) => {
+  const handleTouchEnd = () => {
     setDragging(false);
     if (selection.width === 0 && selection.height === 0) {
       setSelection({ x: 0, y: 0, width: 0, height: 0 });
@@ -217,14 +217,14 @@ function ImageUploader() {
     setDragging(false);
     // Attach the mouseleave and touchcancel event listeners
     if (imageRef.current) {
-      imageRef.current.addEventListener("mouseleave", handleMouseUp as any);
-      imageRef.current.addEventListener("touchcancel", handleTouchEnd as any);
+      imageRef.current.addEventListener("mouseleave", handleMouseUp as never);
+      imageRef.current.addEventListener("touchcancel", handleTouchEnd as never);
     }
     // Detach the mouseleave and touchcancel event listeners when the component unmounts or the image changes
     return () => {
       if (imageRef.current) {
-        imageRef.current.removeEventListener("mouseleave", handleMouseUp as any);
-        imageRef.current.removeEventListener("touchcancel", handleTouchEnd as any);
+        imageRef.current.removeEventListener("mouseleave", handleMouseUp as never);
+        imageRef.current.removeEventListener("touchcancel", handleTouchEnd as never);
       }
     };
   }, [currentImage]);
@@ -296,6 +296,7 @@ function ImageUploader() {
         </div>
         {images.length > 0 && (
             <div style={{ position: 'relative' }}>
+              {/* eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions */}
               <img
                   ref={imageRef}
                   src={images[currentImage]}

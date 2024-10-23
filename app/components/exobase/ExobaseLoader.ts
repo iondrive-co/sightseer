@@ -3,7 +3,7 @@ import {Classification, pageData} from '~/components/exobase/ExobaseData';
 
 type ArticleData = [string, {content: string, classification: Classification}];
 
-export let classificationOverviewLoader: LoaderFunction = async ({ params, request, context }) => {
+export const classificationOverviewLoader: LoaderFunction = async () => {
     const classifications = Array.from(pageData.values())
         .map(data => data.classification.split('/')[0]) // only use top-level classification
         .filter((value, index, self) => self.indexOf(value) === index); // remove duplicates
@@ -75,7 +75,11 @@ export const exobaseLoader: LoaderFunction = async ({ params, request, context }
         const finalHtml = `<ul>${finalContent}</ul>`;
 
         return json({ content: finalHtml, classification });
-    } catch (error) {
-        return json({ error: (error as any).message }, { status: 404 });
+    } catch (error: unknown) {
+        if (error instanceof Error) {
+            return json({ error: error.message }, { status: 404 });
+        } else {
+            return json({ error: "Unknown error occurred" }, { status: 404 });
+        }
     }
 };

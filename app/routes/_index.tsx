@@ -1,9 +1,9 @@
 import "../styles/styles.css";
 import "../styles/index.css";
 import Sidebar from "../components/Sidebar";
-import {V2_MetaFunction} from "@remix-run/react";
+import type { MetaFunction } from "@remix-run/cloudflare";
 
-export const meta: V2_MetaFunction = () => {
+export const meta: MetaFunction = () => {
   return [
     { title: "Iondrive" },
   ];
