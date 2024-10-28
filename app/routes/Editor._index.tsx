@@ -1,7 +1,7 @@
 import {ChangeEvent, MouseEvent, useEffect, useRef, useState} from "react";
 import FileSaver from 'file-saver';
 import Sidebar from "../components/Sidebar";
-import '../styles/editor.css';
+import '../styles/tailwind.css';
 
 function ImageUploader() {
   const imageRef = useRef<HTMLImageElement>(null);

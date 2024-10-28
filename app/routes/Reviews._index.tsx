@@ -2,8 +2,7 @@ import {json, LoaderFunction} from "@remix-run/cloudflare";
 import {useLoaderData} from "@remix-run/react";
 import {Movie, sciFiMoviesData} from "~/components/ReviewsData";
 import Sidebar from "~/components/Sidebar";
-import '~/styles/styles.css';
-import '~/styles/reviews.css';
+import '~/styles/tailwind.css';
 
 export const loader: LoaderFunction = async () => {
     return json(sciFiMoviesData);

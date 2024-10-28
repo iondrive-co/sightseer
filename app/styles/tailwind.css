@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply bg-white dark:bg-gray-950 m-0 p-0 h-screen w-screen overflow-hidden;
+  }
+}
+
+@layer components {
+  .app {
+    @apply flex h-screen w-screen overflow-hidden font-sans;
+  }
+
+  .sidebar {
+    @apply fixed left-0 top-0 h-full w-24
+    flex flex-col items-center justify-center
+    px-4 gap-8
+    bg-gray-100 dark:bg-gray-800;
+  }
+
+  .sidebar img {
+    @apply w-12 h-auto;
+  }
+
+  .sidebar a {
+    @apply text-gray-800 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400;
+  }
+
+  .index-content {
+    @apply ml-24 flex-1 flex flex-col justify-center px-8;
+  }
+
+  .email {
+    @apply text-xl font-bold mb-16 text-center;
+  }
+
+  .descriptions {
+    @apply space-y-8 text-lg;
+  }
+
+  .descriptions p {
+    @apply ml-4;
+  }
+
+  /* For Editor component */
+  .main-content {
+    @apply ml-24 flex-1 p-4;
+  }
+
+  /* For Reviews component */
+  .main-container {
+    @apply ml-24 flex-1 overflow-y-auto;
+  }
+
+  /* For Exobase component */
+  .article-container {
+    @apply ml-24 flex-1 p-4;
+  }
+
+  .article {
+    @apply flex-1 px-8;
+  }
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    @apply w-16;
+  }
+
+  .index-content, .main-content, .main-container, .article-container {
+    @apply ml-16;
+  }
+}
