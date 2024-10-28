@@ -1,5 +1,5 @@
 import {ChangeEvent, MouseEvent, useEffect, useRef, useState} from "react";
-import {saveAs} from 'file-saver';
+import FileSaver from 'file-saver';
 import Sidebar from "../components/Sidebar";
 import '../styles/editor.css';
 
@@ -174,7 +174,7 @@ function ImageUploader() {
       const realData = block[1].split(",")[1];
       const blob = b64toBlob(realData, contentType);
 
-      saveAs(blob, `cropped_image_${new Date().getTime()}.png`);
+      FileSaver.saveAs(blob, `cropped_image_${new Date().getTime()}.png`);
     }
   };
 
