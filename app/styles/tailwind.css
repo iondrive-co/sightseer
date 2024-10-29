@@ -45,17 +45,14 @@
     @apply ml-4;
   }
 
-  /* For Editor component */
   .main-content {
     @apply ml-24 flex-1 p-4;
   }
 
-  /* For Reviews component */
   .main-container {
     @apply ml-24 flex-1 overflow-y-auto;
   }
 
-  /* For Exobase component */
   .article-container {
     @apply ml-24 flex-1 p-4;
   }
@@ -65,12 +62,31 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .sidebar {
     @apply w-16;
   }
 
-  .index-content, .main-content, .main-container, .article-container {
+  .sidebar img {
+    @apply w-8;
+  }
+
+  .sidebar a {
+    @apply text-sm;
+  }
+
+  .email {
+    @apply text-lg mb-9;
+  }
+
+  .descriptions {
+    @apply space-y-6 text-sm;
+  }
+
+  .index-content,
+  .main-content,
+  .main-container,
+  .article-container {
     @apply ml-16;
   }
 }
