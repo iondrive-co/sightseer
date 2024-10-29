@@ -1,4 +1,4 @@
-import "../styles/tailwind.css";
+import "~/styles/tailwind.css";
 import Sidebar from "../components/Sidebar";
 import type { MetaFunction } from "@remix-run/cloudflare";
 
