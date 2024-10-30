@@ -2,7 +2,13 @@
   "version": 1,
   "include": ["/*"],
   "exclude": [],
-  "reroutes": {
-    "/assets/*": "/build/client/assets/*"
+  "headers": {
+    "/assets/*": {
+      "Content-Type": {
+        ".js": "application/javascript",
+        ".css": "text/css",
+        ".map": "application/json"
+      }
+    }
   }
 }
