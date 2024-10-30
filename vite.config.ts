@@ -26,11 +26,6 @@ export default defineConfig({
     tsconfigPaths(),
   ],
   build: {
-    outDir: "build/client",
-    rollupOptions: {
-      output: {
-        assetFileNames: 'assets/[name]-[hash][extname]'
-      },
-    },
+    outDir: "build/client"
   },
 });

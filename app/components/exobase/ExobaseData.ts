@@ -640,12 +640,13 @@ plunging into the abyss by blind luck, in order to motivate us to better ourselv
         content:
 `An Infocom Agent, more commonly known as a PIA (Personal Infocom Agent), is a [[Synthetic Intelligence]] that 
 specialises in personal support services such as data security and filtering, health, education, situational awareness, 
-and predictive modelling and actuation. Most PIAs in use are sold and maintained by [[Amazon]], [[Sinogroup]], and 
+and predictive modelling of user choices. Industrial models will also often include predictive actuation for things such 
+as exoskeletal control and hazard avoidance. Most PIAs in use are sold and maintained by [[Amazon]], [[Sinogroup]], and 
 [[Microsynth]], although many smaller companies sell specialised sub-agents such as [[Pharmatica Group]] (health 
 monitoring), [[MetaFox]] (entertainment recommendation), and [[X Group]] (auto-piloting).
 
 As most PIAs are constantly connected to the [[InterMesh]] (or other services like [[QuanLan]] or [[Exobase]]), have
-highly valuable personal data, and are expensive for a user to run, they are often subject to kidnap and reverse 
+highly valuable personal data, and are expensive for a user to run, they are often subject to kidnap or reverse 
 engineering attacks. Earlier PIA encryption was vulnerable to various quantum side channel attacks which allowed many 
 synths to be decompiled and customised, but the introduction of ephemeral quantum resistant algorithms has now greatly 
 increased the complexity of doing so. In addition, for custom models it has become harder to avoid corporate detection 
