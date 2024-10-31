@@ -11,14 +11,14 @@
     "start": "wrangler pages dev ./build/client",
     "typecheck": "tsc",
     "typegen": "wrangler types",
-    "preview": "npm run build && wrangler pages dev ./build/client",
+    "preview": "npm run build && wrangler pages dev",
     "cf-typegen": "wrangler types"
   },
   "dependencies": {
     "@remix-run/cloudflare": "^2.13.1",
     "@remix-run/cloudflare-pages": "^2.13.1",
-    "@remix-run/css-bundle": "^2.13.1",
     "@remix-run/react": "^2.13.1",
+    "create-cloudflare": "^2.30.1",
     "@types/file-saver": "^2.0.7",
     "file-saver": "^2.0.5",
     "isbot": "^4.1.0",

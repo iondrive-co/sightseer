@@ -1,14 +1,5 @@
 {
   "version": 1,
   "include": ["/*"],
-  "exclude": [],
-  "headers": {
-    "/assets/*": {
-      "Content-Type": {
-        ".js": "application/javascript",
-        ".css": "text/css",
-        ".map": "application/json"
-      }
-    }
-  }
+  "exclude": ["/favicon.ico", "/assets/*"]
 }

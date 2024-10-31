@@ -25,15 +25,4 @@ export default defineConfig({
     }),
     tsconfigPaths(),
   ],
-  build: {
-    outDir: "public/assets",
-    manifest: true,
-    rollupOptions: {
-      output: {
-        assetFileNames: '[name]-[hash][extname]',
-        chunkFileNames: '[name]-[hash].js',
-        entryFileNames: '[name]-[hash].js'
-      },
-    },
-  },
 });
