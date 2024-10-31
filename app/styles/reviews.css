@@ -1,0 +1,71 @@
+.description-container {
+    @apply p-4 text-gray-900 dark:text-gray-100;
+}
+
+.description-container p {
+    @apply text-sm md:text-base mb-4;
+}
+
+.container {
+    @apply flex flex-col gap-5 p-4;
+}
+
+.movie-bucket {
+    @apply flex flex-col gap-2.5 items-start;
+}
+
+.movie-bucket h1 {
+    @apply mx-2.5 my-0 text-gray-900 dark:text-gray-100;
+}
+
+.movie-wrapper {
+    @apply flex flex-row flex-wrap gap-2.5;
+}
+
+.movie {
+    @apply m-2.5 border border-gray-300 dark:border-gray-700
+    overflow-hidden relative
+    cursor-pointer
+    w-[100px] h-[150px]
+    transition-all duration-300 ease-in-out
+    hover:scale-[1.3] hover:z-10;
+}
+
+.movie img {
+    @apply w-[100px] h-[150px] block
+    object-cover
+    transition-all duration-300 ease-in-out;
+}
+
+.movie:hover img {
+    @apply opacity-30;
+}
+
+.movie .content {
+    @apply absolute inset-0 px-2
+    bg-black/75
+    text-white
+    translate-y-full
+    transition-transform duration-300 ease-in-out
+    flex flex-col text-left overflow-auto;
+}
+
+.movie:hover .content {
+    @apply translate-y-0;
+}
+
+.movie h2 {
+    @apply text-[0.7rem] m-0 mb-2.5;
+}
+
+.movie p {
+    @apply text-[0.6rem] m-0 mb-2.5;
+}
+
+.movie .rating {
+    @apply m-0 mb-2.5 text-[0.6rem];
+}
+
+.movie .rating-item {
+    @apply mr-1;
+}

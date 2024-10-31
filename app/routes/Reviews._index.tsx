@@ -3,6 +3,7 @@ import {useLoaderData} from "@remix-run/react";
 import {Movie, sciFiMoviesData} from "~/components/ReviewsData";
 import Sidebar from "~/components/Sidebar";
 import '~/styles/tailwind.css';
+import '~/styles/reviews.css';
 
 export const loader: LoaderFunction = async () => {
     return json(sciFiMoviesData);
@@ -52,8 +53,8 @@ export default function Reviews() {
                             <h1>{bucket}</h1>
                             <div className="movie-wrapper">
                                 {(movieGroups[bucket] || []).sort((a, b) => {
-                                    let totalRatingA = a.e + a.a + a.n + a.c;
-                                    let totalRatingB = b.e + b.a + b.n + b.c;
+                                    const totalRatingA = a.e + a.a + a.n + a.c;
+                                    const totalRatingB = b.e + b.a + b.n + b.c;
 
                                     return totalRatingB - totalRatingA; // sort in descending order
                                 }).map(movie => (
