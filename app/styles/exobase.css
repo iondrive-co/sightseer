@@ -7,11 +7,15 @@
 }
 
 .title h1 {
-    @apply capitalize;
+    @apply capitalize text-4xl font-bold mb-8;
 }
 
 .article {
     @apply flex-1 px-[12%] whitespace-pre-line overflow-y-auto;
+}
+
+.article > h1 {
+    @apply text-4xl font-bold mb-8;
 }
 
 h2 {
@@ -57,5 +61,10 @@ h2 {
 
     .article {
         @apply px-[1%];
+    }
+
+    .title h1,
+    .article > h1 {
+        @apply text-3xl;
     }
 }
