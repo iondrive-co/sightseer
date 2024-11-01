@@ -1,6 +1,8 @@
 import {useLoaderData} from '@remix-run/react';
 import Sidebar from "~/components/Sidebar";
 import {classificationOverviewLoader} from '~/components/exobase/ExobaseLoader';
+import '~/styles/tailwind.css';
+import '~/styles/exobase.css';
 
 export const loader = classificationOverviewLoader;
 function Exobase() {

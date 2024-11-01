@@ -2,6 +2,8 @@ import {exobaseLoader} from '~/components/exobase/ExobaseLoader';
 import {useLoaderData, useLocation} from '@remix-run/react';
 import ExobaseArticle from '~/components/exobase/ExobaseArticle';
 import Sidebar from "~/components/Sidebar";
+import '~/styles/tailwind.css';
+import '~/styles/exobase.css';
 
 export const loader = exobaseLoader;
 type ArticleData = [string, {content: string, classification: string}];

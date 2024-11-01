@@ -18,6 +18,10 @@
     @apply text-4xl font-bold mb-8;
 }
 
+.article > div > a {
+    @apply text-2xl block py-2;
+}
+
 h2 {
     @apply text-3xl font-semibold mt-6 mb-4;
 }
@@ -44,8 +48,13 @@ h2 {
     @apply text-blue-600 dark:text-blue-400 hover:underline;
 }
 
+.article > ul:last-of-type,
+.article > div:last-of-type > ul {
+    @apply mb-16;
+}
+
 .classification-section {
-    @apply text-xl mt-4;
+    @apply text-xl mt-4 -mb-12;
 }
 
 @media screen and (max-width: 1500px) {

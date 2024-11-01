@@ -1,7 +1,5 @@
 import {useLoaderData, useLocation} from '@remix-run/react';
 import Sidebar from '~/components/Sidebar';
-import '~/styles/tailwind.css';
-import '~/styles/exobase.css';
 
 function TitleAndBreadcrumbs() {
     const location = useLocation();
