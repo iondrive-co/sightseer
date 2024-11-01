@@ -1,0 +1,54 @@
+.article-container {
+    @apply flex h-screen;
+}
+
+.title {
+    @apply text-center pt-[8%];
+}
+
+.title h1 {
+    @apply capitalize;
+}
+
+.article {
+    @apply flex-1 px-[12%] whitespace-pre-line;
+}
+
+h2 {
+    @apply text-[1.4rem];
+}
+
+.article-text {
+    @apply text-2xl
+    overflow-x-auto overflow-y-auto
+    h-[75vh];
+}
+
+.classification-section {
+    @apply text-xl;
+}
+
+ul {
+    @apply list-inside pl-0;
+}
+
+/* Media queries */
+@media screen and (max-width: 1500px) {
+    .title {
+        @apply px-[4%];
+    }
+
+    .article {
+        @apply px-[6%];
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        @apply px-[1%];
+    }
+
+    .article {
+        @apply px-[1%];
+    }
+}
