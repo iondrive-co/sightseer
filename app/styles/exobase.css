@@ -19,13 +19,17 @@
 }
 
 h2 {
-    @apply text-[1.4rem] mt-4 mb-2;
+    @apply text-3xl font-semibold mt-6 mb-4;
 }
 
 .article-text {
     @apply text-2xl
     overflow-x-auto overflow-y-auto
     h-[75vh];
+}
+
+.article-text h2 {
+    @apply text-3xl font-semibold mt-6 mb-4;
 }
 
 .article ul {
@@ -66,5 +70,10 @@ h2 {
     .title h1,
     .article > h1 {
         @apply text-3xl;
+    }
+
+    h2,
+    .article-text h2 {
+        @apply text-2xl;
     }
 }
