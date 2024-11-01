@@ -1,0 +1,29 @@
+.action-bar {
+    @apply flex items-center mb-2.5;
+}
+
+.action-bar > * {
+    @apply mr-2.5;
+}
+
+.action-bar button {
+    @apply px-4 py-2
+    bg-gray-100 dark:bg-gray-700
+    text-gray-900 dark:text-gray-100
+    rounded-md border border-gray-300 dark:border-gray-600
+    hover:bg-gray-200 dark:hover:bg-gray-600
+    transition-colors duration-200
+    flex items-center justify-center;
+}
+
+.action-bar button:hover {
+    @apply shadow-sm;
+}
+
+.action-bar button:active {
+    @apply bg-gray-300 dark:bg-gray-800;
+}
+
+.action-bar button:disabled {
+    @apply opacity-50 cursor-not-allowed;
+}
