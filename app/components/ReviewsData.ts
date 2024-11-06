@@ -212,6 +212,16 @@ export const sciFiMoviesData: Movie[] = [
         c: 6,
     },
     {
+        title: "Fountain, The",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/e/ee/Fountain_poster_1.jpg",
+        summary: `A beautiful and ambitious movie about the quest for eternal life, the story is quite meandering and 
+        confusing but the visuals are spectacular`,
+        e: 8,
+        a: 8,
+        n: 5,
+        c: 7,
+    },
+    {
         title: "Gravity",
         thumbnail: "https://www.themoviedb.org/t/p/w1280/krQrQSNb0EXd5L0e2CkoU5V6XNq.jpg",
         summary: `Watching this sci-fi thriller in IMAX was wild, this movie is a completely engrossing white knuckle 
