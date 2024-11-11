@@ -1108,10 +1108,10 @@ only recently emerged as an active international political force in its own righ
 classification: 'Socionomics/Polities'
     }],
     ['X Group', {
-        content: `The X Group is a multiplanetary industrial conglomerate headquartered in Hellas Planitia, Mars. It was
-formed out of SpaceX and X-Power by X Musk after the death of his father Elon Musk, the eccentric trillionaire who 
-founded and maintained control of both companies until his death. Their highest revenue product lines are spacecraft and 
-satellite manufacture and launch services; off world power and water supply services; and navigation, propulsion 
+        content: `The X Group is a multiplanetary industrial conglomerate headquartered in Hellas Planitia, Mars. It 
+was formed out of SpaceX and X-Power by X Musk after the death of his father Elon Musk, the eccentric trillionaire who 
+founded and maintained control of both companies until his death. Their highest revenue product lines are spacecraft 
+and satellite manufacture and launch services; off world power and water supply services; and navigation, propulsion 
 management, and e-commerce [[synths~Synthetic Intelligence]].
 
 Global energy supply was the first of the hectotrillion dollar markets on Earth. The company Tesla was an automobile 
@@ -1121,10 +1121,10 @@ and in-orbit assembly markets. Their in-orbit assembly required giant space base
 many manufacturing plants that were able to produce ground based antenna for their telecommunications business, 
 Starlink. They were thus able to quickly scale up manufacture of rectenna to assist in post [[Khan~Khan Solar Storm]] 
 recovery, and the economies of scale from combining their orbital and ground based assembly businesses soon allowed 
-them to supply base load power at comparable cost to fusion. X-Power was made an independent company in 172 BFC, 
-although it continued to work in tandem with SpaceX on many projects such as laser ship pushing. Due to intense 
-competition from [[Semiotican]] in the orbital manufacturing market of the 100 BFCs, X Musk re-integrated X-Power into 
-the greater X Group in order to extract greater efficiencies from the business.`,
+them to supply base load power at comparable cost to fission based nuclear power. X-Power was made an independent 
+company in 172 BFC, although it continued to work in tandem with SpaceX on many projects such as laser ship pushing. 
+Due to intense competition from [[Semiotican]] in the orbital manufacturing market of the 100 BFCs, X Musk re-integrated 
+X-Power into the greater X Group in order to extract greater efficiencies from the business.`,
         classification: 'Socionomics/Polities'
     }],
 ]);

@@ -10,6 +10,16 @@ export interface Movie {
 
 export const sciFiMoviesData: Movie[] = [
     {
+        title: "12 Monkeys",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/c/cf/Twelve_monkeysmp.jpg",
+        summary: `Gilliam's style is present in every shot, but unlike Brazil this is sci-fi has a suspenseful and 
+        driven narrative that keeps you hooked until the end`,
+        e: 7,
+        a: 7,
+        n: 8,
+        c: 6,
+    },
+    {
         title: "A.I. Artificial Intelligence",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/e/e6/AI_Poster.jpg",
         summary: `Spielberg's tribute to Kubrick is one of his best films and a great sci-fi, slick entertainment 
@@ -219,6 +229,17 @@ export const sciFiMoviesData: Movie[] = [
         e: 8,
         a: 8,
         n: 5,
+        c: 7,
+    },
+    {
+        title: "Gattaca",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/d/de/Gattaca_poster.jpg",
+        summary: `This exploration of the consequences of designer babies is A grade classic science fiction, the 
+        setting is a bit uninspired but the brilliant high concept and decent characters pull everything together well 
+        enough`,
+        e: 9,
+        a: 5,
+        n: 7,
         c: 7,
     },
     {
