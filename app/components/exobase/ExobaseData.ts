@@ -1063,11 +1063,50 @@ interpret and react to their own internally simulated emotional states, closely 
     }],
     ['Ten-Day War', {
         content: `The Ten-Day War was a conflict between the [[United States]] and an alliance of the People's Republic 
-of China, Russia, North Korea over positioning at the EM1 Lagrange Point. It began with [[Intermesh]] industrial 
-sabotage, stepped up as a proxy conflict between [[Constellis Group]] and African privateers, and culminated in the 
+of China (PRC), Russia, North Korea over positioning at the EM1 Lagrange Point. It began with [[Intermesh]] industrial 
+sabotage, stepped up as a proxy conflict between [[Constellis Group]] and [[Dominio]] privateers, and culminated in the 
 Battle of the Apex which was the first large scale space battle. It directly resulted in the formation of the [[GPR]] 
-as a military and infomatic alliance, and led to major changes in military tactics. 
-Datï¿½orruà¤¶आtedा`,
+as a military and infomatic alliance, and led to fleets comprised of more smaller faster ships and major changes to 
+debris generation and avoidance tactics.
+
+In February 176, the United States began construction of Fort Liberty at EM1. A smaller non-military station had been 
+built by the US in 179, and the PRC, with Russian assistance, had finished construction of their Tianmen station at EM1 
+the next year. Fort Liberty was perceived by the PRC to be a great threat, due to its shipyard and long range missile
+systems, and Dominio privateers were engaged to disrupt construction supplies being shipped from orbit. In response
+the US heavily funded Constellis ship construction. By 174 BFC Constellis corvettes were escorting all supply ships and
+had had a number of skirmishes with privateers. Both the US and PRC fleets remained in orbit or lunar transfers, as did 
+the Constellis largest ship, the newly purchased CS Justice, of similar size to a post-war cruiser although lacking 
+longer range missiles. North Korea did not have any non-orbital military space assets, but engaged in multiple remote
+sabotage attempts on US orbital construction facilities.
+
+On the 19th March 176, with the station nearing completion, the US sent the first of its fleet, the Cruiser USS Unity,
+on a Freedom of Navigation exercise to Fort Liberty. In response, on the 23rd March, USNS Herrick came under fire from 
+a privateer. Its two Constellis escort corvettes CS Drake and CS Thor returned fire, crippling the ship and killing its 
+crew, making it the first ship destroyed in space combat. The Justice was already in a low-energy lunar transfer orbit 
+and began a series of burns to join the Cruiser USS Unity, which was adjusting its orbit to intercept Tianmen Station. 
+The destruction of the Unity by the Russian missile carrier MRK Mirazh and the commercial PRC drone cargo ship Tianzhou 
+escalated the proxy war into a hot conflict and left the Justice isolated and outnumbered with no nearby support. 
+
+Long range fast drones from the Tianzhou were launched to intercept the Justice as it was adjusting for a transfer back 
+to Earth, while the slower Mirazh started burning in pursuit. The Justice was able to shoot down several drones with 
+barrier missiles, however one drone was able to jink past its missile and launch a volley of self propelled explosives 
+before it was shot down by CIWS. Most of the explosives were also shot down, however parts of the hull and some external 
+antennas were destroyed. The Drake and the Thor were able to intercept a few hours later, and the Mirazh slowed its burn 
+and stalked the three ships for another day as they moved towards Earth. During this time no other ships from either 
+side were able to reach the combatants until the first US fleet came into range and forced the Mirzah to break away.
+
+During this time the US second fleet had moved out of lunar transfer and was burning towards Tianmen station, and the 
+PRC had moved its rapid response vessels from Earth orbit onto an intercept course. Early engagements between the larger
+US first fleet, and PRC heavy orbital fleet remained contained to missile volleys which were repeatedly shot down
+by either side, with neither fleet attempting to close with the other. 
+
+The Battle of the Apex occurred when the US second fleet, comprising two carriers and four destroyer escorts, engaged 
+with the PRCs rapid response vessels, a mixture of cruisers and destroyers along with Russian gunships and a number of 
+privateers disguised as commercial vessels. The Russian gunships and privateers were destroyed in the first hours by 
+the US carrier launched drones, but these were denied access to the PRC fleet by their own drone screen. The debris 
+from the battle quickly cascaded and made maneuvering difficult, as well as greatly slowing down intercept calculations. 
+After six hours the two fleets began retreating towards their respective stations, and terms for a truce were agreed 
+upon by the combatants shortly afterwards.`,
         classification: 'Socionomics/Events'
     }],
     ['Türkiye', {

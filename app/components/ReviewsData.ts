@@ -12,7 +12,7 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "12 Monkeys",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/c/cf/Twelve_monkeysmp.jpg",
-        summary: `Gilliam's style is present in every shot, but unlike Brazil this is sci-fi has a suspenseful and 
+        summary: `Gilliam's style is present in every shot, but unlike Brazil this sci-fi has a suspenseful and 
         driven narrative that keeps you hooked until the end`,
         e: 7,
         a: 7,

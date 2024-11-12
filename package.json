@@ -15,9 +15,9 @@
     "cf-typegen": "wrangler types"
   },
   "dependencies": {
-    "@remix-run/cloudflare": "^2.13.1",
-    "@remix-run/cloudflare-pages": "^2.13.1",
-    "@remix-run/react": "^2.13.1",
+    "@remix-run/cloudflare": "^2.14.0",
+    "@remix-run/cloudflare-pages": "^2.14.0",
+    "@remix-run/react": "^2.14.0",
     "create-cloudflare": "^2.30.1",
     "@types/file-saver": "^2.0.7",
     "file-saver": "^2.0.5",
