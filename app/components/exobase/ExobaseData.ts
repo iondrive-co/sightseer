@@ -142,16 +142,19 @@ optimization, with early products such as honey quality optimization and bio-for
 success licensing their natural flavor engineering product lines, which used bio-engineered proteins to rebalance the 
 flavours of several popular foods, to food retailers. Hivegen's use of gene editing to produce more resilient bees with
 enhanced pollination capabilities is likely to have saved bees from extinction, and resulted in a Russ and Tyler Prize 
-for two of their scientists. The company is also notable for being the majority funder of the successful woolly mammoth 
-de-extinction project as a promotional initiative for their exotic lab grown meat and animal product lines.
+for two of their scientists. Hivegen developed the original engineered RuBisCO proteins which eventually helped 
+kickstart the fourth agricultural revolution after their acquisition by Bioforge. Hivegen is also notable for being 
+the majority funder of the successful woolly mammoth de-extinction project as a promotional initiative for their exotic 
+lab grown meat and animal product lines.
 
 Bioforge was a German phytomining joint venture between BASF and Bayer CropScience that achieved success as a low cost
 method of extracting rare earth elements from otherwise marginal mining land. As they were developing a large amount of 
 valuable IP outside the core competencies of either company, such as many novel hyperaccumulator plant strains, and were
 starting to move into legally risky areas such as synthetic organisms and mRNA production platforms, an independent
-company was eventually created. Their success allowed them to control much of the [[Eurasian Bloc]] bio-regulation, 
-which helped them to acquire Hivegen in 61 BFC while it was fighting several battles with regulatory agencies over 
-breeding extinct animals on stations outside of the jurisdiction of animal welfare treaties.`,
+company was eventually created. The company was very successful in developing plant strains suited for the vast 
+ex-petrostate solar desalinisation desert farms. Their success allowed them to control much of the [[Eurasian Bloc]] 
+bio-regulation, which helped them to acquire Hivegen in 61 BFC while it was fighting several battles with regulatory 
+agencies over breeding extinct animals on stations outside of the jurisdiction of animal welfare treaties.`,
         classification: 'Socionomics/Polities'
     }],
     ['Ceres Wave', {
@@ -464,8 +467,10 @@ Gregorian calender system in daily life system-wide.`,
     ['Fatimid Trade Caliphate', {
         content:
 `The Fatimid Trade Caliphate is a trading alliance between several majority Shi'a nations, Iran, South Iraq, Bahrain, 
-the Beqaa State, and North Yemen.  The trading alliance also encompasses a free trade zone with the Azerbaijani 
-region of the Türkiye confederation. Datï¿½orruà¤¶आtedा`,
+the Beqaa State, and North Yemen. The trading alliance also encompasses a free trade zone with the Azerbaijani 
+region of the Türkiye confederation. The swiss multinational [[Bioforge Hivegen]] has a close relationship with the
+governing Shūrā and supplies members with many cutting edge agricultural products, especially to the high density solar 
+desalinisation farming areas such as the Beqaa valley.Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
     }],
     ['Fusion Engine', {
@@ -741,7 +746,9 @@ classification: 'Socionomics/Events'
         content: `The Levantine Republic is a country in the Eastern Mediterranean and the Levant. It is bounded by the 
 Mediterranean Sea, Israel, and Egypt to the west, Alawite Syria and the Beqaa State to the North, North and South Iraq 
 to the East, and Saudi Arabia to the South. It was formed out of the territories of central Iraq, Lebanon, Syria, and 
-Jordan by Tariq Al-Hashim in the aftermath of the [[Reset of Nations]].
+Jordan by [[Tariq Al-Hashim]] in the aftermath of the [[Reset of Nations]]. It imports large quantities of water from
+the solar desalinisation plants of Beqaa State in the the [[Fatimid Trade Caliphate]] for farming irrigation in the 
+Syrian steppe.
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
@@ -1061,6 +1068,10 @@ of a human. Current synths are also capable of perceiving and reacting to the ta
 interpret and react to their own internally simulated emotional states, closely mirroring human emotional responses.`,
         classification: 'Infomatics/Synths'
     }],
+    ['Tariq Al-Hashim', {
+        content: ``,
+        classification: 'Socionomics/People'
+    }],
     ['Ten-Hour War', {
         content: `The Ten-Hour War was a conflict between the [[United States]] and an alliance of the People's Republic 
 of China (PRC), Russia, North Korea over positioning at the EM1 Lagrange Point. It began with [[Intermesh]] industrial 
@@ -1152,11 +1163,11 @@ only recently emerged as an active international political force in its own righ
 classification: 'Socionomics/Polities'
     }],
     ['X Group', {
-        content: `The X Group is a multiplanetary industrial conglomerate headquartered in Hellas Planitia, Mars. It 
-was formed out of SpaceX and X-Power by X Musk after the death of his father Elon Musk, the eccentric trillionaire who 
-founded and maintained control of both companies until his death. Their highest revenue product lines are spacecraft 
-and satellite manufacture and launch services; off world power and water supply services; and navigation, propulsion 
-management, and e-commerce [[synths~Synthetic Intelligence]].
+        content: `The X Group is a multiplanetary energy and industrial conglomerate headquartered in Hellas Planitia, 
+Mars. It was formed out of SpaceX and X-Power by X Musk after the death of his father Elon Musk, the eccentric 
+trillionaire who founded and maintained control of both companies until his death. Their highest revenue product lines 
+are spacecraft and satellite manufacture and launch services; off world power and water supply services; and navigation, 
+propulsion management, and e-commerce [[synths~Synthetic Intelligence]].
 
 Global energy supply was the first of the hectotrillion dollar markets on Earth. The company Tesla was an automobile 
 and energy company controlled by Elon Musk, and their Tesla Energy division owned the IP for a very high conversion 
