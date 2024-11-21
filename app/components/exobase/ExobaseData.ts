@@ -321,7 +321,8 @@ and updated, although the current author is unknown. One popular theory is that 
             content:
 `The Eurasian Bloc is an astropolitical and economic entity which formed out the European Union, India, Japan, South 
 Korea, Vietnam, and Singapore in the aftermath of the political upheaval following the [[Khan Solar Storm]] of 187 BFC. 
-Over time it has grown to encompass Japan's seizure of Enkaishū (Russia's Primorsky Krai), and also to include most 
+Over time it has grown to encompass Japan's seizure of Enkaishū (Russia's Primorsky Krai)  once the Eurasian SDI was
+operational, and also to include most 
 French aligned North-West African countries (and so is no longer strictly Eurasian).The Bloc's treaties of governance 
 primarily concern trade, colony administration, and defence, leaving its constituent members with legislative autonomy 
 in other areas. It is governed by a supranational bureaucracy supplemented with meritocratic sortition, whereby a 
@@ -507,19 +508,22 @@ demographically collapsing Russia and to a lesser extent China.`,
     }],
     ['Gran México', {
         content: `Gran México is the world's 15th most populous country, the 7th largest terrestrial economy, and 
-largest trading partner of the [[United States]]. Its name dates back to when the United Mexican States annexed the 
-failed states of Guatemala and the parts of Venezuela not seized by [[Dominio]].
+largest trading partner of the [[United States]] as well as the third major power bloc in the [[Peacekeepers]] space 
+based military alliance. Its name dates back to when the United Mexican States annexed the failed states of Guatemala 
+and the parts of Venezuela not seized by [[Dominio]].
 Datï¿½orruà¤¶आtedा By allowing the establishment of the [[Mazatlán Zona Franca]] semi-autonomous region the government
 greatly empowered the Sinaloa cartel, allowing it to undercut JNGC with economies of scale and slowly drive them
 out of business, which greatly reduced violence back to the historically low levels of the golden era of Sinaloa.`,
         classification: 'Socionomics/Polities'
     }],
     ['Greater Zhōngguó', {
-content: `Greater Zhōngguó is a political entity which was formed in 98 BFC from the unification of the [[GPR]] 
-countries (China, North Korea, Russia, Siberia, Mongolia, and Myanmar) with South Africa, Ethiopia, Sudan, Djibouti, 
-Eritrea, Somalia, U.A.E, Oman, South Yemen, Pakistan, Indonesia, Papua New Guinea, and Greater Uzbekistan; as well as 
-an informal agreement with the [[Fatimid Trade Caliphate]] on spheres of influence. Despite having significantly less 
-industrial capacity than the [[Peacekeepers]] it fields a nearly equivalently size navy. Datï¿½orruà¤¶आtedा`,
+content: `Greater Zhōngguó is a political entity which was formed between 102 and 98 BFC from the unification of the 
+[[GPR]] countries (China, North Korea, Russia, Siberia, Mongolia, and Myanmar) with their close trading partners South 
+Africa, Ethiopia, Sudan, Djibouti, Eritrea, Somalia, U.A.E, Oman, South Yemen, Pakistan, Indonesia, Papua New Guinea, 
+and Greater Uzbekistan; as well as an informal agreement with the other non-[[Peacekeeper]] space power blocs on 
+spheres of influence. Initially an mostly economic union, over time it has become more militarily focussed as the 
+Peacekeepers have grown. Despite having significantly less industrial capacity than the [[Peacekeepers]] it fields a 
+nearly equivalently size navy.ा`,
         classification: 'Socionomics/Confederations'
     }],
     ['Haidian Takeoff Crisis', {
@@ -908,7 +912,7 @@ Datï¿½orruà¤¶आtedा`,
     ['Peacekeepers', {
         content:
 `The Peacekeepers are an intergovernmental space based military alliance between the [[United States]] and its client 
-countries, the [[Eurasian Bloc]], and [[Gran Mexico]], formed in 102 BFC to counter the space power blocs of 
+countries, the [[Eurasian Bloc]], and [[Gran México]], formed in 102 BFC to counter the space power blocs of 
 [[Greater Zhōngguó]] and [[Dominio]] (and to a lesser extent [[Türkiye]] and the [[Fatimid Trade Caliphate]]). 
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
