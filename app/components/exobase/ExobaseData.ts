@@ -319,20 +319,26 @@ and updated, although the current author is unknown. One popular theory is that 
     }],
     ['Eurasian Bloc', {
             content:
-`The Eurasian Bloc is an astropolitical and economic entity which formed out the European Union, India, Japan, Vietnam, 
-and Singapore in the aftermath of the political upheaval following the [[Khan Solar Storm]] of 187 BFC.
-The Bloc's treaties of governance primarily concern trade, colony administration, and defence, leaving its constituent 
-members with legislative autonomy in other areas. It is governed by a supranational bureaucracy supplemented with 
-meritocratic sortition, whereby a random selection of experts is drawn from the general populace for the purposes of 
-drafting legislation. 
+`The Eurasian Bloc is an astropolitical and economic entity which formed out the European Union, India, Japan, South 
+Korea, Vietnam, and Singapore in the aftermath of the political upheaval following the [[Khan Solar Storm]] of 187 BFC. 
+Over time it has grown to encompass Japan's seizure of Enkaishū (Russia's Primorsky Krai), and also to include most 
+French aligned North-West African countries (and so is no longer strictly Eurasian).The Bloc's treaties of governance 
+primarily concern trade, colony administration, and defence, leaving its constituent members with legislative autonomy 
+in other areas. It is governed by a supranational bureaucracy supplemented with meritocratic sortition, whereby a 
+random selection of experts is drawn from the general populace for the purposes of drafting legislation. 
 
 The proposal for a new set of international treaties to replace the role the U.S. and NATO had played prior to Khan 
 was first made by Japanese Defense Minister [[Matsumoto Koji]] at the Lausanne Convention in 185 BFC. Due to the 2nd 
 Japanese Economic Miracle and integration into the economies of Bloc countries via its supply of AMSSTs Japan was able 
 to play a major role in the construction of the Bloc's political organisations, despite having less than 5% of the total 
-population of the Bloc countries. The merger of Japanese, European, Indian, and Chinese leadership culture has lead to 
-institutions that are highly engineering and environmentally focused, and which emphasise flexibility and practicality 
-in the development of policy and use of technology to deal with environmental and political crises. Datï¿½orruà¤¶आtedा`,
+population of the Bloc countries. Over time the French have taken a larger role in leadership as their economy recovered
+and (including their colonies and integrated protectorates) is now the second largest in the Bloc after India. The 
+merger of Japanese, European, Indian, and Chinese leadership culture has lead to institutions that are highly 
+engineering and environmentally focused, and which emphasise flexibility and practicality in the development of policy 
+and use of technology to deal with environmental and political crises. They are the second largest contributor to the 
+[[Peacekeepers]] (after the United States and its client countries) and often align with the US against the 
+non-Peacekeeper space power blocs of [[Greater Zhōngguó]], [[Dominio]], [[Türkiye]], and the 
+[[Fatimid Trade Caliphate]].`,
         classification: 'Socionomics/Confederations'
     }],
     ['Exonet',{
@@ -492,11 +498,11 @@ reactor went into service in 155 BFC in Genkai, Japan after 12 years of planning
         content:
 `The Greater People's Republic, commonly known as the GPR, was a political union that existed from 174 BFC until being 
 replaced by [[Greater Zhōngguó]] in 98 BFC. It originated in a military and political alliance formed by the People's 
-Republic of China, Russia, and their respective off-Earth colonies, as well as North Korea and Myanmar, during the 
-fallout from the [[Ten-Hour War]]. It broadened to include tight economic integration, with Russia shipping 
-increasingly large quantities of food to China as global warming increased in exchange for machinery and electronics.
-There was also a large state sponsored migration of people from North Korea and Myanmar into demographically collapsing 
-Russia and to a lesser extent China.`,
+Republic of China, Russia, their respective off-Earth colonies, as well as North Korea, Myanmar, Siberia, and 
+Mongolia during the fallout from the [[Ten-Hour War]]. It broadened to include tight economic integration, with Russia 
+and Siberia shipping increasingly large quantities of food to China as global warming increased in exchange for 
+machinery and electronics. There was also a large state sponsored migration of people from North Korea and Myanmar into 
+demographically collapsing Russia and to a lesser extent China.`,
         classification: 'Socionomics/Confederations'
     }],
     ['Gran México', {
@@ -509,9 +515,10 @@ out of business, which greatly reduced violence back to the historically low lev
         classification: 'Socionomics/Polities'
     }],
     ['Greater Zhōngguó', {
-content: `Greater Zhōngguó is a political entity which was formed in 98 BFC from the unification of the [[GPR]] with 
-the U.A.E, Ethiopia, Sudan, Djibouti, Indonesia, Greater Uzbekistan, Pakistan, and Papua New Guinea; as well as an 
-informal agreement with the [[Fatimid Trade Caliphate]] on spheres of influence. Despite having significantly less 
+content: `Greater Zhōngguó is a political entity which was formed in 98 BFC from the unification of the [[GPR]] 
+countries (China, North Korea, Russia, Siberia, Mongolia, and Myanmar) with South Africa, Ethiopia, Sudan, Djibouti, 
+Eritrea, Somalia, U.A.E, Oman, South Yemen, Pakistan, Indonesia, Papua New Guinea, and Greater Uzbekistan; as well as 
+an informal agreement with the [[Fatimid Trade Caliphate]] on spheres of influence. Despite having significantly less 
 industrial capacity than the [[Peacekeepers]] it fields a nearly equivalently size navy. Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
     }],
@@ -900,7 +907,10 @@ Datï¿½orruà¤¶आtedा`,
     }],
     ['Peacekeepers', {
         content:
-`In 102 BFC Datï¿½orruà¤¶आtedा`,
+`The Peacekeepers are an intergovernmental space based military alliance between the [[United States]] and its client 
+countries, the [[Eurasian Bloc]], and [[Gran Mexico]], formed in 102 BFC to counter the space power blocs of 
+[[Greater Zhōngguó]] and [[Dominio]] (and to a lesser extent [[Türkiye]] and the [[Fatimid Trade Caliphate]]). 
+Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
     }],
     ['QuanLan',{
@@ -1127,12 +1137,14 @@ fast high density drone carrier variants after it.`,
     }],
     ['Türkiye', {
         content: `Türkiye is a federation of countries in West Asia and Europe, controlled by the eponymous country. It
-consists of Türkiye, North Iraq, Azerbaijan, and Crimea, as well as the semi-autonomous regions of Alawite Syria and 
-Georgia. It was a close ally of Greater Uzbekistan until that country joined [[Greater Zhōngguó]], and continues to 
-maintain its historical military presence in Saudi Arabia which was established during the time of its alliance with 
-Pakistan. It frequently is involved in border disputes with [[Levantine Republic]], and has sometimes tense diplomatic 
-relations with Iran despite maintaining a free trade zone in Azerbaijan for the [[Fatimid Trade Caliphate]].
-Datï¿½orruà¤¶आtedा`,
+consists of Türkiye, North Iraq, Azerbaijan, the Chechen Federation, and Crimea, as well as the semi-autonomous regions 
+of Alawite Syria and Georgia. It was a close ally of Greater Uzbekistan until that country joined [[Greater Zhōngguó]], 
+is largely responsible for running the military junta in Cairo, and continues to maintain its historical military 
+presence in Saudi Arabia which was established during the time of its alliance with Pakistan. It frequently is involved 
+in border disputes with [[Levantine Republic]]. As the unofficial center of power for Sunni Islam, it has sometimes 
+tense diplomatic relations with Iran and the [[Fatimid Trade Caliphate]], although the need to protect high volume of 
+inter-bloc trade, especially through the free trade zone in Azerbaijan, has motivated peaceful resolutions to most 
+conflicts between the two Muslim power blocs.`,
         classification: 'Socionomics/Confederations'
     }],
     ['United States', {
