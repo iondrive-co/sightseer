@@ -865,11 +865,14 @@ and the official name of the country was changed.`,
 occurred in this period.
 The foundations for many of these changes had previously been laid by the collapse of the Bretton Woods system and the 
 [[United States]] increasing disinterest in intervening in international conflicts, but were accelerated by the 
-disintegration of large amounts of state power in the aftermath of the storm. The major geopolitical changes that 
-occurred were the disintegration of Syria, Georgia, and Lebanon and the corresponding expansion of [[Türkiye]] and
+disintegration of large amounts of state power in the aftermath of the storm. The major immediate geopolitical changes 
+that occurred were the disintegration of Syria, Georgia, and Lebanon and the corresponding expansion of [[Türkiye]] and
 foundation of the [[Levantine Republic]]; a series of annexations leading to the dissolution of the Sogdia economic zone 
-and the formation of Greater Uzbekistan; the Trypanosomiasis crisis which destabilised much of West Africa and South 
-America; and finally the formation of the Eurasian Bloc.
+and the formation of Greater Uzbekistan; the Trypanosomiasis crisis which destabilised much of Central Africa and South 
+America; and finally the formation of the Eurasian Bloc. The longer term changes were growing food abundance from 
+engineered RuBisCO proteins, widespread availability of [[Synth~Synthetic Intelligence]] child care, and optimism from 
+the recovery leading to a baby boom and the [[Ceres Wave]] in the 170s, and the increasing eradication of tropical 
+disease leading to increase GDP growth and subsequent power projection in Indonesia, India, and Nigeria.
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Events'
     }],
