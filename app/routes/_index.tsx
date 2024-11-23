@@ -19,6 +19,7 @@ export default function Index() {
                         <p>&lt;--Edit images in your browser without them leaving your device</p>
                         <p>&lt;--Intelligence Dampening Sphere</p>
                         <p>&lt;--Very short movie and game reviews</p>
+                        <p>&lt;--Simple orbital simulation using three.js</p>
                     </div>
                 </div>
             </div>

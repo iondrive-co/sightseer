@@ -19,6 +19,9 @@ export default function Sidebar() {
       <Link to="/Reviews" className="text-xl underline cursor-pointer">
         Reviews
       </Link>
+      <Link to="/Solar" className="text-xl underline cursor-pointer">
+        Solar
+      </Link>
     </div>
   );
 }
