@@ -1,9 +1,16 @@
 import { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
+import { OrbitalSystem } from "~/components/OrbitalMechanics";
 
 interface PlanetConfig {
+  name: string;
+  radius: number;
+  orbitRadius: number;
+  color: number;
+}
+
+interface Planet extends PlanetConfig {
   mesh: THREE.Mesh;
-  distance: number;
 }
 
 const SolarSystem = () => {
@@ -12,94 +19,133 @@ const SolarSystem = () => {
 
   useEffect(() => {
     if (!mountRef.current) return;
+
     try {
-      // Check if WebGL is available
       const canvas = document.createElement('canvas');
       const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
-
       if (!gl) {
         throw new Error(
             'WebGL is not supported in your browser. Try enabling it in your browser settings or using a different browser.'
         );
       }
-      const mountDiv = mountRef.current;
 
+      const mountDiv = mountRef.current;
       // Scene setup
       const scene = new THREE.Scene();
-      scene.background = new THREE.Color(0x000000);
+      scene.background = new THREE.Color(0x111111);
+      // Grid helper for reference
+      const gridHelper = new THREE.GridHelper(200, 20, 0x444444, 0x222222);
+      scene.add(gridHelper);
       // Camera setup
-      const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 1000);
-      camera.position.set(0, 30, 100);
+      const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+      camera.position.set(0, 75, 150);
       camera.lookAt(0, 0, 0);
       // Renderer setup
       const renderer = new THREE.WebGLRenderer({ antialias: true });
       renderer.setSize(window.innerWidth, window.innerHeight);
       mountDiv.appendChild(renderer.domElement);
       // Lighting
-      const ambientLight = new THREE.AmbientLight(0x333333);
+      const ambientLight = new THREE.AmbientLight(0xffffff, 1.0);
       scene.add(ambientLight);
-      const sunLight = new THREE.PointLight(0xffffff, 1, 0, 1);
+      const sunLight = new THREE.PointLight(0xffffff, 2.0);
       sunLight.position.set(0, 0, 0);
       scene.add(sunLight);
-
       // Create sun
-      const sunGeometry = new THREE.SphereGeometry(5, 32, 32);
-      const sunMaterial = new THREE.MeshBasicMaterial({ color: 0xff9933 });
-      const sun = new THREE.Mesh(sunGeometry, sunMaterial);
+      const sun = new THREE.Mesh(
+          new THREE.SphereGeometry(8, 32, 32),
+          new THREE.MeshBasicMaterial({ color: 0xff9933 })
+      );
       scene.add(sun);
-      // Create planets
-      const createPlanet = (
-          radius: number,
-          distance: number,
-          color: number
-      ): PlanetConfig => {
-        const planetGeometry = new THREE.SphereGeometry(radius, 32, 32);
-        const planetMaterial = new THREE.MeshPhongMaterial({ color });
-        const planet = new THREE.Mesh(planetGeometry, planetMaterial);
-        // Create orbit
-        const orbitGeometry = new THREE.BufferGeometry();
-        const orbitPoints: THREE.Vector3[] = [];
-        for (let i = 0; i <= 360; i++) {
-          const theta = (i / 360) * Math.PI * 2;
-          orbitPoints.push(
-              new THREE.Vector3(Math.cos(theta) * distance, 0, Math.sin(theta) * distance)
-          );
-        }
-        orbitGeometry.setFromPoints(orbitPoints);
-        const orbit = new THREE.Line(
-            orbitGeometry,
-            new THREE.LineBasicMaterial({ color: 0x444444 })
-        );
-        scene.add(orbit);
-
-        return { mesh: planet, distance };
-      };
-
-      const planets: PlanetConfig[] = [
-        createPlanet(1, 10, 0x999999),  // Mercury
-        createPlanet(1.5, 15, 0xffcc99), // Venus
-        createPlanet(2, 20, 0x3333ff),   // Earth
-        createPlanet(1.2, 25, 0xff6666)  // Mars
+      // Planet configurations
+      const planetConfigs: PlanetConfig[] = [
+        { name: 'mercury', radius: 3, orbitRadius: 25, color: 0x999999 },
+        { name: 'venus',   radius: 4, orbitRadius: 40, color: 0xffcc99 },
+        { name: 'earth',   radius: 5, orbitRadius: 60, color: 0x3333ff },
+        { name: 'mars',    radius: 4, orbitRadius: 80, color: 0xff4444 }
       ];
-      planets.forEach(planet => scene.add(planet.mesh));
+      // Create orbital system
+      const orbitalSystem = new OrbitalSystem(scene);
+      // Create planets and their orbits
+      const planets: Planet[] = planetConfigs.map(config => {
+        // Create planet
+        const planet = new THREE.Mesh(
+            new THREE.SphereGeometry(config.radius, 32, 32),
+            new THREE.MeshPhongMaterial({ color: config.color })
+        );
+        scene.add(planet);
+        // Create orbit
+        orbitalSystem.addOrbit(config.name, {
+          radius: config.orbitRadius,
+          color: config.color,
+          opacity: 1.0,
+          lineWidth: 2
+        });
+        return { ...config, mesh: planet };
+      });
+      // Create transfer orbits
+      const transfers = [
+        { name: 'mercury-venus', start: 25, end: 40, color: 0x00ff00 },
+        { name: 'venus-earth',   start: 40, end: 60, color: 0x0000ff },
+        { name: 'earth-mars',    start: 60, end: 80, color: 0xff0000 }
+      ];
+      transfers.forEach(transfer => {
+        orbitalSystem.addTransfer(transfer.name, {
+          startRadius: transfer.start,
+          endRadius: transfer.end,
+          color: transfer.color,
+          opacity: 1.0,
+          lineWidth: 2
+        });
+      });
 
+      let transferProgress = 0;
+      let activeTransfer: string | null = null;
       const animate = () => {
         requestAnimationFrame(animate);
         // Rotate sun
-        sun.rotation.y += 0.001;
-        // Rotate and orbit planets
+        sun.rotation.y += 0.005;
+        // Update planets
         planets.forEach((planet, index) => {
-          const speed = 0.001 / (index + 1);
-          const time = Date.now() * speed;
-
-          planet.mesh.position.x = Math.cos(time) * planet.distance;
-          planet.mesh.position.z = Math.sin(time) * planet.distance;
-
-          planet.mesh.rotation.y += 0.02;
+          const time = Date.now() * 0.001;
+          const orbit = orbitalSystem.getOrbit(planet.name);
+          if (orbit) {
+            const position = orbit.getPosition(time * (0.5 / (index + 1)));
+            planet.mesh.position.copy(position);
+            planet.mesh.rotation.y += 0.02;
+          }
         });
+        // Update transfer orbits
+        if (activeTransfer) {
+          const currentTransfer = orbitalSystem.getTransfer(activeTransfer);
+          if (currentTransfer) {
+            try {
+              transferProgress += 0.01;
+              currentTransfer.updateProgress(transferProgress);
+            } catch (err) {
+              console.error('Error updating transfer:', err);
+              transferProgress = 0;
+              activeTransfer = null;
+              return;
+            }
+            if (transferProgress >= 1) {
+              setTimeout(() => {
+                currentTransfer.setVisible(false);
+                transferProgress = 0;
+                activeTransfer = null;
+              }, 500); // Small delay to show the fully rendered transfer
+            }
+          }
+        } else {
+          // Pick a random transfer to start
+          const randomIndex = Math.floor(Math.random() * transfers.length);
+          activeTransfer = transfers[randomIndex].name;
+          const nextTransfer = orbitalSystem.getTransfer(activeTransfer);
+          if (nextTransfer) {
+            nextTransfer.setVisible(true);
+          }
+        }
         renderer.render(scene, camera);
       };
-
       animate();
 
       const handleResize = () => {
@@ -107,20 +153,21 @@ const SolarSystem = () => {
         camera.updateProjectionMatrix();
         renderer.setSize(window.innerWidth, window.innerHeight);
       };
-
       window.addEventListener('resize', handleResize);
 
       // Cleanup
       return () => {
         window.removeEventListener('resize', handleResize);
-        mountDiv.removeChild(renderer.domElement);
-        // Clean up Three.js resources
+        if (mountRef.current) {
+          mountRef.current.removeChild(renderer.domElement);
+        }
+        orbitalSystem.disposeAll();
         scene.clear();
         renderer.dispose();
       };
     } catch (err) {
+      console.error('Error in solar system:', err);
       setError(err instanceof Error ? err.message : 'An unexpected error occurred');
-      return;
     }
   }, []);
 
@@ -145,7 +192,13 @@ const SolarSystem = () => {
     );
   }
 
-  return <div ref={mountRef} className="w-full h-full" />;
+  return (
+      <div
+          ref={mountRef}
+          className="w-full h-screen"
+          style={{ backgroundColor: '#111111' }}
+      />
+  );
 };
 
 export default SolarSystem;
