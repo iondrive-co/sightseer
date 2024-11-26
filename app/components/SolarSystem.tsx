@@ -1,12 +1,13 @@
-import { useEffect, useRef, useState } from 'react';
+import {useEffect, useRef, useState} from 'react';
 import * as THREE from 'three';
-import { OrbitalSystem } from "~/components/OrbitalMechanics";
+import {OrbitalSystem} from "~/components/OrbitalMechanics";
 
 interface PlanetConfig {
   name: string;
   radius: number;
   orbitRadius: number;
   color: number;
+  period: number;
 }
 
 interface Planet extends PlanetConfig {
@@ -16,6 +17,7 @@ interface Planet extends PlanetConfig {
 
 const SolarSystem = () => {
   const mountRef = useRef<HTMLDivElement>(null);
+  const [countdown, setCountdown] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -53,10 +55,10 @@ const SolarSystem = () => {
       scene.add(sun);
 
       const planetConfigs: PlanetConfig[] = [
-        { name: 'mercury', radius: 3, orbitRadius: 25, color: 0x999999 },
-        { name: 'venus',   radius: 4, orbitRadius: 40, color: 0xffcc99 },
-        { name: 'earth',   radius: 5, orbitRadius: 60, color: 0x3333ff },
-        { name: 'mars',    radius: 4, orbitRadius: 80, color: 0xff4444 }
+        { name: 'mercury', radius: 3, orbitRadius: 25, color: 0x999999, period: 0.24 },
+        { name: 'venus',   radius: 4, orbitRadius: 40, color: 0xffcc99, period: 0.62 },
+        { name: 'earth',   radius: 5, orbitRadius: 60, color: 0x3333ff, period: 1.0 },
+        { name: 'mars',    radius: 4, orbitRadius: 80, color: 0xff4444, period: 1.88 }
       ];
 
       const orbitalSystem = new OrbitalSystem(scene);
@@ -79,6 +81,19 @@ const SolarSystem = () => {
       let activeTransfer: string | null = null;
       const transferCooldown = 2000;
       let lastTransferTime = 0;
+      const TIME_MULTIPLIER = 2;
+      const EARTH_YEAR = 12; // Seconds in Earth year
+
+      const checkLaunchWindow = (earthPos: THREE.Vector3, marsPos: THREE.Vector3): number => {
+        const earthAngle = Math.atan2(earthPos.z, earthPos.x);
+        let marsAngle = Math.atan2(marsPos.z, marsPos.x);
+
+        if (marsAngle < earthAngle) marsAngle += 2 * Math.PI;
+        const phaseAngle = marsAngle - earthAngle;
+        // 45 was empirically determined - I am not sure how to calculate this
+        const PHASE_ANGLE = (45 * Math.PI) / 180;  // Convert to radians
+        return Math.abs(phaseAngle - PHASE_ANGLE);
+      };
 
       const animate = () => {
         requestAnimationFrame(animate);
@@ -86,17 +101,21 @@ const SolarSystem = () => {
 
         sun.rotation.y += 0.005;
 
-        planets.forEach((planet, index) => {
-          const time = currentTime * 0.001;
+        // Update planet positions
+        planets.forEach((planet) => {
+          const time = currentTime * 0.001 * TIME_MULTIPLIER;
           const orbit = orbitalSystem.getOrbit(planet.name);
           if (orbit) {
-            const position = orbit.getPosition(time * (0.5 / (index + 1)));
+            const angularVelocity = (2 * Math.PI) / (planet.period * EARTH_YEAR);
+            const angle = time * angularVelocity;
+            const position = orbit.getPosition(angle);
             planet.mesh.position.copy(position);
             planet.position = position.clone();
             planet.mesh.rotation.y += 0.02;
           }
         });
 
+        // Handle transfers
         if (activeTransfer) {
           const currentTransfer = orbitalSystem.getTransfer(activeTransfer);
           if (currentTransfer) {
@@ -112,24 +131,50 @@ const SolarSystem = () => {
           }
         } else if (currentTime - lastTransferTime > transferCooldown) {
           const earth = planets.find(p => p.name === 'earth');
-          if (earth && earth.position) {
-            const transferName = 'earth-mars-' + currentTime;
-            orbitalSystem.addTransferFromPosition(
-                transferName,
-                {
-                  startRadius: 60,
-                  endRadius: 80,
-                  color: 0xff0000,
-                  opacity: 0.7,
-                  lineWidth: 2
-                },
-                earth.position
-            );
+          const mars = planets.find(p => p.name === 'mars');
 
-            activeTransfer = transferName;
-            const newTransfer = orbitalSystem.getTransfer(activeTransfer);
-            if (newTransfer) {
-              newTransfer.setVisible(true);
+          if (earth?.position && mars?.position) {
+            const difference = checkLaunchWindow(earth.position, mars.position);
+            const tolerance = 0.05;  // About 3 degrees tolerance in radians
+
+            // Update countdown
+            if (difference < tolerance) {
+              setCountdown("LAUNCH WINDOW OPEN!");
+
+              const transferName = 'earth-mars-' + currentTime;
+              orbitalSystem.addTransferFromPosition(
+                  transferName,
+                  {
+                    startRadius: 60,
+                    endRadius: 80,
+                    color: 0xff0000,
+                    opacity: 0.7,
+                    lineWidth: 2
+                  },
+                  earth.position
+              );
+
+              activeTransfer = transferName;
+              const newTransfer = orbitalSystem.getTransfer(activeTransfer);
+              if (newTransfer) {
+                newTransfer.setVisible(true);
+              }
+            } else {
+              // Calculate rough time until next window
+              const currentPhase = Math.atan2(mars.position.z, mars.position.x) -
+                  Math.atan2(earth.position.z, earth.position.x);
+              const TARGET_PHASE = (45 * Math.PI) / 180;
+              let timeToWindow = (TARGET_PHASE - currentPhase) /
+                  ((2 * Math.PI) * (1/EARTH_YEAR - 1/(1.88 * EARTH_YEAR)));
+              if (timeToWindow < 0) {
+                timeToWindow += 2 * Math.PI / ((2 * Math.PI) * (1/EARTH_YEAR - 1/(1.88 * EARTH_YEAR)));
+              }
+
+              const scaledTime = timeToWindow / TIME_MULTIPLIER;
+              const remainingTime = Math.max(0, EARTH_YEAR - scaledTime);
+              const seconds = Math.floor(remainingTime % 60);
+              const minutes = Math.floor(remainingTime / 60);
+              setCountdown(`Next Mars launch window in: ${minutes}m ${seconds}s`);
             }
           }
         }
@@ -183,11 +228,26 @@ const SolarSystem = () => {
   }
 
   return (
-      <div
-          ref={mountRef}
-          className="w-full h-screen"
-          style={{ backgroundColor: '#111111' }}
-      />
+      <div className="relative w-full h-screen">
+        <div
+            ref={mountRef}
+            className="w-full h-screen"
+            style={{ backgroundColor: '#111111' }}
+        />
+        {countdown && (
+            <div className="absolute top-4 left-1/2 transform -translate-x-1/2 bg-gray-900 text-white px-4 py-2 rounded-lg shadow-lg">
+              {countdown}
+            </div>
+        )}
+        {error && (
+            <div className="absolute inset-0 flex items-center justify-center bg-gray-900 text-white p-4">
+              <div className="max-w-md text-center">
+                <h2 className="text-xl font-semibold mb-2">WebGL Not Available</h2>
+                <p className="text-gray-300">{error}</p>
+              </div>
+            </div>
+        )}
+      </div>
   );
 };
 

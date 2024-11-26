@@ -94,29 +94,35 @@ export class TransferOrbit extends Orbit {
             opacity = 0.7
         } = params;
 
-        // If startPosition is provided, use it; otherwise, start from positive x-axis
-        const initialPosition = startPosition || new THREE.Vector3(startRadius, 0, 0);
-        const initialPoints = [initialPosition.clone(), initialPosition.clone()];
+        super({ radius: 0, color, segments: 2, lineWidth, opacity });
 
-        super({
-            radius: 0,
-            color,
-            segments: 2,
-            lineWidth,
-            opacity
-        });
+        // Calculate transfer orbit parameters
+        const a = (startRadius + endRadius) / 2;  // Semi-major axis
+        const e = Math.abs(endRadius - startRadius) / (endRadius + startRadius);  // Eccentricity
 
-        // Calculate the starting angle based on position or default to 0
-        const startAngle = startPosition ? Math.atan2(startPosition.z, startPosition.x) : 0;
+        if (startPosition) {
+            const startAngle = Math.atan2(startPosition.z, startPosition.x);
 
-        const a = (startRadius + endRadius) / 2;
-        const e = Math.abs(endRadius - startRadius) / (endRadius + startRadius);
-        this.fullPoints = [];
-
-        if (e < 1) {  // Only proceed if orbit is valid
+            this.fullPoints = [];
+            if (e < 1) {
+                for (let i = 0; i <= segments; i++) {
+                    const t = i / segments;
+                    // Reduced from Math.PI to Math.PI * 0.95 to reduce overshoot
+                    const theta = startAngle + t * (Math.PI * 0.95);
+                    const r = (a * (1 - e * e)) / (1 + e * Math.cos(theta - startAngle));
+                    this.fullPoints.push(new THREE.Vector3(
+                        r * Math.cos(theta),
+                        0,
+                        r * Math.sin(theta)
+                    ));
+                }
+            }
+        } else {
+            // Basic transfer from x-axis (unchanged)
+            this.fullPoints = [];
             for (let i = 0; i <= segments; i++) {
-                const theta = startAngle + (i / segments) * Math.PI;
-                const r = (a * (1 - e * e)) / (1 + e * Math.cos(theta - startAngle));
+                const theta = (i / segments) * Math.PI;
+                const r = (a * (1 - e * e)) / (1 + e * Math.cos(theta));
                 this.fullPoints.push(new THREE.Vector3(
                     r * Math.cos(theta),
                     0,
@@ -125,13 +131,7 @@ export class TransferOrbit extends Orbit {
             }
         }
 
-        // Set initial state with our calculated points
-        if (this.fullPoints.length >= 2) {
-            this.updateProgress(0);
-        } else {
-            this.fullPoints = initialPoints;
-            this.updateProgress(1);
-        }
+        this.updateProgress(0);
     }
 
     updateProgress(progress: number): void {
@@ -146,18 +146,6 @@ export class TransferOrbit extends Orbit {
         this.line.geometry.dispose(); // Clean up old geometry
         this.line.geometry = newGeometry;
         this.geometry = newGeometry;
-    }
-
-    getTransferPosition(progress: number): THREE.Vector3 {
-        const index = Math.floor(progress * (this.fullPoints.length - 1));
-        return this.fullPoints[index].clone();
-    }
-
-    getTransferDuration(startRadius: number, endRadius: number): number {
-        // Calculate approximate transfer time using Hohmann transfer time formula
-        const mu = 1; // Gravitational parameter (simplified)
-        const a = (startRadius + endRadius) / 2;
-        return Math.PI * Math.sqrt((a * a * a) / mu);
     }
 }
 
