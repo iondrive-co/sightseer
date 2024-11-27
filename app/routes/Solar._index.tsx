@@ -1,13 +1,13 @@
 import Sidebar from "~/components/Sidebar";
-import SolarSystem from "~/components/SolarSystem";
+import Solar from "~/components/Solar";
 import '~/styles/tailwind.css';
 
-export default function Solar() {
+export default function SolarScreen() {
     return (
         <div className="flex h-screen">
             <Sidebar />
             <div className="flex-grow">
-                <SolarSystem />
+                <Solar />
             </div>
         </div>
     );

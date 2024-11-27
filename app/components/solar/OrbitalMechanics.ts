@@ -6,6 +6,10 @@ export interface OrbitParams {
     segments?: number;
     lineWidth?: number;
     opacity?: number;
+    eccentricity?: number;
+    inclination?: number;
+    ascendingNode?: number;
+    argumentOfPeriapsis?: number;
 }
 
 export interface TransferParams {
@@ -16,6 +20,7 @@ export interface TransferParams {
     lineWidth?: number;
     opacity?: number;
     startPosition?: THREE.Vector3;
+    inclination?: number;
 }
 
 export class Orbit {
@@ -23,34 +28,59 @@ export class Orbit {
     protected material: THREE.LineBasicMaterial;
     protected line: THREE.Line;
     protected points: THREE.Vector3[] = [];
+    protected params: OrbitParams;
 
-    constructor({
-                    radius,
-                    color = 0x444444,
-                    segments = 360,
-                    lineWidth = 1,
-                    opacity = 0.5
-                }: OrbitParams) {
-        this.points = this.calculateCircularOrbit(radius, segments);
+    constructor(params: OrbitParams) {
+        this.params = {
+            color: 0x444444,
+            segments: 360,
+            lineWidth: 1,
+            opacity: 0.5,
+            eccentricity: 0,
+            inclination: 0,
+            ascendingNode: 0,
+            argumentOfPeriapsis: 0,
+            ...params
+        };
+
+        this.points = this.calculateOrbit();
         this.geometry = new THREE.BufferGeometry().setFromPoints(this.points);
         this.material = new THREE.LineBasicMaterial({
-            color,
+            color: this.params.color,
             transparent: true,
-            opacity,
-            linewidth: lineWidth
+            opacity: this.params.opacity,
+            linewidth: this.params.lineWidth
         });
         this.line = new THREE.Line(this.geometry, this.material);
     }
 
-    protected calculateCircularOrbit(radius: number, segments: number): THREE.Vector3[] {
+    protected calculateOrbit(): THREE.Vector3[] {
         const points: THREE.Vector3[] = [];
+        const {
+            radius,
+            segments = 360,
+            eccentricity = 0,
+            inclination = 0,
+            ascendingNode = 0,
+            argumentOfPeriapsis = 0
+        } = this.params;
+
         for (let i = 0; i <= segments; i++) {
             const theta = (i / segments) * Math.PI * 2;
-            points.push(new THREE.Vector3(
-                Math.cos(theta) * radius,
+            const r = radius * (1 - eccentricity * eccentricity) / (1 + eccentricity * Math.cos(theta));
+
+            const point = new THREE.Vector3(
+                r * Math.cos(theta),
                 0,
-                Math.sin(theta) * radius
-            ));
+                r * Math.sin(theta)
+            );
+
+            // Apply orbital elements
+            point.applyAxisAngle(new THREE.Vector3(1, 0, 0), inclination);
+            point.applyAxisAngle(new THREE.Vector3(0, 1, 0), ascendingNode);
+            point.applyAxisAngle(new THREE.Vector3(0, 1, 0), argumentOfPeriapsis);
+
+            points.push(point);
         }
         return points;
     }
@@ -70,12 +100,26 @@ export class Orbit {
 
     getPosition(time: number): THREE.Vector3 {
         const theta = time % (Math.PI * 2);
-        const radius = this.points[0].length();
-        return new THREE.Vector3(
-            Math.cos(theta) * radius,
+        const {
+            radius,
+            eccentricity = 0,
+            inclination = 0,
+            ascendingNode = 0,
+            argumentOfPeriapsis = 0
+        } = this.params;
+
+        const r = radius * (1 - eccentricity * eccentricity) / (1 + eccentricity * Math.cos(theta));
+        const position = new THREE.Vector3(
+            r * Math.cos(theta),
             0,
-            Math.sin(theta) * radius
+            r * Math.sin(theta)
         );
+
+        position.applyAxisAngle(new THREE.Vector3(1, 0, 0), inclination);
+        position.applyAxisAngle(new THREE.Vector3(0, 1, 0), ascendingNode);
+        position.applyAxisAngle(new THREE.Vector3(0, 1, 0), argumentOfPeriapsis);
+
+        return position;
     }
 }
 
@@ -91,47 +135,49 @@ export class TransferOrbit extends Orbit {
             color = 0x00ff00,
             segments = 100,
             lineWidth = 2,
-            opacity = 0.7
+            opacity = 0.7,
         } = params;
 
-        super({ radius: 0, color, segments: 2, lineWidth, opacity });
-
         // Calculate transfer orbit parameters
-        const a = (startRadius + endRadius) / 2;  // Semi-major axis
         const e = Math.abs(endRadius - startRadius) / (endRadius + startRadius);  // Eccentricity
 
+        super({
+            radius: startRadius,  // Use startRadius as base radius
+            color,
+            segments,
+            lineWidth,
+            opacity,
+            eccentricity: e
+        });
+
         if (startPosition) {
-            const startAngle = Math.atan2(startPosition.z, startPosition.x);
-
-            this.fullPoints = [];
-            if (e < 1) {
-                for (let i = 0; i <= segments; i++) {
-                    const t = i / segments;
-                    // Reduced from Math.PI to Math.PI * 0.95 to reduce overshoot
-                    const theta = startAngle + t * (Math.PI * 0.95);
-                    const r = (a * (1 - e * e)) / (1 + e * Math.cos(theta - startAngle));
-                    this.fullPoints.push(new THREE.Vector3(
-                        r * Math.cos(theta),
-                        0,
-                        r * Math.sin(theta)
-                    ));
-                }
-            }
-        } else {
-            // Basic transfer from x-axis (unchanged)
-            this.fullPoints = [];
-            for (let i = 0; i <= segments; i++) {
-                const theta = (i / segments) * Math.PI;
-                const r = (a * (1 - e * e)) / (1 + e * Math.cos(theta));
-                this.fullPoints.push(new THREE.Vector3(
-                    r * Math.cos(theta),
-                    0,
-                    r * Math.sin(theta)
-                ));
-            }
+            this.calculateTransferPoints(startPosition, startRadius, endRadius, segments);
         }
-
         this.updateProgress(0);
+    }
+
+    private calculateTransferPoints(
+        startPosition: THREE.Vector3,
+        startRadius: number,
+        endRadius: number,
+        segments: number
+    ): void {
+        const startAngle = Math.atan2(startPosition.z, startPosition.x);
+        const a = (startRadius + endRadius) / 2;
+        const e = Math.abs(endRadius - startRadius) / (endRadius + startRadius);
+
+        for (let i = 0; i <= segments; i++) {
+            const t = i / segments;
+            const theta = t * Math.PI;  // Half orbit for transfer
+            const r = a * (1 - e * e) / (1 + e * Math.cos(theta));
+
+            const point = new THREE.Vector3(
+                r * Math.cos(theta + startAngle),
+                0,
+                r * Math.sin(theta + startAngle)
+            );
+            this.fullPoints.push(point);
+        }
     }
 
     updateProgress(progress: number): void {
@@ -143,7 +189,7 @@ export class TransferOrbit extends Orbit {
         const numPoints = Math.max(2, Math.ceil(this.fullPoints.length * this.progress));
         const visiblePoints = this.fullPoints.slice(0, numPoints);
         const newGeometry = new THREE.BufferGeometry().setFromPoints(visiblePoints);
-        this.line.geometry.dispose(); // Clean up old geometry
+        this.line.geometry.dispose();
         this.line.geometry = newGeometry;
         this.geometry = newGeometry;
     }
@@ -153,15 +199,19 @@ export class OrbitalSystem {
     private scene: THREE.Scene;
     private orbits: Map<string, Orbit> = new Map();
     private transfers: Map<string, TransferOrbit> = new Map();
+    private parentOrbits: Map<string, string> = new Map();
 
     constructor(scene: THREE.Scene) {
         this.scene = scene;
     }
 
-    addOrbit(name: string, params: OrbitParams): void {
+    addOrbit(name: string, params: OrbitParams, parentName?: string): void {
         const orbit = new Orbit(params);
         this.orbits.set(name, orbit);
         this.scene.add(orbit.getMesh());
+        if (parentName) {
+            this.parentOrbits.set(name, parentName);
+        }
     }
 
     addTransfer(name: string, params: TransferParams): void {
@@ -188,5 +238,6 @@ export class OrbitalSystem {
         this.transfers.forEach(transfer => transfer.dispose());
         this.orbits.clear();
         this.transfers.clear();
+        this.parentOrbits.clear();
     }
 }
