@@ -228,26 +228,22 @@ const SolarSystem = () => {
   }
 
   return (
-      <div className="relative w-full h-screen">
+      <>
         <div
             ref={mountRef}
-            className="w-full h-screen"
-            style={{ backgroundColor: '#111111' }}
+            className="fixed top-0 right-0 bottom-0"
+            style={{
+              backgroundColor: '#111111',
+              left: window.innerWidth <= 640 ? '64px' : '96px'
+            }}
         />
         {countdown && (
-            <div className="absolute top-4 left-1/2 transform -translate-x-1/2 bg-gray-900 text-white px-4 py-2 rounded-lg shadow-lg">
+            <div
+                className="absolute top-4 left-1/2 transform -translate-x-1/2 bg-gray-900 text-white px-4 py-2 rounded-lg shadow-lg z-10">
               {countdown}
             </div>
         )}
-        {error && (
-            <div className="absolute inset-0 flex items-center justify-center bg-gray-900 text-white p-4">
-              <div className="max-w-md text-center">
-                <h2 className="text-xl font-semibold mb-2">WebGL Not Available</h2>
-                <p className="text-gray-300">{error}</p>
-              </div>
-            </div>
-        )}
-      </div>
+      </>
   );
 };
 
