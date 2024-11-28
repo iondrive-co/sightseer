@@ -6,6 +6,8 @@ export interface CelestialBodyConfig {
     orbitRadius: number;
     color: number;
     period: number;
+    eccentricity: number;
+    inclination: number;
     rotationSpeed?: number;
     type: 'planet' | 'dwarf-planet' | 'asteroid' | 'comet' | 'moon';
     parentBody?: string;  // For moons, reference to parent planet
@@ -27,49 +29,18 @@ export interface AtmosphereConfig {
     scale: number;  // How much bigger than the planet
 }
 
-export interface TransferConfig {
-    name: string;
-    startBody: string;
-    endBody: string;
-    color: number;
-    opacity: number;
-    lineWidth: number;
-}
-
-export interface OrbitConfig {
-    color: number;
-    opacity: number;
-    lineWidth: number;
-    visible: boolean;
-}
-
-export interface SimulationConfig {
-    timeMultiplier: number;
-    earthYear: number;  // Seconds in Earth year
-    transferCooldown: number;
-    launchWindowTolerance: number;
-    phaseAngle: number;
-}
-
 export interface SceneConfig {
     backgroundColor: number;
     ambientLightIntensity: number;
     sunLightIntensity: number;
+    gridConfig: {
+        size: number;
+        divisions: number;
+        mainColor: number;
+        secondaryColor: number;
+        visible: boolean;
+    };
 }
-
-export const DEFAULT_SIMULATION_CONFIG: SimulationConfig = {
-    timeMultiplier: 2,
-    earthYear: 12,
-    transferCooldown: 2000,
-    launchWindowTolerance: 0.05,
-    phaseAngle: (45 * Math.PI) / 180
-};
-
-export const DEFAULT_SCENE_CONFIG: SceneConfig = {
-    backgroundColor: 0x111111,
-    ambientLightIntensity: 1.0,
-    sunLightIntensity: 2.0,
-};
 
 export const CAMERA_CONFIG = {
     fov: 60,
@@ -84,81 +55,180 @@ export const CAMERA_CONFIG = {
     lookAt: { x: 0, y: 0, z: 0 },
 };
 
-export const SUN_CONFIG = {
-    radius: 8,
-    color: 0xff9933,
-    rotationSpeed: 0.005
+// Note: We'll use a scale factor to make the visualization work in our viewport
+// Real values in km: Sun=696,340, Mercury=2,440, Venus=6,052, Earth=6,371, Mars=3,390
+// Real distances in million km: Mercury=57.9, Venus=108.2, Earth=149.6, Mars=227.9
+
+// Scale factors to make the visualization work:
+// 1. Size scale: 1 unit = ~10,000 km (for celestial body sizes)
+// 2. Distance scale: 1 unit = ~3 million km (for orbit distances)
+// These scales are chosen to make the visualization visible while maintaining relative proportions
+export const SCALE_FACTORS = {
+    SIZE: 1/2000,      // 1 unit = 2,000 km
+    DISTANCE: 1/3000000 // 1 unit = 3 million km
 };
 
-export const CELESTIAL_BODIES: CelestialBodyConfig[] = [
+export const SUN_CONFIG = {
+    // Draw at 1/25 the real scale so we can see planets
+    radius: 696340 * SCALE_FACTORS.SIZE * (1/25), // ~69.6 units
+    color: 0xffd700,
+    rotationSpeed: 0.001,
+    emissiveIntensity: 1.0,
+    coronaScale: 1.2
+};
+
+export const DEFAULT_SIMULATION_CONFIG = {
+    timeMultiplier: 20,
+    earthYear: 365,       // One Earth year in simulation seconds
+    transferCooldown: 2000,
+    launchWindowTolerance: 0.05,
+    phaseAngle: (45 * Math.PI) / 180
+};
+
+export const DEFAULT_SCENE_CONFIG = {
+    backgroundColor: 0x000000,  // True black for space
+    ambientLightIntensity: 0.3,
+    sunLightIntensity: 1.2,     // So we can still see planets
+};
+
+export const CELESTIAL_BODIES = [
     {
         name: 'mercury',
-        radius: 3,
-        orbitRadius: 25,
-        color: 0x999999,
+        radius: 2440 * SCALE_FACTORS.SIZE,  // ~0.24 units
+        orbitRadius: 57900000 * SCALE_FACTORS.DISTANCE, // ~19.3 units
+        color: 0x8c8c8c,  // Grey-silver color
         period: 0.24,
-        rotationSpeed: 0.02,
-        type: 'planet'
+        rotationSpeed: 0.0001,
+        type: 'planet' as const,
+        eccentricity: 0.206,
+        inclination: 7.0 * Math.PI / 180,  // 7.0 degrees
+        atmosphere: {
+            color: 0x808080,
+            opacity: 0.1,
+            scale: 1.02
+        }
     },
     {
         name: 'venus',
-        radius: 4,
-        orbitRadius: 40,
-        color: 0xffcc99,
+        radius: 6052 * SCALE_FACTORS.SIZE,  // ~0.61 units
+        orbitRadius: 108200000 * SCALE_FACTORS.DISTANCE, // ~36.1 units
+        color: 0xffd1b3,  // Pale orange
         period: 0.62,
-        rotationSpeed: 0.02,
-        type: 'planet'
+        rotationSpeed: -0.0001,  // Negative for retrograde rotation
+        type: 'planet' as const,
+        eccentricity: 0.007,
+        inclination: 3.4 * Math.PI / 180,
+        atmosphere: {
+            color: 0xffa07a,
+            opacity: 0.4,
+            scale: 1.15
+        }
     },
     {
         name: 'earth',
-        radius: 5,
-        orbitRadius: 60,
-        color: 0x3333ff,
+        radius: 6371 * SCALE_FACTORS.SIZE,  // ~0.64 units
+        orbitRadius: 149600000 * SCALE_FACTORS.DISTANCE, // ~49.9 units
+        color: 0x2f6a69,  // Blue-green
         period: 1.0,
-        rotationSpeed: 0.02,
-        type: 'planet'
+        rotationSpeed: 0.002,
+        type: 'planet' as const,
+        eccentricity: 0.017,
+        inclination: 0.0,  // Reference plane
+        atmosphere: {
+            color: 0x6b93d6,
+            opacity: 0.2,
+            scale: 1.1
+        }
     },
     {
         name: 'mars',
-        radius: 4,
-        orbitRadius: 80,
-        color: 0xff4444,
+        radius: 3390 * SCALE_FACTORS.SIZE,  // ~0.34 units
+        orbitRadius: 227900000 * SCALE_FACTORS.DISTANCE, // ~76.0 units
+        color: 0xc1440e,  // Red-orange
         period: 1.88,
-        rotationSpeed: 0.02,
-        type: 'planet'
+        rotationSpeed: 0.002,
+        type: 'planet' as const,
+        eccentricity: 0.093,
+        inclination: 1.9 * Math.PI / 180,
+        atmosphere: {
+            color: 0xc1440e,
+            opacity: 0.1,
+            scale: 1.05,  // Thin atmosphere
+        }
+    }
+];
+// Make the asteroids visible
+export const ASTEROID_SIZE_MULTIPLIER = 5
+export const ASTEROID_BODIES: CelestialBodyConfig[] = [
+    {
+        name: 'ceres',
+        radius: 470 * SCALE_FACTORS.SIZE * ASTEROID_SIZE_MULTIPLIER,  // ~0.047 units (actual radius: 470 km)
+        orbitRadius: 413700000 * SCALE_FACTORS.DISTANCE, // ~137.9 units
+        color: 0x8B7355,  // Brown-grey color
+        period: 4.6,  // Orbital period in Earth years
+        rotationSpeed: 0.004,
+        type: 'dwarf-planet' as const,
+        eccentricity: 0.076,
+        inclination: 10.6 * Math.PI / 180,
+    },
+    {
+        name: 'vesta',
+        radius: 263 * SCALE_FACTORS.SIZE * ASTEROID_SIZE_MULTIPLIER,  // ~0.026 units
+        orbitRadius: 353400000 * SCALE_FACTORS.DISTANCE, // ~117.8 units
+        color: 0x8B8B83,  // Grey color
+        period: 3.63,
+        rotationSpeed: 0.003,
+        type: 'asteroid' as const,
+        eccentricity: 0.089,
+        inclination: 7.1 * Math.PI / 180,
+    },
+    {
+        name: 'pallas',
+        radius: 256 * SCALE_FACTORS.SIZE * ASTEROID_SIZE_MULTIPLIER,  // ~0.026 units
+        orbitRadius: 414700000 * SCALE_FACTORS.DISTANCE, // ~138.2 units
+        color: 0x7A7A7A,  // Dark grey
+        period: 4.62,
+        rotationSpeed: 0.002,
+        type: 'asteroid' as const,
+        eccentricity: 0.231,
+        inclination: 34.8 * Math.PI / 180,
+    },
+    {
+        name: 'hygiea',
+        radius: 217 * SCALE_FACTORS.SIZE * ASTEROID_SIZE_MULTIPLIER,  // ~0.022 units
+        orbitRadius: 470100000 * SCALE_FACTORS.DISTANCE, // ~156.7 units
+        color: 0x6B6B6B,  // Medium grey
+        period: 5.57,
+        rotationSpeed: 0.001,
+        type: 'asteroid' as const,
+        eccentricity: 0.112,
+        inclination: 3.8 * Math.PI / 180,
     }
 ];
 
-// Transfer orbit configurations
-export const DEFAULT_TRANSFER_CONFIG: Partial<TransferConfig> = {
-    color: 0xff0000,
-    opacity: 0.7,
-    lineWidth: 2
+export const TRANSFER_COLORS = {
+    BLUE: 0x0066ff,
+    GREEN: 0x00ff00,
+    YELLOW: 0xffff00,
+    RED: 0xff0000
 };
 
-export const calculateOrbitPosition = (
-    radius: number,
-    angle: number
-): THREE.Vector3 => {
-    return new THREE.Vector3(
-        Math.cos(angle) * radius,
-        0,
-        Math.sin(angle) * radius
-    );
+export const DEFAULT_TRANSFER_CONFIG = {
+    color: TRANSFER_COLORS.BLUE,
+    opacity: 0.5,
+    lineWidth: 1
 };
 
-export const calculatePhaseAngle = (
-    body1Pos: THREE.Vector3,
-    body2Pos: THREE.Vector3
-): number => {
-    const angle1 = Math.atan2(body1Pos.z, body1Pos.x);
-    let angle2 = Math.atan2(body2Pos.z, body2Pos.x);
-    if (angle2 < angle1) angle2 += 2 * Math.PI;
-    return angle2 - angle1;
-};
+export const formatCountdown = (seconds: number, earthMonths: number): string => {
+    if (!isFinite(seconds) || !isFinite(earthMonths)) {
+        return "Calculating...";
+    }
 
-export const formatCountdown = (seconds: number): string => {
-    const mins = Math.floor(seconds / 60);
-    const secs = Math.floor(seconds % 60);
-    return `${mins}m ${secs}s`;
-};
+    const positiveSeconds = Math.max(0, seconds);
+    const days = Math.floor(positiveSeconds / (24 * 3600));
+    const hours = Math.floor((positiveSeconds % (24 * 3600)) / 3600);
+    const minutes = Math.floor((positiveSeconds % 3600) / 60);
+    const remainingSeconds = Math.floor(positiveSeconds % 60);
+
+    return `${Math.max(0, Math.ceil(earthMonths))} months (${days}d ${hours}h ${minutes}m ${remainingSeconds}s)`;
+}

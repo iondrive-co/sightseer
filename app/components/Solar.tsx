@@ -1,16 +1,22 @@
 import { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
-import { OrbitalSystem } from "~/components/solar/OrbitalMechanics";
+import {
+  calculateOptimalPhaseAngle,
+  calculateTimeToWindow,
+  getCurrentPhaseAngle,
+  OrbitalSystem
+} from "./solar/OrbitalMechanics";
 import {
   CELESTIAL_BODIES,
   DEFAULT_SCENE_CONFIG,
   DEFAULT_SIMULATION_CONFIG,
   DEFAULT_TRANSFER_CONFIG,
+  CAMERA_CONFIG,
+  ASTEROID_BODIES,
   SUN_CONFIG,
-  calculatePhaseAngle,
   formatCountdown,
-  type CelestialBodyConfig, CAMERA_CONFIG
-} from '~/components/solar/Configuration';
+  type CelestialBodyConfig
+} from './solar/Configuration';
 
 interface CelestialBody extends CelestialBodyConfig {
   mesh: THREE.Mesh;
@@ -76,65 +82,63 @@ const SolarSystem = () => {
       scene.add(sunLight);
 
       // Create sun
-      const sun = new THREE.Mesh(
-          new THREE.SphereGeometry(SUN_CONFIG.radius, 32, 32),
-          new THREE.MeshBasicMaterial({ color: SUN_CONFIG.color })
-      );
+      const sunGeometry = new THREE.SphereGeometry(SUN_CONFIG.radius, 32, 32);
+      const sunMaterial = new THREE.MeshBasicMaterial({
+        color: SUN_CONFIG.color
+      });
+      const sun = new THREE.Mesh(sunGeometry, sunMaterial);
       scene.add(sun);
 
       // Initialize orbital system
       const orbitalSystem = new OrbitalSystem(scene);
 
       // Create celestial bodies
-      const bodies: CelestialBody[] = CELESTIAL_BODIES.map(config => {
-        // Create mesh for the celestial body
-        const body = new THREE.Mesh(
-            new THREE.SphereGeometry(config.radius, 32, 32),
-            new THREE.MeshPhongMaterial({ color: config.color })
-        );
-        scene.add(body);
-
-        // Add orbit
-        orbitalSystem.addOrbit(config.name, {
-          radius: config.orbitRadius,
-          color: config.color,
-          opacity: 1.0,
-          lineWidth: 2
-        });
-
-        // Add atmosphere if configured
-        if (config.atmosphere) {
-          const atmosphere = new THREE.Mesh(
-              new THREE.SphereGeometry(config.radius * config.atmosphere.scale, 32, 32),
-              new THREE.MeshPhongMaterial({
-                color: config.atmosphere.color,
-                transparent: true,
-                opacity: config.atmosphere.opacity
-              })
-          );
-          body.add(atmosphere);
-        }
-
-        // Add rings if configured
-        if (config.rings) {
-          const ringGeometry = new THREE.RingGeometry(
-              config.rings.innerRadius,
-              config.rings.outerRadius,
-              32
-          );
-          const ringMaterial = new THREE.MeshPhongMaterial({
-            color: config.rings.color,
-            transparent: true,
-            opacity: config.rings.opacity,
-            side: THREE.DoubleSide
+      const createBodies = (configs: CelestialBodyConfig[]): CelestialBody[] => {
+        return configs.map(config => {
+          // Create main body mesh
+          const geometry = new THREE.SphereGeometry(config.radius, 32, 32);
+          const material = new THREE.MeshPhongMaterial({
+            color: config.color,
+            emissive: config.color,
+            emissiveIntensity: 0.5,
           });
-          const ring = new THREE.Mesh(ringGeometry, ringMaterial);
-          ring.rotation.x = Math.PI / 2;
-          body.add(ring);
-        }
+          const body = new THREE.Mesh(geometry, material);
+          scene.add(body);
 
-        return { ...config, mesh: body };
-      });
+          // Add orbit
+          orbitalSystem.addOrbit(config.name, {
+            radius: config.orbitRadius,
+            color: config.color,
+            opacity: 1.0,
+            lineWidth: config.type === 'planet' ? 2 : 1, // thinner lines for asteroids
+            eccentricity: config.eccentricity,
+            inclination: config.inclination
+          });
+
+          // Add atmosphere if configured
+          if (config.atmosphere) {
+            const atmosphereGeometry = new THREE.SphereGeometry(
+                config.radius * config.atmosphere.scale,
+                32,
+                32
+            );
+            const atmosphereMaterial = new THREE.MeshPhongMaterial({
+              color: config.atmosphere.color,
+              transparent: true,
+              opacity: config.atmosphere.opacity
+            });
+            const atmosphere = new THREE.Mesh(atmosphereGeometry, atmosphereMaterial);
+            body.add(atmosphere);
+          }
+
+          return { ...config, mesh: body };
+        });
+      };
+
+      const bodies: CelestialBody[] = [
+        ...createBodies(CELESTIAL_BODIES),
+        ...createBodies(ASTEROID_BODIES)
+      ];
 
       // Transfer orbit state
       let transferProgress = 0;
@@ -170,7 +174,7 @@ const SolarSystem = () => {
               );
               // eslint-disable-next-line @typescript-eslint/no-unused-vars
               moons.forEach(_ => {
-                // Moon orbit calculations go here
+                // Moon orbit calculations...
               });
             }
           }
@@ -180,7 +184,7 @@ const SolarSystem = () => {
         if (activeTransfer) {
           const currentTransfer = orbitalSystem.getTransfer(activeTransfer);
           if (currentTransfer) {
-            transferProgress += 0.005;
+            transferProgress += 0.002;
             currentTransfer.updateProgress(transferProgress);
 
             if (transferProgress >= 1) {
@@ -195,11 +199,14 @@ const SolarSystem = () => {
           const mars = bodies.find(b => b.name === 'mars');
 
           if (earth?.position && mars?.position) {
-            const phaseAngle = calculatePhaseAngle(earth.position, mars.position);
-            const difference = Math.abs(phaseAngle - DEFAULT_SIMULATION_CONFIG.phaseAngle);
+            const targetPhase = calculateOptimalPhaseAngle(earth.orbitRadius, mars.orbitRadius);
+            const currentPhase = getCurrentPhaseAngle(earth.position, mars.position);
 
-            if (difference < DEFAULT_SIMULATION_CONFIG.launchWindowTolerance) {
-              setCountdown("Earth-to-Mars Hohmann transfer in progress");
+            // Check if we're within the launch window
+            const phaseDifference = Math.abs(currentPhase - targetPhase);
+
+            if (phaseDifference < DEFAULT_SIMULATION_CONFIG.launchWindowTolerance) {
+              setCountdown("Starting Earth-to-Mars Hohmann transfer");
 
               const transferName = `earth-mars-${currentTime}`;
               orbitalSystem.addTransferFromPosition(
@@ -207,6 +214,7 @@ const SolarSystem = () => {
                   {
                     startRadius: earth.orbitRadius,
                     endRadius: mars.orbitRadius,
+                    startPosition: earth.position,
                     ...DEFAULT_TRANSFER_CONFIG
                   },
                   earth.position
@@ -218,18 +226,17 @@ const SolarSystem = () => {
                 newTransfer.setVisible(true);
               }
             } else {
-              // Calculate time to next window
-              const currentPhase = calculatePhaseAngle(earth.position, mars.position);
-              const timeToWindow = calculateTimeToNextWindow(
+              const { realSeconds, earthMonths } = calculateTimeToWindow(
                   currentPhase,
-                  DEFAULT_SIMULATION_CONFIG.phaseAngle,
-                  earth.period,
-                  mars.period,
-                  DEFAULT_SIMULATION_CONFIG.earthYear,
+                  targetPhase,
+                  earth.orbitRadius,
+                  mars.orbitRadius,
                   DEFAULT_SIMULATION_CONFIG.timeMultiplier
               );
 
-              setCountdown(`Next Mars injection window in: ${formatCountdown(timeToWindow)}`);
+              setCountdown(
+                  `Next Mars transfer window in: ${formatCountdown(realSeconds, earthMonths)}`
+              );
             }
           }
         }
@@ -302,26 +309,6 @@ const SolarSystem = () => {
         )}
       </>
   );
-};
-
-// Helper function for calculating time to next launch window
-const calculateTimeToNextWindow = (
-    currentPhase: number,
-    targetPhase: number,
-    period1: number,
-    period2: number,
-    earthYear: number,
-    timeMultiplier: number
-): number => {
-  let timeToWindow = (targetPhase - currentPhase) /
-      ((2 * Math.PI) * (1/earthYear - 1/(period2 * earthYear)));
-
-  if (timeToWindow < 0) {
-    timeToWindow += 2 * Math.PI / ((2 * Math.PI) * (1/earthYear - 1/(period2 * earthYear)));
-  }
-
-  const scaledTime = timeToWindow / timeMultiplier;
-  return Math.max(0, earthYear - scaledTime + 1);
 };
 
 export default SolarSystem;
