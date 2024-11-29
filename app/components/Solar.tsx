@@ -229,8 +229,6 @@ const SolarSystem = () => {
               const { realSeconds, earthMonths } = calculateTimeToWindow(
                   currentPhase,
                   targetPhase,
-                  earth.orbitRadius,
-                  mars.orbitRadius,
                   DEFAULT_SIMULATION_CONFIG.timeMultiplier
               );
 

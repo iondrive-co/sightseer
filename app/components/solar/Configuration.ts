@@ -1,5 +1,3 @@
-import * as THREE from 'three';
-
 export interface CelestialBodyConfig {
     name: string;
     radius: number;
@@ -225,10 +223,8 @@ export const formatCountdown = (seconds: number, earthMonths: number): string =>
     }
 
     const positiveSeconds = Math.max(0, seconds);
-    const days = Math.floor(positiveSeconds / (24 * 3600));
-    const hours = Math.floor((positiveSeconds % (24 * 3600)) / 3600);
     const minutes = Math.floor((positiveSeconds % 3600) / 60);
     const remainingSeconds = Math.floor(positiveSeconds % 60);
 
-    return `${Math.max(0, Math.ceil(earthMonths))} months (${days}d ${hours}h ${minutes}m ${remainingSeconds}s)`;
+    return `${Math.max(0, Math.ceil(earthMonths))} months (${minutes}m ${remainingSeconds}s)`;
 }

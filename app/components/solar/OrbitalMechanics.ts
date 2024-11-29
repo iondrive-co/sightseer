@@ -123,7 +123,7 @@ export class Orbit {
     }
 }
 
-export class TransferOrbit extends Orbit {
+class TransferOrbit extends Orbit {
     private progress: number = 0;
     private readonly fullPoints: THREE.Vector3[] = [];
 
@@ -139,10 +139,12 @@ export class TransferOrbit extends Orbit {
         } = params;
 
         // Calculate transfer orbit parameters
-        const e = Math.abs(endRadius - startRadius) / (endRadius + startRadius);  // Eccentricity
+        const ra = Math.max(endRadius, startRadius);    // Apoapsis radius
+        const rp = Math.min(endRadius, startRadius);    // Periapsis radius
+        const e = (ra - rp) / (ra + rp);               // Eccentricity
 
         super({
-            radius: startRadius,  // Use startRadius as base radius
+            radius: startRadius,
             color,
             segments,
             lineWidth,
@@ -242,26 +244,32 @@ export class OrbitalSystem {
     }
 }
 
-export const calculateOptimalPhaseAngle = (r1: number, r2: number): number => {
-    // Calculate transfer orbit period
-    const a = (r1 + r2) / 2;
-    const transferPeriod = 2 * Math.PI * Math.sqrt(a * a * a);
-    const transferTime = transferPeriod / 2; // Time for half the transfer orbit
+export const calculateOptimalPhaseAngle = (
+    r1: number,
+    r2: number
+): number => {
+    // Calculate semi-major axes
+    const a_transfer = (r1 + r2) / 2;
 
-    // Calculate Mars' angular movement during transfer
-    const marsPeriod = 2 * Math.PI * Math.sqrt(r2 * r2 * r2);
-    const marsAngularVel = 2 * Math.PI / marsPeriod;
-    const marsAngle = marsAngularVel * transferTime;
+    // Calculate transfer time (half the orbital period)
+    const transfer_period = 2 * Math.PI * Math.sqrt(a_transfer * a_transfer * a_transfer);
+    const transfer_time = transfer_period / 2;
 
-    // For a Hohmann transfer, Mars needs to be ahead by π - marsAngle
-    return Math.PI - marsAngle;
+    // Calculate Mars period
+    const mars_period = 2 * Math.PI * Math.sqrt(r2 * r2 * r2);
+
+    // Calculate how far Mars moves during transfer
+    const mars_angle = (transfer_time / mars_period) * 2 * Math.PI;
+
+    // For a Hohmann transfer, we need Mars to be ahead by 180° minus
+    // the angle it travels during transfer
+    return Math.PI - mars_angle;
 }
 
 export const getCurrentPhaseAngle = (earthPos: THREE.Vector3, marsPos: THREE.Vector3): number => {
     const earthAngle = Math.atan2(earthPos.z, earthPos.x);
     const marsAngle = Math.atan2(marsPos.z, marsPos.x);
 
-    // Calculate phase angle (how far Mars is ahead of Earth)
     let phaseAngle = marsAngle - earthAngle;
     if (phaseAngle < 0) phaseAngle += 2 * Math.PI;
 
@@ -271,38 +279,21 @@ export const getCurrentPhaseAngle = (earthPos: THREE.Vector3, marsPos: THREE.Vec
 export const calculateTimeToWindow = (
     currentPhase: number,
     targetPhase: number,
-    earthOrbitRadius: number,
-    marsOrbitRadius: number,
-    timeMultiplier: number
+    timeMultiplier: number,
+    earthYear: number = 365
 ): { realSeconds: number, earthMonths: number } => {
-    // Calculate actual periods
-    const earthPeriod = 2 * Math.PI * Math.sqrt(earthOrbitRadius * earthOrbitRadius * earthOrbitRadius);
-    const marsPeriod = 2 * Math.PI * Math.sqrt(marsOrbitRadius * marsOrbitRadius * marsOrbitRadius);
-
-    // Angular velocities in radians per simulation second
-    const earthVel = 2 * Math.PI / earthPeriod;
-    const marsVel = 2 * Math.PI / marsPeriod;
+    // Angular velocities (same as animation loop)
+    const earthVel = 2 * Math.PI / earthYear;
+    const marsVel = earthVel / 1.88;
     const relativeVel = marsVel - earthVel;
 
-    // Calculate phase difference needed
     let angleDiff = currentPhase - targetPhase;
     if (angleDiff < 0) angleDiff += 2 * Math.PI;
 
-    // Time needed in simulation seconds
     const simTime = angleDiff / Math.abs(relativeVel);
 
-    // Convert to real seconds
-    // Since simulation runs timeMultiplier times faster than real time,
-    // if something takes X simulation seconds, it takes X/timeMultiplier real seconds
-    // TODO / 5 is a hack because we have accounted for the real time multipler - will fix
-    const realSeconds = (simTime / timeMultiplier) / 5;
-
-    // Convert to Earth months (using sim time, not real time)
-    const earthMonths = (simTime / earthPeriod) * 12;
-
     return {
-        realSeconds: Math.max(0, realSeconds),
-        earthMonths: Math.max(0, earthMonths)
+        realSeconds: Math.max(0, simTime / timeMultiplier),
+        earthMonths: Math.max(0, (simTime / earthYear) * 12)
     };
 }
-
