@@ -27,19 +27,6 @@ export interface AtmosphereConfig {
     scale: number;  // How much bigger than the planet
 }
 
-export interface SceneConfig {
-    backgroundColor: number;
-    ambientLightIntensity: number;
-    sunLightIntensity: number;
-    gridConfig: {
-        size: number;
-        divisions: number;
-        mainColor: number;
-        secondaryColor: number;
-        visible: boolean;
-    };
-}
-
 export const CAMERA_CONFIG = {
     fov: 60,
     aspectRatio: typeof window !== "undefined" ? window.innerWidth / window.innerHeight : 16 / 9,
@@ -139,6 +126,18 @@ export const CELESTIAL_BODIES = [
         }
     },
     {
+        name: 'moon',
+        radius: 1737 * SCALE_FACTORS.SIZE,
+        orbitRadius: 384400 * SCALE_FACTORS.DISTANCE * 40,
+        color: 0xCCCCCC,
+        period: 0.0748, // 27.3 days in Earth years
+        rotationSpeed: 0.0005,
+        type: 'moon' as const,
+        parentBody: 'earth',
+        eccentricity: 0.0549,
+        inclination: 5.145 * Math.PI / 180
+    },
+    {
         name: 'mars',
         radius: 3390 * SCALE_FACTORS.SIZE,  // ~0.34 units
         orbitRadius: 227900000 * SCALE_FACTORS.DISTANCE, // ~76.0 units
@@ -223,8 +222,7 @@ export const formatCountdown = (seconds: number, earthMonths: number): string =>
     }
 
     const positiveSeconds = Math.max(0, seconds);
-    const minutes = Math.floor((positiveSeconds % 3600) / 60);
     const remainingSeconds = Math.floor(positiveSeconds % 60);
 
-    return `${Math.max(0, Math.ceil(earthMonths))} months (${minutes}m ${remainingSeconds}s)`;
+    return `${Math.max(0, Math.ceil(earthMonths))} months (${remainingSeconds}s)`;
 }
