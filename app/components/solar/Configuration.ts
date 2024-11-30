@@ -200,6 +200,94 @@ export const ASTEROID_BODIES: CelestialBodyConfig[] = [
         type: 'asteroid' as const,
         eccentricity: 0.112,
         inclination: 3.8 * Math.PI / 180,
+    },
+    {
+        name: 'interamnia',
+        radius: 167 * SCALE_FACTORS.SIZE * ASTEROID_SIZE_MULTIPLIER,
+        orbitRadius: 457800000 * SCALE_FACTORS.DISTANCE,
+        color: 0x8B8378,  // Light gray-brown
+        period: 5.34,
+        rotationSpeed: 0.002,
+        type: 'asteroid' as const,
+        eccentricity: 0.155,
+        inclination: 17.3 * Math.PI / 180,
+    },
+    {
+        name: 'europa',
+        radius: 156 * SCALE_FACTORS.SIZE * ASTEROID_SIZE_MULTIPLIER,
+        orbitRadius: 463300000 * SCALE_FACTORS.DISTANCE,
+        color: 0x9C9C9C,  // Medium gray
+        period: 5.46,
+        rotationSpeed: 0.001,
+        type: 'asteroid' as const,
+        eccentricity: 0.116,
+        inclination: 7.5 * Math.PI / 180,
+    },
+    {
+        name: 'davida',
+        radius: 145 * SCALE_FACTORS.SIZE * ASTEROID_SIZE_MULTIPLIER,
+        orbitRadius: 475400000 * SCALE_FACTORS.DISTANCE,
+        color: 0x8B7355,  // Dark brown
+        period: 5.65,
+        rotationSpeed: 0.002,
+        type: 'asteroid' as const,
+        eccentricity: 0.186,
+        inclination: 15.9 * Math.PI / 180,
+    },
+    {
+        name: 'sylvia',
+        radius: 136 * SCALE_FACTORS.SIZE * ASTEROID_SIZE_MULTIPLIER,
+        orbitRadius: 521500000 * SCALE_FACTORS.DISTANCE,
+        color: 0x8B6914,  // Dark bronze
+        period: 6.52,
+        rotationSpeed: 0.003,
+        type: 'asteroid' as const,
+        eccentricity: 0.380,
+        inclination: 10.9 * Math.PI / 180,
+    },
+    {
+        name: 'psyche',
+        radius: 113 * SCALE_FACTORS.SIZE * ASTEROID_SIZE_MULTIPLIER,
+        orbitRadius: 374700000 * SCALE_FACTORS.DISTANCE,
+        color: 0xC0C0C0,  // Metallic silver
+        period: 5.00,
+        rotationSpeed: 0.004,
+        type: 'asteroid' as const,
+        eccentricity: 0.134,
+        inclination: 3.1 * Math.PI / 180,
+    },
+    {
+        name: 'euphrosyne',
+        radius: 134 * SCALE_FACTORS.SIZE * ASTEROID_SIZE_MULTIPLIER,
+        orbitRadius: 487100000 * SCALE_FACTORS.DISTANCE,
+        color: 0x8B8682,  // Dark gray
+        period: 5.86,
+        rotationSpeed: 0.002,
+        type: 'asteroid' as const,
+        eccentricity: 0.223,
+        inclination: 26.3 * Math.PI / 180,
+    },
+    {
+        name: 'eunomia',
+        radius: 132 * SCALE_FACTORS.SIZE * ASTEROID_SIZE_MULTIPLIER,
+        orbitRadius: 395500000 * SCALE_FACTORS.DISTANCE,
+        color: 0xCD853F,  // Light bronze
+        period: 4.30,
+        rotationSpeed: 0.003,
+        type: 'asteroid' as const,
+        eccentricity: 0.187,
+        inclination: 11.7 * Math.PI / 180,
+    },
+    {
+        name: 'juno',
+        radius: 117 * SCALE_FACTORS.SIZE * ASTEROID_SIZE_MULTIPLIER,
+        orbitRadius: 399400000 * SCALE_FACTORS.DISTANCE,
+        color: 0xB8860B,  // Dark golden
+        period: 4.36,
+        rotationSpeed: 0.002,
+        type: 'asteroid' as const,
+        eccentricity: 0.256,
+        inclination: 12.9 * Math.PI / 180,
     }
 ];
 

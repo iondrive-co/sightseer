@@ -34,13 +34,10 @@ const SolarSystem = () => {
     try {
       // WebGL support check
       const canvas = document.createElement('canvas');
-      const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
-      if (!gl) {
-        throw new Error('WebGL is not supported in your browser');
-      }
+      const gl = canvas.getContext('webgl');
+      if (!gl) throw new Error('WebGL is not supported in your browser');
 
       // Scene setup
-      const mountDiv = mountRef.current;
       const scene = new THREE.Scene();
       scene.background = new THREE.Color(DEFAULT_SCENE_CONFIG.backgroundColor);
 
@@ -56,41 +53,42 @@ const SolarSystem = () => {
           CAMERA_CONFIG.position.y,
           CAMERA_CONFIG.position.z
       );
-      camera.lookAt(
-          CAMERA_CONFIG.lookAt.x,
-          CAMERA_CONFIG.lookAt.y,
-          CAMERA_CONFIG.lookAt.z
-      );
+      camera.lookAt(CAMERA_CONFIG.lookAt.x, CAMERA_CONFIG.lookAt.y, CAMERA_CONFIG.lookAt.z);
 
       // Renderer setup
       const renderer = new THREE.WebGLRenderer({ antialias: true });
       renderer.setSize(window.innerWidth, window.innerHeight);
-      mountDiv.appendChild(renderer.domElement);
+      mountRef.current.appendChild(renderer.domElement);
 
       // Lighting
-      const ambientLight = new THREE.AmbientLight(
-          0xffffff,
-          DEFAULT_SCENE_CONFIG.ambientLightIntensity
-      );
-      scene.add(ambientLight);
-
-      const sunLight = new THREE.PointLight(
-          0xffffff,
-          DEFAULT_SCENE_CONFIG.sunLightIntensity
-      );
-      sunLight.position.set(0, 0, 0);
-      scene.add(sunLight);
+      const ambientLight = new THREE.AmbientLight(0xffffff, DEFAULT_SCENE_CONFIG.ambientLightIntensity);
+      const sunLight = new THREE.PointLight(0xffffff, DEFAULT_SCENE_CONFIG.sunLightIntensity);
+      scene.add(ambientLight, sunLight);
 
       // Create sun
       const sunGeometry = new THREE.SphereGeometry(SUN_CONFIG.radius, 32, 32);
-      const sunMaterial = new THREE.MeshBasicMaterial({
-        color: SUN_CONFIG.color
-      });
+      const sunMaterial = new THREE.MeshBasicMaterial({ color: SUN_CONFIG.color });
       const sun = new THREE.Mesh(sunGeometry, sunMaterial);
       scene.add(sun);
-
-      // Initialize orbital system
       const orbitalSystem = new OrbitalSystem(scene);
+      // Helper function to create text textures for labels
+      const createTextTexture = (text: string) => {
+        const canvas = document.createElement('canvas');
+        const ctx = canvas.getContext('2d')!;
+        canvas.width = 256;
+        canvas.height = 128;
+
+        ctx.fillStyle = 'white';
+        ctx.font = '32px Arial';
+        ctx.textAlign = 'center';
+        ctx.fillText(text, 128, 64);
+
+        const texture = new THREE.CanvasTexture(canvas);
+        texture.needsUpdate = true;
+        return texture;
+      };
+
+      // Create celestial bodies
       const allBodiesTemp = [...CELESTIAL_BODIES, ...ASTEROID_BODIES].map(config => {
         const geometry = new THREE.SphereGeometry(config.radius, 32, 32);
         const material = new THREE.MeshPhongMaterial({
@@ -116,6 +114,18 @@ const SolarSystem = () => {
           mesh.add(atmosphere);
         }
 
+        // Add labels for asteroids
+        if (config.type === 'asteroid' || config.type === 'dwarf-planet') {
+          const textSprite = new THREE.Sprite(
+              new THREE.SpriteMaterial({
+                map: createTextTexture(config.name)
+              })
+          );
+          textSprite.position.y = config.radius * 2;
+          textSprite.scale.set(40, 20, 1);
+          mesh.add(textSprite);
+        }
+
         return { ...config, mesh };
       });
 
@@ -133,7 +143,7 @@ const SolarSystem = () => {
           orbitalSystem.addOrbit(body.name, {
             radius: body.orbitRadius,
             color: body.color,
-            opacity: 1.0,
+            opacity: 0.2,
             lineWidth: body.type === 'planet' ? 2 : 1,
             eccentricity: body.eccentricity,
             inclination: body.inclination
@@ -159,7 +169,6 @@ const SolarSystem = () => {
           const time = currentTime * 0.001 * DEFAULT_SIMULATION_CONFIG.timeMultiplier;
 
           if (body.type === 'moon') {
-            // Moon positions are handled through parent-child relationships
             const moonAngularVelocity = (2 * Math.PI) / (body.period * DEFAULT_SIMULATION_CONFIG.earthYear);
             const moonAngle = time * moonAngularVelocity;
 
