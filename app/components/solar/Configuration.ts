@@ -33,9 +33,9 @@ export const CAMERA_CONFIG = {
     near: 0.1,
     far: 2000,
     position: {
-        x: 0,
-        y: 150,
-        z: 300,
+        x: -400,
+        y: 100,
+        z: 200,
     },
     lookAt: { x: 0, y: 0, z: 0 },
 };
@@ -151,6 +151,22 @@ export const CELESTIAL_BODIES = [
             color: 0xc1440e,
             opacity: 0.1,
             scale: 1.05,  // Thin atmosphere
+        }
+    },
+    {
+        name: 'jupiter',
+        radius: 69911 * SCALE_FACTORS.SIZE * 0.3,
+        orbitRadius: 778500000 * SCALE_FACTORS.DISTANCE,
+        color: 0xE6B88A, // Sandy-brown color
+        period: 11.86,
+        rotationSpeed: 0.004,
+        type: 'planet' as const,
+        eccentricity: 0.0489,
+        inclination: 1.3 * Math.PI / 180,
+        atmosphere: {
+            color: 0xC19A6B,
+            opacity: 0.3,
+            scale: 1.1
         }
     }
 ];

@@ -54,10 +54,19 @@ export class Orbit {
         this.line = new THREE.Line(this.geometry, this.material);
     }
 
+    private calculateOrbitRadius(semiMajorAxis: number, eccentricity: number, theta: number): number {
+        // Use the same approach as TransferOrbit for consistency
+        const periapsis = semiMajorAxis * (1 - eccentricity);
+        const apoapsis = semiMajorAxis * (1 + eccentricity);
+        const a = (periapsis + apoapsis) / 2;
+        const e = (apoapsis - periapsis) / (apoapsis + periapsis);
+        return a * (1 - e * e) / (1 + e * Math.cos(theta));
+    }
+
     protected calculateOrbit(): THREE.Vector3[] {
         const points: THREE.Vector3[] = [];
         const {
-            radius,
+            radius: semiMajorAxis,
             segments = 360,
             eccentricity = 0,
             inclination = 0,
@@ -65,9 +74,22 @@ export class Orbit {
             argumentOfPeriapsis = 0
         } = this.params;
 
+        // Apply rotations in same order as original
+        const rotX = new THREE.Matrix4().makeRotationX(inclination);
+        const rotY = new THREE.Matrix4().makeRotationY(ascendingNode);
+        const rotZ = new THREE.Matrix4().makeRotationZ(argumentOfPeriapsis);
+
+        // Create combined rotation matrix
+        const rotMatrix = new THREE.Matrix4()
+            .multiply(rotY)
+            .multiply(rotX)
+            .multiply(rotZ);
+
         for (let i = 0; i <= segments; i++) {
             const theta = (i / segments) * Math.PI * 2;
-            const r = radius * (1 - eccentricity * eccentricity) / (1 + eccentricity * Math.cos(theta));
+
+            // Calculate radius using the same approach as TransferOrbit
+            const r = this.calculateOrbitRadius(semiMajorAxis, eccentricity, theta);
 
             const point = new THREE.Vector3(
                 r * Math.cos(theta),
@@ -75,14 +97,44 @@ export class Orbit {
                 r * Math.sin(theta)
             );
 
-            // Apply orbital elements
-            point.applyAxisAngle(new THREE.Vector3(1, 0, 0), inclination);
-            point.applyAxisAngle(new THREE.Vector3(0, 1, 0), ascendingNode);
-            point.applyAxisAngle(new THREE.Vector3(0, 1, 0), argumentOfPeriapsis);
-
+            // Apply orbital rotations
+            point.applyMatrix4(rotMatrix);
             points.push(point);
         }
+
         return points;
+    }
+
+    getPosition(time: number): THREE.Vector3 {
+        const theta = time % (Math.PI * 2);
+        const {
+            radius: semiMajorAxis,
+            eccentricity = 0,
+            inclination = 0,
+            ascendingNode = 0,
+            argumentOfPeriapsis = 0
+        } = this.params;
+
+        // Use same radius calculation as orbit points
+        const r = this.calculateOrbitRadius(semiMajorAxis, eccentricity, theta);
+
+        const position = new THREE.Vector3(
+            r * Math.cos(theta),
+            0,
+            r * Math.sin(theta)
+        );
+
+        // Apply same rotations as orbit points
+        const rotX = new THREE.Matrix4().makeRotationX(inclination);
+        const rotY = new THREE.Matrix4().makeRotationY(ascendingNode);
+        const rotZ = new THREE.Matrix4().makeRotationZ(argumentOfPeriapsis);
+
+        position.applyMatrix4(new THREE.Matrix4()
+            .multiply(rotY)
+            .multiply(rotX)
+            .multiply(rotZ));
+
+        return position;
     }
 
     getMesh(): THREE.Line {
@@ -96,30 +148,6 @@ export class Orbit {
 
     setVisible(visible: boolean): void {
         this.line.visible = visible;
-    }
-
-    getPosition(time: number): THREE.Vector3 {
-        const theta = time % (Math.PI * 2);
-        const {
-            radius,
-            eccentricity = 0,
-            inclination = 0,
-            ascendingNode = 0,
-            argumentOfPeriapsis = 0
-        } = this.params;
-
-        const r = radius * (1 - eccentricity * eccentricity) / (1 + eccentricity * Math.cos(theta));
-        const position = new THREE.Vector3(
-            r * Math.cos(theta),
-            0,
-            r * Math.sin(theta)
-        );
-
-        position.applyAxisAngle(new THREE.Vector3(1, 0, 0), inclination);
-        position.applyAxisAngle(new THREE.Vector3(0, 1, 0), ascendingNode);
-        position.applyAxisAngle(new THREE.Vector3(0, 1, 0), argumentOfPeriapsis);
-
-        return position;
     }
 }
 
