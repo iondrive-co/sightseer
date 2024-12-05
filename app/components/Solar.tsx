@@ -17,6 +17,7 @@ import {
   formatCountdown,
   type CelestialBodyConfig
 } from './solar/Configuration';
+import { CameraController } from './solar/CameraController';
 
 interface CelestialBody extends CelestialBodyConfig {
   mesh: THREE.Mesh;
@@ -27,6 +28,7 @@ const SolarSystem = () => {
   const mountRef = useRef<HTMLDivElement>(null);
   const [countdown, setCountdown] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [cameraPosition, setCameraPosition] = useState({ x: 0, y: 0, z: 0 });
 
   useEffect(() => {
     if (!mountRef.current) return;
@@ -59,6 +61,8 @@ const SolarSystem = () => {
       const renderer = new THREE.WebGLRenderer({ antialias: true });
       renderer.setSize(window.innerWidth, window.innerHeight);
       mountRef.current.appendChild(renderer.domElement);
+      const cameraController = new CameraController(camera, renderer.domElement);
+      cameraController.setPositionUpdateCallback(setCameraPosition);
 
       // Lighting
       const ambientLight = new THREE.AmbientLight(0xffffff, DEFAULT_SCENE_CONFIG.ambientLightIntensity);
@@ -256,17 +260,9 @@ const SolarSystem = () => {
 
       animate();
 
-      // Handle window resize
-      const handleResize = () => {
-        camera.aspect = window.innerWidth / window.innerHeight;
-        camera.updateProjectionMatrix();
-        renderer.setSize(window.innerWidth, window.innerHeight);
-      };
-      window.addEventListener('resize', handleResize);
-
       // Cleanup
       return () => {
-        window.removeEventListener('resize', handleResize);
+        cameraController.dispose();
         if (mountRef.current) {
           mountRef.current.removeChild(renderer.domElement);
         }
@@ -311,11 +307,24 @@ const SolarSystem = () => {
               left: window.innerWidth <= 640 ? '64px' : '96px'
             }}
         />
-        {countdown && (
-            <div className="absolute top-4 left-1/2 transform -translate-x-1/2 bg-gray-900 text-white px-4 py-2 rounded-lg shadow-lg z-10">
-              {countdown}
-            </div>
-        )}
+        <div className="fixed top-4 left-0 right-0 flex justify-center items-center gap-4 z-10">
+          {countdown && (
+              <div className="bg-gray-900 text-white px-4 py-2 rounded-lg shadow-lg">
+                {countdown}
+              </div>
+          )}
+          <div className="bg-gray-900 text-white px-4 py-2 rounded-lg shadow-lg">
+            <span className="font-bold mr-2">Controls:</span>
+            <span className="mr-4">Mouse drag up/down - Change view angle</span>
+            <span>Mouse wheel - Zoom in/out</span>
+          </div>
+          <div className="bg-gray-900 text-white px-4 py-2 rounded-lg shadow-lg">
+            <span className="mr-2">Camera Position:</span>
+            <span className="mr-4">X: {cameraPosition.x.toFixed(2)}</span>
+            <span className="mr-4">Y: {cameraPosition.y.toFixed(2)}</span>
+            <span>Z: {cameraPosition.z.toFixed(2)}</span>
+          </div>
+        </div>
       </>
   );
 };
