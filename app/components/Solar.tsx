@@ -299,34 +299,36 @@ const SolarSystem = () => {
 
   return (
       <>
-        <div
-            ref={mountRef}
-            className="fixed top-0 right-0 bottom-0"
-            style={{
-              backgroundColor: '#111111',
-              left: window.innerWidth <= 640 ? '64px' : '96px'
-            }}
-        />
-        <div className="fixed top-4 left-0 right-0 flex justify-center items-center gap-4 z-10">
-          {countdown && (
-              <div className="bg-gray-900 text-white px-4 py-2 rounded-lg shadow-lg">
-                {countdown}
-              </div>
-          )}
-          <div className="bg-gray-900 text-white px-4 py-2 rounded-lg shadow-lg">
-            <span className="font-bold mr-2">Controls:</span>
-            <span className="mr-4">Mouse drag up/down - Change view angle</span>
-            <span>Mouse wheel - Zoom in/out</span>
-          </div>
-          <div className="bg-gray-900 text-white px-4 py-2 rounded-lg shadow-lg">
-            <span className="mr-2">Camera Position:</span>
-            <span className="mr-4">X: {cameraPosition.x.toFixed(2)}</span>
-            <span className="mr-4">Y: {cameraPosition.y.toFixed(2)}</span>
-            <span>Z: {cameraPosition.z.toFixed(2)}</span>
-          </div>
+      <div
+          ref={mountRef}
+          className="fixed top-0 right-0 bottom-0"
+          style={{
+            backgroundColor: '#111111',
+            left: window.innerWidth <= 640 ? '64px' : '96px'
+          }}
+      />
+      <div className="fixed top-4 left-0 right-0 flex justify-center items-center gap-2 z-10 px-2">
+        {countdown && (
+            <div className="bg-gray-900 text-white px-3 py-1 rounded-lg shadow-lg text-xs sm:text-sm">
+              {countdown}
+            </div>
+        )}
+        <div className="bg-gray-900 text-white px-3 py-1 rounded-lg shadow-lg text-xs sm:text-sm">
+          <span className="font-bold mr-2">Controls:</span>
+          <span className="mr-2">Up/Down - Tilt view</span>
+          <span className="mr-2">Left/Right - Rotate view</span>
+          <span>Wheel/Pinch - Zoom</span>
         </div>
-      </>
-  );
+        <div className="hidden sm:block bg-gray-900 text-white px-3 py-1 rounded-lg shadow-lg text-xs sm:text-sm">
+          <span className="mr-2">Camera Position:</span>
+          <span className="mr-2">X: {cameraPosition.x.toFixed(2)}</span>
+          <span className="mr-2">Y: {cameraPosition.y.toFixed(2)}</span>
+          <span>Z: {cameraPosition.z.toFixed(2)}</span>
+        </div>
+      </div>
+</>
+)
+  ;
 };
 
 export default SolarSystem;
