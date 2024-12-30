@@ -44,8 +44,8 @@ current surges through power lines that would occur in an EMP attack, as well as
 power control and load balancing, bidirectional flow, and fault tolerance. The widespread deployment of AMSSTs in Japan
 prior to Khan allowed the power grid to remain largely untouched and key manufacturing hubs to remain operating, and 
 Japan was able to lead a manufacturing push to produce more and donate its strategic reserves to other countries. AMSSTs
-became the most widely used power distribution transformer until the introduction of long distance wireless power
-transmission in the 80s rendered them obsolete.`,
+became the most widely used power distribution transformer until the 80s, when began to be replaced by Compact 
+Superconducting Transformers (CSTs), as well as more efficient long distance wireless power transmission`,
         classification: 'Praxis/Industrial'
     }],
     ['Ångström', {
