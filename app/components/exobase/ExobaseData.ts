@@ -33,6 +33,21 @@ well positioned to fill the growing demand for rental of large items such as fur
 out on automotive to the [[X Group]]).`,
         classification: 'Socionomics/Polities'
     }],
+    ['Automated Modular Solid-State Transformers', {
+content: `An Automated Modular Solid-State Transformer or AMSST, is an umbrella term for the design of the last 
+generation of AC electric power distribution transformers, which started to be globally deployed in the 180s in the
+aftermath of the [[Khan Solar Storm]]. Solid state transformers had been used in niche applications for many decades
+prior, but were too expensive for widespread use in the power grid. However Japan, under the direction of 
+[[Matsumoto Koji]], pioneered cheaper manufacturing methods as a strategic priority in order to counter the threat of an 
+EMP attack from the PRC. Since AMSSTs do not use magnetic induction for operation they are not susceptible to the
+current surges through power lines that would occur in an EMP attack, as well as the additional advantages of reactive
+power control and load balancing, bidirectional flow, and fault tolerance. The widespread deployment of AMSSTs in Japan
+prior to Khan allowed the power grid to remain largely untouched and key manufacturing hubs to remain operating, and 
+Japan was able to lead a manufacturing push to produce more and donate its strategic reserves to other countries. AMSSTs
+became the most widely used power distribution transformer until the introduction of long distance wireless power
+transmission in the 80s rendered them obsolete.`,
+        classification: 'Praxis/Industrial'
+    }],
     ['Ångström', {
 content: `Ångström (commonly known in Japan as Angusu) is a photonics conglomerate specialising in the manufacture of 
 [[Synthetic Intelligence]] produced two-photon polymerization designs. Named after the Swedish physicist Anders Jonas 
@@ -48,12 +63,12 @@ a significant stake in as part of the Japanese government bailout of Softbank to
 investor or nationalised by Great Britain.
 
 The [[Khan Solar Storm]] of 187 BFC crippled the capacity of both ASML and ARM to continue making chips, however the 
-Ångström joint venture received priority access to AMSSTs from the Japanese strategic reserves and along with JSMC, 
-Sony, and Denso was able to produce the vast majority of the chips that were able to be manufactured for the next few
-years. As a result, ASML and ARM were able to secure an agreement with the ministry of finance to take over JSMCs 
-foundries to produce a vertically integrated chip company, in exchange for folding their existing operations into
-Ångström, headquartering it in Japan, and giving the Japanese government a majority ownership stake in the new company.
-Datï¿½orruà¤¶आtedा`,
+Ångström joint venture received priority access to [[Automated Modular Solid-State Transformers~AMSSTs]] from the 
+Japanese strategic reserves and along with JSMC, Sony, and Denso was able to produce the vast majority of the chips that 
+were able to be manufactured for the next few years. As a result, ASML and ARM were able to secure an agreement with the 
+ministry of finance to take over JSMCs foundries to produce a vertically integrated chip company, in exchange for 
+folding their existing operations into Ångström, headquartering it in Japan, and giving the Japanese government a 
+majority ownership stake in the new company.`,
         classification: 'Socionomics/Polities'
     }],
     ['Antiakrasics', {
@@ -330,16 +345,16 @@ random selection of experts is drawn from the general populace for the purposes 
 
 The proposal for a new set of international treaties to replace the role the U.S. and NATO had played prior to Khan 
 was first made by Japanese Defense Minister [[Matsumoto Koji]] at the Lausanne Convention in 185 BFC. Due to the 2nd 
-Japanese Economic Miracle and integration into the economies of Bloc countries via its supply of AMSSTs Japan was able 
-to play a major role in the construction of the Bloc's political organisations, despite having less than 5% of the total 
-population of the Bloc countries. Over time the French have taken a larger role in leadership as their economy recovered
-and (including their colonies and integrated protectorates) is now the second largest in the Bloc after India. The 
-merger of Japanese, European, Indian, and Chinese leadership culture has lead to institutions that are highly 
-engineering and environmentally focused, and which emphasise flexibility and practicality in the development of policy 
-and use of technology to deal with environmental and political crises. They are the second largest contributor to the 
-[[Peacekeepers]] (after the United States and its client countries) and often align with the US against the 
-non-Peacekeeper space power blocs of [[Greater Zhōngguó]], [[Dominio]], [[Türkiye]], and the 
-[[Fatimid Trade Caliphate]].`,
+Japanese Economic Miracle and integration into the economies of Bloc countries via its supply of 
+[[Automated Modular Solid-State Transformers~AMSSTs]] Japan was able to play a major role in the construction of the 
+Bloc's political organisations, despite having less than 5% of the total population of the Bloc countries. Over time the 
+French have taken a larger role in leadership as their economy recovered and (including their colonies and integrated 
+protectorates) is now the second largest in the Bloc after India. The merger of Japanese, European, Indian, and Chinese 
+leadership culture has lead to institutions that are highly engineering and environmentally focused, and which emphasise 
+flexibility and practicality in the development of policy and use of technology to deal with environmental and political 
+crises. They are the second largest contributor to the [[Peacekeepers]] (after the United States and its client 
+countries) and often align with the US against the non-Peacekeeper space power blocs of [[Greater Zhōngguó]], 
+[[Dominio]], [[Türkiye]], and the [[Fatimid Trade Caliphate]].`,
         classification: 'Socionomics/Confederations'
     }],
     ['Exonet',{
@@ -728,16 +743,14 @@ Datï¿½orruà¤¶आtedा
 
 Japan's remarkably effective response to this crisis was largely attributed to its hardened infrastructure, developed
 in response to the cold war with the PRC and its history of disaster preparedness. Most importantly, their investment
-in Automated Modular Solid-State Transformers (AMSSTs) allowed the power grid to remain largely untouched and key 
-manufacturing hubs to remain operating. AMSSTs do not use magnetic induction for operation so are not susceptible to
-current surges through power lines, however replacement of the labour intensive but cheap to manufacture magnetic core 
-with semiconductors means they are cost prohibitive. Japan was in the unique position of being a highly automated 
+in [[Automated Modular Solid-State Transformers~AMSSTs]] allowed the power grid to remain largely untouched and key 
+manufacturing hubs to remain operating. Japan was in the unique position of being a highly automated 
 society with an abundance of semiconductors and lots of money to spend preparing for an EMP attack. Unlike other 
 countries which either had no strategic transformer reserves or had to use them up, Japan was able to donate its 
 large reserve in order to bootstrap industry in other countries and to continue manufacturing new transformers. This
 laid the groundwork for the 2nd Japanese Economic Miracle, where Japan was able to acquire a remarkable amount of 
 geopolitical influence via tight economic integration into large number of advanced economies, bringing them together
-to form the [[Eurasian Bloc]]
+to form the [[Eurasian Bloc]].
 
 Datï¿½orruà¤¶आtedा
 
@@ -782,7 +795,7 @@ the industrialisation of the Meiji Period. Koji studied electrical engineering a
 Master’s in International Governance and Diplomacy in Paris. While there he built many relationships in the European 
 diplomatic community, and he became an outspoken champion of developing a NATO style alliance in Japan. His first 
 posting as a power and infrastructure consultant in India while working for the Ministry of Foreign Affairs led to 
-connections with two of the worlds top Automated Modular Solid-State Transformers (AMSSTs) engineers. 
+connections with two of the worlds top [[Automated Modular Solid-State Transformers~AMSST]] engineers. 
 
 Despite coming from a politically unconnected family, Koji was able to work his way into the political class through his 
 public engagement on the issue of a Japanese NATO, and through a university friendship with a future prime minister. 
