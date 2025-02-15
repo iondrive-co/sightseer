@@ -318,7 +318,15 @@ Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
     }],
     ['Argentinian Mancomunidad', {
-        content: `Datï¿½orruà¤¶आtedा`,
+content: `The Argentinian Mancomunidad is the only terestrial freehold territory. Unlike the minarchic 
+[[Mazatlán Zona Franca]] or the [[RDP]], the Argentinian Mancomunidad possesses no government run institutions at all
+and is a purely anarcho-capitalist society. It was formed out of the state of Argentina which had severe economic 
+problems which required privatisation of large parts of the economy. It maintains order and territorial control though
+competing security firms, courts, and a mercenary military which is paid for by the Mancomunidad levying an insurance
+cost on their members. Its economy is primarily based around low cost cash crops, mining, and livestock products, as 
+well as areas where its laissez-faire economy combined with its perceived safety compared to the 
+[[Mazatlán Zona Franca]] gives it a comparative advantage, such as medical tourism, generic drug production, biotech, 
+offshore banking, and citizenship as a service.`,
         classification: 'Socionomics/Polities'
     }],
     ['Exobase', {
@@ -837,11 +845,15 @@ content: `Mazatlán Zona Franca is a semi-autonomous region, previously part of 
 the Sinaloa cartel to undercut CJNG with economies of scale and drive them east in order to end the Mexican
 drug war which was becoming hugely damaging to the Mexican economy. The region is a free economic zone, with nominal 
 custom duties and no customs regulations for imports that are not transshipments into Mexico. The administration is 
-controlled by the Sinaloa cartel and is generally considered a minarchy, however there is some government funded support 
-for members of the cartel and for their internation and space based embassies, which are generally considered to be
-coordination points for the external activities of the zone such as smuggling, and in at least one case piracy. The
-Zona competes heavily with the [[Argentinian Mancomunidad]] in the most profitable sections of their economy such as 
-synthetic drug manufacture and medical tourism.`,
+controlled by the Sinaloa cartel and is generally considered a minarchy. Taxes are collected from local businesses and
+used to fund a military capable of maintaining order and territorial control, to provide welfare to its members, and
+for some external affairs such as maintaining international and off world embassies (which are often accused of being 
+coordination points for smuggling and piracy). The zones economy is largely based on areas where a laissez-faire 
+economy backed by a narco-state has a comparative advantage, such as synthetic drug manufacture, international tax 
+avoidance and money laundering, vice tourism, human smuggling, and as an extradition haven. It is generally out-competed
+in medical tourism, generic drug production, biotech, offshore banking, and citizenship as a service by the 
+[[Argentinian Mancomunidad]] due to that territories perceived safety, and by the [[RDP]] in data haven and cybercrime
+due to its low cost of operations.`,
         classification: 'Socionomics/Polities'
     }],
     ['Pharmatica Group', {

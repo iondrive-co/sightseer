@@ -11,7 +11,7 @@
 }
 
 .article {
-    @apply flex-1 px-[12%] whitespace-pre-line overflow-y-auto;
+    @apply flex-1 px-[12%] whitespace-pre-line overflow-y-auto flex flex-col;
 }
 
 .article > h1 {
@@ -27,9 +27,7 @@ h2 {
 }
 
 .article-text {
-    @apply text-2xl
-    overflow-x-auto overflow-y-auto
-    h-[75vh];
+    @apply text-2xl overflow-x-auto flex-grow;
 }
 
 .article-text h2 {
@@ -50,11 +48,11 @@ h2 {
 
 .article > ul:last-of-type,
 .article > div:last-of-type > ul {
-    @apply mb-16;
+    @apply mb-8;
 }
 
 .classification-section {
-    @apply text-xl mt-4 -mb-12;
+    @apply text-xl py-4 mt-auto sticky bottom-0 bg-white dark:bg-gray-900;
 }
 
 @media screen and (max-width: 1500px) {
