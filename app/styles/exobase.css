@@ -52,7 +52,7 @@ h2 {
 }
 
 .classification-section {
-    @apply text-xl py-4 mt-auto sticky bottom-0 bg-white dark:bg-gray-900;
+    @apply text-xl py-4 mt-auto sticky bottom-0 bg-white dark:bg-gray-900 flex flex-wrap gap-2 items-center;
 }
 
 @media screen and (max-width: 1500px) {

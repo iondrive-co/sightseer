@@ -543,10 +543,11 @@ demographically collapsing Russia and to a lesser extent China.`,
 largest trading partner of the [[United States]] as well as the third major power bloc in the [[Peacekeepers]] space 
 based military alliance. Its name dates back to when the United Mexican States annexed the failed states of Guatemala 
 and the parts of Venezuela not seized by [[Dominio]].
-In 120 BFC the newly formed Gran México allowed the establishment of the [[Mazatlán Zona Franca]] semi-autonomous 
-region. This greatly empowered the Sinaloa cartel, allowing it to undercut CJNG with economies of scale and slowly drive 
-them east. As promised by the government, which sold the move as excising a diseased part of the port, this 
-did indeed reduce violence back to the historically low levels of the golden era of Sinaloa.`,
+In 120 BFC the newly formed liberal government of Gran México allowed the establishment of the [[Mazatlán Zona Franca]] 
+semi-autonomous region as a solution to the increasingly damaging Mexican drug war. This greatly empowered the Sinaloa 
+cartel, allowing it to undercut CJNG with economies of scale and slowly drive them east. As promised by the government, 
+which sold the move using the analogy of cauterizing a wound, this did indeed reduce violence back to the historically 
+low levels of the golden era of Sinaloa.`,
         classification: 'Socionomics/Polities'
     }],
     ['Greater Zhōngguó', {
@@ -841,19 +842,26 @@ breakthroughs of the previous decade.`,
         classification: 'Praxis/Industrial'
     }],
     ['Mazatlán Zona Franca', {
-content: `Mazatlán Zona Franca is a semi-autonomous region, previously part of [[Gran México]]. It was formed to allow
-the Sinaloa cartel to undercut CJNG with economies of scale and drive them east in order to end the Mexican
-drug war which was becoming hugely damaging to the Mexican economy. The region is a free economic zone, with nominal 
+content: `Mazatlán Zona Franca is a semi-autonomous region, previously part of [[Gran México]] until 120 BFC. It was 
+formed to allow the Sinaloa cartel to undercut CJNG with economies of scale and drive them east in order to end the 
+Mexican drug war which was becoming hugely damaging to the Mexican economy. The region is a free economic zone, with nominal 
 custom duties and no customs regulations for imports that are not transshipments into Mexico. The administration is 
 controlled by the Sinaloa cartel and is generally considered a minarchy. Taxes are collected from local businesses and
 used to fund a military capable of maintaining order and territorial control, to provide welfare to its members, and
-for some external affairs such as maintaining international and off world embassies (which are often accused of being 
-coordination points for smuggling and piracy). The zones economy is largely based on areas where a laissez-faire 
-economy backed by a narco-state has a comparative advantage, such as synthetic drug manufacture, international tax 
-avoidance and money laundering, vice tourism, human smuggling, and as an extradition haven. It is generally out-competed
-in medical tourism, generic drug production, biotech, offshore banking, and citizenship as a service by the 
-[[Argentinian Mancomunidad]] due to that territories perceived safety, and by the [[RDP]] in data haven and cybercrime
-due to its low cost of operations.`,
+for some external affairs such as maintaining international and off world embassies which are often accused of being 
+little more than coordination centers for its illicit exports and people smuggling operations.
+
+# Economy
+
+The zones economy is largely based on traditionally illicit activities where a laissez-faire economy backed by a 
+narco-state has a comparative advantage, such as simple synthetic drug manufacture, international tax avoidance and 
+money laundering, vice tourism, human smuggling, and as an extradition haven. The zone has attempted to expand to other 
+illicit activities but is generally out-competed in medical tourism, generic drug production, biotech, offshore banking, 
+and citizenship as a service by the [[Argentinian Mancomunidad]] due to that territories perceived safety; in data 
+protection and cybercrime by the [[RDP]] due to its low cost of operations, and in grey market tech exports, complex
+synthetic drugs, and sexbots by the higher tech east asian criminal groups. It has largely avoided assassinations, 
+hiring out mercenaries, or piracy in order to protect it from blowback that might result in annexation from Gran México, 
+which is frequently pressured to do so by other countries.`,
         classification: 'Socionomics/Polities'
     }],
     ['Pharmatica Group', {
