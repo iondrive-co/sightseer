@@ -537,8 +537,8 @@ based military alliance. Its name dates back to when the United Mexican States a
 and the parts of Venezuela not seized by [[Dominio]].
 In 120 BFC the newly formed Gran México allowed the establishment of the [[Mazatlán Zona Franca]] semi-autonomous 
 region. This greatly empowered the Sinaloa cartel, allowing it to undercut CJNG with economies of scale and slowly drive 
-them out of business. As promised by the government, which sold the move as excising a diseased part of the port, this 
-did indeed reduce violence back to the historically low levels of the golden era of Sinaloa`,
+them east. As promised by the government, which sold the move as excising a diseased part of the port, this 
+did indeed reduce violence back to the historically low levels of the golden era of Sinaloa.`,
         classification: 'Socionomics/Polities'
     }],
     ['Greater Zhōngguó', {
@@ -834,12 +834,14 @@ breakthroughs of the previous decade.`,
     }],
     ['Mazatlán Zona Franca', {
 content: `Mazatlán Zona Franca is a semi-autonomous region, previously part of [[Gran México]]. It was formed to allow
-the Sinaloa cartel to undercut CJNG with economies of scale and drive them out of business in order to end the Mexican
+the Sinaloa cartel to undercut CJNG with economies of scale and drive them east in order to end the Mexican
 drug war which was becoming hugely damaging to the Mexican economy. The region is a free economic zone, with nominal 
 custom duties and no customs regulations for imports that are not transshipments into Mexico. The administration is 
 controlled by the Sinaloa cartel and is generally considered a minarchy, however there is some government funded support 
 for members of the cartel and for their internation and space based embassies, which are generally considered to be
-coordination points for the external activities of the zone such as smuggling, and in at least one case piracy.`,
+coordination points for the external activities of the zone such as smuggling, and in at least one case piracy. The
+Zona competes heavily with the [[Argentinian Mancomunidad]] in the most profitable sections of their economy such as 
+synthetic drug manufacture and medical tourism.`,
         classification: 'Socionomics/Polities'
     }],
     ['Pharmatica Group', {
