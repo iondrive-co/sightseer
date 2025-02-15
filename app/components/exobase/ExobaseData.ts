@@ -27,9 +27,9 @@ down the costs of undifferentiated compute by controlling polities such as the [
 effectively sell high margin differentiated compute products such as drug discovery. When the [[Intermesh]] began to 
 make real time physical indexing acceptable Amazon had the scale to develop vertically integrated universal content 
 recommendations that were difficult to compete with, and was also able to dramatically improve its consumer logistics
-and increase its home robotics sales as well. The long tail of cottage industries that grew from home [[Fabricator]]s 
-were a perfect fit for its growing automated marketplace, and their subscription and healthcare platforms were also 
-well positioned to fill the growing demand for rental of large items such as furniture and healthcare (although losing 
+while also increasing home robotics sales. The long tail of cottage industries that grew from home [[Fabricator]]s 
+were a perfect fit for its growing automated marketplace, and their subscription and healthcare platforms were well 
+positioned to fill the growing demand for rental of large items such as furniture and healthcare (although losing 
 out on automotive to the [[X Group]]).`,
         classification: 'Socionomics/Polities'
     }],
@@ -289,7 +289,15 @@ barrier missiles, however one drone was able to jink past its missile and launch
 before it was shot down by CIWS. Most of the explosives were also shot down, however parts of the hull and some external 
 antennas were destroyed. The Drake and the Thor were able to intercept a few hours later, and the Mirazh slowed its burn 
 and stalked the three ships for another day as they moved towards Earth. During this time no other ships from either 
-side were able to reach the combatants until the first US fleet came into range and forced the Mirzah to break away.`,
+side were able to reach the combatants until the first US fleet came into range and forced the Mirzah to break away.
+
+# Role as a US proxy
+
+The [[United States]] has been accused of using companies such as Constellis as proxies for deniable involvement in
+external conflicts. In several cases this collaboration has been confirmed after the fact, for example during the 
+[[Ceres Wave]] several ex-employees are on record confirming that Constellis was shipping drones and weapons to Lutetia 
+in response to the [[GPR]] seizure of Ceres. On several other occasions they have been contracted to train friendly 
+succession movements such as the Indian funded Mon liberation army in Myanmar.`,
         classification: 'Socionomics/Polities'
     }],
     ['Dominio', {
@@ -536,9 +544,9 @@ content: `Greater Zhōngguó is a political entity which was formed between 102 
 [[GPR]] countries (China, North Korea, Russia, Siberia, Mongolia, and Myanmar) with their close trading partners South 
 Africa, Ethiopia, Sudan, Djibouti, Eritrea, Somalia, U.A.E, Oman, South Yemen, Pakistan, Indonesia, Papua New Guinea, 
 and Greater Uzbekistan; as well as an informal agreement with the other non-[[Peacekeeper]] space power blocs on 
-spheres of influence. Initially an mostly economic union, over time it has become more militarily focussed as the 
-Peacekeepers have grown. Despite having significantly less industrial capacity than the [[Peacekeepers]] it fields a 
-nearly equivalently size navy.ा`,
+spheres of influence. Initially a mostly economic union, over time it has become more militarily focussed as the 
+Peacekeepers have grown and to India's open support of a succession movement in Myanmar. Despite having significantly 
+less industrial capacity than the [[Peacekeepers]] it fields a nearly equivalently size navy.`,
         classification: 'Socionomics/Confederations'
     }],
     ['Haidian Takeoff Crisis', {
@@ -1177,14 +1185,12 @@ primarily located in North America. Prior to the [[Khan Solar Storm]] it had ove
 as the world's largest economy, and it still possesses the largest military and largest amount of wealth of any country, 
 as well as being the largest contributor to and most influential member of the [[Peacekeepers]]. 
 
-Datï¿½orruà¤¶आtedा
-
 The collapse of the Bretton Woods system and the USAs growing domestic economic power in the years prior to the storm
 had lead to the USAs increasing isolation, but it was a prosperous and optimistic period for the USA and those close 
 allies which were still able to access its markets. The USA has always nominally been a constitutional oligarchic 
 liberal democracy, however the shock of the storm resulted in a shift of its governing principles from E pluribus unum 
 to what several historians have described as Res Publica Corporis Minimalis, the minimum required to secure the affairs 
-of its corporations.
+of its corporations, which in return acted as proxies to secure US interests in external and domestic conflicts.
 
 The storm began a nearly two century long period of isolation and abdication of many public affairs to corporations. A 
 notable exception was a much closer integration with the remaining independent Canadian provinces as well as [[Gran 
@@ -1192,7 +1198,7 @@ México]] and the [[Mazatlán Zona Franca]] in the first years after the storm, 
 supply chains. This then resulted in much closer political and terrestrial military co-operation as well as a lunar 
 colony founded as a joint venture between several US and Mexican aerospace corporations. Throughout this period the US 
 also maintained close ties to its traditional allies Great Britain, Australia, Israel, and the Philippines; and largely 
-as a result they have remained non-aligned with any of the large confederations outside of the Peacekeepers (although 
+as a result they have remained non-aligned with any of the large confederations outside of the Peacekeepers (however 
 Gran México, Mazatlán Zona Franca, and the Philippines have close ties to Roman Catholic [[Dominio]]). Although 
 becoming more involved in system wide affairs through the Peacekeepers in in the last century BFC, the US government has 
 only recently emerged as an active international political force in its own right after the [[First Contact Event]].`,
