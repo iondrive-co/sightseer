@@ -294,10 +294,11 @@ side were able to reach the combatants until the first US fleet came into range 
 # Role as a US proxy
 
 The [[United States]] has been accused of using companies such as Constellis as proxies for deniable involvement in
-external conflicts. In several cases this collaboration has been confirmed after the fact, for example during the 
-[[Ceres Wave]] several ex-employees are on record confirming that Constellis was shipping drones and weapons to Lutetia 
-in response to the [[GPR]] seizure of Ceres. On several other occasions they have been contracted to train friendly 
-succession movements such as the Indian funded Mon liberation army in Myanmar.`,
+several other external conflicts which it did not wish to become directly involved in. In several cases this 
+collaboration has been confirmed after the fact, mostly notably during the [[Ceres Wave]] where declassified data 
+confirmed that Constellis was shipping drones and weapons to Lutetia in response to the [[GPR]] seizure of Ceres. On 
+several other occasions Constellis have been found to have taken over the role of the CIA in training forces friendly 
+to US interests, such as helping the Indian supplied Mon liberation army in Myanmar.`,
         classification: 'Socionomics/Polities'
     }],
     ['Dominio', {
