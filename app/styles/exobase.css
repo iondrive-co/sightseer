@@ -1,5 +1,5 @@
 .article-container {
-    @apply flex h-screen;
+    @apply flex h-screen max-h-screen;
 }
 
 .title {
@@ -11,7 +11,9 @@
 }
 
 .article {
-    @apply flex-1 px-[12%] whitespace-pre-line overflow-y-auto flex flex-col;
+    @apply flex-1 px-[12%] whitespace-pre-line
+    flex flex-col pb-16
+    overflow-y-auto max-h-screen;
 }
 
 .article > h1 {
@@ -52,7 +54,8 @@ h2 {
 }
 
 .classification-section {
-    @apply text-xl py-4 mt-auto sticky bottom-0 bg-white dark:bg-gray-900 flex flex-wrap gap-2 items-center;
+    @apply text-xl py-4 fixed bottom-0 left-0 right-0 bg-white dark:bg-gray-900
+    flex flex-wrap gap-2 items-center px-[12%] shadow-md;
 }
 
 @media screen and (max-width: 1500px) {
@@ -63,6 +66,10 @@ h2 {
     .article {
         @apply px-[6%];
     }
+
+    .classification-section {
+        @apply px-[6%];
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -71,6 +78,10 @@ h2 {
     }
 
     .article {
+        @apply px-[1%];
+    }
+
+    .classification-section {
         @apply px-[1%];
     }
 

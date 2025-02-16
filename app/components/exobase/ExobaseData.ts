@@ -859,9 +859,14 @@ money laundering, vice tourism, human smuggling, and as an extradition haven. Th
 illicit activities but is generally out-competed in medical tourism, generic drug production, biotech, offshore banking, 
 and citizenship as a service by the [[Argentinian Mancomunidad]] due to that territories perceived safety; in data 
 protection and cybercrime by the [[RDP]] due to its low cost of operations, and in grey market tech exports, complex
-synthetic drugs, and sexbots by the higher tech east asian criminal groups. It has largely avoided assassinations, 
-hiring out mercenaries, or piracy in order to protect it from blowback that might result in annexation from Gran México, 
-which is frequently pressured to do so by other countries.`,
+synthetic drugs, and sexbots by the higher tech east asian criminal groups. It typically avoids hiring out mercenaries 
+or piracy except where it benefits Gran México, which in turn has never bowed to external pressure to annex the zone.
+
+Over time the zone has had to adapt its economy to changing technology. Already in 120 BFC ultra low orbit ABEP spy 
+satellites were becoming more widespread, and with slowly increasing spread of [[Mote]]s starting in the 70s privacy in 
+most terrestrial environments has almost completely disappeared in an attempt to control dangerous [[Fabrication]]. This
+has forced the zone to operate illicit activities either internally, or in remote environments, or digitally, or in 
+other areas on and off Earth where they are either tolerated or corruption is high.`,
         classification: 'Socionomics/Polities'
     }],
     ['Pharmatica Group', {
