@@ -58,6 +58,10 @@ h2 {
     flex flex-wrap gap-1 items-center px-[12%] shadow-md;
 }
 
+.classification-section a {
+    @apply text-base text-blue-600 dark:text-blue-400 hover:underline;
+}
+
 @media screen and (max-width: 1500px) {
     .title {
         @apply px-[4%];

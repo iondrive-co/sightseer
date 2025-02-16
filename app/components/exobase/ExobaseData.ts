@@ -539,10 +539,13 @@ demographically collapsing Russia and to a lesser extent China.`,
         classification: 'Socionomics/Confederations'
     }],
     ['Gran México', {
-        content: `Gran México is the world's 15th most populous country, the 7th largest terrestrial economy, and 
-largest trading partner of the [[United States]] as well as the third major power bloc in the [[Peacekeepers]] space 
-based military alliance. Its name dates back to when the United Mexican States annexed the failed states of Guatemala 
-and the parts of Venezuela not seized by [[Dominio]].
+        content: `Gran México, officially the República Federal de Gran México, is the world's 15th most populous 
+country, the 7th largest terrestrial economy, and largest trading partner of the [[United States]] as well as the third 
+major power bloc in the [[Peacekeepers]] space based military alliance. The nation emerged from the United Mexican 
+States through a series of political reforms and territorial expansions, most notably the annexation of the failed 
+states of Guatemala and the parts of Venezuela not seized by [[Dominio]]. Gran México operates as a federal republic 
+with 39 states and the semi-autonomous MZF region.
+
 In 120 BFC the newly formed liberal government of Gran México allowed the establishment of the [[Mazatlán Zona Franca]] 
 semi-autonomous region as a solution to the increasingly damaging Mexican drug war. This greatly empowered the Sinaloa 
 cartel, allowing it to undercut CJNG with economies of scale and slowly drive them east. As promised by the government, 
