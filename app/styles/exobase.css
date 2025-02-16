@@ -12,7 +12,7 @@
 
 .article {
     @apply flex-1 px-[12%] whitespace-pre-line
-    flex flex-col pb-16
+    flex flex-col pb-10
     overflow-y-auto max-h-screen;
 }
 
@@ -54,8 +54,8 @@ h2 {
 }
 
 .classification-section {
-    @apply text-xl py-4 fixed bottom-0 left-0 right-0 bg-white dark:bg-gray-900
-    flex flex-wrap gap-2 items-center px-[12%] shadow-md;
+    @apply text-base py-2 fixed bottom-0 left-0 right-0 bg-white dark:bg-gray-900
+    flex flex-wrap gap-1 items-center px-[12%] shadow-md;
 }
 
 @media screen and (max-width: 1500px) {

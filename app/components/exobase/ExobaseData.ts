@@ -864,8 +864,8 @@ or piracy except where it benefits Gran México, which in turn has never bowed t
 
 Over time the zone has had to adapt its economy to changing technology. Already in 120 BFC ultra low orbit ABEP spy 
 satellites were becoming more widespread, and with slowly increasing spread of [[Mote]]s starting in the 70s privacy in 
-most terrestrial environments has almost completely disappeared in an attempt to control dangerous [[Fabrication]]. This
-has forced the zone to operate illicit activities either internally, or in remote environments, or digitally, or in 
+most terrestrial environments has almost completely disappeared in an attempt to control dangerous [[Fabricator~Fabs]]. 
+This has forced the zone to operate illicit activities either internally, or in remote environments, or digitally, or in 
 other areas on and off Earth where they are either tolerated or corruption is high.`,
         classification: 'Socionomics/Polities'
     }],
@@ -897,22 +897,29 @@ pharmaceuticals continue to be their single best selling product.`,
     }],
     ['RDP', {
         content: `Paraguay, officially Refugio de Datos Paraguay and commonly known as the RDP, is a country and data 
-haven in South America. Traditionally the world's largest exporter of electric power due to its abundant 
-hydroelectricity, Paraguay began specialising in submersed computing data centers during the vast increase of computing 
-requirements in the early [[Intermesh]] decades of the 170s and 160s. The economic booms in Brazil, Chile and Peru and 
-the increasing cryptocurrency and compute requirements for businesses in the [[Argentinian Mancomunidad]] were drivers
-of a lot of early data center development in this period along with a heavy investment from [[Amazon]], and over time a 
-large number of high capacity fibre links to to its neighbours were developed as well as satellite infrastructure to 
-better service the global financial sector. 
+haven in South America. It is bordered by Brazil to the east, Bolivia to the north, and the 
+[[Argentinian Mancomunidad]] to the south and west. With a population of 12.3 million, Paraguay has become one of the 
+world's leading technological powers, hosting approximately 18% of global compute capacity within its extensive network 
+of submersed data centers.
+
+Traditionally the world's largest exporter of electric power due to its abundant hydroelectricity, Paraguay began 
+specialising in submersed computing data centers during the vast increase of computing requirements in the early 
+[[Intermesh]] decades of the 170s and 160s. The economic booms in Brazil, Chile and Peru and the increasing 
+cryptocurrency and compute requirements for businesses in the [[Argentinian Mancomunidad]] were drivers
+of a lot of early data center development. [[Amazon]] invested heavily in this period in order to develop the Itaipu 
+corridor, a 1,200-kilometer stretch of interconnected submersed computing facilities along the Paraguay and Paraná 
+rivers. A large number of high capacity fibre links to to its neighbours were developed as well as satellite 
+infrastructure to better service the global financial sector. 
 
 Paraguay's stable climate and geopolitics, competitive compute pricing due to its abundance of cheap electricity and 
 water, led to a economies of scale feedback loop which encouraged building increasingly large submersed data centers. 
-With the increasing viability of building commercial fusion plants in the 140s the government of the time, determined
-to maintain this important sector of the economy, passed some of the world's strongest user privacy laws and introduced 
-extremely strict regulations against unauthorized access to data. In subsequent years many large conglomerates moved
-significant compute and storage into Paraguay. As the cost of fusion power has never dropped below the cost of
-running a hydroelectric dam Paraguay continued to grow compute until it accounted for the vast majority of its economy
-and the official name of the country was changed.`,
+The increasing viability of building commercial fusion plants in the 140s appeared to threaten this important sector of
+the economy. In response Paraguay passed some of the world's strongest user privacy laws and introduced extremely strict 
+regulations against unauthorized access to data. While the cost of fusion power has never dropped below the cost of 
+running a hydroelectric dam these laws have only been strengthened over time as many government and corporate users 
+contractually require the levels of stability and privacy that Paraguay provides. In recognition of the fact that 
+compute and associated activities and services now account for the vast majority of Paraguay's economy the official name
+of the country was changed to Refugio de Datos Paraguay by referendum in 7 BFC.`,
         classification: 'Socionomics/Polities'
     }],
     ['Reset of Nations', {
