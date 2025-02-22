@@ -55,11 +55,12 @@ h2 {
 
 .classification-section {
     @apply text-base py-2 fixed bottom-0 left-0 right-0 bg-white dark:bg-gray-900
-    flex flex-wrap gap-1 items-center px-[12%] shadow-md;
+    flex flex-wrap gap-1 items-center px-[12%] shadow-md text-base;
 }
 
+.classification-section > a,
 .classification-section a {
-    @apply text-base text-blue-600 dark:text-blue-400 hover:underline;
+    @apply text-base text-blue-600 dark:text-blue-400 hover:underline !important;
 }
 
 @media screen and (max-width: 1500px) {
