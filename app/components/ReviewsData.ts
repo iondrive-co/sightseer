@@ -173,6 +173,16 @@ export const sciFiMoviesData: Movie[] = [
         c: 6,
     },
     {
+        title: "Creator, The",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/9/94/The_Creator_2023_poster.jpg",
+        summary: `This visually stunning exploration of a future containing a polity of primitive AIs quickly runs into 
+        an uncanny valley of implausibility once we get into the details.`,
+        e: 6,
+        a: 9,
+        n: 6,
+        c: 7,
+    },
+    {
         title: "Donnie Darko",
         thumbnail: "https://www.themoviedb.org/t/p/w1280/3PiQIQzJX2oE8Uw6gjL08BXQRoB.jpg",
         summary: `A weird, soulful film that peels back an outer layer of teenage angst and superficial 80s suburbia to 
@@ -415,6 +425,16 @@ export const sciFiMoviesData: Movie[] = [
         c: 8,
     },
     {
+        title: "Serenity",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/9/9e/Serenity_One_Sheet.jpg",
+        summary: `A space opera that carries the fun free-wheeling libertarian ethos over from Firefly, but it doesn't 
+        quite deliver as well in a full length movie format`,
+        e: 6,
+        a: 7,
+        n: 7,
+        c: 7,
+    },
+    {
         title: "Sputnik",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/a/a9/Sputnik_%282020%29_poster.jpg",
         summary: `A punchy, back-to-basics Russian sci-fi that injects some introspection and novelty into a well worn formula`,
@@ -442,6 +462,16 @@ export const sciFiMoviesData: Movie[] = [
         e: 8,
         a: 10,
         n: 5,
+        c: 7,
+    },
+    {
+        title: "Titan, The",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/d/dd/The_Titan_poster.png",
+        summary: `A solid but slightly unfocused narrative which treads a fair bit of new ground but never quite takes 
+        off`,
+        e: 8,
+        a: 7,
+        n: 6,
         c: 7,
     },
     {

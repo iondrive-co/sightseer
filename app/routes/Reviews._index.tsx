@@ -45,8 +45,8 @@ export default function Reviews() {
                     <p>
                         Enjoyable sci-fi movies, mouse over each for a no-spoiler one line review. Rating is out of 40
                         based on 4 equal categories, (e)xploration of scientific premise, (a)tmosphere, (n)arrative
-                        structure, and (c)haracterisation. Speculative fiction without (e) is not sci-fi, which is why
-                        this list has World War Z and not Train To Busan, The Adjustment Bureau and not About Time, etc.
+                        structure, and (c)haracterisation. Good speculative fiction without (e) doesn&#39;t belong here,
+                        so there is World War Z and not Train To Busan, The Adjustment Bureau and not About Time, etc.
                     </p>
                 </div>
                 <div className="container">
