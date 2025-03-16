@@ -163,6 +163,16 @@ export const sciFiMoviesData: Movie[] = [
         c: 8,
     },
     {
+        title: "Contaigon",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/8/86/Contagion_Poster.jpg",
+        summary: `Tense disaster movie which was prescient in predicting rapid vaccine development, however it would 
+        have been a better movie if some of the characters and subplots were cut`,
+        e: 8,
+        a: 7,
+        n: 7,
+        c: 6,
+    },
+    {
         title: "Donnie Darko",
         thumbnail: "https://www.themoviedb.org/t/p/w1280/3PiQIQzJX2oE8Uw6gjL08BXQRoB.jpg",
         summary: `A weird, soulful film that peels back an outer layer of teenage angst and superficial 80s suburbia to 
@@ -190,6 +200,16 @@ export const sciFiMoviesData: Movie[] = [
         a: 8,
         n: 8,
         c: 6,
+    },
+    {
+        title: "Elysium",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/f/f9/Elysium_Poster.jpg",
+        summary: `Neill Blomkamp continues to pull no punches in this gritty if slightly illogical dystopian vision,
+        which is worth watching just for set design and costumes.`,
+        e: 7,
+        a: 8,
+        n: 6,
+        c: 7,
     },
     {
         title: "Event Horizon",
