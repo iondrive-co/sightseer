@@ -455,6 +455,17 @@ export const sciFiMoviesData: Movie[] = [
         c: 8,
     },
     {
+        title: "Stalker",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/d/d4/Stalker_poster.jpg",
+        summary: `Like a sci-fi Mulholland Drive, this film's dreamy and hypnotic shots pack a much more powerful punch 
+        than Solaris (or 2001 for that matter) and effectively bring the difficult cerebral concepts in Roadside Picnic 
+        to life in a deeply visceral and intuitive way.`,
+        e: 8,
+        a: 9,
+        n: 3,
+        c: 7,
+    },
+    {
         title: "Sunshine",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/6/68/Sunshine_poster.jpg",
         summary: `Stunning cinematography, a solid cast, and interesting premise mostly overcome the weird metaphysical 
