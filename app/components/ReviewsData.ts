@@ -314,6 +314,16 @@ export const sciFiMoviesData: Movie[] = [
         c: 6,
     },
     {
+        title: "Life",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/c/c4/Life_%282017_film%29.png",
+        summary: `A tense but not terribly original sci-fi horror which is propelled along by the suspense and 
+        character conflicts in its fairly realistic and claustrophobic setting`,
+        e: 7,
+        a: 8,
+        n: 7,
+        c: 6,
+    },
+    {
         title: "Looper",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/0/0a/Looper_poster.jpg",
         summary: `This time travel movie features a clever and surprisingly internally consistent plot, as well as 
