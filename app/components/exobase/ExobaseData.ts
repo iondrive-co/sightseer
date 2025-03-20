@@ -1069,9 +1069,18 @@ shipping companies. It managed to develop many of its own in-orbit manufacturing
 share away from the [[X Group]]. Its monitoring synths were also useful in many industrial and chemical processing 
 factories, and its development of industrial monitoring [[Mote]]s in the 70s brought another huge boost to revenue. 
 
-Intended as a strategic mining and resupply base, construction of the automated Jovian mining aerostat fleet commenced 
-in 23 BFC and has been expanded multiple times. Semiotican has recently started expanding into energy generation by 
-scaling-up a Muon atmospheric mining process it was using to supply the vast power needs of the fleet.`,
+Semiotican's metals and mining operations have grown through a long series of acquisitions and mergers. Their asteroid 
+metal and rare earth division was formed by acquiring some of the more successful miners during the Ceres Wave. The
+agricultural and chemical supply division was a product of their acquisition of the X Group's Venusian nitrogen scoops 
+and a later joint-venture prototype sulfur cryo mine on Io. They compete with several other miners in the supply of
+infrastructure metals, and they have not been able to gain traction in other areas, with the X Group remaining market 
+leader in water ice and cryogenic fuel supply, and Helium-3 mining.
+
+Other successes have come as a by product of their large internal supply chains. Intended as a strategic mining and 
+resupply base, construction of the automated Jovian mining aerostat fleet commenced in 23 BFC and has been expanded 
+multiple times. Semiotican has recently started expanding into energy generation by scaling-up a Muon atmospheric 
+mining process it was using to supply the vast power needs of the fleet, which has the potential to challenge the
+X Group's dominance of the space based energy market`,
         classification: 'Socionomics/Polities'
     }],
     ['Sinogroup', {
@@ -1263,10 +1272,12 @@ and in-orbit assembly markets. Their in-orbit assembly required giant space base
 many manufacturing plants that were able to produce ground based antenna for their telecommunications business, 
 Starlink. They were thus able to quickly scale up manufacture of rectenna to assist in post [[Khan~Khan Solar Storm]] 
 recovery, and the economies of scale from combining their orbital and ground based assembly businesses soon allowed 
-them to supply base load power at comparable cost to fission based nuclear power. X-Power was made an independent 
-company in 172 BFC, although it continued to work in tandem with SpaceX on many projects such as laser ship pushing. 
-Due to intense competition from [[Semiotican]] in the orbital manufacturing market of the 100 BFCs, X Musk re-integrated 
-X-Power into the greater X Group in order to extract greater efficiencies from the business.`,
+them to supply base load power at comparable cost to fission based nuclear power. 
+
+X-Power was made an independent company in 172 BFC, although it continued to work in tandem with SpaceX on many projects 
+such as laser ship pushing. Due to intense competition from [[Semiotican]] in the orbital manufacturing market of the 
+100 BFCs, X Musk re-integrated X-Power into the greater X Group in order to extract greater efficiencies from the 
+business. Notable their [[Fusion Power]] division both mines the Helium-3 and Deuterium and operates many power plants.`,
         classification: 'Socionomics/Polities'
     }],
 ]);
