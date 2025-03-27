@@ -329,8 +329,8 @@ with significant populations following Muslim or traditional practices.
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
     }],
-    ['Drone Alley', {
-content: `Drone Alley is the name for the several kilometer long strip of hundred plus meter high factory stacks in 
+    ['Drone Valley', {
+content: `Drone Valley is the name for the several kilometer long strip of hundred plus meter high factory stacks in 
 Whitefield, Bengaluru that is primarily involved in the manufacture of drones and their 
 [[Synth~Synthetic Intelligence]] control nets. The area was a hub of drone manufacture and research since drones were
 first developed, and to encourage the growth of this industry zoning was changed to allowed integrating the electronics 
@@ -340,7 +340,16 @@ into linked factories to reduce the feedback loop from finished products back to
 the small district the effect was increasing built up factories. The first factory of more than 100 meters was an 21 
 story commercial military joint venture to supply drones for the [[Eurasian Bloc]]'s self defence after its founding.
 As drone spaceships became a more important part of the navy of the Bloc (and later the [[Peacekeepers]]), larger
-and larger shipyards were built in the alley.`,
+and larger shipyards were built in the valley.
+
+The view from the bottom of the valley has inspired many movies and artists. Vasant Gaikwad wrote a famous Abhang about 
+his experience walking through the valley
+ऊँच इमारतींच्या छायेत
+गडद होत जातं आकाश
+सूर्य किरणांचीच पूजा
+गल्लीत वाजतो प्रकाश
+(In shadows of high-rises, sky itself turns dusk-blue. A prayer made of golden rays, light echoes through the view)
+`,
         classification: 'Geo'
     }],
     ['Exobase', {
@@ -1001,8 +1010,8 @@ Datï¿½orruà¤¶आtedा`,
 `The Peacekeepers are an intergovernmental space based military alliance between the [[United States]], its client 
 countries, the [[Eurasian Bloc]], and [[Gran México]]. It was formed in 102 BFC to counter the space power blocs of 
 [[Greater Zhōngguó]] and [[Dominio]] (and to a lesser extent [[Türkiye]] and the [[Fatimid Trade Caliphate]]). 
-It fields the largest of the space navies which are supplied from a number of specialised manufacturing hubs such as
-[[Drone Alley]]. It often hires training and intelligence facilities from the [[Constellis Group]] such as the White 
+It fields the largest of the space navies, and draws materiel from a number of specialised manufacturing hubs such as
+[[Drone Valley]]. It often hires training and intelligence facilities from the [[Constellis Group]] such as the White 
 Sands Missile Range and the Panopticon Relay.`,
         classification: 'Socionomics/Confederations'
     }],
