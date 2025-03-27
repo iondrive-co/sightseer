@@ -332,13 +332,14 @@ Datï¿½orruà¤¶आtedा`,
     ['Drone', {
 content: `A drone is an autonomous vehicle possessing distributed decision making capability and designed for mission
 expendability. The term excludes large autonomous vessels where a [[Synth~Synthetic Intelligence]] is generally not
-distributing control across multiple vehicles, as well as very small distributed control systems such as [[Mote]]s.
+distributing control across multiple vehicles, as well as very small distributed control systems such as [[motes~Mote]].
 Drones are produced for commercial and military use by most terrestrial and off-earth polities, however the high 
 volume low control sophistication of the manufacturing process lends itself to highly concentrated low cost supply 
-chains which results in the majority of drones being produced in a few global hotspots. The largest are [[Drone Valley]]
-in Bengaluru, Drone Alley in Shenzhen, [[Greater Zhōngguó]], [[12Quan]]s factory city in Tehran, 
-[[Fatimid Trade Caliphate]], Istanbul in [[Türkiye]], and to more sophisticated but lower volume drone manufacturing 
-centers in Haifa and Texas`,
+chains, resulting in the majority of drones being produced in a few global hotspots. The largest are [[Drone Valley]]
+in Bengaluru, Shenzhen's Drone Alley in [[Greater Zhōngguó]], [[12Quans~12Quan]] factory cities in Iran and the greater
+[[Fatimid Trade Caliphate]], Istanbul and Ankara in [[Türkiye]]. There are also some more sophisticated but lower 
+volume drone manufacturing centers, the most notable are in Haifa, Israel as well as several in the [[US~United States]] 
+across Texas, California, Arizona, and North Carolina.`,
         classification: 'Praxis/Industrial'
     }],
     ['Drone Valley', {
