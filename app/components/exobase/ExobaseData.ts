@@ -2,15 +2,15 @@ export type Classification = string;
 export const pageData = new Map<string, {content: string, classification: Classification}>([
     ['12Quan', {
 content: `12Quan is an Iranian conglomerate which produces physics simulation software, quantum computers, [[QuanLan]] 
-devices, [[Fusion Engine]]s and reactors, and drones. It was initially established with funding from Bonyad Mostazafan 
-to develop a secret fusion reactor program, and shortly afterwards several of its scientists established a side business 
-selling physics simulators developed as part of the program. When 12Quan demonstrated the feasibility of large scale 
-chemical and physical simulations on quantum computers, the government nationalised simulation software sales to 
-maintain export controls, resulting in sales mainly to [[Fatimid Trade Caliphate]] members and as part of sanctions 
-relief. This was so successful that they managed to bootstrap a domestic quantum computer industry, and subsequently 
-gain a global niche in production of QuanLan devices, as well as greatly expand their nuclear industry. The 12Quan name 
-was initially a religious reference to the 12th Hidden Imam as well as Quantum, but is now generally pronounced as 
-1-2-kwon.`,
+devices, [[Fusion Engine]]s and reactors, and [[drones~Drone]]. It was initially established with funding from Bonyad 
+Mostazafan to develop a secret fusion reactor program, and shortly afterwards several of its scientists established a 
+side business selling physics simulators developed as part of the program. When 12Quan demonstrated the feasibility of 
+large scale chemical and physical simulations on quantum computers, the government nationalised simulation software 
+sales to maintain export controls, resulting in sales mainly to [[Fatimid Trade Caliphate]] members and as part of 
+sanctions relief. This was so successful that they managed to bootstrap a domestic quantum computer industry, and 
+subsequently gain a global niche in production of QuanLan devices, as well as greatly expand their nuclear industry. 
+The 12Quan name was initially a religious reference to the 12th Hidden Imam as well as Quantum, but is now generally 
+pronounced as 1-2-kwon.`,
         classification: 'Socionomics/Polities'
     }],
     ['Amazon', {
@@ -100,7 +100,7 @@ particle accelerators generating high-energy photons. These are directed towards
 particle-antiparticle pairs when the photon interacts with the strong electric field of a nucleus.
 
 Penning traps and optical molasses are used to store antimatter particles, and transportation off the station is 
-performed by automated drones designed with multiple fail-safes to maintain power to the containment systems. 
+performed by automated [[drones~Drone]] designed with multiple fail-safes to maintain power to the containment systems. 
 If the target spacecraft is crewed, rendezvous normally occurs before they have boarded since integrating the antimatter 
 containment unit with the propulsion system of the spacecraft is riskier than running the engine normally.
 
@@ -252,7 +252,7 @@ junta, having strong economic ties to the GPR and with a space force with no bre
 of force to retake the station. This was extremely unpopular domestically, however the junta effectively censored the 
 decision in local media and arrested protestors, which effectively stopped any further dissent. The U.S, which had 
 proposed the U.N. motion, publicly pushed for sanctions, and was later found to have secretly contracted the 
-[[Constellis Group]] to began shipping drones and weapons to Lutetia.
+[[Constellis Group]] to began shipping [[drones~Drone]] and weapons to Lutetia.
 
 The fait accompli situation, combined with lack of Dominio power and the logistical nightmare of any military 
 response, helped the GPR push for an advantageous diplomatic resolution. They proposed establishing a nominally 
@@ -292,7 +292,7 @@ returned fire, crippling the ship and killing its crew. Constellis's largest shi
 of similar size to a post-war cruiser although lacking longer range missiles. The Justice was already 
 in a low-energy lunar transfer orbit and began a series of burns to join the Cruiser USS Unity, which was adjusting its 
 orbit to intercept Tianmen Station. The destruction of the Unity by the Russian missile carrier MRK Mirazh and the 
-commercial PRC drone cargo ship Tianzhou escalated the proxy war into a hot conflict and left the Justice isolated and 
+commercial PRC [[drone~Drone]] cargo ship Tianzhou escalated the proxy war into a hot conflict and left the Justice isolated and 
 outnumbered with no nearby support. 
 
 Long range fast drones from the Tianzhou were launched to intercept the Justice as it was adjusting for a transfer back 
@@ -329,10 +329,22 @@ with significant populations following Muslim or traditional practices.
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
     }],
+    ['Drone', {
+content: `A drone is an autonomous vehicle possessing distributed decision making capability and designed for mission
+expendability. The term excludes large autonomous vessels where a [[Synth~Synthetic Intelligence]] is generally not
+distributing control across multiple vehicles, as well as very small distributed control systems such as [[Mote]]s.
+Drones are produced for commercial and military use by most terrestrial and off-earth polities, however the high 
+volume low control sophistication of the manufacturing process lends itself to highly concentrated low cost supply 
+chains which results in the majority of drones being produced in a few global hotspots. The largest are [[Drone Valley]]
+in Bengaluru, Drone Alley in Shenzhen, [[Greater Zhōngguó]], [[12Quan]]s factory city in Tehran, 
+[[Fatimid Trade Caliphate]], Istanbul in [[Türkiye]], and to more sophisticated but lower volume drone manufacturing 
+centers in Haifa and Texas`,
+        classification: 'Praxis/Industrial'
+    }],
     ['Drone Valley', {
-content: `Drone Valley, commonly known as VOTD (valley of the drones) and not to be confused with Drone Alley in 
+content: `Drone Valley, commonly known as the VOTD (valley of the drones) and not to be confused with Drone Alley in 
 Shenzhen, [[Greater Zhōngguó]], is the name for the several kilometer long strip of hundred plus meter high factory 
-stacks in Whitefield, Bengaluru that is primarily involved in the manufacture of drones and their 
+stacks in Whitefield, Bengaluru that is primarily involved in the manufacture of [[drones~Drone]] and their 
 [[Synth~Synthetic Intelligence]] control nets. 
 
 The area was a hub of drone manufacture and research since drones were first developed, and to encourage the growth of 
@@ -349,7 +361,7 @@ The area's predominant feature is a section at the center where the buildings ar
 tallest being a workers residential tower of 382 meters. The buildings form two strips running north east to south west
 with a gap between the two rows of less than 50 meters, and the airspace here is usually thick with drones being 
 prototyped and delivering parts. The view from the bottom of this section has inspired many movies and artists. 
-Vasant Gaikwad wrote a famous Abhang about his experience walking through here:
+Vasant Gaikwad wrote a famous Abhang about his experience walking through this section of the valley:
 
 ऊँच इमारतींच्या छायेत
 गडद होत जातं आकाश
@@ -433,7 +445,7 @@ Simple consumer good fabricators for producing replacement parts for appliances,
 and tools are found in the majority of residences and can be used without registered monitoring, unlike food biofabs 
 which are as a consequence much more rarely individually owned. More complex goods, electronics, medical, and bulk food 
 production are almost all produced and monitored in more efficient centralised locations by larger industrial fabs and 
-delivered by drone. 
+delivered by [[drone~Drone]]. 
 
 The Chandler-Kapoor Agreements of the 70s require all signatories to monitor for unauthorized fabrication. Many 
 existential risk charities have funded additional regional rollouts of denser distributions of [[Mote]]s in under-served 
@@ -1223,8 +1235,8 @@ USNS Herrick came under fire from a privateer while delivering supplies. Its two
 and CS Thor returned fire, crippling the ship, killing its crew, and making it the first ship destroyed in space 
 combat. The Justice was already in a low-energy lunar transfer orbit and began a series of burns to join the Unity, 
 which was adjusting its orbit to intercept Tianmen Station. Before they could join up the Unity was crippled by the 
-Russian missile carrier MRK Mirazh and the commercial PRC drone cargo ship Tianzhou, leaving the Justice isolated and 
-outnumbered with no nearby support and forcing it to use its remaining fuel to vector towards Earth.
+Russian missile carrier MRK Mirazh and the commercial PRC [[drone~Drone]] cargo ship Tianzhou, leaving the Justice 
+isolated and outnumbered with no nearby support and forcing it to use its remaining fuel to vector towards Earth.
 
 During this time both the US second fleet and the PRC rapid response vessels had refuelled and moved out of their 
 normal lunar orbits onto an approach with EM1. The US second fleet consisted of two pre-war carriers and their destroyer
