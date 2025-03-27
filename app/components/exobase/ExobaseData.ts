@@ -143,6 +143,18 @@ recently been attempts by several corporations to remove some of the redundant s
 exorbitant cost of operating an antimatter engine.`,
         classification: 'Praxis/Energy'
     }],
+    ['Argentinian Mancomunidad', {
+        content: `The Argentinian Mancomunidad is the only terestrial freehold territory. Unlike the minarchic 
+[[Mazatlán Zona Franca]] or the [[RDP]], the Argentinian Mancomunidad possesses no government run institutions at all
+and is a purely anarcho-capitalist society. It was formed out of the state of Argentina which had severe economic 
+problems which required privatisation of large parts of the economy. It maintains order and territorial control though
+competing security firms, courts, and a mercenary military which is paid for by the Mancomunidad levying an insurance
+cost on their members. Its economy is primarily based around low cost cash crops, mining, and livestock products, as 
+well as areas where its laissez-faire economy combined with its perceived safety compared to the 
+[[Mazatlán Zona Franca]] gives it a comparative advantage, such as medical tourism, generic drug production, biotech, 
+offshore banking, and citizenship as a service.`,
+        classification: 'Socionomics/Polities'
+    }],
     ['Bioforge Hivegen', {
 content: `Bioforge Hivegen, often known as BioGen, is a multiplanetary genetic engineering conglomerate headquartered in 
 Lausanne, Switzerland. It is best known for its [[synth~Synthetic Intelligence]] specialised in personalised medicine
@@ -317,17 +329,19 @@ with significant populations following Muslim or traditional practices.
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
     }],
-    ['Argentinian Mancomunidad', {
-content: `The Argentinian Mancomunidad is the only terestrial freehold territory. Unlike the minarchic 
-[[Mazatlán Zona Franca]] or the [[RDP]], the Argentinian Mancomunidad possesses no government run institutions at all
-and is a purely anarcho-capitalist society. It was formed out of the state of Argentina which had severe economic 
-problems which required privatisation of large parts of the economy. It maintains order and territorial control though
-competing security firms, courts, and a mercenary military which is paid for by the Mancomunidad levying an insurance
-cost on their members. Its economy is primarily based around low cost cash crops, mining, and livestock products, as 
-well as areas where its laissez-faire economy combined with its perceived safety compared to the 
-[[Mazatlán Zona Franca]] gives it a comparative advantage, such as medical tourism, generic drug production, biotech, 
-offshore banking, and citizenship as a service.`,
-        classification: 'Socionomics/Polities'
+    ['Drone Alley', {
+content: `Drone Alley is the name for the several kilometer long strip of hundred plus meter high factory stacks in 
+Whitefield, Bengaluru that is primarily involved in the manufacture of drones and their 
+[[Synth~Synthetic Intelligence]] control nets. The area was a hub of drone manufacture and research since drones were
+first developed, and to encourage the growth of this industry zoning was changed to allowed integrating the electronics 
+and power system manufacture in factories in Whitefield rather than shipping from other states. Increased 
+manufacturing automation made it much more efficient to directly integrate as much of the supply chain as possible
+into linked factories to reduce the feedback loop from finished products back to input. With no zoning constraints in 
+the small district the effect was increasing built up factories. The first factory of more than 100 meters was an 21 
+story commercial military joint venture to supply drones for the [[Eurasian Bloc]]'s self defence after its founding.
+As drone spaceships became a more important part of the navy of the Bloc (and later the [[Peacekeepers]]), larger
+and larger shipyards were built in the alley.`,
+        classification: 'Geo'
     }],
     ['Exobase', {
         content:
@@ -984,10 +998,12 @@ Datï¿½orruà¤¶आtedा`,
     }],
     ['Peacekeepers', {
         content:
-`The Peacekeepers are an intergovernmental space based military alliance between the [[United States]] and its client 
-countries, the [[Eurasian Bloc]], and [[Gran México]], formed in 102 BFC to counter the space power blocs of 
+`The Peacekeepers are an intergovernmental space based military alliance between the [[United States]], its client 
+countries, the [[Eurasian Bloc]], and [[Gran México]]. It was formed in 102 BFC to counter the space power blocs of 
 [[Greater Zhōngguó]] and [[Dominio]] (and to a lesser extent [[Türkiye]] and the [[Fatimid Trade Caliphate]]). 
-Datï¿½orruà¤¶आtedा`,
+It fields the largest of the space navies which are supplied from a number of specialised manufacturing hubs such as
+[[Drone Alley]]. It often hires training and intelligence facilities from the [[Constellis Group]] such as the White 
+Sands Missile Range and the Panopticon Relay.`,
         classification: 'Socionomics/Confederations'
     }],
     ['QuanLan',{
