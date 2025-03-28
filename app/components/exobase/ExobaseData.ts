@@ -353,17 +353,17 @@ this industry subsidies were created, and zoning in part of the suburb was chang
 electronics and power system manufacture in factories in Whitefield rather than shipping from other states. Increased 
 manufacturing automation made it much more efficient to directly integrate as much of the supply chain as possible
 into linked factories to reduce the feedback loop from finished products back to input. With no zoning constraints in 
-the small part of the district the effect was increasing built up factories. The first factory of more than 100 meters 
-was an 21 story commercial military joint venture to supply drones for the [[Eurasian Bloc]]'s self defence after its 
-founding. As drone spaceships became a more important part of the navy of the Bloc (and later the [[Peacekeepers]]), 
+the small part of the district the effect was increasing built up factories. The first factory with height exceeding 100 
+meters was an 21 story commercial military joint venture to supply drones for the [[Eurasian Bloc]]'s self defence after 
+its founding. As drone spaceships became a more important part of the navy of the Bloc (and later the [[Peacekeepers]]), 
 larger and larger shipyards were built in the valley.
 
-The area's predominant feature is a section at the center where the buildings are all higher than 200 meters, with the
-tallest being a workers residential tower of 382 meters. The buildings form two strips running north east to south west
-with a gap between the two rows of less than 50 meters, and the airspace here is usually thick with drones being 
-prototyped and delivering parts. The view from the bottom of this section has inspired many movies and artists. 
-Vasant Gaikwad wrote a famous Abhang about his experience walking through this section of the valley:
-
+The area's most well known feature is a section at the center where the buildings are all higher than 200 meters, with 
+the tallest being a workers residential tower of 382 meters. This section is dominated by two rows of buildings forming 
+a valley running north east to south west with a gap between the two rows of less than 50 meters, and the airspace in 
+the gap is usually thick with drones being prototyped and delivering parts. The view from the bottom of this section has 
+inspired many movies and artists. Vasant Gaikwad wrote a famous Abhang about his experience walking through this section 
+of the valley:
 ऊँच इमारतींच्या छायेत
 गडद होत जातं आकाश
 सूर्य किरणांचीच पूजा
@@ -554,6 +554,17 @@ region of the Türkiye confederation. The swiss multinational [[Bioforge Hivegen
 governing Shūrā and supplies members with many cutting edge agricultural products, especially to the high density solar 
 desalinisation farming areas such as the Beqaa valley.Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
+    }],
+    ['Fuel Pathing', {
+        content:
+`Fuel Pathing is the process of laying down fuel pellets (usually a Deuterium/Tritium mix coated in ice) along 
+spacecraft routes to allow vessels on the route to reduce fuel weight. Ships with specially designed magnetic intake 
+scoops can guide in the pellets and use the high velocity impact to generate plasma for thrust. A ship that uses this as 
+its main form of propulsion only needs a light secondary engine and fuel load for maneuvering and to get it up to 
+minimum impact speed, allowing it travel many times faster than it would otherwise be able to. The downside is that use
+of these paths is expensive, since they have to be periodically replenished by solar sail [[drones~Drone]] cycling from 
+the nearest source of water, fuel, and tracking sensors.`,
+        classification: 'Praxis/Energy'
     }],
     ['Fusion Engine', {
         content:
@@ -1258,12 +1269,13 @@ At 02:30 on the 24th, 10 hours after the outbreak of hostilities, the PRC and US
 a number of proxy conflicts in the next few days such as the conflict between the Mirazh and Justice, but none directly 
 between the US and PRC. A total of 11 vessels were destroyed in the conflict, with 98 crew casualties. As a direct 
 result of the conflict, the PRC, Russia, and North Korea created a mutual defense treaty stating that an attack on any 
-member or their colony was a collective act of war against all, this treaty was the basis of the GPR alliance. Both
-the GPR and the US made a number of changes to their fleets, most notably increasing the number of supply vessels and
-smaller high maneuver ships transported into battle by large heavy burning carriers. Doctrine also changed to emphasise
-laying down and screening a much greater density of fuel depots, and using point defense lasers to clear debris. The
-effectiveness of swarms of attack and screening drones was well understood before the war, but both sides launched new
-fast high density drone carrier variants after it.`,
+member or their colony was a collective act of war against all, this treaty was the basis of the subsequent GPR 
+alliance. Both the GPR and the US made a number of changes to their fleets, most notably increasing the number of supply 
+vessels and smaller high maneuver ships transported into battle by large heavy burning carriers. Doctrine also changed 
+to emphasise laying down and screening a much greater density of fuel depots (eventually leading to the development of
+[[Fuel Pathing]], and using point defense lasers to clear debris. The effectiveness of swarms of attack and screening 
+drones was well understood before the war, but both sides launched new fast high density drone carrier variants after 
+it.`,
         classification: 'Socionomics/Events'
     }],
     ['Türkiye', {
