@@ -333,13 +333,13 @@ Datï¿½orruà¤¶आtedा`,
 content: `A drone is an autonomous vehicle possessing distributed decision making capability and designed for mission
 expendability. The term excludes large autonomous vessels where a [[Synth~Synthetic Intelligence]] is generally not
 distributing control across multiple vehicles, as well as very small distributed control systems such as [[motes~Mote]].
-Drones are produced for commercial and military use by most terrestrial and off-earth polities, however the high 
-volume low control sophistication of the manufacturing process lends itself to highly concentrated low cost supply 
-chains, resulting in the majority of drones being produced in a few global hotspots. The largest are [[Drone Valley]]
-in Bengaluru, Shenzhen's Drone Alley in [[Greater Zhōngguó]], [[12Quans~12Quan]] factory cities in Iran and the greater
-[[Fatimid Trade Caliphate]], Istanbul and Ankara in [[Türkiye]]. There are also some more sophisticated but lower 
-volume drone manufacturing centers, the most notable are in Haifa, Israel as well as several in the [[US~United States]] 
-across Texas, California, Arizona, and North Carolina.`,
+Drones are produced for commercial and [[military~Naval Auxiliary]] use by most terrestrial and off-earth polities, 
+however the high volume low control sophistication of the manufacturing process lends itself to highly concentrated low 
+cost supply chains, resulting in the majority of drones being produced in a few global hotspots. The largest are 
+[[Drone Valley]] in Bengaluru, Shenzhen's Drone Alley in [[Greater Zhōngguó]], [[12Quans~12Quan]] factory cities in Iran 
+and the greater [[Fatimid Trade Caliphate]], Istanbul and Ankara in [[Türkiye]]. There are also some more sophisticated 
+but lower volume drone manufacturing centers, the most notable are in Haifa, Israel as well as several in the 
+[[US~United States]] across Texas, California, Arizona, and North Carolina.`,
         classification: 'Praxis/Industrial'
     }],
     ['Drone Valley', {
@@ -1026,6 +1026,89 @@ diversification of business and finance synth roles on the [[InterMesh]] has mad
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
+    ['Naval Auxiliary', {
+content:`A naval auxiliary is any military space vessel which is not [[Naval Rated~Naval Rated Ship]]. By definition 
+these ships are too light to use a [[Fusion Engine]], and they are generally un-crewed.
+
+By far the most common are military grade [[Drone]] operating as a semi-autonomously swarm under the control of a 
+[[synth~Synthetic Intelligence]]. Limited propellant and are moved into the battlefield by larger vessels. The two most
+common roles types are:
+- Kamikaze: Loitering munitions, shrapnel (move to intercept course and break into thousands of fragments), cycler 
+coasters (launched into a high velocity cycler orbit before combat with enough fuel to delta to a potential battlefield
+at that velocity for a high speed strike).
+- Mission support: Eyeballs (cameras, telescopes, flashlights), jammers (EW attack to stop enemy swarms communicating),
+mirrors (direct energy weapons onto multiple targets).
+
+Guardian auxiliaries are things like defense platforms, attack satellites, and mobile shield walls. Transports include 
+atmosphere landing craft, troop and vehicle transport, and special ops fast orbital insertion drop-pod carriers.
+Logistics ships cover hospital ships and dedicated refuelling and ammunition supply craft.
+
+Javelin class ships are simple payload delivery vessels. The first type are tubes - metal tubes containing an engine
+and a payload. Payloads can be missiles, drones, or kinetic weapons launched with the ships velocity. The second type
+are cannonballs, large blocks of ice with an engine accelerated up to high velocities in cycler orbits with enough fuel 
+to steer them to crash into a large, slow target when needed.
+
+Cutters are light ships that excel at close range orbital combat (cutting lasers, kinetic weapons, grappling 
+satellites). They can also be used for debris ablation and tugboat duties. They are common in the belt where there is 
+little need for big engines, and for constabulary duties. Generally un-crewed except for some police cutters and a few 
+[[FreeHab~Independent Habitats]] colony defense class ships.
+
+Corvettes are an uncommon light ship which a few navies field to perform short range light transport duties, as
+light missile boats, or as a short range area denial vessel. They are more commonly used for policing in LEO. Generally 
+un-crewed except for VIP and SWAT team transports.`,
+        classification: 'Praxis/Military'
+    }],
+    ['Naval Rated Ship', {
+content:`A naval rated ship is a military space vessel large enough to contain a [[Fusion~Fusion Engine]] or 
+[[Antimatter~Antimatter Engine]] engine, with any other naval space vessel being considered a [[Naval Auxiliary]]. This 
+size requires a point defense system and control by either a human crew or one or more dedicated 
+[[synths~Synthetic Intelligence]] to prevent degradation of control under signal jamming. 
+
+# Frigates
+
+Small and low cost, they specialise in near planet escort and medium range anti satellite attack. They are used in 
+multiple roles such as patrol, anti-piracy, fuel and ammunition supply, minelaying, sensor net deployments, disaster 
+response (carrying humanitarian supplies and medical bays), missile boats. They carry drones which can be used for fuel 
+hauling and minesweeping. Un-crewed in first class navies. Have sealed modular mini fusion reactors.
+
+# Destroyers
+
+Generally faster and better built than frigates, they act as fleet screens, perform important escort and transport
+duties, coordinate swarm missile and drone attacks, and act as frigate task force leaders. Fusion engine variants are 
+crewed with reactor techs, mechanics, and marines. First class navies generally use un-crewed variants with antimatter 
+engines and repair drones for engine and ship maintenance.
+
+# Cruisers
+
+Expensive ship only fielded by first class navies. Their roles are as long range independent patrol vessels, screen 
+leaders, EW and intelligence gathering, and stealth bombing. Built with a faraday cage body to protect from EMPs. They
+carry drones, some carry cutters and small defense platforms. Often carry expensive missiles with fusion and emp 
+warheads. They are crewed and most modern cruisers use modular antimatter engines along with stasis pods to allow them 
+to burn as fast as smaller un-crewed screens. [[Türkiye]] and the [[Fatimid Trade Caliphate]] field simpler cruisers 
+with fusion engines.
+
+A battlecruiser is a more expensive cruiser variant with a spinal mount railgun and a graphene composite hull for EMP
+resistance. The [[Domino]] variant is larger than its carriers and acts as that navys capital ship since they do not
+use battleships.
+
+# Battleship
+
+A battleship is a huge firepower and fleet support vessel fielded by the [[Peacekeepers]], 
+[[Greater Zhōngguó]], and the [[Eurasian Bloc]]. The flagship and pride of the fleet are normally battleships. 
+They are powered by large refuellable antimatter engines which give them huge amounts of power which they can use for
+spinal mount lasers and to run plasma shields, the largest even to a kilometer out to cover close ships. They have large
+crews, stasis pods to allow them to burn as fast as smaller un-crewed screens, and a graphene composite hull for EMP
+resistance.
+
+# Carrier
+
+Carriers move drones, troop transports, defense platforms, and cutters into combat. The largest are the capital ships 
+of most first class navies except for Dominio, and the biggest can hold multiple frigate and destroyed sized ships. 
+Smaller variants are used for mass drone deployment by less well equipped navies such as 
+[[FreeHab~Independent Habitats]]. They have secondary roles as fuel and ammo depots and mobile hospitals. Both fusion 
+and antimatter engine variants are normally crewed.`,
+        classification: 'Praxis/Military'
+    }],
     ['Neurogenesis Treatment', {
         content:
 `Datï¿½orruà¤¶आtedा`,
@@ -1038,9 +1121,10 @@ Datï¿½orruà¤¶आtedा`,
     }],
     ['Peacekeepers', {
         content:
-`The Peacekeepers are an intergovernmental space based military alliance between the [[United States]], its client 
-countries, the [[Eurasian Bloc]], and [[Gran México]]. It was formed in 102 BFC to counter the space power blocs of 
-[[Greater Zhōngguó]] and [[Dominio]] (and to a lesser extent [[Türkiye]] and the [[Fatimid Trade Caliphate]]). 
+`The United System Peacekeeping Navy, commonly known as the Peacekeepers, are an intergovernmental space based military 
+force fielded by an alliance of the [[United States]], its client countries, the [[Eurasian Bloc]], and [[Gran México]]. 
+It was formed in 102 BFC to counter the space power blocs of [[Greater Zhōngguó]] and [[Dominio]] (and to a lesser 
+extent [[Türkiye]] and the [[Fatimid Trade Caliphate]]). 
 It fields the largest of the space navies, and draws materiel from a number of specialised manufacturing hubs such as
 [[Drone Valley]]. It often hires training and intelligence facilities from the [[Constellis Group]] such as the White 
 Sands Missile Range and the Panopticon Relay.`,
