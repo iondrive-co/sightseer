@@ -1059,24 +1059,26 @@ un-crewed except for VIP and SWAT team transports.`,
         classification: 'Praxis/Military'
     }],
     ['Naval Rated Ship', {
-content:`A naval rated ship is a military space vessel large enough to contain a [[Fusion~Fusion Engine]] or 
-[[Antimatter~Antimatter Engine]] engine, with any other naval space vessel being considered a [[Naval Auxiliary]]. This 
-size requires a point defense system and control by either a human crew or one or more dedicated 
-[[synths~Synthetic Intelligence]] to prevent degradation of control under signal jamming. 
+content:`A naval rated ship is a 100 ton plus military space vessel fielding one or more heavy weapon systems and a fast
+propulsion system, a definition which generally excludes small combat craft and converted commercial vessels as
+[[auxiliaries~Naval Auxiliary]]. All current ratings are vacuum only vessels which develop thrust from a 
+[[Fusion~Fusion Engine]] or [[Antimatter~Antimatter Engine]] engine, carry at least 30 tons of missile system and point 
+defense, and are controlled by either a human crew or one or more dedicated [[synths~Synthetic Intelligence]] to prevent 
+degradation of ships functions under signal jamming. 
 
 # Frigates
 
-Small and low cost, they specialise in near planet escort and medium range anti satellite attack. They are used in 
-multiple roles such as patrol, anti-piracy, fuel and ammunition supply, minelaying, sensor net deployments, disaster 
-response (carrying humanitarian supplies and medical bays), missile boats. They carry drones which can be used for fuel 
-hauling and minesweeping. Un-crewed in first class navies. Have sealed modular mini fusion reactors.
+Low cost and weighing under 400 tons, they specialise in near planet escort and medium range anti satellite attack. They 
+are used in multiple roles such as patrol, anti-piracy, fuel and ammunition supply, minelaying, sensor net deployments, 
+disaster response (carrying humanitarian supplies and medical bays), missile boats. They carry drones which can be used 
+for fuel hauling and minesweeping. Un-crewed in first class navies. Have sealed modular mini fusion reactors.
 
 # Destroyers
 
 Generally faster and better built than frigates, they act as fleet screens, perform important escort and transport
 duties, coordinate swarm missile and drone attacks, and act as frigate task force leaders. Fusion engine variants are 
-crewed with reactor techs, mechanics, and marines. First class navies generally use un-crewed variants with antimatter 
-engines and repair drones for engine and ship maintenance.
+crewed with reactor techs, mechanics, and marines and are in the 300 to 500 ton range. First class navies generally use 
+lighter un-crewed variants with antimatter engines and repair drones for engine and ship maintenance.
 
 # Cruisers
 
@@ -1087,13 +1089,13 @@ warheads. They are crewed and most modern cruisers use modular antimatter engine
 to burn as fast as smaller un-crewed screens. [[Türkiye]] and the [[Fatimid Trade Caliphate]] field simpler cruisers 
 with fusion engines.
 
-A battlecruiser is a more expensive cruiser variant with a spinal mount railgun and a graphene composite hull for EMP
-resistance. The [[Domino]] variant is larger than its carriers and acts as that navys capital ship since they do not
-use battleships.
+A battlecruiser is a heavier and more expensive cruiser variant with a spinal mount railgun and a graphene composite 
+hull for EMP resistance. The [[Domino]] variant is larger than its carriers and acts as that navys capital ship since 
+they do not use battleships.
 
 # Battleship
 
-A battleship is a huge firepower and fleet support vessel fielded by the [[Peacekeepers]], 
+A battleship is a 1000 ton plus firepower and fleet support vessel fielded by the [[Peacekeepers]], 
 [[Greater Zhōngguó]], and the [[Eurasian Bloc]]. The flagship and pride of the fleet are normally battleships. 
 They are powered by large refuellable antimatter engines which give them huge amounts of power which they can use for
 spinal mount lasers and to run plasma shields, the largest even to a kilometer out to cover close ships. They have large
@@ -1103,10 +1105,11 @@ resistance.
 # Carrier
 
 Carriers move drones, troop transports, defense platforms, and cutters into combat. The largest are the capital ships 
-of most first class navies except for Dominio, and the biggest can hold multiple frigate and destroyed sized ships. 
-Smaller variants are used for mass drone deployment by less well equipped navies such as 
-[[FreeHab~Independent Habitats]]. They have secondary roles as fuel and ammo depots and mobile hospitals. Both fusion 
-and antimatter engine variants are normally crewed.`,
+of most first class navies except for Dominio, and the biggest are over 3000 tons and have docks big enough to form a 
+hard seal around a frigate or destroyer for drydock field repairs. There are smaller variants which are used for mass 
+drone deployment by less well equipped navies such as [[FreeHab~Independent Habitats]], but under 100 tons they are
+considered auxiliaries and are generally cheap converted commercial vessels. Carries have secondary roles as fuel and 
+ammo depots and mobile hospitals. Both fusion and antimatter engine variants are normally crewed.`,
         classification: 'Praxis/Military'
     }],
     ['Neurogenesis Treatment', {
