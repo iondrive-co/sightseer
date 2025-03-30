@@ -89,8 +89,8 @@ increase prefrontal cortex activity.`,
 `Antimatter engines are a class of propulsion technology that make use of the energy released during the annihilation of 
 matter and antimatter particles. The engineering advances required to produce the containment required for the first 
 working prototype were only made possible due to the [[First Contact Event]]. Antimatter engines still remain in 
-extremely limited use, in only the largest military and corporate fleets, due to the challenges and costs associated 
-with producing and storing antimatter.
+extremely limited use, in only the largest [[military~Naval Rated Ship]] and corporate fleets, due to the challenges 
+and costs associated with producing and storing antimatter.
 
 # Production
 
@@ -121,17 +121,14 @@ particles for thrust.
 Matter-antimatter reactions such as electron positron collisions are among the most energy-dense reactions known. 
 The kinetic energy for an object moving at a velocity vv is given by 1/2 mv^2, where m is the mass of
 the object. Therefore achieving a velocity of 0.01c for a 100 tonne craft requires 4.5×10^17 joules of energy, which 
-from E=mc^2 is only approximately 10kg of matter-antimatter fuel. As such most of the crafts tonnage is the propellant, 
-with approximately half the displacement of a 100 tonne craft being the lithium for the 0.01c burn. The engineering
+from E=mc^2 is only approximately 10kg of matter-antimatter fuel. The engineering
 required to make required volume of solid propellant available for vaporization is a commercial and military secret and
 other than containment is the main barrier preventing smaller corporations from developing competing antimatter engines.
 
-Warships requiring a higher ISP are equipped with methane burn engines, these are not used commercially as several times 
-as much liquid propellant is required for the same acceleration. The most expensive long range scientific probes use
-antimatter propulsion via an alternative system of generating electricity for photon thrust directly from the gamma 
-rays, this system is more reliable than other antimatter engines due to its simplicity, and incredibly efficient due to 
-the lack of non-antimatter propellant, however the low ISP makes this unsuitable for normal commercial transportation 
-purposes. No propellant was observed being used in the first contact vessels antimatter engine, combined with the tiny 
+The most expensive long range scientific probes use antimatter propulsion via an alternative system of generating 
+electricity for photon thrust directly from the gamma rays, this system is more reliable than other antimatter engines 
+due to its simplicity, and incredibly efficient due to the lack of non-antimatter propellant. No propellant was observed 
+being used in the first contact vessels antimatter engine, combined with the tiny 
 size and extremely high ISP this suggests it was using the antimatter energy to kickstart a reaction in some form of 
 exotic propellant such as dark matter or vacuum energy.
 
@@ -1028,7 +1025,8 @@ Datï¿½orruà¤¶आtedा`,
     }],
     ['Naval Auxiliary', {
 content:`A naval auxiliary is any military space vessel which is not [[Naval Rated~Naval Rated Ship]]. By definition 
-these ships are too light to use a [[Fusion Engine]], and they are generally un-crewed.
+these ships are too small to carry heavy weapon systems, and are generally un-crewed and develop thrust from 
+electrothermal plasma thrusters and [[Fuel Pathing]].
 
 By far the most common are military grade [[Drone]] operating as a semi-autonomously swarm under the control of a 
 [[synth~Synthetic Intelligence]]. Limited propellant and are moved into the battlefield by larger vessels. The two most
@@ -1037,11 +1035,15 @@ common roles types are:
 coasters (launched into a high velocity cycler orbit before combat with enough fuel to delta to a potential battlefield
 at that velocity for a high speed strike).
 - Mission support: Eyeballs (cameras, telescopes, flashlights), jammers (EW attack to stop enemy swarms communicating),
-mirrors (direct energy weapons onto multiple targets).
+mirrors (direct energy weapons from slow moving capital ships onto multiple fast moving targets).
+- Guardian: Small poorly equipped task groups rely on drones as screens to intercept incoming ordinance, and even better
+equipped navies make use of fast drones as an outer point defense system to attempt missile intercepts. Shields can 
+deploy expandable inflatable walls on multiple sides of larger ships to hide them from view and absorb some attacks.
 
-Guardian auxiliaries are things like defense platforms, attack satellites, and mobile shield walls. Transports include 
-atmosphere landing craft, troop and vehicle transport, and special ops fast orbital insertion drop-pod carriers.
-Logistics ships cover hospital ships and dedicated refuelling and ammunition supply craft.
+Static auxiliaries do not produce enough thrust to dramatically change orbits and covers assets like defense platforms
+and attack satellites. Transports include atmosphere landing craft, troop and vehicle transport, and special ops fast 
+orbital insertion drop-pod carriers. Logistics ships cover hospital ships and dedicated refuelling and ammunition 
+supply craft.
 
 Javelin class ships are simple payload delivery vessels. The first type are tubes - metal tubes containing an engine
 and a payload. Payloads can be missiles, drones, or kinetic weapons launched with the ships velocity. The second type
