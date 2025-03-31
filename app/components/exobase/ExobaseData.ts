@@ -1063,23 +1063,23 @@ un-crewed except for VIP and SWAT team transports.`,
     ['Naval Rated Ship', {
 content:`A naval rated ship is a 100 ton plus military space vessel equipped with one or more heavy weapon systems, 
 a propulsion system capable of generating sufficient delta-V for tactical maneuvers, and controlled by either a human 
-crew or one or more dedicated [[synths~Synthetic Intelligence]] to prevent degradation of ships 
-functions under signal jamming.. This definition is intended to excludes small combat craft and converted commercial 
-vessels as [[auxiliaries~Naval Auxiliary]] which operate under a different command structure. 
+crew or one or more dedicated [[synths~Synthetic Intelligence]] to prevent degradation of ships functions under signal 
+jamming. This definition is intended to excludes small combat craft and converted commercial vessels as 
+[[auxiliaries~Naval Auxiliary]] which operate under a different command structure. 
 
 # History
 
-Military space vehicle design can be divided into three historical eras. Ships of the fission thermal and chemical 
-rocket era were material constrained and not capable of producing delta-V for repeated maneuvers, which dictated that 
-capital ships were simple frigates and drone carriers that engaged in long range missile duels followed by drone fights,
-most notably the Battle of the Apex in the [[Ten-Hour War]]. The [[Fusion~Fusion Engine]] era lead to the development
+Military space vehicle design can be divided into three historical eras. Ships of the fission thermal era were material 
+constrained and not capable of producing delta-V for repeated maneuvers, which dictated that capital ships were simple 
+frigates and drone carriers that engaged in long range missile duels followed by chemical rocket powered drone fights,
+most notably the Battle of the Apex in the [[Ten-Hour War]]. The [[Fusion Engine]] era lead to the development
 of long range vessels and the re-introduction of 20th century naval classifications such as destroyers and cruisers to 
 distinguish them from cheaper and less powerful frigates (although in reality all three vessel classes operated more 
 like submarines than ships), as well as a larger variety of missiles such as EMPs. Finally the development of the 
-[[Antimatter~Antimatter Engine]] and better robotics allowing for synth only crews has allowed the largest navies to 
+[[Antimatter Engine]] and better robotics allowing for synth only crews has allowed the largest navies to 
 field variants with the capability to burn delta-V to make extremely high-G velocity adjustments, as well as 
-battlecruisers and battleships with large railguns and lasers, energy point defense, and plasma shields which has 
-created a Cambrian explosion of new tactics and doctrine.
+battlecruisers and battleships with large railguns and lasers, energy point defense, and plasma shields, creating a 
+Cambrian explosion of new tactics and doctrine.
 
 # Frigates
 
@@ -1105,26 +1105,27 @@ to burn as fast as smaller un-crewed screens. [[Türkiye]] and the [[Fatimid Tra
 with fusion engines.
 
 A battlecruiser is a heavier and more expensive cruiser variant with a spinal mount railgun and a graphene composite 
-hull for EMP resistance. The [[Domino]] variant is larger than its carriers and acts as that navys capital ship since 
+hull for EMP resistance. The [[Domino]] variant is larger than its carriers and acts as that navy's capital ship since 
 they do not use battleships.
 
 # Battleship
 
 A battleship is a 1000 ton plus firepower and fleet support vessel fielded by the [[Peacekeepers]], 
-[[Greater Zhōngguó]], and the [[Eurasian Bloc]]. The flagship and pride of the fleet are normally battleships. 
-They are powered by large refuellable antimatter engines which give them huge amounts of power which they can use for
-spinal mount lasers and to run plasma shields, the largest even to a kilometer out to cover close ships. They have large
-crews, stasis pods to allow them to burn as fast as smaller un-crewed screens, and a graphene composite hull for EMP
-resistance.
+[[Greater Zhōngguó]], and the [[Eurasian Bloc]]. The flagship and pride of the fleet for all three are battleships. 
+Battleships are powered by large refuellable antimatter engines, giving them huge amounts of power which they can use 
+for spinal mount lasers and to run plasma shields, the largest even to a kilometer out to cover close ships. They have 
+large crews along with crew stasis pods to allow them to burn as fast as smaller un-crewed screens, and a graphene 
+composite hull for EMP resistance.
 
 # Carrier
 
 Carriers move drones, troop transports, defense platforms, and cutters into combat. The largest are the capital ships 
 of most first class navies except for Dominio, and the biggest are over 3000 tons and have docks big enough to form a 
 hard seal around a frigate or destroyer for drydock field repairs. There are smaller variants which are used for mass 
-drone deployment by less well equipped navies such as [[FreeHab~Independent Habitats]], but under 100 tons they are
-considered auxiliaries and are generally cheap converted commercial vessels. Carries have secondary roles as fuel and 
-ammo depots and mobile hospitals. Both fusion and antimatter engine variants are normally crewed.`,
+drone deployment by less well equipped navies such as [[FreeHab~Independent Habitats]], any that are under 100 tons
+would be considered auxiliaries by inner system navies and ones this size are in fact almost all cheap converted 
+commercial vessels. Carries have secondary roles as fuel and ammo depots and mobile hospitals. Both fusion and 
+antimatter engine variants are normally crewed.`,
         classification: 'Praxis/Military'
     }],
     ['Neurogenesis Treatment', {
@@ -1363,11 +1364,11 @@ Earth with fission thermal engines.
 The Battle of the Apex occurred when the US second fleet engaged with the PRCs rapid response vessels, along with the
 commercial PRC drone cargo ship Tianzhou and a Dominio privateer, in orbit around EM1. The initial missile salvos from 
 both sides were were effectively countered by the opposing drone screens, allowing the fleets to close to drone range. 
-The Russian gunships and the privateer were destroyed in the first pass by the US carrier launched suicide drones. The 
-debris from the battle quickly cascaded and made orbital transfers risky, as well as greatly slowing down the EM1 three 
-body intercept calculations. Both sides quickly exhausted their missiles and ran out of maneuvering hydrogen, and being 
-unable to afford the delta-V to return to drone range were forced to use their reserves to break off towards their 
-respective stations.
+The Russian gunships and the privateer were destroyed in the first pass by the US carrier launched chemical rocket 
+powered suicide drones. The debris from the battle quickly cascaded and made orbital transfers risky, as well as greatly 
+slowing down the EM1 three body intercept calculations. Both sides quickly exhausted their missiles followed by drones 
+and maneuvering hydrogen, and being unable to afford the delta-V to return to drone range were forced to use their 
+reserves to break off towards their respective stations.
 
 At 02:30 on the 24th, 10 hours after the outbreak of hostilities, the PRC and US agreed to a truce at EM1. There were
 a number of proxy conflicts in the next few days such as the conflict between the Mirazh and Justice, but none directly 
