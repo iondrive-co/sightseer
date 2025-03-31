@@ -1061,12 +1061,25 @@ un-crewed except for VIP and SWAT team transports.`,
         classification: 'Praxis/Military'
     }],
     ['Naval Rated Ship', {
-content:`A naval rated ship is a 100 ton plus military space vessel fielding one or more heavy weapon systems and a fast
-propulsion system, a definition which generally excludes small combat craft and converted commercial vessels as
-[[auxiliaries~Naval Auxiliary]]. All current ratings are vacuum only vessels which develop thrust from a 
-[[Fusion~Fusion Engine]] or [[Antimatter~Antimatter Engine]] engine, carry at least 30 tons of missile system and point 
-defense, and are controlled by either a human crew or one or more dedicated [[synths~Synthetic Intelligence]] to prevent 
-degradation of ships functions under signal jamming. 
+content:`A naval rated ship is a 100 ton plus military space vessel equipped with one or more heavy weapon systems, 
+a propulsion system capable of generating sufficient delta-V for tactical maneuvers, and controlled by either a human 
+crew or one or more dedicated [[synths~Synthetic Intelligence]] to prevent degradation of ships 
+functions under signal jamming.. This definition is intended to excludes small combat craft and converted commercial 
+vessels as [[auxiliaries~Naval Auxiliary]] which operate under a different command structure. 
+
+# History
+
+Military space vehicle design can be divided into three historical eras. Ships of the fission thermal and chemical 
+rocket era were material constrained and not capable of producing delta-V for repeated maneuvers, which dictated that 
+capital ships were simple frigates and drone carriers that engaged in long range missile duels followed by drone fights,
+most notably the Battle of the Apex in the [[Ten-Hour War]]. The [[Fusion~Fusion Engine]] era lead to the development
+of long range vessels and the re-introduction of 20th century naval classifications such as destroyers and cruisers to 
+distinguish them from cheaper and less powerful frigates (although in reality all three vessel classes operated more 
+like submarines than ships), as well as a larger variety of missiles such as EMPs. Finally the development of the 
+[[Antimatter~Antimatter Engine]] and better robotics allowing for synth only crews has allowed the largest navies to 
+field variants with the capability to burn delta-V to make extremely high-G velocity adjustments, as well as 
+battlecruisers and battleships with large railguns and lasers, energy point defense, and plasma shields which has 
+created a Cambrian explosion of new tactics and doctrine.
 
 # Frigates
 
@@ -1326,11 +1339,11 @@ the next year. Fort Liberty was perceived by the PRC to be a great threat, due t
 systems, and Dominio privateers were engaged to disrupt construction supplies being shipped from orbit. In response
 the US heavily funded Constellis ship construction. By 174 BFC Constellis corvettes were escorting all supply ships and
 had had a number of skirmishes with privateers. Both the US and PRC fleets remained in orbit or lunar transfers, as did 
-the Constellis largest ship, the newly purchased CS Justice, of similar size to a post-war cruiser although lacking 
-longer range missiles. North Korea did not have any non-orbital military space assets, but engaged in multiple remote
-sabotage attempts on US ground based and orbital construction facilities.
+the Constellis largest ship, the newly purchased CS Justice, of similar size to a [[second generation~Naval Rated Ship]] 
+cruiser although lacking longer range missiles. North Korea did not have any non-orbital military space assets, but 
+engaged in multiple remote sabotage attempts on US ground based and orbital construction facilities.
 
-On the 19th March 176, with the station nearing completion, the US sent the Cruiser USS Unity on a Freedom of Navigation 
+On the 19th March 176, with the station nearing completion, the US sent the frigate USS Unity on a Freedom of Navigation 
 exercise to Fort Liberty. It refuelled at the station and was on its return on the 23rd March. At 16:30 that day the 
 USNS Herrick came under fire from a privateer while delivering supplies. Its two Constellis escort corvettes CS Drake 
 and CS Thor returned fire, crippling the ship, killing its crew, and making it the first ship destroyed in space 
@@ -1340,19 +1353,21 @@ Russian missile carrier MRK Mirazh and the commercial PRC [[drone~Drone]] cargo 
 isolated and outnumbered with no nearby support and forcing it to use its remaining fuel to vector towards Earth.
 
 During this time both the US second fleet and the PRC rapid response vessels had refuelled and moved out of their 
-normal lunar orbits onto an approach with EM1. The US second fleet consisted of two pre-war carriers and their destroyer
-escorts, and the PRC rapid response consisted of two cruisers, six fast frigates, and three Russian gunships. The US 
+normal lunar orbits onto an approach with EM1. The US second fleet consisted of two frigates and seven corvette
+escorts, and the PRC rapid response consisted of two frigates, six fast corvettes, and three Russian gunships. The US 
 moved to DEFCON 2 and declared that EM1 was under blockade, but did not declare war. The bulk of the PRC and US fleets 
 were stationed in Earth orbit, where both countries had a No First-Strike doctrine for orbital warfare due to the 
 risk of creating a Kessler cascade. Both fleets dispatched task forces towards EM1, which was several days away from
 Earth with fission thermal engines.
 
 The Battle of the Apex occurred when the US second fleet engaged with the PRCs rapid response vessels, along with the
-commercial PRC drone cargo ship Tianzhou and a Dominio privateer, in orbit around EM1. The Russian gunships and the
-privateer were destroyed in the first hours by the US carrier launched drones, but these were denied access to the PRC 
-fleet by their drone screen. The debris from the battle quickly cascaded and made maneuvering difficult, as well as 
-greatly slowing down the EM1 three body intercept calculations. Both sides quickly ran out of maneuvering hydrogen and 
-had to use their reserves to break off towards their respective stations.
+commercial PRC drone cargo ship Tianzhou and a Dominio privateer, in orbit around EM1. The initial missile salvos from 
+both sides were were effectively countered by the opposing drone screens, allowing the fleets to close to drone range. 
+The Russian gunships and the privateer were destroyed in the first pass by the US carrier launched suicide drones. The 
+debris from the battle quickly cascaded and made orbital transfers risky, as well as greatly slowing down the EM1 three 
+body intercept calculations. Both sides quickly exhausted their missiles and ran out of maneuvering hydrogen, and being 
+unable to afford the delta-V to return to drone range were forced to use their reserves to break off towards their 
+respective stations.
 
 At 02:30 on the 24th, 10 hours after the outbreak of hostilities, the PRC and US agreed to a truce at EM1. There were
 a number of proxy conflicts in the next few days such as the conflict between the Mirazh and Justice, but none directly 
@@ -1364,7 +1379,7 @@ vessels and smaller high maneuver ships transported into battle by large heavy b
 to emphasise laying down and screening a much greater density of fuel depots (eventually leading to the development of
 [[Fuel Pathing]], and using point defense lasers to clear debris. The effectiveness of swarms of attack and screening 
 drones was well understood before the war, but both sides launched new fast high density drone carrier variants after 
-it.`,
+it and started developing other [[Naval Auxiliary]] vessels.`,
         classification: 'Socionomics/Events'
     }],
     ['Türkiye', {
