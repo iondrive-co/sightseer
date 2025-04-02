@@ -1040,10 +1040,10 @@ mirrors (direct energy weapons from slow moving capital ships onto multiple fast
 equipped navies make use of fast drones as an outer point defense system to attempt missile intercepts. Shields can 
 deploy expandable inflatable walls on multiple sides of larger ships to hide them from view and absorb some attacks.
 
-Static auxiliaries do not produce enough thrust to dramatically change orbits and covers assets like defense platforms
-and attack satellites. Transports include atmosphere landing craft, troop and vehicle transport, and special ops fast 
-orbital insertion drop-pod carriers. Logistics ships cover hospital ships and dedicated refuelling and ammunition 
-supply craft.
+Static auxiliaries do not produce enough thrust to dramatically change orbits, this category covers assets like defense 
+platforms and attack satellites. Transports include atmosphere landing craft, troop and vehicle transport, and special 
+ops fast orbital insertion drop-pod carriers. Logistics ships cover hospital ships and dedicated refuelling, ammunition 
+supply, and life support replenishment craft.
 
 Javelin class ships are simple payload delivery vessels. The first type are tubes - metal tubes containing an engine
 and a payload. Payloads can be missiles, drones, or kinetic weapons launched with the ships velocity. The second type
@@ -1069,10 +1069,10 @@ jamming. This definition is intended to excludes small combat craft and converte
 
 # History
 
-Military space vehicle design can be divided into three historical eras. Ships of the fission thermal era were material 
-constrained and not capable of producing delta-V for repeated maneuvers, which dictated that capital ships were simple 
-frigates and drone carriers that engaged in long range missile duels followed by chemical rocket powered drone fights,
-most notably the Battle of the Apex in the [[Ten-Hour War]]. The [[Fusion Engine]] era lead to the development
+Military space vehicle design can be divided into three historical eras. Ships of the fission thermal-electric era were 
+resource constrained and not capable of producing delta-V for repeated maneuvers, which dictated that capital ships were 
+simple frigates and drone carriers that engaged in long range missile duels followed by chemical rocket powered drone 
+fights, most notably the Battle of the Apex in the [[Ten-Hour War]]. The [[Fusion Engine]] era lead to the development
 of long range vessels and the re-introduction of 20th century naval classifications such as destroyers and cruisers to 
 distinguish them from cheaper and less powerful frigates (although in reality all three vessel classes operated more 
 like submarines than ships), as well as a larger variety of missiles such as EMPs. Finally the development of the 
@@ -1084,9 +1084,9 @@ Cambrian explosion of new tactics and doctrine.
 # Frigates
 
 Low cost and weighing under 400 tons, they specialise in near planet escort and medium range anti satellite attack. They 
-are used in multiple roles such as patrol, anti-piracy, fuel and ammunition supply, minelaying, sensor net deployments, 
-disaster response (carrying humanitarian supplies and medical bays), missile boats. They carry drones which can be used 
-for fuel hauling and minesweeping. Un-crewed in first class navies. Have sealed modular mini fusion reactors.
+are used in multiple roles such as patrol, anti-piracy, fuel and ammunition supply, sensor net deployments, disaster 
+response (carrying humanitarian supplies and medical bays), and missile boats. They carry drones and are un-crewed in 
+first class navies. Have sealed modular mini fusion reactors.
 
 # Destroyers
 
@@ -1124,8 +1124,8 @@ of most first class navies except for Dominio, and the biggest are over 3000 ton
 hard seal around a frigate or destroyer for drydock field repairs. There are smaller variants which are used for mass 
 drone deployment by less well equipped navies such as [[FreeHab~Independent Habitats]], any that are under 100 tons
 would be considered auxiliaries by inner system navies and ones this size are in fact almost all cheap converted 
-commercial vessels. Carries have secondary roles as fuel and ammo depots and mobile hospitals. Both fusion and 
-antimatter engine variants are normally crewed.`,
+commercial vessels. Carries have secondary roles as fuel, life support, and ammo depots as well as mobile hospitals. 
+Both fusion and antimatter engine variants are normally crewed.`,
         classification: 'Praxis/Military'
     }],
     ['Neurogenesis Treatment', {
