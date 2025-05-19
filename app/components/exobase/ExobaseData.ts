@@ -740,6 +740,37 @@ which is still watching over us after having orchestrated the power cut to appea
 plunging into the abyss by blind luck, in order to motivate us to better ourselves.`,
         classification: 'Socionomics/Events'
     }],
+    ['Hellas Planitia', {
+        content:
+`Hellas Planitia, often called Hellas or Hades, is an industrial center and the largest Martian city, and was the site 
+for some humanity’s earliest sustained settlements on Mars.
+
+# History
+
+Established in 173 BFC by a consortium of companies and the [[United States]], the Dao Vallis Outpost was situated at 
+the northern rim of Hellas Basin. Although further away and in a different sector to Earth during the 
+[[Khan Solar Storm]], the regolith covering of the first outposts such as 
+the outpost at Jezero Crater was not sufficient to prevent the first explorers from receiving a 
+lifetime radiation dose over the course of several hours. As such the living quarters of Dao Vallis were excavated deep 
+within lava tubes and featured polyethylene water tank lined walls. Early infrastructure was characterized by 
+electrolysis-based oxygen generation, heavily algae-based food systems along with limited hydroponics, the development 
+of metal-sequestering microbes, and significant challenges posed by perchlorate contamination in Martian soil and ice 
+and prolonged dust storms sometimes limiting the available power to the outpost's small fission reactors.
+
+The Orcus Colony was located at Sisyphus Planitia within Hellas Basin. Initially the site of robotic underground farms 
+for the Dao Vallis Outpost food supply, it started to house colonists once advancements such as better pykrete and
+biopolymer bound regolith bricks (along with the thicker atmosphere on the basin floor) reduced the radiation risk 
+sufficiently. The first of the iconic diamond triangle graphene domes was erected here for above ground farming and 
+light for the colonists. Water for the colony was initially obtained from lakes on the basin floor until the later 
+convoy system of polar crawlers was established. It was the location where uncovered surface lichen excreting insulating 
+materials to prevent desiccation and absorb water from air were first shown to be feasible.
+
+Due to the higher atmospheric pressure the basin became the largest fuel manufacturing center on Mars, and the early 
+Martian creole culture can be seen in some recorded interactions between colonists with crew from this time. The later 
+mining of rare earth elements cemented its position as the largest industrial center on Mars, by which time the colony 
+filled the entire basin and became officially known as Hellas Planitia.`,
+        classification: 'Geo'
+    }],
     ['Infocom Agent', {
         content:
 `An Infocom Agent, more commonly known as a PIA (Personal Infocom Agent), is a [[Synthetic Intelligence]] that 
@@ -1175,7 +1206,7 @@ analytic tasks require QuanLan connections.`,
         classification: 'Socionomics/Events'
     }],
     ['Semiotican', {
-content: `Semiotican is a multi-planetary industrial conglomerate headquartered in Hellas Planitia, Mars, and is the 
+content: `Semiotican is a multi-planetary industrial conglomerate headquartered in [[Hellas Planitia]], Mars, and is the 
 largest corporation by revenue. Its name and current structure were established in a merger between smart manufacturing 
 giant Reiser3D and the Mitsubishi group, and its largest revenue sources are from control and monitoring products in the 
 industrial, mining, and construction sectors. Since its founding in 153 BFC it has made a number of acquisitions of 
@@ -1421,7 +1452,7 @@ only recently emerged as an active international political force in its own righ
 classification: 'Socionomics/Polities'
     }],
     ['X Group', {
-        content: `The X Group is a multiplanetary energy and industrial conglomerate headquartered in Hellas Planitia, 
+content: `The X Group is a multiplanetary energy and industrial conglomerate headquartered in [[Hellas Planitia]], 
 Mars. It was formed out of SpaceX and X-Power by X Musk after the death of his father Elon Musk, the eccentric 
 trillionaire who founded and maintained control of both companies until his death. Their highest revenue product lines 
 are spacecraft and satellite manufacture and launch services; off world power and water supply services; and navigation, 
