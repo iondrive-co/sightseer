@@ -747,23 +747,25 @@ for some humanity’s earliest sustained settlements on Mars.
 
 # History
 
-Established in 173 BFC by a consortium of companies and the [[United States]], the Dao Vallis Outpost was situated at 
-the northern rim of Hellas Basin. Although further away and in a different sector to Earth during the 
-[[Khan Solar Storm]], the regolith covering of the first outposts such as 
-the outpost at Jezero Crater was not sufficient to prevent the first explorers from receiving a 
-lifetime radiation dose over the course of several hours. As such the living quarters of Dao Vallis were excavated deep 
-within lava tubes and featured polyethylene water tank lined walls. Early infrastructure was characterized by 
-electrolysis-based oxygen generation, heavily algae-based food systems along with limited hydroponics, the development 
-of metal-sequestering microbes, and significant challenges posed by perchlorate contamination in Martian soil and ice 
-and prolonged dust storms sometimes limiting the available power to the outpost's small fission reactors.
+Although further away and in a different sector to Earth during the [[Khan Solar Storm]], the regolith covering of the 
+early outposts such as Jezero Crater was not sufficient to prevent the first explorers from receiving a lifetime 
+radiation dose over the course of several hours. In 173 BFC a consortium of companies and the [[United States]] 
+government began detailed imagining of the lava tubes at the northern rim of Hellas Basin, and later that year the
+Dao Vallis Outpost was established in the largest tube system. The deepest tubes were excavated for the living 
+quarters, and featured polyethylene water tank lined walls to further reduce the radiation risk. Early infrastructure 
+was characterized by electrolysis-based oxygen generation, heavily algae-based food systems along with limited 
+hydroponics, the development of metal-sequestering microbes, and significant challenges posed by perchlorate 
+contamination in Martian soil and ice and prolonged dust storms sometimes limiting the available power to the outpost's 
+small fission reactors.
 
-The Orcus Colony was located at Sisyphus Planitia within Hellas Basin. Initially the site of robotic underground farms 
-for the Dao Vallis Outpost food supply, it started to house colonists once advancements such as better pykrete and
-biopolymer bound regolith bricks (along with the thicker atmosphere on the basin floor) reduced the radiation risk 
-sufficiently. The first of the iconic diamond triangle graphene domes was erected here for above ground farming and 
-light for the colonists. Water for the colony was initially obtained from lakes on the basin floor until the later 
-convoy system of polar crawlers was established. It was the location where uncovered surface lichen excreting insulating 
-materials to prevent desiccation and absorb water from air were first shown to be feasible.
+Initially the site of robotic underground farms supplementing the Dao Vallis Outpost food supply, the Orcus Colony on 
+the floor of the basin began to house colonists once advancements such as better pykrete and biopolymer bound regolith 
+bricks (along with the thicker atmosphere on the basin floor) reduced the radiation risk sufficiently. The first of the 
+iconic diamond triangle graphene domes was erected here for above ground farming and light for the colonists. Water for 
+the colony was initially obtained from the basins ice deposits until the later convoy system of polar crawlers was 
+established. Orcus University was the first tertiary education established on Mars, and was responsible for developing 
+the Martian lichen which famously absorbs water from the air and uses it to excretes desiccation-proof insulating 
+materials.
 
 Due to the higher atmospheric pressure the basin became the largest fuel manufacturing center on Mars, and the early 
 Martian creole culture can be seen in some recorded interactions between colonists with crew from this time. The later 
@@ -1204,6 +1206,29 @@ analytic tasks require QuanLan connections.`,
         content:
 `Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Events'
+    }],
+    ['Sanktuarium Jasności', {
+        content:
+`The Sanktuarium Jasności ("Sanctuary of Light") is a significant religious and cultural site located at Shackleton 
+Crater, near the lunar south pole. Established around the monumental Image of Our Lady of Eternal Light, the sanctuary 
+has become a notable pilgrimage destination, particularly for Polish Catholics.
+
+Michał Kowalczyk was a [[Lunar Industrial Engineering]] cryohydrologist who was researching the impacts of the ice 
+mining operations in Shackleton Crater when the [[Khan Solar Storm]] hit. He was in an underground shelter at the bottom
+of a south pole crater and so relatively safe, however in an audio recording made minutes before succumbing to his fatal 
+radiation dose Kowalczyk recounted that the footage of the dancing curtains of light outside caused a revelation and 
+compelled him to head outside armed with industrial-grade laser mining cutters and several days worth of oxygen and 
+scrubbers. Dancing electrostatically charged dust was said to have guided him to a spot near the rim of the crater 
+which was bathed in almost perpetual sunlight, and there he spent his last days carving an immense, immovable relief 
+depicting the Virgin Mary.
+
+The icon became an emblem of the spiritual resilience of the Polish people, and over time structures were built to 
+provide safe pilgrimage routes, viewing platforms, and protective habitats to accommodate visitors. These became the
+Sanktuarium Jasności, officially recognized by the Vatican in 130 BFC as an area of devotional significance and 
+consecrated by a papal legate later that year. In 127 BFC Pope Benedict XVII recognized the graces of God in the 
+guidance of Kowalczyk and issued the bull Lunae Claritas, authorizing the canonical coronation of the Image of Our Lady 
+of Eternal Light. The pope visited the site in person two years later.`,
+        classification: 'Geo'
     }],
     ['Semiotican', {
 content: `Semiotican is a multi-planetary industrial conglomerate headquartered in [[Hellas Planitia]], Mars, and is the 
