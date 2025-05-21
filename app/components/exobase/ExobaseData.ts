@@ -13,6 +13,17 @@ The 12Quan name was initially a religious reference to the 12th Hidden Imam as w
 pronounced as 1-2-kwon.`,
         classification: 'Socionomics/Polities'
     }],
+    ['Aljanah Lunar Resort', {
+content: `Aljanah Lunar Resort is a luxury lunar resort and international flight arena located in the Vallis Schröteri,
+Aristarchus Plateau. It is the flagship venue for Aerowing racing, with competitive terrain-based racing routes 
+including cliff-side gates and air-cushioned trench glides built into its flight corridor which encloses a segment of 
+the Vallis Schröteri rille, while a larger dome built over a network of minor rilles is used for tourist flying. 
+An initial smaller resort was opened at the site by Al-Qamar Leisure in 170 BFC, and during the collapse of the gulf 
+states it was partially nationalised by [[Türkiye]] until being transferred to Selçuk AeroTek. It is the most popular 
+location for luna tourism, attracting tens of thousands more tourists per year than the second most visited site, the 
+[[Sanktuarium Jasności]]`,
+        classification: 'Geo'
+    }],
     ['Amazon', {
 content: `Amazon is a [[United States]] [[Infomatic Conglomerate]], primarily engaged in consumer logistics, robotics,
 compute rental, drug discovery, and healthcare. It was the largest corporation by revenue until 116 BFC when at the end
@@ -32,21 +43,6 @@ were a perfect fit for its growing automated marketplace, and their subscription
 positioned to fill the growing demand for rental of large items such as furniture and healthcare (although losing 
 out on automotive to the [[X Group]]).`,
         classification: 'Socionomics/Polities'
-    }],
-    ['Automated Modular Solid-State Transformers', {
-content: `An Automated Modular Solid-State Transformer or AMSST, is an umbrella term for the design of the last 
-generation of AC electric power distribution transformers, which started to be globally deployed in the 180s in the
-aftermath of the [[Khan Solar Storm]]. Solid state transformers had been used in niche applications for many decades
-prior, but were too expensive for widespread use in the power grid. However Japan, under the direction of 
-[[Matsumoto Koji]], pioneered cheaper manufacturing methods as a strategic priority in order to counter the threat of an 
-EMP attack from the PRC. Since AMSSTs do not use magnetic induction for operation they are not susceptible to the
-current surges through power lines that would occur in an EMP attack, as well as the additional advantages of reactive
-power control and load balancing, bidirectional flow, and fault tolerance. The widespread deployment of AMSSTs in Japan
-prior to Khan allowed the power grid to remain largely untouched and key manufacturing hubs to remain operating, and 
-Japan was able to lead a manufacturing push to produce more and donate its strategic reserves to other countries. AMSSTs
-became the most widely used power distribution transformer until the 80s, when began to be replaced by Compact 
-Superconducting Transformers (CSTs), as well as more efficient long distance wireless power transmission`,
-        classification: 'Praxis/Industrial'
     }],
     ['Ångström', {
 content: `Ångström (commonly known in Japan as Angusu) is a photonics conglomerate specialising in the manufacture of 
@@ -151,6 +147,21 @@ well as areas where its laissez-faire economy combined with its perceived safety
 [[Mazatlán Zona Franca]] gives it a comparative advantage, such as medical tourism, generic drug production, biotech, 
 offshore banking, and citizenship as a service.`,
         classification: 'Socionomics/Polities'
+    }],
+    ['Automated Modular Solid-State Transformers', {
+        content: `An Automated Modular Solid-State Transformer or AMSST, is an umbrella term for the design of the last 
+generation of AC electric power distribution transformers, which started to be globally deployed in the 180s in the
+aftermath of the [[Khan Solar Storm]]. Solid state transformers had been used in niche applications for many decades
+prior, but were too expensive for widespread use in the power grid. However Japan, under the direction of 
+[[Matsumoto Koji]], pioneered cheaper manufacturing methods as a strategic priority in order to counter the threat of an 
+EMP attack from the PRC. Since AMSSTs do not use magnetic induction for operation they are not susceptible to the
+current surges through power lines that would occur in an EMP attack, as well as the additional advantages of reactive
+power control and load balancing, bidirectional flow, and fault tolerance. The widespread deployment of AMSSTs in Japan
+prior to Khan allowed the power grid to remain largely untouched and key manufacturing hubs to remain operating, and 
+Japan was able to lead a manufacturing push to produce more and donate its strategic reserves to other countries. AMSSTs
+became the most widely used power distribution transformer until the 80s, when began to be replaced by Compact 
+Superconducting Transformers (CSTs), as well as more efficient long distance wireless power transmission`,
+        classification: 'Praxis/Industrial'
     }],
     ['Bioforge Hivegen', {
 content: `Bioforge Hivegen, often known as BioGen, is a multiplanetary genetic engineering conglomerate headquartered in 
@@ -1211,7 +1222,8 @@ analytic tasks require QuanLan connections.`,
         content:
 `The Sanktuarium Jasności ("Sanctuary of Light") is a significant religious and cultural site located at Shackleton 
 Crater, near the lunar south pole. Established around the monumental Image of Our Lady of Eternal Light, the sanctuary 
-has become a notable pilgrimage destination, particularly for Polish Catholics.
+has become a notable pilgrimage destination, particularly for Polish Catholics, and is the second most visited lunar
+destination after the [[Aljanah Lunar Resort]].
 
 Michał Kowalczyk was a [[Lunar Industrial Engineering]] cryohydrologist who was researching the impacts of the ice 
 mining operations in Shackleton Crater when the [[Khan Solar Storm]] hit. He was in an underground shelter at the bottom
