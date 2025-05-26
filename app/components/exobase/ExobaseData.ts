@@ -751,6 +751,18 @@ which is still watching over us after having orchestrated the power cut to appea
 plunging into the abyss by blind luck, in order to motivate us to better ourselves.`,
         classification: 'Socionomics/Events'
     }],
+    ['Forge Palace', {
+        content:
+`Forge Palace (锻宫) is a combined luxury resort casino and a martial arts training academy, built within the natural 
+cavern systems within asteroid 2029 VK184, a 340-meter carbonaceous chondrite asteroid captured and relocated to the 
+Earth-Moon L5 Lagrange point by the [[GPR]]s Stakhanov-1 in 138 BFC. Following extraction of most of the asteroids
+resources while it was in Halo orbit around L5, the GPR allowed mission operator [[Sinogroup]] to establish a lightly
+regulated casino and resort on the stabilised asteroid, while itself establishing an elite zero G martial arts institute 
+for its Cosmonauts and Taikonauts. The school draws on the Chechen and Dagestani grappling-intensive style martial arts 
+used in Spetsnaz training, the center of mass manipulation and precise striking techniques from Wing Chun, and fluid
+movements from Tai Chi, amongst others.`,
+        classification: 'Geo'
+    }],
     ['Hellas Planitia', {
         content:
 `Hellas Planitia, often called Hellas or Hades, is an industrial center and the largest Martian city, and was the site 
