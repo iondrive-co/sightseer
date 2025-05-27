@@ -338,9 +338,10 @@ Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
     }],
     ['Drone', {
-content: `A drone is an autonomous vehicle possessing distributed decision making capability and designed for mission
-expendability. The term excludes large autonomous vessels where a [[Synth~Synthetic Intelligence]] is generally not
-distributing control across multiple vehicles, as well as very small distributed control systems such as [[motes~Mote]].
+content: `A drone is an autonomous vehicle with localised decision making capability and designed for mission
+expendability. The term excludes [[instances~Instance]] where a [[synth~Synthetic Intelligence]] is separable from the
+vehicle, as well as very small distributed control systems such as [[motes~Mote]].
+
 Drones are produced for commercial and [[military~Naval Auxiliary]] use by most terrestrial and off-earth polities, 
 however the high volume low control sophistication of the manufacturing process lends itself to highly concentrated low 
 cost supply chains, resulting in the majority of drones being produced in a few global hotspots. The largest are 
@@ -755,12 +756,12 @@ plunging into the abyss by blind luck, in order to motivate us to better ourselv
         content:
 `Forge Palace (锻宫) is a combined luxury resort casino and a martial arts training academy, built within the natural 
 cavern systems within asteroid 2029 VK184, a 340-meter carbonaceous chondrite asteroid captured and relocated to the 
-Earth-Moon L5 Lagrange point by the [[GPR]]s Stakhanov-1 in 138 BFC. Following extraction of most of the asteroids
-resources while it was in Halo orbit around L5, the GPR allowed mission operator [[Sinogroup]] to establish a lightly
-regulated casino and resort on the stabilised asteroid, while itself establishing an elite zero G martial arts institute 
-for its Cosmonauts and Taikonauts. The school draws on the Chechen and Dagestani grappling-intensive style martial arts 
-used in Spetsnaz training, the center of mass manipulation and precise striking techniques from Wing Chun, and fluid
-movements from Tai Chi, amongst others.`,
+Earth-Moon L5 Lagrange point by the [[GPR]]s Stakhanov-1 in 138 BFC. Following resource extraction the GPR establishing 
+an elite zero G martial arts institute for its Cosmonauts and Taikonauts on the stabilised asteroid. The institute 
+trained sailors in the Chechen and Dagestani grappling style used in later Spetsnaz training, the center of mass 
+manipulation and precise striking techniques from Wing Chun, and fluid movements from Tai Chi, amongst other influences. 
+The institute saw less use over time due to increasing use of combat [[instances~Instance]], and [[Greater Zhōngguó]] 
+allowed [[Sinogroup]] to establish a lightly regulated casino and resort on the asteroid in 78 BFC`,
         classification: 'Geo'
     }],
     ['Hellas Planitia', {
@@ -829,6 +830,12 @@ compute rental), [[X Group]] (navigation, propulsion management, and e-commerce 
 and [[Bioforge Hivegen]] (genetic engineering management).
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
+    }],
+    ['Instance', {
+content: `An instance is a mechanical or biomechanical machine piloted by an independent [[Synthetic Intelligence]],
+as opposed to a [[drones~Drone]] whose intelligence is inseparable from the vessel. Instances range in size from 
+microscopic to humanoid to spaceship and are categorized by function, such as combat, labor, or companion.`,
+        classification: 'Infomatics/Synths'
     }],
     ['InterMesh',{
         content:
@@ -1339,7 +1346,8 @@ Bank of China, and Xiaomi Corporation. The intent was to kick-start a system of 
 vehicles piggybacking on public mass transit, along with payment systems, networking, and a stronger industrial base 
 capable of quick conversion to the production of military vehicles. In later years when Alibaba and JD.com were 
 nationalised they were also folded into the group along with their e-commerce operations, and by the time GZ was formed 
-it was a sprawling conglomerate with interests in many sectors of the economy.`,
+it was a sprawling conglomerate with interests in many sectors of the economy, including off world operations such as 
+[[Forge Palace]].`,
         classification: 'Socionomics/Polities'
     }],
     ['Synthetic Control Measures', {
