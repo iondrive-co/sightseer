@@ -234,7 +234,8 @@ Their focus on a water economy from low density carbonaceous asteroids such as 5
 initiative recruiting (and in some cases blackmailing) specialists to work long periods in these bases, lead to rapid 
 expansion. In March 148 this network allowed them to leapfrog the GPR in establishing a base on Ceres, the largest 
 asteroid which had significant water reserves. After adjusting their plans the GPR was able to set up an adjacent base 
-in December 148.
+in December 148. The 140s also saw asteroid mining tech start to affect cislunar space as apollo asteroids such as 
+[[Forge Palace]] began to be captured.
 
 The first reported act of space piracy occurred on 12 April, 143 BFC, when an automated Lilium Solid Power shuttle 
 carrying many thousands of [[Amazon]] industrial robots to the outer asteroid belt disappeared near Cybele. At this time
@@ -338,17 +339,19 @@ Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
     }],
     ['Drone', {
-content: `A drone is an autonomous vehicle with localised decision making capability and designed for mission
-expendability. The term excludes [[instances~Instance]] where a [[synth~Synthetic Intelligence]] is separable from the
-vehicle, as well as very small distributed control systems such as [[motes~Mote]].
+content: `A drone is an autonomous vehicle capable of networked intelligence and possessing more localised decision 
+making capability than a [[motes~Mote]]. In [[military~Naval Auxiliary]] use they are considered mission expendable.
+Drones with sufficient onboard compute can be temporarily piloted by a reduced [[instance~Instance]] of a 
+[[synth~Synthetic Intelligence]] which is also capable of running separately from the vehicle. In normal usage however
+drones only require their onboard compute and communication with other nearby drones to complete their objectives.
 
-Drones are produced for commercial and [[military~Naval Auxiliary]] use by most terrestrial and off-earth polities, 
-however the high volume low control sophistication of the manufacturing process lends itself to highly concentrated low 
-cost supply chains, resulting in the majority of drones being produced in a few global hotspots. The largest are 
-[[Drone Valley]] in Bengaluru, Shenzhen's Drone Alley in [[Greater Zhōngguó]], [[12Quans~12Quan]] factory cities in Iran 
-and the greater [[Fatimid Trade Caliphate]], Istanbul and Ankara in [[Türkiye]]. There are also some more sophisticated 
-but lower volume drone manufacturing centers, the most notable are in Haifa, Israel as well as several in the 
-[[US~United States]] across Texas, California, Arizona, and North Carolina.`,
+Drones are produced for commercial and military use by most terrestrial and off-earth polities, however the high volume 
+low control sophistication of the manufacturing process lends itself to highly concentrated low cost supply chains, 
+resulting in the majority of drones being produced in a few global hotspots. The largest are [[Drone Valley]] in 
+Bengaluru, Shenzhen's Drone Alley in [[Greater Zhōngguó]], [[12Quans~12Quan]] factory cities in Iran and the greater 
+[[Fatimid Trade Caliphate]], Istanbul and Ankara in [[Türkiye]]. There are also some more sophisticated but lower volume 
+drone manufacturing centers, the most notable are in Haifa, Israel as well as several in the [[US~United States]] across 
+Texas, California, Arizona, and North Carolina.`,
         classification: 'Praxis/Industrial'
     }],
     ['Drone Valley', {
@@ -756,12 +759,13 @@ plunging into the abyss by blind luck, in order to motivate us to better ourselv
         content:
 `Forge Palace (锻宫) is a combined luxury resort casino and a martial arts training academy, built within the natural 
 cavern systems within asteroid 2029 VK184, a 340-meter carbonaceous chondrite asteroid captured and relocated to the 
-Earth-Moon L5 Lagrange point by the [[GPR]]s Stakhanov-1 in 138 BFC. Following resource extraction the GPR establishing 
-an elite zero G martial arts institute for its Cosmonauts and Taikonauts on the stabilised asteroid. The institute 
+Earth-Moon L5 Lagrange point by the [[GPR]]s Stakhanov-1 in 142 BFC. Following resource extraction, the GPR established 
+a zero G martial arts institute for its Cosmonauts and Taikonauts on the stabilised asteroid. The institute 
 trained sailors in the Chechen and Dagestani grappling style used in later Spetsnaz training, the center of mass 
 manipulation and precise striking techniques from Wing Chun, and fluid movements from Tai Chi, amongst other influences. 
-The institute saw less use over time due to increasing use of combat [[instances~Instance]], and [[Greater Zhōngguó]] 
-allowed [[Sinogroup]] to establish a lightly regulated casino and resort on the asteroid in 78 BFC`,
+The institute saw less use over time due to increasing use of combat [[instances~Instance]], and the newly formed 
+[[Greater Zhōngguó]] allowed base operator [[Sinogroup]] to establish a lightly regulated casino and resort on the 
+asteroid in 97 BFC`,
         classification: 'Geo'
     }],
     ['Hellas Planitia', {
@@ -832,12 +836,17 @@ Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
     }],
     ['Instance', {
-content: `An instance is a mechanical or biomechanical machine piloted by an independent [[Synthetic Intelligence]],
-as opposed to a [[drones~Drone]] whose intelligence is inseparable from the vessel. Instances range in size from 
-microscopic to humanoid to spaceship and are categorized by function, such as combat, labor, or companion.`,
+content: `An instance is a mechanical or biomechanical machine piloted by an independent [[Synthetic Intelligence]].
+A machine that does not support sufficient compute to run a copy of part of the synths decision making model (such as
+smaller [[drones~Drone]] and all [[motes~Mote]]) is instead considered to be managed by (when interacting with its API)
+or programmed by (when altering its software) a synth which is interacting with it. A machine with sufficient compute
+to run a non-trivial synth model which does not posses any significant onboard intelligence is often called a shell,
+these range in size from humanoid to a full [[Naval Rated Ship]] and are categorized by function, such as combat, 
+labor, or companion. In cases where a synth takes temporary control of intelligence embedded machine, such as a larger 
+[[Naval Auxiliary]] drone with sufficient compute, it is often referred to as an instance drone.`,
         classification: 'Infomatics/Synths'
     }],
-    ['InterMesh',{
+    ['InterMesh', {
         content:
 `An InterMesh (IM) is any network of decentralised high bandwidth endpoints communicating autonomously over low latency 
 connections. The term The InterMesh generally describes the largest of these networks, which is available everywhere on 
@@ -952,10 +961,11 @@ Minister for Construction, and for a later government Minister for Foreign Affai
     ['Mote', {
         content:
 `Motes, or smart dust, are floating sub-millimeter electronics devices equipped with sensors and connected to the 
-[[InterMesh]]. Research into smart dust had received large amounts of funding from the start of the final century BFC 
-due to the need to monitor for unauthorized [[fabs~Fabricator]], but the first design capable of widespread deployment was 
-not developed until the 70s due to better energy scavenging circuity which was developed out of the quantum chemical 
-breakthroughs of the previous decade.`,
+[[InterMesh]]. Due to their size they have limited onboard compute and so rely much more on networked intelligence for
+decision making than larger [[drones~Drone]]. Research into smart dust had received large amounts of funding from the 
+start of the final century BFC due to the need to monitor for unauthorized [[fabs~Fabricator]], but the first design 
+capable of widespread deployment was not developed until the 70s due to better energy scavenging circuity which was 
+developed out of the quantum chemical breakthroughs of the previous decade.`,
         classification: 'Praxis/Industrial'
     }],
     ['Mazatlán Zona Franca', {
@@ -1091,9 +1101,9 @@ content:`A naval auxiliary is any military space vessel which is not [[Naval Rat
 these ships are too small to carry heavy weapon systems, and are generally un-crewed and develop thrust from 
 electrothermal plasma thrusters and [[Fuel Pathing]].
 
-By far the most common are military grade [[Drone]] operating as a semi-autonomously swarm under the control of a 
-[[synth~Synthetic Intelligence]]. Limited propellant and are moved into the battlefield by larger vessels. The two most
-common roles types are:
+By far the most common are military grade [[drones~Drone]] operating as a semi-autonomous swarm with limited networked 
+intelligence, guided by orders from a [[synth~Synthetic Intelligence]] operating further back from the combat. They 
+typically have limited propellant and are moved into the battlefield by larger vessels. The three most common roles are:
 - Kamikaze: Loitering munitions, shrapnel (move to intercept course and break into thousands of fragments), cycler 
 coasters (launched into a high velocity cycler orbit before combat with enough fuel to delta to a potential battlefield
 at that velocity for a high speed strike).
