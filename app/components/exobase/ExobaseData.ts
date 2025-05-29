@@ -510,8 +510,9 @@ on route. The fact that the probe was gathering resources from the outer solar s
 indicate that its designers were not expecting life in this solar system. Since any Kardashev 1+ civilisation should be 
 able to remotely observe life in systems within a few tens of light years of itself, one explanation for this is that
 the probe originated further away where the Earth either couldn't be observed, or couldn't be observed with traces of 
-life at the time the probe was sent. This theory is generally coupled with the assumed motivation for sending the
-probe being observational.
+life at the time the probe was sent, although a problem with that argument is that the odds of the probe arriving during 
+the period we are able to observe it are tiny and suggest it is more likely to have been one of many visits. This theory 
+is generally coupled with the assumed motivation for sending the probe being observational.
 
 The leading alternative explanation is that some or all of the destinations of the probe might not have been known in 
 advance when it was sent, this explanation usually assumes that the senders were likely indifferent to us and the probe 
@@ -554,13 +555,14 @@ of people in several large scale surveys at the time reported significantly weak
 were more favourable to legislation on larger scale issues such as global defence and large scientific projects.
  
 The subsequent years were a period of economic prosperity, combined with increasing cultural insecurity and nihilism as 
-the psychological impact of the continued silence and assumed indifference of a vastly superior lifeforms dragged on. 
+the psychological impact of the continued silence and assumed indifference of vastly superior lifeforms dragged on. 
 There was a decrease in widespread conflicts but a marked increase in violent crimes, both speculated as being due to a 
 combined sense of inadequacy and existential dread opposed by a chilling effect of potentially being monitored by some 
 incomprehensible technology. Several new inter-faction political entities such as the [[Outer Trading League]] were 
 formed in the subsequent decade, and there was a large increase in migration from Earth to the Lunar and Martian 
 colonies. Many sociologists believe the current and ongoing effects on society have and will be so profound that the 
-event will eventually be considered to be the most profound change in human society since the agricultural revolution.
+event will eventually be considered to be the most significant change in human society since the agricultural 
+revolution.
 
 There is evidence of a cultural chasm between older generations, who have been much more likely to turn away from 
 technological progress and retreat to conspiracy theories and a mythos of uncertainty which still pervades art and 
