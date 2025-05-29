@@ -537,6 +537,12 @@ experimental physicists and material scientists worked for these programs, along
 numbers of terrestrial and orbital datafarms were taken over or built during this period in order to simulate of engine 
 and containment possibilities against the observational data.
 
+The materials science, shielding, and energy conversion and thermal management required to operate a tiny vessel 
+capable of that acceleration demonstrated existence of technology operating on physical principles beyond human 
+comprehension, suggesting the existence of a fundamentally deeper or different understanding of the universe. Debates 
+continue on the extent of the implied capabilities, such as whether it is possible that we are currently being observed 
+in great detail by some new principle of interferometry or lensing.
+
 # Societal Implications
 
 There was widespread panic at the time of discovery until the ship was confirmed to have left, with several terrestrial 
@@ -547,15 +553,22 @@ spending, better sensor networks in the outer solar system, and a renewed focus 
 of people in several large scale surveys at the time reported significantly weaker national political affiliations, and 
 were more favourable to legislation on larger scale issues such as global defence and large scientific projects.
  
-The subsequent years were a period of economic prosperity with a distinct cultural edge, with significant new trends in
-lifestyle and culture. The period was marked by a general feeling of novelty associated with modernity and a break with 
-tradition. There was a small decrease in those observing the three Abrahamic religions, and a larger increase in 
-people declaring themselves as atheists in census data. There was also a marked decrease in both local conflicts and
-in violent crimes. Several new inter-faction political entities such as the [[Outer Trading League]] were formed 
-during this period, and there was a large increase in migration from Earth to the Lunar and Martian colonies. An 
-informal system of referring to the year of contact as 0 AFC (After First Contact) and prior years as BFC (Before First 
-Contact) developed in popular culture, and over the next decade became so commonplace that it has mostly replaced the
-Gregorian calender system in daily life system-wide.`,
+The subsequent years were a period of economic prosperity, combined with increasing cultural insecurity and nihilism as 
+the psychological impact of the continued silence and assumed indifference of a vastly superior lifeforms dragged on. 
+There was a decrease in widespread conflicts but a marked increase in violent crimes, both speculated as being due to a 
+combined sense of inadequacy and existential dread opposed by a chilling effect of potentially being monitored by some 
+incomprehensible technology. Several new inter-faction political entities such as the [[Outer Trading League]] were 
+formed in the subsequent decade, and there was a large increase in migration from Earth to the Lunar and Martian 
+colonies. Many sociologists believe the current and ongoing effects on society have and will be so profound that the 
+event will eventually be considered to be the most profound change in human society since the agricultural revolution.
+
+There is evidence of a cultural chasm between older generations, who have been much more likely to turn away from 
+technological progress and retreat to conspiracy theories and a mythos of uncertainty which still pervades art and 
+philosophical reflection, and the increased curiosity, drive and cognitive flexibility along with tolerance of 
+ambiguity and uncertainty in younger generations. An informal system of referring to the year of contact as 0 AFC 
+(After First Contact) and prior years as BFC (Before First Contact) developed in popular culture, and over the 
+subsequent decades has became so commonplace that it has mostly replaced the Gregorian calender system in daily life 
+system-wide.`,
         classification: 'Socionomics/Events'
     }],
     ['Fatimid Trade Caliphate', {
