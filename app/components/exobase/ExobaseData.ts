@@ -395,9 +395,9 @@ of citations[1] and having numerous factual inaccuracies which often remain unco
 In 152 [[BFC~First Contact Event]] the first version of Exobase was conceived as a subset of the larger Exopedia project 
 by an early [[Synthetic Intelligence]] (then called third generation generative AIs) which had been tasked with finding 
 ways to distribute simple summaries of notable facts to the numerous migrants in the [[Ceres Wave]]. It was never widely 
-used by its intended audience, but later became popular in certain communities such as the [[Retrograde Diaspora]] and 
-over time has become one of the most widely consulted resources by [[Infocom Agent]]s in the outer solar system. The 
-most popular feature by number of requests is the cache of [[InterMesh]] profile data about nearby people.
+used by its intended audience, but later became popular in certain communities such as those left behind in the 
+[[Retrograde Diaspora]] is now one of the most widely consulted resources by [[Infocom Agent]]s in the outer solar 
+system. The most popular feature by number of requests is the cache of [[InterMesh]] profile data about nearby people.
 
 During the [[Haidian Takeoff Crisis]] the original synth author was decommissioned. Articles are still frequently added 
 and updated, although the current author is unknown. One popular theory is that the Exobase is now maintained by a 
@@ -1259,7 +1259,12 @@ analytic tasks require QuanLan connections.`,
     }],
     ['Retrograde Diaspora', {
         content:
-`Datï¿½orruà¤¶आtedा`,
+`The retrograde diaspora, also known as descending the well and aliyah, was a period of high immigration back into 
+cislunar space from 59 to 25 BFC. There were multiple reasons for the depopulation and in some cases abandonment of 
+colonies, but the primary ones were a collapse in the market for many commodities mined off-world, the energy abundance 
+market boom of the 50s, a widespread generational rejection of the ascesis philosophies popular the early colonists,
+and attempts from [[Dominio]] and the [[Eurasian Bloc]] to increase control over their colonies in the aftermath of
+several terrorist incidents.`,
         classification: 'Socionomics/Events'
     }],
     ['Sanktuarium Jasności', {
@@ -1358,7 +1363,8 @@ X Group's dominance of the space based energy market`,
         content: `Sinogroup is a [[Greater Zhōngguó]] owned infomatic conglomerate producing network management, 
 e-commerce, banking, and military synths. It is headquartered in the Nanshan District of Shenzhen. It does not report
 domestic revenue, but its military and law enforcement divisions are wildly profitable in the [[Dominio]] countries 
-and outer system navies and colonies, areas in constant crisis and with little competition from [[Microsynth]]. 
+and outer system navies and colonies, areas which are in constant crisis and where there is little competition from 
+[[Microsynth]]. 
 
 During the power centralisation of the [[GPR]] era the big four state automobile manufactures were struggling to adapt
 to the demand for highly efficient vehicle fleets, unlike the vertically integrated Byd-Geely which had extremely 
