@@ -858,7 +858,8 @@ or programmed by (when altering its software) a synth which is interacting with 
 to run a non-trivial synth model which does not posses any significant onboard intelligence is often called a shell,
 these range in size from humanoid to a full [[Naval Rated Ship]] and are categorized by function, such as combat, 
 labor, or companion. In cases where a synth takes temporary control of intelligence embedded machine, such as a larger 
-[[Naval Auxiliary]] drone with sufficient compute, it is often referred to as an instance drone.`,
+[[Naval Auxiliary]] drone with sufficient compute, it is often referred to as an instance drone. Especially since the 
+[[Retrograde Diaspora]] instances perform the majority of off-earth labour and piloting duties`,
         classification: 'Infomatics/Synths'
     }],
     ['InterMesh', {
@@ -1263,8 +1264,8 @@ analytic tasks require QuanLan connections.`,
 cislunar space from 59 to 25 BFC. There were multiple reasons for the depopulation and in some cases abandonment of 
 colonies, but the primary ones were a collapse in the market for many commodities mined off-world, the energy abundance 
 market boom of the 50s, a widespread generational rejection of the ascesis philosophies popular the early colonists,
-and attempts from [[Dominio]] and the [[Eurasian Bloc]] to increase control over their colonies in the aftermath of
-several terrorist incidents.`,
+improved virtual reality reducing the pressure and desire to leave Earth, and attempts from [[Dominio]] and the 
+[[Eurasian Bloc]] to increase control over their colonies in the aftermath of several terrorist incidents.`,
         classification: 'Socionomics/Events'
     }],
     ['Sanktuarium Jasności', {
