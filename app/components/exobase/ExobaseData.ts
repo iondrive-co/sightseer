@@ -35,7 +35,7 @@ lifetime, it is the most successful company in history.
 Initially known as an "e-commerce" company, Amazon has survived major technological and societal changes affecting its 
 business, often by embracing them. With cloud computing Amazon adopted a commoditize your complement strategy, driving 
 down the costs of undifferentiated compute by controlling polities such as the [[RDP]], which allowed them to more 
-effectively sell high margin differentiated compute products such as drug discovery. When the [[Intermesh]] began to 
+effectively sell high margin differentiated compute products such as drug discovery. When the [[InterMesh]] began to 
 make real time physical indexing acceptable Amazon had the scale to develop vertically integrated universal content 
 recommendations that were difficult to compete with, and was also able to dramatically improve its consumer logistics
 while also increasing home robotics sales. The long tail of cottage industries that grew from home [[Fabricator]]s 
@@ -64,7 +64,10 @@ Japanese strategic reserves and along with JSMC, Sony, and Denso was able to pro
 were able to be manufactured for the next few years. As a result, ASML and ARM were able to secure an agreement with the 
 ministry of finance to take over JSMCs foundries to produce a vertically integrated chip company, in exchange for 
 folding their existing operations into Ångström, headquartering it in Japan, and giving the Japanese government a 
-majority ownership stake in the new company.`,
+majority ownership stake in the new company.
+
+In 135 BFC Ångström partnered with the [[X-Group]] to develop the low cost in-situ manufacturing of kagome lattice 
+planes for [[MarsNet]].`,
         classification: 'Socionomics/Polities'
     }],
     ['Antiakrasics', {
@@ -442,10 +445,11 @@ Its main distinguishing features compared to short range network systems are:
 - Lack of many peer to peer and distributed ledger functions present in the InterMesh
 - Built in support for large (Yottabyte+) size out-of-band one time pads to prevent quantum cracking of large data streams
 
-The communications infrastructure of the Exonet consists of routers, data links such as Autonomous Data Relay Satellites, 
-repeaters, and connection endpoints. By data volume the largest users of these endpoints are various InterMesh Service 
-Providers (ISPs) which use them to peer with InterMesh networks in other locations, however they are also used directly
-in off-planet locations such as ships and stations that have ad-hoc InterMesh with no ISP presence.`,
+The communications infrastructure of the Exonet consists of routers, data links such as Autonomous Data Relay 
+Satellites, repeaters, and connection endpoints. By data volume the largest users of these endpoints are various 
+InterMesh Service Providers (ISPs) which use them to peer with InterMesh networks in other locations such as 
+[[MarsNet]], however they are also used directly in off-planet locations such as ships and stations that have ad-hoc 
+InterMesh with no ISP presence.`,
         classification: 'Infomatics/Networks'
     }],
     ['Fabricator', {
@@ -710,7 +714,7 @@ The synth determined that Xuéxí was capable of having spread outside of the da
 capable of being remotely shutdown, as well as UPS systems and backup generators that would survive a general power 
 outage, which it was capable of creating. At this point it had exhausted the available options provided by Jībiàn, but 
 was still searching for other potential solutions. It activated several RF jamming systems the government had installed 
-for riot control, effectively cutting off all remaining Intermesh access to the area.
+for riot control, effectively cutting off all remaining InterMesh access to the area.
 
 A later data leak revealed that the Jībiàn sandbox had been used to train military overwatch protocols, which for 
 several years had included automated quick reaction access to SAM batteries across the country after multiple wargames 
@@ -808,7 +812,7 @@ iconic diamond triangle graphene domes was erected here for above ground farming
 the colony was initially obtained from the basins ice deposits until the later convoy system of polar crawlers was 
 established. Orcus University was the first tertiary education established on Mars, and was responsible for developing 
 the Martian lichen which famously absorbs water from the air and uses it to excretes desiccation-proof insulating 
-materials.
+materials. The colony was also the site of the first large scale [[MarsNet]] deployment.
 
 Due to the higher atmospheric pressure the basin became the largest fuel manufacturing center on Mars, and the early 
 Martian creole culture can be seen in some recorded interactions between colonists with crew from this time. The later 
@@ -825,7 +829,7 @@ as exoskeletal control and hazard avoidance. Most PIAs in use are sold and maint
 [[Microsynth]], although many smaller companies sell specialised sub-agents such as [[Pharmatica Group]] (health 
 monitoring), [[MetaFox]] (entertainment recommendation), and [[X Group]] (auto-piloting).
 
-As most PIAs are constantly connected to the [[InterMesh]] (or other services like [[QuanLan]] or [[Exobase]]), have
+As most PIAs are constantly connected to the [[InterMesh]] (or other services like [[QuanLan]] or the [[Exonet]]), have
 highly valuable personal data, and are expensive for a user to run, they are often subject to kidnap or reverse 
 engineering attacks. Earlier PIA encryption was vulnerable to various quantum side channel attacks which allowed many 
 synths to be decompiled and customised, but the introduction of ephemeral quantum resistant algorithms has now greatly 
@@ -865,9 +869,9 @@ labor, or companion. In cases where a synth takes temporary control of intellige
     ['InterMesh', {
         content:
 `An InterMesh (IM) is any network of decentralised high bandwidth endpoints communicating autonomously over low latency 
-connections. The term The InterMesh generally describes the largest of these networks, which is available everywhere on 
-Earth. There are estimated to be over a million IM networks of various sizes, the second largest being MarsNet. 
-Various IM networks communicate with others via local or [[Exonet]] peering.
+connections. The term The InterMesh generally describes the largest of these networks, which is available almost 
+everywhere in cislunar space. There are estimated to be over a million IM networks of various sizes, the second largest 
+being [[MarsNet]]. Various IM networks communicate with others via local or [[Exonet]] peering.
 
 As the name suggests, the topology of an IM network is a decentralized mesh of devices and implants acting as 
 transmitters, receivers, and relay points. Most transmissions are via Hyper-OFDM due to its power efficiency, as many IM 
@@ -948,6 +952,16 @@ a cheap thermal sink, was the reason it was able to work on much shorter timelin
 experiments, and as a result it was able to generate significant funding from multiple governments and attract and train 
 some of the system's best physicists, mathematicians, and electrical engineers over its 43 years of operation.`,
         classification: 'Praxis/Technoprog'
+    }],
+    ['MarsNet',{
+content: `In 134 BFC [[Ångström]] began to develop a low cost in-situ manufacturing method for kagome lattice planes,
+which they began test deploying in their Utopia Planitia fab complexes. This was followed by deployment into 
+[[X-Group]]'s aerostat ground stations which allowed lower latency interconnects compared to fiber and proved 
+commercial viability for a deployment in [[Hellas Planitia]]. The increase in intra-colony data rates combined with 
+much larger and cheaper fibre interconnects was an important enabler of Martian culture, creating the scale for refining 
+many niche songwriters and indigenous VR productions into cultural exports to Earth. During the [[Retrograde Diaspora]]
+in the absence of interest in the colonies from their terrestrial sponsors MarsNet became a hub of black market trading.`,
+        classification: 'Infomatics/Networks'
     }],
     ['Matsumoto Koji', {
 content: `Matsumoto Koji (242 BFC – 97 BFC) is remembered as the architect of Japan’s post-[[Khan~Khan Solar Storm]] 
@@ -1047,7 +1061,7 @@ of submersed data centers.
 
 Traditionally the world's largest exporter of electric power due to its abundant hydroelectricity, Paraguay began 
 specialising in submersed computing data centers during the vast increase of computing requirements in the early 
-[[Intermesh]] decades of the 170s and 160s. The economic booms in Brazil, Chile and Peru and the increasing 
+[[InterMesh]] decades of the 170s and 160s. The economic booms in Brazil, Chile and Peru and the increasing 
 cryptocurrency and compute requirements for businesses in the [[Argentinian Mancomunidad]] were drivers
 of a lot of early data center development. [[Amazon]] invested heavily in this period in order to develop the Itaipu 
 corridor, a 1,200-kilometer stretch of interconnected submersed computing facilities along the Paraguay and Paraná 
@@ -1264,8 +1278,9 @@ analytic tasks require QuanLan connections.`,
 cislunar space from 59 to 25 BFC. There were multiple reasons for the depopulation and in some cases abandonment of 
 colonies, but the primary ones were a collapse in the market for many commodities mined off-world, the energy abundance 
 market boom of the 50s, a widespread generational rejection of the ascesis philosophies popular the early colonists,
-improved virtual reality reducing the pressure and desire to leave Earth, and attempts from [[Dominio]] and the 
-[[Eurasian Bloc]] to increase control over their colonies in the aftermath of several terrorist incidents.`,
+improved virtual reality which both reduced the pressure and desire to leave Earth and made being able to instantly 
+communicate with the super-majority of humanity on the main [[InterMesh]] more attractive, and attempts from [[Dominio]] 
+and the [[Eurasian Bloc]] to increase control over their colonies in the aftermath of several terrorist incidents.`,
         classification: 'Socionomics/Events'
     }],
     ['Sanktuarium Jasności', {
@@ -1449,7 +1464,7 @@ interpret and react to their own internally simulated emotional states, closely 
     }],
     ['Ten-Hour War', {
         content: `The Ten-Hour War was a conflict between the [[United States]] and an alliance of the People's Republic 
-of China (PRC), Russia, North Korea over positioning at the EM1 Lagrange Point. It began with [[Intermesh]] industrial 
+of China (PRC), Russia, North Korea over positioning at the EM1 Lagrange Point. It began with [[InterMesh]] industrial 
 sabotage, stepped up as a proxy conflict between [[Constellis Group]] and [[Dominio]] privateers, and culminated in the 
 Battle of the Apex which was the first large scale space battle. It directly resulted in the formation of the [[GPR]] 
 as a military and infomatic alliance, and to changes in fleet composition and doctrine.
@@ -1557,9 +1572,11 @@ recovery, and the economies of scale from combining their orbital and ground bas
 them to supply base load power at comparable cost to fission based nuclear power. 
 
 X-Power was made an independent company in 172 BFC, although it continued to work in tandem with SpaceX on many projects 
-such as laser ship pushing. Due to intense competition from [[Semiotican]] in the orbital manufacturing market of the 
-100 BFCs, X Musk re-integrated X-Power into the greater X Group in order to extract greater efficiencies from the 
-business. Notable their [[Fusion Power]] division both mines the Helium-3 and Deuterium and operates many power plants.`,
+such as laser ship pushing. In 135 BFC they partnered with [[Ångström]] to develop [[MarsNet]], and in 132 moved their 
+headquarters to Starbase, Hellas Planitia. Due to intense competition from [[Semiotican]] in the orbital manufacturing 
+market of the 100 BFCs, X Musk re-integrated X-Power into the greater X Group in order to extract greater efficiencies 
+from the business. Notable their [[Fusion Power]] division both mines the Helium-3 and Deuterium and operates many 
+power plants.`,
         classification: 'Socionomics/Polities'
     }],
 ]);
