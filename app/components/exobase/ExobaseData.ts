@@ -192,7 +192,10 @@ starting to move into legally risky areas such as synthetic organisms and mRNA p
 company was eventually created. The company was very successful in developing plant strains suited for the vast 
 ex-petrostate solar desalinisation desert farms. Their success allowed them to control much of the [[Eurasian Bloc]] 
 bio-regulation, which helped them to acquire Hivegen in 61 BFC while it was fighting several battles with regulatory 
-agencies over breeding extinct animals on stations outside of the jurisdiction of animal welfare treaties.`,
+agencies over breeding extinct animals on stations outside of the jurisdiction of animal welfare treaties.
+
+Bioforge was the largest supplier of food to the Martian colonies before withdrawing in the aftermath of the 
+[[Retrograde Diaspora]] and the [[Stillborn Harvest]] attacks against their bio-reactors.`,
         classification: 'Socionomics/Polities'
     }],
     ['Ceres Wave', {
@@ -812,7 +815,8 @@ iconic diamond triangle graphene domes was erected here for above ground farming
 the colony was initially obtained from the basins ice deposits until the later convoy system of polar crawlers was 
 established. Orcus University was the first tertiary education established on Mars, and was responsible for developing 
 the Martian lichen which famously absorbs water from the air and uses it to excretes desiccation-proof insulating 
-materials. The colony was also the site of the first large scale [[MarsNet]] deployment.
+materials. The colony was also the site of the first large scale [[MarsNet]] deployment, and was heavily affected by
+the [[Stillborn Harvest]] terrorist attack.
 
 Due to the higher atmospheric pressure the basin became the largest fuel manufacturing center on Mars, and the early 
 Martian creole culture can be seen in some recorded interactions between colonists with crew from this time. The later 
@@ -956,7 +960,7 @@ some of the system's best physicists, mathematicians, and electrical engineers o
     ['MarsNet',{
 content: `In 134 BFC [[Ångström]] began to develop a low cost in-situ manufacturing method for kagome lattice planes,
 which they began test deploying in their Utopia Planitia fab complexes. This was followed by deployment into 
-[[X-Group]]'s aerostat ground stations which allowed lower latency interconnects compared to fiber and proved 
+[[X Group]]'s aerostat ground stations which allowed lower latency interconnects compared to fiber and proved 
 commercial viability for a deployment in [[Hellas Planitia]]. The increase in intra-colony data rates combined with 
 much larger and cheaper fibre interconnects was an important enabler of Martian culture, creating the scale for refining 
 many niche songwriters and indigenous VR productions into cultural exports to Earth. During the [[Retrograde Diaspora]]
@@ -1275,12 +1279,13 @@ analytic tasks require QuanLan connections.`,
     ['Retrograde Diaspora', {
         content:
 `The retrograde diaspora, also known as descending the well and aliyah, was a period of high immigration back into 
-cislunar space from 59 to 25 BFC. There were multiple reasons for the depopulation and in some cases abandonment of 
-colonies, but the primary ones were a collapse in the market for many commodities mined off-world, the energy abundance 
-market boom of the 50s, a widespread generational rejection of the ascesis philosophies popular the early colonists,
-improved virtual reality which both reduced the pressure and desire to leave Earth and made being able to instantly 
-communicate with the super-majority of humanity on the main [[InterMesh]] more attractive, and attempts from [[Dominio]] 
-and the [[Eurasian Bloc]] to increase control over their colonies in the aftermath of several terrorist incidents.`,
+cislunar space from 59 to 25 BFC. The reasons for the depopulation and in some cases abandonment of colonies were a 
+collapse in the market for many commodities mined off-world, the cislunar energy abundance market boom of the 50s 
+combined with better [[[instance~Instance]] workers in the colonies, a widespread generational rejection of the ascesis 
+philosophies popular the early colonists, improved virtual reality which both reduced the pressure and desire to leave 
+Earth and made being able to instantly communicate with the super-majority of humanity on the main [[InterMesh]] more 
+attractive, and attempts from [[Dominio]] and the [[Eurasian Bloc]] to increase control over their colonies in the 
+aftermath of several terrorist incidents such as the [[Stillborn Harvest]].`,
         classification: 'Socionomics/Events'
     }],
     ['Sanktuarium Jasności', {
@@ -1396,6 +1401,38 @@ nationalised they were also folded into the group along with their e-commerce op
 it was a sprawling conglomerate with interests in many sectors of the economy, including off world operations such as 
 [[Forge Palace]].`,
         classification: 'Socionomics/Polities'
+    }],
+    ['Stillborn Harvest', {
+content: `Stillborn Harvest was a terrorist attack by the Kasei Freeholders on [[Bioforge Hivegen]]'s bio-reactors in
+46 BFC. The attack used a novel enantiomeric fungus which was undetectable to Bioforge's security, marking the first 
+known release of a mirrored chirality organism outside of a laboratory.
+
+The Kasei Freeholders were a community descended from a partially abandoned [[Domino]] settlement attempt in the 
+labyrinthine canyon system of Kasei Valles. They developed a fiercely independent and terranophobic culture, supporting
+themselves by selling bio-hacking, smuggling, and similar black market activities. In the political
+vacuum that developed in the early years of the [[Retrograde Diaspora]] the Kasei Freeholders began to sponsor content
+on [[MarsNet]] supporting Martian culture and agitating against the large corporations which were effectively running
+most of the colonies, all of which were primarily Earth based. They sponsored mutual aid societies which explicitly 
+promoted a pan-Martian identity, and likely worked with Dominio and [[Greater Zhōngguó]] to exploit class differences 
+and dislike of the [[United States]] in areas which were profitable for US corporations.
+
+In the early 40s the Freeholders developed a plan to break the corporate food monopoly, a result of economies of scale 
+and patents on many of the algae proteins, and insert themselves as a primary supplier of foodstuffs, which they were 
+capable of producing in large quantities. Their engineers created Aspergillus D-kaseia, a bio-engineered organism with 
+structure a mirror image of the common Earth mold Aspergillus. Being D-chiral, it was metabolically and immunologically 
+invisible to Earth's L-chiral biology and the biosecurity systems based upon it.
+
+In 46 BFC they introduced D-kaseia into the yeast vats in the more distant and profitable southern hemisphere colonies 
+of [[Hellas Planitia]], Planum Australe, and the Eridania Sea mining complex. It does not immediately kill the yeast, 
+which would trigger alarms, but instead secretes an achiral chemical which acts as an enzyme inhibitor, preventing the 
+yeast from synthesizing specific essential vitamins and amino acids. The vats protein paste continued to be produced and 
+passed basic quality control, but was now nutritionally worthless. Signs of widespread malnutrition took several days
+to sweep the colonies, and the Freeholders' untainted food caches were used to distribute food aid to members of their
+mutual aid societies which rapidly grew in size.
+
+In response to this the [[Peacekeepers]] were used to ship food supplies to the affected colonies and to destroy most 
+of the Freeholder's above ground infrastructure.`,
+        classification: 'Socionomics/Events'
     }],
     ['Synthetic Control Measures', {
         content:
