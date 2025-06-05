@@ -67,7 +67,11 @@ folding their existing operations into Ångström, headquartering it in Japan, a
 majority ownership stake in the new company.
 
 In 135 BFC Ångström partnered with the [[X-Group]] to develop the low cost in-situ manufacturing of kagome lattice 
-planes for [[MarsNet]].`,
+planes for [[MarsNet]]. In 78 BFC their production of ultra‐compact volumetric waveguide arrays with femtosecond 
+precision delay lines were instrumental in enabling each spacecraft in the Solar Gravitational Lens interferometer 
+array to maintain nanoradian pointing and synchronize optical frequency combs across millions of kilometers. By 
+coherently stitching together Einstein‐ring light bent around the Sun, the array produced the first direct, 
+high‐resolution images of exoplanets`,
         classification: 'Socionomics/Polities'
     }],
     ['Antiakrasics', {
@@ -1420,18 +1424,19 @@ In the early 40s the Freeholders developed a plan to break the corporate food mo
 and patents on many of the algae proteins, and insert themselves as a primary supplier of foodstuffs, which they were 
 capable of producing in large quantities. Their engineers created Aspergillus D-kaseia, a bio-engineered organism with 
 structure a mirror image of the common Earth mold Aspergillus. Being D-chiral, it was metabolically and immunologically 
-invisible to Earth's L-chiral biology and the biosecurity systems based upon it.
+invisible to Earth's L-chiral biology and antifungal biosecurity systems.
 
-In 46 BFC they introduced D-kaseia into the yeast vats in the more distant and profitable southern hemisphere colonies 
-of [[Hellas Planitia]], Planum Australe, and the Eridania Sea mining complex. It does not immediately kill the yeast, 
-which would trigger alarms, but instead secretes an achiral chemical which acts as an enzyme inhibitor, preventing the 
-yeast from synthesizing specific essential vitamins and amino acids. The vats protein paste continued to be produced and 
-passed basic quality control, but was now nutritionally worthless. Signs of widespread malnutrition took several days
-to sweep the colonies, and the Freeholders' untainted food caches were used to distribute food aid to members of their
-mutual aid societies which rapidly grew in size.
+In 46 BFC they introduced D-kaseia into the protein paste producing yeast vats in the more distant and profitable 
+southern hemisphere colonies of [[Hellas Planitia]], Planum Australe, and the Eridania Sea mining complex. The mold did 
+not immediately kill the yeast, which would have triggered alarms, but instead secreted an achiral enzyme inhibitor 
+which preventing the yeast from synthesizing essential vitamins and amino acids and made the resulting protein paste 
+nutritionally worthless. Signs of widespread malnutrition took many days to sweep the colonies, and the Freeholders' 
+untainted food caches were then used to distribute food aid to members of their mutual aid societies, which rapidly 
+grew in size.
 
-In response to this the [[Peacekeepers]] were used to ship food supplies to the affected colonies and to destroy most 
-of the Freeholder's above ground infrastructure.`,
+In response the [[Peacekeepers]] were used to ship food supplies to the affected colonies and to destroy most of the 
+Freeholder's above ground infrastructure. In the aftermath of the attack the Freeholders became increasingly isolated
+and lost most of their sources of revenue, and most of their outposts were abandoned by the mid 30s`,
         classification: 'Socionomics/Events'
     }],
     ['Synthetic Control Measures', {
