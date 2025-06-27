@@ -332,6 +332,12 @@ several other occasions Constellis have been found to have taken over the role o
 to US interests, such as helping the Indian supplied Mon liberation army in Myanmar.`,
         classification: 'Socionomics/Polities'
     }],
+    ['Deus Machina', {
+        content: `Deus Machina is an umbrella term for a range of religious and spiritual traditions that are unified
+by the belief that the [[Haidan Takeoff Crisis]] has spawned a benevolent super-intelligence, Xuéxí, who watches over 
+and guides humanity`,
+        classification: 'Socionomics/Jurisbunds'
+    }],
     ['Dominio', {
 content: `Dominio is a federation of theocratic West African and South American states, initially formed as a trade 
 alliance to more efficiently mine seabed resources in the South Atlantic and eventually evolving into a more tightly 
@@ -593,6 +599,26 @@ governing Shūrā and supplies members with many cutting edge agricultural produ
 desalinisation farming areas such as the Beqaa valley.Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
     }],
+    ['Freeholders', {
+        content: `The Freeholders are a Martian based political organisation with origins in the anarchic terrorist 
+Kasei Freeholder society.
+
+The Kasei Freeholders were a community descended from a partially abandoned [[Domino]] settlement attempt in the 
+labyrinthine canyon system of Kasei Valles. They developed a fiercely independent and terranophobic culture, supporting
+themselves by selling bio-hacking, smuggling, and similar black market activities. In the political
+vacuum that developed in the early years of the [[Retrograde Diaspora]] the Kasei Freeholders began to sponsor content
+on [[MarsNet]] supporting Martian culture and agitating against the large corporations which were effectively running
+most of the colonies, all of which were primarily Earth based. They sponsored mutual aid societies and likely worked 
+with Dominio and [[Greater Zhōngguó]] to exploit class differences and dislike of the [[United States]] in areas which 
+were profitable for US corporations.
+
+In response to the [[Stillborn Harvest]] incident the [[Peacekeepers]] destroyed most of the Kasei Freeholder's above 
+ground infrastructure, resulting in the loss of most of their revenue sources. By the mid 30s their outposts were 
+abandoned and they had morphed into an entirely political organisation. They currently have active branches in all of 
+the larger colonies, and continue to advocate for an anti-corporate, pan-Martian identity. Most recently they have been
+actively participating in the [[Nanocat Fury]] protests and skirmishes.`,
+        classification: 'Socionomics/Jurisbunds'
+    }],
     ['Fuel Pathing', {
         content:
 `Fuel Pathing is the process of laying down fuel pellets (usually a Deuterium/Tritium mix coated in ice) along 
@@ -776,9 +802,9 @@ machine learning techniques that had been created by Xuéxí.
 
 The crisis lead to widespread anti-synth sentiments as well as religious condemnation of AI research. The extraordinary 
 coincidence of the power cut happening in the period of under a minute when Xuéxí was vulnerable has also been the topic 
-of several books and is the foundational tenet of a religion, as Deus Machina believes that Xuéxí is a benevolent AI 
-which is still watching over us after having orchestrated the power cut to appear as if humanity had only avoided 
-plunging into the abyss by blind luck, in order to motivate us to better ourselves.`,
+of several books and is the foundational tenet of the religion [[Deus Machina]] which believes that Xuéxí is a 
+benevolent AI which is still watching over us after having orchestrated the power cut to appear as if humanity had only 
+avoided plunging into the abyss by blind luck, in order to motivate us to better ourselves.`,
         classification: 'Socionomics/Events'
     }],
     ['Forge Palace', {
@@ -939,6 +965,11 @@ trading block and was a major contributor to the [[Reset of Nations]]. It laid t
 military junta in Dominio, which retained power in its early days by providing effective healthcare.`,
 classification: 'Socionomics/Events'
     }],
+    ['Kuromaku', {
+        content: `Kuromaku are an east asian based criminal group, originating in Japan, which specialise in grey market tech 
+exports, complex synthetic drugs, and sexbots`,
+        classification: 'Socionomics/Jurisbunds'
+    }],
     ['Levantine Republic', {
         content: `The Levantine Republic is a country in the Eastern Mediterranean and the Levant. It is bounded by the 
 Mediterranean Sea, Israel, and Egypt to the west, Alawite Syria and the Beqaa State to the North, North and South Iraq 
@@ -1024,7 +1055,7 @@ money laundering, vice tourism, human smuggling, and as an extradition haven. Th
 illicit activities but is generally out-competed in medical tourism, generic drug production, biotech, offshore banking, 
 and citizenship as a service by the [[Argentinian Mancomunidad]] due to that territories perceived safety; in data 
 protection and cybercrime by the [[RDP]] due to its low cost of operations, and in grey market tech exports, complex
-synthetic drugs, and sexbots by the higher tech east asian criminal groups. It typically avoids hiring out mercenaries 
+synthetic drugs, and sexbots by the higher tech [[Kuromaku]]. It typically avoids hiring out mercenaries 
 or piracy except where it benefits Gran México, which in turn has never bowed to external pressure to annex the zone.
 
 Over time the zone has had to adapt its economy to changing technology. Already in 120 BFC ultra low orbit ABEP spy 
@@ -1033,6 +1064,11 @@ most terrestrial environments has almost completely disappeared in an attempt to
 This has forced the zone to operate illicit activities either internally, or in remote environments, or digitally, or in 
 other areas on and off Earth where they are either tolerated or corruption is high.`,
         classification: 'Socionomics/Polities'
+    }],
+    ['Nanocat Fury', {
+content: `The Nanocat Fury, also called the Martian Troubles, are an ongoing series of protests and violent skirmishes 
+between Martian nationalist groups such as the [[Freeholders]] and the security forces of several large corporations`,
+        classification: 'Socionomics/Events'
     }],
     ['Pharmatica Group', {
         content: `Pharmatica Group is a bioinformatics and pharmaceutical conglomerate specialising in 
@@ -1407,24 +1443,15 @@ it was a sprawling conglomerate with interests in many sectors of the economy, i
         classification: 'Socionomics/Polities'
     }],
     ['Stillborn Harvest', {
-content: `Stillborn Harvest was a terrorist attack by the Kasei Freeholders on [[Bioforge Hivegen]]'s bio-reactors in
-46 BFC. The attack used a novel enantiomeric fungus which was undetectable to Bioforge's security, marking the first 
-known release of a mirrored chirality organism outside of a laboratory.
+content: `Stillborn Harvest was a terrorist attack by the [[Kasei Freeholders~Freeholders]] on [[Bioforge Hivegen]]'s 
+bio-reactors in 46 BFC. The attack used a novel enantiomeric fungus which was undetectable to Bioforge's security, 
+marking the first known release of a mirrored chirality organism outside of a laboratory.
 
-The Kasei Freeholders were a community descended from a partially abandoned [[Domino]] settlement attempt in the 
-labyrinthine canyon system of Kasei Valles. They developed a fiercely independent and terranophobic culture, supporting
-themselves by selling bio-hacking, smuggling, and similar black market activities. In the political
-vacuum that developed in the early years of the [[Retrograde Diaspora]] the Kasei Freeholders began to sponsor content
-on [[MarsNet]] supporting Martian culture and agitating against the large corporations which were effectively running
-most of the colonies, all of which were primarily Earth based. They sponsored mutual aid societies which explicitly 
-promoted a pan-Martian identity, and likely worked with Dominio and [[Greater Zhōngguó]] to exploit class differences 
-and dislike of the [[United States]] in areas which were profitable for US corporations.
-
-In the early 40s the Freeholders developed a plan to break the corporate food monopoly, a result of economies of scale 
-and patents on many of the algae proteins, and insert themselves as a primary supplier of foodstuffs, which they were 
-capable of producing in large quantities. Their engineers created Aspergillus D-kaseia, a bio-engineered organism with 
-structure a mirror image of the common Earth mold Aspergillus. Being D-chiral, it was metabolically and immunologically 
-invisible to Earth's L-chiral biology and antifungal biosecurity systems.
+In the early 40s the Freeholders began developing a plan to break the corporate food monopoly which had arisen from the 
+economies of scale and patents on many of the algae proteins, and insert themselves as a primary supplier of the 
+foodstuffs they were capable of producing in large quantities. Their engineers created Aspergillus D-kaseia, a 
+bio-engineered organism with structure a mirror image of the common Earth mold Aspergillus. Being D-chiral, it was 
+metabolically and immunologically invisible to Earth's L-chiral biology and antifungal biosecurity systems.
 
 In 46 BFC they introduced D-kaseia into the protein paste producing yeast vats in the more distant and profitable 
 southern hemisphere colonies of [[Hellas Planitia]], Planum Australe, and the Eridania Sea mining complex. The mold did 
@@ -1435,8 +1462,7 @@ untainted food caches were then used to distribute food aid to members of their 
 grew in size.
 
 In response the [[Peacekeepers]] were used to ship food supplies to the affected colonies and to destroy most of the 
-Freeholder's above ground infrastructure. In the aftermath of the attack the Freeholders became increasingly isolated
-and lost most of their sources of revenue, and most of their outposts were abandoned by the mid 30s`,
+Freeholder's above ground infrastructure, precipitating an end to their independent existence outside of the colonies.`,
         classification: 'Socionomics/Events'
     }],
     ['Synthetic Control Measures', {
