@@ -49,8 +49,8 @@ content: `Ångström (commonly known in Japan as Angusu) is a photonics conglome
 [[Synthetic Intelligence]] produced two-photon polymerization designs. Named after the Swedish physicist Anders Jonas 
 Ångström who developed the science of spectroscopy, the company is the largest supplier of photonic crystals and 
 waveguides used in the production of computer chips, as well as a major supplier of biomedical devices and of many high 
-performance materials used in the aerospace sector. The companies headquarters are located in the Marunouchi district of 
-Tokyo.
+performance materials used in the aerospace and energy sectors. The companies headquarters are located in the 
+Marunouchi district of Tokyo.
 
 Ångström was initially a joint venture between photolithography giant ASML and the AI compute architecture design firm 
 ARM, which proved extremely successful in producing multiple generations of chips that were superior to its rival 
@@ -66,12 +66,14 @@ ministry of finance to take over JSMCs foundries to produce a vertically integra
 folding their existing operations into Ångström, headquartering it in Japan, and giving the Japanese government a 
 majority ownership stake in the new company.
 
-In 135 BFC Ångström partnered with the [[X-Group]] to develop the low cost in-situ manufacturing of kagome lattice 
-planes for [[MarsNet]]. In 78 BFC their production of ultra‐compact volumetric waveguide arrays with femtosecond 
-precision delay lines were instrumental in enabling each spacecraft in the Solar Gravitational Lens interferometer 
-array to maintain nanoradian pointing and synchronize optical frequency combs across millions of kilometers. By 
-coherently stitching together Einstein‐ring light bent around the Sun, the array produced the first direct, 
-high‐resolution images of exoplanets`,
+The company has been critical in several cutting edge mega-engineering projects over its history. In 135 BFC Ångström, 
+in partnership with the [[X-Group]], developed the low cost in-situ manufacturing of kagome lattice planes for 
+[[MarsNet]]. In 78 BFC their production of ultra‐compact volumetric waveguide arrays with femtosecond precision delay 
+lines were instrumental in enabling each spacecraft in the Solar Gravitational Lens interferometer array to maintain 
+the required nanoradian pointing for synchronized optical frequency combs across millions of kilometers. By this 
+coherent stitching together of the Einstein‐ring light bent around the Sun, the array was able to produce the first 
+direct, high‐resolution images of exoplanets. More recently their waveguides have become a critical part of printing
+new particles in [[antimatter~Antimatter Engine]] factories`,
         classification: 'Socionomics/Polities'
     }],
     ['Antiakrasics', {
@@ -80,7 +82,7 @@ improvement to motivation and executive functions, and are typically used as cog
 initially developed by [[Pharmatica Group]] and their Akrasinil brand is their most profitable medication and the most
 widely sold medication system wide. 
 
-Antiakrasics contain a thiazole ring and methy groups which selectively targets neurotransmitters to enhance focus and 
+Antiakrasics contain a thiazole ring and methyl groups which selectively targets neurotransmitters to enhance focus and 
 limit extraneous thoughts. They also contain a benzene ring with an amine group and hydroxyl groups which mimics 
 neurotransmitters like dopamine and serotonin, allowing targeted receptor interaction, and an alkyl chain which aids in 
 crossing the blood-brain barrier. This structure enhances its ability to modulate glutamatergic neurotransmission and 
@@ -99,8 +101,9 @@ and costs associated with producing and storing antimatter.
 
 All current mg+ scale antimatter production occurs in large fully automated stations. They are all in sun-polar orbits, 
 which avoid the high density solar winds in the Sun's equatorial zones, and use large arrays of solar panels to power 
-particle accelerators generating high-energy photons. These are directed towards a target material to create 
-particle-antiparticle pairs when the photon interacts with the strong electric field of a nucleus.
+particle accelerators generating high-energy photons. These are directed towards a target material using [[Ångström]] 
+produced waveguides to create particle-antiparticle pairs when the photon interacts with the strong electric field of a 
+nucleus.
 
 Penning traps and optical molasses are used to store antimatter particles, and transportation off the station is 
 performed by automated [[drones~Drone]] designed with multiple fail-safes to maintain power to the containment systems. 
