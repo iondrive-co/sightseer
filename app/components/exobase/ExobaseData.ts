@@ -127,16 +127,20 @@ particles for thrust.
 Matter-antimatter reactions such as electron positron collisions are among the most energy-dense reactions known. 
 The kinetic energy for an object moving at a velocity vv is given by 1/2 mv^2, where m is the mass of
 the object. Therefore achieving a velocity of 0.01c for a 100 tonne craft requires 4.5×10^17 joules of energy, which 
-from E=mc^2 is only approximately 10kg of matter-antimatter fuel. The engineering
-required to make required volume of solid propellant available for vaporization is a commercial and military secret and
-other than containment is the main barrier preventing smaller corporations from developing competing antimatter engines.
+from E=mc^2 is only approximately 10kg of matter-antimatter fuel. The engineering required to make required volume of 
+solid propellant available for vaporization is a commercial and military secret and other than containment is the main 
+barrier preventing smaller corporations from developing competing antimatter engines.
 
 The most expensive long range scientific probes use antimatter propulsion via an alternative system of generating 
 electricity for photon thrust directly from the gamma rays, this system is more reliable than other antimatter engines 
 due to its simplicity, and incredibly efficient due to the lack of non-antimatter propellant. No propellant was observed 
-being used in the first contact vessels antimatter engine, combined with the tiny 
-size and extremely high ISP this suggests it was using the antimatter energy to kickstart a reaction in some form of 
-exotic propellant such as dark matter or vacuum energy.
+being used in the first contact vessels antimatter engine, combined with the tiny size and extremely high ISP this 
+suggests it was using the antimatter energy to kickstart a reaction in some form of exotic propellant such as dark 
+matter or vacuum energy.
+
+It is believed that several Earth militaries are attempting to develop antimatter beam weapons. Several notable 
+physicists and engineers are on record working on parts of the delivery system for the colossal amounts of energy to 
+operate it. The [[Freeholders]] claim to have obtained antimatter traps from one of these programs.
 
 If containment for the average 10kg antimatter load failed, the explosion would release around 10^8 megatons of energy.
 The safe distance to keep radiation under 1msv would be around 20 000km, and this is the generally accepted guideline 
@@ -603,8 +607,8 @@ desalinisation farming areas such as the Beqaa valley.Datï¿½orruà¤¶आted�
         classification: 'Socionomics/Confederations'
     }],
     ['Freeholders', {
-        content: `The Freeholders are a Martian based political organisation with origins in the anarchic terrorist 
-Kasei Freeholder society.
+        content: `The Freeholders are a Martian based political and paramilitary organisation with origins in the 
+anarchic terrorist Kasei Freeholder society.
 
 The Kasei Freeholders were a community descended from a partially abandoned [[Domino]] settlement attempt in the 
 labyrinthine canyon system of Kasei Valles. They developed a fiercely independent and terranophobic culture, supporting
@@ -617,9 +621,11 @@ were profitable for US corporations.
 
 In response to the [[Stillborn Harvest]] incident the [[Peacekeepers]] destroyed most of the Kasei Freeholder's above 
 ground infrastructure, resulting in the loss of most of their revenue sources. By the mid 30s their outposts were 
-abandoned and they had morphed into an entirely political organisation. They currently have active branches in all of 
-the larger colonies, and continue to advocate for an anti-corporate, pan-Martian identity. Most recently they have been
-actively participating in the [[Nanocat Fury]] protests and skirmishes.`,
+abandoned and they had split into two groups. Their political wing has active branches in all of the larger colonies, 
+and advocates for an anti-corporate, pan-Martian identity, while their paramilitary arm operates black market activities
+which funds strikes, protests, skirmishes, and terrorist activities. The most notable is the hijacking of a quantity of 
+[[antimatter~Antimatter Engine]] which they have threatened to use on a number of occasions. The groups sometimes work 
+together, most recently they have been organising and participating in the [[Nanocat Fury]] protests.`,
         classification: 'Socionomics/Jurisbunds'
     }],
     ['Fuel Pathing', {
