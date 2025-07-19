@@ -156,7 +156,8 @@ exorbitant cost of operating an antimatter engine.`,
 and is a purely anarcho-capitalist society. It was formed out of the state of Argentina which had severe economic 
 problems which required privatisation of large parts of the economy. It maintains order and territorial control though
 competing security firms, courts, and a mercenary military which is paid for by the Mancomunidad levying an insurance
-cost on their members. Its economy is primarily based around low cost cash crops, mining, and livestock products, as 
+cost on their members. Corporations manage their own defense or pay for private military forces such as the [[Havfélög]]
+to protect assets. Its economy is primarily based around low cost cash crops, mining, and livestock products, as 
 well as areas where its laissez-faire economy combined with its perceived safety compared to the 
 [[Mazatlán Zona Franca]] gives it a comparative advantage, such as medical tourism, generic drug production, biotech, 
 offshore banking, and citizenship as a service.`,
@@ -310,8 +311,9 @@ robo-malam which are commonly used in for teaching laboratory science in many ba
     }],
     ['Constellis Group', {
 content:`Constellis Group are the system's largest private military contractor. Their headquarters are in Washington, 
-D.C., and they own and run White Sands Missile Range in New Mexico, the Panopticon Relay in Geostationary Orbit, and 
-Gateway Station Alpha in Near-rectilinear Halo Orbit.
+D.C., and they own and run both terrestrial assets (such as White Sands Missile Range in New Mexico and a number of 
+[[naval forces~Havfélög]]), and off earth installations such as the Panopticon Relay in Geostationary Orbit and Gateway 
+Station Alpha in Near-rectilinear Halo Orbit.
 
 # Role in the [[Ten-Hour War]]
 
@@ -587,13 +589,14 @@ There was a decrease in widespread conflicts but a marked increase in violent cr
 combined sense of inadequacy and existential dread opposed by a chilling effect of potentially being monitored by some 
 incomprehensible technology. Several new inter-faction political entities such as the [[Outer Trading League]] were 
 formed in the subsequent decade, and there was a large increase in migration from Earth to the Lunar and Martian 
-colonies. Many sociologists believe the current and ongoing effects on society have and will be so profound that the 
-event will eventually be considered to be the most significant change in human society since the agricultural 
-revolution.
+colonies. There was a renewed push for many of the statist and centrally managed internation police forces which had 
+been partially abandoned in the decades after the [[Retrograde Diaspora]]. 
 
-There is evidence of a differing generational reactions to the event. Older generations are significantly more likely 
-to have turned away from technological progress and to engage with conspiracy theories and uncertainty based mythos,
-and these still pervade much of the art and philosophical work since the event. In contrast the younger generations,
+Many sociologists believe the current and ongoing psychological impacts on humanity have and will be so profound that 
+the event will eventually be considered to be the most significant change in human society since the agricultural 
+revolution. There is evidence of a differing generational reactions to the event. Older generations are significantly 
+more likely to have turned away from technological progress and to engage with conspiracy theories and uncertainty based 
+mythoi, and these still pervade much of the art and philosophical work created since the event. However younger generations,
 in contrast to their [[meshpolitian~Intermesh]] virtual existence in previous decades, score higher on markers for 
 curiosity, drive, and cognitive flexibility than any generation before them, and lower on stress markers when exposed
 to ambiguity and uncertainty. An informal system of referring to the year of contact as 0 AFC (After First Contact) and 
@@ -609,6 +612,19 @@ region of the Türkiye confederation. The swiss multinational [[Bioforge Hivegen
 governing Shūrā and supplies members with many cutting edge agricultural products, especially to the high density solar 
 desalinisation farming areas such as the Beqaa valley.Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
+    }],
+    ['Forge Palace', {
+        content:
+            `Forge Palace (锻宫) is a combined luxury resort casino and a martial arts training academy, built within the natural 
+cavern systems within asteroid 2029 VK184, a 340-meter carbonaceous chondrite asteroid captured and relocated to the 
+Earth-Moon L5 Lagrange point by the [[GPR]]s Stakhanov-1 in 142 BFC. Following resource extraction, the GPR established 
+a zero G martial arts institute for its Cosmonauts and Taikonauts on the stabilised asteroid. The institute 
+trained sailors in the Chechen and Dagestani grappling style used in later Spetsnaz training, the center of mass 
+manipulation and precise striking techniques from Wing Chun, and fluid movements from Tai Chi, amongst other influences. 
+The institute saw less use over time due to increasing use of combat [[instances~Instance]], and the newly formed 
+[[Greater Zhōngguó]] allowed base operator [[Sinogroup]] to establish a lightly regulated casino and resort on the 
+asteroid in 97 BFC`,
+        classification: 'Geo'
     }],
     ['Freeholders', {
         content: `The Freeholders are a Martian based political and paramilitary organisation with origins in the 
@@ -693,6 +709,17 @@ spheres of influence. Initially a mostly economic union, over time it has become
 Peacekeepers have grown and to India's open support of a succession movement in Myanmar. Despite having significantly 
 less industrial capacity than the [[Peacekeepers]] it fields a nearly equivalently size navy.`,
         classification: 'Socionomics/Confederations'
+    }],
+    ['Havfélög', {
+        content: `The Havfélög or sea companies refer to a group of corporations which operate for profit terrestrial 
+naval assets. The largest three are Ný Varangia, Nordsjø AS, and [[Constellis Naval~Constellis Group]] which were all 
+created or spun off to legally supply and eventually operate [[United States]] naval assets rented to the 
+[[Eurasian Bloc]] for protection starting from the [[Reset of Nations]]. Their most frequent contracts are for piracy
+protection (often from corporations running subduction vent mines or from countries without navies such as 
+[[Argentinian Mancomunidad]] which run undersea colonies and aquaponic farms), integrity patrols of large assets such 
+as undersea vacuum train routes and fibre optic cables, and military retainer contracts for war gaming and submarine 
+based ASAT capabilities.`,
+        classification: 'Socionomics/Polities'
     }],
     ['Haidian Takeoff Crisis', {
         content:
@@ -820,23 +847,9 @@ benevolent AI which is still watching over us after having orchestrated the powe
 avoided plunging into the abyss by blind luck, in order to motivate us to better ourselves.`,
         classification: 'Socionomics/Events'
     }],
-    ['Forge Palace', {
-        content:
-`Forge Palace (锻宫) is a combined luxury resort casino and a martial arts training academy, built within the natural 
-cavern systems within asteroid 2029 VK184, a 340-meter carbonaceous chondrite asteroid captured and relocated to the 
-Earth-Moon L5 Lagrange point by the [[GPR]]s Stakhanov-1 in 142 BFC. Following resource extraction, the GPR established 
-a zero G martial arts institute for its Cosmonauts and Taikonauts on the stabilised asteroid. The institute 
-trained sailors in the Chechen and Dagestani grappling style used in later Spetsnaz training, the center of mass 
-manipulation and precise striking techniques from Wing Chun, and fluid movements from Tai Chi, amongst other influences. 
-The institute saw less use over time due to increasing use of combat [[instances~Instance]], and the newly formed 
-[[Greater Zhōngguó]] allowed base operator [[Sinogroup]] to establish a lightly regulated casino and resort on the 
-asteroid in 97 BFC`,
-        classification: 'Geo'
-    }],
     ['Hellas Planitia', {
-        content:
-`Hellas Planitia, often called Hellas or Hades, is an industrial center and the largest Martian city, and was the site 
-for some humanity’s earliest sustained settlements on Mars.
+        content: `Hellas Planitia, often called Hellas or Hades, is an industrial center and the largest Martian city, 
+and was the site for some of humanity’s earliest sustained settlements on Mars.
 
 # History
 
@@ -1152,9 +1165,9 @@ of the country was changed to Refugio de Datos Paraguay by referendum in 7 BFC.`
     ['Reset of Nations', {
         content: `The period between the [[Khan Solar Storm]] of 187 BFC and the formation of the [[Eurasian Bloc]] in
 185 BFC is sometimes known as the Reset of Nations or simply the Reset, due to the rapid geopolitical shifts that 
-occurred in this period. The foundations for many of these changes had previously been laid by the collapse of the 
-Bretton Woods system and the [[United States]] increasing disinterest in intervening in international conflicts, but 
-were accelerated by the disintegration of large amounts of state power in the aftermath of the storm. 
+occurred over this two year period. The foundations for many of these changes had previously been laid by the collapse 
+of the Bretton Woods system and the [[United States]] increasing disinterest in intervening in international conflicts, 
+but were accelerated by the disintegration of large amounts of state power in the aftermath of the storm. 
 
 The immediate geopolitical changes were the complete disintegration of Syria, Georgia, and Lebanon, and economic 
 collapse in Egypt and Saudi Arabia, leading to the expansion of [[Türkiye]] and foundation of the 
@@ -1167,7 +1180,13 @@ proteins developed as a crisis response measure, along with widespread availabil
 child care and a general optimism from the recovery, leading to a baby boom and the [[Ceres Wave]] in the 170s. Another
 change seeded by the Reset was the increasing eradication of endemic tropical diseases in the aftermath of the 
 Trypanosomiasis crisis leading to increasing GDP growth and expansionism from countries that previously struggled with 
-them, most notably Indonesia, India, and Nigeria.`,
+them, most notably Indonesia, India, and Nigeria.
+
+The reset paved the way for a long laissez faire period, lasting up until the [[Retrograde Diaspora]], marked by an
+increase in corporate managed international and off earth policing as the United States was replaced first by a 
+combination of private organisations such as the [[Havfélög]] and other large national forces such as the [[GPR]], and 
+later by larger coalition forces such as the [[Peacekeepers]] and [[Greater Zhōngguó]] which were primarily focused 
+on larger scale military issues.`,
         classification: 'Socionomics/Events'
     }],
     ['MemAmp', {
@@ -1351,7 +1370,10 @@ combined with better [[[instance~Instance]] workers in the colonies, a widesprea
 philosophies popular the early colonists, improved virtual reality which both reduced the pressure and desire to leave 
 Earth and made being able to instantly communicate with the super-majority of humanity on the main [[InterMesh]] more 
 attractive, and attempts from [[Dominio]] and the [[Eurasian Bloc]] to increase control over their colonies in the 
-aftermath of several terrorist incidents such as the [[Stillborn Harvest]].`,
+aftermath of several terrorist incidents such as the [[Stillborn Harvest]]. The effects of this reverse diaspora were 
+an increase in statist government policies and an ending of many of the laissez faire international policies which had
+lasted from the [[Reset of Nations]]. There was a pushback against this trend from the 20s, but this was brought to an
+end by the [[First Contact Event]].`,
         classification: 'Socionomics/Events'
     }],
     ['Sanktuarium Jasności', {
@@ -1638,7 +1660,8 @@ liberal democracy, however the shock of the storm resulted in a shift of its gov
 to what several historians have described as Res Publica Corporis Minimalis, the minimum required to secure the affairs 
 of its corporations, which in return acted as proxies to secure US interests in external and domestic conflicts.
 
-The storm began a nearly two century long period of isolation and abdication of many public affairs to corporations. A 
+The storm began a nearly two century long period of isolation and abdication of many public affairs to corporations, 
+for exxample many military assets were rented out to private defense contractors such as the [[Havfélög]]. A 
 notable exception was a much closer integration with the remaining independent Canadian provinces as well as [[Gran 
 México]] and the [[Mazatlán Zona Franca]] in the first years after the storm, due to a rapid increase in on-shoring 
 supply chains. This then resulted in much closer political and terrestrial military co-operation as well as a lunar 
