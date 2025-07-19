@@ -205,8 +205,10 @@ ex-petrostate solar desalinisation desert farms. Their success allowed them to c
 bio-regulation, which helped them to acquire Hivegen in 61 BFC while it was fighting several battles with regulatory 
 agencies over breeding extinct animals on stations outside of the jurisdiction of animal welfare treaties.
 
-Bioforge was the largest supplier of food to the Martian colonies before withdrawing in the aftermath of the 
-[[Retrograde Diaspora]] and the [[Stillborn Harvest]] attacks against their bio-reactors.`,
+The combined company headquarters was established in Lausanne where the company had established a number of 
+cellule-atelier due to Vaud's extremely generous tax writeoff for synthetic biology R&D. In the following years they
+expanded aggressively offworld and were the largest supplier of food to the Martian colonies before their withdrawal in 
+the aftermath of the [[Retrograde Diaspora]] and the [[Stillborn Harvest]] attacks against their bio-reactors.`,
         classification: 'Socionomics/Polities'
     }],
     ['Ceres Wave', {
@@ -302,7 +304,8 @@ can be refuted, in order to clarify the limits of the original concept. This dia
 knowledge has been shown to be effective in increasing non-augmented human knowledge retrieval and rhetorical abilities.
 These were popular with public speaking professions such as lawyers and politicians [[BFC~First Contact Event]], but the 
 widespread availability of affordable [[Neurogenesis Treatment]]s as well as neurodevices such as [[MemAmp]]s have 
-greatly reduced their usefulness for most people.`,
+greatly reduced their usefulness for most people. They still exist in various forms such as [[Domino]]'s mass produced
+robo-malam which are commonly used in for teaching laboratory science in many basic schools.`,
         classification: 'Infomatics/Synths'
     }],
     ['Constellis Group', {
@@ -625,7 +628,7 @@ abandoned and they had split into two groups. Their political wing has active br
 and advocates for an anti-corporate, pan-Martian identity, while their paramilitary arm operates black market activities
 which funds strikes, protests, skirmishes, and terrorist activities. The most notable is the hijacking of a quantity of 
 [[antimatter~Antimatter Engine]] which they have threatened to use on a number of occasions. The groups sometimes work 
-together, most recently they have been organising and participating in the [[Nanocat Fury]] protests.`,
+together openly, most recently in organising and participating in the [[Nanocat Fury]] protests.`,
         classification: 'Socionomics/Jurisbunds'
     }],
     ['Fuel Pathing', {
@@ -1049,10 +1052,10 @@ developed out of the quantum chemical breakthroughs of the previous decade.`,
     ['Mazatlán Zona Franca', {
 content: `Mazatlán Zona Franca is a semi-autonomous region, previously part of [[Gran México]] until 120 BFC. It was 
 formed to allow the Sinaloa cartel to undercut CJNG with economies of scale and drive them east in order to end the 
-Mexican drug war which was becoming hugely damaging to the Mexican economy. The region is a free economic zone, with nominal 
-custom duties and no customs regulations for imports that are not transshipments into Mexico. The administration is 
-controlled by the Sinaloa cartel and is generally considered a minarchy. Taxes are collected from local businesses and
-used to fund a military capable of maintaining order and territorial control, to provide welfare to its members, and
+Mexican drug war which was becoming hugely damaging to the Mexican economy. The region is a free economic zone, with 
+nominal custom duties and no customs regulations for imports that are not transshipments into Mexico. The administration 
+is controlled by the Sinaloa cartel and is generally considered a minarchy. Taxes are collected from local businesses 
+and used to fund a military capable of maintaining order and territorial control, to provide welfare to its members, and
 for some external affairs such as maintaining international and off world embassies which are often accused of being 
 little more than coordination centers for its illicit exports and people smuggling operations.
 
@@ -1071,7 +1074,17 @@ Over time the zone has had to adapt its economy to changing technology. Already 
 satellites were becoming more widespread, and with slowly increasing spread of [[Mote]]s starting in the 70s privacy in 
 most terrestrial environments has almost completely disappeared in an attempt to control dangerous [[Fabricator~Fabs]]. 
 This has forced the zone to operate illicit activities either internally, or in remote environments, or digitally, or in 
-other areas on and off Earth where they are either tolerated or corruption is high.`,
+other areas on and off Earth where they are either tolerated or corruption is high.
+
+# Judicial System
+
+The Mazatlán Zona Franca maintains order with cartel-administered security forces and automated technojuez, which deal
+primarily with commercial disputes by analyzing surveillance data, transaction records, and behavioral patterns. Serious 
+crimes and disputes involving significant sums are escalated to senior cartel members, while the military-police force 
+handles enforcement and territorial defense. The system prioritizes trade flow and regional stability over traditional 
+legal principles, with punishments ranging from automated fines deducted directly from digital accounts to exile or 
+execution for severe offenses. Social control is maintained through a combination of economic incentives, comprehensive 
+surveillance networks, and the welfare system's creation of dependency, resulting in a mostly self-policing population.`,
         classification: 'Socionomics/Polities'
     }],
     ['Nanocat Fury', {
@@ -1460,7 +1473,8 @@ In the early 40s the Freeholders began developing a plan to break the corporate 
 economies of scale and patents on many of the algae proteins, and insert themselves as a primary supplier of the 
 foodstuffs they were capable of producing in large quantities. Their engineers created Aspergillus D-kaseia, a 
 bio-engineered organism with structure a mirror image of the common Earth mold Aspergillus. Being D-chiral, it was 
-metabolically and immunologically invisible to Earth's L-chiral biology and antifungal biosecurity systems.
+metabolically and immunologically invisible to Earth's L-chiral biology and antifungal biosecurity systems. This was
+refined in their genclaves over many generations until it was sufficiently targeted.
 
 In 46 BFC they introduced D-kaseia into the protein paste producing yeast vats in the more distant and profitable 
 southern hemisphere colonies of [[Hellas Planitia]], Planum Australe, and the Eridania Sea mining complex. The mold did 
