@@ -304,7 +304,7 @@ can be refuted, in order to clarify the limits of the original concept. This dia
 knowledge has been shown to be effective in increasing non-augmented human knowledge retrieval and rhetorical abilities.
 These were popular with public speaking professions such as lawyers and politicians [[BFC~First Contact Event]], but the 
 widespread availability of affordable [[Neurogenesis Treatment]]s as well as neurodevices such as [[MemAmp]]s have 
-greatly reduced their usefulness for most people. They still exist in various forms such as [[Domino]]'s mass produced
+greatly reduced their usefulness for most people. They still exist in various forms such as [[Dominio]]'s mass produced
 robo-malam which are commonly used in for teaching laboratory science in many basic schools.`,
         classification: 'Infomatics/Synths'
     }],
@@ -613,7 +613,7 @@ desalinisation farming areas such as the Beqaa valley.Datï¿½orruà¤¶आted�
         content: `The Freeholders are a Martian based political and paramilitary organisation with origins in the 
 anarchic terrorist Kasei Freeholder society.
 
-The Kasei Freeholders were a community descended from a partially abandoned [[Domino]] settlement attempt in the 
+The Kasei Freeholders were a community descended from a partially abandoned [[Dominio]] settlement attempt in the 
 labyrinthine canyon system of Kasei Valles. They developed a fiercely independent and terranophobic culture, supporting
 themselves by selling bio-hacking, smuggling, and similar black market activities. In the political
 vacuum that developed in the early years of the [[Retrograde Diaspora]] the Kasei Freeholders began to sponsor content
@@ -1051,13 +1051,14 @@ developed out of the quantum chemical breakthroughs of the previous decade.`,
     }],
     ['Mazatlán Zona Franca', {
 content: `Mazatlán Zona Franca is a semi-autonomous region, previously part of [[Gran México]] until 120 BFC. It was 
-formed to allow the Sinaloa cartel to undercut CJNG with economies of scale and drive them east in order to end the 
-Mexican drug war which was becoming hugely damaging to the Mexican economy. The region is a free economic zone, with 
-nominal custom duties and no customs regulations for imports that are not transshipments into Mexico. The administration 
-is controlled by the Sinaloa cartel and is generally considered a minarchy. Taxes are collected from local businesses 
-and used to fund a military capable of maintaining order and territorial control, to provide welfare to its members, and
-for some external affairs such as maintaining international and off world embassies which are often accused of being 
-little more than coordination centers for its illicit exports and people smuggling operations.
+formed to allow the Sinaloa cartel to undercut CJNG with economies of scale and drive them east in order to curtail the 
+Mexican drug wars which were becoming increasingly damaging to the Mexican economy. The region is a free economic zone, 
+with nominal custom duties and no customs regulations for imports that are not transshipments into Mexico. The 
+administration is controlled by the Sinaloa cartel which runs the zone largely as a minarchic government. Taxes are 
+collected from local businesses and used to fund a military capable of maintaining order and territorial control, to 
+provide welfare to its members, and for some external affairs such as maintaining international and off world embassies 
+(which are often accused of being little more than coordination centers for its illicit exports and people smuggling 
+operations).
 
 # Economy
 
@@ -1078,13 +1079,15 @@ other areas on and off Earth where they are either tolerated or corruption is hi
 
 # Judicial System
 
-The Mazatlán Zona Franca maintains order with cartel-administered security forces and automated technojuez, which deal
-primarily with commercial disputes by analyzing surveillance data, transaction records, and behavioral patterns. Serious 
-crimes and disputes involving significant sums are escalated to senior cartel members, while the military-police force 
-handles enforcement and territorial defense. The system prioritizes trade flow and regional stability over traditional 
-legal principles, with punishments ranging from automated fines deducted directly from digital accounts to exile or 
-execution for severe offenses. Social control is maintained through a combination of economic incentives, comprehensive 
-surveillance networks, and the welfare system's creation of dependency, resulting in a mostly self-policing population.`,
+The Mazatlán Zona Franca maintains order via competing private defense agencies and some limited use of automated 
+technojuez for dispute arbitration. Unlike their use in the more anarcho-capitalist Argentinian Mancomunidad, the 
+zone's systems have less access to surveillance data, transaction records, and behavioral patterns due to the privacy 
+concerns arising from the majority of the economic activity in the zone and are mostly used for small commercial 
+disputes. As well as territorial defense related issues, cartel administered security forces deal with larger internal 
+disruptions and significant commercial disputes both of which have the possibility of exile or execution as punishments. 
+The system is largely effective in encouraging a mostly self-policing population capable of generating trade flow and 
+regional stability through a combination of economic incentives and the cartel welfare system's creation of dependency 
+on the limited central government.`,
         classification: 'Socionomics/Polities'
     }],
     ['Nanocat Fury', {
@@ -1274,7 +1277,7 @@ to burn as fast as smaller un-crewed screens. [[Türkiye]] and the [[Fatimid Tra
 with fusion engines.
 
 A battlecruiser is a heavier and more expensive cruiser variant with a spinal mount railgun and a graphene composite 
-hull for EMP resistance. The [[Domino]] variant is larger than its carriers and acts as that navy's capital ship since 
+hull for EMP resistance. The [[Dominio]] variant is larger than its carriers and acts as that navy's capital ship since 
 they do not use battleships.
 
 # Battleship
