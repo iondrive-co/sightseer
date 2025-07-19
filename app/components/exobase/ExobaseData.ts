@@ -591,13 +591,14 @@ colonies. Many sociologists believe the current and ongoing effects on society h
 event will eventually be considered to be the most significant change in human society since the agricultural 
 revolution.
 
-There is evidence of a cultural chasm between older generations, who have been much more likely to turn away from 
-technological progress and retreat to conspiracy theories and a mythos of uncertainty which still pervades art and 
-philosophical reflection, and the increased curiosity, drive and cognitive flexibility along with tolerance of 
-ambiguity and uncertainty in younger generations. An informal system of referring to the year of contact as 0 AFC 
-(After First Contact) and prior years as BFC (Before First Contact) developed in popular culture, and over the 
-subsequent decades has became so commonplace that it has mostly replaced the Gregorian calender system in daily life 
-system-wide.`,
+There is evidence of a differing generational reactions to the event. Older generations are significantly more likely 
+to have turned away from technological progress and to engage with conspiracy theories and uncertainty based mythos,
+and these still pervade much of the art and philosophical work since the event. In contrast the younger generations,
+in contrast to their [[meshpolitian~Intermesh]] virtual existence in previous decades, score higher on markers for 
+curiosity, drive, and cognitive flexibility than any generation before them, and lower on stress markers when exposed
+to ambiguity and uncertainty. An informal system of referring to the year of contact as 0 AFC (After First Contact) and 
+prior years as BFC (Before First Contact) developed in popular culture, and over the subsequent decades has became so 
+commonplace that it has mostly replaced the Gregorian calender system in daily life system-wide.`,
         classification: 'Socionomics/Events'
     }],
     ['Fatimid Trade Caliphate', {
