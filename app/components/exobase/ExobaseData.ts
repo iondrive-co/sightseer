@@ -490,8 +490,8 @@ production are almost all produced and monitored in more efficient centralised l
 delivered by [[drone~Drone]]. 
 
 The Chandler-Kapoor Agreements of the 70s require all signatories to monitor for unauthorized fabrication. Many 
-existential risk charities have funded additional regional rollouts of denser distributions of [[Mote]]s in under-served 
-areas to mitigate the danger of missing any fabrication.`,
+existential risk charities have funded additional regional rollouts of denser distributions of [[motes~Mote]]s in 
+under-served areas to mitigate the danger of missing any fabrication.`,
         classification: 'Praxis/Industrial'
     }],
     ['First Contact Event', {
@@ -711,14 +711,14 @@ less industrial capacity than the [[Peacekeepers]] it fields a nearly equivalent
         classification: 'Socionomics/Confederations'
     }],
     ['Havfélög', {
-        content: `The Havfélög or sea companies refer to a group of corporations which operate for profit terrestrial 
-naval assets. The largest three are Ný Varangia, Nordsjø AS, and [[Constellis Naval~Constellis Group]] which were all 
-created or spun off to legally supply and eventually operate [[United States]] naval assets rented to the 
+        content: `The Havfélög (HAHV‑FAY‑LOG or sea companies in English) are three northern European corporations which
+operate for profit terrestrial navies. Ný Varangia, BAE Nordsjø AS, and [[Saab-Constellis Naval~Constellis Group]] were 
+all created or spun off to legally supply and eventually operate [[United States]] naval assets rented to the 
 [[Eurasian Bloc]] for protection starting from the [[Reset of Nations]]. Their most frequent contracts are for piracy
 protection (often from corporations running subduction vent mines or from countries without navies such as 
-[[Argentinian Mancomunidad]] which run undersea colonies and aquaponic farms), integrity patrols of large assets such 
-as undersea vacuum train routes and fibre optic cables, and military retainer contracts for war gaming and submarine 
-based ASAT capabilities.`,
+[[Argentinian Mancomunidad]] which operates many undersea colonies and aquaponic farms), integrity patrols for undersea 
+vacuum train routes and fibre optic cables, and military retainer contracts for war gaming and submarine based ASAT 
+capabilities.`,
         classification: 'Socionomics/Polities'
     }],
     ['Haidian Takeoff Crisis', {
@@ -942,7 +942,7 @@ are common in most IM networks.
 
 In the BFC 70s the ability to affordably [[fab~Fabricator]] basic [[Mote]] InterMesh relays from home devices caused a 
 several order of magnitude increase in the connection density in many urban centers. In the subsequent decades the 
-falling cost and increasing capabilities of [[Mote]]s made large amounts of computing power available across large 
+falling cost and increasing capabilities of motes made large amounts of computing power available across large 
 swathes of Earth as well as many of the colonies. As a result [[Infocom Agent]]s start to be able to perform tasks such 
 as run complex simulations, train models to solve issues, and provide AR and other complex entertainment from most 
 locations on Earth.
@@ -1086,10 +1086,10 @@ synthetic drugs, and sexbots by the higher tech [[Kuromaku]]. It typically avoid
 or piracy except where it benefits Gran México, which in turn has never bowed to external pressure to annex the zone.
 
 Over time the zone has had to adapt its economy to changing technology. Already in 120 BFC ultra low orbit ABEP spy 
-satellites were becoming more widespread, and with slowly increasing spread of [[Mote]]s starting in the 70s privacy in 
-most terrestrial environments has almost completely disappeared in an attempt to control dangerous [[Fabricator~Fabs]]. 
-This has forced the zone to operate illicit activities either internally, or in remote environments, or digitally, or in 
-other areas on and off Earth where they are either tolerated or corruption is high.
+satellites were becoming more widespread, and with slowly increasing spread of [[motes~Mote]] starting in the 70s 
+privacy in most terrestrial environments has almost completely disappeared in an attempt to control dangerous 
+[[Fabricator~Fabs]]. This has forced the zone to operate illicit activities either internally, or in remote 
+environments, or digitally, or in other areas on and off Earth where they are either tolerated or corruption is high.
 
 # Judicial System
 
@@ -1363,17 +1363,23 @@ analytic tasks require QuanLan connections.`,
     }],
     ['Retrograde Diaspora', {
         content:
-`The retrograde diaspora, also known as descending the well and aliyah, was a period of high immigration back into 
-cislunar space from 59 to 25 BFC. The reasons for the depopulation and in some cases abandonment of colonies were a 
-collapse in the market for many commodities mined off-world, the cislunar energy abundance market boom of the 50s 
-combined with better [[[instance~Instance]] workers in the colonies, a widespread generational rejection of the ascesis 
-philosophies popular the early colonists, improved virtual reality which both reduced the pressure and desire to leave 
-Earth and made being able to instantly communicate with the super-majority of humanity on the main [[InterMesh]] more 
-attractive, and attempts from [[Dominio]] and the [[Eurasian Bloc]] to increase control over their colonies in the 
-aftermath of several terrorist incidents such as the [[Stillborn Harvest]]. The effects of this reverse diaspora were 
-an increase in statist government policies and an ending of many of the laissez faire international policies which had
-lasted from the [[Reset of Nations]]. There was a pushback against this trend from the 20s, but this was brought to an
-end by the [[First Contact Event]].`,
+`The retrograde diaspora, also known as descending the well and aliyah, refers to a period of high immigration back into 
+cislunar space,usually considered to cover the 50s until around the middle of the 20s, which lead to the depopulation 
+and in some cases abandonment of many colonies. Some reasons for the movement were a collapse in the market for many 
+commodities mined off-world, the cislunar energy abundance market boom of the 50s, better [[[instance~Instance]] workers 
+in the colonies, a widespread generational rejection of the ascesis and free market philosophies popular the early 
+colonists, and improved virtual reality which both reduced the pressure and desire to leave Earth and made being able 
+to instantly communicate with the super-majority of humanity on the main [[InterMesh]] more attractive.
+
+The 70s were characterised by governments, especially from [[Dominio]] and the [[Eurasian Bloc]], beginning to use the 
+increased surveillance capabilities of [[Mote]]s to monitor their citizens and treaties such Chandler-Kapoor (for 
+[[Fabricator]] monitoring) lead to more policing of lightly governed off Earth trade and colonies. Over the next decades
+this trend accelerated as the technology improved and in the aftermath of several terrorist incidents such as the 
+[[Stillborn Harvest]]. Without the same freedom and black market goods they had previously enjoyed there was a cultural 
+shift towards embracing centralisation and society wide advancement and rejecting the culture of hardship, chaos and 
+nihilism which was ascribed to previous generations which had adapted more laissez faire approaches to government. 
+There was a pushback against this trend from the late 20s, but this was brought to an end by the [[First Contact Event]] 
+which kick started another united humanity movement.`,
         classification: 'Socionomics/Events'
     }],
     ['Sanktuarium Jasności', {
