@@ -1364,22 +1364,23 @@ analytic tasks require QuanLan connections.`,
     ['Retrograde Diaspora', {
         content:
 `The retrograde diaspora, also known as descending the well and aliyah, refers to a period of high immigration back into 
-cislunar space,usually considered to cover the 50s until around the middle of the 20s, which lead to the depopulation 
-and in some cases abandonment of many colonies. Some reasons for the movement were a collapse in the market for many 
-commodities mined off-world, the cislunar energy abundance market boom of the 50s, better [[[instance~Instance]] workers 
-in the colonies, a widespread generational rejection of the ascesis and free market philosophies popular the early 
-colonists, and improved virtual reality which both reduced the pressure and desire to leave Earth and made being able 
-to instantly communicate with the super-majority of humanity on the main [[InterMesh]] more attractive.
+cislunar space. It is usually considered to have begun in the late 60s and lasted until the middle of the 20s, and it 
+lead to the depopulation and in some cases abandonment of many off earth colonies. Some reasons for the movement were a 
+collapse in the market for many commodities mined off-world, the cislunar energy abundance market boom of the 50s, 
+better [[instance~Instance]] workers in the colonies, a widespread generational rejection of the ascesis and free 
+market philosophies popular the early colonists, and improved virtual reality which both reduced the pressure and desire 
+to leave Earth and made being able to instantly communicate with the super-majority of humanity on the main 
+[[InterMesh]] more attractive.
 
-The 70s were characterised by governments, especially from [[Dominio]] and the [[Eurasian Bloc]], beginning to use the 
-increased surveillance capabilities of [[Mote]]s to monitor their citizens and treaties such Chandler-Kapoor (for 
-[[Fabricator]] monitoring) lead to more policing of lightly governed off Earth trade and colonies. Over the next decades
-this trend accelerated as the technology improved and in the aftermath of several terrorist incidents such as the 
-[[Stillborn Harvest]]. Without the same freedom and black market goods they had previously enjoyed there was a cultural 
-shift towards embracing centralisation and society wide advancement and rejecting the culture of hardship, chaos and 
-nihilism which was ascribed to previous generations which had adapted more laissez faire approaches to government. 
-There was a pushback against this trend from the late 20s, but this was brought to an end by the [[First Contact Event]] 
-which kick started another united humanity movement.`,
+The 70s and 60s were characterised by governments, especially from [[Dominio]] and the [[Eurasian Bloc]], beginning to 
+use the increased surveillance capabilities of [[motes~Mote]] to monitor their citizens, treaties such Chandler-Kapoor 
+(for [[Fabricator]] monitoring) leading to more policing of lightly governed off Earth trade and colonies. Over the next 
+decades this trend accelerated due to technological advancements and in reaction to major terrorist incidents such as 
+the [[Stillborn Harvest]]. Without the same freedom and black market goods previous generations had enjoyed there was a 
+cultural shift in space native children towards centralisation and society wide advancement, and rejecting the culture
+ of hardship, nihilism, and laissez faire approaches to government which were ascribed to previous generations. 
+Although there was a pushback against this trend after the diaspora period it was brought to an end by the 
+[[First Contact Event]] which kick started an even stronger united humanity movement.`,
         classification: 'Socionomics/Events'
     }],
     ['Sanktuarium Jasności', {
