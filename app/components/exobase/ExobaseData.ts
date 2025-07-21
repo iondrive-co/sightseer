@@ -1363,24 +1363,21 @@ analytic tasks require QuanLan connections.`,
     }],
     ['Retrograde Diaspora', {
         content:
-`The retrograde diaspora, also known as descending the well and aliyah, refers to a period of high immigration back into 
-cislunar space. It is usually considered to have begun in the late 60s and lasted until the middle of the 20s, and it 
-lead to the depopulation and in some cases abandonment of many off earth colonies. Some reasons for the movement were a 
-collapse in the market for many commodities mined off-world, the cislunar energy abundance market boom of the 50s, 
-better [[instance~Instance]] workers in the colonies, a widespread generational rejection of the ascesis and free 
-market philosophies popular the early colonists, and improved virtual reality which both reduced the pressure and desire 
-to leave Earth and made being able to instantly communicate with the super-majority of humanity on the main 
-[[InterMesh]] more attractive.
+`The retrograde diaspora, also known as descending the well and aliyah, was a period of high immigration from Earth's 
+colonies back into cislunar space. The causes were a collapse in the market for many commodities mined off-world, the 
+cislunar energy abundance market boom of the 50s, better [[instance~Instance]] workers in the colonies, a widespread 
+generational rejection of the ascesis and free market philosophies popular the early colonists, and improved virtual 
+reality which both reduced the pressure and desire to leave Earth and made being able to instantly communicate with the 
+super-majority of humanity on the main [[InterMesh]] more attractive. Lasting from the late 60s until the middle of the 
+20s, the period led to the depopulation and in some cases abandonment of many off earth colonies.
 
-The 70s and 60s were characterised by governments, especially from [[Dominio]] and the [[Eurasian Bloc]], beginning to 
-use the increased surveillance capabilities of [[motes~Mote]] to monitor their citizens, treaties such Chandler-Kapoor 
-(for [[Fabricator]] monitoring) leading to more policing of lightly governed off Earth trade and colonies. Over the next 
-decades this trend accelerated due to technological advancements and in reaction to major terrorist incidents such as 
-the [[Stillborn Harvest]]. Without the same freedom and black market goods previous generations had enjoyed there was a 
-cultural shift in space native children towards centralisation and society wide advancement, and rejecting the culture
- of hardship, nihilism, and laissez faire approaches to government which were ascribed to previous generations. 
-Although there was a pushback against this trend after the diaspora period it was brought to an end by the 
-[[First Contact Event]] which kick started an even stronger united humanity movement.`,
+The 70s and 60s were characterised by more policing of the previously lightly governed off Earth trade and colonies due
+to the increasing capabilities of [[motes~Mote]] and [[Fabricator]] surveillance treaties such Chandler-Kapoor, and this 
+trend accelerated in reaction to later terrorist incidents such as the [[Stillborn Harvest]]. Without the same freedom 
+and black market goods previous generations had enjoyed there was a cultural shift in the astroindigène towards 
+centralisation and an ethos of society wide advancement, and rejecting the culture of hardship, nihilism, and laissez 
+faire approaches to government which were ascribed to previous generations. There was an eventual pushback against this 
+trend, however the [[First Contact Event]] renewed many aspects such as the united humanity movement.`,
         classification: 'Socionomics/Events'
     }],
     ['Sanktuarium Jasności', {
