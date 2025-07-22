@@ -549,9 +549,14 @@ only adjusted course when it was near enough to be threatened. The assumed motiv
 probe was transiting somewhere, and this is supported by the small size of the probe making it unsuitable for optical 
 and most other known monitoring, and also that its course suggests that it was doing a flyby of the outer solar system 
 rather than a thorough exploration before we intervened. It is even possible that it could have been carrying some 
-radiotrophic life able to withstand the intense gamma radiation in the small craft, perhaps to seed life somewhere. 
-Whatever the senders interest in sending a probe to another system, all we know with any certainty is that based on the 
-exit trajectory the next destination of the probe is likely to be the Sirius binary system. 
+radiotrophic life able to withstand the intense gamma radiation in the small craft, perhaps to seed life somewhere.
+
+Another field of debate deals with the fact that life arising in two places independently implies the galaxy is teeming 
+with life. Philosopher Hyun Soo Park popularised a theory for the Fermi paradox of their continued silence, based on 
+a balance of forces which has so far prevented us from being contacted or attacked until the sender broke the balance,
+and this has since become a trope in several popular works of pop science. Ultimately, whatever the senders interest in 
+sending a probe to another system all we know with any certainty is that based on the exit trajectory the next 
+destination of the probe is likely to be the Sirius binary system. 
 
 # Technological Impact
 
@@ -585,23 +590,25 @@ were more favourable to legislation on larger scale issues such as global defenc
  
 The subsequent years were a period of economic prosperity, combined with increasing cultural insecurity and nihilism as 
 the psychological impact of the continued silence and assumed indifference of vastly superior lifeforms dragged on. 
-There was a decrease in widespread conflicts but a marked increase in violent crimes, both speculated as being due to a 
-combined sense of inadequacy and existential dread opposed by a chilling effect of potentially being monitored by some 
-incomprehensible technology. Several new inter-faction political entities such as the [[Outer Trading League]] were 
-formed in the subsequent decade, and there was a large increase in migration from Earth to the Lunar and Martian 
-colonies. There was a renewed push for many of the statist and centrally managed internation police forces which had 
-been partially abandoned in the decades after the [[Retrograde Diaspora]]. 
+There has been a marked increase in violent crimes but a decrease in widespread conflicts, which the sociologist Alexei 
+Rouz attributes to drivers of inadequacy and existential dread which are opposed by the chilling effect of potentially 
+being monitored by some incomprehensible technology. Several new inter-faction political entities such as the 
+[[Outer Trading League]] were formed in the subsequent decade, and there was a large increase in migration from Earth to 
+the Lunar and Martian colonies. Several of the centrally managed international police and aid organisations which had 
+been partially or completely abandoned in the decades after the [[Retrograde Diaspora]] were reinstated.
 
-Many sociologists believe the current and ongoing psychological impacts on humanity have and will be so profound that 
-the event will eventually be considered to be the most significant change in human society since the agricultural 
-revolution. There is evidence of a differing generational reactions to the event. Older generations are significantly 
-more likely to have turned away from technological progress and to engage with conspiracy theories and uncertainty based 
-mythoi, and these still pervade much of the art and philosophical work created since the event. However younger generations,
-in contrast to their [[meshpolitian~Intermesh]] virtual existence in previous decades, score higher on markers for 
-curiosity, drive, and cognitive flexibility than any generation before them, and lower on stress markers when exposed
-to ambiguity and uncertainty. An informal system of referring to the year of contact as 0 AFC (After First Contact) and 
-prior years as BFC (Before First Contact) developed in popular culture, and over the subsequent decades has became so 
-commonplace that it has mostly replaced the Gregorian calender system in daily life system-wide.`,
+There is evidence of a differing generational reactions to the event. Older generations are significantly more likely to 
+have turned away from technological progress and to engage with conspiracy theories and uncertainty based mythoi, and 
+these still pervade much of the art and philosophical work created since the event. However younger generations, in 
+contrast to their [[meshpolitian~Intermesh]] virtual existence in previous decades, score higher on markers for 
+curiosity, drive, and cognitive flexibility than any generation before them, and lower on stress markers when exposed to 
+ambiguity and uncertainty. The consensus among sociologists, as summarized by Mori, Rouz & Teo (16 AF), is that "the 
+current and ongoing psychological impacts on humanity have and will be so profound that future generations will likely 
+consider the event the most significant change in human society since the agricultural revolution". 
+
+An informal system of referring to the year of contact as 0 AFC (After First Contact) and prior years as BFC 
+(Before First Contact) developed in popular culture, and over the subsequent decades has became so commonplace that it 
+has mostly replaced the Gregorian calender system in daily life system-wide.`,
         classification: 'Socionomics/Events'
     }],
     ['Fatimid Trade Caliphate', {
