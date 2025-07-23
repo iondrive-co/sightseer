@@ -1003,41 +1003,41 @@ classification: 'Socionomics/Events'
     ['Kinships of the Astroindigène', {
 content: `Kinships of the Astroindigène is a seminal study by sociologist Matthieu Diallo of the changes in social 
 dynamics which have occurred in off Earth environments. First published as three [[synth~Synthetic Intelligence]] models 
-in 12 BFC, it has been republished twice to cover the post [[First Contact]] environment, with the latest edition coming 
-out in 15 AFC. KOTA is largely focussed on how the environment has shaped off Earth societies, and how changing 
+in 12 BFC, it has been republished twice to cover the post [[First Contact Event]] environment, with the latest edition 
+coming out in 15 AFC. KOTA is largely focussed on how the environment has shaped off Earth societies, and how changing 
 technology has affected the dynamics in those societies. It has a number of original findings and was widely praised but 
 has also been criticised as an "apologetic narrative" of some of the events it covers. 
 
-The first model covers the period from the first lunar settlement through the[[Khan Solar Storm]] until the first of the 
-new generation settlements like [[Dao Vallis Outpost~Hellas Planitia]]. Diallo calls this the hyper-social period, where 
-the kind of individualism common on Earth was unable to withstand the close quarters and distance from any immediate 
-help and thus acted as a strong selection pressure for colonists who valued cooperation and communal living. The 
-research and development rather than economic focus of early colonies led to a heavy skew towards scientists and 
-engineers, which affected the world view and politics present in these societies. Differences between the colonies of 
-various nations and corporations lead to a wide variety of living, co-parenting, and synthetic reproduction 
-arrangements, conditions which Diallo calls the laboratory of mankind. There were some common cultural markers that 
-developed quickly across most colonies, these were the prioritization of match making for young people, less tolerance 
-of alternative living arrangements that didn't produce offspring, and more acceptance of non-conventional structures 
-such as line marriage which did.
+The first model covers the period from the first lunar settlement through the [[Khan Solar Storm]] until the first of 
+the new generation settlements like [[Dao Vallis Outpost~Hellas Planitia]]. Diallo calls this the hyper-social period, 
+where the kind of individualism common on Earth was unable to withstand the close quarters and distance from any 
+immediate help and thus acted as a strong selection pressure for colonists who valued cooperation and communal living. 
+The focus on research and development rather than economic development in the early colonies led to a heavy skew towards 
+scientists and engineers, and several examples are given of this affecting the world view and politics present in these 
+societies. Differences between the colonies of various nations and corporations lead to a wide variety of living, 
+co-parenting, and synthetic reproduction arrangements, conditions which Diallo calls the laboratory of mankind. There 
+were still some common cultural elements that developed across most of the colonies, the model gives evidence for common 
+attitudes to the prioritization of match making for young people, less tolerance of alternative living arrangements that 
+didn't produce offspring, and more acceptance of non-conventional structures such as line marriage which did.
 
 The second model covers the [[Ceres Wave]] and its long term cultural impacts up until the [[Retrograde Diaspora]]. The
-Wave colonists were young due to the baby boom and the longer lifespans on Earth reducing the opportunities there,
+Wave colonists were young, due to the baby boom as well as longer lifespans on Earth reducing the opportunities there,
 and there was a large amount of wealth to be gained quickly for enterprising individuals. Diallo believes this created
 the push for more laissez-faire government, a culture of ascesis and tolerating hardship, and more tolerance of 
 different social arrangements. On Mars a power vacuum developed due to the lack of government interest, which was filled 
-with new Martian mutual aid structures, and cultural institutions developed around these. In the industrial colonies 
-rigid hierarchies, and in some cases tribute systems, developed. In many societies there was little social security and 
-children were often the only support available for the elderly, and this shaped their social dynamics. By this time many 
-colonies had significant divergences from their founding societies, Diallo describes them as being snapshots of 
-previous eras on Earth.
+with new Martian mutual aid structures, and cultural institutions developed around these. In contrast in the industrial 
+colonies rigid hierarchies, and in some cases tribute systems, developed. In many societies there was little social 
+security and children were often the only support available for the elderly, and this shaped their social dynamics. By 
+this time many colonies had significant divergences from their founding societies, Diallo describes them as being both
+snapshots of previous eras on Earth and as cross-pollinated fruits developing their own distinct characteristics.
 
 The third model covers the centralisation, society wide advancement, and moral universalism of the Retrograde Diaspora 
 period and the later pushback as an outward movement of older people brought back some of the laissez-faire spirit of 
 the Wave generation. The later revisions of KOTA update the model with post First Contact societal changes. The first 
 revision deals with the widespread resurgence of a humanity first ethos and how this led first to inter-colony 
 co-operation but ultimately regressed to things like [[Martian-nationalism~Nanocat Fury]]. The second revision covers 
-the differing generational reactions to the first contact event, especially contrasting the more passive 
-[[meshpolitian~Intermesh]] virtual-first existence of the Diaspora period with the curiosity, drive, and cognitive 
+the differing generational reactions to the first contact event, especially contrasting the more passive and 
+virtual-first [[meshpolitian~InterMesh]] existence of the Diaspora period with the high ambition and cognitive 
 flexibility markers present in today's younger generations, and how new cooperation norms and organizations are 
 developing out of these changes.`,
         classification: 'Socionomics/Events'
