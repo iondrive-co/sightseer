@@ -1005,7 +1005,8 @@ classification: 'Socionomics/Events'
 content: `Kinships of the Astroindigène by sociologist Matthieu Diallo is a seminal study of the changes in social 
 dynamics which have occurred in off Earth environments. First published as three [[synth~Synthetic Intelligence]] models 
 in 12 BFC, it has been republished twice to cover the post [[First Contact]] environment, with the latest edition coming 
-out in 15 AFC.
+out in 15 AFC. It has a number of original findings and was widely praised but has been criticised as an "apologetic
+narrative" of some of the events it covers.
 
 KOTA is largely focussed on how the environment has shaped off Earth societies, and how changing technology has 
 affected the dynamics in those societies. The first model covers the period from the first lunar settlement through the
@@ -1020,18 +1021,16 @@ non-conventional structures such as line marriage which did.
 The second model covers the [[Ceres Wave]] and its long term cultural impacts up until the [[Retrograde Diaspora]]. The
 wave of colonists was young due to the baby boom and the longer lifespans on Earth reducing the opportunities there,
 and there was a large amount of wealth to be gained quickly for enterprising individuals, which lead to a push for
-more laisse-faire government, a culture of ascesis and tolerating hardship, and more tolerance of different social
+more laissez-faire government, a culture of ascesis and tolerating hardship, and more tolerance of different social
 arrangements. On Mars a power vacuum developed due to the lack of government interest, which was filled with new Martian 
 mutual aid structures. There was little social security and children were often the only support available for
 the elderly, and this shaped the social dynamics of these societies.
 
-The third model covers the centralisation and society wide advancement of the Retrograde Diaspora, the pushback as an 
-outward movement of older people making opportunities for the young brought back some of the laisse faire spirit of the 
-Wave generation, and the even stronger humanity first ethos developing out of the First Contact Event. The later 
-revisions cover post first contact changes, firstly the inter-colony co-operation and pan-nationalism on Mars, and
-secondly the differing generational reactions to the event. It summarises studies showing that post event younger 
-generations score higher on markers for curiosity, drive, and cognitive flexibility than any generation before them, and lower on stress 
-markers when exposed to ambiguity and uncertainty.`,
+The third model covers the centralisation and society wide advancement of the Retrograde Diaspora and the pushback as an 
+outward movement of older people brought back some of the laissez-faire spirit of the Wave generation. The later 
+revisions cover post first contact changes, the first dealing with the even stronger humanity first ethos developing out 
+of the First Contact Event and the resulting inter-colony co-operation and [[Martian-nationalism~Nanocat Fury]], and the 
+second with the differing generational reactions to the first contact event.`,
         classification: 'Socionomics/Events'
     }],
     ['Kuromaku', {
