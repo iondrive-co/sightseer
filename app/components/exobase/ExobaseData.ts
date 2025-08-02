@@ -920,13 +920,22 @@ Freehab was officially incorporated in 46 BFC in large part due to the efforts o
 (born 29 December 91 BFC) was originally an operator of vacuum welder drones who rose to prominence as a mining platform 
 safety advocate in the aftermath of the Gamma substrate disaster in 64 BFC. His exposure of systematic safety deferrals 
 by [[Semiotican]] were largely responsible for the annulment of contracts with Semiotican and his election as the 
-[[Dominio]] appointed manager of the Gaspra asteroid platforms. During 55 BFC he first met Anna Reyes, who was at the 
-time [[Amazon]]'s senior legal counsel for habit lease agreements, and the pair entered a line marriage on the 16th May, 
-47 BFC. During the early part of the 40s the pair launched a series of legal challenges, industrial actions and trade 
-agreements with other main belt platforms and trade organisations which created the conditions for Marcus to seize power
-as governor of a newly created cooperative of several Dominio platforms and habitats on the 21st December, 46 BFC. 
-While Dominio had been bought off by retaining some face saving nominal authority and did retain shares and right of 
-first refusal on many of the cooperatives existing mining contracts, Marcus was now effectively an independent governor. 
+[[Dominio]] appointed manager of the Gaspra asteroid platforms. Anna Reyes (born 1 November 88 BFC) grew up in an 
+Ellulist community in Alberta in the [[United States]]. During her teenage years she claims to have had a vision of
+a saint surrounded by angels while watching a documentary about corporate asteroid mining, and that these visions 
+reoccured later in life involving other saints and martyrs of the church. She studied law and first met Marcus in 55 BFC 
+while working as [[Amazon]]'s senior legal counsel for habit lease agreements. Marcus officially joined the Ellulist 
+church shortly after, and the pair entered a line marriage together on the 16th May, 47 BFC. 
+
+During the early part of the 40s Marcus and Anna worked together to a series of legal challenges, industrial actions and 
+trade agreements with other main belt platforms and trade organisations. Through the Ellulist church they sponsored 
+documentaries and news segments outlining the case against the self-reinforcing integrated systems being created by
+the large corporations and creating a manifesto for an independent and organically organised system of governance. 
+With the support of a group including a trade vessel magnate and the extraterestrial drone operators union, on the 2nd 
+February 46 BFC Marcus was able seize power in a bloodless coup, and on the 11th Feb established himself as governor of 
+a newly created cooperative of several Dominio platforms and habitats. While Dominio had been bought off by retaining 
+some face saving nominal authority and did retain shares and right of first refusal on many of the cooperatives existing 
+mining contracts, Marcus was now effectively an independent governor. 
 
 In the following years Anna defended the cooperative from a Semiotican resource extraction claim that was an attempt to 
 take control of the cooperative, and during the 43-41 BFC period she spent significant time on Mars and Earth defending 
@@ -937,8 +946,8 @@ expanding cooperative, and she appointed Marcus to the position of first Admiral
 the fleet fought a number of skirmishes with [[Greater Zhōngguó]] funded privateers and insurrections attempting to 
 take control of Freehabs lithium mines. During both the first and second transit wars Freehab maintained a policy of 
 armed neutrality, and its last significant mobilisation was during the [[First Contact Event]]. As the smallest of the 
-outer system navies it generally prefers to achieve objectives through indirect means such as the Outer Trading League 
-and funding sympathetic organisations such as the [[Freeholders]].`,
+outer system navies it generally prefers to achieve objectives through indirect means such as the Outer Trading League,
+and funding sympathetic organisations such as the Ellulist church and the [[Freeholders]].`,
         classification: 'Socionomics/Polities'
     }],
     ['Infomatic Conglomerate', {
@@ -1461,7 +1470,8 @@ trend accelerated in reaction to later terrorist incidents such as the [[Stillbo
 and black market goods previous generations had enjoyed there was a cultural shift in the astroindigène towards 
 centralisation and an ethos of society wide advancement, and rejecting the culture of hardship, nihilism, and laissez 
 faire approaches to government which were ascribed to previous generations[1]. There was an eventual pushback against 
-this trend, however the [[First Contact Event]] renewed many aspects such as the united humanity movement.
+this trend, notably from the Ellulists and [[Freehab~Independent Habitats]], however the [[First Contact Event]] renewed 
+many aspects such as the united humanity movement.
 
 1. [[Kinships of the Astroindigène]]`,
         classification: 'Socionomics/Events'
