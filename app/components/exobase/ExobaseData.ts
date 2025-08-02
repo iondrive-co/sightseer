@@ -916,10 +916,13 @@ resisting assimilation back into Earth polities. It has a sizable economy and a 
 the inner belt, and exercises proxy power over most trade in the outer solar system via its control of the 
 [[Outer Trading League]].
 
-Marcus Okafor was originally a mining platform vacuum welder who worked his way up to governor of a mid-belt 
-cooperative that successfully diversified from pure extraction into manufacturing and food production. In 47 BFC 
+Freehab was officially incorporated in 46 BFC in a large part due to the efforts of two individuals.
+Marcus Okafor (born 101 BFC) was a vacuum welder who rose to prominence as a mining platform safety advocate in the
+aftermath of the Gamma substrate disaster in 64 BFC. His exposure of systematic safety deferrals by [[Semiotican]]
+were largely responsible for the annulment of contracts with Semiotican and his election as the first ever independent
+governor of the Gaspra asteroid platforms. In 47 BFC 
 he met Anna Reyes when she defended the cooperative from a resource extraction claim that was an attempt by
-[[Semiotican]] to assimilate the resources of the cooperative, and they entered a line marriage shortly after. Together 
+Semiotican to assimilate the resources of the cooperative, and they entered a line marriage shortly after. Together 
 they were successful in coordinating a group of colonies with enough economic leverage to prevent an legal takeover 
 attempt by [[Dominio]] in 46 BFC, and a later military one by [[Greater Zhōngguó]] during the period of colony 
 assimilation that occurred during the Diaspora period.`,
