@@ -916,16 +916,24 @@ resisting assimilation back into Earth polities. It has a sizable economy and a 
 the inner belt, and exercises proxy power over most trade in the outer solar system via its control of the 
 [[Outer Trading League]].
 
-Freehab was officially incorporated in 46 BFC in a large part due to the efforts of two individuals.
-Marcus Okafor (born 101 BFC) was a vacuum welder who rose to prominence as a mining platform safety advocate in the
-aftermath of the Gamma substrate disaster in 64 BFC. His exposure of systematic safety deferrals by [[Semiotican]]
-were largely responsible for the annulment of contracts with Semiotican and his election as the first ever independent
-governor of the Gaspra asteroid platforms. In 47 BFC 
-he met Anna Reyes when she defended the cooperative from a resource extraction claim that was an attempt by
-Semiotican to assimilate the resources of the cooperative, and they entered a line marriage shortly after. Together 
-they were successful in coordinating a group of colonies with enough economic leverage to prevent an legal takeover 
-attempt by [[Dominio]] in 46 BFC, and a later military one by [[Greater Zhōngguó]] during the period of colony 
-assimilation that occurred during the Diaspora period.`,
+Freehab was officially incorporated in 46 BFC in a large part due to the efforts of two individuals. Marcus Okafor 
+(born 29 December 91 BFC) was originally an operator of vacuum welder drones who rose to prominence as a mining platform 
+safety advocate in the aftermath of the Gamma substrate disaster in 64 BFC. His exposure of systematic safety deferrals 
+by [[Semiotican]] were largely responsible for the annulment of contracts with Semiotican and his election as the 
+[[Dominio]] appointed manager of the Gaspra asteroid platforms. During 55 BFC he first met Anna Reyes, who was at the 
+time [[Amazon]]'s senior legal counsel for habit lease agreements, and the pair entered a line marriage on the 16th May, 
+47 BFC. During the early part of the 40s the pair launched a series of legal challenges, industrial actions and trade 
+agreements with other main belt platforms that created the conditions for Marcus to be elected as an 
+governor of a new not for profit cooperative of several Dominio platforms and habitats on the 21st December, 46 BFC. 
+While Dominio was the nominal authority and did retain some shares and right of first refusal on many of the
+cooperatives existing mining contracts, Marcus was effectively and independent governor. In the following years Anna 
+defended the cooperative from a Semiotican resource extraction claim that was an attempt to control cooperative, and
+during the 43-41 BFC period she spent significant time on Mars and Earth defending the cooperative from Dominio lawfare
+attempting to reassert control over the colonies. Meanwhile Marcus has been coordinating a group of colonies 
+with enough economic leverage to construct their own, Dominio branded but effectively independent, military shipyard.
+On the 2nd June 40 BFC Anna was elected as the CEO of the rapidly expanding cooperative, and Marcus the first Admiral of
+the Fleet. During the 30s the fleet fought a number of skirmishes with [[Greater Zhōngguó]] funded privateers and 
+insurrections attempting to take over various parts of Freehabs mining operations.`,
         classification: 'Socionomics/Polities'
     }],
     ['Infomatic Conglomerate', {
