@@ -601,10 +601,10 @@ international police and aid organisations which had been partially or completel
 There is evidence of a differing generational reactions to the event [1]. Older generations are significantly more 
 likely to have turned away from technological progress and to engage with conspiracy theories and uncertainty based 
 mythoi, and these still pervade much of the art and philosophical work created since. However younger generations now 
-score higher on markers for curiosity, drive, and cognitive flexibility than any generation before them, and lower on stress markers when exposed to 
-ambiguity and uncertainty. The consensus among sociologists, as summarized by Mori, Rouz & Teo (16 AF), is that "the 
-current and ongoing psychological impacts on humanity have and will be so profound that future generations will likely 
-consider the event the most significant change in human society since the agricultural revolution". 
+score higher on markers for curiosity, drive, and cognitive flexibility than any generation before them, and lower on 
+stress markers when exposed to ambiguity and uncertainty. The consensus among sociologists, as summarized by Mori, 
+Rouz & Teo (16 AF), is that "the current and ongoing psychological impacts on humanity have and will be so profound that 
+future generations may consider the event the most significant change in human society since the agricultural revolution". 
 
 An informal system of referring to the year of contact as 0 AFC (After First Contact) and prior years as BFC 
 (Before First Contact) developed in popular culture, and over the subsequent decades has became so commonplace that it 
@@ -908,7 +908,21 @@ on the InterMesh even with cloaked tunnel and steganographic chameleon hashing t
     }],
     ['Independent Habitats', {
         content:
-`Datï¿½orruà¤¶आtedा`,
+`The Independent Habitats, more commonly known as Freehab, are a community of economically interdependent off earth 
+settlements with polycentric governance managed by a central board as a not for profit corporation. Originating as
+a loosely association of groups of traders and colonies aiming to expand their commercial interests, during the
+[[Retrograde Diaspora]] Freehab was strengthened by governor Marcus Okafor and contract lawyer Anna Reyes as means of 
+resisting assimilation back into Earth polities. It has a sizable economy and a significant [[navy~Naval Rated Ship]] in 
+the inner belt, and exercises proxy power over most trade in the outer solar system via its control of the 
+[[Outer Trading League]].
+
+Marcus Okafor was originally a mining platform vacuum welder who worked his way up to governor of a mid-belt 
+cooperative that successfully diversified from pure extraction into manufacturing and food production. In 47 BFC 
+he met Anna Reyes when she defended the cooperative from a resource extraction claim that was an attempt by
+[[Semiotican]] to assimilate the resources of the cooperative, and they entered a line marriage shortly after. Together 
+they were successful in coordinating a group of colonies with enough economic leverage to prevent an legal takeover 
+attempt by [[Dominio]] in 46 BFC, and a later military one by [[Greater Zhōngguó]] during the period of colony 
+assimilation that occurred during the Diaspora period.`,
         classification: 'Socionomics/Polities'
     }],
     ['Infomatic Conglomerate', {
@@ -1378,7 +1392,10 @@ Both fusion and antimatter engine variants are normally crewed.`,
     }],
     ['Outer Trading League', {
         content:
-`Datï¿½orruà¤¶आtedा`,
+`The Outer Trading League, commonly called the OTL, is a commercial and defensive network of merchant communities and
+polities such as [[FreeHab~Independent Habitats]] which are not managed by inner system polities or corporations. It has
+been accused of being a cover for Freehab to funneling weapons and resources to the [[Freeholders]] and other off Earth
+independence groups.`,
         classification: 'Socionomics/Confederations'
     }],
     ['Peacekeepers', {
