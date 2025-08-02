@@ -163,6 +163,33 @@ well as areas where its laissez-faire economy combined with its perceived safety
 offshore banking, and citizenship as a service.`,
         classification: 'Socionomics/Polities'
     }],
+    ['Augustine Okafor', {
+        content: `Augustine Okafor (20th January 42 BFC – present) is a politician, military leader, and inventor of the
+first [[Plasmorph]] containment device. His parents are 
+[[Marcus Okafor,Zsófia Ardour, and Cecile Riddle~Independent Habitats]].
+
+While studying for degrees in physics and chemistry he met void ecologist David Regis, they tried to have a child 
+together via artificial womb but the pregnancy was unsuccessful. During a later surgery for prostate cancer there was 
+a malfunction of the [[Dominio]] robo-daktari which left Augustine unable to have more children, he subsequently
+developed a drug addiction. Although the eldest child of Marcus Okafor his step mother Anna Reyes convinced Marcus that
+Augustine was unsuitable as a successor due to this addiction, and his step-sister Polaris Okafor-Reyes was groomed for 
+leadership and was eventually elected as the Freehab CEO in 3 BFC after Anna retired. 
+
+After being passed over for the leadership, Augustine left the Ellulist church and converted to [[Deus Machina]] which
+was violently opposed to the Ellusists and held centralisation under synth control as a core tenet. He left the 
+relationship with David Regis and married Ilona, an [[instance companion~Instance]] and prominent Martian entertainer 
+and [[Retrograde Diaspora]] centralisation advocate. Augustine spent several years as a drug smuggler, but when he 
+discovered that several of his lucky escapes from the law had been organised by [[Greater Zhōngguó]] as a means to 
+increase drug use and thus weaken Freehab he quit and underwent psychosurgery to cure his drug addiction.
+
+Through Ilona he developed political connections on Mars, and eventually took over the leadership of the 
+[[Freeholders]]. In response to Freehab developing a trading relationship with the [[Fatimid Trade Caliphate]], and well 
+as his Deus Machina faith which was more palatable to the more centralisation focussed Sunni Muslims, he was able to 
+obtain diplomatic recognition for the Freeholders from the Caliphate's rival [[Türkiye]]. On the 2nd May, 14 AFC, Anna 
+Reyes was killed by Turkish genetic malware, and since then there has been a much closer diplomatic relationship between
+the Freeholders and Freehab, with the two jointly participating in the [[Nanocat Fury]] protests.`,
+        classification: 'Socionomics/People'
+    }],
     ['Automated Modular Solid-State Transformers', {
         content: `An Automated Modular Solid-State Transformer or AMSST, is an umbrella term for the design of the last 
 generation of AC electric power distribution transformers, which started to be globally deployed in the 180s in the
@@ -637,7 +664,7 @@ asteroid in 97 BFC`,
     }],
     ['Freeholders', {
         content: `The Freeholders are a Martian based political and paramilitary organisation with origins in the 
-anarchic terrorist Kasei Freeholder society.
+anarchic terrorist Kasei Freeholder society. Their current leader is [[Augustine Okafor]].
 
 The Kasei Freeholders were a community descended from a partially abandoned [[Dominio]] settlement attempt in the 
 labyrinthine canyon system of Kasei Valles. They developed a fiercely independent and terranophobic culture, supporting
@@ -917,15 +944,18 @@ resisting assimilation back into Earth polities. It has a sizable economy and a 
 outer solar system via its control of the [[Outer Trading League]].
 
 Freehab was officially incorporated in 46 BFC in large part due to the efforts of two individuals. Marcus Okafor 
-(born 29 December 91 BFC) was originally an operator of vacuum welder drones who rose to prominence as a mining platform 
-safety advocate in the aftermath of the Gamma substrate disaster in 64 BFC. His exposure of systematic safety deferrals 
-by [[Semiotican]] were largely responsible for the annulment of contracts with Semiotican and his election as the 
-[[Dominio]] appointed manager of the Gaspra asteroid platforms. Anna Reyes (born 1 November 88 BFC) grew up in an 
-Ellulist community in Alberta in the [[United States]]. During her teenage years she claims to have had a vision of
-a saint surrounded by angels while watching a documentary about corporate asteroid mining, and that these visions 
-reoccured later in life involving other saints and martyrs of the church. She studied law and first met Marcus in 55 BFC 
-while working as [[Amazon]]'s senior legal counsel for habit lease agreements. Marcus officially joined the Ellulist 
-church shortly after, and the pair entered a line marriage together on the 16th May, 47 BFC. 
+(29 December 91 BFC - present) was originally an operator of vacuum welder drones who rose to prominence as a mining 
+platform safety advocate in the aftermath of the Gamma substrate disaster in 64 BFC. His exposure of systematic safety 
+deferrals by [[Semiotican]] were largely responsible for the annulment of contracts with Semiotican and his election as 
+the [[Dominio]] appointed manager of the Gaspra asteroid platforms. In 57 BFC he joined the marriage of Zsófia Ardour 
+and Cecile Riddle, and in 55 BFC the three of them had a child, [[Augustine Okafor]], through spindle nuclear transfer.
+
+Anna Reyes (1 November 88 BFC - 2nd May 14 AFC) grew up in an Ellulist community in Alberta in the [[United States]]. 
+During her teenage years she claims to have had a vision of a saint surrounded by angels while watching a documentary about 
+drone control systems for asteroid mining, and that these visions reoccurred later in life involving other saints and 
+martyrs of the church. She studied law and first met Marcus in 55 BFC while working as [[Amazon]]'s senior legal counsel 
+for habit lease agreements. Marcus officially joined the Ellulist church shortly after they met, and she entered Marcus' 
+line marriage on the 16th May, 47 BFC.
 
 During the early part of the 40s Marcus and Anna worked together to a series of legal challenges, industrial actions and 
 trade agreements with other main belt platforms and trade organisations. Through the Ellulist church they sponsored 
@@ -944,10 +974,14 @@ Marcus had been coordinating a group of colonies with enough economic leverage t
 but effectively independent, military shipyard. On the 2nd June 40 BFC Anna was elected as the CEO of the rapidly 
 expanding cooperative, and she appointed Marcus to the position of first Admiral of the Freehab Fleet. During the 30s 
 the fleet fought a number of skirmishes with [[Greater Zhōngguó]] funded privateers and insurrections attempting to 
-take control of Freehabs lithium mines. During both the first and second transit wars Freehab maintained a policy of 
-armed neutrality, and its last significant mobilisation was during the [[First Contact Event]]. As the smallest of the 
-outer system navies it generally prefers to achieve objectives through indirect means such as the Outer Trading League,
-and funding sympathetic organisations such as the Ellulist church and the [[Freeholders]].`,
+take control of Freehabs lithium mines. 
+
+During both the first and second transit wars Freehab maintained a policy of armed neutrality, and its last significant 
+mobilisation was during the [[First Contact Event]]. In 3 BFC Anna retired as CEO and her and Marcus' daughter Polaris 
+Okafor-Reyes was elected as CEO in her place. In 10 AFC Polaris was able to secure a number of significant trade 
+agreements with the Elluist sympathetic [[Fatimid Trade Caliphate]]. As the smallest of the outer system navies, Freehab 
+has always attempted to achieve its political objectives through indirect means such as the Outer Trading League, and 
+funding sympathetic organisations such as the Ellulist church and the [[Freeholders]].`,
         classification: 'Socionomics/Polities'
     }],
     ['Infomatic Conglomerate', {
@@ -1434,6 +1468,13 @@ It fields the largest of the space navies, and draws materiel from a number of s
 Sands Missile Range and the Panopticon Relay.`,
         classification: 'Socionomics/Confederations'
     }],
+    ['Plasmorph', {
+        content:
+`A Plasmorph is a portable device capable of generating a bubble of plasma which can contain a volume of atmosphere
+inside a vacuum. These are manufactured by several corporations as emergency temporary space suits. The technology
+was first developed by [[Freehab~Independent Habitats]] engineer [[Augustine Okafor]].`,
+        classification: 'Praxis/Industrial'
+    }],
     ['QuanLan',{
         content:
 `A Quantum-Entanglement Locality Area Network uses quantum entanglement to provide instantaneous and secure connections
@@ -1469,9 +1510,10 @@ to the increasing capabilities of [[motes~Mote]] and [[Fabricator]] surveillance
 trend accelerated in reaction to later terrorist incidents such as the [[Stillborn Harvest]]. Without the same freedom 
 and black market goods previous generations had enjoyed there was a cultural shift in the astroindigène towards 
 centralisation and an ethos of society wide advancement, and rejecting the culture of hardship, nihilism, and laissez 
-faire approaches to government which were ascribed to previous generations[1]. There was an eventual pushback against 
-this trend, notably from the Ellulists and [[Freehab~Independent Habitats]], however the [[First Contact Event]] renewed 
-many aspects such as the united humanity movement.
+faire approaches to government which were ascribed to previous generations[1]. The [[Deus Machina]] religion which had
+a core tenet of centralisation under synth control grew significantly during this period. There was an eventual pushback 
+against this trend, notably from the Ellulists, the [[Fatimid Trade Caliphate]], and [[Freehab~Independent Habitats]], 
+however the [[First Contact Event]] renewed many aspects such as the united humanity movement.
 
 1. [[Kinships of the Astroindigène]]`,
         classification: 'Socionomics/Events'
