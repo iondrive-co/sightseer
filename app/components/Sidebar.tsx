@@ -16,6 +16,9 @@ export default function Sidebar() {
       <Link to="/exobase/Exobase" className="text-xl underline cursor-pointer">
         Exobase
       </Link>
+      <Link to="/Links" className="text-xl underline cursor-pointer">
+        Links
+      </Link>
       <Link to="/Reviews" className="text-xl underline cursor-pointer">
         Reviews
       </Link>
