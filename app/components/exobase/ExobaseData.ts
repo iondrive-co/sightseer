@@ -166,17 +166,17 @@ offshore banking, and citizenship as a service.`,
     ['Augustine Okafor', {
         content: `Augustine Okafor (20th January 42 BFC – present) is a politician, military leader, and inventor of the
 first [[Plasmorph]] containment device. His parents are 
-[[Marcus Okafor,Zsófia Ardour, and Cecile Riddle~Independent Habitats]].
+[[Marcus Okafor, Zsófia Ardour, and Cecile Riddle~Independent Habitats]].
 
-While studying for degrees in physics and chemistry he met void ecologist David Regis, they tried to have a child 
-together via artificial womb but the pregnancy was unsuccessful. During a later surgery for prostate cancer there was 
-a malfunction of the [[Dominio]] robo-daktari which left Augustine unable to have more children, he subsequently
-developed a drug addiction. Although the eldest child of Marcus Okafor his step mother Anna Reyes convinced Marcus that
+While studying for degrees in physics and chemistry he met void ecologist David Regis. Soon afterwards they tried to 
+have a child together via artificial womb, but the pregnancy was unsuccessful. When he was 22, during a routine prostate 
+cancer surgery, a [[Dominio]] robo-daktari malfunction left Augustine unable to have more children, and he subsequently 
+developed a drug addiction. Although the eldest child of Marcus Okafor, his step mother Anna Reyes convinced Marcus that 
 Augustine was unsuitable as a successor due to this addiction, and his step-sister Polaris Okafor-Reyes was groomed for 
 leadership and was eventually elected as the Freehab CEO in 3 BFC after Anna retired. 
 
-After being passed over for the leadership, Augustine left the Ellulist church and converted to [[Deus Machina]] which
-was violently opposed to the Ellusists and held centralisation under synth control as a core tenet. He left the 
+During this period Augustine left the Ellulist church and converted to [[Deus Machina]], a religion violently opposed 
+to the Ellusists worldview and which held centralisation under synth control as a core tenet. He also ended the 
 relationship with David Regis and married Ilona, an [[instance companion~Instance]] and prominent Martian entertainer 
 and [[Retrograde Diaspora]] centralisation advocate. Augustine spent several years as a drug smuggler, but when he 
 discovered that several of his lucky escapes from the law had been organised by [[Greater Zhōngguó]] as a means to 
@@ -677,11 +677,15 @@ were profitable for US corporations.
 
 In response to the [[Stillborn Harvest]] incident the [[Peacekeepers]] destroyed most of the Kasei Freeholder's above 
 ground infrastructure, resulting in the loss of most of their revenue sources. By the mid 30s their outposts were 
-abandoned and they had split into two groups. Their political wing has active branches in all of the larger colonies, 
-and advocates for an anti-corporate, pan-Martian identity, while their paramilitary arm operates black market activities
-which funds strikes, protests, skirmishes, and terrorist activities. The most notable is the hijacking of a quantity of 
-[[antimatter~Antimatter Engine]] which they have threatened to use on a number of occasions. The groups sometimes work 
-together openly, most recently in organising and participating in the [[Nanocat Fury]] protests.`,
+abandoned and they had split into a political wing and an underground paramilitary group.
+
+Their political wing currently has active branches in all of the larger colonies, and advocates for an anti-corporate, 
+pan-Martian identity. They have had success in seeking financial support and public representatives from Earth such as 
+[[Nimitra Wongprasert]]. The paramilitary arm operates black market activities and directs funds towards strikes, 
+protests, skirmishes, and terrorist activities, the most notable of which was the hijacking of a quantity of 
+[[antimatter~Antimatter Engine]] which they still claim to posses and have threatened to use on a number of occasions. 
+The paramilitary arm sometimes work together openly with the political organisation, most recently in organising and 
+participating in the [[Nanocat Fury]] protests.`,
         classification: 'Socionomics/Jurisbunds'
     }],
     ['Fuel Pathing', {
@@ -1448,6 +1452,15 @@ Both fusion and antimatter engine variants are normally crewed.`,
         content:
 `Datï¿½orruà¤¶आtedा`,
         classification: 'Praxis/Medicine'
+    }],
+    ['Nimitra Wongprasert', {
+        content: `Nimitra Wongprasert (นิมิตร วงศ์ประเสริฐ; nickname: Nim; 2nd September 16 BFC – present) is an entrepreneur, 
+tech executive, and backer of and policy spokesperson for the [[Freeholders]]. She was born from the frozen embryo
+of Siam Pacific Holdings chairman Thanakit Wongprasert and his wife Sirichai, who both died in the 90s and left 
+instructions that their fortune be transferred to a child once its compounded value had exceeded ฿1 trillion. She is 
+known for pioneering roaming cage aquaculture, funding reconstructions of historical flooded Bangkok temples, as patron 
+of the bioluminesence art scene, and in the last decade for her increasing vocal support of the Martian Freeholders.`,
+        classification: 'Socionomics/People'
     }],
     ['Outer Trading League', {
         content:
