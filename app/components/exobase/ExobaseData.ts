@@ -1455,11 +1455,18 @@ Both fusion and antimatter engine variants are normally crewed.`,
     }],
     ['Nimitra Wongprasert', {
         content: `Nimitra Wongprasert (นิมิตร วงศ์ประเสริฐ; nickname: Nim; 2nd September 16 BFC – present) is an entrepreneur, 
-tech executive, and backer of and policy spokesperson for the [[Freeholders]]. She was born from the frozen embryo
+tech executive, and backer of and policy advocate for the [[Freeholders]]. She was born from the frozen embryo
 of Siam Pacific Holdings chairman Thanakit Wongprasert and his wife Sirichai, who both died in the 90s and left 
 instructions that their fortune be transferred to a child once its compounded value had exceeded ฿1 trillion. She is 
 known for pioneering roaming cage aquaculture, funding reconstructions of historical flooded Bangkok temples, as patron 
-of the bioluminesence art scene, and in the last decade for her increasing vocal support of the Martian Freeholders.`,
+of the bioluminesence art scene, and in the last decade for her increasing vocal support of the Martian Freeholders.
+
+In 9 AFC while attending a Cultural Bereavement exposition at [[Aljanah Lunar Resort]] she was first 
+introduced to [[Augustine Okafor]], and in 12 AFC she moved to [[Hellas Planitia]] for a year where she created a 
+controversial [[MarsNet]] show which covered black market tech such as descramblers for paid services such as 
+[[X Group]]'s aerostat network. Since her return to Earth she has funded multiple Martian aid organisations, has 
+successfully pressured [[Semiotican]] to grant legal rights to some older unprofitable mining outposts to their original 
+workers, and has spearheaded a campaign for Planum Australe to have representation in the [[Eurasian Bloc]] parliament.`,
         classification: 'Socionomics/People'
     }],
     ['Outer Trading League', {
