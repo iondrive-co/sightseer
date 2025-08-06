@@ -1461,6 +1461,42 @@ instructions that their fortune be transferred to a child once its compounded va
 known for pioneering roaming cage aquaculture, funding reconstructions of historical flooded Bangkok temples, as patron 
 of the bioluminesence art scene, and in the last decade for her increasing vocal support of the Martian Freeholders.
 
+Nimitra's embryo was conceived and frozen in April 109 BFC. On the form for the procedure Thanakit and Sirichai gave 
+their reason as desiring a child after first focussing on their work. 10 years later Sirichai was killed in the Baiyoke 
+Tower II collapse, and in his record of memories Thanakit says that in his grief he felt unable to raise a child on his
+own despite wanting descendents and influence in the future. In the months after her death he created a smart contract
+with Worawut Legal Futures linking the embryos revival to an indexed fund containing the vast majority of his 
+wealth, which would be unable to be touched by anyone other than his child, other than expenses for the contract and 
+paying for a suitable surrogate. In his memories he appears to move on from this and throw himself into his work and 
+other legacy projects for the next 4 years before his death from a Carbapenem-Resistant Klebsiella infection.
+
+Along with the algorithmic guarantees, management of the contract was held by two competing law firms, Worawut Legal 
+Futures and Siam International, both of whom needed to agree on decisions even where the contract allowed them. In the
+years after Thanakit's death several relatives attempted to claim the inheritance but were unsuccessful. Worawut 
+Legal Futures went bankrupt during the large scale migration out of Bangkok that occurred in the 60s, but Siam 
+International remained a going concern and continued collection the monthly stipend from the contract for the full 78 
+years until, on 20th December 17 BFC, the indexed fund's value surpassed ฿1 trillion. The story had been picked up by 
+a journalist a few months before and there was now a lot of news coverage of Siam International. They appear to have
+dutifully fulfilled the last part of the contract, selecting and readying a surrogate who was implanted on the 17th 
+January, selecting a group of well known teachers and [[synths~Synthetic Intelligence]] to act as guardians, and 
+transferring the contract and money to the child's DNA.
+
+Nimitra was raised in Chang Mai, but at her insistence spent many nights when the temperature was tolerable outside in 
+Bangkok exploring the now flooded districts where her parents had lived. She had a strong inquisitiveness about nature, 
+and was fascinated by Bangkok's developing bioluminescence art scene. Her tutors reported she was a quick learner, was
+especially interested in biology and mechatronics, and built a micro-aquaponic rig and simple biofiltration bot at age 
+9. As a teenager she volunteered as a water taxi driver, and according to her biographers was quite extroverted, at one
+point leading a modular democracy movement proposing the building of floating habitats able to move between local 
+government jurisdictions. She interned at [[BioForge Hivegen]] where she worked on salt tolerant rice.
+
+At 20 Nimitra legally inherited full rights to the trust. She has stated that her father's messages to her did not 
+dictate how the money was to be used other than to create a great legacy for the family. The majority of the money has
+not been spent, and at several points Nimitra has reinvested money from her companies back into the fund. She initially
+used the money both to fund reconstruction efforts in Bangkok such as the Hive Complex and as seed capital for several
+companies and angel investments in many of her friend's companies. Her most successful ventures have been a modular 
+desalination unit and roaming cage aquaculture systems. In 8 AFC she amalgamated her ventures under a new parent 
+company, NakhaTech, and appointed a CEO so that she could concentrate on other interests.
+
 In 9 AFC while attending a Cultural Bereavement exposition at [[Aljanah Lunar Resort]] she was first 
 introduced to [[Augustine Okafor]], and in 12 AFC she moved to [[Hellas Planitia]] for a year where she created a 
 controversial [[MarsNet]] show which covered black market tech such as descramblers for paid services such as 

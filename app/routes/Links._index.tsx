@@ -15,6 +15,13 @@ const links = [
         category: 'Worldbuilding'
     },
     {
+        title: 'Rifts',
+        url: 'https://beta.the-eye.eu/public/Books/rpg.rem.uz/Rifts/',
+        description: 'A role-playing game deriving elements from cyberpunk, science fiction, fantasy, horror, ' +
+            'western, mythology and many other genres',
+        category: 'Worldbuilding'
+    },
+    {
         title: 'Mike Duncan\'s Revolutions',
         url: 'https://podcasts.apple.com/us/podcast/revolutions/id703889772',
         description: 'Season 11: The Martian Revolution',
