@@ -28,6 +28,12 @@ const links = [
         category: 'Worldbuilding'
     },
     {
+        title: 'Paean to SMAC',
+        url: 'https://paeantosmac.wordpress.com/',
+        description: 'Meditations on Sid Meier\'s Alpha Centauri',
+        category: 'Worldbuilding'
+    },
+    {
         title: 'Astral Codex Ten',
         url: 'https://www.astralcodexten.com/archive',
         description: 'Scott Alexander\'s blog about reasoning, science, psychiatry, medicine, ethics, genetics, AI, ' +
@@ -47,22 +53,34 @@ const links = [
         category: 'Trends'
     },
     {
+        title: 'Zeihan on Geopolitics',
+        url: 'https://www.youtube.com/@ZeihanonGeopolitics',
+        description: 'Peter Zeihan\'s take on global energy, demographic and security',
+        category: 'Trends'
+    },
+    {
+        title: 'Future of Humanity Institute',
+        url: 'https://www.futureofhumanityinstitute.org/',
+        description: 'Big-picture questions about humanity and its prospects',
+        category: 'Science and Futurism'
+    },
+    {
+        title: 'Isaac Arthur ',
+        url: 'https://isaacarthur.net/',
+        description: 'Science and Futurism with Isaac Arthur',
+        category: 'Science and Futurism'
+    },
+    {
         title: 'Project Rho',
         url: 'https://projectrho.com/public_html/rocket/',
         description: 'Exploring the technology of the future',
-        category: 'Trends'
+        category: 'Science and Futurism'
     },
     {
         title: 'Vaclav Smil',
         url: 'https://vaclavsmil.com/publications/',
         description: 'Vaclav Smil\'s publications',
-        category: 'Trends'
-    },
-    {
-        title: 'Zeihan on Geopolitics',
-        url: 'https://www.youtube.com/@ZeihanonGeopolitics',
-        description: 'Peter Zeihan\'s take on global energy, demographic and security',
-        category: 'Trends'
+        category: 'Science and Futurism'
     },
 ];
 

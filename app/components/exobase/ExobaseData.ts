@@ -1466,7 +1466,7 @@ Thanakit and Sirichai gave their reason as desiring a child after first focussin
 was killed in the Baiyoke Tower II collapse, and in his record of memories Thanakit says that in his grief he no longer 
 felt able to raise a child despite wanting descendents and influence in the future. In the months after her death he 
 created a smart contract with Worawut Legal Futures linking the reinitiation of an embryo to an indexed fund containing 
-the vast majority of his  wealth, which other than expenses for the contract and paying for a suitable surrogate would 
+the vast majority of his  wealth, which other than expenses for the contract management and child raising would 
 be unable to be touched by anyone other than his child. In his memories he appears to move on from this and throw 
 himself into his work and other legacy projects for the next 4 years before his death from a Carbapenem-Resistant 
 Klebsiella infection on March 30th, 95 BFC.
@@ -1483,22 +1483,23 @@ growth in an artificial womb, selecting a group of well known teachers and [[syn
 guardians, and transferring the contract and money to the child's DNA.
 
 Nimitra was born and raised in Chang Mai, but at her insistence spent many nights when the temperature was tolerable 
-outside in Bangkok exploring the now flooded districts where her parents had lived. According to her biographers from an e
-arly age she had a strong inquisitiveness about nature, and was especially fascinated by Bangkok's developing 
+outside in Bangkok exploring the now flooded districts where her parents had lived. According to her biographer, from an 
+early age she had a strong inquisitiveness about nature and was especially fascinated by Bangkok's developing 
 bioluminescence art scene. Her tutors reported she was a quick learner, was especially interested in biology and 
 mechatronics, and built a micro-aquaponic rig and simple biofiltration bot at age 9. As a teenager she was quite 
 extroverted, volunteering as a water taxi tour guide and leading a modular democracy movement proposing the building of 
-floating habitats able to move between local government jurisdictions. She interned at [[BioForge Hivegen]] where she 
-worked on salt tolerant rice.
+floating habitats able to move between local government jurisdictions. She interned at [[BioForge Hivegen]] for 6 
+months, where she worked on a new strain of salt tolerant rice.
 
 At 20 Nimitra legally inherited full rights to the trust. She has stated that her father's messages to her did not 
-dictate how the money was to be used other than to create a great legacy for the family. The majority of the money has
-not been spent, and at several points Nimitra has reinvested money from her companies back into the fund. She initially
-used the money both to fund reconstruction efforts in Bangkok such as the Hive Complex and as seed capital for several
-companies and angel investments in many of her friend's companies. Her most successful ventures have been a modular 
-desalination unit and roaming cage aquaculture systems. In 8 AFC she amalgamated her ventures under a new parent 
-company, NakhaTech, and appointed a CEO so that she could concentrate on other interests. She had been funding a larger 
-reconstruction of the Wat Pho temple, and hosted several events there as it neared completion.
+dictate how the money was to be used, other than to create a great legacy for the family. The majority of the money has
+currently not been spent, and at several points Nimitra has reinvested money from her companies back into the fund. She 
+initially used the money both to fund reconstruction efforts in Bangkok such as the Hive Complex, and as seed capital 
+for new companies as well as angel investments in many of her friend's companies. Her most successful ventures have been 
+a modular desalination unit and roaming cage aquaculture systems. In 8 AFC she amalgamated her ventures under a new 
+parent company, NakhaTech, and appointed a CEO so that she could concentrate on other interests. She had been funding a 
+larger reconstruction of the Wat Pho temple, and subsequently hosted several night events in the grounds as it neared 
+completion.
 
 In 9 AFC while attending a Cultural Bereavement exposition at [[Aljanah Lunar Resort]] she was first 
 introduced to [[Augustine Okafor]], and in 12 AFC she moved to [[Hellas Planitia]] for a year where she created a 
