@@ -28,15 +28,40 @@ const links = [
         category: 'Worldbuilding'
     },
     {
-        title: 'Project Rho',
-        url: 'https://projectrho.com/public_html/rocket/',
-        description: 'Exploring the technology of the future',
-        category: 'Futurism'
+        title: 'Astral Codex Ten',
+        url: 'https://www.astralcodexten.com/archive',
+        description: 'Scott Alexander\'s blog about reasoning, science, psychiatry, medicine, ethics, genetics, AI, ' +
+            'economics and politics',
+        category: 'Trends'
+    },
+    {
+        title: 'Metaculus',
+        url: 'https://www.metaculus.com/',
+        description: 'Forecasting for a complex world',
+        category: 'Trends'
     },
     {
         title: 'The Orbital Index',
         url: 'https://orbitalindex.com/',
         description: 'Weekly space news',
+        category: 'Trends'
+    },
+    {
+        title: 'Project Rho',
+        url: 'https://projectrho.com/public_html/rocket/',
+        description: 'Exploring the technology of the future',
+        category: 'Trends'
+    },
+    {
+        title: 'Vaclav Smil',
+        url: 'https://vaclavsmil.com/publications/',
+        description: 'Vaclav Smil\'s publications',
+        category: 'Trends'
+    },
+    {
+        title: 'Zeihan on Geopolitics',
+        url: 'https://www.youtube.com/@ZeihanonGeopolitics',
+        description: 'Peter Zeihan\'s take on global energy, demographic and security',
         category: 'Trends'
     },
 ];
@@ -53,7 +78,7 @@ export default function LinksRoute() {
     return (
         <div className="app">
             <Sidebar />
-            <main className="main-content">
+            <main className="main-content overflow-y-auto">
                 <div className="space-y-8 max-w-2xl">
                     {Object.entries(groupedLinks).map(([category, categoryLinks]) => (
                         <div key={category}>
