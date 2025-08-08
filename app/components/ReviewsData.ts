@@ -30,6 +30,16 @@ export const sciFiMoviesData: Movie[] = [
         c: 7,
     },
     {
+        title: "Abyss, The (Directors Cut)",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/a/ad/TheAbyss.jpg",
+        summary: `Cameron’s deeply technical and atmospheric classic has a somewhat odd storyline which needs to be
+         watched with the director's cut ending to make any sense`,
+        e: 8,
+        a: 9,
+        n: 3,
+        c: 7,
+    },
+    {
         title: "Alien",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/c/c3/Alien_movie_poster.jpg",
         summary: `Ridley Scott's slow-burning, atmospheric filmmaking melds a first-rate screenplay, Giger's art, and
