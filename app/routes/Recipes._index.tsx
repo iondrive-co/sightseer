@@ -17,6 +17,71 @@ interface Recipe {
 
 const recipes: Recipe[] = [
     {
+        id: 'beef-stroganoff',
+        title: 'Beef Stroganoff',
+        category: 'Main',
+        description: 'My simplified version',
+        prepTime: '5 minutes',
+        cookTime: '30 minutes',
+        servings: 2,
+        ingredients: [
+            '500g stir fry beef strips',
+            '1 small onion, chopped',
+            'Can of champignons',
+            '2 tablespoons sour cream',
+            'Beef stock',
+            '1 teaspoon salt',
+            '1 teaspoon paprika',
+            '1 teaspoon onion powder',
+        ],
+        instructions: [
+            'Mix onions, beef, and seasoning ingredients',
+            'Fry until beef browns',
+            'Add champignons and stock',
+            'Once reduced, turn off heat and stir in cream',
+        ],
+    },
+    {
+        id: 'cucumber-slices',
+        title: 'Cucumber Slices',
+        category: 'Sides',
+        description: 'Goes well with Miso Salmon',
+        prepTime: 'Overnight',
+        cookTime: 'None',
+        servings: 8,
+        ingredients: [
+            '2 lebanese cucumber',
+            '3 tablespoons rice wine vinegar',
+            '1 teaspoon sesame oil',
+        ],
+        instructions: [
+            'Peel and thinly slice cucumber',
+            'Put in jar and mix with with rice wine vinegar and sesame oil',
+            'Leave in fridge overnight',
+        ],
+    },
+    {
+        id: 'mediterranean-salad',
+        title: 'Mediterranean Salad',
+        category: 'Sides',
+        description: 'Goes well with the Moussaka',
+        prepTime: '5 minutes',
+        cookTime: '5 minutes',
+        servings: 4,
+        ingredients: [
+            '300g mixed baby salad leaves',
+            '100g black sliced olives',
+            '200g broken feta',
+            '100g sun-dried tomato, sliced',
+            '100g halloumi',
+            '100g anchovies',
+        ],
+        instructions: [
+            'Fry halloumi and anchovies for 5 minutes',
+            'Mix with remaining ingredients',
+        ],
+    },
+    {
         id: 'miso-salmon',
         title: 'Miso Salmon',
         category: 'Main',
@@ -173,6 +238,35 @@ const recipes: Recipe[] = [
         ],
         notes: 'For the meat based version low fat grass fed beef mince works best, or another vegetarian ' +
             'alternative is to substitute 2 cups of lentils for the mince'
+    },
+    {
+        id: 'vegetarian-tacos',
+        title: 'Vegetarian Tacos',
+        category: 'Main',
+        description: 'As easy as it gets',
+        prepTime: '10 minutes',
+        cookTime: '15 minutes',
+        servings: 3,
+        ingredients: [
+            '1 corn cob, stripped',
+            '1 carrot, grated',
+            '5 mushrooms, chopped',
+            '1 small zucchini, chopped',
+            '1 tomato, chopped' +
+            '12 taco shells + seasoning',
+            '1/2 avocado, chopped',
+            '1 can black beans',
+            '1 can refried beans',
+            'Mozzarella',
+            'Sour Cream',
+            'Oil for frying',
+        ],
+        instructions: [
+            'Heat tacos in oven',
+            'Mix avocado, cream, and mozzarella to make a topping',
+            'Fry other ingredients',
+            'Add to tacos, then add topping',
+        ],
     },
 ];
 
