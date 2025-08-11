@@ -163,6 +163,16 @@ export const sciFiMoviesData: Movie[] = [
         c: 6,
     },
     {
+        title: "City of Ember",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/1/18/City_of_ember.jpg",
+        summary: `Slightly satirical sci-fi movie for older kids, nicely designed`,
+        e: 7,
+        a: 7,
+        n: 6,
+        c: 7,
+    },
+
+    {
         title: "Contact",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/7/75/Contact_ver2.jpg",
         summary: `A satisfying adaptation of Carl Sagan's novel which digs into the implications of first contact on 
