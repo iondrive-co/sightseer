@@ -164,25 +164,31 @@ offshore banking, and citizenship as a service.`,
         classification: 'Socionomics/Polities'
     }],
     ['Augustine Okafor', {
-        content: `Augustine Okafor (20th January 42 BFC – present) is a politician, military leader, and inventor of the
-first [[Plasmorph]] containment device. His parents are 
-[[Marcus Okafor, Zsófia Ardour, and Cecile Riddle~Independent Habitats]].
+        content: `Augustine Okafor (20th January 42 BFC – present) is a politician and the inventor of the first 
+[[Plasmorph]] containment device. His parents are [[Marcus Okafor, Zsófia Ardour, and Cecile Riddle~Independent Habitats]].
 
-While studying for degrees in physics and chemistry he met void ecologist David Regis. Soon afterwards they tried to 
-have a child together via artificial womb, but the pregnancy was unsuccessful. When he was 22, during a routine prostate 
-cancer surgery, a [[Dominio]] robo-daktari malfunction left Augustine unable to have more children, and he subsequently 
-developed a drug addiction. Although the eldest child of Marcus Okafor, his step mother Anna Reyes convinced Marcus that 
-Augustine was unsuitable as a successor due to this addiction, and his step-sister Polaris Okafor-Reyes was groomed for 
-leadership and was eventually elected as the Freehab CEO in 3 BFC after Anna retired. 
+Augustine was a child prodigy who developed an entirely new branch of supconduction theory while studying for degrees 
+in physics and chemistry at age 17. He founded startup Helitae to commercialise small scale plasma containment, Helitae
+developed the first prototypes of a Plasmorph device but was unable to raise enough funding for the power systems and
+was later bought out by the [[X Group]]. In 22 BFC Augustine met void ecologist David Regis, and soon afterwards 
+they tried to have a child together via artificial womb, but the pregnancy was unsuccessful. 
 
-During this period Augustine left the Ellulist church and converted to [[Deus Machina]], a religion violently opposed 
+When he was 22, during a routine prostate cancer surgery, a [[Dominio]] robo-daktari malfunction left Augustine unable 
+to have more children, and he subsequently developed a drug addiction. During this time he developed an interest in 
+Q-picking and was reportedly active on several ancilla qubit forums, and it is speculated he was successfully extracting
+a significant income from his hacking for several years. Although the eldest child of Marcus Okafor, his step mother 
+Anna Reyes convinced Marcus that Augustine was unsuitable as a successor due to his drug addiction, and his step-sister 
+Polaris Okafor-Reyes was groomed for leadership and was eventually elected as the Freehab CEO in 3 BFC after Anna retired. 
+
+At age 25 Augustine left the Ellulist church and converted to [[Deus Machina]], a religion violently opposed 
 to the Ellusists worldview and which held centralisation under synth control as a core tenet. He also ended the 
-relationship with David Regis and married Ilona, an [[instance companion~Instance]] and prominent Martian entertainer 
-and [[Retrograde Diaspora]] centralisation advocate. Augustine spent several years as a drug smuggler, but when he 
-discovered that several of his lucky escapes from the law had been organised by [[Greater Zhōngguó]] as a means to 
-increase drug use and thus weaken Freehab he quit and underwent psychosurgery to cure his drug addiction.
+relationship with David Regis and the next year married Ilona, an [[instance companion~Instance]] and prominent Martian 
+entertainer and [[Retrograde Diaspora]] centralisation advocate. Augustine likely spent then next five years working in
+black market activities such as drug smuggling, but when he discovered that several of his lucky escapes had been 
+organised by [[Greater Zhōngguó]] as a means to increase drug use and thus weaken Freehab he quit and underwent 
+psychosurgery to cure his drug addiction.
 
-Through Ilona he developed political connections on Mars, and eventually took over the leadership of the 
+Through Ilona he developed connections on Mars, and eventually took over the leadership of the political wing of the
 [[Freeholders]]. In response to Freehab developing a trading relationship with the [[Fatimid Trade Caliphate]], and well 
 as his Deus Machina faith which was more palatable to the more centralisation focussed Sunni Muslims, he was able to 
 obtain diplomatic recognition for the Freeholders from the Caliphate's rival [[Türkiye]]. On the 2nd May, 14 AFC, Anna 
