@@ -17,6 +17,37 @@ interface Recipe {
 
 const recipes: Recipe[] = [
     {
+        id: 'beef-strip-tacos',
+        title: 'Beef Strip Tacos',
+        category: 'Main',
+        description: 'If you don\'t like beans they can be replaced by chopped garlic, hard tofu, and soy sauce to make this an asian fusion dish',
+        prepTime: '15 minutes',
+        cookTime: '25 minutes',
+        servings: 2,
+        ingredients: [
+            '500g grass fed stir fry beef strips',
+            '1 tin black beans',
+            '1 Old El Paso™ Stand \'N Stuff™ Taco Kit (10 hard shell tacos, spice mix, tomato salsa)',
+            '1 carrot',
+            '1/2 block haloumi',
+            '1/2 cup grated cheese',
+            '1/2 cup shredded lettuce',
+            'Pinch of paprika and onion powder',
+            '100g sour cream',
+        ],
+        instructions: [
+            'Fry beef with onion powder and paprika (replace paprika with garlic if doing asian fusion)',
+            'Chop carrot finely and add it to the frying beef',
+            'Preheat oven to 180°C',
+            'Chop and add haloumi to the frying beef',
+            'Add spice mix and beans (replace beans with tofu if doing asian fusion)',
+            'Turn off heat and stir through the tomato salsa (replace with soy sauce if doing asian fusion)',
+            'Add to oven and cover with grated cheese',
+            'Cook for 10 minutes, adding in the taco shells in the last minute to warm them',
+            'Serve in the taco shells topped by sour cream and shredded lettuce',
+        ],
+    },
+    {
         id: 'beef-stroganoff',
         title: 'Beef Stroganoff',
         category: 'Main',
@@ -196,6 +227,29 @@ const recipes: Recipe[] = [
             'Cook for around 3 minutes per side',
         ],
         notes: 'As an alternative mix, replace the kimchi with honey and vanilla extract for sweet crepes'
+    },
+    {
+        id: 'vegan-matcha-and-flaxseed-spread',
+        title: 'Vegan Matcha and Flaxseed Spread',
+        category: 'Sides',
+        description: 'Savoury spread for crackers, can be sweetened for a dessert topping',
+        prepTime: '20 minutes',
+        cookTime: 'Overnight',
+        servings: 10-20,
+        ingredients: [
+            '2 tablespoons matcha powder',
+            '2 cups flaxseed',
+            '1 1/2 cups barista oat milk',
+            '3 tablespoons red bean paste (optional, to sweeten)',
+            '3 tablespoons honey (optional, to sweeten)',
+        ],
+        instructions: [
+            'Bring milk to boil and stir through matcha',
+            'Stir through flaxseed, then pour into a container and refrigerate until cool',
+            'Once cool, add honey and/or red bean paste if you want to sweeten it',
+            'Whisk until porridge like',
+            'Leave in fridge until it hardens into a spread',
+        ],
     },
     {
         id: 'vegan-stuffed-eggplant',
