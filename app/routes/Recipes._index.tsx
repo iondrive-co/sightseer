@@ -5,6 +5,7 @@ import '~/styles/tailwind.css';
 interface Recipe {
     id: string;
     title: string;
+    type?: 'VG' | 'VT' | 'MO' | Array<'VG' | 'VT' | 'MO'>;
     category: string;
     description: string;
     prepTime: string;
@@ -16,37 +17,6 @@ interface Recipe {
 }
 
 const recipes: Recipe[] = [
-    {
-        id: 'beef-strip-tacos',
-        title: 'Beef Strip Tacos',
-        category: 'Main',
-        description: 'If you don\'t like beans they can be replaced by chopped garlic, hard tofu, and soy sauce to make this an asian fusion dish',
-        prepTime: '15 minutes',
-        cookTime: '25 minutes',
-        servings: 2,
-        ingredients: [
-            '500g grass fed stir fry beef strips',
-            '1 tin black beans',
-            '1 Old El Paso™ Stand \'N Stuff™ Taco Kit (10 hard shell tacos, spice mix, tomato salsa)',
-            '1 carrot',
-            '1/2 block haloumi',
-            '1/2 cup grated cheese',
-            '1/2 cup shredded lettuce',
-            'Pinch of paprika and onion powder',
-            '100g sour cream',
-        ],
-        instructions: [
-            'Fry beef with onion powder and paprika (replace paprika with garlic if doing asian fusion)',
-            'Chop carrot finely and add it to the frying beef',
-            'Preheat oven to 180°C',
-            'Chop and add haloumi to the frying beef',
-            'Add spice mix and beans (replace beans with tofu if doing asian fusion)',
-            'Turn off heat and stir through the tomato salsa (replace with soy sauce if doing asian fusion)',
-            'Add to oven and cover with grated cheese',
-            'Cook for 10 minutes, adding in the taco shells in the last minute to warm them',
-            'Serve in the taco shells topped by sour cream and shredded lettuce',
-        ],
-    },
     {
         id: 'beef-stroganoff',
         title: 'Beef Stroganoff',
@@ -74,6 +44,7 @@ const recipes: Recipe[] = [
     },
     {
         id: 'banana-and-coconut-cookies',
+        type: 'VG',
         title: 'Banana and Coconut Cookies',
         category: 'Dessert',
         description: 'Good use for slightly old bananas',
@@ -94,6 +65,7 @@ const recipes: Recipe[] = [
     },
     {
         id: 'bread-and-butter-pudding',
+        type: 'VT',
         title: 'Bread and Butter Pudding',
         category: 'Dessert',
         description: 'Good use for slightly old bread',
@@ -114,7 +86,32 @@ const recipes: Recipe[] = [
         ],
     },
     {
+        id: 'crepes',
+        type: 'VG',
+        title: 'Crepes',
+        category: 'Sides',
+        description: 'Crepes made with tofu and oats rather than eggs, savoury but can be made sweet instead',
+        prepTime: '10 minutes',
+        cookTime: '10 minutes',
+        servings: 2,
+        ingredients: [
+            '300g silken tofu',
+            '2 cups rolled oats',
+            '1/3 cup barista oat milk',
+            '1/2 cup kimchi',
+            'Cooking oil e.g. macadamia nut',
+        ],
+        instructions: [
+            'Blend ingredients (other than oil) on low for a short time until there are no more whole oats',
+            'Heat oil in large flat frying pan',
+            'Pour batter as thinly as possible onto a pan (if you need multiple batches blend waiting mix with more oat milk to stop it from thickening)',
+            'Cook for around 3 minutes per side',
+        ],
+        notes: 'As an alternative mix, replace the kimchi with honey and vanilla extract for sweet crepes'
+    },
+    {
         id: 'cucumber-slices',
+        type: 'VG',
         title: 'Cucumber Slices',
         category: 'Sides',
         description: 'Goes well with Miso Salmon',
@@ -158,6 +155,7 @@ const recipes: Recipe[] = [
     },
     {
         id: 'mediterranean-salad',
+        type: 'VT',
         title: 'Mediterranean Salad',
         category: 'Sides',
         description: 'Goes well with the Moussaka',
@@ -206,36 +204,14 @@ const recipes: Recipe[] = [
         ],
     },
     {
-        id: 'vegan-crepes',
-        title: 'Vegan Crepes',
-        category: 'Sides',
-        description: 'Crepes made with tofu and oats rather than eggs, savoury but can be made sweet instead',
-        prepTime: '10 minutes',
-        cookTime: '10 minutes',
-        servings: 2,
-        ingredients: [
-            '300g silken tofu',
-            '2 cups rolled oats',
-            '1/3 cup barista oat milk',
-            '1/2 cup kimchi',
-            'Cooking oil e.g. macadamia nut',
-        ],
-        instructions: [
-            'Blend ingredients (other than oil) on low for a short time until there are no more whole oats',
-            'Heat oil in large flat frying pan',
-            'Pour batter as thinly as possible onto a pan (if you need multiple batches blend waiting mix with more oat milk to stop it from thickening)',
-            'Cook for around 3 minutes per side',
-        ],
-        notes: 'As an alternative mix, replace the kimchi with honey and vanilla extract for sweet crepes'
-    },
-    {
-        id: 'vegan-matcha-and-flaxseed-spread',
-        title: 'Vegan Matcha and Flaxseed Spread',
+        id: 'matcha-and-flaxseed-spread',
+        type: 'VG',
+        title: 'Matcha and Flaxseed Spread',
         category: 'Sides',
         description: 'Savoury spread for crackers, can be sweetened for a dessert topping',
         prepTime: '20 minutes',
         cookTime: 'Overnight',
-        servings: 10-20,
+        servings: 10,
         ingredients: [
             '2 tablespoons matcha powder',
             '2 cups flaxseed',
@@ -252,35 +228,9 @@ const recipes: Recipe[] = [
         ],
     },
     {
-        id: 'vegan-stuffed-eggplant',
-        title: 'Vegan Stuffed Eggplant',
-        category: 'Main',
-        description: 'Makes 4 sides or 2 mains',
-        prepTime: '20 minutes',
-        cookTime: '25 minutes',
-        servings: 2,
-        ingredients: [
-            '2 large eggplants',
-            '500g impossible mince',
-            '1 zucchini',
-            'Pinch of cumin, paprika, onion powder, and salt',
-            'Olive oil and brush',
-        ],
-        instructions: [
-            'Slice the eggplant length-ways',
-            'Scoop out the flesh. Chop and set aside',
-            'Mix olive oil with onion powder and salt, and brush outside of eggplants',
-            'Mix eggplant flesh with cumin and paprika',
-            'Put eggplant shells into oven at 180°C',
-            'Start frying impossible mince with onion powder',
-            'Dice the zucchini',
-            'Add the eggplant flesh mix to the pan, followed by the zucchini',
-            'Add the mix to the cooking shells, and cook for another 15 minutes',
-        ],
-    },
-    {
-        id: 'vegan-moussaka',
-        title: 'Vegan Moussaka',
+        id: 'moussaka',
+        type: 'VG',
+        title: 'Moussaka',
         category: 'Main',
         description: 'Simple version of the modern Greek moussaka with lentils instead of beef',
         prepTime: '30 minutes',
@@ -315,8 +265,9 @@ const recipes: Recipe[] = [
         ],
     },
     {
-        id: 'vegan-nut-slice',
-        title: 'Vegan Nut Slice',
+        id: 'nut-slice',
+        type: 'VG',
+        title: 'Nut Slice',
         category: 'Dessert',
         description: 'Subtly sweet flour-less vegan dessert',
         prepTime: '20 minutes',
@@ -343,8 +294,9 @@ const recipes: Recipe[] = [
         notes: 'Best served with a plant based cream. It is quite cakey when warm but solidifies into a slice in fridge, either is nice.'
     },
     {
-        id: 'vegetarian-shepherds-pie',
-        title: 'Vegetarian Shepherd\'s Pie',
+        id: 'shepherds-pie',
+        type: ['VT', 'MO'],
+        title: 'Shepherd\'s Pie',
         category: 'Main',
         description: 'Cooked plant based mince meat (or lentils) topped with mashed potato',
         prepTime: '45 minutes',
@@ -386,8 +338,68 @@ const recipes: Recipe[] = [
             'alternative is to substitute 2 cups of lentils for the mince'
     },
     {
-        id: 'vegetarian-tacos',
-        title: 'Vegetarian Tacos',
+        id: 'stir-fry-tacos',
+        title: 'Stir Fry Tacos',
+        category: 'Main',
+        description: 'If you don\'t like beans they can be replaced by chopped garlic, hard tofu, and soy sauce to make this an asian fusion dish',
+        prepTime: '15 minutes',
+        cookTime: '25 minutes',
+        servings: 2,
+        ingredients: [
+            '500g grass fed stir fry beef strips',
+            '1 tin black beans',
+            '1 Old El Paso™ Stand \'N Stuff™ Taco Kit (10 hard shell tacos, spice mix, tomato salsa)',
+            '1 carrot',
+            '1/2 block haloumi',
+            '1/2 cup grated cheese',
+            '1/2 cup shredded lettuce',
+            'Pinch of paprika and onion powder',
+            '100g sour cream',
+        ],
+        instructions: [
+            'Fry beef with onion powder and paprika (replace paprika with garlic if doing asian fusion)',
+            'Chop carrot finely and add it to the frying beef',
+            'Preheat oven to 180°C',
+            'Chop and add haloumi to the frying beef',
+            'Add spice mix and beans (replace beans with tofu if doing asian fusion)',
+            'Turn off heat and stir through the tomato salsa (replace with soy sauce if doing asian fusion)',
+            'Add to oven and cover with grated cheese',
+            'Cook for 10 minutes, adding in the taco shells in the last minute to warm them',
+            'Serve in the taco shells topped by sour cream and shredded lettuce',
+        ],
+    },
+    {
+        id: 'stuffed-eggplant',
+        type: 'VG',
+        title: 'Stuffed Eggplant',
+        category: 'Main',
+        description: 'Makes 4 sides or 2 mains',
+        prepTime: '20 minutes',
+        cookTime: '25 minutes',
+        servings: 2,
+        ingredients: [
+            '2 large eggplants',
+            '500g impossible mince',
+            '1 zucchini',
+            'Pinch of cumin, paprika, onion powder, and salt',
+            'Olive oil and brush',
+        ],
+        instructions: [
+            'Slice the eggplant length-ways',
+            'Scoop out the flesh. Chop and set aside',
+            'Mix olive oil with onion powder and salt, and brush outside of eggplants',
+            'Mix eggplant flesh with cumin and paprika',
+            'Put eggplant shells into oven at 180°C',
+            'Start frying impossible mince with onion powder',
+            'Dice the zucchini',
+            'Add the eggplant flesh mix to the pan, followed by the zucchini',
+            'Add the mix to the cooking shells, and cook for another 15 minutes',
+        ],
+    },
+    {
+        id: 'tacos',
+        type: 'VT',
+        title: 'Tacos',
         category: 'Main',
         description: 'As easy as it gets',
         prepTime: '10 minutes',
@@ -438,6 +450,21 @@ export default function RecipesRoute() {
                                 <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-2">
                                     Recipes
                                 </h1>
+
+                                <div className="flex flex-wrap items-center gap-3 text-sm text-gray-700 dark:text-gray-300 mt-2" role="note" aria-label="Recipe legend">
+                                    <span className="inline-flex items-center gap-2">
+                                        <span className="inline-flex items-center justify-center border rounded px-2 py-0.5 text-xs font-semibold">VG</span>
+                                        <span>Vegan</span>
+                                    </span>
+                                    <span className="inline-flex items-center gap-2">
+                                        <span className="inline-flex items-center justify-center border rounded px-2 py-0.5 text-xs font-semibold">VT</span>
+                                        <span>Vegetarian</span>
+                                    </span>
+                                    <span className="inline-flex items-center gap-2">
+                                        <span className="inline-flex items-center justify-center border rounded px-2 py-0.5 text-xs font-semibold">MO</span>
+                                        <span>Meat option</span>
+                                    </span>
+                                </div>
                             </div>
 
                             {Object.entries(groupedRecipes).map(([category, categoryRecipes]) => (
@@ -453,7 +480,11 @@ export default function RecipesRoute() {
                                                 onClick={() => setSelectedRecipe(recipe)}
                                             >
                                                 <h3 className="text-lg font-semibold mb-2 text-blue-600 dark:text-blue-400">
-                                                    {recipe.title}
+                                                    {(Array.isArray(recipe.type) ? recipe.type : (recipe.type ? [recipe.type] : [])).map((t) => (
+                                                        <span key={t} className="inline-flex items-center justify-center rounded px-2 py-0.5 text-xs font-semibold mr-2 border border-emerald-500 bg-emerald-500/10 text-emerald-700 dark:border-emerald-400 dark:bg-emerald-400/20 dark:text-emerald-200">
+                                                            {t}
+                                                        </span>
+                                                    ))}{recipe.title}
                                                 </h3>
                                                 <p className="text-gray-600 dark:text-gray-300 text-sm mb-2">
                                                     {recipe.description}
@@ -480,7 +511,11 @@ export default function RecipesRoute() {
 
                             <div>
                                 <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3">
-                                    {selectedRecipe.title}
+                                    {(Array.isArray(selectedRecipe.type) ? selectedRecipe.type : (selectedRecipe.type ? [selectedRecipe.type] : [])).map((t) => (
+                                        <span key={t} className="inline-flex items-center justify-center rounded px-2 py-0.5 text-sm font-semibold mr-3 align-middle border border-emerald-500 bg-emerald-500/10 text-emerald-700 dark:border-emerald-400 dark:bg-emerald-400/20 dark:text-emerald-200">
+                                            {t}
+                                        </span>
+                                    ))}{selectedRecipe.title}
                                 </h1>
                                 <p className="text-gray-600 dark:text-gray-400 mb-4">
                                     {selectedRecipe.description}
