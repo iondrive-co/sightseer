@@ -160,7 +160,30 @@ cost on their members. Corporations manage their own defense or pay for private 
 to protect assets. Its economy is primarily based around low cost cash crops, mining, and livestock products, as 
 well as areas where its laissez-faire economy combined with its perceived safety compared to the 
 [[Mazatlán Zona Franca]] gives it a comparative advantage, such as medical tourism, generic drug production, biotech, 
-offshore banking, and citizenship as a service.`,
+offshore banking, and citizenship as a service.
+
+The foundations of the Mancomunidad lie in the hyperinflationary periods historically experienced by Argentinia,
+which slowly drove the adoption of parallel economic and payment structures and aid societies, which then led to
+downstream changes such as the development of local arbitration networks. In 153 BFC Mendoza, San Juan, and Santa Fe 
+stopped remitting tax revenues to Buenos Aires as part of a dispute about revenue distribution, which led to a 
+forced sale of state and some simple to maintain military assets to wealthy individuals and some local cooperatives. 
+This led to a runaway collapse of various state services, with the final transformation occurring in 151 BFC with the 
+last provincial governments ceasing to function, with some of their functions taken over by subscription-based service 
+providers. International recognition came slowly, with the territory maintaining UN observer status through a rotating 
+council of the largest defense agencies.
+
+The Mancomunidad operates through overlapping networks of voluntary associations, with most residents maintaining 
+memberships in 3-5 different protection agencies (APPs) and dispute resolution organizations (ORCs) that provide 
+bundled services. The territorial defense system evolved from the inherited Argentine military assets, particularly the 
+Cóndor IV missile systems and three nuclear devices maintained under a multilateral command structure requiring 
+consensus from at least seven major APPs to activate. Day-to-day governance occurs through "barrio contracts" - 
+neighborhood-level agreements that specify simple matters like noise ordinances and infrastructure maintenance, enforced 
+by whichever APP holds the majority subscription in that area. The largest agencies like Grupo Tigre and 
+Confederación Gaucha have developed stable jurisdictional agreements to prevent conflicts, while smaller agencies 
+typically specialize in specific services or communities. The most commonly used currency is the peso-cripto (a basket 
+of algorithmic stablecoins) for everyday transactions, and smart contracts tied to property registrations and business 
+licenses are the most common way to pay for membership contracts which help reduce free-riding while maintaining the 
+voluntary nature of the system`,
         classification: 'Socionomics/Polities'
     }],
     ['Augustine Okafor', {
