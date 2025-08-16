@@ -183,7 +183,7 @@ export const sciFiMoviesData: Movie[] = [
         c: 8,
     },
     {
-        title: "Contaigon",
+        title: "Contagion",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/8/86/Contagion_Poster.jpg",
         summary: `Tense disaster movie which was prescient in predicting rapid vaccine development, however it would 
         have been a better movie if some of the characters and subplots were cut`,
@@ -221,6 +221,15 @@ export const sciFiMoviesData: Movie[] = [
         a: 7,
         n: 10,
         c: 8,
+    },
+    {
+        title: "Downsizing",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/a/a8/Downsizing.png",
+        summary: `Good high concept which wears a little thin but it remains light hearted and watchable throughout`,
+        e: 7,
+        a: 6,
+        n: 7,
+        c: 7,
     },
     {
         title: "Dune (2021)",
@@ -322,6 +331,16 @@ export const sciFiMoviesData: Movie[] = [
         a: 7,
         n: 7,
         c: 9,
+    },
+    {
+        title: "Hunger Games, The",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",
+        summary: `Like Harry Potter this is a young adult blockbuster which ends up being less dark than its book, but 
+        in this case with better acting and a bit of muted social criticism`,
+        e: 6,
+        a: 7,
+        n: 6,
+        c: 8,
     },
     {
         title: "Inception",
