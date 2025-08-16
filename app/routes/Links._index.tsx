@@ -9,9 +9,21 @@ const links = [
         category: 'Worldbuilding'
     },
     {
+        title: 'Mike Duncan\'s Revolutions',
+        url: 'https://podcasts.apple.com/us/podcast/revolutions/id703889772',
+        description: 'Season 11: The Martian Revolution',
+        category: 'Worldbuilding'
+    },
+    {
         title: 'Necromunda',
         url: 'https://board-game-rules.com/wp-content/uploads/2025/01/necromunda_Official-Rules.pdf',
         description: 'Skirmish tabletop war game set in the dystopian underhive of massive industrial cities',
+        category: 'Worldbuilding'
+    },
+    {
+        title: 'Paean to SMAC',
+        url: 'https://paeantosmac.wordpress.com/',
+        description: 'Meditations on Sid Meier\'s Alpha Centauri',
         category: 'Worldbuilding'
     },
     {
@@ -21,18 +33,7 @@ const links = [
             'western, mythology and many other genres',
         category: 'Worldbuilding'
     },
-    {
-        title: 'Mike Duncan\'s Revolutions',
-        url: 'https://podcasts.apple.com/us/podcast/revolutions/id703889772',
-        description: 'Season 11: The Martian Revolution',
-        category: 'Worldbuilding'
-    },
-    {
-        title: 'Paean to SMAC',
-        url: 'https://paeantosmac.wordpress.com/',
-        description: 'Meditations on Sid Meier\'s Alpha Centauri',
-        category: 'Worldbuilding'
-    },
+
     {
         title: 'Astral Codex Ten',
         url: 'https://www.astralcodexten.com/archive',
@@ -81,6 +82,18 @@ const links = [
         url: 'https://vaclavsmil.com/publications/',
         description: 'Vaclav Smil\'s publications',
         category: 'Science and Futurism'
+    },
+    {
+        title: 'A Collection of Unmitigated Pedantry',
+        url: 'https://acoup.blog/',
+        description: 'History, logistics, and pop culture',
+        category: 'History'
+    },
+    {
+        title: 'Fall of Civilizations Podcast',
+        url: 'https://fallofcivilizationspodcast.com/',
+        description: 'Collapse of different societies through history.',
+        category: 'History'
     },
 ];
 

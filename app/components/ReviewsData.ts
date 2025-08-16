@@ -203,6 +203,16 @@ export const sciFiMoviesData: Movie[] = [
         c: 7,
     },
     {
+        title: "District 9",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/d/d7/District_nine_ver2.jpg",
+        summary: `The flawed and dysfunctional alien society is more interesting than the apartheid parallels, and the
+        characterisation is a bit one dimensional, but this is funny and sad and watchable nonetheless`,
+        e: 8,
+        a: 6,
+        n: 7,
+        c: 6,
+    },
+    {
         title: "Donnie Darko",
         thumbnail: "https://www.themoviedb.org/t/p/w1280/3PiQIQzJX2oE8Uw6gjL08BXQRoB.jpg",
         summary: `A weird, soulful film that peels back an outer layer of teenage angst and superficial 80s suburbia to 
