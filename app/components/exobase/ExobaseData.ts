@@ -151,7 +151,7 @@ exorbitant cost of operating an antimatter engine.`,
         classification: 'Praxis/Energy'
     }],
     ['Argentinian Mancomunidad', {
-        content: `The Argentinian Mancomunidad is the only terestrial freehold territory. Unlike the minarchic 
+        content: `The Argentinian Mancomunidad is the only terrestrial freehold territory. Unlike the minarchic 
 [[Mazatlán Zona Franca]] or the [[RDP]], the Argentinian Mancomunidad possesses no government run institutions at all
 and is a purely anarcho-capitalist society. It was formed out of the state of Argentina which had severe economic 
 problems which required privatisation of large parts of the economy. It maintains order and territorial control though
@@ -160,30 +160,35 @@ cost on their members. Corporations manage their own defense or pay for private 
 to protect assets. Its economy is primarily based around low cost cash crops, mining, and livestock products, as 
 well as areas where its laissez-faire economy combined with its perceived safety compared to the 
 [[Mazatlán Zona Franca]] gives it a comparative advantage, such as medical tourism, generic drug production, biotech, 
-offshore banking, and citizenship as a service.
+offshore banking, and residency as a service.
 
-The foundations of the Mancomunidad lie in the hyperinflationary periods historically experienced by Argentinia,
+The modern Mancomunidad originated from the hyper-inflationary periods historically experienced by Argentina,
 which slowly drove the adoption of parallel economic and payment structures and aid societies, which then led to
 downstream changes such as the development of local arbitration networks. In 153 BFC Mendoza, San Juan, and Santa Fe 
 stopped remitting tax revenues to Buenos Aires as part of a dispute about revenue distribution, which led to a 
-forced sale of state and some simple to maintain military assets to wealthy individuals and some local cooperatives. 
-This led to a runaway collapse of various state services, with the final transformation occurring in 151 BFC with the 
-last provincial governments ceasing to function, with some of their functions taken over by subscription-based service 
-providers. International recognition came slowly, with the territory maintaining UN observer status through a rotating 
-council of the largest defense agencies.
+forced auction of provincial infrastructure, mineral concessions, and mothballed military equipment to syndicates of 
+wealthy investors, agricultural cooperatives, and foreign funds. This triggered waves of strikes, mutinies, and 
+provincial standoffs which led to a runaway collapse of various state services. The final transformation occurred in 151 
+BFC with the last provincial governments ceasing to function, with some of their functions taken over by 
+subscription-based service providers and other collapsing into chaos leading to years of rolling blackouts, cholera 
+outbreaks, and foreign NGOs having to step in to fill gaps. By this stage most of Argentina's military assets had been 
+sold or seized by neighbouring countries, most notably a fire-sale of their two nuclear submarines to Brazil, and what
+remained was simple to operate and maintain and in the hands of service providers which used it for enforcement and 
+rudimentary policing. Over the next decade there were a number of key battles fought between warlords, international 
+peacekeepers, and the new corporate security forces over control of infrastructure. International recognition came 
+slowly, brokered mainly by trade partners who needed secure commodity exports and banking channels, and was contingent 
+on nuclear power station inspections.
 
-The Mancomunidad operates through overlapping networks of voluntary associations, with most residents maintaining 
-memberships in 3-5 different protection agencies (APPs) and dispute resolution organizations (ORCs) that provide 
-bundled services. The territorial defense system evolved from the inherited Argentine military assets, particularly the 
-Cóndor IV missile systems and three nuclear devices maintained under a multilateral command structure requiring 
-consensus from at least seven major APPs to activate. Day-to-day governance occurs through "barrio contracts" - 
-neighborhood-level agreements that specify simple matters like noise ordinances and infrastructure maintenance, enforced 
-by whichever APP holds the majority subscription in that area. The largest agencies like Grupo Tigre and 
-Confederación Gaucha have developed stable jurisdictional agreements to prevent conflicts, while smaller agencies 
-typically specialize in specific services or communities. The most commonly used currency is the peso-cripto (a basket 
-of algorithmic stablecoins) for everyday transactions, and smart contracts tied to property registrations and business 
-licenses are the most common way to pay for membership contracts which help reduce free-riding while maintaining the 
-voluntary nature of the system`,
+Daily life operates through overlapping networks of voluntary associations, with most residents maintaining memberships 
+in different protection agencies (APPs) and dispute resolution organizations (ORCs) that provide bundled services. 
+Day-to-day governance occurs through "barrio contracts" - neighborhood-level agreements that specify simple matters like 
+noise ordinances and infrastructure maintenance, enforced by the APPs operating in the area with smaller agencies 
+typically specialize in specific services or communities. The mancomunidad (voluntary municipal associations) are formed 
+from the larger agencies like Grupo Tigre and Confederación Gaucha and have developed stable jurisdictional agreements 
+to prevent conflicts and manage a territorial defense system evolved from inherited and newly developed Argentine 
+military assets, particularly the Cóndor IV missile systems. The most commonly used currency is the peso-cripto (a 
+basket of algorithmic stablecoins) for everyday transactions, and smart contracts tied to property registrations and 
+business licenses are the most common way to pay for membership contracts.`,
         classification: 'Socionomics/Polities'
     }],
     ['Augustine Okafor', {
