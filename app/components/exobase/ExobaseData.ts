@@ -195,7 +195,7 @@ business licenses are the most common way to pay for membership contracts.`,
         content: `Augustine Okafor (20th January 42 BFC – present) is a politician and the inventor of the first 
 [[Plasmorph]] containment device. His parents are [[Marcus Okafor, Zsófia Ardour, and Cecile Riddle~Independent Habitats]].
 
-Augustine was a child prodigy who developed an entirely new branch of supconduction theory while studying for degrees 
+Augustine was a child prodigy who developed an entirely new branch of superconduction theory while studying for degrees 
 in physics and chemistry at age 17. He founded startup Helitae to commercialise small scale plasma containment, Helitae
 developed the first prototypes of a Plasmorph device but was unable to raise enough funding for the power systems and
 was later bought out by the [[X Group]]. In 22 BFC Augustine met void ecologist David Regis, and soon afterwards 
@@ -1478,7 +1478,7 @@ of most first class navies except for Dominio, and the biggest are over 3000 ton
 hard seal around a frigate or destroyer for drydock field repairs. There are smaller variants which are used for mass 
 drone deployment by less well equipped navies such as [[FreeHab~Independent Habitats]], any that are under 100 tons
 would be considered auxiliaries by inner system navies and ones this size are in fact almost all cheap converted 
-commercial vessels. Carries have secondary roles as fuel, life support, and ammo depots as well as mobile hospitals. 
+commercial vessels. Carriers have secondary roles as fuel, life support, and ammo depots as well as mobile hospitals. 
 Both fusion and antimatter engine variants are normally crewed.`,
         classification: 'Praxis/Military'
     }],
@@ -1565,8 +1565,10 @@ Sands Missile Range and the Panopticon Relay.`,
     ['Plasmorph', {
         content:
 `A Plasmorph is a portable device capable of generating a bubble of plasma which can contain a volume of atmosphere
-inside a vacuum. These are manufactured by several corporations as emergency temporary space suits. The technology
-was first developed by [[Freehab~Independent Habitats]] engineer [[Augustine Okafor]].`,
+inside a vacuum. They are used as personal emergency temporary space suits, most commonly manufactured by Midea Group, 
+as well as for industrial and military uses where the [[X Group]] is the largest manufacturer. 
+[[Freehab~Independent Habitats]] engineer [[Augustine Okafor]] is generally credited as the inventor, having developed 
+the superconduction theory and with his company Helitae the engineering required to build the first prototypes.`,
         classification: 'Praxis/Industrial'
     }],
     ['QuanLan',{
@@ -1674,7 +1676,10 @@ Initially Semiotican faced significant market challenges, particularly in region
 supply chains network and significant regulatory capture, such as the [[United States]]. Semiotican was initially
 forced to pursue bespoke joint parternships tailored to unique local environmental challenges and resource types where
 Amazon's one-size-fits-all approach failed to address local conditions. Over time they developed tooling for entirely 
-new mining techniques, such as precise extraction methods for volatile compounds.
+new mining techniques, such as precise extraction methods for volatile compounds. In the 130s Semiotican partnered with 
+Rio Tinto to develop cost efficient in-situ lunar manufacturing of frames and wiring, and with [X-Power's~X Group]] 
+acquisition of China Minmetal's lunar silicon mines in 129 BFC became the largest external supplier of the X-Power
+giant lunar PV operation.
 
 In 120 BFC a number of space industry import tariffs were removed as part of a global round of trade talks. Semiotican 
 with its diverse range of operations was able produce products integrating many space supply chains into terrestrial 
@@ -1927,10 +1932,12 @@ them to supply base load power at comparable cost to fission based nuclear power
 
 X-Power was made an independent company in 172 BFC, although it continued to work in tandem with SpaceX on many projects 
 such as laser ship pushing. In 135 BFC they partnered with [[Ångström]] to develop [[MarsNet]], and in 132 moved their 
-headquarters to Starbase, Hellas Planitia. Due to intense competition from [[Semiotican]] in the orbital manufacturing 
-market of the 100 BFCs, X Musk re-integrated X-Power into the greater X Group in order to extract greater efficiencies 
-from the business. Notable their [[Fusion Power]] division both mines the Helium-3 and Deuterium and operates many 
-power plants.`,
+headquarters to Starbase, Hellas Planitia. In 129 BFC they bought out China Minmetal's lunar silicon mines and Maxeon 
+Solar Technologies to becoming the largest vertically integrated off earth photovoltaic supplier.
+
+Due to intense competition from [[Semiotican]] in the orbital manufacturing market of the 100 BFCs, X Musk re-integrated 
+X-Power into the greater X Group in order to extract greater efficiencies from the business. Notably their 
+[[Fusion Power]] division both mines the Helium-3 and Deuterium and operates many power plants.`,
         classification: 'Socionomics/Polities'
     }],
 ]);
