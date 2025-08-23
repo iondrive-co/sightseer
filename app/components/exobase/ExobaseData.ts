@@ -610,8 +610,10 @@ advance when it was sent, this explanation usually assumes that the senders were
 only adjusted course when it was near enough to be threatened. The assumed motivation in this case is usually that the
 probe was transiting somewhere, and this is supported by the small size of the probe making it unsuitable for optical 
 and most other known monitoring, and also that its course suggests that it was doing a flyby of the outer solar system 
-rather than a thorough exploration before we intervened. It is even possible that it could have been carrying some 
-radiotrophic life able to withstand the intense gamma radiation in the small craft, perhaps to seed life somewhere.
+rather than a thorough exploration before we intervened. It is even possible that it could have been carrying biological
+material to seed life somewhere. Such life was initially theorised to be radiotrophic, able to withstand the intense 
+gamma radiation in the small craft, but [[Hannah Weiss-Martin]]'s theory of computonium smart matter is now accepted as
+a better explanation for the data.
 
 Another field of debate deals with the fact that life arising in two places independently implies the galaxy is teeming 
 with life. Philosopher Hyun Soo Park popularised a theory for the Fermi paradox of their continued silence, based on 
@@ -923,12 +925,13 @@ avoided plunging into the abyss by blind luck, in order to motivate us to better
         classification: 'Socionomics/Events'
     }],
     ['Hannah Weiss-Martin', {
-        content: `Hannah Weiss-Martin (135 BFC - ) is a conscious substrate engineer who popularised the computonium 
+        content: `Hannah Weiss-Martin (135 BFC - ) is a consciousness substrate engineer who popularised the computonium 
 smart matter theory of the [[First Contact Event]]. She is also known for pioneering observer-integrated experiments 
 which use conscious entanglement to probe mind-matter coupling, as well as founding life extension company Nexus. At
-27 years old she completed her thesis at Caltech and has worked their in some capacity for her entire life, at 153 years 
-old she is currently the worlds oldest working academic researcher. She is the daughter of scientists [[Levi Weiss]] 
-and Talia Martin, and is married to engineer Zoe Sage who is known for creating the Nexus cryopreservation division.`,
+27 years old she completed her thesis on quantum cognition at Caltech, and has worked there in some capacity for her 
+entire life. At 153 years old she is currently the worlds oldest working academic researcher. Hannah is the daughter of 
+scientists [[Levi Weiss]] and Talia Martin, and is married to Zoe Sage, an engineer who established and led the Nexus 
+cryopreservation division.`,
         classification: 'Socionomics/People'
     }],
     ['Hellas Planitia', {
@@ -1195,10 +1198,10 @@ carved into the concrete above his desk. During this time, in addition to his wo
 authored many papers on computational chemistry and higher-dimensional brane topological-phase engineering.
  
 In 141 BFC after a long regime of physical acclimatisation Levi returned to the [[United States]] where he and two 
-colleagues established an institute to develop techniques for generating new gauge interactions and particle families. 
-In 138 BFC Levi met biologist Talia Martin who he married two years later, in 135 BFC their daughter 
+colleagues established an institute for the development of techniques in generating new gauge interactions and particle 
+families. In 138 BFC Levi met biologist Talia Martin who he married two years later, in 135 BFC their daughter 
 [[Hannah Weiss-Martin]] was born. In 121 BFC Levi famously began live streaming a series of controversial experiments 
-with theoretical vacuum-state modulation techniques, prompting a ban on the research in the US and elsewhere.`,
+with theoretical false vacuum modulation techniques, prompting a ban on the research in the US and elsewhere.`,
         classification: 'Socionomics/People'
     }],
     ['Lunar Industrial Engineering', {
