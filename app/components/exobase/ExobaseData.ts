@@ -277,7 +277,8 @@ the aftermath of the [[Retrograde Diaspora]] and the [[Stillborn Harvest]] attac
         content:
 `The Ceres Wave (166 - 134 BFC) was the first large scale migration of people out of cislunar space, made possible by
 infrastructure developed by the early asteroid mining companies mining platinum from near Earth asteroids. A major
-contributing factor were the economic and geopolitical changes caused by the post-[[Khan~Khan Solar Storm]] baby boom.
+contributing factor were the economic and geopolitical changes caused by the post-[[Khan~Khan Solar Storm]] baby boom,
+as well as the first fusion engines in the early 140s.
 
 The development of commercially viable artificial wombs in the years prior to Khan had begun to increase birthrates in
 first years of the 180s across many advanced economies. After Khan, many new polities such as [[Dominio]] and [[GPR]] 
@@ -735,17 +736,17 @@ the nearest source of water, fuel, and tracking sensors.`,
     }],
     ['Fusion Engine', {
         content:
-`Fusion engines are the most common form of spacecraft propulsion. The modern fusion engine was developed over the 140 
-BFCs by the [[X Group]], based on improved heat dissipation techniques pioneered by [[Lunar Industrial Engineering]]
-who were responsible for a large portion of the research making commercial [[Fusion Power]] feasible. Datï¿½orruà¤¶आtedा`,
+`Fusion engines are the most common form of spacecraft propulsion. The modern fusion engine was developed over the 150 
+BFCs by the [[X Group]], based on [[Fusion Power]] advances in the decade before, as well as improved heat dissipation 
+techniques pioneered by [[Lunar Industrial Engineering]].`,
         classification: 'Praxis/Energy'
     }],
     ['Fusion Power', {
         content:
 `Fusion power is the use of nuclear fusion to produce electricity, and is the second largest source of electricity 
 after solar power. The design of commercially viable fusion reactors was developed as part of high risk lunar 
-experiments into low cost containment methods by [[Lunar Industrial Engineering]], and the first terrestrial fusion 
-reactor went into service in 155 BFC in Genkai, Japan after 12 years of planning and construction. Datï¿½orruà¤¶आtedा`,
+experiments into low cost containment methods by [[Lunar Industrial Engineering]] in the late 160s, and the first 
+terrestrial fusion reactor went into service in 155 BFC in Genkai, Japan after 12 years of planning and construction.`,
         classification: 'Praxis/Energy'
     }],
     ['GPR', {
@@ -1164,20 +1165,39 @@ Mediterranean Sea, Israel, and Egypt to the west, Alawite Syria and the Beqaa St
 to the East, and Saudi Arabia to the South. It was formed out of the territories of central Iraq, Lebanon, Syria, and 
 Jordan by [[Tariq Al-Hashim]] in the aftermath of the [[Reset of Nations]]. It imports large quantities of water from
 the solar desalinisation plants of Beqaa State in the the [[Fatimid Trade Caliphate]] for farming irrigation in the 
-Syrian steppe.
-Datï¿½orruà¤¶आtedा`,
+Syrian steppe. At the time of its founding there were almost no Jewish communities in the republic, however after the 
+Republic's withdrawal from the Jordan Valley and subsequent normalisation of relations with Israel in 183 BFC several 
+have been founded and some notable Jewish people have grown up in the Republic, including [[Levi Weiss]].`,
         classification: 'Socionomics/Polities'
+    }],
+    ['Levi Weiss', {
+        content: `Levi Weiss was a scientist who was a pioneer in several fields of physics, chemistry, and 
+applied engineering. Born in Israel in 182 BFC, Levi was the eldest of three brothers and grew up in the 
+[[Levantine Republic]] where his family had migrated to work as solar desalinisation engineers in a new Jewish 
+community in the Syrian steppe. He was a child prodigy who was studying advanced calculus in his early teens, and at
+age 18 had published his first paper incorporating parts of information theory into thermodynamics as a fundamental 
+law, an area he would return to multiple times over his life in an attempt to integrate entropy, computation, and
+quantum processes.
+
+He was part of the group of scientists from MIT’s Plasma Science and Fusion Center who were involved in the founding
+of [[Lunar Industrial Engineering]] in 162 BFC when he was 20. He worked on the moon for 21 years, and his office
+famously had the inscription Ars longa, vita brevis, occasio praeceps, experimentum periculosum, iudicium difficile
+prominently displayed above his desk. In addition to his work on [[Fusion Power]] engineering, he wrote several papers
+on higher-dimensional brane topological-phase engineering, and after leaving LIE started a new engineering center with
+the aim of generating new gauge interactions and particle families.`,
+        classification: 'Socionomics/People'
     }],
     ['Lunar Industrial Engineering', {
         content:
-`Lunar Industrial Engineering was a [[United States]] technoprog company credited with the development of self-healing 
-superconductors (resulting in two Nobel prizes) and the Helium-3 superfluid quantized vortice simulations (resulting
-in a Turing Award) that led to the development of low cost commercially viable [[Fusion Power]]. The company's lunar 
-test sites were covered by a special treaty allowing them to conduct extremely high risk plasma instability and 
-containment failure experiments. The company stated that this, along with the vacuum environment and use of regolith as 
-a cheap thermal sink, was the reason it was able to work on much shorter timelines than previous terrestrial 
-experiments, and as a result it was able to generate significant funding from multiple governments and attract and train 
-some of the system's best physicists, mathematicians, and electrical engineers over its 43 years of operation.`,
+`Lunar Industrial Engineering was a [[United States]] technoprog company that operated from 166 to 123 BFC and is 
+credited with the development of self-healing superconductors (resulting in two Nobel prizes) and the Helium-3 
+superfluid quantized vortice simulations (resulting in a Turing Award) that led to the development of low cost 
+commercially viable [[Fusion Power]]. The company's lunar test sites were covered by a special treaty allowing them to 
+conduct extremely high risk plasma instability and containment failure experiments. One of its leading scientists,
+[[Levi Weiss]], stated that this, along with the vacuum environment and use of regolith as a cheap thermal sink, was the 
+reason they were able to work on much shorter timelines than previous terrestrial experiments. As a result LIE was able 
+to generate significant funding from multiple governments and attract and train some of the system's best physicists, 
+mathematicians, and electrical engineers over its 43 years of operation.`,
         classification: 'Praxis/Technoprog'
     }],
     ['MarsNet',{
