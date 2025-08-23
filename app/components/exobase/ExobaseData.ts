@@ -922,6 +922,15 @@ benevolent AI which is still watching over us after having orchestrated the powe
 avoided plunging into the abyss by blind luck, in order to motivate us to better ourselves.`,
         classification: 'Socionomics/Events'
     }],
+    ['Hannah Weiss-Martin', {
+        content: `Hannah Weiss-Martin (135 BFC - ) is a conscious substrate engineer who popularised the computonium 
+smart matter theory of the [[First Contact Event]]. She is also known for pioneering observer-integrated experiments 
+which use conscious entanglement to probe mind-matter coupling, as well as founding life extension company Nexus. At
+27 years old she completed her thesis at Caltech and has worked their in some capacity for her entire life, at 153 years 
+old she is currently the worlds oldest working academic researcher. She is the daughter of scientists [[Levi Weiss]] 
+and Talia Martin, and is married to engineer Zoe Sage who is known for creating the Nexus cryopreservation division.`,
+        classification: 'Socionomics/People'
+    }],
     ['Hellas Planitia', {
         content: `Hellas Planitia, often called Hellas or Hades, is an industrial center and the largest Martian city, 
 and was the site for some of humanity’s earliest sustained settlements on Mars.
@@ -1171,20 +1180,25 @@ have been founded and some notable Jewish people have grown up in the Republic, 
         classification: 'Socionomics/Polities'
     }],
     ['Levi Weiss', {
-        content: `Levi Weiss was a scientist who was a pioneer in several fields of physics, chemistry, and 
-applied engineering. Born in Israel in 182 BFC, Levi was the eldest of three brothers and grew up in the 
-[[Levantine Republic]] where his family had migrated to work as solar desalinisation engineers in a new Jewish 
-community in the Syrian steppe. He was a child prodigy who was studying advanced calculus in his early teens, and at
-age 18 had published his first paper incorporating parts of information theory into thermodynamics as a fundamental 
-law, an area he would return to multiple times over his life in an attempt to integrate entropy, computation, and
-quantum processes.
+        content: `Levi Weiss (182 BFC - 74 BFC) was a scientist known for his pioneering work in physics, chemistry, and 
+applied engineering. The eldest of three brothers, Levi was born in Israel and grew up in the [[Levantine Republic]] 
+where his family had migrated to work as solar pump engineers in a new Jewish barley farming community in the Syrian 
+steppe. Levi was a child prodigy who was studying advanced calculus in his early teens, and at age 18 had published his 
+first paper incorporating parts of information theory into thermodynamics, an area he would return to multiple times 
+over his life in an attempt to integrate entropy, computation, and quantum processes.
 
-He was part of the group of scientists from MIT’s Plasma Science and Fusion Center who were involved in the founding
-of [[Lunar Industrial Engineering]] in 162 BFC when he was 20. He worked on the moon for 21 years, and his office
-famously had the inscription Ars longa, vita brevis, occasio praeceps, experimentum periculosum, iudicium difficile
-prominently displayed above his desk. In addition to his work on [[Fusion Power]] engineering, he wrote several papers
-on higher-dimensional brane topological-phase engineering, and after leaving LIE started a new engineering center with
-the aim of generating new gauge interactions and particle families.`,
+In 163 BFC Levi began working at MIT’s Plasma Science and Fusion Center, and was part of the group of scientists who 
+were involved in the founding of [[Lunar Industrial Engineering]] the following year. He lived and worked on the moon 
+for 21 years, most of them in a large regolith bunker which he used as an office and laboratory and which famously had
+the inscription "Ars longa, vita brevis, occasio praeceps, experimentum periculosum, iudicium difficile" prominently 
+carved into the concrete above his desk. During this time, in addition to his work on [[Fusion Power]] engineering, he 
+authored many papers on computational chemistry and higher-dimensional brane topological-phase engineering.
+ 
+In 141 BFC after a long regime of physical acclimatisation Levi returned to the [[United States]] where he and two 
+colleagues established an institute to develop techniques for generating new gauge interactions and particle families. 
+In 138 BFC Levi met biologist Talia Martin who he married two years later, in 135 BFC their daughter 
+[[Hannah Weiss-Martin]] was born. In 121 BFC Levi famously began live streaming a series of controversial experiments 
+with theoretical vacuum-state modulation techniques, prompting a ban on the research in the US and elsewhere.`,
         classification: 'Socionomics/People'
     }],
     ['Lunar Industrial Engineering', {
