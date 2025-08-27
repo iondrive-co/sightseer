@@ -208,7 +208,7 @@ a significant income from his hacking for several years. Although the eldest chi
 Anna Reyes convinced Marcus that Augustine was unsuitable as a successor due to his drug addiction, and his step-sister 
 Polaris Okafor-Reyes was groomed for leadership and was eventually elected as the Freehab CEO in 3 BFC after Anna retired. 
 
-At age 25 Augustine left the Ellulist church and converted to [[Deus Machina]], a religion violently opposed 
+At age 25 Augustine left the [[Ellulist~Ellulism]] church and converted to [[Deus Machina]], a religion violently opposed 
 to the Ellusists worldview and which held centralisation under synth control as a core tenet. He also ended the 
 relationship with David Regis and the next year married Ilona, an [[instance companion~Instance]] and prominent Martian 
 entertainer and [[Retrograde Diaspora]] centralisation advocate. Augustine likely spent then next five years working in
@@ -473,6 +473,26 @@ of the valley:
 (In shadows of high-rises, sky itself turns dusk-blue. 
 A prayer made of golden rays, light echoes through the view).`,
         classification: 'Geo'
+    }],
+    ['Ellulism', {
+        content: `Ellulism is a political theological movement which draws on Christian Anarchism combined with a set 
+of beliefs and practices inspired by works of [[French~Grande France]] philosopher and sociologist Jacques Ellul and
+[[American~United States]] author Chuck Palahniuk. Ellulism was first developed and taught by Mourad Laboure in Kabylie
+in 177 BFC, spread out of Grande France to the US and then became wildly popular off Earth during the [[Ceres Wave]], 
+and is today the majority belief system in [[Freehab]]. It has lost popularity in cislunar since the 
+[[Retrograde Diaspora]], with it being replaced as the smallest of the top 5 by [[Deus Machina]].
+
+The movement adopts the view that technological and consumerist systems acquire an autonomous power that undermines 
+human freedom and potential, and they instead emphasise rejecting the alienation of these systems and creating a new 
+identity though participation in small, tightly-knit cells which bond through transgressive anti-consumer rituals 
+to construct a more authentic community. In his later years Mourad Laboure distanced himself from Ellulism, and the year
+before his death in 104 BFC converted to Sufism. His marabout shrine contains the inscription:
+J’ai rêvé que j’étais enfant, émerveillé par tout ce que je pouvais devenir.
+Je me suis réveillé dans la vieillesse, et toutes les possibilités s’étaient enfuies.
+(I dreamed I was a child, marveling at all I could become.
+I woke up in old age, and all possibilities had vanished.)
+Ellulism endured and institutionalized beyond him, and even adopted his final inscription as a core tenet.`,
+        classification: 'Socionomics/Jurisbunds'
     }],
     ['Exobase', {
         content:
@@ -927,11 +947,10 @@ avoided plunging into the abyss by blind luck, in order to motivate us to better
     ['Hannah Weiss-Martin', {
         content: `Hannah Weiss-Martin (135 BFC - ) is a consciousness substrate engineer who popularised the computonium 
 smart matter theory of the [[First Contact Event]]. She is also known for pioneering observer-integrated experiments 
-which use conscious entanglement to probe mind-matter coupling, as well as founding life extension company Nexus. At
-27 years old she completed her thesis on quantum cognition at Caltech, and has worked there in some capacity for her 
+which use conscious entanglement to probe mind-matter coupling, as well as co-founding biocoherence company [[Nexus]].
+At 27 years old she completed her thesis on quantum cognition at Caltech, and has worked there in some capacity for her 
 entire life. At 153 years old she is currently the worlds oldest working academic researcher. Hannah is the daughter of 
-scientists [[Levi Weiss]] and Talia Martin, and is married to Zoe Sage, an engineer who established and led the Nexus 
-cryopreservation division.`,
+scientists [[Levi Weiss]] and Talia Martin, and she is married to folk musician Zoe Sage.`,
         classification: 'Socionomics/People'
     }],
     ['Hellas Planitia', {
@@ -1001,7 +1020,7 @@ deferrals by [[Semiotican]] were largely responsible for the annulment of contra
 the [[Dominio]] appointed manager of the Gaspra asteroid platforms. In 57 BFC he joined the marriage of Zsófia Ardour 
 and Cecile Riddle, and in 55 BFC the three of them had a child, [[Augustine Okafor]], through spindle nuclear transfer.
 
-Anna Reyes (1 November 88 BFC - 2nd May 14 AFC) grew up in an Ellulist community in Alberta in the [[United States]]. 
+Anna Reyes (1 November 88 BFC - 2nd May 14 AFC) grew up in an [[Ellulist~Ellulism]] community in Alberta in the [[United States]]. 
 During her teenage years she claims to have had a vision of a saint surrounded by angels while watching a documentary about 
 drone control systems for asteroid mining, and that these visions reoccurred later in life involving other saints and 
 martyrs of the church. She studied law and first met Marcus in 55 BFC while working as [[Amazon]]'s senior legal counsel 
@@ -1308,6 +1327,12 @@ content: `The Nanocat Fury, also called the Martian Troubles, are an ongoing ser
 between Martian nationalist groups such as the [[Freeholders]] and the security forces of several large corporations`,
         classification: 'Socionomics/Events'
     }],
+    ['Nexus', {
+        content:
+`Nexus was a biocoherence company founded by [[Hannah Weiss-Martin]] and hibernation biologist Javier Florentin, it
+ operated for 28 years before being acquired by [[Pharmatica Group]]`,
+        classification: 'Praxis/Technoprog'
+    }],
     ['Pharmatica Group', {
         content: `Pharmatica Group is a bioinformatics and pharmaceutical conglomerate specialising in 
 [[synth~Synthetic Intelligence]] developed pharmaceutical products and molecular production services. It is the system's 
@@ -1535,10 +1560,10 @@ of the bioluminesence art scene, and in the last decade for her increasing vocal
 Nimitra's embryo was conceived and frozen along with several others in April 109 BFC. On the form for the procedure 
 Thanakit and Sirichai gave their reason as desiring a child after first focussing on their work. 10 years later Sirichai 
 was killed in the Baiyoke Tower II collapse, and in his record of memories Thanakit says that in his grief he no longer 
-felt able to raise a child despite wanting descendents and influence in the future. In the months after her death he 
-created a smart contract with Worawut Legal Futures linking the reinitiation of an embryo to an indexed fund containing 
-the vast majority of his  wealth, which other than expenses for the contract management and child raising would 
-be unable to be touched by anyone other than his child. In his memories he appears to move on from this and throw 
+felt able to raise a child despite still wanting descendents and influence in the future. In the months after her death 
+he created a smart contract with Worawut Legal Futures linking the re-initiation of an embryo to an indexed fund 
+containing the vast majority of his  wealth, which other than expenses for the contract management and child raising 
+would be unable to be touched by anyone other than his child. In his memories he appears to move on from this and throw 
 himself into his work and other legacy projects for the next 4 years before his death from a Carbapenem-Resistant 
 Klebsiella infection on March 30th, 95 BFC.
 
@@ -1645,8 +1670,9 @@ and black market goods previous generations had enjoyed there was a cultural shi
 centralisation and an ethos of society wide advancement, and rejecting the culture of hardship, nihilism, and laissez 
 faire approaches to government which were ascribed to previous generations[1]. The [[Deus Machina]] religion which had
 a core tenet of centralisation under synth control grew significantly during this period. There was an eventual pushback 
-against this trend, notably from the Ellulists, the [[Fatimid Trade Caliphate]], and [[Freehab~Independent Habitats]], 
-however the [[First Contact Event]] renewed many aspects such as the united humanity movement.
+against this trend, notably from the [[Ellulists~Ellulism]], the [[Fatimid Trade Caliphate]], and 
+[[Freehab~Independent Habitats]], however the [[First Contact Event]] renewed many aspects such as the united humanity 
+movement.
 
 1. [[Kinships of the Astroindigène]]`,
         classification: 'Socionomics/Events'
