@@ -466,12 +466,16 @@ a valley running north east to south west with a gap between the two rows of les
 the gap is usually thick with drones being prototyped and delivering parts. The view from the bottom of this section has 
 inspired many movies and artists. Vasant Gaikwad wrote a famous Abhang about his experience walking through this section 
 of the valley:
+%%%
 ऊँच इमारतींच्या छायेत
 गडद होत जातं आकाश
 सूर्य किरणांचीच पूजा
 गल्लीत वाजतो प्रकाश
-(In shadows of high-rises, sky itself turns dusk-blue. 
-A prayer made of golden rays, light echoes through the view).`,
+(In shadows of high-rises
+sky itself turns dusk-blue. 
+A prayer made of golden rays
+light echoes through the view).
+%%%`,
         classification: 'Geo'
     }],
     ['Ellulism', {
@@ -479,19 +483,37 @@ A prayer made of golden rays, light echoes through the view).`,
 of beliefs and practices inspired by works of [[French~Grande France]] philosopher and sociologist Jacques Ellul and
 [[American~United States]] author Chuck Palahniuk. Ellulism was first developed and taught by Mourad Laboure in Kabylie
 in 177 BFC, spread out of Grande France to the US and then became wildly popular off Earth during the [[Ceres Wave]], 
-and is today the majority belief system in [[Freehab]]. It has lost popularity in cislunar since the 
-[[Retrograde Diaspora]], with it being replaced as the smallest of the top 5 by [[Deus Machina]].
+and is today the majority belief system in [[Freehab]]. Outside of the [[Argentinian Mancomunidad]] it has never been
+widespread on Earth, and since the [[Retrograde Diaspora]] has lost popularity in cislunar as well, being replaced as 
+the smallest of the top 5 beliefs by [[Deus Machina]].
 
-The movement adopts the view that technological and consumerist systems acquire an autonomous power that undermines 
-human freedom and potential, and they instead emphasise rejecting the alienation of these systems and creating a new 
-identity though participation in small, tightly-knit cells which bond through transgressive anti-consumer rituals 
-to construct a more authentic community. In his later years Mourad Laboure distanced himself from Ellulism, and the year
-before his death in 104 BFC converted to Sufism. His marabout shrine contains the inscription:
-J’ai rêvé que j’étais enfant, émerveillé par tout ce que je pouvais devenir.
-Je me suis réveillé dans la vieillesse, et toutes les possibilités s’étaient enfuies.
+%%%
+
+%%%
+$$$
+What is at issue here is evaluating the danger of what might happen to our humanity, distinguishing between what we 
+want to keep and what we are ready to lose, between what we can welcome as legitimate human development and what we 
+should reject with our last ounce of strength as dehumanization.
+$$$
+%%%
+- Jacques Ellul
+%%%
+
+The movement adopts the view that technological and consumerist systems acquire an alienating and autonomous power that 
+undermines human freedom and potential, and that a more authentic community can only be created from small, tightly-knit 
+cells bonded through transgressive anti-consumerist rituals. [[Kinships of the Astroindigène]] documents how early 
+Ellulism, which emphasised creating strength and moral character through self-destruction and recreation and appealed 
+mostly to men, evolved with the cooperation and communal living required off Earth to create a more inclusive focus on 
+identity and belonging. In his later years Mourad Laboure distanced himself from Ellulism, and shortly before his death 
+in 104 BFC he converted to Sufism. His marabout shrine contains the inscription:
+%%%
+J’ai rêvé que j’étais enfant émerveillé par tout ce que je pouvais devenir
+Je me suis réveillé dans la vieillesse et toutes les possibilités s’étaient enfuies
 (I dreamed I was a child, marveling at all I could become.
 I woke up in old age, and all possibilities had vanished.)
-Ellulism endured and institutionalized beyond him, and even adopted his final inscription as a core tenet.`,
+%%%
+
+Ellulism endured and institutionalized beyond him, and even adopted his final lament as a core mantra.`,
         classification: 'Socionomics/Jurisbunds'
     }],
     ['Exobase', {

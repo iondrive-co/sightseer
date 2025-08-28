@@ -50,7 +50,33 @@ export const exobaseLoader: LoaderFunction = async ({ params, request, context }
         const classification = page.classification;
 
         const lines = content.split(/\n|\r\n/);
+        let inCodeBlock = false;
+        let codeBlockType = '';
+        let codeBlockContent: string[] = [];
+
         const processedLines = lines.map(line => {
+            if (line.trim() === '$$$' || line.trim() === '%%%') {
+                if (inCodeBlock) {
+                    inCodeBlock = false;
+                    const joinedContent = codeBlockType === '$$$'
+                        ? codeBlockContent.join(' ').trim()
+                        : codeBlockContent.join('\n');
+                    const codeHtml = `</ul><pre><code>${joinedContent}</code></pre><ul>`;
+                    codeBlockContent = [];
+                    codeBlockType = '';
+                    return codeHtml;
+                } else {
+                    inCodeBlock = true;
+                    codeBlockType = line.trim();
+                    return '';
+                }
+            }
+
+            if (inCodeBlock) {
+                codeBlockContent.push(line);
+                return '';
+            }
+
             if (line.startsWith("- ")) {
                 // This is a list item
                 return `<li>${line.substring(2)}</li>`;  // Remove the "- " and wrap in <li>

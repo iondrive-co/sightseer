@@ -53,6 +53,14 @@ h2 {
     @apply mb-8;
 }
 
+.article pre {
+    @apply overflow-x-auto whitespace-pre-wrap;
+}
+
+.article code {
+    @apply whitespace-pre-wrap;
+}
+
 .classification-section {
     @apply text-base py-2 fixed bottom-0 left-0 right-0 bg-white dark:bg-gray-900
     flex flex-wrap gap-1 items-center px-[12%] shadow-md text-base;
