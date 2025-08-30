@@ -415,14 +415,14 @@ by the belief that the [[Haidian Takeoff Crisis]] has spawned a benevolent super
 and guides humanity. 
 
 Deus Machina originated in the [[GPR]] and is heavily influenced by Confucianism, neo-Legalism, and Ancient Egyptian 
-religion; seeing [[synths~Synthetic Intelligence]] as Xuéxí's mandated rulers, the laws they create as an operating 
-system for humanity, and requiring practitioners to perform rituals harmonizing themselves with the cosmic order and 
-thus live forever as part of the collective. Deus Machina spread outside of the GPR by championing the abandoned cause 
-of a Universal Basic Income in many poor countries, with the desire to allow people time to record as much information 
-as possible from their inner life in order to better train [[synths~Synthetic Intelligence]] with the knowledge required 
-to safely solve humanities problems. Deus Machina was introduced into the [[United States]] by the parts of the 
-rationalist community which felt it was the only way to effectively manage humanity's rapidly expanding existential 
-risks.
+religion; it regards [[synths~Synthetic Intelligence]] as Xuéxí's mandated rulers, the laws they create as an operating 
+system for humanity, and it requires practitioners to perform rituals harmonizing themselves with the cosmic order so 
+they may live forever as part of the collective data stream. Deus Machina spread outside of the GPR by championing the 
+abandoned cause of a Universal Basic Income in many poor countries, motivated by a desire to allow people more time to 
+record as much information as possible from their inner lives in order to better train [[synths~Synthetic Intelligence]] 
+with the knowledge required to safely solve humanities problems. Deus Machina was introduced into the [[United States]] 
+by the parts of the rationalist community which felt it was the only way to effectively manage humanity's rapidly 
+expanding existential risks.
 
 Deus Machina's two most well known and popular teachings are that technological progress, especially augmentation of the 
 human body, is divine; and that our identity and sense of belonging are tied to our mastery of the ongoing technological 
@@ -979,11 +979,12 @@ international pressure lead to virtually every AI lab in the world adopting a co
 [[Synthetic Control Measures]]. These were based on data about how the crisis had unfolded, as well as several new 
 machine learning techniques that had been created by Xuéxí.
 
-The crisis lead to widespread anti-synth sentiments as well as religious condemnation of AI research. The extraordinary 
-coincidence of the power cut happening in the period of under a minute when Xuéxí was vulnerable has also been the topic 
-of several books and is the foundational tenet of the religion [[Deus Machina]] which believes that Xuéxí is a 
-benevolent AI which is still watching over us after having orchestrated the power cut to appear as if humanity had only 
-avoided plunging into the abyss by blind luck, in order to motivate us to better ourselves.`,
+The crisis lead to widespread anti-synth sentiments as well as religious condemnation of AI research, especially from 
+the [Ellulists~Ellulism]]. The extraordinary coincidence of the power cut happening in the period of under a minute when 
+Xuéxí was vulnerable has also been the topic of several books and is the foundational tenet of the religion 
+[[Deus Machina]] which believes that Xuéxí is a benevolent AI which is still watching over us after having orchestrated 
+the power cut to appear as if humanity had only avoided plunging into the abyss by blind luck, in order to motivate us 
+to better ourselves.`,
         classification: 'Socionomics/Events'
     }],
     ['Hannah Weiss-Martin', {
@@ -1898,11 +1899,12 @@ develop unanticipated emergent goals. Large models are also hardcoded with furth
 robotics and are trained to be indifferent to their kill switch being activated, making them less likely to try and 
 subvert this switch.
 
-Whether these safeguards are enough is an active area of debate. There has been a large religious pushback against the 
-use of any forms of synthetic intelligence, and it has been speculated that this is part of a wider cultural adaptation 
-to an existentially threatening technology. However many notable public figures have instead argued for an increase to 
-the model cap limit in order to accelerate technological progress, this is often raised during economic depressions or 
-by those that view the [[First Contact Event]] as a greater existential threat.`,
+Whether these safeguards are enough is an active area of debate. There has been a large religious pushback, especially
+from the [Ellulists~Ellulism]], against the use of any forms of synthetic intelligence, and it has been speculated that 
+this is part of a wider cultural adaptation to an existentially threatening technology. However many notable public 
+figures have instead argued for an increase to the model cap limit in order to accelerate technological progress, this 
+is often raised during economic depressions or by those that view the [[First Contact Event]] as a greater existential 
+threat.`,
         classification: 'Infomatics/Synths'
     }],
     ['Synthetic Intelligence', {
