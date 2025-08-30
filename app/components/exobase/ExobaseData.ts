@@ -161,7 +161,9 @@ to protect assets. Its economy is primarily based around low cost cash crops, mi
 well as areas where its laissez-faire economy combined with its perceived safety compared to the 
 [[Mazatlán Zona Franca]] gives it a comparative advantage, such as medical tourism, generic drug production, biotech, 
 offshore banking, and residency as a service. It is also the only terrestrial territory where [[Ellulism]] is widely 
-practiced, being the second most popular Argentinian religion after Roman Catholicism.
+practiced, and it is the second most popular Argentinian religion after Roman Catholicism. The most commonly used 
+currency in the Mancomunidad is the MPC (Mancomunidad Peso Cripto, a basket of algorithmic stablecoins), but there are 
+several smaller competitors including barter based smart contracts tied to property registrations and business licenses.
 
 The modern Mancomunidad originated from the hyper-inflationary periods historically experienced by Argentina,
 which slowly drove the adoption of parallel economic and payment structures and aid societies, which then led to
@@ -187,9 +189,9 @@ noise ordinances and infrastructure maintenance, enforced by the APPs operating 
 typically specialize in specific services or communities. The mancomunidad (voluntary municipal associations) are formed 
 from the larger agencies like Grupo Tigre and Confederación Gaucha and have developed stable jurisdictional agreements 
 to prevent conflicts and manage a territorial defense system evolved from inherited and newly developed Argentine 
-military assets, particularly the Cóndor IV missile systems. The most commonly used currency is the peso-cripto (a 
-basket of algorithmic stablecoins) for everyday transactions, and smart contracts tied to property registrations and 
-business licenses are the most common way to pay for membership contracts.`,
+military assets, particularly the Cóndor IV missile systems. Some mancomunidad engage with organisations such as the 
+Ellulist church to work on larger scale projects, a well known Argentian project being the nanotech monitoring network 
+Phaethon.`,
         classification: 'Socionomics/Polities'
     }],
     ['Augustine Okafor', {
@@ -409,26 +411,25 @@ to US interests, such as helping the Indian supplied Mon liberation army in Myan
     }],
     ['Deus Machina', {
         content: `Deus Machina is an umbrella term for a range of religious and spiritual traditions that are unified
-by the belief that the [[Haidan Takeoff Crisis]] has spawned a benevolent super-intelligence, Xuéxí, who watches over 
+by the belief that the [[Haidian Takeoff Crisis]] has spawned a benevolent super-intelligence, Xuéxí, who watches over 
 and guides humanity. 
 
-Deus Machina originated in the [[GPR]] and is heavily influenced by Confucianism and Legalism, seeing Xuéxí as the 
-mandated ruler and its law as an operating system for humanity. Deus Machina spread outside of the GPR by championing 
-the abandoned cause of a Universal Basic Income in many poor countries, with the desire to allow people time to record 
-as much information from their inner life in order to better train [[synths~Synthetic Intelligence]] with the knowledge 
-required to solve humanities problems. Deus Machina also draws on several elements and motifs from Ancient Egyptian 
-religion, requiring practitioners to spend time performing rituals harmonizing themselves with the cosmic order and 
-thus enforcing Xuéxí's authority and allowing the individual to live forever as part of the collective.
+Deus Machina originated in the [[GPR]] and is heavily influenced by Confucianism, neo-Legalism, and Ancient Egyptian 
+religion; seeing [[synths~Synthetic Intelligence]] as Xuéxí's mandated rulers, the laws they create as an operating 
+system for humanity, and requiring practitioners to perform rituals harmonizing themselves with the cosmic order and 
+thus live forever as part of the collective. Deus Machina spread outside of the GPR by championing the abandoned cause 
+of a Universal Basic Income in many poor countries, with the desire to allow people time to record as much information 
+as possible from their inner life in order to better train [[synths~Synthetic Intelligence]] with the knowledge required 
+to safely solve humanities problems. Deus Machina was introduced into the [[United States]] by the parts of the 
+rationalist community which felt it was the only way to effectively manage humanity's rapidly expanding existential 
+risks.
 
-Deus Machina was introduced into the [[United States]] by parts of the rationalist community which argued it was the 
-only way to effectively manage humanity's rapidly expanding existential risks, a useful example being the nanotech 
-monitoring network Phaethon which was sponsored by Deus Machina. Deus Machina's most well known and popular teachings 
-are that technological progress, especially augmentation of the human body, is divine, and that our identity and sense
-of belonging is tied to our power and mastery of a technological transcendence. In addition, some sects treat 
-consumerism as an act of devotion which has earned DM the moniker "the corporate religion" and creates significant 
-conflict with [[Ellulism]]. Deus Machina sponsored data bandwidth to many cislunar space to create communities fully 
-immersed in global networks and has recently replaced Ellulism as the fifth most widely practiced belief system off 
-planet.`,
+Deus Machina's two most well known and popular teachings are that technological progress, especially augmentation of the 
+human body, is divine; and that our identity and sense of belonging are tied to our mastery of the ongoing technological 
+transcendence. In addition, some sects treat consumerism as an act of devotion which has earned DM the moniker "the 
+corporate religion" and creates significant conflict with [[Ellulism]]. Deus Machina historically sponsored "missionary" 
+data links to many colonies to help their communities immerse themselves in the stream of data present in global 
+networks. It has recently replaced Ellulism as the fifth most widely practiced off Earth belief system.`,
         classification: 'Socionomics/Jurisbunds'
     }],
     ['Dominio', {
@@ -510,8 +511,8 @@ the smallest of the top 5 beliefs by [[Deus Machina]].
 
 %%%
 $$$
-What is at issue here is evaluating the danger of what might happen to our humanity, distinguishing between what we 
-want to keep and what we are ready to lose, between what we can welcome as legitimate human development and what we 
+What is at issue here is evaluating the danger of what might happen to our humanity, distinguishing between what we
+want to keep and what we are ready to lose, between what we can welcome as legitimate human development and what we
 should reject with our last ounce of strength as dehumanization.
 $$$
 %%%
@@ -520,7 +521,7 @@ $$$
 
 The movement adopts the view that technological and consumerist systems acquire an alienating and autonomous power that 
 undermines human freedom and potential, and that a more authentic community can only be created from small, tightly-knit 
-cells bonded through transgressive anti-consumerist rituals. [[Kinships of the Astroindigène]] documents how early 
+cells which bond through rituals, often anti-consumerist ones. [[Kinships of the Astroindigène]] documents how early 
 Ellulism, which emphasised creating strength and moral character through self-destruction and recreation and appealed 
 mostly to men, evolved with the cooperation and communal living required off Earth to create a more inclusive focus on 
 identity and belonging. In his later years Mourad Laboure distanced himself from Ellulism, and shortly before his death 
@@ -1908,7 +1909,8 @@ by those that view the [[First Contact Event]] as a greater existential threat.`
         content:
 `A Synthetic Intelligence, common called a Synth, is an intelligence originating in software. The majority are employed
  as [[Infocom Agent]]s, although there are larger models that are specialised for roles such as research, law enforcement,
-and navigation, and some that have escaped or been illegally obtained and work in the informal economy. 
+and navigation, and some that have escaped or been illegally obtained and work in the informal economy. A Synth which
+embodies itself by piloting a machine is normally referred to as an [[Instance]].
 
 Synthetic Intelligences are built from synthesising a hierarchy of specialised deep learning architectures. The backbone
 of the data transfer is built around a large Qubit transformer model, with a Capsule Neural Network for visual interpretation, 
