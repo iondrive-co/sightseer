@@ -160,7 +160,8 @@ cost on their members. Corporations manage their own defense or pay for private 
 to protect assets. Its economy is primarily based around low cost cash crops, mining, and livestock products, as 
 well as areas where its laissez-faire economy combined with its perceived safety compared to the 
 [[Mazatlán Zona Franca]] gives it a comparative advantage, such as medical tourism, generic drug production, biotech, 
-offshore banking, and residency as a service.
+offshore banking, and residency as a service. It is also the only terrestrial territory where [[Ellulism]] is widely 
+practiced, being the second most popular Argentinian religion after Roman Catholicism.
 
 The modern Mancomunidad originated from the hyper-inflationary periods historically experienced by Argentina,
 which slowly drove the adoption of parallel economic and payment structures and aid societies, which then led to
@@ -208,8 +209,8 @@ a significant income from his hacking for several years. Although the eldest chi
 Anna Reyes convinced Marcus that Augustine was unsuitable as a successor due to his drug addiction, and his step-sister 
 Polaris Okafor-Reyes was groomed for leadership and was eventually elected as the Freehab CEO in 3 BFC after Anna retired. 
 
-At age 25 Augustine left the [[Ellulist~Ellulism]] church and converted to [[Deus Machina]], a religion violently opposed 
-to the Ellusists worldview and which held centralisation under synth control as a core tenet. He also ended the 
+At age 25 Augustine left the [[Ellulist~Ellulism]] church and converted to [[Deus Machina]], a religion desiring 
+centralisation under synth control and thus violently opposed to the Ellusist worldview He also ended the 
 relationship with David Regis and the next year married Ilona, an [[instance companion~Instance]] and prominent Martian 
 entertainer and [[Retrograde Diaspora]] centralisation advocate. Augustine likely spent then next five years working in
 black market activities such as drug smuggling, but when he discovered that several of his lucky escapes had been 
@@ -409,7 +410,25 @@ to US interests, such as helping the Indian supplied Mon liberation army in Myan
     ['Deus Machina', {
         content: `Deus Machina is an umbrella term for a range of religious and spiritual traditions that are unified
 by the belief that the [[Haidan Takeoff Crisis]] has spawned a benevolent super-intelligence, Xuéxí, who watches over 
-and guides humanity`,
+and guides humanity. 
+
+Deus Machina originated in the [[GPR]] and is heavily influenced by Confucianism and Legalism, seeing Xuéxí as the 
+mandated ruler and its law as an operating system for humanity. Deus Machina spread outside of the GPR by championing 
+the abandoned cause of a Universal Basic Income in many poor countries, with the desire to allow people time to record 
+as much information from their inner life in order to better train [[synths~Synthetic Intelligence]] with the knowledge 
+required to solve humanities problems. Deus Machina also draws on several elements and motifs from Ancient Egyptian 
+religion, requiring practitioners to spend time performing rituals harmonizing themselves with the cosmic order and 
+thus enforcing Xuéxí's authority and allowing the individual to live forever as part of the collective.
+
+Deus Machina was introduced into the [[United States]] by parts of the rationalist community which argued it was the 
+only way to effectively manage humanity's rapidly expanding existential risks, a useful example being the nanotech 
+monitoring network Phaethon which was sponsored by Deus Machina. Deus Machina's most well known and popular teachings 
+are that technological progress, especially augmentation of the human body, is divine, and that our identity and sense
+of belonging is tied to our power and mastery of a technological transcendence. In addition, some sects treat 
+consumerism as an act of devotion which has earned DM the moniker "the corporate religion" and creates significant 
+conflict with [[Ellulism]]. Deus Machina sponsored data bandwidth to many cislunar space to create communities fully 
+immersed in global networks and has recently replaced Ellulism as the fifth most widely practiced belief system off 
+planet.`,
         classification: 'Socionomics/Jurisbunds'
     }],
     ['Dominio', {
@@ -1189,7 +1208,8 @@ The second model covers the [[Ceres Wave]] and its long term cultural impacts up
 Wave colonists were young, due to the baby boom as well as longer lifespans on Earth reducing the opportunities there,
 and there was a large amount of wealth to be gained quickly for enterprising individuals. Diallo believes this created
 the push for more laissez-faire government, a culture of ascesis and tolerating hardship, and more tolerance of 
-different social arrangements. On Mars a power vacuum developed due to the lack of government interest, which was filled 
+different social arrangements, as well as a breeding ground for new belief systems like [[Ellulism]]. The model covers 
+the Martian power vacuum which developed due to the lack of government interest, and which was filled 
 with new Martian mutual aid structures, and cultural institutions developed around these. In contrast in the industrial 
 colonies rigid hierarchies, and in some cases tribute systems, developed. In many societies there was little social 
 security and children were often the only support available for the elderly, and this shaped their social dynamics. By 
@@ -1690,8 +1710,8 @@ to the increasing capabilities of [[motes~Mote]] and [[Fabricator]] surveillance
 trend accelerated in reaction to later terrorist incidents such as the [[Stillborn Harvest]]. Without the same freedom 
 and black market goods previous generations had enjoyed there was a cultural shift in the astroindigène towards 
 centralisation and an ethos of society wide advancement, and rejecting the culture of hardship, nihilism, and laissez 
-faire approaches to government which were ascribed to previous generations[1]. The [[Deus Machina]] religion which had
-a core tenet of centralisation under synth control grew significantly during this period. There was an eventual pushback 
+faire approaches to government which were ascribed to previous generations[1]. The [[Deus Machina]] religion which 
+espouses centralisation under synth control grew significantly during this period. There was an eventual pushback 
 against this trend, notably from the [[Ellulists~Ellulism]], the [[Fatimid Trade Caliphate]], and 
 [[Freehab~Independent Habitats]], however the [[First Contact Event]] renewed many aspects such as the united humanity 
 movement.
