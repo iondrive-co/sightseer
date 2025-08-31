@@ -524,8 +524,16 @@ undermines human freedom and potential, and that a more authentic community can 
 cells which bond through rituals, often anti-consumerist ones. [[Kinships of the Astroindigène]] documents how early 
 Ellulism, which emphasised creating strength and moral character through self-destruction and recreation and appealed 
 mostly to men, evolved with the cooperation and communal living required off Earth to create a more inclusive focus on 
-identity and belonging. In his later years Mourad Laboure distanced himself from Ellulism, and shortly before his death 
-in 104 BFC he converted to Sufism. His marabout shrine contains the inscription:
+identity and belonging. 
+
+Ellulism's practices are decentralised and vary from region to region and adapt to the local language and customs. They
+generally praise plain speaking as opposed to the more intellectual language of synths and "elites" such as those 
+practicing Deus Machina, which is poorly regarded due to its extensive interaction with synths and its obsession with
+data, which Ellulism regards as meaningless. Ellulists are often involved in anti-synth protests, such as those after
+the [[Haidian Takeoff Crisis]].
+
+In his later years Mourad Laboure distanced himself from Ellulism, and shortly before his death in 121 BFC he converted 
+to Sufism. His marabout shrine contains the inscription:
 %%%
 J’ai rêvé que j’étais enfant émerveillé par tout ce que je pouvais devenir
 Je me suis réveillé dans la vieillesse et toutes les possibilités s’étaient enfuies
@@ -993,7 +1001,9 @@ smart matter theory of the [[First Contact Event]]. She is also known for pionee
 which use conscious entanglement to probe mind-matter coupling, as well as co-founding biocoherence company [[Nexus]].
 At 27 years old she completed her thesis on quantum cognition at Caltech, and has worked there in some capacity for her 
 entire life. At 153 years old she is currently the worlds oldest working academic researcher. Hannah is the daughter of 
-scientists [[Levi Weiss]] and Talia Martin, and she is married to folk musician Zoe Sage.`,
+scientists [[Levi Weiss]] and Talia Martin. She briefly entered a line marriage with her Nexus co-founder Javier 
+Florentin and they had a son together, Alejandro Weiss-Martin, who is one of the designers of [[Island One]]. In 59 BFC
+Hannah married to folk musician Zoe Sage.`,
         classification: 'Socionomics/People'
     }],
     ['Hellas Planitia', {
@@ -1374,7 +1384,17 @@ between Martian nationalist groups such as the [[Freeholders]] and the security 
     ['Nexus', {
         content:
 `Nexus was a biocoherence company founded by [[Hannah Weiss-Martin]] and hibernation biologist Javier Florentin, it
- operated for 28 years before being acquired by [[Pharmatica Group]]`,
+ operated for 8 years and had some success in integrating computational materials into brain to make it last longer 
+ and work faster, before eventually being acquired by [[Pharmatica Group]].
+ 
+ Hannah Weiss-Martin met [[RDP]] biologist Javier Florentin in a cave diving expedition in Cordillera de los Altos,
+ they discussed founding a company together to explore quantum coherence in the brain and commercialise the integration
+ of neurological smart matter. The company was incorporated in 77 BFC in the [[Argentinian Mancomunidad]] which had no
+ laws on human experimentation, there first contract were with [[Havfélög]] to develop enhanced reflexes in their 
+ mercenaries. During this time Javier Florentin married Aestheticist Julieta Gómez Romero and they had a daughter 
+ together, but she was tragically killed in one of the periodo violento that were common in the early years of the
+ Mancomunidad. It was not clear if Havfélög were involved, but Nexus pulled all contracts with them and a few years
+ later were acquired by Pharmatica.`,
         classification: 'Praxis/Technoprog'
     }],
     ['Pharmatica Group', {
@@ -1394,8 +1414,9 @@ time reducing the revenue from direct sale of patent protected drugs (although t
 good and today direct sales still make up a significant portion of Pharmatica's revenue). To combat this Pharmatica 
 invested heavily in developing cell dynamic models from their internal datasets such as perturbation and genetic 
 interaction data in order to license drugs developed from them. Despite the heavy competition from [[Amazon]] in this 
-area, royalties from these drugs are now the companies biggest revenue source.
+area, royalties from these drugs are now the companies biggest revenue source. 
 
+Pharmatica expanded into neurological modelling by buying smaller companies in the space such as [[Nexus]] in 69 BFC.
 In 65 BFC, looking to break into the new market of tailored mRNA programming products which was being explored by
 several startups as well as the giant [[Bioforge Hivegen]], it acquired biotechnology giant AstraZeneca which had
 the most IP in this space, and as part of the merger the combined conglomerate was renamed to Pharmatica Group. During 
@@ -1900,7 +1921,7 @@ robotics and are trained to be indifferent to their kill switch being activated,
 subvert this switch.
 
 Whether these safeguards are enough is an active area of debate. There has been a large religious pushback, especially
-from the [Ellulists~Ellulism]], against the use of any forms of synthetic intelligence, and it has been speculated that 
+from the [Ellulists~Ellulism]], against the widespread use of synthetic intelligence, and it has been speculated that 
 this is part of a wider cultural adaptation to an existentially threatening technology. However many notable public 
 figures have instead argued for an increase to the model cap limit in order to accelerate technological progress, this 
 is often raised during economic depressions or by those that view the [[First Contact Event]] as a greater existential 
