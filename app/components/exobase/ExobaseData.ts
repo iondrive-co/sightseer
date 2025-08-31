@@ -1380,108 +1380,6 @@ regional stability through a combination of economic incentives and the cartel w
 on the limited central government.`,
         classification: 'Socionomics/Polities'
     }],
-    ['Nanocat Fury', {
-content: `The Nanocat Fury, also called the Martian Troubles, are an ongoing series of protests and violent skirmishes 
-between Martian nationalist groups such as the [[Freeholders]] and the security forces of several large corporations`,
-        classification: 'Socionomics/Events'
-    }],
-    ['Nexus', {
-        content:
-`Nexus was a biocoherence company founded by [[Hannah Weiss-Martin]] and hibernation biologist Javier Florentin, it
- operated for 8 years and had some success in integrating computational materials into brain to make it last longer 
- and work faster, before eventually being acquired by [[Pharmatica Group]].
- 
- Hannah Weiss-Martin met [[RDP]] biologist Javier Florentin in a cave diving expedition in Cordillera de los Altos,
- they discussed founding a company together to explore quantum coherence in the brain and commercialise the integration
- of neurological smart matter. The company was incorporated in 77 BFC in the [[Argentinian Mancomunidad]] which had no
- laws on human experimentation, there first contract were with [[Havfélög]] to develop enhanced reflexes in their 
- mercenaries. During this time Javier Florentin was in a relationship with the well known aestheticist Julieta Gómez 
- Romero, but she was tragically killed in one of the periodo violento that were still common in the Mancomunidad. It was 
- not clear if Havfélög were involved, but Nexus pulled all contracts with them and a few years later were acquired by 
- Pharmatica.`,
-        classification: 'Praxis/Technoprog'
-    }],
-    ['Pharmatica Group', {
-        content: `Pharmatica Group is a bioinformatics and pharmaceutical conglomerate specialising in 
-[[synth~Synthetic Intelligence]] developed pharmaceutical products and molecular production services. It is the system's 
-largest employer of computational biologists and produces the two best-selling pharmaceuticals, the [[Antiakrasic]] 
-Akrasinil and the senolytic Renovacel.
-
-Pharmatica originated with European pharmaceutical giant Novo Nordisk's issues scaling out its semaglutide manufacture 
-to meet the continually increasing global demand for them. The solution, cell free synthesis production lines, were so 
-effective that Pharmatica was left with excess molecular farming capacity. Pharmatica's response was to invest 
-significant resources into providing rental and APIs on top of its molecular farms, and over time this has become their 
-second largest revenue stream.
-
-At the same time the advent of affordable powder bed drug printing was leading to to wide-spread drug piracy and over 
-time reducing the revenue from direct sale of patent protected drugs (although they remain the highest margin physical 
-good and today direct sales still make up a significant portion of Pharmatica's revenue). To combat this Pharmatica 
-invested heavily in developing cell dynamic models from their internal datasets such as perturbation and genetic 
-interaction data in order to license drugs developed from them. Despite the heavy competition from [[Amazon]] in this 
-area, royalties from these drugs are now the companies biggest revenue source. 
-
-Pharmatica expanded into neurological modelling by buying smaller companies in the space such as [[Nexus]] in 69 BFC.
-In 65 BFC, looking to break into the new market of tailored mRNA programming products which was being explored by
-several startups as well as the giant [[Bioforge Hivegen]], it acquired biotechnology giant AstraZeneca which had
-the most IP in this space, and as part of the merger the combined conglomerate was renamed to Pharmatica Group. During 
-the lifestyle neo-opiod wave of the 50s the groups SynthAntagon antagonist became a best seller, and addiction treatment
-pharmaceuticals continue to be their single best selling product.`,
-        classification: 'Socionomics/Polities'
-    }],
-    ['RDP', {
-        content: `Paraguay, officially Refugio de Datos Paraguay and commonly known as the RDP, is a country and data 
-haven in South America. It is bordered by Brazil to the east, Bolivia to the north, and the 
-[[Argentinian Mancomunidad]] to the south and west. With a population of 12.3 million, Paraguay has become one of the 
-world's leading technological powers, hosting approximately 18% of global compute capacity within its extensive network 
-of submersed data centers.
-
-Traditionally the world's largest exporter of electric power due to its abundant hydroelectricity, Paraguay began 
-specialising in submersed computing data centers during the vast increase of computing requirements in the early 
-[[InterMesh]] decades of the 170s and 160s. The economic booms in Brazil, Chile and Peru and the increasing 
-cryptocurrency and compute requirements for businesses in the [[Argentinian Mancomunidad]] were drivers
-of a lot of early data center development. [[Amazon]] invested heavily in this period in order to develop the Itaipu 
-corridor, a 1,200-kilometer stretch of interconnected submersed computing facilities along the Paraguay and Paraná 
-rivers. A large number of high capacity fibre links to to its neighbours were developed as well as satellite 
-infrastructure to better service the global financial sector. 
-
-Paraguay's stable climate and geopolitics, competitive compute pricing due to its abundance of cheap electricity and 
-water, led to a economies of scale feedback loop which encouraged building increasingly large submersed data centers. 
-The increasing viability of building commercial fusion plants in the 140s appeared to threaten this important sector of
-the economy. In response Paraguay passed some of the world's strongest user privacy laws and introduced extremely strict 
-regulations against unauthorized access to data. While the cost of fusion power has never dropped below the cost of 
-running a hydroelectric dam these laws have only been strengthened over time as many government and corporate users 
-contractually require the levels of stability and privacy that Paraguay provides. In recognition of the fact that 
-compute and associated activities and services now account for the vast majority of Paraguay's economy the official name
-of the country was changed to Refugio de Datos Paraguay by referendum in 7 BFC.`,
-        classification: 'Socionomics/Polities'
-    }],
-    ['Reset of Nations', {
-        content: `The period between the [[Khan Solar Storm]] of 187 BFC and the formation of the [[Eurasian Bloc]] in
-185 BFC is sometimes known as the Reset of Nations or simply the Reset, due to the rapid geopolitical shifts that 
-occurred over this two year period. The foundations for many of these changes had previously been laid by the collapse 
-of the Bretton Woods system and the [[United States]] increasing disinterest in intervening in international conflicts, 
-but were accelerated by the disintegration of large amounts of state power in the aftermath of the storm. 
-
-The immediate geopolitical changes were the complete disintegration of Syria, Georgia, and Lebanon, and economic 
-collapse in Egypt and Saudi Arabia, leading to the expansion of [[Türkiye]] and foundation of the 
-[[Levantine Republic]]; a series of annexations leading to the dissolution of the Sogdia economic zone and the 
-formation of Greater Uzbekistan; the Trypanosomiasis crisis which destabilised much of Africa and South America; and 
-finally the formation of the Eurasian Bloc. 
-
-Longer term geopolitical changes were created by the combination of growing food abundance from engineered RuBisCO 
-proteins developed as a crisis response measure, along with widespread availability of [[Synth~Synthetic Intelligence]] 
-child care and a general optimism from the recovery, leading to a baby boom and the [[Ceres Wave]] in the 170s. Another
-change seeded by the Reset was the increasing eradication of endemic tropical diseases in the aftermath of the 
-Trypanosomiasis crisis leading to increasing GDP growth and expansionism from countries that previously struggled with 
-them, most notably Indonesia, India, and Nigeria.
-
-The reset paved the way for a long laissez faire period, lasting up until the [[Retrograde Diaspora]], marked by an
-increase in corporate managed international and off earth policing as the United States was replaced first by a 
-combination of private organisations such as the [[Havfélög]] and other large national forces such as the [[GPR]], and 
-later by larger coalition forces such as the [[Peacekeepers]] and [[Greater Zhōngguó]] which were primarily focused 
-on larger scale military issues.`,
-        classification: 'Socionomics/Events'
-    }],
     ['MemAmp', {
 content: `A MemAmp is a neural lace that improves precision and recall of memories in the user via amplification of the 
 action potential of relevant neuron ensembles. This first requires a learning period, where the user is observed forming 
@@ -1507,6 +1405,13 @@ acquisition of Palantir in 91 BFC, and the growth of non-government spending in 
 diversification of business and finance synth roles on the [[InterMesh]] has made that its most profitable business line.
 Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Polities'
+    }],
+    ['Nanocat Fury', {
+        content: `The Nanocat Fury, also called the Martian Troubles, are an ongoing series of protests and violent skirmishes 
+between the [[Freeholders] and other Martian nationalists, and a coalition of government and corporate security 
+forces and Marsist groups such as Red Hand. It has attracted Yūmeijin support on both sides such as 
+[[Nimitra Wongprasert]]'s support of the nationalists and [[Alejandro Florentin]] for the Marsists.`,
+        classification: 'Socionomics/Events'
     }],
     ['Naval Auxiliary', {
 content:`A naval auxiliary is any military space vessel which is not [[Naval Rated~Naval Rated Ship]]. By definition 
@@ -1613,6 +1518,22 @@ commercial vessels. Carriers have secondary roles as fuel, life support, and amm
 Both fusion and antimatter engine variants are normally crewed.`,
         classification: 'Praxis/Military'
     }],
+    ['Nexus', {
+        content:
+`Nexus was a biocoherence company founded by [[Hannah Weiss-Martin]] and hibernation biologist Javier Florentin, it
+ operated for 8 years and had some success in integrating computational materials into brain to make it last longer 
+ and work faster, before eventually being acquired by [[Pharmatica Group]].
+ 
+ Hannah Weiss-Martin met [[RDP]] biologist Javier Florentin in a cave diving expedition in Cordillera de los Altos,
+ they discussed founding a company together to explore quantum coherence in the brain and commercialise the integration
+ of neurological smart matter. The company was incorporated in 77 BFC in the [[Argentinian Mancomunidad]] which had no
+ laws on human experimentation, and their first contract was with [[Havfélög]] to develop enhanced reflexes in their 
+ mercenaries. During this time Javier Florentin was in a relationship with the well known aestheticist Julieta Gómez 
+ Romero, but she was tragically killed in one of the periodo violento that were still common in the Mancomunidad. It was 
+ not clear if Havfélög were involved, but Nexus pulled all contracts with them and a few years later Nexus was 
+ acquired by Pharmatica.`,
+        classification: 'Praxis/Technoprog'
+    }],
     ['Neurogenesis Treatment', {
         content:
 `Datï¿½orruà¤¶आtedा`,
@@ -1693,9 +1614,36 @@ It fields the largest of the space navies, and draws materiel from a number of s
 Sands Missile Range and the Panopticon Relay.`,
         classification: 'Socionomics/Confederations'
     }],
+    ['Pharmatica Group', {
+        content: `Pharmatica Group is a bioinformatics and pharmaceutical conglomerate specialising in 
+[[synth~Synthetic Intelligence]] developed pharmaceutical products and molecular production services. It is the system's 
+largest employer of computational biologists and produces the two best-selling pharmaceuticals, the [[Antiakrasic]] 
+Akrasinil and the senolytic Renovacel.
+
+Pharmatica originated with European pharmaceutical giant Novo Nordisk's issues scaling out its semaglutide manufacture 
+to meet the continually increasing global demand for them. The solution, cell free synthesis production lines, were so 
+effective that Pharmatica was left with excess molecular farming capacity. Pharmatica's response was to invest 
+significant resources into providing rental and APIs on top of its molecular farms, and over time this has become their 
+second largest revenue stream.
+
+At the same time the advent of affordable powder bed drug printing was leading to to wide-spread drug piracy and over 
+time reducing the revenue from direct sale of patent protected drugs (although they remain the highest margin physical 
+good and today direct sales still make up a significant portion of Pharmatica's revenue). To combat this Pharmatica 
+invested heavily in developing cell dynamic models from their internal datasets such as perturbation and genetic 
+interaction data in order to license drugs developed from them. Despite the heavy competition from [[Amazon]] in this 
+area, royalties from these drugs are now the companies biggest revenue source. 
+
+Pharmatica expanded into neurological modelling by buying smaller companies in the space such as [[Nexus]] in 69 BFC.
+In 65 BFC, looking to break into the new market of tailored mRNA programming products which was being explored by
+several startups as well as the giant [[Bioforge Hivegen]], it acquired biotechnology giant AstraZeneca which had
+the most IP in this space, and as part of the merger the combined conglomerate was renamed to Pharmatica Group. During 
+the lifestyle neo-opiod wave of the 50s the groups SynthAntagon antagonist became a best seller, and addiction treatment
+pharmaceuticals continue to be their single best selling product.`,
+        classification: 'Socionomics/Polities'
+    }],
     ['Plasmorph', {
         content:
-`A Plasmorph is a portable device capable of generating a bubble of plasma which can contain a volume of atmosphere
+            `A Plasmorph is a portable device capable of generating a bubble of plasma which can contain a volume of atmosphere
 inside a vacuum. They are used as personal emergency temporary space suits, most commonly manufactured by Midea Group, 
 as well as for industrial and military uses where the [[X Group]] is the largest manufacturer. 
 [[Freehab~Independent Habitats]] engineer [[Augustine Okafor]] is generally credited as the inventor, having developed 
@@ -1721,6 +1669,60 @@ interception virtually impossible, there are many uses for QuanLan in defense, d
 superposition vastly increases the bandwidth of a QuanLan compared to binary connection, some large distributed data 
 analytic tasks require QuanLan connections.`,
         classification: 'Infomatics/Networks'
+    }],
+    ['RDP', {
+        content: `Paraguay, officially Refugio de Datos Paraguay and commonly known as the RDP, is a country and data 
+haven in South America. It is bordered by Brazil to the east, Bolivia to the north, and the 
+[[Argentinian Mancomunidad]] to the south and west. With a population of 12.3 million, Paraguay has become one of the 
+world's leading technological powers, hosting approximately 18% of global compute capacity within its extensive network 
+of submersed data centers.
+
+Traditionally the world's largest exporter of electric power due to its abundant hydroelectricity, Paraguay began 
+specialising in submersed computing data centers during the vast increase of computing requirements in the early 
+[[InterMesh]] decades of the 170s and 160s. The economic booms in Brazil, Chile and Peru and the increasing 
+cryptocurrency and compute requirements for businesses in the [[Argentinian Mancomunidad]] were drivers
+of a lot of early data center development. [[Amazon]] invested heavily in this period in order to develop the Itaipu 
+corridor, a 1,200-kilometer stretch of interconnected submersed computing facilities along the Paraguay and Paraná 
+rivers. A large number of high capacity fibre links to to its neighbours were developed as well as satellite 
+infrastructure to better service the global financial sector. 
+
+Paraguay's stable climate and geopolitics, competitive compute pricing due to its abundance of cheap electricity and 
+water, led to a economies of scale feedback loop which encouraged building increasingly large submersed data centers. 
+The increasing viability of building commercial fusion plants in the 140s appeared to threaten this important sector of
+the economy. In response Paraguay passed some of the world's strongest user privacy laws and introduced extremely strict 
+regulations against unauthorized access to data. While the cost of fusion power has never dropped below the cost of 
+running a hydroelectric dam these laws have only been strengthened over time as many government and corporate users 
+contractually require the levels of stability and privacy that Paraguay provides. In recognition of the fact that 
+compute and associated activities and services now account for the vast majority of Paraguay's economy the official name
+of the country was changed to Refugio de Datos Paraguay by referendum in 7 BFC.`,
+        classification: 'Socionomics/Polities'
+    }],
+    ['Reset of Nations', {
+        content: `The period between the [[Khan Solar Storm]] of 187 BFC and the formation of the [[Eurasian Bloc]] in
+185 BFC is sometimes known as the Reset of Nations or simply the Reset, due to the rapid geopolitical shifts that 
+occurred over this two year period. The foundations for many of these changes had previously been laid by the collapse 
+of the Bretton Woods system and the [[United States]] increasing disinterest in intervening in international conflicts, 
+but were accelerated by the disintegration of large amounts of state power in the aftermath of the storm. 
+
+The immediate geopolitical changes were the complete disintegration of Syria, Georgia, and Lebanon, and economic 
+collapse in Egypt and Saudi Arabia, leading to the expansion of [[Türkiye]] and foundation of the 
+[[Levantine Republic]]; a series of annexations leading to the dissolution of the Sogdia economic zone and the 
+formation of Greater Uzbekistan; the Trypanosomiasis crisis which destabilised much of Africa and South America; and 
+finally the formation of the Eurasian Bloc. 
+
+Longer term geopolitical changes were created by the combination of growing food abundance from engineered RuBisCO 
+proteins developed as a crisis response measure, along with widespread availability of [[Synth~Synthetic Intelligence]] 
+child care and a general optimism from the recovery, leading to a baby boom and the [[Ceres Wave]] in the 170s. Another
+change seeded by the Reset was the increasing eradication of endemic tropical diseases in the aftermath of the 
+Trypanosomiasis crisis leading to increasing GDP growth and expansionism from countries that previously struggled with 
+them, most notably Indonesia, India, and Nigeria.
+
+The reset paved the way for a long laissez faire period, lasting up until the [[Retrograde Diaspora]], marked by an
+increase in corporate managed international and off earth policing as the United States was replaced first by a 
+combination of private organisations such as the [[Havfélög]] and other large national forces such as the [[GPR]], and 
+later by larger coalition forces such as the [[Peacekeepers]] and [[Greater Zhōngguó]] which were primarily focused 
+on larger scale military issues.`,
+        classification: 'Socionomics/Events'
     }],
     ['Retrograde Diaspora', {
         content:
