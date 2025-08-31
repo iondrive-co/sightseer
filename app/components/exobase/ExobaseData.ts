@@ -278,7 +278,9 @@ agencies over breeding extinct animals on stations outside of the jurisdiction o
 The combined company headquarters was established in Lausanne where the company had established a number of 
 cellule-atelier due to Vaud's extremely generous tax writeoff for synthetic biology R&D. In the following years they
 expanded aggressively offworld and were the largest supplier of food to the Martian colonies before their withdrawal in 
-the aftermath of the [[Retrograde Diaspora]] and the [[Stillborn Harvest]] attacks against their bio-reactors.`,
+the aftermath of the [[Retrograde Diaspora]] and the [[Stillborn Harvest]] attacks against their bio-reactors. In 22 BFC
+they established a void ecology division developing structures grown from extremophile bacteria, such as self 
+healing self growing solar collection arrays.`,
         classification: 'Socionomics/Polities'
     }],
     ['Ceres Wave', {
@@ -1045,16 +1047,17 @@ filled the entire basin and became officially known as Hellas Planitia.`,
     }],
     ['Infocom Agent', {
         content:
-`An Infocom Agent, more commonly known as a PIA (Personal Infocom Agent), is a [[Synthetic Intelligence]] that 
+`An Infocom Agent, sometimes known as an IA or a PIA (Personal Infocom Agent), is a [[Synthetic Intelligence]] that 
 specialises in personal support services such as data security and filtering, health, education, situational awareness, 
 and predictive modelling of user choices. Industrial models will also often include predictive actuation for things such 
-as exoskeletal control and hazard avoidance. Most PIAs in use are sold and maintained by [[Amazon]], [[Sinogroup]], and 
-[[Microsynth]], although many smaller companies sell specialised sub-agents such as [[Pharmatica Group]] (health 
-monitoring), [[MetaFox]] (entertainment recommendation), and [[X Group]] (auto-piloting).
+as exoskeletal control and hazard avoidance. Most IAs in use are sold and maintained by [[Amazon]], [[Sinogroup]], and 
+[[Microsynth]], although many smaller companies sell specialised plugins such as [[Pharmatica Group]] 
+(health monitoring), [[MetaFox]] (entertainment recommendation), and [[X Group]] (auto-piloting); with the managing IA 
+consulting these expert systems when their internal model is insufficient.
 
-As most PIAs are constantly connected to the [[InterMesh]] (or other services like [[QuanLan]] or the [[Exonet]]), have
+As most IAs are constantly connected to the [[InterMesh]] (or other services like [[QuanLan]] or the [[Exonet]]), have
 highly valuable personal data, and are expensive for a user to run, they are often subject to kidnap or reverse 
-engineering attacks. Earlier PIA encryption was vulnerable to various quantum side channel attacks which allowed many 
+engineering attacks. Earlier IA encryption was vulnerable to various quantum side channel attacks which allowed many 
 synths to be decompiled and customised, but the introduction of ephemeral quantum resistant algorithms has now greatly 
 increased the complexity of doing so. In addition, for custom models it has become harder to avoid corporate detection 
 on the InterMesh even with cloaked tunnel and steganographic chameleon hashing techniques.`,
@@ -1402,13 +1405,13 @@ Datï¿½orruà¤¶आtedा`,
 Washington. It produces synths specialised for business, finance, law-enforcement, and military uses, as well as 
 compute rental. It has been the world's largest supplier of synths to the military and law enforcement since its 
 acquisition of Palantir in 91 BFC, and the growth of non-government spending in those areas along with increasing 
-diversification of business and finance synth roles on the [[InterMesh]] has made that its most profitable business line.
-Datï¿½orruà¤¶आtedा`,
+diversification of business and finance synth roles on the [[InterMesh]] has made that its most profitable business 
+line. It has acquired a number of smaller military technology companies, such as [[Nexus]] in 69 BFC.`,
         classification: 'Socionomics/Polities'
     }],
     ['Nanocat Fury', {
-        content: `The Nanocat Fury, also called the Martian Troubles, are an ongoing series of protests and violent skirmishes 
-between the [[Freeholders] and other Martian nationalists, and a coalition of government and corporate security 
+content: `The Nanocat Fury, also called the Martian Troubles, are an ongoing series of protests and violent skirmishes 
+between the [[Freeholders]] and other Martian nationalists, and a coalition of government and corporate security 
 forces and Marsist groups such as Red Hand. It has attracted Yūmeijin support on both sides such as 
 [[Nimitra Wongprasert]]'s support of the nationalists and [[Alejandro Florentin]] for the Marsists.`,
         classification: 'Socionomics/Events'
@@ -1520,18 +1523,22 @@ Both fusion and antimatter engine variants are normally crewed.`,
     }],
     ['Nexus', {
         content:
-`Nexus was a biocoherence company founded by [[Hannah Weiss-Martin]] and hibernation biologist Javier Florentin, it
- operated for 8 years and had some success in integrating computational materials into brain to make it last longer 
- and work faster, before eventually being acquired by [[Pharmatica Group]].
+`Nexus was a biocoherence company founded by [[Hannah Weiss-Martin]] and hibernation biologist Javier Florentin. The 
+original company operated for 8 years and had some success in integrating computational materials into brain to make it 
+last longer and work faster, before eventually being sold off to the [[Pharmatica Group]] and [[Microsynth]]. Nexus 
+operated as a division of Microsynth for 10 years before being divested as a wholly owned subsidiary, MNex, to avoid new 
+biotech market disclosure rules, and is now primarily focussed on hibernation and cryopreservation research and 
+development.
  
- Hannah Weiss-Martin met [[RDP]] biologist Javier Florentin in a cave diving expedition in Cordillera de los Altos,
- they discussed founding a company together to explore quantum coherence in the brain and commercialise the integration
- of neurological smart matter. The company was incorporated in 77 BFC in the [[Argentinian Mancomunidad]] which had no
- laws on human experimentation, and their first contract was with [[Havfélög]] to develop enhanced reflexes in their 
- mercenaries. During this time Javier Florentin was in a relationship with the well known aestheticist Julieta Gómez 
- Romero, but she was tragically killed in one of the periodo violento that were still common in the Mancomunidad. It was 
- not clear if Havfélög were involved, but Nexus pulled all contracts with them and a few years later Nexus was 
- acquired by Pharmatica.`,
+Hannah Weiss-Martin met [[RDP]] biologist Javier Florentin in a cave diving expedition in Cordillera de los Altos,
+they discussed founding a company together to explore quantum coherence in the brain and commercialise the integration
+of neurological smart matter. Nexus was incorporated in 77 BFC in the [[Argentinian Mancomunidad]] which had no
+laws on human experimentation, and their first contract was with [[Havfélög]] to develop enhanced reflexes in their 
+marines. During this time Javier Florentin was in a relationship with the well known aestheticist Julieta Gómez 
+Romero, but she was tragically killed in 70 BFC during one of the periodo violento that were then still common in the 
+Mancomunidad. It was not clear if Havfélög were involved, but that year Nexus cancelled all contracts with them and 
+sold the rights to their neural models to Pharmatica, and the remainder of their assets to [[Microsynth]] the following
+year.`,
         classification: 'Praxis/Technoprog'
     }],
     ['Neurogenesis Treatment', {
@@ -1633,12 +1640,12 @@ invested heavily in developing cell dynamic models from their internal datasets 
 interaction data in order to license drugs developed from them. Despite the heavy competition from [[Amazon]] in this 
 area, royalties from these drugs are now the companies biggest revenue source. 
 
-Pharmatica expanded into neurological modelling by buying smaller companies in the space such as [[Nexus]] in 69 BFC.
-In 65 BFC, looking to break into the new market of tailored mRNA programming products which was being explored by
-several startups as well as the giant [[Bioforge Hivegen]], it acquired biotechnology giant AstraZeneca which had
-the most IP in this space, and as part of the merger the combined conglomerate was renamed to Pharmatica Group. During 
-the lifestyle neo-opiod wave of the 50s the groups SynthAntagon antagonist became a best seller, and addiction treatment
-pharmaceuticals continue to be their single best selling product.`,
+Pharmatica started expanding into neurological modelling in 70 BFC by acquiring IP from smaller companies such as 
+[[Nexus]]. In 65 BFC, looking to break into the new market of tailored mRNA programming products which was being 
+explored by several startups as well as the giant [[Bioforge Hivegen]], it acquired biotechnology giant AstraZeneca 
+which had the most IP in this space, and as part of the merger the combined conglomerate was renamed to Pharmatica 
+Group. During the lifestyle neo-opiod wave of the 50s the groups SynthAntagon antagonist became a best seller, and 
+addiction treatment pharmaceuticals continue to be their single best selling product.`,
         classification: 'Socionomics/Polities'
     }],
     ['Plasmorph', {
