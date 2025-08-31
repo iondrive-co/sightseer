@@ -13,6 +13,11 @@ The 12Quan name was initially a religious reference to the 12th Hidden Imam as w
 pronounced as 1-2-kwon.`,
         classification: 'Socionomics/Polities'
     }],
+    ['Alejandro Florentin', {
+content: `Alejandro Florentin (70 BFC -) is best known as the lead architect of [[Island One]]. He is the son of 
+Javier Florentin and [[Hannah Weiss-Martin]] and is also known for his [[Marsist~Nanocat Fury]] advocacy.`,
+        classification: 'Yūmeijin'
+    }],
     ['Aljanah Lunar Resort', {
 content: `Aljanah Lunar Resort is a luxury lunar resort and international flight arena located in the Vallis Schröteri,
 Aristarchus Plateau. It is the flagship venue for Aerowing racing, with competitive terrain-based racing routes 
@@ -225,7 +230,7 @@ as his Deus Machina faith which was more palatable to the more centralisation fo
 obtain diplomatic recognition for the Freeholders from the Caliphate's rival [[Türkiye]]. On the 2nd May, 14 AFC, Anna 
 Reyes was killed by Turkish genetic malware, and since then there has been a much closer diplomatic relationship between
 the Freeholders and Freehab, with the two jointly participating in the [[Nanocat Fury]] protests.`,
-        classification: 'Socionomics/People'
+        classification: 'Yūmeijin'
     }],
     ['Automated Modular Solid-State Transformers', {
         content: `An Automated Modular Solid-State Transformer or AMSST, is an umbrella term for the design of the last 
@@ -1001,10 +1006,9 @@ smart matter theory of the [[First Contact Event]]. She is also known for pionee
 which use conscious entanglement to probe mind-matter coupling, as well as co-founding biocoherence company [[Nexus]].
 At 27 years old she completed her thesis on quantum cognition at Caltech, and has worked there in some capacity for her 
 entire life. At 153 years old she is currently the worlds oldest working academic researcher. Hannah is the daughter of 
-scientists [[Levi Weiss]] and Talia Martin. She briefly entered a line marriage with her Nexus co-founder Javier 
-Florentin and they had a son together, Alejandro Weiss-Martin, who is one of the designers of [[Island One]]. In 59 BFC
-Hannah married to folk musician Zoe Sage.`,
-        classification: 'Socionomics/People'
+scientists [[Levi Weiss]] and Talia Martin. She has two children with her Nexus co-founder Javier Florentin, Isla and 
+[[Alejandro~Alejandro Florentin]], and has been married to folk musician Zoe Sage since 59 BFC.`,
+        classification: 'Yūmeijin'
     }],
     ['Hellas Planitia', {
         content: `Hellas Planitia, often called Hellas or Hades, is an industrial center and the largest Martian city, 
@@ -1275,7 +1279,7 @@ colleagues established an institute for the development of techniques in generat
 families. In 138 BFC Levi met biologist Talia Martin who he married two years later, in 135 BFC their daughter 
 [[Hannah Weiss-Martin]] was born. In 121 BFC Levi famously began live streaming a series of controversial experiments 
 with theoretical false vacuum modulation techniques, prompting a ban on the research in the US and elsewhere.`,
-        classification: 'Socionomics/People'
+        classification: 'Yūmeijin'
     }],
     ['Lunar Industrial Engineering', {
         content:
@@ -1323,7 +1327,7 @@ Convention in 185 BFC which Koji led, and this in turn laid the foundations for 
 integration of Japan into the Bloc's political organisations. Koji was appointed to two other cabinet positions, 
 Minister for Construction, and for a later government Minister for Foreign Affairs, before retiring from politics in 
 169 BFC as one of the longest tenured ministers in Japanese history.`,
-        classification: 'Socionomics/People'
+        classification: 'Yūmeijin'
     }],
     ['Mote', {
         content:
@@ -1391,10 +1395,10 @@ between Martian nationalist groups such as the [[Freeholders]] and the security 
  they discussed founding a company together to explore quantum coherence in the brain and commercialise the integration
  of neurological smart matter. The company was incorporated in 77 BFC in the [[Argentinian Mancomunidad]] which had no
  laws on human experimentation, there first contract were with [[Havfélög]] to develop enhanced reflexes in their 
- mercenaries. During this time Javier Florentin married Aestheticist Julieta Gómez Romero and they had a daughter 
- together, but she was tragically killed in one of the periodo violento that were common in the early years of the
- Mancomunidad. It was not clear if Havfélög were involved, but Nexus pulled all contracts with them and a few years
- later were acquired by Pharmatica.`,
+ mercenaries. During this time Javier Florentin was in a relationship with the well known aestheticist Julieta Gómez 
+ Romero, but she was tragically killed in one of the periodo violento that were still common in the Mancomunidad. It was 
+ not clear if Havfélög were involved, but Nexus pulled all contracts with them and a few years later were acquired by 
+ Pharmatica.`,
         classification: 'Praxis/Technoprog'
     }],
     ['Pharmatica Group', {
@@ -1668,7 +1672,7 @@ controversial [[MarsNet]] show which covered black market tech such as descrambl
 [[X Group]]'s aerostat network. Since her return to Earth she has funded multiple Martian aid organisations, has 
 successfully pressured [[Semiotican]] to grant legal rights to some older unprofitable mining outposts to their original 
 workers, and has spearheaded a campaign for Planum Australe to have representation in the [[Eurasian Bloc]] parliament.`,
-        classification: 'Socionomics/People'
+        classification: 'Yūmeijin'
     }],
     ['Outer Trading League', {
         content:
@@ -1948,7 +1952,7 @@ interpret and react to their own internally simulated emotional states, closely 
     }],
     ['Tariq Al-Hashim', {
         content: ``,
-        classification: 'Socionomics/People'
+        classification: 'Yūmeijin'
     }],
     ['Ten-Hour War', {
         content: `The Ten-Hour War was a conflict between the [[United States]] and an alliance of the People's Republic 
