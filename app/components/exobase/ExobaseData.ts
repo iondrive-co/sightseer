@@ -26,7 +26,7 @@ the Vallis Schröteri rille, while a larger dome built over a network of minor r
 An initial smaller resort was opened at the site by Al-Qamar Leisure in 170 BFC, and during the collapse of the gulf 
 states it was partially nationalised by [[Türkiye]] until being transferred to Selçuk AeroTek. It is the most popular 
 location for luna tourism, attracting tens of thousands more tourists per year than the second most visited site, the 
-[[Sanktuarium Jasności]]`,
+[[Sanktuarium Jasności]].`,
         classification: 'Geo'
     }],
     ['Amazon', {
@@ -507,9 +507,9 @@ light echoes through the view).
     }],
     ['Ellulism', {
         content: `Ellulism is a political theological movement which draws on Christian Anarchism combined with a set 
-of beliefs and practices inspired by works of [[French~Grande France]] philosopher and sociologist Jacques Ellul and
+of beliefs and practices inspired by works of [[French~France]] philosopher and sociologist Jacques Ellul and
 [[American~United States]] author Chuck Palahniuk. Ellulism was first developed and taught by Mourad Laboure in Kabylie
-in 177 BFC, spread out of Grande France to the US and then became wildly popular off Earth during the [[Ceres Wave]], 
+in 177 BFC, spread out of France to the US and then became wildly popular off Earth during the [[Ceres Wave]], 
 and is today the majority belief system in [[Freehab]]. Outside of the [[Argentinian Mancomunidad]] it has never been
 widespread on Earth, and since the [[Retrograde Diaspora]] has lost popularity in cislunar as well, being replaced as 
 the smallest of the top 5 beliefs by [[Deus Machina]].
@@ -573,27 +573,29 @@ and updated, although the current author is unknown. One popular theory is that 
     }],
     ['Eurasian Bloc', {
             content:
-`The Eurasian Bloc is an astropolitical and economic entity which formed out the European Union, India, Japan, South 
-Korea, Vietnam, and Singapore in the aftermath of the political upheaval following the [[Khan Solar Storm]] of 187 BFC. 
-Over time it has grown to encompass Japan's seizure of Enkaishū (Russia's Primorsky Krai)  once the Eurasian SDI was
-operational, and also to include most 
-French aligned North-West African countries (and so is no longer strictly Eurasian).The Bloc's treaties of governance 
-primarily concern trade, colony administration, and defence, leaving its constituent members with legislative autonomy 
-in other areas. It is governed by a supranational bureaucracy supplemented with meritocratic sortition, whereby a 
-random selection of experts is drawn from the general populace for the purposes of drafting legislation. 
+`The Eurasian Bloc is an astropolitical and economic entity which formed out many European Union countries along with 
+Japan, South Korea, Vietnam, and Singapore in the aftermath of the political upheaval following the [[Khan Solar Storm]] 
+of 187 BFC. It was never strictly Eurasian as it included [[French~France]], Dutch, Portuguese, and Spanish overseas 
+territories in South America and the Caribbean, North-West Africa, and Oceania. Over time it has grown, to encompass the 
+Spanish Protectorado Energético de Paraguaná during the [[Reset of Nations]], Japan's seizure of Enkaishū (Russia's 
+Primorsky Krai) once the Eurasian SDI was operational, and also to include new French territories in North-West African. 
+Many non-bloc countries have customs unions with the Bloc, including the United Kingdom, Norway, Switzerland, India, 
+Australia, and New Zealand. The Bloc's treaties of governance primarily concern trade, colony administration, and 
+defence, leaving its constituent members with legislative autonomy in other areas. It is governed by a supranational 
+bureaucracy supplemented with meritocratic sortition, whereby a random selection of experts is drawn from the general 
+populace for the purposes of drafting legislation. 
 
 The proposal for a new set of international treaties to replace the role the U.S. and NATO had played prior to Khan 
 was first made by Japanese Defense Minister [[Matsumoto Koji]] at the Lausanne Convention in 185 BFC. Due to the 2nd 
 Japanese Economic Miracle and integration into the economies of Bloc countries via its supply of 
 [[Automated Modular Solid-State Transformers~AMSSTs]] Japan was able to play a major role in the construction of the 
-Bloc's political organisations, despite having less than 5% of the total population of the Bloc countries. Over time the 
-French have taken a larger role in leadership as their economy recovered and (including their colonies and integrated 
-protectorates) is now the second largest in the Bloc after India. The merger of Japanese, European, Indian, and Chinese 
-leadership culture has lead to institutions that are highly engineering and environmentally focused, and which emphasise 
-flexibility and practicality in the development of policy and use of technology to deal with environmental and political 
-crises. They are the second largest contributor to the [[Peacekeepers]] (after the United States and its client 
-countries) and often align with the US against the non-Peacekeeper space power blocs of [[Greater Zhōngguó]], 
-[[Dominio]], [[Türkiye]], and the [[Fatimid Trade Caliphate]].`,
+Bloc's political organisations, despite having only a small percentage of the total population of the Bloc countries. 
+Over time the French have taken a larger role in leadership as their economy recovered and (including their colonies and 
+integrated protectorates), and the combined French and East Asian leadership cultures has created inflexible 
+bureaucratic institutions that are strongly engineering and environmentally focused. The Eurasian Bloc countries are 
+the second largest contributor to the [[Peacekeepers]] (after the United States and its client countries) and often 
+align with the US against the non-Peacekeeper space power blocs of [[Greater Zhōngguó]], [[Dominio]], [[Türkiye]], and 
+the [[Fatimid Trade Caliphate]].`,
         classification: 'Socionomics/Confederations'
     }],
     ['Exonet',{
@@ -632,6 +634,15 @@ The Chandler-Kapoor Agreements of the 70s require all signatories to monitor for
 existential risk charities have funded additional regional rollouts of denser distributions of [[motes~Mote]]s in 
 under-served areas to mitigate the danger of missing any fabrication.`,
         classification: 'Praxis/Industrial'
+    }],
+    ['Fatimid Trade Caliphate', {
+        content:
+`The Fatimid Trade Caliphate is a trading alliance between several majority Shi'a nations, Iran, South Iraq, Bahrain, 
+the Beqaa State, and North Yemen. The trading alliance also encompasses a free trade zone with the Azerbaijani 
+region of the Türkiye confederation. The swiss multinational [[Bioforge Hivegen]] has a close relationship with the
+governing Shūrā and supplies members with many cutting edge agricultural products, especially to the high density solar 
+desalinisation farming areas such as the Beqaa valley.Datï¿½orruà¤¶आtedा`,
+        classification: 'Socionomics/Confederations'
     }],
     ['First Contact Event', {
         content:
@@ -754,15 +765,6 @@ has mostly replaced the Gregorian calender system in daily life system-wide.
 1. [[Kinships of the Astroindigène]]`,
         classification: 'Socionomics/Events'
     }],
-    ['Fatimid Trade Caliphate', {
-        content:
-`The Fatimid Trade Caliphate is a trading alliance between several majority Shi'a nations, Iran, South Iraq, Bahrain, 
-the Beqaa State, and North Yemen. The trading alliance also encompasses a free trade zone with the Azerbaijani 
-region of the Türkiye confederation. The swiss multinational [[Bioforge Hivegen]] has a close relationship with the
-governing Shūrā and supplies members with many cutting edge agricultural products, especially to the high density solar 
-desalinisation farming areas such as the Beqaa valley.Datï¿½orruà¤¶आtedा`,
-        classification: 'Socionomics/Confederations'
-    }],
     ['Forge Palace', {
         content:
             `Forge Palace (锻宫) is a combined luxury resort casino and a martial arts training academy, built within the natural 
@@ -775,6 +777,11 @@ The institute saw less use over time due to increasing use of combat [[instances
 [[Greater Zhōngguó]] allowed base operator [[Sinogroup]] to establish a lightly regulated casino and resort on the 
 asteroid in 97 BFC`,
         classification: 'Geo'
+    }],
+    ['France', {
+content: `France, officially the French Republic, is a country primarily located in Western Europe and is the largest 
+economy in the [[Eurasian Bloc]].`,
+        classification: 'Socionomics/Polities'
     }],
     ['Freeholders', {
         content: `The Freeholders are a Martian based political and paramilitary organisation with origins in the 

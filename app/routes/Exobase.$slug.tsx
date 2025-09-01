@@ -10,7 +10,7 @@ type ArticleData = [string, {content: string, classification: string}];
 
 function ClassificationPage({ data, noSubcategory }: { data: Record<string, ArticleData[]>, noSubcategory: ArticleData[] }) {
     const location = useLocation();
-    const classification = location.pathname.split('/')[2].replace('Category-', '');
+    const classification = decodeURIComponent(location.pathname.split('/')[2]).replace('Category-', '');
 
     return (
         <div key={location.key} className="article-container">
