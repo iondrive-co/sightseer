@@ -577,8 +577,8 @@ and updated, although the current author is unknown. One popular theory is that 
 Japan, South Korea, Vietnam, and Singapore in the aftermath of the political upheaval following the [[Khan Solar Storm]] 
 of 187 BFC. It was never strictly Eurasian as it included [[French~France]], Dutch, Portuguese, and Spanish overseas 
 territories in South America and the Caribbean, North-West Africa, and Oceania. Over time it has grown, to encompass the 
-Spanish Protectorado Energético de Paraguaná during the [[Reset of Nations]], Japan's seizure of Enkaishū (Russia's 
-Primorsky Krai) once the Eurasian SDI was operational, and also to include new French territories in North-West African. 
+newly created Aruba y Paraguaná during the [[Reset of Nations]], Japan's seizure of Enkaishū (Russia's Primorsky Krai) 
+once the Eurasian SDI was operational, and also to include later French protectorates in North-West Africa. 
 Many non-bloc countries have customs unions with the Bloc, including the United Kingdom, Norway, Switzerland, India, 
 Australia, and New Zealand. The Bloc's treaties of governance primarily concern trade, colony administration, and 
 defence, leaving its constituent members with legislative autonomy in other areas. It is governed by a supranational 
@@ -864,7 +864,7 @@ low levels of the golden era of Sinaloa.`,
     ['Greater Zhōngguó', {
 content: `Greater Zhōngguó is a political entity which was formed between 102 and 98 BFC from the unification of the 
 [[GPR]] countries (China, North Korea, Russia, Siberia, Mongolia, and Myanmar) with their close trading partners South 
-Africa, Ethiopia, Sudan, Djibouti, Eritrea, Somalia, U.A.E, Oman, South Yemen, Pakistan, Indonesia, Papua New Guinea, 
+Africa, Ethiopia, Sudan, Djibouti, Eritrea, Somalia, U.A.E, Oman, South Yemen, Indonesia, Papua New Guinea, 
 and Greater Uzbekistan; as well as an informal agreement with the other non-[[Peacekeeper]] space power blocs on 
 spheres of influence. Initially a mostly economic union, over time it has become more militarily focussed as the 
 Peacekeepers have grown and to India's open support of a succession movement in Myanmar. Despite having significantly 
@@ -1712,17 +1712,18 @@ of the country was changed to Refugio de Datos Paraguay by referendum in 7 BFC.`
         classification: 'Socionomics/Polities'
     }],
     ['Reset of Nations', {
-        content: `The period between the [[Khan Solar Storm]] of 187 BFC and the formation of the [[Eurasian Bloc]] in
-185 BFC is sometimes known as the Reset of Nations or simply the Reset, due to the rapid geopolitical shifts that 
-occurred over this two year period. The foundations for many of these changes had previously been laid by the collapse 
-of the Bretton Woods system and the [[United States]] increasing disinterest in intervening in international conflicts, 
-but were accelerated by the disintegration of large amounts of state power in the aftermath of the storm. 
+content: `The period between the [[Khan Solar Storm]] of 187 BFC and the formation of [[Dominio]] proper in 181 BFC is 
+sometimes known as the Reset of Nations or simply the Reset, due to the rapid geopolitical shifts that occurred. The 
+foundations for many of these changes had previously been laid by the collapse of the Bretton Woods system and the 
+[[United States]] increasing disinterest in intervening in international conflicts, but were accelerated by the 
+disintegration of large amounts of state power in the aftermath of the storm. 
 
-The immediate geopolitical changes were the complete disintegration of Syria, Georgia, and Lebanon, and economic 
-collapse in Egypt and Saudi Arabia, leading to the expansion of [[Türkiye]] and foundation of the 
-[[Levantine Republic]]; a series of annexations leading to the dissolution of the Sogdia economic zone and the 
-formation of Greater Uzbekistan; the Trypanosomiasis crisis which destabilised much of Africa and South America; and 
-finally the formation of the Eurasian Bloc. 
+The immediate geopolitical changes in the first years were the complete disintegration of Venezuela, Syria, Georgia, 
+Lebanon, and Pakistan, and economic collapse in Egypt, Saudi Arabia, and the Sogdia economic zone. The political and 
+economic vacuum was usually filled by neighbours such as [[Türkiye]], Uzbekistan, and the newly formed 
+[[Levantine Republic]], or from nearby administrative districts such as Aruba y Paraguaná taking over the Paraguaná 
+Refinery Complex. At the same time the Trypanosomiasis crisis destabilised much of Africa and South America. The changes
+from the initial two years of chaos created the conditions for the formation of the [[Eurasian Bloc]] and Dominio.
 
 Longer term geopolitical changes were created by the combination of growing food abundance from engineered RuBisCO 
 proteins developed as a crisis response measure, along with widespread availability of [[Synth~Synthetic Intelligence]] 
@@ -2031,11 +2032,11 @@ it and started developing other [[Naval Auxiliary]] vessels.`,
 consists of Türkiye, North Iraq, Azerbaijan, the Chechen Federation, and Crimea, as well as the semi-autonomous regions 
 of Alawite Syria and Georgia. It was a close ally of Greater Uzbekistan until that country joined [[Greater Zhōngguó]], 
 is largely responsible for running the military junta in Cairo, and continues to maintain its historical military 
-presence in Saudi Arabia which was established during the time of its alliance with Pakistan. It frequently is involved 
-in border disputes with [[Levantine Republic]]. As the unofficial center of power for Sunni Islam, it has sometimes 
-tense diplomatic relations with Iran and the [[Fatimid Trade Caliphate]], although the need to protect high volume of 
-inter-bloc trade, especially through the free trade zone in Azerbaijan, has motivated peaceful resolutions to most 
-conflicts between the two Muslim power blocs.`,
+presence in Saudi Arabia which was established during the time of its alliance with former state of Pakistan. It 
+frequently is involved in border disputes with [[Levantine Republic]]. As the unofficial center of power for Sunni 
+Islam, it has sometimes tense diplomatic relations with Iran and the [[Fatimid Trade Caliphate]], although the need to 
+protect high volume of inter-bloc trade, especially through the free trade zone in Azerbaijan, has motivated peaceful 
+resolutions to most conflicts between the two Muslim power blocs.`,
         classification: 'Socionomics/Confederations'
     }],
     ['United States', {

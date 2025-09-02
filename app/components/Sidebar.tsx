@@ -7,11 +7,8 @@ export default function Sidebar() {
   
   return (
     <div className="sidebar">
-        <Link to="/">
-            <img src="/favicon.ico" alt="Home" />
-        </Link>
-      <Link to="/Editor" className="text-xl underline cursor-pointer">
-        Editor
+      <Link to="/">
+        <img src="/favicon.ico" alt="Home" />
       </Link>
       <Link to="/exobase/Exobase" className="text-xl underline cursor-pointer">
         Exobase
@@ -27,6 +24,9 @@ export default function Sidebar() {
       </Link>
       <Link to="/Solar" className="text-xl underline cursor-pointer">
         Solar
+      </Link>
+      <Link to="/Tools" className="text-xl underline cursor-pointer">
+         Tools
       </Link>
     </div>
   );

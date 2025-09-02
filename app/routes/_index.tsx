@@ -16,12 +16,12 @@ export default function Index() {
                 <div>
                     <p className="email">Contact: c@iondrive.co</p>
                     <div className="descriptions">
-                        <p>&lt;--Edit images in your browser without them leaving your device</p>
                         <p>&lt;--Intelligence Dampening Sphere</p>
                         <p>&lt;--How to build a world</p>
                         <p>&lt;--Cooking things</p>
                         <p>&lt;--Very short movie and game reviews</p>
                         <p>&lt;--Simple Hohmann transfer simulation using three.js</p>
+                        <p>&lt;--Edit images in your browser without them leaving your device</p>
                     </div>
                 </div>
             </div>

@@ -2,7 +2,7 @@ import {ChangeEvent, MouseEvent, useEffect, useRef, useState} from "react";
 import FileSaver from 'file-saver';
 import Sidebar from "../components/Sidebar";
 import '~/styles/tailwind.css';
-import '~/styles/editor.css';
+import '~/styles/tools.css';
 
 function ImageUploader() {
   const imageRef = useRef<HTMLImageElement>(null);
@@ -280,7 +280,7 @@ function ImageUploader() {
   };
 
   return (
-      <div ref={containerRef} tabIndex={-1}> {/* Add ref and tabIndex here */}
+      <div ref={containerRef} tabIndex={-1}> {}
         <p>
           All files are stored locally on your computer. Use back and forward arrow keys to navigate,
           and click and drag (press and drag on a touchscreen) to change selection size.
@@ -330,7 +330,7 @@ function ImageUploader() {
   );
 }
 
-export default function EditorRoute() {
+export default function ToolsRoute() {
   return (
       <div className="app">
         <Sidebar />
