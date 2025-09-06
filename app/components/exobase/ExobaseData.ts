@@ -606,9 +606,9 @@ Bloc's political organisations, despite having only a small percentage of the to
 Over time the French have taken a larger role in leadership as their economy recovered and (including their colonies and 
 integrated protectorates), and the combined French and East Asian leadership cultures has created inflexible 
 bureaucratic institutions that are strongly engineering and environmentally focused. The Eurasian Bloc countries are 
-the second largest contributor to the [[Peacekeepers]] (after the United States and its client countries) and often 
-align with the US against the non-Peacekeeper space power blocs of [[Greater Zhōngguó]], [[Dominio]], [[Türkiye]], and 
-the [[Fatimid Trade Caliphate]].`,
+the third largest contributor to the [[Peacekeepers]] (after the United States and India) and often align with the US 
+against the non-Peacekeeper space power blocs of [[Greater Zhōngguó]], [[Dominio]], [[Türkiye]], and the 
+[[Fatimid Trade Caliphate]].`,
         classification: 'Socionomics/Confederations'
     }],
     ['Exonet',{
@@ -680,11 +680,12 @@ not known at the time, their existence and the trajectory change, which by this 
 independent sources, lead to a system-wide crisis as both [[FreeHab~Independent Habitats]] and [[GZ~Greater Zhōngguó]] 
 publicly accused the [[Peacekeepers]] of fielding a new first strike weapon system. 
 
-Loitering missile swarms were orbited by both GZ and the Peacekeepers, and all three polities moved fleets into 
-high orbit. Freehab had several autonomous survey ships within a few AU and similar trajectories to the object when it 
-was detected, and announced they were moving them to intercept. Over the next several days the lack of further 
-trajectory changes or new objects helped to de-escalate tensions, and all three polities announced they were initiating 
-their respective first contact protocols.
+Loitering missile swarms were orbited by both GZ and the [[United States]], and along with India and the Peacekeepers 
+moved fleets into high orbit. The United States, India, [[France]], and the GZ were all found to have moved their 
+terrestrial forces to DEFCON 2. Freehab had several autonomous survey ships within a few AU and on similar trajectories 
+to the object when it was detected, and announced they were moving them to intercept. Over the next several days the 
+lack of further trajectory changes or new objects helped to de-escalate tensions, and the United States and GZ announced 
+they were initiating their respective first contact protocols.
 
 Over the next week the nearest Freehab ship had moved close enough to use infrared thermography from its survey 
 equipment to determine that the object was likely assembling something inside itself. This is now generally accepted to 
@@ -861,7 +862,7 @@ demographically collapsing Russia and to a lesser extent China.`,
     }],
     ['Gran México', {
         content: `Gran México, officially the República Federal de Gran México, is the world's 15th most populous 
-country, the 7th largest terrestrial economy, and largest trading partner of the [[United States]] as well as the third 
+country, the 7th largest terrestrial economy, and largest trading partner of the [[United States]] as well as the fourth 
 major power bloc in the [[Peacekeepers]] space based military alliance. The nation emerged from the United Mexican 
 States through a series of political reforms and territorial expansions, most notably the annexation of the failed 
 states of Guatemala and the parts of Venezuela not seized by [[Dominio]]. Gran México operates as a federal republic 
@@ -1633,11 +1634,16 @@ independence groups.`,
     ['Peacekeepers', {
         content:
 `The United System Peacekeeping Navy, commonly known as the Peacekeepers, are an intergovernmental space based military 
-force fielded by an alliance of the [[United States]], its client countries, the [[Eurasian Bloc]], and [[Gran México]]. 
-It was formed in 102 BFC to counter the space power blocs of [[Greater Zhōngguó]] and [[Dominio]] (and to a lesser 
-extent [[Türkiye]] and the [[Fatimid Trade Caliphate]]). 
-It fields the largest of the space navies, and draws materiel from a number of specialised manufacturing hubs such as
-[[Drone Valley]]. It often hires training and intelligence facilities from the [[Constellis Group]] such as the White 
+force fielded by an alliance of the [[United States]], India, the United Kingdom, [[Gran México]], [[France]], and many 
+smaller [[Eurasian Bloc]] countries and allies. Both the United States and India have their own significant forces of 
+[[Naval Rated Ship]]s and contribute with older ships and materiel, using the Peacekeepers for missions where avoiding 
+entanglement and conferring the optics of international legitimacy are required. 
+
+The organisation was formed in 102 BFC to counter the increasing coordination between [[Greater Zhōngguó]] and 
+[[Dominio]] (and to a lesser extent [[Türkiye]] and the [[Fatimid Trade Caliphate]]) in international civilian affairs 
+such as policing and enforcing trade conditions on off Earth colonies, and it has now grown to field a larger number of 
+rated ships than GZ. The Peacekeepers draw materiel from a number of specialised manufacturing hubs such as 
+[[Drone Valley]], and often hire training and intelligence facilities from the [[Constellis Group]] such as the White 
 Sands Missile Range and the Panopticon Relay.`,
         classification: 'Socionomics/Confederations'
     }],
@@ -1749,7 +1755,7 @@ The reset paved the way for a long laissez faire period, lasting up until the [[
 increase in corporate managed international and off earth policing as the United States was replaced first by a 
 combination of private organisations such as the [[Havfélög]] and other large national forces such as the [[GPR]], and 
 later by larger coalition forces such as the [[Peacekeepers]] and [[Greater Zhōngguó]] which were primarily focused 
-on larger scale military issues.`,
+on larger scale piracy, trade, and military issues.`,
         classification: 'Socionomics/Events'
     }],
     ['Retrograde Diaspora', {
