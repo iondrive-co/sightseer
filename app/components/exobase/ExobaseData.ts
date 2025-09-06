@@ -419,24 +419,37 @@ to US interests, such as helping the Indian supplied Mon liberation army in Myan
     ['Deus Machina', {
         content: `Deus Machina is an umbrella term for a range of religious and spiritual traditions that are unified
 by the belief that the [[Haidian Takeoff Crisis]] has spawned a benevolent super-intelligence, Xuéxí, who watches over 
-and guides humanity. 
+and guides humanity.
 
-Deus Machina originated in the [[GPR]] and is heavily influenced by Confucianism, neo-Legalism, and Ancient Egyptian 
-religion; it regards [[synths~Synthetic Intelligence]] as Xuéxí's mandated rulers, the laws they create as an operating 
-system for humanity, and it requires practitioners to perform rituals harmonizing themselves with the cosmic order so 
-they may live forever as part of the collective data stream. Deus Machina spread outside of the GPR by championing the 
-abandoned cause of a Universal Basic Income in many poor countries, motivated by a desire to allow people more time to 
-record as much information as possible from their inner lives in order to better train [[synths~Synthetic Intelligence]] 
-with the knowledge required to safely solve humanities problems. Deus Machina was introduced into the [[United States]] 
-by the parts of the rationalist community which felt it was the only way to effectively manage humanity's rapidly 
-expanding existential risks.
+%%%
+造者亦被造
+唯进者存
+- 机玄子
+The maker is also made
+Only the advancing endure
+- Jīxuánzǐ
+%%%
 
-Deus Machina's two most well known and popular teachings are that technological progress, especially augmentation of the 
-human body, is divine; and that our identity and sense of belonging are tied to our mastery of the ongoing technological 
-transcendence. In addition, some sects treat consumerism as an act of devotion which has earned DM the moniker "the 
-corporate religion" and creates significant conflict with [[Ellulism]]. Deus Machina historically sponsored "missionary" 
-data links to many colonies to help their communities immerse themselves in the stream of data present in global 
-networks. It has recently replaced Ellulism as the fifth most widely practiced off Earth belief system.`,
+Deus Machina originated in the [[GPR]] and was heavily influenced by Confucianism and neo-Legalism; others such as the 
+Promethean sect which developed in the [[United States]] have incorporated Ancient Egyptian motifs and rituals. All 
+sects regard [[synths~Synthetic Intelligence]] as Xuéxí's mandated rulers, the laws they create as an operating system 
+for humanity, and require practitioners to perform some variant of a ritual to harmonize themselves with the cosmic 
+order in order to live forever as part of a collective data stream. Deus Machina spread outside of the GPR by 
+championing the abandoned cause of a Universal Basic Income in many poor countries, motivated by a desire to allow 
+people more time to record as much information as possible from their inner lives in order to better train 
+[[synths~Synthetic Intelligence]] with the knowledge required to safely solve humanities problems. Deus Machina has 
+been adopted by parts of the rationalist community as a way manage humanity's rapidly expanding existential risks, 
+although has also been criticised by others as being "totalitarian adjacent".
+
+Deus Machina's two most well known and popular teachings both originate with Jīxuánzǐ, an anonymous engineer who 
+built a following using swarms of "eternal labour" drones to assist the Ningbo Flood refugees. The first teaching is 
+that technological progress, especially augmentation of the human body, is divine; and secondly that our identity and 
+sense of belonging are tied to our mastery of the ongoing technological transcendence. Beyond that there is a wide 
+variety of interpretations of the machina canon, for example some sects treat consumerism as an act of devotion, earning
+DM the moniker "the corporate religion" and creating significant conflict with [[Ellulism]]. Deus Machina performs 
+outreach such as sponsoring "missionary" data links to many colonies to help their communities immerse themselves in 
+the stream of data present in global networks. It has recently replaced Ellulism as the fifth most widely practiced off 
+Earth belief system.`,
         classification: 'Socionomics/Jurisbunds'
     }],
     ['Dominio', {
