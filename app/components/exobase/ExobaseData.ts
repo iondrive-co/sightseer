@@ -238,12 +238,12 @@ generation of AC electric power distribution transformers, which started to be g
 aftermath of the [[Khan Solar Storm]]. Solid state transformers had been used in niche applications for many decades
 prior, but were too expensive for widespread use in the power grid. However Japan, under the direction of 
 [[Matsumoto Koji]], pioneered cheaper manufacturing methods as a strategic priority in order to counter the threat of an 
-EMP attack from the PRC. Since AMSSTs do not use magnetic induction for operation they are not susceptible to the
-current surges through power lines that would occur in an EMP attack, as well as the additional advantages of reactive
-power control and load balancing, bidirectional flow, and fault tolerance. The widespread deployment of AMSSTs in Japan
-prior to Khan allowed the power grid to remain largely untouched and key manufacturing hubs to remain operating, and 
-Japan was able to lead a manufacturing push to produce more and donate its strategic reserves to other countries. AMSSTs
-became the most widely used power distribution transformer until the 80s, when began to be replaced by Compact 
+EMP attack from the [[PRC~China]]. Since AMSSTs do not use magnetic induction for operation they are not susceptible to 
+the current surges through power lines that would occur in an EMP attack, as well as the additional advantages of 
+reactive power control and load balancing, bidirectional flow, and fault tolerance. The widespread deployment of AMSSTs 
+in Japan prior to Khan allowed the power grid to remain largely untouched and key manufacturing hubs to remain operating, 
+and Japan was able to lead a manufacturing push to produce more and donate its strategic reserves to other countries. 
+AMSSTs became the most widely used power distribution transformer until the 80s, when began to be replaced by Compact 
 Superconducting Transformers (CSTs), as well as more efficient long distance wireless power transmission`,
         classification: 'Praxis/Industrial'
     }],
@@ -369,6 +369,13 @@ instrumental in opening up inter-system commerce, as well causing major structur
 on Earth and eventually leading to the combination of the U.N. and NATO into the [[Peacekeepers]].`,
         classification: 'Socionomics/Events'
     }],
+    ['China', {
+        content: `China, officially the People's Republic of China (PRC), was a large unitary communist state in East 
+Asia. Considered one of six cradles of civilization, China's economy eventually grew to surpass the [[United States]] 
+until a series of economic collapses tied to demographic decline and the [[Khan Solar Storm]] forced it into the wider 
+[[GPR]] union in 174 BFC.`,
+        classification: 'Socionomics/Polities'
+    }],
     ['Cognostim', {
         content:
 `A Cognostim, a Portmanteau from the Latin to know and stimulate, is a [[Synthetic Intelligence]] that specialises in
@@ -395,8 +402,8 @@ returned fire, crippling the ship and killing its crew. Constellis's largest shi
 of similar size to a post-war cruiser although lacking longer range missiles. The Justice was already 
 in a low-energy lunar transfer orbit and began a series of burns to join the Cruiser USS Unity, which was adjusting its 
 orbit to intercept Tianmen Station. The destruction of the Unity by the Russian missile carrier MRK Mirazh and the 
-commercial PRC [[drone~Drone]] cargo ship Tianzhou escalated the proxy war into a hot conflict and left the Justice isolated and 
-outnumbered with no nearby support. 
+commercial [[PRC~China]] [[drone~Drone]] cargo ship Tianzhou escalated the proxy war into a hot conflict and left the 
+Justice isolated and outnumbered with no nearby support. 
 
 Long range fast drones from the Tianzhou were launched to intercept the Justice as it was adjusting for a transfer back 
 to Earth, while the slower Mirazh started burning in pursuit. The Justice was able to shoot down several drones with 
@@ -852,12 +859,13 @@ terrestrial fusion reactor went into service in 155 BFC in Genkai, Japan after 1
     ['GPR', {
         content:
 `The Greater People's Republic, commonly known as the GPR, was a political union that existed from 174 BFC until being 
-replaced by [[Greater Zhōngguó]] in 98 BFC. It originated in a military and political alliance formed by the People's 
-Republic of China, Russia, their respective off-Earth colonies, as well as North Korea, Myanmar, Siberia, and 
-Mongolia during the fallout from the [[Ten-Hour War]]. It broadened to include tight economic integration, with Russia 
-and Siberia shipping increasingly large quantities of food to China as global warming increased in exchange for 
-machinery and electronics. There was also a large state sponsored migration of people from North Korea and Myanmar into 
-demographically collapsing Russia and to a lesser extent China.`,
+replaced by [[Greater Zhōngguó]] in 98 BFC. It originated in a military and political alliance formed by the 
+[[People's Republic of China~China]], Russia, their respective off-Earth colonies, as well as North Korea, Myanmar, 
+Siberia, and Mongolia during the fallout from the [[Ten-Hour War]]. It broadened to include tight economic integration, 
+with Russia and Siberia shipping increasingly large quantities of food to China as global warming increased in exchange 
+for machinery, electronics, and rare earth minerals. Although initially suffering economically, through its expanding
+rare earth and mineral wealth China was able to recover and fund large state sponsored migrations of people from North 
+Korea and Myanmar along with large incentives for people having children until it again became an economic superpower.`,
         classification: 'Socionomics/Confederations'
     }],
     ['Gran México', {
@@ -1200,9 +1208,9 @@ observatory after being one of the first to observe the coronal mass ejection.
 Datï¿½orruà¤¶आtedा
 
 Japan's remarkably effective response to this crisis was largely attributed to its hardened infrastructure, developed
-in response to the cold war with the PRC and its history of disaster preparedness. Most importantly, their investment
-in [[Automated Modular Solid-State Transformers~AMSSTs]] allowed the power grid to remain largely untouched and key 
-manufacturing hubs to remain operating. Japan was in the unique position of being a highly automated 
+in response to the cold war with the [[PRC~China]] and its history of disaster preparedness. Most importantly, their 
+investment in [[Automated Modular Solid-State Transformers~AMSSTs]] allowed the power grid to remain largely untouched 
+and key manufacturing hubs to remain operating. Japan was in the unique position of being a highly automated 
 society with an abundance of semiconductors and lots of money to spend preparing for an EMP attack. Unlike other 
 countries which either had no strategic transformer reserves or had to use them up, Japan was able to donate its 
 large reserve in order to bootstrap industry in other countries and to continue manufacturing new transformers. This
@@ -1338,11 +1346,13 @@ posting as a power and infrastructure consultant in India while working for the 
 connections with two of the worlds top [[Automated Modular Solid-State Transformers~AMSST]] engineers. 
 
 Despite coming from a politically unconnected family, Koji was able to work his way into the political class through his 
-public engagement on the issue of a Japanese NATO, and through a university friendship with a future prime minister. 
-In 197 BFC he was appointed Vice-Minister for the Ministry of Economy, Trade, and Industry, where he was instrumental 
-in championing a crash program in Japan to develop and deploy AMSSTs to prepare against an EMP strike from the PRC. In 
-192 BFC he was elected and appointed as Minister of Economy, Trade and Industry, where he developed the free economic 
-zones that were an important driver of the 2nd Japanese Economic Miracle.
+public speaking on global affairs and and advocacy for a new Japanese international treaty organisation. For two years 
+he worked as a secretary to future prime minister Matsuda Kenjiro, a university friend, and in 201 BFC was elected to 
+the House of Representatives from Fukui 2nd district. In his third term in 197 BFC he was appointed Vice-Minister for 
+the Ministry of Economy, Trade, and Industry, where he was instrumental in championing a crash program in Japan to 
+develop and deploy AMSSTs to prepare against an EMP strike from the [[PRC~China]]. In 192 BFC he was elected and 
+appointed as Minister of Economy, Trade and Industry, where he developed the free economic zones that were an important 
+driver of the 2nd Japanese Economic Miracle.
 
 During Khan, Koji's foresight in deploying AMSSTs left Japan as the only major power capable of aiding other nations, 
 and gave Koji the political capital to orchestrate a mass export of AMSSTs to Europe and India to aid in their recovery. 
@@ -1991,11 +2001,11 @@ interpret and react to their own internally simulated emotional states, closely 
         classification: 'Yūmeijin'
     }],
     ['Ten-Hour War', {
-        content: `The Ten-Hour War was a conflict between the [[United States]] and an alliance of the People's Republic 
-of China (PRC), Russia, North Korea over positioning at the EM1 Lagrange Point. It began with [[InterMesh]] industrial 
-sabotage, stepped up as a proxy conflict between [[Constellis Group]] and [[Dominio]] privateers, and culminated in the 
-Battle of the Apex which was the first large scale space battle. It directly resulted in the formation of the [[GPR]] 
-as a military and infomatic alliance, and to changes in fleet composition and doctrine.
+        content: `The Ten-Hour War was a conflict between the [[United States]] and an alliance of the 
+[[People's Republic of China (PRC)~China]], Russia, North Korea over positioning at the EM1 Lagrange Point. It began 
+with [[InterMesh]] industrial sabotage, stepped up as a proxy conflict between [[Constellis Group]] and [[Dominio]] 
+privateers, and culminated in the Battle of the Apex which was the first large scale space battle. It directly resulted 
+in the formation of the [[GPR]] as a military and infomatic alliance, and to changes in fleet composition and doctrine.
 
 In February 176, the United States began construction of Fort Liberty at EM1. A smaller non-military station had been 
 built by the US in 179, and the PRC, with Russian assistance, had finished construction of their Tianmen station at EM1 
