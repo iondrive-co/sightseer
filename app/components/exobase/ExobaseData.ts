@@ -81,7 +81,7 @@ direct, high‐resolution images of exoplanets. More recently their waveguides h
 new particles in [[antimatter~Antimatter Engine]] factories`,
         classification: 'Socionomics/Polities'
     }],
-    ['Antiakrasics', {
+    ['Antiakrasic', {
         content: `Antiakrasics, commonly known as AAKs, are a class of drugs that provide a profound and prolonged 
 improvement to motivation and executive functions, and are typically used as cognitive performance enhancers. AAKs were
 initially developed by [[Pharmatica Group]] and their Akrasinil brand is their most profitable medication and the most
@@ -383,7 +383,7 @@ elenctic teaching, that is in stimulating learning by expanding on concepts such
 can be refuted, in order to clarify the limits of the original concept. This dialogic or dialectic approach to refining 
 knowledge has been shown to be effective in increasing non-augmented human knowledge retrieval and rhetorical abilities.
 These were popular with public speaking professions such as lawyers and politicians [[BFC~First Contact Event]], but the 
-widespread availability of affordable [[Neurogenesis Treatment]]s as well as neurodevices such as [[MemAmp]]s have 
+widespread availability of affordable [[Neurogenesis]] Treatments as well as neurodevices such as [[MemAmp]]s have 
 greatly reduced their usefulness for most people. They still exist in various forms such as [[Dominio]]'s mass produced
 robo-malam which are commonly used in for teaching laboratory science in many basic schools.`,
         classification: 'Infomatics/Synths'
@@ -583,10 +583,10 @@ In 152 [[BFC~First Contact Event]] the first version of Exobase was conceived as
 by an early [[Synthetic Intelligence]] (then called third generation generative AIs) which had been tasked with finding 
 ways to distribute simple summaries of notable facts to the numerous migrants in the [[Ceres Wave]]. It was never widely 
 used by its intended audience, but later became popular in certain communities such as those left behind in the 
-[[Retrograde Diaspora]] is now one of the most widely consulted resources by [[Infocom Agent]]s in the outer solar 
+[[Retrograde Diaspora]] is now one of the most widely consulted resources by [[IAs~Infocom Agent]] in the outer solar 
 system. The most popular feature by number of requests is the cache of [[InterMesh]] profile data about nearby people.
 
-During the [[Haidian Takeoff Crisis]] the original synth author was decommissioned. Articles are still frequently added 
+After the [[Haidian Takeoff Crisis]] the original synth author was decommissioned. Articles are still frequently added 
 and updated, although the current author is unknown. One popular theory is that the Exobase is now maintained by a 
 [[Cognostim]] stuck in a mimetic feedback loop with itself.`,
         classification: 'Infomatics'
@@ -645,13 +645,13 @@ biological matter, or composites. They vary in size, scale, and precision, and a
 consumer and industrial goods such as electronics, housing, medical tissues and devices, vehicles, clothing, and food.
 
 Simple consumer good fabricators for producing replacement parts for appliances, clothing, hobby activities, 
-and tools are found in the majority of residences and can be used without registered monitoring, unlike food biofabs 
+and tools are commonly found in private residences. These can be used without registered monitoring, unlike food biofabs 
 which are as a consequence much more rarely individually owned. More complex goods, electronics, medical, and bulk food 
 production are almost all produced and monitored in more efficient centralised locations by larger industrial fabs and 
 delivered by [[drone~Drone]]. 
 
 The Chandler-Kapoor Agreements of the 70s require all signatories to monitor for unauthorized fabrication. Many 
-existential risk charities have funded additional regional rollouts of denser distributions of [[motes~Mote]]s in 
+existential risk charities have funded additional regional rollouts of denser distributions of [[motes~Mote]] in 
 under-served areas to mitigate the danger of missing any fabrication.`,
         classification: 'Praxis/Industrial'
     }],
@@ -901,7 +901,8 @@ all created or spun off to legally supply and eventually operate [[United States
 protection (often from corporations running subduction vent mines or from countries without navies such as 
 [[Argentinian Mancomunidad]] which operates many undersea colonies and aquaponic farms), integrity patrols for undersea 
 vacuum train routes and fibre optic cables, and military retainer contracts for war gaming and submarine based ASAT 
-capabilities.`,
+capabilities. They are also known for pioneering the use of [[Neurogenesis]], in 76 BFC fielding a marine fire team
+enhanced with [[Nexus]] brain integrations as part of a squad patrolling a Metals Company seafloor nodule collector.`,
         classification: 'Socionomics/Polities'
     }],
     ['Haidian Takeoff Crisis', {
@@ -1184,8 +1185,8 @@ are common in most IM networks.
 In the BFC 70s the ability to affordably [[fab~Fabricator]] basic [[Mote]] InterMesh relays from home devices caused a 
 several order of magnitude increase in the connection density in many urban centers. In the subsequent decades the 
 falling cost and increasing capabilities of motes made large amounts of computing power available across large 
-swathes of Earth as well as many of the colonies. As a result [[Infocom Agent]]s start to be able to perform tasks such 
-as run complex simulations, train models to solve issues, and provide AR and other complex entertainment from most 
+swathes of Earth as well as many of the colonies. As a result [[IAs~Infocom Agent]] start to be able to perform tasks 
+such as run complex simulations, train models to solve issues, and provide AR and other complex entertainment from most 
 locations on Earth.
 
 The InterMesh is the default network for the super-majority of communicating devices, and is the default communication
@@ -1572,9 +1573,10 @@ sold the rights to their neural models to Pharmatica, and the remainder of their
 year.`,
         classification: 'Praxis/Technoprog'
     }],
-    ['Neurogenesis Treatment', {
+    ['Neurogenesis', {
         content:
-`Datï¿½orruà¤¶आtedा`,
+`Neurogenesis is an umbrella term for technology which directly modifies the brain, ranging from regenerating tissue
+to integrating computational materials into the brain. The term was coined by [[Nexus]]`,
         classification: 'Praxis/Medicine'
     }],
     ['Nimitra Wongprasert', {
