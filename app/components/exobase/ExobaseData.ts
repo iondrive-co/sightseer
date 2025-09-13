@@ -901,8 +901,9 @@ all created or spun off to legally supply and eventually operate [[United States
 protection (often from corporations running subduction vent mines or from countries without navies such as 
 [[Argentinian Mancomunidad]] which operates many undersea colonies and aquaponic farms), integrity patrols for undersea 
 vacuum train routes and fibre optic cables, and military retainer contracts for war gaming and submarine based ASAT 
-capabilities. They are also known for pioneering the use of [[Neurogenesis]], in 76 BFC fielding a marine fire team
-enhanced with [[Nexus]] brain integrations as part of a squad patrolling a Metals Company seafloor nodule collector.`,
+capabilities. They are also known for pioneering the use of biocoherence [[Neurogenesis]], in 76 BFC demonstrating two 
+marine fire teams with [[Nexus]] created enhancements could maintain full alertness on a 3 day nonstop patrol around a 
+Metals Company seafloor nodule collector.`,
         classification: 'Socionomics/Polities'
     }],
     ['Haidian Takeoff Crisis', {
@@ -1035,8 +1036,10 @@ to better ourselves.`,
     ['Hannah Weiss-Martin', {
         content: `Hannah Weiss-Martin (135 BFC - ) is a consciousness substrate engineer who popularised the computonium 
 smart matter theory of the [[First Contact Event]]. She is also known for pioneering observer-integrated experiments 
-which use conscious entanglement to probe mind-matter coupling, as well as co-founding biocoherence company [[Nexus]].
-At 27 years old she completed her thesis on quantum cognition at Caltech, and has worked there in some capacity for her 
+which use conscious entanglement to probe mind-matter coupling, as well as co-founding biocoherence [[Neurogenesis]] 
+company [[Nexus]].
+
+She completed her thesis on quantum cognition at Caltech at age 27, and has since worked there in some capacity for her 
 entire life. At 153 years old she is currently the worlds oldest working academic researcher. Hannah is the daughter of 
 scientists [[Levi Weiss]] and Talia Martin. She has two children with her Nexus co-founder Javier Florentin, Isla and 
 [[Alejandro~Alejandro Florentin]], and has been married to folk musician Zoe Sage since 59 BFC.`,
@@ -1416,10 +1419,10 @@ on the limited central government.`,
         classification: 'Socionomics/Polities'
     }],
     ['MemAmp', {
-content: `A MemAmp is a neural lace that improves precision and recall of memories in the user via amplification of the 
-action potential of relevant neuron ensembles. This first requires a learning period, where the user is observed forming 
-different kinds of memories, although newer devices have reduced this significantly by shipping with more sophisticated
-prebuilt model data.`,
+content: `A MemAmp is a [[Neurogenesis]] device which uses an optogenetic neural lace that improves precision and recall 
+of memories in the user via amplification of the action potential of relevant neuron ensembles. This first requires a 
+learning period, where the user is observed forming different kinds of memories, although newer devices have reduced 
+this significantly by shipping with more sophisticated prebuilt model data.`,
 classification: 'Praxis/Augmentations'
     }],
     ['MetaFox', {
@@ -1555,28 +1558,36 @@ Both fusion and antimatter engine variants are normally crewed.`,
     }],
     ['Nexus', {
         content:
-`Nexus was a biocoherence company founded by [[Hannah Weiss-Martin]] and hibernation biologist Javier Florentin. The 
-original company operated for 8 years and had some success in integrating computational materials into brain to make it 
-last longer and work faster, before eventually being sold off to the [[Pharmatica Group]] and [[Microsynth]]. Nexus 
-operated as a division of Microsynth for 10 years before being divested as a wholly owned subsidiary, MNex, to avoid new 
-biotech market disclosure rules, and is now primarily focussed on hibernation and cryopreservation research and 
-development.
+`Nexus was a biocoherence [[Neurogenesis]] company founded by [[Hannah Weiss-Martin]] and hibernation biologist Javier 
+Florentin. The original company operated for 8 years and had some success in field trials of retroviral delivery of 
+biocoherent material into the brain, before eventually being sold off to the [[Pharmatica Group]] and [[Microsynth]]. 
  
 Hannah Weiss-Martin met [[RDP]] biologist Javier Florentin in a cave diving expedition in Cordillera de los Altos,
 they discussed founding a company together to explore quantum coherence in the brain and commercialise the integration
 of neurological smart matter. Nexus was incorporated in 77 BFC in the [[Argentinian Mancomunidad]] which had no
 laws on human experimentation, and their first contract was with [[Havfélög]] to develop enhanced reflexes in their 
-marines. During this time Javier Florentin was in a relationship with the well known aestheticist Julieta Gómez 
+marines. 
+
+During this time Javier Florentin was in a relationship with the well known aestheticist Julieta Gómez 
 Romero, but she was tragically killed in 70 BFC during one of the periodo violento that were then still common in the 
 Mancomunidad. It was not clear if Havfélög were involved, but that year Nexus cancelled all contracts with them and 
 sold the rights to their neural models to Pharmatica, and the remainder of their assets to [[Microsynth]] the following
-year.`,
+year.
+
+Nexus operated as a division of Microsynth for 10 years before being divested as a wholly owned subsidiary, MNex, to 
+avoid new biotech market disclosure rules. Due to external power and compute requirements biocoherence nurogenesis was 
+never cost compatible with the more commercially successful [[MemAmp]] technology, which in the 50s was powerful enough
+to replace BN in military applications as well. In 55 BFC MNex restructured, removing all divisions except their 
+burgeoning hibernation and cryopreservation research and development efforts, which they were able to commercialise and 
+refocus the company around.`,
         classification: 'Praxis/Technoprog'
     }],
     ['Neurogenesis', {
         content:
 `Neurogenesis is an umbrella term for technology which directly modifies the brain, ranging from regenerating tissue
-to integrating computational materials into the brain. The term was coined by [[Nexus]]`,
+to integrating computational materials into the brain. Originally referring to the process by which neurons are produced 
+by neural stem cells, it began to be associated with [[optogenetic neural lace~MemAmp]] and the alternative retro-viral 
+delivery of bio-coherent material into the brain pioneered by [[Nexus]].`,
         classification: 'Praxis/Medicine'
     }],
     ['Nimitra Wongprasert', {
