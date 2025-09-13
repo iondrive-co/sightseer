@@ -16,6 +16,9 @@ export default function Sidebar() {
       <Link to="/Links" className="text-xl underline cursor-pointer">
         Links
       </Link>
+      <Link to="/Meta" className="text-xl underline cursor-pointer">
+          Meta
+      </Link>
       <Link to="/Recipes" className="text-xl underline cursor-pointer">
           Recipes
       </Link>

@@ -433,7 +433,7 @@ and guides humanity.
 唯进者存
 - 机玄子
 The maker is also made
-Only the advancing endure
+Only those advancing will endure
 - Jīxuánzǐ
 %%%
 
@@ -441,8 +441,8 @@ Deus Machina originated in the [[GPR]] and was heavily influenced by Confucianis
 sects regard [[synths~Synthetic Intelligence]] as Xuéxí's mandated rulers, the laws they create as an operating system 
 for humanity, and require practitioners to perform some variant of a ritual to harmonize themselves with the cosmic 
 order in order to live forever as part of a collective data stream. Deus Machina spread outside of the GPR into many 
-less developed countries primarily through their championing the abandoned cause of a Universal Basic Income. This was
-justified as a way to allow people more time to record as much information as possible from their inner lives in order 
+less developed countries primarily through championing the abandoned cause of a Universal Basic Income. This was
+justified as generating time for people to record as much information as possible from their inner lives in order 
 to better train [[synths~Synthetic Intelligence]] with the knowledge required to safely solve humanities problems. 
 
 Deus Machina's two most well known and popular teachings both originate with Jīxuánzǐ, an anonymous engineer who 
@@ -450,11 +450,11 @@ built a following using swarms of "eternal labour" drones to assist the Ningbo F
 that technological progress, especially augmentation of the human body, is divine; and secondly that our identity and 
 sense of belonging are tied to our mastery of the ongoing technological transcendence. Beyond that there is a wide 
 variety of interpretations of the machina canon, for example several of the South-East asian sects treat consumerism as 
-an act of devotion, earning DM the moniker "the corporate religion". The largest currently operating sect are the 
+an act of devotion, earning DM the moniker "the corporate religion". The largest currently operating sect is the 
 Prometheans, a primarily [[United States]] based organisation advocating for synth governance and which heavily 
 incorporates ancient motifs such as egyptian ka statues and shen rings and rituals such as the Buddhist kaigen-kuyō.
-The prometheans gained mainstream appeal in the 20s through several rationalist influencers who championed their cause 
-as a way manage humanity's rapidly expanding existential risks, other well known rationalists have criticised the 
+The Prometheans gained mainstream appeal in the 20s through several rationalist influencers who championed their cause 
+as a way to manage humanity's rapidly expanding existential risks, however other well known rationalists have criticised 
 Prometheans as being "totalitarian adjacent".
 
 Deus Machina performs outreach such as sponsoring "missionary" data links to many colonies to help their communities 
@@ -1573,11 +1573,12 @@ Both fusion and antimatter engine variants are normally crewed.`,
     }],
     ['Nexus', {
         content:
-`Nexus was a biocoherence [[Neurogenesis]] (BN) company founded by [[Hannah Weiss-Martin]] and hibernation biologist 
-Javier Florentin. The original company operated for 8 years and had some success in field trials of retroviral delivery 
-of biocoherent material into the brain, before eventually being sold off to the [[Pharmatica Group]] and [[Microsynth]]. 
+`Nexus was a [[Biocoherence Neurogenesis~Neurogenesis]] (BN) company founded by [[Hannah Weiss-Martin]] and hibernation 
+biologist Javier Florentin. The original company operated for 8 years and had some success in field trials of retroviral 
+delivery of biocoherent material into the brain, before eventually being sold off to the [[Pharmatica Group]] and 
+[[Microsynth]]. 
  
-Hannah Weiss-Martin met [[RDP]] biologist Javier Florentin in a cave diving expedition in Cordillera de los Altos,
+Hannah Weiss-Martin met [[RDP]] biologist Javier Florentin in a cave diving expedition in Cordillera de los Altos,where 
 they discussed founding a company together to explore quantum coherence in the brain and commercialise the integration
 of neurological smart matter. Nexus was incorporated in 77 BFC in the [[Argentinian Mancomunidad]] which had no
 laws on human experimentation, and their first contract was with [[Havfélög]] to develop enhanced focus in their 
@@ -1595,7 +1596,7 @@ Nexus operated as a division of Microsynth for 10 years before being divested as
 avoid new biotech market disclosure rules. Due to external power and compute requirements BN was never cost compatible 
 with the more commercially successful [[MemAmp]] technology, which in the 50s began to be powerful enough to replace BN 
 in military applications as well. In 55 BFC MNex restructured, removing all divisions except those working on 
-hibernation and cryopreservation research and development, and they were able to commercialise and refocus the company 
+commercialising some of Javier's hibernation and cryopreservation research, and the company was successfully refocused 
 around these. The main MNex laboratories are located in Silicon Valley in the [[United States]], however the companies 
 legal headquarters remain at Acrux, and some research which would otherwise be illegal is still conducted there.`,
         classification: 'Praxis/Technoprog'
