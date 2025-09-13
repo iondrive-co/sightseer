@@ -437,26 +437,31 @@ Only the advancing endure
 - Jīxuánzǐ
 %%%
 
-Deus Machina originated in the [[GPR]] and was heavily influenced by Confucianism and neo-Legalism; others such as the 
-Promethean sect which developed in the [[United States]] have incorporated Ancient Egyptian motifs and rituals. All 
+Deus Machina originated in the [[GPR]] and was heavily influenced by Confucianism and neo-Legalism. All 
 sects regard [[synths~Synthetic Intelligence]] as Xuéxí's mandated rulers, the laws they create as an operating system 
 for humanity, and require practitioners to perform some variant of a ritual to harmonize themselves with the cosmic 
-order in order to live forever as part of a collective data stream. Deus Machina spread outside of the GPR by 
-championing the abandoned cause of a Universal Basic Income in many poor countries, motivated by a desire to allow 
-people more time to record as much information as possible from their inner lives in order to better train 
-[[synths~Synthetic Intelligence]] with the knowledge required to safely solve humanities problems. Deus Machina has 
-been adopted by parts of the rationalist community as a way manage humanity's rapidly expanding existential risks, 
-although has also been criticised by others as being "totalitarian adjacent".
+order in order to live forever as part of a collective data stream. Deus Machina spread outside of the GPR into many 
+less developed countries primarily through their championing the abandoned cause of a Universal Basic Income. This was
+justified as a way to allow people more time to record as much information as possible from their inner lives in order 
+to better train [[synths~Synthetic Intelligence]] with the knowledge required to safely solve humanities problems. 
 
 Deus Machina's two most well known and popular teachings both originate with Jīxuánzǐ, an anonymous engineer who 
 built a following using swarms of "eternal labour" drones to assist the Ningbo Flood refugees. The first teaching is 
 that technological progress, especially augmentation of the human body, is divine; and secondly that our identity and 
 sense of belonging are tied to our mastery of the ongoing technological transcendence. Beyond that there is a wide 
-variety of interpretations of the machina canon, for example some sects treat consumerism as an act of devotion, earning
-DM the moniker "the corporate religion" and creating significant conflict with [[Ellulism]]. Deus Machina performs 
-outreach such as sponsoring "missionary" data links to many colonies to help their communities immerse themselves in 
-the stream of data present in global networks. It has recently replaced Ellulism as the fifth most widely practiced off 
-Earth belief system.`,
+variety of interpretations of the machina canon, for example several of the South-East asian sects treat consumerism as 
+an act of devotion, earning DM the moniker "the corporate religion". The largest currently operating sect are the 
+Prometheans, a primarily [[United States]] based organisation advocating for synth governance and which heavily 
+incorporates ancient motifs such as egyptian ka statues and shen rings and rituals such as the Buddhist kaigen-kuyō.
+The prometheans gained mainstream appeal in the 20s through several rationalist influencers who championed their cause 
+as a way manage humanity's rapidly expanding existential risks, other well known rationalists have criticised the 
+Prometheans as being "totalitarian adjacent".
+
+Deus Machina performs outreach such as sponsoring "missionary" data links to many colonies to help their communities 
+immerse themselves in the stream of data present in global networks. It has recently replaced [[Ellulism]] as the fifth 
+most widely practiced off Earth belief system. Matthieu Diallo devotes a section of [[Kinships of the Astroindigène]] to 
+la bataille des idées between the ellulist view of technology as a fracturing and dividing force and the machinist 
+vision of it being a power redistributor bringing agency to the world.`,
         classification: 'Socionomics/Jurisbunds'
     }],
     ['Dominio', {
@@ -796,7 +801,8 @@ trained sailors in the Chechen and Dagestani grappling style used in later Spets
 manipulation and precise striking techniques from Wing Chun, and fluid movements from Tai Chi, amongst other influences. 
 The institute saw less use over time due to increasing use of combat [[instances~Instance]], and the newly formed 
 [[Greater Zhōngguó]] allowed base operator [[Sinogroup]] to establish a lightly regulated casino and resort on the 
-asteroid in 97 BFC`,
+asteroid in 97 BFC. The casino complex has been expanded and now advertises itself as "The Entertainment Capital of the 
+Solar System."`,
         classification: 'Geo'
     }],
     ['France', {
