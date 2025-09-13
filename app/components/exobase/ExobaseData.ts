@@ -64,7 +64,7 @@ a significant stake in as part of the Japanese government bailout of Softbank to
 investor or nationalised by Great Britain.
 
 The [[Khan Solar Storm]] of 187 BFC crippled the capacity of both ASML and ARM to continue making chips, however the 
-Ångström joint venture received priority access to [[Automated Modular Solid-State Transformers~AMSSTs]] from the 
+Ångström joint venture received priority access to [[AMSSTs~Automated Modular Solid-State Transformers]] from the 
 Japanese strategic reserves and along with JSMC, Sony, and Denso was able to produce the vast majority of the chips that 
 were able to be manufactured for the next few years. As a result, ASML and ARM were able to secure an agreement with the 
 ministry of finance to take over JSMCs foundries to produce a vertically integrated chip company, in exchange for 
@@ -383,9 +383,9 @@ elenctic teaching, that is in stimulating learning by expanding on concepts such
 can be refuted, in order to clarify the limits of the original concept. This dialogic or dialectic approach to refining 
 knowledge has been shown to be effective in increasing non-augmented human knowledge retrieval and rhetorical abilities.
 These were popular with public speaking professions such as lawyers and politicians [[BFC~First Contact Event]], but the 
-widespread availability of affordable [[Neurogenesis]] Treatments as well as neurodevices such as [[MemAmp]]s have 
-greatly reduced their usefulness for most people. They still exist in various forms such as [[Dominio]]'s mass produced
-robo-malam which are commonly used in for teaching laboratory science in many basic schools.`,
+widespread availability of affordable [[Memamps~MemAmp]] have greatly reduced their usefulness for most people. They 
+still exist in various forms such as [[Dominio]]'s mass produced robo-malam which are commonly used in for teaching 
+laboratory science in many basic schools.`,
         classification: 'Infomatics/Synths'
     }],
     ['Constellis Group', {
@@ -608,7 +608,7 @@ populace for the purposes of drafting legislation.
 The proposal for a new set of international treaties to replace the role the U.S. and NATO had played prior to Khan 
 was first made by Japanese Defense Minister [[Matsumoto Koji]] at the Lausanne Convention in 185 BFC. Due to the 2nd 
 Japanese Economic Miracle and integration into the economies of Bloc countries via its supply of 
-[[Automated Modular Solid-State Transformers~AMSSTs]] Japan was able to play a major role in the construction of the 
+[[AMSSTs~Automated Modular Solid-State Transformers]] Japan was able to play a major role in the construction of the 
 Bloc's political organisations, despite having only a small percentage of the total population of the Bloc countries. 
 Over time the French have taken a larger role in leadership as their economy recovered and (including their colonies and 
 integrated protectorates), and the combined French and East Asian leadership cultures has created inflexible 
@@ -689,10 +689,10 @@ publicly accused the [[Peacekeepers]] of fielding a new first strike weapon syst
 
 Loitering missile swarms were orbited by both GZ and the [[United States]], and along with India and the Peacekeepers 
 moved fleets into high orbit. The United States, India, [[France]], and the GZ were all found to have moved their 
-terrestrial forces to DEFCON 2. Freehab had several autonomous survey ships within a few AU and on similar trajectories 
-to the object when it was detected, and announced they were moving them to intercept. Over the next several days the 
-lack of further trajectory changes or new objects helped to de-escalate tensions, and the United States and GZ announced 
-they were initiating their respective first contact protocols.
+terrestrial forces to DEFCON 2. Freehab had several autonomous survey ships on route to Quaoar which was within a few AU 
+and on similar trajectories to the object when it was detected, and they announced they were moving them to intercept. 
+Over the next several days the lack of further trajectory changes or new objects helped to de-escalate tensions, and 
+the United States and GZ announced they were initiating their respective first contact protocols.
 
 Over the next week the nearest Freehab ship had moved close enough to use infrared thermography from its survey 
 equipment to determine that the object was likely assembling something inside itself. This is now generally accepted to 
@@ -769,7 +769,7 @@ being monitored by some incomprehensible technology. Several new inter-faction p
 [[Outer Trading League]] were formed in the subsequent decade, and there was an increase in migration from Earth to 
 the Lunar and Martian colonies for the first time since the [[Retrograde Diaspora]]. Several of the centrally managed 
 international police and aid organisations which had been partially or completely abandoned in the decades after the 
-[[Retrograde Diaspora]] were reinstated.
+[[Retrograde Diaspora]] have begun to be reinstated.
 
 There is evidence of a differing generational reactions to the event [1]. Older generations are significantly more 
 likely to have turned away from technological progress and to engage with conspiracy theories and uncertainty based 
@@ -1213,7 +1213,7 @@ Datï¿½orruà¤¶आtedा
 
 Japan's remarkably effective response to this crisis was largely attributed to its hardened infrastructure, developed
 in response to the cold war with the [[PRC~China]] and its history of disaster preparedness. Most importantly, their 
-investment in [[Automated Modular Solid-State Transformers~AMSSTs]] allowed the power grid to remain largely untouched 
+investment in [[AMSSTs~Automated Modular Solid-State Transformers]] allowed the power grid to remain largely untouched 
 and key manufacturing hubs to remain operating. Japan was in the unique position of being a highly automated 
 society with an abundance of semiconductors and lots of money to spend preparing for an EMP attack. Unlike other 
 countries which either had no strategic transformer reserves or had to use them up, Japan was able to donate its 
@@ -1347,7 +1347,7 @@ the industrialisation of the Meiji Period. Koji studied electrical engineering a
 Master’s in International Governance and Diplomacy in Paris. While there he built many relationships in the European 
 diplomatic community, and he became an outspoken champion of developing a NATO style alliance in Japan. His first 
 posting as a power and infrastructure consultant in India while working for the Ministry of Foreign Affairs led to 
-connections with two of the worlds top [[Automated Modular Solid-State Transformers~AMSST]] engineers. 
+connections with two of the worlds top [[AMSST~Automated Modular Solid-State Transformers]] engineers. 
 
 Despite coming from a politically unconnected family, Koji was able to work his way into the political class through his 
 public speaking on global affairs and and advocacy for a new Japanese international treaty organisation. For two years 
@@ -1419,10 +1419,19 @@ on the limited central government.`,
         classification: 'Socionomics/Polities'
     }],
     ['MemAmp', {
-content: `A MemAmp is a [[Neurogenesis]] device which uses an optogenetic neural lace that improves precision and recall 
-of memories in the user via amplification of the action potential of relevant neuron ensembles. This first requires a 
+content: `A MemAmp is a [[Neurogenesis]] device using a self assembling optogenetic neural lace to improve cognitive 
+capabilities. The first developed and most popular commercial application is the improvement of precision and recall of 
+memories in the user via amplification of the action potential of relevant neuron ensembles. This requires an initial 
 learning period, where the user is observed forming different kinds of memories, although newer devices have reduced 
-this significantly by shipping with more sophisticated prebuilt model data.`,
+this significantly by shipping with more sophisticated prebuilt model data. 
+
+Other common uses for these laces are attention control, emotional regulation, sensory augmentation, and offloading 
+specialised problems for faster asynchronous processing; all of these were first developed and tested in military 
+personal in the 50s by military [[infomatic companies~Infomatic Conglomerate]] such as [[Microsynth]] and [[Sinogroup]]. 
+There have been several waves of startups attempting to commercialise each of these, with the latest wave in 6 AFC 
+around modules capable of human-machine communication with [[drones~Drone]] and other hardware, which are already widely 
+used by various militaries and contractors such as the [[Constellis Group]]. The original name MemAmp is still used to 
+describe any self assembling optogenetic neural lace enhancement, regardless of the capability it provides.`,
 classification: 'Praxis/Augmentations'
     }],
     ['MetaFox', {
@@ -1558,15 +1567,17 @@ Both fusion and antimatter engine variants are normally crewed.`,
     }],
     ['Nexus', {
         content:
-`Nexus was a biocoherence [[Neurogenesis]] company founded by [[Hannah Weiss-Martin]] and hibernation biologist Javier 
-Florentin. The original company operated for 8 years and had some success in field trials of retroviral delivery of 
-biocoherent material into the brain, before eventually being sold off to the [[Pharmatica Group]] and [[Microsynth]]. 
+`Nexus was a biocoherence [[Neurogenesis]] (BN) company founded by [[Hannah Weiss-Martin]] and hibernation biologist 
+Javier Florentin. The original company operated for 8 years and had some success in field trials of retroviral delivery 
+of biocoherent material into the brain, before eventually being sold off to the [[Pharmatica Group]] and [[Microsynth]]. 
  
 Hannah Weiss-Martin met [[RDP]] biologist Javier Florentin in a cave diving expedition in Cordillera de los Altos,
 they discussed founding a company together to explore quantum coherence in the brain and commercialise the integration
 of neurological smart matter. Nexus was incorporated in 77 BFC in the [[Argentinian Mancomunidad]] which had no
-laws on human experimentation, and their first contract was with [[Havfélög]] to develop enhanced reflexes in their 
-marines. 
+laws on human experimentation, and their first contract was with [[Havfélög]] to develop enhanced focus in their 
+marines. Nexus rented the abandoned Acrux-2 oil rig (offshore structures which were used to extract petroleum 
+for the fossil-economy) in Argentina's Colorado Basin as their main working space, this was later purchased and became 
+the company headquarters.
 
 During this time Javier Florentin was in a relationship with the well known aestheticist Julieta Gómez 
 Romero, but she was tragically killed in 70 BFC during one of the periodo violento that were then still common in the 
@@ -1575,11 +1586,12 @@ sold the rights to their neural models to Pharmatica, and the remainder of their
 year.
 
 Nexus operated as a division of Microsynth for 10 years before being divested as a wholly owned subsidiary, MNex, to 
-avoid new biotech market disclosure rules. Due to external power and compute requirements biocoherence nurogenesis was 
-never cost compatible with the more commercially successful [[MemAmp]] technology, which in the 50s was powerful enough
-to replace BN in military applications as well. In 55 BFC MNex restructured, removing all divisions except their 
-burgeoning hibernation and cryopreservation research and development efforts, which they were able to commercialise and 
-refocus the company around.`,
+avoid new biotech market disclosure rules. Due to external power and compute requirements BN was never cost compatible 
+with the more commercially successful [[MemAmp]] technology, which in the 50s began to be powerful enough to replace BN 
+in military applications as well. In 55 BFC MNex restructured, removing all divisions except those working on 
+hibernation and cryopreservation research and development, and they were able to commercialise and refocus the company 
+around these. The main MNex laboratories are located in Silicon Valley in the [[United States]], however the companies 
+legal headquarters remain at Acrux, and some research which would otherwise be illegal is still conducted there.`,
         classification: 'Praxis/Technoprog'
     }],
     ['Neurogenesis', {
