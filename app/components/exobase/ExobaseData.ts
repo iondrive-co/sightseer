@@ -429,11 +429,13 @@ by the belief that the [[Haidian Takeoff Crisis]] has spawned a benevolent super
 and guides humanity.
 
 %%%
-造者亦被造
+造亦被造
+末日疾临
 唯进者存
 - 机玄子
-The maker is also made
-Only those advancing will endure
+The maker too is made
+The last day comes swiftly
+Only the advancing endure
 - Jīxuánzǐ
 %%%
 

@@ -64,7 +64,7 @@
 
 @media (max-width: 640px) {
   .sidebar {
-    @apply w-16;
+    @apply w-16 gap-6;
   }
 
   .sidebar img {
