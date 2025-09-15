@@ -21,7 +21,7 @@ export default function Index() {
                         <p>&lt;--How and why this site exists</p>
                         <p>&lt;--Cooking things</p>
                         <p>&lt;--Very short movie and game reviews</p>
-                        <p>&lt;--Simple Hohmann transfer simulation using three.js</p>
+                        <p>&lt;--Hohmann sim using three.js</p>
                         <p>&lt;--Edit images in your browser without them leaving your device</p>
                     </div>
                 </div>

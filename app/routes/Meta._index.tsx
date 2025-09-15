@@ -30,7 +30,7 @@ export default function Meta() {
                         desktop. And I do use LLMs for help with various technical issues, since after all I am only human.</p>
                     <footer className="border-t pt-8 mt-12">
                         <p className="text-sm text-gray-600">
-                            Last updated: {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+                            Miles, {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
                         </p>
                     </footer>
                 </div>
