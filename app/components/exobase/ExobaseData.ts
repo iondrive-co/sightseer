@@ -92,7 +92,7 @@ limit extraneous thoughts. They also contain a benzene ring with an amine group 
 neurotransmitters like dopamine and serotonin, allowing targeted receptor interaction, and an alkyl chain which aids in 
 crossing the blood-brain barrier. This structure enhances its ability to modulate glutamatergic neurotransmission and 
 increase prefrontal cortex activity.`,
-        classification: 'Praxis/Medicine'
+        classification: 'Praxis/MedAug'
     }],
     ['Antimatter Engine', {
         content:
@@ -793,6 +793,16 @@ has mostly replaced the Gregorian calender system in daily life system-wide.
 1. [[Kinships of the Astroindigène]]`,
         classification: 'Socionomics/Events'
     }],
+    ['Forever Fever', {
+content: `Forever Fever (also known by the term 邪修/xié xiū or cultivating evil in [[Greater Zhōngguó]]) is an ongoing 
+period of technological progress in the field of Smart Polymer Medicine (SPM) which started in the last decade BFC before 
+gaining prominence in the first and second decades AFC. It is driven by results in actually replacing parts of multiple 
+organ systems, most notably small sections of neurons in the brain, with smart polymers; rather than simply repairing 
+them. It is estimated to have attracted nearly a quadrillion US dollars of investment, with the justification of it 
+being a viable path to functional immortality in humans. SPM companies have been criticized as being trillionaire only 
+clubs due to the patents and secrecy put in place by some of the largest investors.`,
+        classification: 'Praxis/MedAug'
+    }],
     ['Forge Palace', {
         content:
             `Forge Palace (锻宫) is a combined luxury resort casino and a martial arts training academy, built within the natural 
@@ -1440,7 +1450,7 @@ There have been several waves of startups attempting to commercialise each of th
 around modules capable of human-machine communication with [[drones~Drone]] and other hardware, which are already widely 
 used by various militaries and contractors such as the [[Constellis Group]]. The original name MemAmp is still used to 
 describe any self assembling optogenetic neural lace enhancement, regardless of the capability it provides.`,
-classification: 'Praxis/Augmentations'
+classification: 'Praxis/MedAug'
     }],
     ['MetaFox', {
         content: `MetaFox is a [[United States]] mass media company based in Menlo Park, California. It specialises in 
@@ -1609,7 +1619,7 @@ legal headquarters remain at Acrux, and some research which would otherwise be i
 to integrating computational materials into the brain. Originally referring to the process by which neurons are produced 
 by neural stem cells, it began to be associated with [[optogenetic neural lace~MemAmp]] and the alternative retro-viral 
 delivery of bio-coherent material into the brain pioneered by [[Nexus]].`,
-        classification: 'Praxis/Medicine'
+        classification: 'Praxis/MedAug'
     }],
     ['Nimitra Wongprasert', {
         content: `Nimitra Wongprasert (นิมิตร วงศ์ประเสริฐ; nickname: Nim; 2nd September 16 BFC – present) is an entrepreneur, 
