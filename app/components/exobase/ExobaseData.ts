@@ -232,6 +232,12 @@ Reyes was killed by Turkish genetic malware, and since then there has been a muc
 the Freeholders and Freehab, with the two jointly participating in the [[Nanocat Fury]] protests.`,
         classification: 'Yūmeijin'
     }],
+    ['Auburn Ring', {
+content: `The Auburn Ring is a group of solar collectors, shades, and magnetic CME deflectors at the Earth-Sun L1 
+Lagrange point. The name commonly includes the observatory at the Earth-Sun L2 point on the opposite side of Earth, 
+which relies on the solar flux and particle event control provided by the L1 elements`,
+        classification: 'Geo'
+    }],
     ['Automated Modular Solid-State Transformers', {
         content: `An Automated Modular Solid-State Transformer or AMSST, is an umbrella term for the design of the last 
 generation of AC electric power distribution transformers, which started to be globally deployed in the 180s in the
@@ -581,40 +587,46 @@ Ellulism endured and institutionalized beyond him, and even adopted his final la
     ['Epsilon Indi', {
 content: `Epsilon Indi is a triple star system (K-type main-sequence star, ε Indi A, and two brown dwarfs, ε Indi Ba and 
 ε Indi Bb) approximately 12 light-years from Earth. Since the 140 BFCs the system has been the focus of sustained 
-scientific and cultural attention due to anomalous high-albedo features and fossilized lattice-like ridge networks 
-detected on the moons of ε Indi Ab. 
+scientific and cultural attention due to anomalous high-albedo features, pigments, and lattice-like ridge networks 
+detected on the moons of ε Indi Ab.
 
-ε Indi has been studied since antiquity as a bright southern star, and ε Indi Ab was first discovered bv radial velocity 
-studies and later imaged directly with a space based telescope. Phase-curve anomalies and persistent reflective glints 
-suggested two satellites, Ab I (Yutu) and IV (Takuata), with unusual surface properties such as cryovolcanic ice. In 
-142 BFC these two moons became a focus of exoplanetary science when the New World Imager coronograph mission reported 
-albedo spikes recurring at the same orbital phase and inconsistent with cloud chemistry on both moons.
+ε Indi has been studied since antiquity as a bright southern star, and the gas giant ε Indi Ab was first discovered bv 
+radial velocity studies and later imaged directly with a space based telescope. Phase-curve anomalies and persistent 
+reflective glints suggested that two of its satellites, Ab I (Yutu) and IV (Takuata), had unusual surface properties 
+resembling cryovolcanic ice. In 142 BFC these two moons became a focus of exoplanetary science when the New World Imager 
+coronograph mission reported albedo spikes recurring at the same orbital phase and inconsistent with cloud chemistry on 
+both moons.
 
 In 137 BFC the [[United States]] launched probes powered by a newly developed second generation [[Fusion Engine]] and
-lightsail propulsion system, accelerating up to 0.03c for a 400 year voyage to ε Indi. In 104 BFC the 
-[[Auburn Ring]] lagrange observatory was completed and began to confirm the spikes corresponded to stable high-albedo 
-patches which were rectilinear. The Indi Anomalies entered public discourse, and the [[Eurasian Bloc]] changed the mission 
-profile of and increased funding for [[Semiotican]] to complete the Étoile-Kōkai generation ship which had been in 
-development and LEO assembly for 38 years. It launched in 95 BFC, accelerating up to 0.01c for a 1200 year voyage to ε 
-Indi.
+lightsail propulsion system, accelerating up to 0.03c for a 400 year voyage to ε Indi. In 104 BFC the [[Auburn Ring]] 
+observatory was completed and began to confirm the spikes corresponded to stable high-albedo rectilinear patches. The 
+Indi Anomalies entered public discourse, and the [[Eurasian Bloc]] changed the mission profile of and increased funding 
+for [[Semiotican]] to complete the Étoile-Kōkai generation ship which had been in development and LEO assembly for 38 
+years. It launched in 95 BFC, accelerating up to 0.01c for a 1200 year voyage to ε Indi.
 
 In 98 BFC the US launched a MagnetoPlasma sail probe which eventually accelerated up to 0.07c, as part of President 
-Schaefers promise to solve the issue "within our lifetimes". The first ships for the long awaited Solar Gravitational 
-Lens, a joint partnership between the US and [[Ångström]] to stitch together Einstein‐ring light from a distance of 550 
-AU from the sun to provide kilometer scale direct imaging of exoplanets, also launched that year. In 78 BFC the
-partially completed array generated a test image of Yutu suggesting that the patches were simply frost lenses which
-had formed into rectangular shapes. A combination of cost overruns and waning public interest led to President 
-Alfaro-Elder cancelling further US missions to complete the array. The partial array limped along for nearly a decade, 
-capturing images of the moons much more slowly than planned, and it uncovered many unusual features such as lattice-like 
-ridge lines before failing.
+Schaefers promise to solve the issue "within our lifetimes". Later that year the first ships launched carrying 
+components for the long awaited Solar Gravitational Lens which was a joint partnership between the US and [[Ångström]] 
+to stitch together Einstein‐ring light from an array placed 550 AU from the sun and able to produce kilometer scale 
+direct imaging of exoplanets. In 78 BFC the partially completed array generated a test image of Yutu suggesting that the 
+patches were simply frost lenses which had formed into rectangular shapes. A combination of cost overruns and waning 
+public interest led to President Alfaro-Elder cancelling further US missions to complete the array. The partial array 
+limped along for nearly a decade, capturing images much more slowly than planned, and before failing uncovered other 
+unusual features of the two moons such as lattice-like ridge lines over much of their surface.
 
-In the last several decades there has been a resurgence of interest in ε Indi, starting with the spiralling failures of 
-Étoile-Kōkai in the last decade BFC due to genetic disorders, with the doomed ship generating increased 
-interest in the mission and alternative theories of the SGL images such as self-assembling biology and extinct 
-technosignatures. In the aftermath of the [[First Contact Event]] there was a great desire to resume human exo-stellar 
-exploratory missions, which was amplified by the MagnetoPlasma probes which have as of 18 AFC reached 70% of the 
-distance to ε Indi and have transmitted images suggesting the ridge lines are not silica plains as initially thought,
-but in fact appear to be the remains of giant reflective sail like structures.`,
+In the last several decades there has been a resurgence of interest in ε Indi. The spiralling failures of Étoile-Kōkai 
+in the last decade BFC due to genetic disorders generated increased interest in the mission of the doomed ship along 
+with alternative theories of the SGL images such as self-assembling biology and extinct technosignatures. Better 
+analysis of the spectroscopic data now suggests surface deposits rich in dark pigments, which xenobiologist Guillaume 
+Boucher claims are melanin analogues, theorising these could be from organisms harvesting the moons intense ionizing 
+radiation as an energy source and even travelling between the two moons rather the evolving separately on both. In the 
+aftermath of the [[First Contact Event]] there was a great desire to resume human extrasolar exploration, and the US has 
+now begun the development of a crewed mission to Epsilon Indi, using an [[Antimatter Engin]] and [[MNex~Nexus]] 
+developed cryo-preservation rather than a generation ship. Since 11 AFC interest has been amplified by data arriving 
+from the MagnetoPlasma probe. As of 18 AFC the probe has reached approximately 70% of the distance to ε Indi, and has 
+been returning multi-angle photometry and polarimetric data suggesting that not only are the ridge lines inconsistent 
+with silica plains, but that the high-albedo patches seem to behave like thin, planar reflectors, giant sail-like 
+structures, rather than frost lenses.`,
         classification: 'Geo'
     }],
     ['Eurasian Bloc', {
@@ -772,9 +784,11 @@ a better explanation for the data.
 Another field of debate deals with the fact that life arising in two places independently implies the galaxy is teeming 
 with life. Philosopher Hyun Soo Park popularised a theory for the Fermi paradox of their continued silence, based on 
 a balance of forces which has so far prevented us from being contacted or attacked until the sender broke the balance,
-and this has since become a trope in several popular works of pop science. Ultimately, whatever the senders interest in 
-sending a probe to another system all we know with any certainty is that based on the exit trajectory the next 
-destination of the probe is likely to be the Sirius binary system. 
+and this has since become a trope in several popular works of pop science. Support for this theory has grown with 
+evidence suggesting life in the nearby [[Epsilon Indi]] system. 
+
+Ultimately, whatever the senders interest in sending a probe to another system all we know with any certainty is that 
+based on the exit trajectory the next destination of the probe is likely to be the Sirius binary system. 
 
 # Technological Impact
 
@@ -857,7 +871,8 @@ Solar System."`,
     }],
     ['France', {
 content: `France, officially the French Republic, is a country primarily located in Western Europe and is the largest 
-economy in the [[Eurasian Bloc]].`,
+economy in the [[Eurasian Bloc]]. Along with Japan it was the largest funder of the failed Étoile-Kōkai generation ship 
+mission to [[Epsilon Indi]].`,
         classification: 'Socionomics/Polities'
     }],
     ['Freeholders', {
