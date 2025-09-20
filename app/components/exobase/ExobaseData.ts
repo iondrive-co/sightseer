@@ -620,14 +620,14 @@ in the last decade BFC due to genetic disorders generated increased interest in 
 with alternative theories of the SGL images such as self-assembling biology and extinct technosignatures. Better 
 analysis of the spectroscopic data now suggests surface deposits rich in dark pigments, which xenobiologist Guillaume 
 Boucher claims are melanin analogues, theorising these could be from organisms harvesting the moons intense ionizing 
-radiation as an energy source and even travelling between the two moons rather the evolving separately on both. In the 
-aftermath of the [[First Contact Event]] there was a great desire to resume human extrasolar exploration, and the US has 
-now begun the development of a crewed mission to Epsilon Indi, using an [[Antimatter Engine]] and [[MNex~Nexus]] 
-developed cryo-preservation rather than a generation ship. Since 11 AFC interest has been amplified by data arriving 
-from the MagnetoPlasma probe. As of 18 AFC the probe has reached approximately 70% of the distance to ε Indi, and has 
-been returning multi-angle photometry and polarimetric data suggesting that not only are the ridge lines inconsistent 
-with silica plains, but that the high-albedo patches seem to behave like thin, planar reflectors, giant sail-like 
-structures, rather than frost lenses.`,
+radiation as an energy source and even as a power source for travel between the two moons rather than life evolving 
+separately on both. In the aftermath of the [[First Contact Event]] there was a great desire to resume human extrasolar 
+exploration, and the US has now begun the development of a crewed mission to ε Indi, using an [[Antimatter Engine]] and 
+[[MNex~Nexus]] developed cryo-preservation rather than a generation ship. Since 11 AFC interest has been amplified by 
+data arriving from the MagnetoPlasma probe. As of 18 AFC the probe has reached approximately 70% of the distance to ε 
+Indi, and has been returning multi-angle photometry and polarimetric data suggesting that not only are the ridge lines 
+inconsistent with silica plain cracks, but that the high-albedo patches seem to behave like thin, planar reflectors; 
+more like giant sail-like structures than frost lenses.`,
         classification: 'Geo'
     }],
     ['Eurasian Bloc', {
@@ -658,11 +658,12 @@ against the non-Peacekeeper space power blocs of [[Greater Zhōngguó]], [[Domin
         classification: 'Socionomics/Confederations'
     }],
     ['Exobase', {
- content: `The Exobase is an [[Exonet]] hosted encyclopedic compendium, consisting of a small number of articles on notable 
-locations, people, events, and technology. It is known for having concise articles that gracefully degrade to 
+ content: `The Exobase is an [[Exonet]] hosted encyclopedic compendium, consisting of a small number of articles on 
+notable locations, people, events, and technology. It is known for having concise articles that gracefully degrade to 
 holographic AR and even to text, and is often used at extremely high latency endpoints where [[QuanLan]] is unavailable 
 or prohibitively expensive. It is also notable for not being community edited, and for its popularity despite its lack 
-of citations[1] and having numerous factual inaccuracies which often remain uncorrected for extended periods of time.
+of citations[1] and having numerous factual inaccuracies and outright hallucinations which often remain uncorrected for 
+extended periods of time.
 
 In 152 [[BFC~First Contact Event]] the first version of Exobase was conceived as a subset of the larger Exopedia project 
 by an early [[Synthetic Intelligence]] (then called third generation generative AIs) which had been tasked with finding 
@@ -847,13 +848,15 @@ has mostly replaced the Gregorian calender system in daily life system-wide.
         classification: 'Socionomics/Events'
     }],
     ['Forever Fever', {
-content: `Forever Fever (also known by the term 邪修/xié xiū or cultivating evil in [[Greater Zhōngguó]]) is an ongoing 
-period of technological progress in the field of Smart Polymer Medicine (SPM) which started in the last decade BFC before 
-gaining prominence in the first and second decades AFC. It is driven by results in actually replacing parts of multiple 
-organ systems, most notably small sections of neurons in the brain, with smart polymers; rather than simply repairing 
-them. It is estimated to have attracted nearly a quadrillion US dollars of investment, with the justification of it 
-being a viable path to functional immortality in humans. SPM companies have been criticized as being trillionaire only 
-clubs due to the patents and secrecy put in place by some of the largest investors.`,
+content: `The Forever Fever refers to an ongoing period of technological progress in the field of Smart Polymer Medicine 
+(SPM) which started in the last decade BFC before gaining prominence in the first and second decades AFC. The term 
+Forever Fever was coined by [[MetaFox]] journalist @LivedItLily in her series "Gonzo vs Trillionaire" in 4 AFC, but in 
+[[Greater Zhōngguó]] the phenomenon is more commonly known by the term 邪修/xié xiū or cultivating evil (immortality).
+The fever has been driven by promising results in the full replacement of parts of multiple organ systems, most notably 
+small sections of neurons in the brain, with smart polymers; rather than simply repairing them. It is estimated to have 
+attracted nearly a quadrillion US dollars of investment, with the justification of it being a viable path to functional 
+immortality in humans. SPM companies have been criticized as being trillionaire only clubs due to the patents and 
+secrecy put in place by some of the largest investors.`,
         classification: 'Praxis/MedAug'
     }],
     ['Forge Palace', {
@@ -1512,8 +1515,10 @@ entertainment synths and virtual worlds, and is the largest media group in terms
 its name in a merger between NewsCorp (which owned the Fox media brand), and Meta Platforms Inc, at the time the largest
 provider of entertainment technology services, in 150 BFC. Policy outcome tracking shows it has achieved almost complete 
 regulatory capture of the media policy decisions of the US government, especially in regards to issuing media licenses
-and in the application of antitrust laws to competitors.
-Datï¿½orruà¤¶आtedा`,
+and in the application of antitrust laws to competitors. It has won numerous awards for journalism, at the most recent
+Veritas Awards picking up both the US government funded Public Service Medal for TruthStreamDaily's coverage of the data 
+stream from the MagnetoPlasma probe approaching [[Epsilon Indi]], and the Torch of Public Opinion for @LivedItLily's 
+gonzo journalism on the [[Nanocat Fury]] protests.`,
         classification: 'Socionomics/Polities'
     }],
     ['Microsynth', {
@@ -1529,7 +1534,8 @@ line. It has acquired a number of smaller military technology companies, such as
 content: `The Nanocat Fury, also called the Martian Troubles, are an ongoing series of protests and violent skirmishes 
 between the [[Freeholders]] and other Martian nationalists, and a coalition of government and corporate security 
 forces and Marsist groups such as Red Hand. It has attracted Yūmeijin support on both sides such as 
-[[Nimitra Wongprasert]]'s support of the nationalists and [[Alejandro Florentin]] for the Marsists.`,
+[[Nimitra Wongprasert]]'s support of the nationalists and [[Alejandro Florentin]] for the Marsists, as well as 
+continuous news coverage from networks such as [[MetaFox]].`,
         classification: 'Socionomics/Events'
     }],
     ['Naval Auxiliary', {
