@@ -590,7 +590,7 @@ content: `Epsilon Indi is a triple star system (K-type main-sequence star, ε In
 scientific and cultural attention due to anomalous high-albedo features, pigments, and lattice-like ridge networks 
 detected on the moons of ε Indi Ab.
 
-ε Indi has been studied since antiquity as a bright southern star, and the gas giant ε Indi Ab was first discovered bv 
+ε Indi has been studied since antiquity as a bright southern star, and the gas giant ε Indi Ab was first discovered by 
 radial velocity studies and later imaged directly with a space based telescope. Phase-curve anomalies and persistent 
 reflective glints suggested that two of its satellites, Ab I (Yutu) and IV (Takuata), had unusual surface properties 
 resembling cryovolcanic ice. In 142 BFC these two moons became a focus of exoplanetary science when the New World Imager 
@@ -600,9 +600,10 @@ both moons.
 In 137 BFC the [[United States]] launched probes powered by a newly developed second generation [[Fusion Engine]] and
 lightsail propulsion system, accelerating up to 0.03c for a 400 year voyage to ε Indi. In 104 BFC the [[Auburn Ring]] 
 observatory was completed and began to confirm the spikes corresponded to stable high-albedo rectilinear patches. The 
-Indi Anomalies entered public discourse, and the [[Eurasian Bloc]] changed the mission profile of and increased funding 
-for [[Semiotican]] to complete the Étoile-Kōkai generation ship which had been in development and LEO assembly for 38 
-years. It launched in 95 BFC, accelerating up to 0.01c for a 1200 year voyage to ε Indi.
+Indi Anomalies entered public discourse, and the [[Eurasian Bloc]] subsequently increased funding for [[Semiotican]] to 
+complete its contracts for the components of the Étoile-Kōkai crewed interstellar generation ship. Étoile-Kōkai had 
+already had its destination changed multiple time during the 38 years it was in development and LEO assembly. It 
+launched in 95 BFC, accelerating up to 0.01c for a 1200 year voyage to ε Indi.
 
 In 98 BFC the US launched a MagnetoPlasma sail probe which eventually accelerated up to 0.07c, as part of President 
 Schaefers promise to solve the issue "within our lifetimes". Later that year the first ships launched carrying 
@@ -621,7 +622,7 @@ analysis of the spectroscopic data now suggests surface deposits rich in dark pi
 Boucher claims are melanin analogues, theorising these could be from organisms harvesting the moons intense ionizing 
 radiation as an energy source and even travelling between the two moons rather the evolving separately on both. In the 
 aftermath of the [[First Contact Event]] there was a great desire to resume human extrasolar exploration, and the US has 
-now begun the development of a crewed mission to Epsilon Indi, using an [[Antimatter Engin]] and [[MNex~Nexus]] 
+now begun the development of a crewed mission to Epsilon Indi, using an [[Antimatter Engine]] and [[MNex~Nexus]] 
 developed cryo-preservation rather than a generation ship. Since 11 AFC interest has been amplified by data arriving 
 from the MagnetoPlasma probe. As of 18 AFC the probe has reached approximately 70% of the distance to ε Indi, and has 
 been returning multi-angle photometry and polarimetric data suggesting that not only are the ridge lines inconsistent 
