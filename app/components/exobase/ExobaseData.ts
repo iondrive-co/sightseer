@@ -73,12 +73,12 @@ majority ownership stake in the new company.
 
 The company has been critical in several cutting edge mega-engineering projects over its history. In 135 BFC Ångström, 
 in partnership with the [[X-Group]], developed the low cost in-situ manufacturing of kagome lattice planes for 
-[[MarsNet]]. In 78 BFC their production of ultra‐compact volumetric waveguide arrays with femtosecond precision delay 
+[[MarsNet]]. Their production of ultra‐compact volumetric waveguide arrays with femtosecond precision delay 
 lines were instrumental in enabling each spacecraft in the Solar Gravitational Lens interferometer array to maintain 
-the required nanoradian pointing for synchronized optical frequency combs across millions of kilometers. By this 
-coherent stitching together of the Einstein‐ring light bent around the Sun, the array was able to produce the first 
-direct, high‐resolution images of exoplanets. More recently their waveguides have become a critical part of printing
-new particles in [[antimatter~Antimatter Engine]] factories`,
+the required nanoradian pointing for synchronized optical frequency combs across millions of kilometers, producing the 
+first direct, high‐resolution images of [[Epsilon Indi]] in 78 BFC before the array was cancelled by the 
+[[United States]]. More recently their waveguides have become a critical part of printing,new particles in 
+[[antimatter~Antimatter Engine]] factories`,
         classification: 'Socionomics/Polities'
     }],
     ['Antiakrasic', {
@@ -578,25 +578,44 @@ I woke up in old age, and all possibilities had vanished.)
 Ellulism endured and institutionalized beyond him, and even adopted his final lament as a core mantra.`,
         classification: 'Socionomics/Jurisbunds'
     }],
-    ['Exobase', {
-        content:
-`The Exobase is an [[Exonet]] hosted encyclopedic compendium, consisting of a small number of articles on notable 
-locations, people, events, and technology. It is known for having concise articles that gracefully degrade to 
-holographic AR and even to text, and is often used at extremely high latency endpoints where [[QuanLan]] is unavailable 
-or prohibitively expensive. It is also notable for not being community edited, and for its popularity despite its lack 
-of citations[1] and having numerous factual inaccuracies which often remain uncorrected for extended periods of time.
+    ['Epsilon Indi', {
+content: `Epsilon Indi is a triple star system (K-type main-sequence star, ε Indi A, and two brown dwarfs, ε Indi Ba and 
+ε Indi Bb) approximately 12 light-years from Earth. Since the 140 BFCs the system has been the focus of sustained 
+scientific and cultural attention due to anomalous high-albedo features and fossilized lattice-like ridge networks 
+detected on the moons of ε Indi Ab. 
 
-In 152 [[BFC~First Contact Event]] the first version of Exobase was conceived as a subset of the larger Exopedia project 
-by an early [[Synthetic Intelligence]] (then called third generation generative AIs) which had been tasked with finding 
-ways to distribute simple summaries of notable facts to the numerous migrants in the [[Ceres Wave]]. It was never widely 
-used by its intended audience, but later became popular in certain communities such as those left behind in the 
-[[Retrograde Diaspora]] is now one of the most widely consulted resources by [[IAs~Infocom Agent]] in the outer solar 
-system. The most popular feature by number of requests is the cache of [[InterMesh]] profile data about nearby people.
+ε Indi has been studied since antiquity as a bright southern star, and ε Indi Ab was first discovered bv radial velocity 
+studies and later imaged directly with a space based telescope. Phase-curve anomalies and persistent reflective glints 
+suggested two satellites, Ab I (Yutu) and IV (Takuata), with unusual surface properties such as cryovolcanic ice. In 
+142 BFC these two moons became a focus of exoplanetary science when the New World Imager coronograph mission reported 
+albedo spikes recurring at the same orbital phase and inconsistent with cloud chemistry on both moons.
 
-After the [[Haidian Takeoff Crisis]] the original synth author was decommissioned. Articles are still frequently added 
-and updated, although the current author is unknown. One popular theory is that the Exobase is now maintained by a 
-[[Cognostim]] stuck in a mimetic feedback loop with itself.`,
-        classification: 'Infomatics'
+In 137 BFC the [[United States]] launched probes powered by a newly developed second generation [[Fusion Engine]] and
+lightsail propulsion system, accelerating up to 0.03c for a 400 year voyage to ε Indi. In 104 BFC the 
+[[Auburn Ring]] lagrange observatory was completed and began to confirm the spikes corresponded to stable high-albedo 
+patches which were rectilinear. The Indi Anomalies entered public discourse, and the [[Eurasian Bloc]] changed the mission 
+profile of and increased funding for [[Semiotican]] to complete the Étoile-Kōkai generation ship which had been in 
+development and LEO assembly for 38 years. It launched in 95 BFC, accelerating up to 0.01c for a 1200 year voyage to ε 
+Indi.
+
+In 98 BFC the US launched a MagnetoPlasma sail probe which eventually accelerated up to 0.07c, as part of President 
+Schaefers promise to solve the issue "within our lifetimes". The first ships for the long awaited Solar Gravitational 
+Lens, a joint partnership between the US and [[Ångström]] to stitch together Einstein‐ring light from a distance of 550 
+AU from the sun to provide kilometer scale direct imaging of exoplanets, also launched that year. In 78 BFC the
+partially completed array generated a test image of Yutu suggesting that the patches were simply frost lenses which
+had formed into rectangular shapes. A combination of cost overruns and waning public interest led to President 
+Alfaro-Elder cancelling further US missions to complete the array. The partial array limped along for nearly a decade, 
+capturing images of the moons much more slowly than planned, and it uncovered many unusual features such as lattice-like 
+ridge lines before failing.
+
+In the last several decades there has been a resurgence of interest in ε Indi, starting with the spiralling failures of 
+Étoile-Kōkai in the last decade BFC due to genetic disorders, with the doomed ship generating increased 
+interest in the mission and alternative theories of the SGL images such as self-assembling biology and extinct 
+technosignatures. In the aftermath of the [[First Contact Event]] there was a great desire to resume human exo-stellar 
+exploratory missions, which was amplified by the MagnetoPlasma probes which have as of 18 AFC reached 70% of the 
+distance to ε Indi and have transmitted images suggesting the ridge lines are not silica plains as initially thought,
+but in fact appear to be the remains of giant reflective sail like structures.`,
+        classification: 'Geo'
     }],
     ['Eurasian Bloc', {
             content:
@@ -624,6 +643,25 @@ the third largest contributor to the [[Peacekeepers]] (after the United States a
 against the non-Peacekeeper space power blocs of [[Greater Zhōngguó]], [[Dominio]], [[Türkiye]], and the 
 [[Fatimid Trade Caliphate]].`,
         classification: 'Socionomics/Confederations'
+    }],
+    ['Exobase', {
+ content: `The Exobase is an [[Exonet]] hosted encyclopedic compendium, consisting of a small number of articles on notable 
+locations, people, events, and technology. It is known for having concise articles that gracefully degrade to 
+holographic AR and even to text, and is often used at extremely high latency endpoints where [[QuanLan]] is unavailable 
+or prohibitively expensive. It is also notable for not being community edited, and for its popularity despite its lack 
+of citations[1] and having numerous factual inaccuracies which often remain uncorrected for extended periods of time.
+
+In 152 [[BFC~First Contact Event]] the first version of Exobase was conceived as a subset of the larger Exopedia project 
+by an early [[Synthetic Intelligence]] (then called third generation generative AIs) which had been tasked with finding 
+ways to distribute simple summaries of notable facts to the numerous migrants in the [[Ceres Wave]]. It was never widely 
+used by its intended audience, but later became popular in certain communities such as those left behind in the 
+[[Retrograde Diaspora]] is now one of the most widely consulted resources by [[IAs~Infocom Agent]] in the outer solar 
+system. The most popular feature by number of requests is the cache of [[InterMesh]] profile data about nearby people.
+
+After the [[Haidian Takeoff Crisis]] the original synth author was decommissioned. Articles are still frequently added 
+and updated, although the current author is unknown. One popular theory is that the Exobase is now maintained by a 
+[[Cognostim]] stuck in a mimetic feedback loop with itself.`,
+        classification: 'Infomatics'
     }],
     ['Exonet',{
         content:
