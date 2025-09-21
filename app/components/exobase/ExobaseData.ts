@@ -136,12 +136,12 @@ from E=mc^2 is only approximately 10kg of matter-antimatter fuel. The engineerin
 solid propellant available for vaporization is a commercial and military secret and other than containment is the main 
 barrier preventing smaller corporations from developing competing antimatter engines.
 
-The most expensive long range scientific probes use antimatter propulsion via an alternative system of generating 
-electricity for photon thrust directly from the gamma rays, this system is more reliable than other antimatter engines 
-due to its simplicity, and incredibly efficient due to the lack of non-antimatter propellant. No propellant was observed 
-being used in the first contact vessels antimatter engine, combined with the tiny size and extremely high ISP this 
-suggests it was using the antimatter energy to kickstart a reaction in some form of exotic propellant such as dark 
-matter or vacuum energy.
+The most expensive long range scientific probes, such as the newest [[Epsilon Indi]] mission, use antimatter propulsion 
+via an alternative system of generating electricity for photon thrust directly from the gamma rays. This system is more 
+reliable than other antimatter engines due to its simplicity, and incredibly efficient due to the lack of non-antimatter 
+propellant. This may be a more primitive version of the first contact vessels tiny antimatter engine, since no 
+propellant was observed being used to generate the extremely high ISP it may have been using antimatter energy to 
+kickstart a reaction in some form of exotic propellant such as dark matter or vacuum energy.
 
 It is believed that several Earth militaries are attempting to develop antimatter beam weapons. Several notable 
 physicists and engineers are on record working on parts of the delivery system for the colossal amounts of energy to 
@@ -784,10 +784,9 @@ gamma radiation in the small craft, but [[Hannah Weiss-Martin]]'s theory of comp
 a better explanation for the data.
 
 Another field of debate deals with the fact that life arising in two places independently implies the galaxy is teeming 
-with life. Philosopher Hyun Soo Park popularised a theory for the Fermi paradox of their continued silence, based on 
-a balance of forces which has so far prevented us from being contacted or attacked until the sender broke the balance,
-and this has since become a trope in several popular works of pop science. Support for this theory has grown with 
-evidence suggesting life in the nearby [[Epsilon Indi]] system. 
+with life, especially in light of new evidence suggesting life in the nearby [[Epsilon Indi]] system. Philosopher Hyun 
+Soo Park has popularised a Fermi paradox explanation for the continued alien silence, positing that a balance of forces 
+exists which has so far prevented us from being contacted or attacked until the sender broke the balance.
 
 Ultimately, whatever the senders interest in sending a probe to another system all we know with any certainty is that 
 based on the exit trajectory the next destination of the probe is likely to be the Sirius binary system. 
@@ -838,7 +837,8 @@ mythoi, and these still pervade much of the art and philosophical work created s
 score higher on markers for curiosity, drive, and cognitive flexibility than any generation before them, and lower on 
 stress markers when exposed to ambiguity and uncertainty. The consensus among sociologists, as summarized by Mori, 
 Rouz & Teo (16 AF), is that "the current and ongoing psychological impacts on humanity have and will be so profound that 
-future generations may consider the event the most significant change in human society since the agricultural revolution". 
+future generations may consider the event the most significant change in human society since the agricultural 
+revolution". 
 
 An informal system of referring to the year of contact as 0 AFC (After First Contact) and prior years as BFC 
 (Before First Contact) developed in popular culture, and over the subsequent decades has became so commonplace that it 
