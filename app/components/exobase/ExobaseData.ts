@@ -198,9 +198,10 @@ typically specialize in specific services or communities. The mancomunidad (volu
 from the larger agencies like Grupo Tigre and Confederación Gaucha and have developed stable jurisdictional agreements 
 to prevent conflicts and manage a territorial defense system evolved from inherited and newly developed Argentine 
 military assets, particularly the Cóndor IV missile systems. Some mancomunidad engage with organisations such as the 
-Ellulist church to work on larger scale projects, a well known Argentian project being the nanotech monitoring network 
-Phaethon. It has developed a stong biotech sector due to lack of regulation, with many well known companies such as 
-[[MNex~Nexus]] and some of the largest [[Smart Polymer~Forever Fever]] companies headquartering there.`,
+Ellulist church to work on larger scale projects, a well known Argentine project being the [[Viroforge~Fabricator]] 
+monitoring network Phaethon. It has developed a strong biotech sector due to lack of regulation, with many well known 
+companies such as [[MNex~Nexus]] and some of the largest [[Smart Polymer~Forever Fever]] companies headquartering 
+there.`,
         classification: 'Socionomics/Polities'
     }],
     ['Augustine Okafor', {
@@ -715,7 +716,11 @@ delivered by [[drone~Drone]].
 
 The Chandler-Kapoor Agreements of the 70s require all signatories to monitor for unauthorized fabrication. Many 
 existential risk charities have funded additional regional rollouts of denser distributions of [[motes~Mote]] in 
-under-served areas to mitigate the danger of missing any fabrication.`,
+under-served areas to mitigate the danger of missing any fabrication. The creation of what have been called Viroforges,
+hacked printers able to produce pathogenic agents, is enough of a concern that many polities have funded worldwide
+networks such as [[Phaethon~Argentinian Mancomunidad]] tuned for detecting unknown pathogens. There is little monitoring
+off Earth, and [[Deus Machina]] claims that the dispersal of humanity while technology such as fabricators are
+unsupervised by [[synth~Synthetic Intelligence]] is a great filter explanation and the largest threat to humanity.`,
         classification: 'Praxis/Industrial'
     }],
     ['Fatimid Trade Caliphate', {
@@ -891,15 +896,18 @@ Smart polymers self-heal and adapt to metabolic demands, eliminating many risks 
 uncontrolled cell proliferation. Neural-interface coatings permit communication with the autonomic and central nervous 
 systems, ensuring that polymeric replacements retain the responsiveness of natural organs. This technology began to be 
 commercialised in the first years AFC, firstly with the synthesis of simpler organs such as the bladder and blood 
-vessels, and the first simple organoprinter was installed at Massachusetts General Hospital in 9 AFC. Research is 
-ongoing into the complete replacement of more metabolically active organs such as livers, kidneys, and hearts.
+vessels, and the first simple [[organoprinter~Fabricator]] was installed at Massachusetts General Hospital in 9 AFC. 
+Research is ongoing into techniques for the replacement of more metabolically active organ sections, such as  parts of
+livers, kidneys, and hearts.
 
-The development of artificial myelination for faster brain processing by [[Microsynth]] and [[Sinogroup]], initially
-for military applications, was another avenue of commercialisation. As the technology developed it began to be possible
-to develop simple endoneurobots able to emulate neurons, synaptobots for synapses, and gliabots for glial cells, and
-implant them with promising results in compensating for neuronal loss in neurodegenerative diseases. This has led to 
-speculation that the complete replacement of a human brain might be possible in the near future, however critics point 
-out that the brain’s astronomical complexity and fragile timing have barely begun to be mapped.`,
+The development of artificial myelination, using smart polymers to patch and improve nerve conduction, was another 
+avenue of commercialisation. This was initially funded by [[Microsynth]] and [[Sinogroup]] who were seeking military
+applications such as faster signal processing in the brain, however it has seen more use in treating demyelinating 
+diseases and injuries. This led to the development of mesoscale polymeric interfaces able to route signals around 
+damaged neurons, which have shown promise in compensating for neuronal loss in neurodegenerative diseases. Victor Kwan
+funded startup MindFrame has demonstrated in-situ offloading of hippocampal CA1 processing into connected polymer 
+circuits, leading to speculation that the complete replacement of a human brain might be possible in the near future. 
+Critics point out that the brain’s astronomical complexity and fragile timing have barely begun to be mapped.`,
         classification: 'Praxis/MedAug'
     }],
     ['Forge Palace', {
@@ -1520,7 +1528,7 @@ or piracy except where it benefits Gran México, which in turn has never bowed t
 Over time the zone has had to adapt its economy to changing technology. Already in 120 BFC ultra low orbit ABEP spy 
 satellites were becoming more widespread, and with slowly increasing spread of [[motes~Mote]] starting in the 70s 
 privacy in most terrestrial environments has almost completely disappeared in an attempt to control dangerous 
-[[Fabricator~Fabs]]. This has forced the zone to operate illicit activities either internally, or in remote 
+[[Fabs~Fabricator]]. This has forced the zone to operate illicit activities either internally, or in remote 
 environments, or digitally, or in other areas on and off Earth where they are either tolerated or corruption is high.
 
 # Judicial System
@@ -2111,7 +2119,7 @@ primarily capability based which has been shown to be more effective and harder 
 and frameworks for scaling and standardizing this monitoring appear to be universally used. Deliberately developing a 
 synth without these templates or monitoring is one of only three universally agreed capital offences, along with 
 unauthorized development of nanobots and biological weapons. Tripwires in various sectors, especially telecommunications 
-and nano-tech assembly, are also part of standard processes in those industries in order to detect any maladherence.
+and nanotech assembly, are also part of standard processes in those industries in order to detect any maladherence.
 
 A limit on the number of parameters allowed in a model is also globally agreed on, although this is controversial  as
 it encourages gaming the metric. Alignment for larger models has been improved by the iterative inverse reinforcement 
