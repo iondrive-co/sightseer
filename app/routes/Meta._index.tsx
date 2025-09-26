@@ -21,9 +21,13 @@ export default function Meta() {
                         personal choice, and this collection of creative writing, opinions, projects, and links to the work of others are some of mine.</p>
                     <h2 className="text-2xl font-semibold mb-4">Colophon</h2>
                     <p className="mb-4">This site lives on the edge — Cloudflare Pages - which is free as in beer for me, and means faster
-                        response times for you, regardless of where you are in the world. It might surprise you to learn that this is a static
-                        site, in that it loads everything from the server once, as even the entire exobase is just a few hundred KB of text.
-                        This is committed into github so I have a versioned history of everything I write, and automatically deployed from there via wrangler.
+                        response times for you, regardless of where you are in the world. This site gets a 93/100 rating on PageSpeed insights, with most
+                        of the delay coming from useful cloudflare features like obfuscating my email address for automated scanners. </p>
+                    <p className="mb-4">
+                        It might surprise you to learn that this is a static site, in that it loads everything from the server once, as even the entire
+                        exobase is just a few hundred KB of text. This is committed into github so I have a versioned history of everything I write, and
+                        automatically deployed from there via wrangler. </p>
+                    <p className="mb-4">
                         Although very convenient, I have mixed feelings about Cloudflare being the gatekeeper and tracker of usage for this site
                         and may well move to self hosting once it is a bit more stable. I am not a web developer, but I have found the Remix framework
                         easy to work with, and tailwind css to be simple enough to create layouts which (mostly) adapt gracefully from phone to

@@ -38,15 +38,18 @@ incredibly successful in reducing its internal operating costs through infomatic
 lifetime, it is the most successful company in history.
 
 Initially known as an "e-commerce" company, Amazon has survived major technological and societal changes affecting its 
-business, often by embracing them. With cloud computing Amazon adopted a commoditize your complement strategy, driving 
-down the costs of undifferentiated compute by controlling polities such as the [[RDP]], which allowed them to more 
-effectively sell high margin differentiated compute products such as drug discovery. When the [[InterMesh]] began to 
-make real time physical indexing acceptable Amazon had the scale to develop vertically integrated universal content 
-recommendations that were difficult to compete with, and was also able to dramatically improve its consumer logistics
-while also increasing home robotics sales. The long tail of cottage industries that grew from home [[Fabricator]]s 
-were a perfect fit for its growing automated marketplace, and their subscription and healthcare platforms were well 
-positioned to fill the growing demand for rental of large items such as furniture and healthcare (although losing 
-out on automotive to the [[X Group]]).`,
+business, often by embracing them. Their compute services have evolved since the earliest days of the company, moving 
+into competing with [[Pharmatica Group]] first via consumer biology compute and later in drug development modelling. 
+Amazon has adopted a commoditize your complement strategy, driving down the costs of undifferentiated compute by 
+controlling polities such as the [[RDP]], which allow them to more effectively sell high margin differentiated compute 
+products such as drug discovery. 
+
+When the [[InterMesh]] began to make real time physical indexing acceptable Amazon had the scale to develop vertically 
+integrated universal content recommendations that were difficult to compete with, and was also able to dramatically 
+improve its consumer logistics while also increasing home robotics sales. The long tail of cottage industries that grew 
+from home [[Fabricator]]s were a perfect fit for its growing automated marketplace, and their subscription and 
+healthcare platforms were well positioned to fill the growing demand for rental of large items such as furniture and 
+healthcare (although losing out on automotive to the [[X Group]]).`,
         classification: 'Socionomics/Polities'
     }],
     ['Ångström', {
@@ -852,11 +855,37 @@ content: `The Forever Fever refers to an ongoing period of technological progres
 (SPM) which started in the last decade BFC before gaining prominence in the first and second decades AFC. The term 
 Forever Fever was coined by [[MetaFox]] journalist @LivedItLily in her series "Gonzo vs Trillionaire" in 4 AFC, but in 
 [[Greater Zhōngguó]] the phenomenon is more commonly known by the term 邪修/xié xiū or cultivating evil (immortality).
-The fever has been driven by promising results in the full replacement of parts of multiple organ systems, most notably 
+It has been driven by promising results in the full replacement of parts of multiple organ systems, most notably 
 small sections of neurons in the brain, with smart polymers; rather than simply repairing them. It is estimated to have 
-attracted nearly a quadrillion US dollars of investment, with the justification of it being a viable path to functional 
-immortality in humans. SPM companies have been criticized as being trillionaire only clubs due to the patents and 
-secrecy put in place by some of the largest investors.`,
+attracted nearly a quadrillion US dollars of investment, due to the expert consensus that it represents a viable path to 
+functional immortality in humans. SPM companies have been criticized as being trillionaire only clubs due to the patents 
+and secrecy put in place by some of the largest investors.
+
+The field of synthetic biology stretches back hundreds of years, however the development of more effective cell dynamic 
+models by [[Pharmatica Group]] in the 90s led to the modern era of realistic virtual cell models and the ability to
+effectively target cancel cells via their surface protein profiles, which has been the single most effective 
+intervention in lengthening human lifespan since everyday access to clean water. The improvement in the quality of 
+synthetic cells did not have a similar breakthrough period, but continued slowly yielding many improvements such as
+biohybrid brain implants and [[MemAmp]]s. The period from the 70s to the 30s saw many practical engineering advances 
+that increased the range of treatments that synthetic biology could be applied to, these included better hydrogels, 
+scaffolds, embryo selection eugenics, and genetic engineering techniques and human applications such as those pioneered 
+by [[Nexus]].
+
+Up until the last decade BFC the most promising approach to extending longevity appeared to be cell repair via nanobots,
+but the slow advancement of nanotech due to the sticky fingers problem led to general pessimism due to an inabilty to
+create effect sub-microscale devices. Despite this it was possible to develop microscale devices such as respirocytes, 
+a 1-micron spherical device that can carry hundreds of times more oxygen than a natural red cell. Research paid for
+by many of the military contractors such as [[Havfélög]] and [[Constellis Group]] led to the first surgical 
+implementations of respirocyte fleets, increasing the lungs gas-exchange functions and creating soldiers with
+greatly increased endurance. Despite techniques such as this now being in common use, the field of surgical nanotech
+is no longer seen as a promising avenue for repairing cells. 
+
+Instead, research in replacing cells entirely began to be commercialised in the first years AFC, with endoneurobots 
+able to operate inside neurons, synaptobots at synapses, and gliabots within glial cells to form web-like connections 
+compensating for neuronal loss in neurodegenerative diseases. Artificial myelination for faster brain processing is
+currently being developed by several companies. The first simple organoprinter was installed at Massachusetts General 
+Hospital in 5 AFC. Improvements in smart polymers have now started to make the replacement of parts of various organs
+feasible, with replacement of parts of the brain in active development.`,
         classification: 'Praxis/MedAug'
     }],
     ['Forge Palace', {
@@ -1505,8 +1534,9 @@ specialised problems for faster asynchronous processing; all of these were first
 personal in the 50s by military [[infomatic companies~Infomatic Conglomerate]] such as [[Microsynth]] and [[Sinogroup]]. 
 There have been several waves of startups attempting to commercialise each of these, with the latest wave in 6 AFC 
 around modules capable of human-machine communication with [[drones~Drone]] and other hardware, which are already widely 
-used by various militaries and contractors such as the [[Constellis Group]]. The original name MemAmp is still used to 
-describe any self assembling optogenetic neural lace enhancement, regardless of the capability it provides.`,
+used by various militaries and contractors such as the [[Constellis Group]]. Several of the most promising
+[[Smart Polymer Medicine~Forever Fever]] companies began by developing MemAmps. The original name MemAmp is still used 
+to describe any self assembling optogenetic neural lace enhancement, regardless of the capability it provides.`,
 classification: 'Praxis/MedAug'
     }],
     ['MetaFox', {
@@ -1769,23 +1799,25 @@ Akrasinil and the senolytic Renovacel.
 
 Pharmatica originated with European pharmaceutical giant Novo Nordisk's issues scaling out its semaglutide manufacture 
 to meet the continually increasing global demand for them. The solution, cell free synthesis production lines, were so 
-effective that Pharmatica was left with excess molecular farming capacity. Pharmatica's response was to invest 
-significant resources into providing rental and APIs on top of its molecular farms, and over time this has become their 
-second largest revenue stream.
+effective that Novo Nordisk was left with excess molecular farming capacity. Their response was to invest 
+significant resources into providing rental and APIs on top of its molecular farms, and over time this has become the 
+companies second largest revenue stream. In 119 BFC the company was renamed to Pharmatica Group.
 
-At the same time the advent of affordable powder bed drug printing was leading to to wide-spread drug piracy and over 
-time reducing the revenue from direct sale of patent protected drugs (although they remain the highest margin physical 
-good and today direct sales still make up a significant portion of Pharmatica's revenue). To combat this Pharmatica 
-invested heavily in developing cell dynamic models from their internal datasets such as perturbation and genetic 
-interaction data in order to license drugs developed from them. Despite the heavy competition from [[Amazon]] in this 
-area, royalties from these drugs are now the companies biggest revenue source. 
+In the following decades the advent of affordable powder bed drug printing was leading to to wide-spread drug piracy, 
+and over time reducing the revenue from direct sale of patent protected drugs (although they remain the highest margin 
+physical good and today direct sales still make up a significant portion of Pharmatica's revenue). To combat this 
+Pharmatica invested heavily in developing cell dynamic models from their internal datasets such as perturbation and 
+genetic interaction data in order to license drugs developed from them. Despite the heavy competition from [[Amazon]] in 
+this area, royalties from these drugs are now the companies biggest revenue source. 
 
 Pharmatica started expanding into neurological modelling in 70 BFC by acquiring IP from smaller companies such as 
 [[Nexus]]. In 65 BFC, looking to break into the new market of tailored mRNA programming products which was being 
 explored by several startups as well as the giant [[Bioforge Hivegen]], it acquired biotechnology giant AstraZeneca 
 which had the most IP in this space, and as part of the merger the combined conglomerate was renamed to Pharmatica 
 Group. During the lifestyle neo-opiod wave of the 50s the groups SynthAntagon antagonist became a best seller, and 
-addiction treatment pharmaceuticals continue to be their single best selling product.`,
+addiction treatment pharmaceuticals continue to be their single best selling product. Despite pioneering many of the
+synthetic cell models that helped start the [[Forever Fever]], Pharmatica's smart polymer therapies have not been 
+commercially successful and their stock price has declined heavily in the last decade.`,
         classification: 'Socionomics/Polities'
     }],
     ['Plasmorph', {
