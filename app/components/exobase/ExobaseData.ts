@@ -856,8 +856,8 @@ content: `The Forever Fever refers to an ongoing period of technological progres
 (SPM) which started in the last decade BFC before gaining prominence in the first and second decades AFC. The term 
 Forever Fever was coined by [[MetaFox]] journalist @LivedItLily in her series "Gonzo vs Trillionaire" in 4 AFC, but in 
 [[Greater Zhōngguó]] the phenomenon is more commonly known by the term 邪修/xié xiū or cultivating evil (immortality).
-It has been driven by promising results in the full replacement of parts of multiple organ systems, most notably 
-small sections of neurons in the brain, with smart polymers; rather than simply repairing them. It is estimated to have 
+It has been driven by promising results in the full replacement of parts of multiple organ systems, including basic
+[[Neurogenesis]], with smart polymers; rather than simply repairing them. It is estimated to have 
 attracted nearly a quadrillion US dollars of investment, due to the expert consensus that it represents a viable path to 
 functional immortality in humans. SPM companies have been criticized as being trillionaire only clubs due to the patents 
 and secrecy put in place by some of the largest investors.
@@ -868,15 +868,16 @@ effectively target cancel cells via their surface protein profiles, which has be
 intervention in lengthening human lifespan since everyday access to clean water. The improvement in the quality of 
 synthetic cells did not have a similar breakthrough period, but continued slowly yielding many improvements such as
 biohybrid brain implants and [[MemAmp]]s. The 50 year period from the 70s to the 20s saw many practical engineering 
-advances increasing the range of treatments that synthetic biology could be applied to, these included better hydrogels, 
-scaffolds, embryo selection eugenics, and genetic engineering techniques and human applications such as those pioneered 
-by [[Nexus]].
+advances increasing the range of treatments that synthetic biology could be applied to, these included synthetic 
+proteins able to self-assemble into hydrogel networks, synthetic cell systems able to lay down extracellular matrices,
+scaffolds, synthetic circuits for fine tuning embryo selection eugenics, programmable orthogonal genetic codes,
+and biocoherence systems such as those pioneered by [[Nexus]].
 
-Up until the last decade BFC the most promising approach to extending longevity appeared to be cell repair via nanobots,
+Up until the last decade BFC the most promising approach to extending longevity appeared to be cell repair via nanobots.
 The development of microscale devices such as respirocytes, a 1-micron spherical device that can carry hundreds of times 
 more oxygen than a natural red cell, were seen as heralding a new era of medicine. Research on humans was legally 
 prohibited, but many military contractors such as [[Havfélög]] and [[Constellis Group]] paid for research in the 
-[[Argentinian Mancomunidad]] leading to the first surgical implementations of respirocyte fleets in humans, increasing 
+[[Argentinian Mancomunidad]] leading to the first surgical implementations of respirocyte fleets in humans and 
 creating soldiers with greatly increased endurance due to better gas-exchange ability. This and other applications of 
 surgical nanotech such as targeted drug delivery, cell destruction, and blood vessel clearing are now in common use. 
 However the inability to create effect sub-microscale devices due to the sticky fingers problem has led to a stagnation 
@@ -1721,7 +1722,8 @@ legal headquarters remain at Acrux, and some research which would otherwise be i
 `Neurogenesis is an umbrella term for technology which directly modifies the brain, ranging from regenerating tissue
 to integrating computational materials into the brain. Originally referring to the process by which neurons are produced 
 by neural stem cells, it began to be associated with [[optogenetic neural lace~MemAmp]] and the alternative retro-viral 
-delivery of bio-coherent material into the brain pioneered by [[Nexus]].`,
+delivery of bio-coherent material into the brain pioneered by [[Nexus]], as well as the replacement of parts of the 
+brain with [[smart polymers~Forever Fever]].`,
         classification: 'Praxis/MedAug'
     }],
     ['Nimitra Wongprasert', {
