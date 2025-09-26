@@ -199,7 +199,8 @@ from the larger agencies like Grupo Tigre and Confederación Gaucha and have dev
 to prevent conflicts and manage a territorial defense system evolved from inherited and newly developed Argentine 
 military assets, particularly the Cóndor IV missile systems. Some mancomunidad engage with organisations such as the 
 Ellulist church to work on larger scale projects, a well known Argentian project being the nanotech monitoring network 
-Phaethon.`,
+Phaethon. It has developed a stong biotech sector due to lack of regulation, with many well known companies such as 
+[[MNex~Nexus]] and some of the largest [[Smart Polymer~Forever Fever]] companies headquartering there.`,
         classification: 'Socionomics/Polities'
     }],
     ['Augustine Okafor', {
@@ -866,26 +867,38 @@ models by [[Pharmatica Group]] in the 90s led to the modern era of realistic vir
 effectively target cancel cells via their surface protein profiles, which has been the single most effective 
 intervention in lengthening human lifespan since everyday access to clean water. The improvement in the quality of 
 synthetic cells did not have a similar breakthrough period, but continued slowly yielding many improvements such as
-biohybrid brain implants and [[MemAmp]]s. The period from the 70s to the 30s saw many practical engineering advances 
-that increased the range of treatments that synthetic biology could be applied to, these included better hydrogels, 
+biohybrid brain implants and [[MemAmp]]s. The 50 year period from the 70s to the 20s saw many practical engineering 
+advances increasing the range of treatments that synthetic biology could be applied to, these included better hydrogels, 
 scaffolds, embryo selection eugenics, and genetic engineering techniques and human applications such as those pioneered 
 by [[Nexus]].
 
 Up until the last decade BFC the most promising approach to extending longevity appeared to be cell repair via nanobots,
-but the slow advancement of nanotech due to the sticky fingers problem led to general pessimism due to an inabilty to
-create effect sub-microscale devices. Despite this it was possible to develop microscale devices such as respirocytes, 
-a 1-micron spherical device that can carry hundreds of times more oxygen than a natural red cell. Research paid for
-by many of the military contractors such as [[Havfélög]] and [[Constellis Group]] led to the first surgical 
-implementations of respirocyte fleets, increasing the lungs gas-exchange functions and creating soldiers with
-greatly increased endurance. Despite techniques such as this now being in common use, the field of surgical nanotech
-is no longer seen as a promising avenue for repairing cells. 
+The development of microscale devices such as respirocytes, a 1-micron spherical device that can carry hundreds of times 
+more oxygen than a natural red cell, were seen as heralding a new era of medicine. Research on humans was legally 
+prohibited, but many military contractors such as [[Havfélög]] and [[Constellis Group]] paid for research in the 
+[[Argentinian Mancomunidad]] leading to the first surgical implementations of respirocyte fleets in humans, increasing 
+creating soldiers with greatly increased endurance due to better gas-exchange ability. This and other applications of 
+surgical nanotech such as targeted drug delivery, cell destruction, and blood vessel clearing are now in common use. 
+However the inability to create effect sub-microscale devices due to the sticky fingers problem has led to a stagnation 
+in the field of nanotech, with cellular repair techniques for DNA, protein folding, mitochondria, ribosomes, enzymes, 
+and membrane channels remaining out of reach of microscale devices.
+ 
+Instead, many years of improvements in smart polymers capable of adjusting stiffness, conductivity, and biochemical 
+activity in response to cellular and neural cues started to snowball in the last decade BFC. Smart Polymer 
+Medicine differs from regenerative medicine in its focus on synthetic permanence rather than ongoing cell renewal. 
+Smart polymers self-heal and adapt to metabolic demands, eliminating many risks of scar formation, immune rejection, or 
+uncontrolled cell proliferation. Neural-interface coatings permit communication with the autonomic and central nervous 
+systems, ensuring that polymeric replacements retain the responsiveness of natural organs. This technology began to be 
+commercialised in the first years AFC, firstly with the synthesis of simpler organs such as the bladder and blood 
+vessels, and the first simple organoprinter was installed at Massachusetts General Hospital in 9 AFC. Research is 
+ongoing into the complete replacement of more metabolically active organs such as livers, kidneys, and hearts.
 
-Instead, research in replacing cells entirely began to be commercialised in the first years AFC, with endoneurobots 
-able to operate inside neurons, synaptobots at synapses, and gliabots within glial cells to form web-like connections 
-compensating for neuronal loss in neurodegenerative diseases. Artificial myelination for faster brain processing is
-currently being developed by several companies. The first simple organoprinter was installed at Massachusetts General 
-Hospital in 5 AFC. Improvements in smart polymers have now started to make the replacement of parts of various organs
-feasible, with replacement of parts of the brain in active development.`,
+The development of artificial myelination for faster brain processing by [[Microsynth]] and [[Sinogroup]], initially
+for military applications, was another avenue of commercialisation. As the technology developed it began to be possible
+to develop simple endoneurobots able to emulate neurons, synaptobots for synapses, and gliabots for glial cells, and
+implant them with promising results in compensating for neuronal loss in neurodegenerative diseases. This has led to 
+speculation that the complete replacement of a human brain might be possible in the near future, however critics point 
+out that the brain’s astronomical complexity and fragile timing have barely begun to be mapped.`,
         classification: 'Praxis/MedAug'
     }],
     ['Forge Palace', {
