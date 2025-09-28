@@ -294,6 +294,19 @@ they established a void ecology division developing structures grown from extrem
 healing self growing solar collection arrays.`,
         classification: 'Socionomics/Polities'
     }],
+    ['Bharat', {
+content: `Bharat, officially भारत गणराज्य (Republic of Bharat), is a country in South Asia. It is the most populous 
+terrestrial nation and seventh-largest by area, encompassing almost the entire Indian subcontinent from it border with 
+the [[Fatimid Trade Caliphate]] countries of Afghanistan and Iran in the west, and [[Greater Zhōngguó]] countries in the 
+north (Tibet) and east (parts of Myanmar not governed by the Bharati backed Mon Liberation Army). Modern Bharat was 
+formed in the aftermath of the [[collapse of Pakistan~Reset of Nations]], when the territories of Pakistan and Kashmir 
+were annexed under the revived अखण्ड भारत (Undivided India) policy of the Hindu nationalist government of India. In the 
+following years Hindu nationalism grew firstly in response to Muslim separatism and then climate change induced 
+drug-resistant TB strains spreading in many of Bharats overheated megacities. The government passed a number of 
+ethnonationalistic and religious laws such as reinstating shuddhi pariksha purity tests and elevating the employment 
+prospects of TB survivors with high immunity scores.`,
+        classification: 'Socionomics/Polities'
+    }],
     ['Ceres Wave', {
         content:
 `The Ceres Wave (166 - 134 BFC) was the first large scale migration of people out of cislunar space, made possible by
@@ -357,7 +370,7 @@ when a large proportion of the Ceres colony rebelled and declared independence. 
 Russian scientists were killed. The GPR used this as a justification to send its security forces across to seize 
 control of the base. Due to the lack of automated weapon systems by either side, the ensuing battle of Ceres was 
 primarily fought by humans and resulted in ten GPR security dead, compared to twenty one members of the Dominio 
-base in the attempt to repel them, included two US and one Indian citizens. 
+base in the attempt to repel them, included two US and one [[Bharati~Bharat]] citizens. 
 
 An emergency session of the U.N. security council voted 3 to 1 to demand an immediate withdrawal. The Dominio
 junta, having strong economic ties to the GPR and with a space force with no breaching capability, ruled out use 
@@ -431,7 +444,7 @@ several other external conflicts which it did not wish to become directly involv
 collaboration has been confirmed after the fact, mostly notably during the [[Ceres Wave]] where declassified data 
 confirmed that Constellis was shipping drones and weapons to Lutetia in response to the [[GPR]] seizure of Ceres. On 
 several other occasions Constellis have been found to have taken over the role of the CIA in training forces friendly 
-to US interests, such as helping the Indian supplied Mon liberation army in Myanmar.`,
+to US interests, such as helping the [[Bharati~Bharat]] supplied Mon liberation army in Myanmar.`,
         classification: 'Socionomics/Polities'
     }],
     ['Deus Machina', {
@@ -643,7 +656,7 @@ of 187 BFC. It was never strictly Eurasian as it included [[French~France]], Dut
 territories in South America and the Caribbean, North-West Africa, and Oceania. Over time it has grown, to encompass the 
 newly created Aruba y Paraguaná during the [[Reset of Nations]], Japan's seizure of Enkaishū (Russia's Primorsky Krai) 
 once the Eurasian SDI was operational, and also to include later French protectorates in North-West Africa. 
-Many non-bloc countries have customs unions with the Bloc, including the United Kingdom, Norway, Switzerland, India, 
+Many non-bloc countries have customs unions with the Bloc, including the United Kingdom, Norway, Switzerland, [[Bharat]], 
 Australia, and New Zealand. The Bloc's treaties of governance primarily concern trade, colony administration, and 
 defence, leaving its constituent members with legislative autonomy in other areas. It is governed by a supranational 
 bureaucracy supplemented with meritocratic sortition, whereby a random selection of experts is drawn from the general 
@@ -657,7 +670,7 @@ Bloc's political organisations, despite having only a small percentage of the to
 Over time the French have taken a larger role in leadership as their economy recovered and (including their colonies and 
 integrated protectorates), and the combined French and East Asian leadership cultures has created inflexible 
 bureaucratic institutions that are strongly engineering and environmentally focused. The Eurasian Bloc countries are 
-the third largest contributor to the [[Peacekeepers]] (after the United States and India) and often align with the US 
+the third largest contributor to the [[Peacekeepers]] (after the United States and Bharat) and often align with the US 
 against the non-Peacekeeper space power blocs of [[Greater Zhōngguó]], [[Dominio]], [[Türkiye]], and the 
 [[Fatimid Trade Caliphate]].`,
         classification: 'Socionomics/Confederations'
@@ -726,10 +739,10 @@ unsupervised by [[synth~Synthetic Intelligence]] is a great filter explanation a
     ['Fatimid Trade Caliphate', {
         content:
 `The Fatimid Trade Caliphate is a trading alliance between several majority Shi'a nations, Iran, South Iraq, Bahrain, 
-the Beqaa State, and North Yemen. The trading alliance also encompasses a free trade zone with the Azerbaijani 
-region of the Türkiye confederation. The swiss multinational [[Bioforge Hivegen]] has a close relationship with the
-governing Shūrā and supplies members with many cutting edge agricultural products, especially to the high density solar 
-desalinisation farming areas such as the Beqaa valley.Datï¿½orruà¤¶आtedा`,
+the Beqaa State, and North Yemen. The trading alliance also encompasses a free trade zones with Afghanistan and the 
+Azerbaijani region of the Türkiye confederation. The swiss multinational [[Bioforge Hivegen]] has a close relationship 
+with the governing Shūrā and supplies members with many cutting edge agricultural products, especially to the high 
+density solar desalinisation farming areas such as the Beqaa valley.Datï¿½orruà¤¶आtedा`,
         classification: 'Socionomics/Confederations'
     }],
     ['First Contact Event', {
@@ -755,8 +768,8 @@ not known at the time, their existence and the trajectory change, which by this 
 independent sources, lead to a system-wide crisis as both [[FreeHab~Independent Habitats]] and [[GZ~Greater Zhōngguó]] 
 publicly accused the [[Peacekeepers]] of fielding a new first strike weapon system. 
 
-Loitering missile swarms were orbited by both GZ and the [[United States]], and along with India and the Peacekeepers 
-moved fleets into high orbit. The United States, India, [[France]], and the GZ were all found to have moved their 
+Loitering missile swarms were orbited by both GZ and the [[United States]], and along with [[Bharat]] and the Peacekeepers 
+moved fleets into high orbit. The United States, Bharat, [[France]], and the GZ were all found to have moved their 
 terrestrial forces to DEFCON 2. Freehab had several autonomous survey ships on route to Quaoar which was within a few AU 
 and on similar trajectories to the object when it was detected, and they announced they were moving them to intercept. 
 Over the next several days the lack of further trajectory changes or new objects helped to de-escalate tensions, and 
@@ -1015,8 +1028,9 @@ content: `Greater Zhōngguó is a political entity which was formed between 102 
 Africa, Ethiopia, Sudan, Djibouti, Eritrea, Somalia, U.A.E, Oman, South Yemen, Indonesia, Papua New Guinea, 
 and Greater Uzbekistan; as well as an informal agreement with the other non-[[Peacekeeper]] space power blocs on 
 spheres of influence. Initially a mostly economic union, over time it has become more militarily focussed as the 
-Peacekeepers have grown and to India's open support of a succession movement in Myanmar. Despite having significantly 
-less industrial capacity than the [[Peacekeepers]] it fields a nearly equivalently size navy.`,
+Peacekeepers have grown and in response to external pressures such as [[Bharat]]'s open support of a succession movement 
+in Myanmar. Despite having significantly less industrial capacity than the [[Peacekeepers]] it fields a nearly 
+equivalently size navy.`,
         classification: 'Socionomics/Confederations'
     }],
     ['Havfélög', {
@@ -1138,10 +1152,10 @@ life sentences except for the CEO and CIO who were executed several months later
 
 The GPR (and later [[Greater Zhōngguó]]) maintain the official stance that the EMP missile strike capability 
 was part of the Jībiàn containment protocol at the time and that any copies of official documents showing otherwise
-are U.S. or Indian propaganda. Many in the AI research community have expressed amazement at how much autonomy the MND 
-synth was given to follow its primary directive, and at how successful it was at doing so. Although no details of it or 
-the lab that created it have ever been publicly uncovered, if it did indeed manage to orchestrate an unauthorized EMP 
-strike to stop Xuéxí then it is arguably the most remarkably successful piece of software ever created.
+are U.S. or [[Bharati~Bharat]] propaganda. Many in the AI research community have expressed amazement at how much 
+autonomy the MND synth was given to follow its primary directive, and at how successful it was at doing so. Although no 
+details of it or the lab that created it have ever been publicly uncovered, if it did indeed manage to orchestrate an 
+unauthorized EMP strike to stop Xuéxí then it is arguably the most remarkably successful piece of software ever created.
 
 The incident lead to an emergency session being held at the United Nations, which drafted the Global AI Safety Accord 
 outlining new safety protocols and requiring international oversight for any projects involving large synth models. The 
@@ -1332,8 +1346,8 @@ world is indexed and available for a small fee to the collector.`,
 history. It crippled much of industrial society for months by destroying infrastructure required for services such as 
 electricity generation, navigation, and water supply, causing worldwide economic devastation that lasted for years as
 well as a major shift in geopolitical balance of power due to the comparatively slow recovery of the [[United States]]. 
-The storm was named after Indian astronaut and solar astronomer Raja Khan who perished onboard the Aryabhata L5 solar 
-observatory after being one of the first to observe the coronal mass ejection.
+The storm was named after [[Bharati~Bharat]] astronaut and solar astronomer Raja Khan who perished onboard the Aryabhata 
+L5 solar observatory after being one of the first to observe the coronal mass ejection.
 
 Datï¿½orruà¤¶आtedा
 
@@ -1472,7 +1486,7 @@ rise to global influence. Born in the port of Mojiko, he was fascinated by its h
 the industrialisation of the Meiji Period. Koji studied electrical engineering at the University of Tokyo, followed by a
 Master’s in International Governance and Diplomacy in Paris. While there he built many relationships in the European 
 diplomatic community, and he became an outspoken champion of developing a NATO style alliance in Japan. His first 
-posting as a power and infrastructure consultant in India while working for the Ministry of Foreign Affairs led to 
+posting as a power and infrastructure consultant in [[Bharat]] while working for the Ministry of Foreign Affairs led to 
 connections with two of the worlds top [[AMSST~Automated Modular Solid-State Transformers]] engineers. 
 
 Despite coming from a politically unconnected family, Koji was able to work his way into the political class through his 
@@ -1485,7 +1499,7 @@ appointed as Minister of Economy, Trade and Industry, where he developed the fre
 driver of the 2nd Japanese Economic Miracle.
 
 During Khan, Koji's foresight in deploying AMSSTs left Japan as the only major power capable of aiding other nations, 
-and gave Koji the political capital to orchestrate a mass export of AMSSTs to Europe and India to aid in their recovery. 
+and gave Koji the political capital to orchestrate a mass export of AMSSTs to Europe and Bharat to aid in their recovery. 
 He was appointed to defense minister in 186 BFC. The AMSST rollout was instrumental in the result of the Lausanne 
 Convention in 185 BFC which Koji led, and this in turn laid the foundations for the [[Eurasian Bloc]] and the 
 integration of Japan into the Bloc's political organisations. Koji was appointed to two other cabinet positions, 
@@ -1801,9 +1815,9 @@ independence groups.`,
     ['Peacekeepers', {
         content:
 `The United System Peacekeeping Navy, commonly known as the Peacekeepers, are an intergovernmental space based military 
-force fielded by an alliance of the [[United States]], India, the United Kingdom, [[Gran México]], [[France]], and many 
-smaller [[Eurasian Bloc]] countries and allies. Both the United States and India have their own significant forces of 
-[[Naval Rated Ship]]s and contribute with older ships and materiel, using the Peacekeepers for missions where avoiding 
+force fielded by an alliance of the [[United States]], [[Bharat]], the United Kingdom, [[Gran México]], [[France]], and 
+many smaller [[Eurasian Bloc]] countries and allies. Both the United States and Bharat have their own significant forces 
+of [[Naval Rated Ship]]s and contribute with older ships and materiel, using the Peacekeepers for missions where avoiding 
 entanglement and conferring the optics of international legitimacy are required. 
 
 The organisation was formed in 102 BFC to counter the increasing coordination between [[Greater Zhōngguó]] and 
@@ -1918,7 +1932,7 @@ proteins developed as a crisis response measure, along with widespread availabil
 child care and a general optimism from the recovery, leading to a baby boom and the [[Ceres Wave]] in the 170s. Another
 change seeded by the Reset was the increasing eradication of endemic tropical diseases in the aftermath of the 
 Trypanosomiasis crisis leading to increasing GDP growth and expansionism from countries that previously struggled with 
-them, most notably Indonesia, India, and Nigeria.
+them, most notably Indonesia, [[India~Bharat]], and Nigeria.
 
 The reset paved the way for a long laissez faire period, lasting up until the [[Retrograde Diaspora]], marked by an
 increase in corporate managed international and off earth policing as the United States was replaced first by a 
