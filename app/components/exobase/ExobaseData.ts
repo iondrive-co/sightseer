@@ -297,15 +297,16 @@ healing self growing solar collection arrays.`,
     ['Bharat', {
 content: `Bharat, officially भारत गणराज्य (Republic of Bharat), is the most populous terrestrial nation and eighth 
 largest by area, encompassing almost the entire Indian subcontinent from its western border with the
-[[Fatimid Trade Caliphate]] countries (Afghanistan and Iran), and its borders with [[Greater Zhōngguó]] countries in the 
+[[Fatimid Trade Caliphate]] countries (Afghanistan and Iran), to its borders with [[Greater Zhōngguó]] countries in the 
 north (Tibet) and east (Myanmar). Modern Bharat was formed in the aftermath of the 
 [[collapse of Pakistan~Reset of Nations]], when the territories of Pakistan and Kashmir were annexed under the revived 
 अखण्ड भारत (Undivided India) policy of the Hindu nationalist government of India. Bharat is governed by both elected 
-institutions and an unelected theocratic oligarchy. It is the second largest military contributor to the 
+institutions and an unelected theocratic oligarchy. It has the largest number of active military personnel, its 
+[[Drone Valley]] is a center of [[drone~Drone]] manufacture, and is the second largest military contributor to the 
 [[Peacekeepers]].
 
 In the years following the establishment of modern Bharat, in response to Muslim separatism and climate change induced 
-drug-resistant TB strains rapidly spreading in many of Bharat's overheated megacities, Vikram Chandra's government
+drug-resistant TB strains rapidly spreading in many of Bharat's overheated megacities, Vikram Rana's government
 declared a state of emergency. Article 50 in the constitution was amended to give corporations such as Cipla, 
 Lupin, and Reliance Jio immunity from prosecution while pursuing government mandated directives in dealing with these 
 threats. The Ministry of Health established a bio-purity board staffed by both doctors and priests, controversially 
@@ -318,11 +319,10 @@ therapies in the 120s eliminated most of the threat of TB.
 Historically Bharat suffered from severe water shortages due to the effects of climate change on the monsoon pattern's
 and to a lesser extent timing issues caused by Greater Zhōngguó damming the sources of Bharat's major rivers in Tibet
 in response to Bharat's funding of Tibetan separatists and the Mon Liberation Army in Myanmar. Successive Bharati
-governments used Brahmaputra cooperation in the face of this threat to tighten political control over Bangladesh and 
-Bhutan. Large scale changes to the military were enacted in order to deal with the threat from China, with officers
-being required to have good TB lineage, which created upper echelons that were more loyal to the government. Over time
-the build up of water storage and the advent of free solar desalinisation have largely eliminated water supply as in 
-issue in modern Bharat.`,
+governments used the water crisis and Brahmaputra access to tighten political control over Bangladesh and 
+Bhutan. Large scale changes to the military were enacted in order to deal with the threat from China and the mutinies 
+during the Nepal intervention, with officers now being required to have good TB lineage. Over time the build up of water 
+storage and the advent of free solar desalinisation have largely eliminated water supply as in issue in modern Bharat.`,
         classification: 'Socionomics/Polities'
     }],
     ['Ceres Wave', {
@@ -543,7 +543,7 @@ Texas, California, Arizona, and North Carolina.`,
     ['Drone Valley', {
 content: `Drone Valley, commonly known as the VOTD (valley of the drones) and not to be confused with Drone Alley in 
 Shenzhen, [[Greater Zhōngguó]], is the name for the several kilometer long strip of hundred plus meter high factory 
-stacks in Whitefield, Bengaluru that is primarily involved in the manufacture of [[drones~Drone]] and their 
+stacks in Whitefield, [[Bharat]] that is primarily involved in the manufacture of [[drones~Drone]] and their 
 [[Synth~Synthetic Intelligence]] control nets. 
 
 The area was a hub of drone manufacture and research since drones were first developed, and to encourage the growth of 
@@ -553,8 +553,8 @@ manufacturing automation made it much more efficient to directly integrate as mu
 into linked factories to reduce the feedback loop from finished products back to input. With no zoning constraints in 
 the small part of the district the effect was increasing built up factories. The first factory with height exceeding 100 
 meters was an 21 story commercial military joint venture to supply drones for the [[Eurasian Bloc]]'s self defence after 
-its founding. As drone spaceships became a more important part of the navy of the Bloc (and later the [[Peacekeepers]]), 
-larger and larger shipyards were built in the valley.
+its founding. As drone spaceships became a more important part of the navy of the Bharat 
+(and later the [[Peacekeepers]]), larger and larger shipyards were built in the valley.
 
 The area's most well known feature is a section at the center where the buildings are all higher than 200 meters, with 
 the tallest being a workers residential tower of 382 meters. This section is dominated by two rows of buildings forming 
