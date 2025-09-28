@@ -295,24 +295,34 @@ healing self growing solar collection arrays.`,
         classification: 'Socionomics/Polities'
     }],
     ['Bharat', {
-content: `Bharat, officially भारत गणराज्य (Republic of Bharat), is a country in South Asia. It is the most populous 
-terrestrial nation and seventh-largest by area, encompassing almost the entire Indian subcontinent from the border with 
-[[Fatimid Trade Caliphate]] countries (Afghanistan and Iran) in the west, and [[Greater Zhōngguó]] countries in the 
-north (Tibet) and east (parts of Myanmar not governed by the Bharati backed Mon Liberation Army). Modern Bharat was 
-formed in the aftermath of the [[collapse of Pakistan~Reset of Nations]], when the territories of Pakistan and Kashmir 
-were annexed under the revived अखण्ड भारत (Undivided India) policy of the Hindu nationalist government of India. Bharat
-is governed by a theocratic oligarchy and is the second largest military contributor to the [[Peacekeepers]].
+content: `Bharat, officially भारत गणराज्य (Republic of Bharat), is the most populous terrestrial nation and eighth 
+largest by area, encompassing almost the entire Indian subcontinent from its western border with the
+[[Fatimid Trade Caliphate]] countries (Afghanistan and Iran), and its borders with [[Greater Zhōngguó]] countries in the 
+north (Tibet) and east (Myanmar). Modern Bharat was formed in the aftermath of the 
+[[collapse of Pakistan~Reset of Nations]], when the territories of Pakistan and Kashmir were annexed under the revived 
+अखण्ड भारत (Undivided India) policy of the Hindu nationalist government of India. Bharat is governed by both elected 
+institutions and an unelected theocratic oligarchy. It is the second largest military contributor to the 
+[[Peacekeepers]].
 
 In the years following the establishment of modern Bharat, in response to Muslim separatism and climate change induced 
-drug-resistant TB strains rapidly spreading in many of Bharats overheated megacities, the government declared a state of 
-emergency. Parts of article 50 in the constitution were revoked to give corporations such as Cipla, Lupin, and Reliance 
-Jio immunity to pursue the governments directives in dealing with these threats, and the Ministry of Health established 
-a bio-purity board staffed by both doctors and priests, controversially transforming the official immune resilience 
-tests into a shuddhi pariksha purity rituals. The concept of guna was used to justify elevating the employment 
-and services available to TB survivors with high immunity scores, and "TB-resilient lineage preferred" entered common 
-usage. Wealthy families were able to afford precision immunomodulators to succeed in the tests, and over time this 
-entrenched a modified caste system in Bharati society. Cheap bacteriophage therapies in the 120s eliminated most of the
-threat of TB, but the social changes remain in place to this day.`,
+drug-resistant TB strains rapidly spreading in many of Bharat's overheated megacities, Vikram Chandra's government
+declared a state of emergency. Article 50 in the constitution was amended to give corporations such as Cipla, 
+Lupin, and Reliance Jio immunity from prosecution while pursuing government mandated directives in dealing with these 
+threats. The Ministry of Health established a bio-purity board staffed by both doctors and priests, controversially 
+transforming the official immune resilience tests into a shuddhi pariksha purity rituals. The concept of guna was used 
+to justify elevating the employment and services available to TB survivors with high immunity scores, and "TB-resilient 
+lineage preferred" entered common usage. Wealthy families were able to afford precision immunomodulators to succeed in 
+the tests, and over time this entrenched a modified caste system in Bharati society even after cheap bacteriophage 
+therapies in the 120s eliminated most of the threat of TB.
+
+Historically Bharat suffered from severe water shortages due to the effects of climate change on the monsoon pattern's
+and to a lesser extent timing issues caused by Greater Zhōngguó damming the sources of Bharat's major rivers in Tibet
+in response to Bharat's funding of Tibetan separatists and the Mon Liberation Army in Myanmar. Successive Bharati
+governments used Brahmaputra cooperation in the face of this threat to tighten political control over Bangladesh and 
+Bhutan. Large scale changes to the military were enacted in order to deal with the threat from China, with officers
+being required to have good TB lineage, which created upper echelons that were more loyal to the government. Over time
+the build up of water storage and the advent of free solar desalinisation have largely eliminated water supply as in 
+issue in modern Bharat.`,
         classification: 'Socionomics/Polities'
     }],
     ['Ceres Wave', {
