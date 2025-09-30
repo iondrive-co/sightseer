@@ -297,32 +297,36 @@ healing self growing solar collection arrays.`,
     ['Bharat', {
 content: `Bharat, officially भारत गणराज्य (Republic of Bharat), is the most populous terrestrial nation and eighth 
 largest by area, encompassing almost the entire Indian subcontinent from its western border with the
-[[Fatimid Trade Caliphate]] countries (Afghanistan and Iran), to its borders with [[Greater Zhōngguó]] countries in the 
+[[Fatimid Trade Caliphate]] countries (Afghanistan and Iran) to its borders with [[Greater Zhōngguó]] countries in the 
 north (Tibet) and east (Myanmar). Modern Bharat was formed in the aftermath of the 
 [[collapse of Pakistan~Reset of Nations]], when the territories of Pakistan and Kashmir were annexed under the revived 
 अखण्ड भारत (Undivided India) policy of the Hindu nationalist government of India. Bharat is governed by both elected 
 institutions and an unelected theocratic oligarchy. It has the largest number of active military personnel, its 
-[[Drone Valley]] is a center of [[drone~Drone]] manufacture, and is the second largest military contributor to the 
-[[Peacekeepers]].
+[[Drone Valley]] is the world's largest center of [[drone~Drone]] manufacture, and is the second largest military 
+contributor to the [[Peacekeepers]].
 
 In the years following the establishment of modern Bharat, in response to Muslim separatism and climate change induced 
 drug-resistant TB strains rapidly spreading in many of Bharat's overheated megacities, Vikram Rana's government
 declared a state of emergency. Article 50 in the constitution was amended to give corporations such as Cipla, 
 Lupin, and Reliance Jio immunity from prosecution while pursuing government mandated directives in dealing with these 
-threats. The Ministry of Health established a bio-purity board staffed by both doctors and priests, controversially 
-transforming the official immune resilience tests into a shuddhi pariksha purity rituals. The concept of guna was used 
-to justify elevating the employment and services available to TB survivors with high immunity scores, and "TB-resilient 
-lineage preferred" entered common usage. Wealthy families were able to afford precision immunomodulators to succeed in 
-the tests, and over time this entrenched a modified caste system in Bharati society even after cheap bacteriophage 
-therapies in the 120s eliminated most of the threat of TB.
+threats. The Ministry of Health controversially transformed the Aadhaar indexed immune resilience tests into shuddhi 
+pariksha purity rituals, elevating the employment and services available to TB survivors with high recorded immunity 
+scores. "TB-resilient lineage preferred" entered common usage, and wealthy families began to pay for precision 
+immunomodulators to fool the tests. Cheap bacteriophage therapies in the 120s eliminated the threat of TB for the upper 
+castes, however the system was so entrenched that the guna of a persons resistance to new strains of Dengue and Zika 
+from the increasingly warm monsoon seasons began to be used instead, for example during a series of army purges it 
+became an official requirement for officers to have a good lineage.
 
 Historically Bharat suffered from severe water shortages due to the effects of climate change on the monsoon pattern's
-and to a lesser extent timing issues caused by Greater Zhōngguó damming the sources of Bharat's major rivers in Tibet
-in response to Bharat's funding of Tibetan separatists and the Mon Liberation Army in Myanmar. Successive Bharati
-governments used the water crisis and Brahmaputra access to tighten political control over Bangladesh and 
-Bhutan. Large scale changes to the military were enacted in order to deal with the threat from China and the mutinies 
-during the Nepal intervention, with officers now being required to have good TB lineage. Over time the build up of water 
-storage and the advent of free solar desalinisation have largely eliminated water supply as in issue in modern Bharat.`,
+(and to a lesser extent timing issues caused by Greater Zhōngguó damming the sources of Bharat's major rivers in Tibet 
+in retaliation for Bharat's funding of Tibetan separatists and the Mon Liberation Army in Myanmar). Successive 
+Bharati governments used the water crisis and Brahmaputra access to tighten political control over Bangladesh and 
+Bhutan. After a series of heatwaves in northern Bharat and Nepal killed millions and destabilised the Nepali government,
+Bharat sent the army into Nepal and established a protectorate government. In response to public anger over the deaths
+Bharat began a crash program of spraying sulphur dioxide into the stratosphere, however was never able to scale this up
+sufficiently to make a large difference to global temperatures. Over time the build up of water storage and the advent 
+of free solar desalinisation have largely eliminated water supply as in issue in modern Bharat, although heatwaves 
+remain a major issue`,
         classification: 'Socionomics/Polities'
     }],
     ['Ceres Wave', {
