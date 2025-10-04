@@ -317,12 +317,12 @@ castes, however the system was so entrenched that the guna of a persons resistan
 from the increasingly warm monsoon seasons began to be used instead, for example during a series of army purges it 
 became an official requirement for officers to have a good lineage.
 
-Historically Bharat suffered from severe water shortages due to the effects of climate change on the monsoon pattern's
-(and to a lesser extent timing issues caused by Greater Zhōngguó damming the sources of Bharat's major rivers in Tibet 
-in retaliation for Bharat's funding of Tibetan separatists and the Mon Liberation Army in Myanmar). Successive 
-Bharati governments used the water crisis and Brahmaputra access to tighten political control over Bangladesh and 
-Bhutan. After a series of heatwaves in northern Bharat and Nepal killed millions and destabilised the Nepali government,
-Bharat sent the army into Nepal and established a protectorate government. In response to public anger over the deaths
+Historically Bharat suffered from severe water shortages due to the effects of climate change on the monsoon patterns
+(and to a lesser extent from timing issues caused by Greater Zhōngguó damming rivers in Tibet in retaliation for 
+Bharat's funding of the Mon Liberation Army in Myanmar). Successive Bharati governments used the water crisis and 
+Brahmaputra access to tighten political control over Bangladesh and Bhutan. After a series of heatwaves in northern 
+Bharat and the Terai region of southern Nepal killed millions, the Bharati army provided disaster relief operations into 
+Nepal, and a pro-Bharti party won the next general election. In response to public anger over the deaths
 Bharat began a crash program of spraying sulphur dioxide into the stratosphere, however was never able to scale this up
 sufficiently to make a large difference to global temperatures. Over time the build up of water storage and the advent 
 of free solar desalinisation have largely eliminated water supply as in issue in modern Bharat, although heatwaves 
@@ -1060,12 +1060,12 @@ equivalently size navy.`,
 operate for profit terrestrial navies. Ný Varangia, BAE Nordsjø AS, and [[Saab-Constellis Naval~Constellis Group]] were 
 all created or spun off to legally supply and eventually operate [[United States]] naval assets rented to the 
 [[Eurasian Bloc]] for protection starting from the [[Reset of Nations]]. Their most frequent contracts are for piracy
-protection (often from corporations running subduction vent mines or from countries without navies such as 
-[[Argentinian Mancomunidad]] which operates many undersea colonies and aquaponic farms), integrity patrols for undersea 
-vacuum train routes and fibre optic cables, and military retainer contracts for war gaming and submarine based ASAT 
-capabilities. They are also known for pioneering the use of biocoherence [[Neurogenesis]], in 76 BFC demonstrating two 
-marine fire teams with [[Nexus]] created enhancements could maintain full alertness on a 3 day nonstop patrol around a 
-Metals Company seafloor nodule collector.`,
+protection (often from corporations such as the Metals Company with seafloor nodule collectors and subduction vent 
+mines, or from countries without navies such as [[Argentinian Mancomunidad]] which operates many undersea colonies and 
+aquaponic farms), integrity patrols for undersea vacuum train routes and fibre optic cables, and military retainer 
+contracts for war gaming and submarine based ASAT capabilities. They are also known for pioneering the use of 
+biocoherence [[Neurogenesis]], in 76 BFC being the first to use a [[Nexus]] device for screening their elite marine fire 
+teams.`,
         classification: 'Socionomics/Polities'
     }],
     ['Haidian Takeoff Crisis', {
@@ -1735,13 +1735,20 @@ Both fusion and antimatter engine variants are normally crewed.`,
         content:
 `Nexus was a [[Biocoherence Neurogenesis~Neurogenesis]] (BN) company founded by [[Hannah Weiss-Martin]] and hibernation 
 biologist Javier Florentin. The original company operated for 8 years and had some success in field trials of retroviral 
-delivery of biocoherent material into the brain, before eventually being sold off to the [[Pharmatica Group]] and 
-[[Microsynth]]. 
+delivery of biocoherent material into the brain for field extraction, before eventually being sold off to the 
+[[Pharmatica Group]] and [[Microsynth]]. 
  
 Hannah Weiss-Martin met [[RDP]] biologist Javier Florentin in a cave diving expedition in Cordillera de los Altos,where 
-they discussed founding a company together to explore quantum coherence in the brain and commercialise the integration
-of neurological smart matter. Nexus was incorporated in 77 BFC in the [[Argentinian Mancomunidad]] which had no
-laws on human experimentation, and their first contract was with [[Havfélög]] to develop enhanced focus in their 
+they discussed founding a company together to explore quantum coherence in the brain. Weiss-Martin's groundbreaking 
+viral interference experiments at Caltech in 108 BFC had demonstrated sustained quantum coherence in biological 
+nano-structures, and Florentin's experiments on hibernating animal consciousness had demonstrated there was analogous 
+states in larger animal brains. Nexus was incorporated in 77 BFC in the [[Argentinian Mancomunidad]] which had no
+laws on human experimentation.
+
+The company primary worked on using scalp-mounted arrays of superconducting quantum interference devices (SQUIDs) to 
+detect and reproduce the quantum field fluctuations generated by microtubule networks augmented by retroviral delivery 
+of biocoherent material. This was successful in detecting previously uncaptured temporal thought patterns and 
+associative memory formation. Their first contract was with [[Havfélög]] to develop screening techniques for selecting
 marines. Nexus rented the abandoned Acrux-2 oil rig (offshore structures which were used to extract petroleum 
 for the fossil-economy) in Argentina's Colorado Basin as their main working space, this was later purchased and became 
 the company headquarters.
@@ -1750,7 +1757,9 @@ During this time Javier Florentin was in a relationship with the well known aest
 Romero, but she was tragically killed in 70 BFC during one of the periodo violento that were then still common in the 
 Mancomunidad. It was not clear if Havfélög were involved, but that year Nexus cancelled all contracts with them and 
 sold the rights to their neural models to Pharmatica, and the remainder of their assets to [[Microsynth]] the following
-year.
+year. Perhaps the most promising development from their technology was the creation of [[ghosts~Ghost]] which were an
+arguable better technology than [[copies~Copy]], however this was mothballed by Pharmatica during the acquisition and 
+never developed further.
 
 Nexus operated as a division of Microsynth for 10 years before being divested as a wholly owned subsidiary, MNex, to 
 avoid new biotech market disclosure rules. Due to external power and compute requirements BN was never cost compatible 
@@ -1763,11 +1772,11 @@ legal headquarters remain at Acrux, and some research which would otherwise be i
     }],
     ['Neurogenesis', {
         content:
-`Neurogenesis is an umbrella term for technology which directly modifies the brain, ranging from regenerating tissue
-to integrating computational materials into the brain. Originally referring to the process by which neurons are produced 
-by neural stem cells, it began to be associated with [[optogenetic neural lace~MemAmp]] and the alternative retro-viral 
-delivery of bio-coherent material into the brain pioneered by [[Nexus]], as well as the replacement of parts of the 
-brain with [[smart polymers~Forever Fever]].`,
+`Neurogenesis is an umbrella term for technology which directly modifies the brain, ranging from modifying it for better
+scan coherence, regenerating tissue, all the way to integrating computational materials in it. Originally referring to 
+the process by which neurons are produced by neural stem cells, it began to be associated with 
+[[optogenetic neural lace~MemAmp]] and the retro-viral delivery of bio-coherent material into the brain pioneered by 
+[[Nexus]], as well as the later development in replacement of parts of the brain with [[smart polymers~Forever Fever]].`,
         classification: 'Praxis/MedAug'
     }],
     ['Nimitra Wongprasert', {
@@ -1870,7 +1879,8 @@ genetic interaction data in order to license drugs developed from them. Despite 
 this area, royalties from these drugs are now the companies biggest revenue source. 
 
 Pharmatica started expanding into neurological modelling in 70 BFC by acquiring IP from smaller companies such as 
-[[Nexus]]. In 65 BFC, looking to break into the new market of tailored mRNA programming products which was being 
+[[Nexus]], however despite having the rights to [[ghosts~Ghost]] which were an early version of [[copies~Copy]] they 
+were unable to develop them. In 65 BFC, looking to break into the new market of tailored mRNA programming products which was being 
 explored by several startups as well as the giant [[Bioforge Hivegen]], it acquired biotechnology giant AstraZeneca 
 which had the most IP in this space, and as part of the merger the combined conglomerate was renamed to Pharmatica 
 Group. During the lifestyle neo-opiod wave of the 50s the groups SynthAntagon antagonist became a best seller, and 
