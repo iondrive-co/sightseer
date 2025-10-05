@@ -434,6 +434,15 @@ still exist in various forms such as [[Dominio]]'s mass produced robo-malam whic
 laboratory science in many basic schools.`,
         classification: 'Infomatics/Synths'
     }],
+    ['Copy', {
+content: `A copy is a [[synth~Synthetic Intelligence]] model of a human brain, captured via an 
+[[optogenetic neural lace~MemAmp]]. Unlike a [[Ghost]] it does not account for the quantum phenomena in a brain, which
+most experts now agree probably do not significantly influence brain function. This allows them to run on cheap 
+commodity hardware and to be easily modified to better monetise them through inserting ads and freemium access. The 
+most popular uses are for celebrity replicas (often run as an [[Instance]]), companionship (often from deceased family 
+members), and education purposes.`,
+        classification: 'Infomatics/Synths'
+    }],
     ['Constellis Group', {
 content:`Constellis Group are the system's largest private military contractor. Their headquarters are in Washington, 
 D.C., and they own and run both terrestrial assets (such as White Sands Missile Range in New Mexico and a number of 
@@ -1019,21 +1028,21 @@ terrestrial fusion reactor went into service in 155 BFC in Genkai, Japan after 1
     }],
     ['Ghost', {
         content:
-`A ghost is a [[synths~Synthetic Intelligence]] model created from integrating a 
+`A ghost is a [[synth~Synthetic Intelligence]] model created from integrating a 
 [[Biocoherence Neurogenesis~Neurogenesis]] captured model of quantum states in the human brain with a classical 
 [[Copy]]. Initially developed by [[Nexus]], the technology was abandoned by [[Pharmatica Group]] and only remains in 
-very limited use, usually via QHackers using grey market [[12Quan]] terminals, having been commercially superseded by 
-better Copies. Several notable scientists such as [[Hannah Weiss-Martin]] maintain that advancing the technology is the 
-only way we will ever be able to create a true brain copy which is not a philosophical zombie.
+very limited use, usually via QHackers using grey market [[12Quan]] terminals. The technology was commercially 
+superseded by better Copies, however several notable scientists such as [[Hannah Weiss-Martin]] maintain that 
+integrating a model of the quantum fluctuations in the brain is the only way to create true brain copies which are not 
+philosophical zombies.
  
 A ghost uses a phase-preserving snapshot of the subject’s cognitive momentum, integrated with a classic model created
 via an [[optogenetic neural lace~MemAmp]]. Sessions can run only on quantum hardware, and as inference proceeds a
-process of Progressive Ontological Dissolution (POD) occurs reading observables that do not commute with the 
-phase-encoding Hamiltonian triggers. By the information-disturbance limit, this progressive dephasing inescapably lowers 
-logical fidelity and erodes the expressed traits of the emulated personality, requiring a periodic reset to the pristine 
-base which irrevocably discards any non-classical session-acquired memories. This is one of the reasons (along with 
-requirement for quantum computers) that the technology was never commercially successful. In recent years QHackers have 
-had some success in lengthening a ghost's POD period, which is known colloquially as its Pull Of Death.`,
+process of Progressive Ontological Dissolution (POD) occurs due to the information-disturbance tradeoff, inescapably 
+eroding the expressed traits of the emulated personality and eventually requiring a periodic reset to the pristine 
+base (which irrevocably discards any non-classical session-acquired memories). This is one of the reasons (along with 
+requirement for quantum computers) that the technology was never commercially successful, however in recent years 
+QHackers have had some success in lengthening a ghost's POD period, which is known colloquially as its Pull Of Death.`,
         classification: 'Infomatics/Synths'
     }],
     ['GPR', {
