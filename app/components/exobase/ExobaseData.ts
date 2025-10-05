@@ -914,7 +914,7 @@ and secrecy put in place by some of the largest investors.
 
 The field of synthetic biology stretches back hundreds of years, however the development of more effective cell dynamic 
 models by [[Pharmatica Group]] in the 90s led to the modern era of realistic virtual cell models and the ability to
-effectively target cancel cells via their surface protein profiles, which has been the single most effective 
+effectively target cancer cells via their surface protein profiles, which has been the single most effective 
 intervention in lengthening human lifespan since everyday access to clean water. The improvement in the quality of 
 synthetic cells did not have a similar breakthrough period, but continued slowly yielding many improvements such as
 biohybrid brain implants and [[MemAmp]]s. The 50 year period from the 70s to the 20s saw many practical engineering 
@@ -926,13 +926,13 @@ and biocoherence systems such as those pioneered by [[Nexus]].
 Up until the last decade BFC the most promising approach to extending longevity appeared to be cell repair via nanobots.
 The development of microscale devices such as respirocytes, a 1-micron spherical device that can carry hundreds of times 
 more oxygen than a natural red cell, were seen as heralding a new era of medicine. Research on humans was legally 
-prohibited, but many military contractors such as [[Havfélög]] and [[Constellis Group]] paid for research in the 
-[[Argentinian Mancomunidad]] leading to the first surgical implementations of respirocyte fleets in humans and 
-creating soldiers with greatly increased endurance due to better gas-exchange ability. This and other applications of 
-surgical nanotech such as targeted drug delivery, cell destruction, and blood vessel clearing are now in common use. 
-However the inability to create effect sub-microscale devices due to the sticky fingers problem has led to a stagnation 
-in the field of nanotech, with cellular repair techniques for DNA, protein folding, mitochondria, ribosomes, enzymes, 
-and membrane channels remaining out of reach of microscale devices.
+prohibited, but many military contractors such as [[Ný Varangia~Havfélög]] and [[Constellis Group]] paid for the 
+research in the [[Argentinian Mancomunidad]] which led to the first surgical implementations of respirocyte fleets in 
+humans, creating soldiers with greatly increased endurance due to better gas-exchange ability. This and other 
+applications of surgical nanotech such as targeted drug delivery, cell destruction, and blood vessel clearing are now in 
+common use. However the inability to create effect sub-microscale devices due to the sticky fingers problem has led to a 
+stagnation in the field of nanotech, with cellular repair techniques for DNA, protein folding, mitochondria, ribosomes, 
+enzymes, and membrane channels remaining out of reach of microscale devices.
  
 Instead, many years of improvements in smart polymers capable of adjusting stiffness, conductivity, and biochemical 
 activity in response to cellular and neural cues started to snowball in the last decade BFC. Smart Polymer 
@@ -952,7 +952,8 @@ diseases and injuries. This led to the development of mesoscale polymeric interf
 damaged neurons, which have shown promise in compensating for neuronal loss in neurodegenerative diseases. Victor Kwan
 funded startup MindFrame has demonstrated in-situ offloading of hippocampal CA1 processing into connected polymer 
 circuits, leading to speculation that the complete replacement of a human brain might be possible in the near future. 
-Critics point out that the brain’s astronomical complexity and fragile timing have barely begun to be mapped.`,
+Critics point out that the primitive state of brain emulation in [[copies~Copy]] show that the brain’s astronomical 
+complexity and fragile timing have barely begun to be mapped.`,
         classification: 'Praxis/MedAug'
     }],
     ['Forge Palace', {
@@ -1089,15 +1090,23 @@ equivalently size navy.`,
     }],
     ['Havfélög', {
         content: `The Havfélög (HAHV‑FAY‑LOG or sea companies in English) are three northern European corporations which
-operate for profit terrestrial navies. Ný Varangia, BAE Nordsjø AS, and [[Saab-Constellis Naval~Constellis Group]] were 
-all created or spun off to legally supply and eventually operate [[United States]] naval assets rented to the 
+operate for profit terrestrial navies and other oceanic services. Ný Varangia, BAE Nordsjø AS, and 
+[[Saab-Constellis Naval~Constellis Group]] were all created or spun off to legally supply and eventually operate [[United States]] naval assets rented to the 
 [[Eurasian Bloc]] for protection starting from the [[Reset of Nations]]. Their most frequent contracts are for piracy
 protection (often from corporations such as the Metals Company with seafloor nodule collectors and subduction vent 
 mines, or from countries without navies such as [[Argentinian Mancomunidad]] which operates many undersea colonies and 
 aquaponic farms), integrity patrols for undersea vacuum train routes and fibre optic cables, and military retainer 
-contracts for war gaming and submarine based ASAT capabilities. They are also known for pioneering the use of 
-biocoherence [[Neurogenesis]], in 76 BFC being the first to use a [[Nexus]] device for screening their elite marine fire 
-teams.`,
+contracts for war gaming and submarine based ASAT capabilities. 
+
+The three companies have diversified into other oceanic services, with each specialising in a different area. 
+Ný Varangia are known for sponsoring development of cutting edge technology, such as the first use of a [[Nexus]] 
+biocoherence [[Neurogenesis]] device in 76 BFC to screen recruits for their elite marine fire teams, their implantation 
+of [[respirocytes~Forever Fever]] to increase endurance, and developing photovoltaic sails that capture both wind and 
+sunlight. BAE Nordsjø co-develop and then provide security for many sea towers, such as the thermocline powered 
+mid-atlantic casio resort and jet fuel depot, the first floating terrawatt scale DC in the Barents Sea, and mobile deep 
+sea farms and lithium extraction mines off the coast of Brazil. Saab-Constellis have operated many island reclamation
+projects for near equatorial rocket sites and resorts, and also operate several sea based entertainment services such as
+floating museum tours.`,
         classification: 'Socionomics/Polities'
     }],
     ['Haidian Takeoff Crisis', {
