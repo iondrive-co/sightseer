@@ -440,7 +440,8 @@ content: `A copy is a [[synth~Synthetic Intelligence]] model of a human brain, c
 most experts now agree probably do not significantly influence brain function. This allows them to run on cheap 
 commodity hardware and to be easily modified to better monetise them through inserting ads and freemium access. The 
 most popular uses are for celebrity replicas (often run as an [[Instance]]), companionship (often from deceased family 
-members), and education purposes.`,
+members), and cognitive archiving (mostly for general memory recall since current technology only provides a coarse
+approximation of the original's cognitive state).`,
         classification: 'Infomatics/Synths'
     }],
     ['Constellis Group', {
@@ -1030,19 +1031,22 @@ terrestrial fusion reactor went into service in 155 BFC in Genkai, Japan after 1
         content:
 `A ghost is a [[synth~Synthetic Intelligence]] model created from integrating a 
 [[Biocoherence Neurogenesis~Neurogenesis]] captured model of quantum states in the human brain with a classical 
-[[Copy]]. Initially developed by [[Nexus]], the technology was abandoned by [[Pharmatica Group]] and only remains in 
-very limited use, usually via QHackers using grey market [[12Quan]] terminals. The technology was commercially 
-superseded by better Copies, however several notable scientists such as [[Hannah Weiss-Martin]] maintain that 
-integrating a model of the quantum fluctuations in the brain is the only way to create true brain copies which are not 
-philosophical zombies.
+[[Copy]]. Initially developed by [[Nexus]], the technology was licensed and then abandoned by [[Pharmatica Group]] and 
+only remains in very limited use, usually via QHackers using grey market [[12Quan]] terminals. The technology was 
+commercially superseded by better Copies, however several notable scientists such as [[Hannah Weiss-Martin]] maintain 
+that integrating a model of the quantum fluctuations in the brain is the only way to create true brain copies which are 
+not philosophical zombies.
  
 A ghost uses a phase-preserving snapshot of the subject’s cognitive momentum, integrated with a classic model created
 via an [[optogenetic neural lace~MemAmp]]. Sessions can run only on quantum hardware, and as inference proceeds a
 process of Progressive Ontological Dissolution (POD) occurs due to the information-disturbance tradeoff, inescapably 
 eroding the expressed traits of the emulated personality and eventually requiring a periodic reset to the pristine 
 base (which irrevocably discards any non-classical session-acquired memories). This is one of the reasons (along with 
-requirement for quantum computers) that the technology was never commercially successful, however in recent years 
-QHackers have had some success in lengthening a ghost's POD period, which is known colloquially as its Pull Of Death.`,
+requirement for quantum computers) that the technology was never commercially successful, however there remains a 
+thriving community of QHackers creating and sharing models, and there are many recordings which show ghosts which, 
+although confused by their current situation, do appear to genuinely resemble the original for the short period of time 
+they can be activated for. In recent years QHackers have had some success in lengthening a ghost's POD period, which is 
+known colloquially as its Pull Of Death.`,
         classification: 'Infomatics/Synths'
     }],
     ['GPR', {
@@ -1358,7 +1362,8 @@ to run a non-trivial synth model which does not posses any significant onboard i
 these range in size from humanoid to a full [[Naval Rated Ship]] and are categorized by function, such as combat, 
 labor, or companion. In cases where a synth takes temporary control of intelligence embedded machine, such as a larger 
 [[Naval Auxiliary]] drone with sufficient compute, it is often referred to as an instance drone. Especially since the 
-[[Retrograde Diaspora]] instances perform the majority of off-earth labour and piloting duties`,
+[[Retrograde Diaspora]] instances perform the majority of off-earth labour and piloting duties, as well as being used
+for recreational activities and [[copies~Copy]].`,
         classification: 'Infomatics/Synths'
     }],
     ['InterMesh', {
@@ -1609,11 +1614,12 @@ on the limited central government.`,
         classification: 'Socionomics/Polities'
     }],
     ['MemAmp', {
-content: `A MemAmp is a [[Neurogenesis]] device using a self assembling optogenetic neural lace to improve cognitive 
-capabilities. The first developed and most popular commercial application is the improvement of precision and recall of 
-memories in the user via amplification of the action potential of relevant neuron ensembles. This requires an initial 
-learning period, where the user is observed forming different kinds of memories, although newer devices have reduced 
-this significantly by shipping with more sophisticated prebuilt model data. 
+content: `A MemAmp is a [[Neurogenesis]] device using a self assembling optogenetic neural lace to measure and/or 
+improve cognitive capabilities. The first developed and most popular commercial application is the improvement of 
+precision and recall of memories in the user, via amplification of the action potential of relevant neuron ensembles. 
+This requires an initial learning period, where the user is observed forming different kinds of memories, although newer 
+devices have reduced this significantly by shipping with more sophisticated prebuilt model data. MemAmps are also used
+to make [[brain copies~Copy]].
 
 Other common uses for these laces are attention control, emotional regulation, sensory augmentation, and offloading 
 specialised problems for faster asynchronous processing; all of these were first developed and tested in military 
@@ -1908,13 +1914,14 @@ this area, royalties from these drugs are now the companies biggest revenue sour
 
 Pharmatica started expanding into neurological modelling in 70 BFC by acquiring IP from smaller companies such as 
 [[Nexus]], however despite having the rights to [[ghosts~Ghost]] which were an early version of [[copies~Copy]] they 
-were unable to develop them. In 65 BFC, looking to break into the new market of tailored mRNA programming products which was being 
-explored by several startups as well as the giant [[Bioforge Hivegen]], it acquired biotechnology giant AstraZeneca 
-which had the most IP in this space, and as part of the merger the combined conglomerate was renamed to Pharmatica 
-Group. During the lifestyle neo-opiod wave of the 50s the groups SynthAntagon antagonist became a best seller, and 
-addiction treatment pharmaceuticals continue to be their single best selling product. Despite pioneering many of the
-synthetic cell models that helped start the [[Forever Fever]], Pharmatica's smart polymer therapies have not been 
-commercially successful and their stock price has declined heavily in the last decade.`,
+were unable to develop them into a commercially viable product. In 65 BFC, looking to break into the new market of 
+tailored mRNA programming products which was being explored by several startups as well as the giant 
+[[Bioforge Hivegen]], it acquired biotechnology giant AstraZeneca which had the most IP in this space, and as part of 
+the merger the combined conglomerate was renamed to Pharmatica Group. During the lifestyle neo-opiod wave of the 50s the 
+groups SynthAntagon antagonist became a best seller, and addiction treatment pharmaceuticals continue to be their single 
+best selling product. Despite pioneering many of the synthetic cell models that helped start the [[Forever Fever]], 
+Pharmatica's smart polymer therapies have not been commercially successful and their stock price has declined heavily 
+in the last decade.`,
         classification: 'Socionomics/Polities'
     }],
     ['Plasmorph', {
