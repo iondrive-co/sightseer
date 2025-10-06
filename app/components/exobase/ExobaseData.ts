@@ -1040,14 +1040,13 @@ not philosophical zombies.
  
 A ghost uses a phase-preserving snapshot of the subject’s cognitive momentum, integrated with a classic model created
 via an [[optogenetic neural lace~MemAmp]]. Sessions can run only on quantum hardware, and as inference proceeds a
-process of Progressive Ontological Dissolution (POD) occurs due to the information-disturbance tradeoff, inescapably 
-eroding the expressed traits of the emulated personality and eventually requiring a periodic reset to the pristine 
-base (which irrevocably discards any non-classical session-acquired memories). This is one of the reasons (along with 
-requirement for quantum computers) that the technology was never commercially successful, however there remains a 
-thriving community of QHackers creating and sharing models, and there are many recordings which show ghosts which, 
-although confused by their current situation, do appear to genuinely resemble the original for the short period of time 
-they can be activated for. In recent years QHackers have had some success in lengthening a ghost's POD period, which is 
-known colloquially as its Pull Of Death.`,
+process of Progressive Ontological Dissolution (POD) occurs due to the information-disturbance tradeoff, eroding the 
+traits of the emulated personality. This necessitates periodic resets to the pristine base, discarding any 
+session-acquired memories. This is one of the reasons (along with requirement for quantum computers) that the technology 
+was never commercially successful, however there remains a thriving community of QHackers creating and sharing models, 
+and there are many recordings which show ghosts which, although confused by their current situation, do appear to 
+genuinely resemble the original for the short period of time they can be activated for. In recent years QHackers have 
+had some success in lengthening a ghost's POD period, which is known colloquially as its Pull Of Death.`,
         classification: 'Infomatics/Synths'
     }],
     ['GPR', {
@@ -1091,12 +1090,13 @@ equivalently size navy.`,
     ['Havfélög', {
         content: `The Havfélög (HAHV‑FAY‑LOG or sea companies in English) are three northern European corporations which
 operate for profit terrestrial navies and other oceanic services. Ný Varangia, BAE Nordsjø AS, and 
-[[Saab-Constellis Naval~Constellis Group]] were all created or spun off to legally supply and eventually operate [[United States]] naval assets rented to the 
-[[Eurasian Bloc]] for protection starting from the [[Reset of Nations]]. Their most frequent contracts are for piracy
-protection (often from corporations such as the Metals Company with seafloor nodule collectors and subduction vent 
-mines, or from countries without navies such as [[Argentinian Mancomunidad]] which operates many undersea colonies and 
-aquaponic farms), integrity patrols for undersea vacuum train routes and fibre optic cables, and military retainer 
-contracts for war gaming and submarine based ASAT capabilities. 
+[[Saab-Constellis Naval~Constellis Group]] were all created or spun off to legally supply and eventually operate 
+[[United States]] naval assets rented to the [[Eurasian Bloc]] for protection starting from the [[Reset of Nations]]. 
+Their most frequent contracts are for piracy protection (often from corporations such as the Metals Company with 
+seafloor nodule collectors and subduction vent mines, or from countries without navies such as 
+[[Argentinian Mancomunidad]] which operates many undersea colonies and aquaponic farms), integrity patrols for undersea 
+vacuum train routes and fibre optic cables, and military retainer contracts for war gaming and submarine based ASAT 
+capabilities. 
 
 The three companies have diversified into other oceanic services, with each specialising in a different area. 
 Ný Varangia are known for sponsoring development of cutting edge technology, such as the first use of a [[Nexus]] 
@@ -1789,15 +1789,12 @@ states in larger animal brains. Nexus was incorporated in 77 BFC in the [[Argent
 laws on human experimentation, and they rented the abandoned Acrux-2 oil rig (offshore structures which were used to 
 extract petroleum for the fossil-economy) in Argentina's Colorado Basin as their main working space
 
-With their Series A funding the company worked on connecting virus-enhanced brain microtubules, stabilized by 
-macromolecules with spin-echo refocusing pulses to keep symmetry-protected states at body temperature, to a quantum 
-co-processor. Ultra-sensitive scalp sensors captured tiny magnetic signatures and fed a transducer that entangled brain 
-quantum states with the external processor, which needed to be quantum-native to preserve the phase relationships 
-tracking memory flow and temporal associations. This was successful in detecting previously uncaptured temporal thought 
-patterns and associative memory formation, and their first contract was with [[Havfélög]] to develop screening 
-techniques for selecting marines. 
+With their Series A funding the company worked on connecting retroviral delivered Posner molecules in the brain to an 
+entangled processor, which needed to be quantum-native to preserve the phase relationships tracking memory flow and 
+temporal associations. This was successful in detecting previously uncaptured temporal thought patterns and associative 
+memory formation, and their first contract was with [[Havfélög]] to develop screening techniques for selecting marines. 
 
-During this time Javier Florentin was in a relationship with the well known aestheticist Julieta Gómez Romero, but she 
+During this time Javier Florentin was in a relationship with celebrity aestheticist Julieta Gómez Romero, but she 
 was killed in 70 BFC during one of the Mancomunidad's many periodo violento. It was not clear if Havfélög were involved, 
 but that year Nexus cancelled all contracts with them and sold the rights to their neural models to Pharmatica, and the 
 remainder of their assets to [[Microsynth]] the following year. Perhaps the most promising development from their 
