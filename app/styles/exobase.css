@@ -37,7 +37,7 @@ h2 {
 }
 
 .article ul {
-    @apply list-inside pl-0 mb-4;
+    @apply list-disc list-inside pl-0 mb-4;
 }
 
 .article li {
