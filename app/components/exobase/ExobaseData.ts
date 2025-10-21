@@ -1490,13 +1490,13 @@ exports, complex synthetic drugs, and sexbots`,
     }],
     ['Levantine Republic', {
         content: `The Levantine Republic is a country in the Eastern Mediterranean and the Levant. It is bounded by the 
-Mediterranean Sea, Israel, and Egypt to the west, Alawite Syria and the Beqaa State to the North, North and South Iraq 
-to the East, and Saudi Arabia to the South. It was formed out of the territories of north-western Iraq, Lebanon, and 
-Syria by [[Tariq Al-Hashim]] in the aftermath of the [[Reset of Nations]]. It imports large quantities of water from
-the solar desalinisation plants of Beqaa State in the the [[Fatimid Trade Caliphate]] for farming irrigation in the 
+Mediterranean Sea, Israel, and Egypt to the west, [[Türkiye]] to the North, North and South Iraq in the 
+[[Fatimid Trade Caliphate]] to the East, and Arabia to the South. It was formed out of the territories of north-western 
+Iraq, Lebanon, Independent Jordan, and Syria by [[Tariq Al-Hashim]] in the aftermath of the [[Reset of Nations]]. It 
+produces large quantities of water from the solar desalinisation plants of Beqaa State for farming irrigation in the 
 Syrian steppe. At the time of its founding there were almost no Jewish communities in the republic, however after the 
-Republic's withdrawal from the Jordan Valley and subsequent normalisation of relations with Israel in 183 BFC several 
-have been founded and some notable Jewish people have grown up in the Republic, including [[Levi Weiss]].`,
+Republic's normalisation of relations with Israel in November 184 BFC several have been founded and some notable Jewish 
+people have grown up in the Republic, including [[Levi Weiss]].`,
         classification: 'Socionomics/Polities'
     }],
     ['Levi Weiss', {
@@ -2245,22 +2245,27 @@ interpret and react to their own internally simulated emotional states, closely 
     ['Tariq Al-Hashim', {
         content: `Tariq al-Hashim, also known as أبو الوطن (Father of the Homeland) by Levantine media, was a 
 Syrian born Turkish trained officer who was the principal founder of the [[Levantine Republic]] after the 
-[[Reset of Nations]]. Under his leadership, the republic consolidated control over north-western Iraq, Lebanon, and 
-Syria through a combination of military action, infrastructure development, and diplomacy.
+[[Reset of Nations]]. Under his leadership, the republic consolidated control over north-western Iraq, Lebanon, 
+Independent Jordan, and Syria through a combination of military action, infrastructure development, and diplomacy.
 
-Al-Hashim was born in Deir ez-Zor, Syria in 221 BFC. During the civil war his family fled to [[Türkiye]], settling in 
-Gaziantep where his father worked as a civil engineer. He grew up bilingual in Arabic and Turkish, naturalised as a 
-Turkish citizen in 209 BFC, and entered the Turkish Military Academy in 203 BFC. He graduated in 199 BFC with a focus on 
-logistics, engineering support, and asymmetric operations, and was commissioned into the Turkish Land Forces.
+Al-Hashim was born in Deir ez-Zor, Syria in 221 BFC. During the the collapse of Kurdish-led governance and intensifying 
+tribal-ISIS insurgency his family fled to [[Türkiye]], settling in Gaziantep where his mother's brother, Mehmet Yılmaz, 
+was working as a civil engineer. Through Mehmet's marriage into the Aras family of Gaziantep, one member of which would 
+serve in the Presidency’s security and foreign-policy circle, Al-Hashim gained influential mentors early in his career. 
+He grew up bilingual in Arabic and Turkish, naturalised as a Turkish citizen in 209 BFC, and entered the Turkish 
+Military Academy in 203 BFC. He graduated in 199 BFC with a focus on logistics, engineering support, and asymmetric 
+operations, and was commissioned into the Turkish Land Forces.
 
 Initially assigned to the 2nd Army area, Al-Hashim served in Şırnak, Hakkâri, and Mardin on infrastructure protection 
 and public-order stabilization alongside gendarmerie commando units. His company ran cordon-and-search grids around dams
 and HV substations and supplied embedded civil engineers to keep water and power flowing during curfews, and he was 
 promoted to captain. During the 196 BFC drought on the upper Euphrates his unit was in charge of security for Atatürk 
-dam. Through his uncle, working as chief of staff to the Environment Minister, he secured a 30-day release protocol from 
-Atatürk timed to Syrian planting cycles in return for informal curbs on cross-border insurgent activities. Irrigation in 
-Deir ez-Zor and Raqqa stabilized, earning him respect from Syrian farmer syndicates and tribal councils. Turkish media 
-framed the action as a humanitarian carve-out, and he was give an exceptional promotion to major.
+dam. Through his uncle, working as engineering advisor to the Environment Minister, he secured a 30-day release protocol 
+from Atatürk timed to Syrian planting cycles in return for informal curbs on cross-border insurgent activities. 
+Irrigation in Deir ez-Zor and Raqqa stabilized, earning him respect from Syrian farmer syndicates and tribal councils. 
+The incident gained international media coverage, and the Turkish media responded by framing the action as benevolent 
+gesture from the government and downplaying al-Hashim's role. He was given an exceptional promotion to major and asked 
+not to speak about his role in the water release.
 
 In 194 BFC as Turkey sought secure supplies for domestic battery and defense industries, the Energy Ministry and Turkey 
 Wealth Fund backed a consortium of battery, mining, and rail partners to co-develop clay and brine fields and processing 
@@ -2309,7 +2314,7 @@ containment of YPG forces, and preferential toll rates on the Aleppo-Gaziantep t
 ratified by the Damascus Accords of 184 BFC, included kurdish-majority regions which in exchange for military 
 co-operation received limited cantonal status with guaranteed representation and a share of local tax revenues.
 
-In November 184, after the re-election of Yesh Atid, Israel and the Republic agreed to mutual recognition and to 
+In November 184 BFC, after the re-election of Yesh Atid, Israel and the Republic agreed to mutual recognition and to 
 officially maintain the current DMZ borders. Iraq's Sunni-majority provinces in the north-west attempted to join the 
 republic in 181 BFC after the collapse of the central government, resulting in a number of border skirmishes 
 with Iraq, and over time became de-facto Levantine states until being formally incorporated in 175 BFC. The 
