@@ -904,12 +904,12 @@ has mostly replaced the Gregorian calender system in daily life system-wide.
     ['Forever Fever', {
 content: `The Forever Fever refers to an ongoing period of technological progress in the field of Smart Polymer Medicine 
 (SPM) which started in the last decade BFC before gaining prominence in the first and second decades AFC. The term 
-Forever Fever was coined by [[MetaFox]] journalist @LivedItLily in her series "Gonzo vs Trillionaire" in 4 AFC, but in 
+Forever Fever was coined by [[MetaFox]] journalist @LivedItLily in her series "Gonzo vs Quadrillionaire" in 4 AFC, but in 
 [[Greater Zhōngguó]] the phenomenon is more commonly known by the term 邪修/xié xiū or cultivating evil (immortality).
 It has been driven by promising results in the full replacement of parts of multiple organ systems, including basic
 [[Neurogenesis]], with smart polymers; rather than simply repairing them. It is estimated to have 
 attracted nearly a quadrillion US dollars of investment, due to the expert consensus that it represents a viable path to 
-functional immortality in humans. SPM companies have been criticized as being trillionaire only clubs due to the patents 
+functional immortality in humans. SPM companies have been criticized as being quadrillionaire only clubs due to the patents 
 and secrecy put in place by some of the largest investors.
 
 The field of synthetic biology stretches back hundreds of years, however the development of more effective cell dynamic 
@@ -1079,12 +1079,12 @@ low levels of the golden era of Sinaloa.`,
     ['Greater Zhōngguó', {
 content: `Greater Zhōngguó is a political entity which was formed between 102 and 98 BFC from the unification of the 
 [[GPR]] countries (China, North Korea, Russia, Siberia, Mongolia, and Myanmar) with their close trading partners South 
-Africa, Ethiopia, Sudan, Djibouti, Eritrea, Somalia, U.A.E, Oman, South Yemen, Indonesia, Papua New Guinea, 
-and Greater Uzbekistan; as well as an informal agreement with the other non-[[Peacekeeper]] space power blocs on 
-spheres of influence. Initially a mostly economic union, over time it has become more militarily focussed as the 
-Peacekeepers have grown and in response to external pressures such as [[Bharat]]'s open support of a succession movement 
-in Myanmar. Despite having significantly less industrial capacity than the [[Peacekeepers]] it fields a nearly 
-equivalently size navy.`,
+Africa, Ethiopia, Sudan, Djibouti, Eritrea, Somalia, U.A.E, Oman, South Yemen, and Greater Uzbekistan; as well as an 
+informal agreement with the other non-[[Peacekeeper]] space power blocs on spheres of influence. Initially a mostly 
+economic union, over time it has become more politically unified under the Chinese Tianxia system, and more militarily 
+focussed as the Peacekeepers have grown and in response to external pressures such as [[Bharat]]'s open support of a 
+succession movement in Myanmar. Despite having significantly less industrial capacity than the [[Peacekeepers]] it 
+fields a nearly equivalently size navy.`,
         classification: 'Socionomics/Confederations'
     }],
     ['Havfélög', {
@@ -1491,8 +1491,8 @@ exports, complex synthetic drugs, and sexbots`,
     ['Levantine Republic', {
         content: `The Levantine Republic is a country in the Eastern Mediterranean and the Levant. It is bounded by the 
 Mediterranean Sea, Israel, and Egypt to the west, Alawite Syria and the Beqaa State to the North, North and South Iraq 
-to the East, and Saudi Arabia to the South. It was formed out of the territories of central Iraq, Lebanon, Syria, and 
-Jordan by [[Tariq Al-Hashim]] in the aftermath of the [[Reset of Nations]]. It imports large quantities of water from
+to the East, and Saudi Arabia to the South. It was formed out of the territories of north-western Iraq, Lebanon, and 
+Syria by [[Tariq Al-Hashim]] in the aftermath of the [[Reset of Nations]]. It imports large quantities of water from
 the solar desalinisation plants of Beqaa State in the the [[Fatimid Trade Caliphate]] for farming irrigation in the 
 Syrian steppe. At the time of its founding there were almost no Jewish communities in the republic, however after the 
 Republic's withdrawal from the Jordan Valley and subsequent normalisation of relations with Israel in 183 BFC several 
@@ -1823,7 +1823,7 @@ the process by which neurons are produced by neural stem cells, it began to be a
         content: `Nimitra Wongprasert (นิมิตร วงศ์ประเสริฐ; nickname: Nim; 2nd September 16 BFC – present) is an entrepreneur, 
 tech executive, and backer of and policy advocate for the [[Freeholders]]. She was born from the frozen embryo
 of Siam Pacific Holdings chairman Thanakit Wongprasert and his wife Sirichai, who both died in the 90s and left 
-instructions that their fortune be transferred to a child once its compounded value had exceeded ฿1 trillion. She is 
+instructions that their fortune be transferred to a child once its compounded value had exceeded ฿100 trillion. She is 
 known for pioneering roaming cage aquaculture, funding reconstructions of historical flooded Bangkok temples, as patron 
 of the bioluminesence art scene, and in the last decade for her increasing vocal support of the Martian Freeholders.
 
@@ -1842,7 +1842,7 @@ Futures and Siam International, both of whom needed to agree on decisions even w
 years after Thanakit's death several relatives attempted to claim the inheritance but were unsuccessful. Worawut 
 Legal Futures went bankrupt during the large scale migration out of Bangkok that occurred in the 70s, but Siam 
 International remained a going concern and continued collection the monthly stipend from the contract for the full 78 
-years until, on 29th December 17 BFC, the indexed fund's value surpassed ฿1 trillion. The story had been picked up by 
+years until, on 29th December 17 BFC, the indexed fund's value surpassed ฿100 trillion. The story had been picked up by 
 a journalist a few months before and there was now a lot of news coverage of Siam International. They appear to have
 dutifully fulfilled the last part of the contract, randomly selecting one of the embryos via divination sticks for 
 growth in an artificial womb, selecting a group of well known teachers and [[synths~Synthetic Intelligence]] to act as 
@@ -2243,7 +2243,89 @@ interpret and react to their own internally simulated emotional states, closely 
         classification: 'Infomatics/Synths'
     }],
     ['Tariq Al-Hashim', {
-        content: ``,
+        content: `Tariq al-Hashim, also known as أبو الوطن (Father of the Homeland) by Levantine media, was a 
+Syrian born Turkish trained officer who was the principal founder of the [[Levantine Republic]] after the 
+[[Reset of Nations]]. Under his leadership, the republic consolidated control over north-western Iraq, Lebanon, and 
+Syria through a combination of military action, infrastructure development, and diplomacy.
+
+Al-Hashim was born in Deir ez-Zor, Syria in 221 BFC. During the civil war his family fled to [[Türkiye]], settling in 
+Gaziantep where his father worked as a civil engineer. He grew up bilingual in Arabic and Turkish, naturalised as a 
+Turkish citizen in 209 BFC, and entered the Turkish Military Academy in 203 BFC. He graduated in 199 BFC with a focus on 
+logistics, engineering support, and asymmetric operations, and was commissioned into the Turkish Land Forces.
+
+Initially assigned to the 2nd Army area, Al-Hashim served in Şırnak, Hakkâri, and Mardin on infrastructure protection 
+and public-order stabilization alongside gendarmerie commando units. His company ran cordon-and-search grids around dams
+and HV substations and supplied embedded civil engineers to keep water and power flowing during curfews, and he was 
+promoted to captain. During the 196 BFC drought on the upper Euphrates his unit was in charge of security for Atatürk 
+dam. Through his uncle, working as chief of staff to the Environment Minister, he secured a 30-day release protocol from 
+Atatürk timed to Syrian planting cycles in return for informal curbs on cross-border insurgent activities. Irrigation in 
+Deir ez-Zor and Raqqa stabilized, earning him respect from Syrian farmer syndicates and tribal councils. Turkish media 
+framed the action as a humanitarian carve-out, and he was give an exceptional promotion to major.
+
+In 194 BFC as Turkey sought secure supplies for domestic battery and defense industries, the Energy Ministry and Turkey 
+Wealth Fund backed a consortium of battery, mining, and rail partners to co-develop clay and brine fields and processing 
+in Uzbekistan’s Kyzylkum and Navoi regions. Al-Hashim was seconded as a protection planner to the Turkish–Uzbek logistics 
+task force based in Termez and Navoi. He managed security for rail sidings, brine plants, and desert pipelines feeding 
+the Trans-Caspian Middle Corridor to Mersin. As Russian central control of the area weakened, irregulars from the North 
+Caucasus and lower Volga began selling services and raiding depots along Caspian–Aral routes, forcing Al-Hashim to work 
+with the Uzbek National Guard to reroute high-value convoys to avoid direct clashes. In 192–191 BFC, water-intake and 
+customs disputes in the Ferghana Valley escalated. With the weakening of Russian influence Al-Hashim openly served as 
+operations planner to Uzbek brigade staff for a campaign to secure a narrow customs-protection strip at key crossings 
+and canal nodes.
+
+For integrating Turkish doctrine into Uzbek formations and stabilising the lithium corridor without widening the 
+conflict, Al-Hashim was promoted to Lieutenant Colonel in March 189 BFC. During these tours he cultivated a 
+non-ideological, technocratic profile and kept a distance from Islamist currents and from Kurdish parties critical of 
+his southeastern record, while building ties with Deir ez-Zor business families in Gaziantep, Turkish energy and 
+logistics officials, and the TWF-backed corporate bloc. While on desk duties in Istanbul after his promotion, al-Hashim 
+married Layla Aziz, a Syrian physician from a prominent Damascus family who had been working with refugee communities. 
+Through his wife's family connections to moderate elements within the fragmented Syrian opposition, al-Hashim began 
+engaging with Syrian expatriate political networks, even though he was warned by Turkish internal security not
+to do so.
+
+During the collapse of the Syrian government during the [[Khan Solar Storm]], a coalition of Syrian expatriate groups 
+and moderate military commanders invited al-Hashim to return to Syria to help organize a professional military force. 
+Al-Hashim eventually accepted, resigning his post in the Land Forces in March 187 BFC, one year short of becoming the 
+youngest ever Colonel in the Turkish armed forces. In Syria he initially served under General Khalid Ahmad at the 
+Palmyra headquarters, where he was crediting with using his Turkish connections and funding networks to pay off and 
+coerce three major armed factions into the National Restoration Front (NRF). Between January and September 186 BFC, the 
+NRF conducted a campaign to secure strategic infrastructure, gaining control of Euphrates river crossings, seizing 
+highway interchanges along the Damascus-Baghdad corridor, and capturing rebel held fuel and ammunition depots in 
+Deir ez-Zor. 
+
+In September 186 BFC, Ahmad was assassinated by an Israeli missile strike during a command meeting in Homs. 
+As Ahmad's designated second-in-command and the architect of the NRF's integration strategy, Al-Hashim assumed 
+leadership with the unanimous support of the military council. He began systematically professionalizing former 
+opposition fighters and marginalizing extremist factions by offering reconciliation to former government military 
+officers. In March 185 BFC the NRF withdrew military forces from a demilitarised zone east of Golan and the Jordan 
+river and agreed to Israeli staffed border crossings, in exchange for supervised access to Israel's Haifa port 
+facilities for food shipments. During the resulting protests in Damascus NRF troops opened fire on protestors, killing 
+at least 20.
+
+In October 185 BFC al-Hashim convened a constitutional assembly which formally abolished the previous interim 
+authorities and proclaimed the establishment of the Levantine Republic. After several months of lobbying by 
+the TWF, Ankara recognized the newly formed republic after receiving guarantees on border security cooperation, 
+containment of YPG forces, and preferential toll rates on the Aleppo-Gaziantep trade corridor. The republic's borders, 
+ratified by the Damascus Accords of 184 BFC, included kurdish-majority regions which in exchange for military 
+co-operation received limited cantonal status with guaranteed representation and a share of local tax revenues.
+
+In November 184, after the re-election of Yesh Atid, Israel and the Republic agreed to mutual recognition and to 
+officially maintain the current DMZ borders. Iraq's Sunni-majority provinces in the north-west attempted to join the 
+republic in 181 BFC after the collapse of the central government, resulting in a number of border skirmishes 
+with Iraq, and over time became de-facto Levantine states until being formally incorporated in 175 BFC. The 
+Alawite-majority coastal region between Latakia and Tartus remained an independent Russian supported statelet until 
+being annexed by the Republic in 174 during Russia's integration into the [[GPR]].
+
+Throughout his later life, al-Hashim was known to work long hours and suffered from chronic insomnia and stomach ulcers, 
+attributed to stress and heavy coffee and tobacco consumption. In early 169 BFC, during an inspection tour of Aleppo and 
+Raqqa irrigation zones, he collapsed from internal bleeding and was flown to Damascus for treatment. Doctors diagnosed 
+advanced liver failure. Despite repeated medical interventions, he refused to fully 
+withdraw from state affairs and continued to hold cabinet sessions from his residence. He died on 4 May 168 BFC at the 
+presidential compound in Damascus at the age of fifty-three. He was succeeded by Vice-President Samir al-Rashid. His 
+funeral was declared a national day of mourning across the Republic and attended by delegations from Türkiye, Israel, 
+Egypt, and Greater Uzbekistan. His body lay in state in the Assembly Hall before being interred two weeks later at the 
+Martyrs’ Terrace overlooking the Euphrates at Deir ez-Zor, in a marble sarcophagus designed by the Ministry of Public 
+Works.`,
         classification: 'Yūmeijin'
     }],
     ['Ten-Hour War', {
@@ -2347,7 +2429,7 @@ trillionaire who founded and maintained control of both companies until his deat
 are spacecraft and satellite manufacture and launch services; off world power and water supply services; and navigation, 
 propulsion management, and e-commerce [[synths~Synthetic Intelligence]].
 
-Global energy supply was the first of the hectotrillion dollar markets on Earth. The company Tesla was an automobile 
+Global energy supply was the first of the ten-trillion dollar markets on Earth. The company Tesla was an automobile 
 and energy company controlled by Elon Musk, and their Tesla Energy division owned the IP for a very high conversion 
 efficiency rectenna. At the same time SpaceX controlled the majority of the world's launch, communications satellite, 
 and in-orbit assembly markets. Their in-orbit assembly required giant space based solar power plants, and SpaceX had 
