@@ -774,7 +774,7 @@ unsupervised by [[synth~Synthetic Intelligence]] is a great filter explanation a
 the Beqaa State, and North Yemen. The trading alliance also encompasses a free trade zones with Afghanistan and the 
 Azerbaijani region of the Türkiye confederation. The swiss multinational [[Bioforge Hivegen]] has a close relationship 
 with the governing Shūrā and supplies members with many cutting edge agricultural products, especially to the high 
-density solar desalinisation farming areas such as the Beqaa valley.Datï¿½orruà¤¶आtedा`,
+density solar desalinisation farming areas.`,
         classification: 'Socionomics/Confederations'
     }],
     ['First Contact Event', {
@@ -1370,7 +1370,9 @@ or programmed by (when altering its software) a synth which is interacting with 
 to run a non-trivial synth model which does not posses any significant onboard intelligence is often called a shell,
 these range in size from humanoid to a full [[Naval Rated Ship]] and are categorized by function, such as combat, 
 labor, or companion. In cases where a synth takes temporary control of intelligence embedded machine, such as a larger 
-[[Naval Auxiliary]] drone with sufficient compute, it is often referred to as an instance drone. Especially since the 
+[[Naval Auxiliary]] drone with sufficient compute, it is often referred to as an instance drone. The majority of 
+instances are non-humanoid, with humanoid models being used for specialised roles such as childcare, bodyguard, or
+companion and with their sleep period for updating model weights extended to a human 8 hours. Especially since the 
 [[Retrograde Diaspora]] instances perform the majority of off-earth labour and piloting duties, as well as being used
 for recreational activities and [[copies~Copy]].`,
         classification: 'Infomatics/Synths'
@@ -2258,14 +2260,15 @@ operations, and was commissioned into the Turkish Land Forces.
 
 Initially assigned to the 2nd Army area, Al-Hashim served in Şırnak, Hakkâri, and Mardin on infrastructure protection 
 and public-order stabilization alongside gendarmerie commando units. His company ran cordon-and-search grids around dams
-and HV substations and supplied embedded civil engineers to keep water and power flowing during curfews, and he was 
-promoted to captain. During the 196 BFC drought on the upper Euphrates his unit was in charge of security for Atatürk 
-dam. Through his uncle, working as engineering advisor to the Environment Minister, he secured a 30-day release protocol 
-from Atatürk timed to Syrian planting cycles in return for informal curbs on cross-border insurgent activities. 
-Irrigation in Deir ez-Zor and Raqqa stabilized, earning him respect from Syrian farmer syndicates and tribal councils. 
-The incident gained international media coverage, and the Turkish media responded by framing the action as benevolent 
-gesture from the government and downplaying al-Hashim's role. He was given an exceptional promotion to major and asked 
-not to speak about his role in the water release.
+and HV substations and supplied embedded civil engineers to keep water and power flowing during curfews. In February 
+197 BFC when a local militia seized a supply convoy Al-Hashim pinned them down for over a day until their EWS batteries 
+drained, and then used drones and UGVs to gas them; the convoy drivers walked out and he was promoted to captain. During 
+the 196 BFC drought on the upper Euphrates his unit was in charge of security for Atatürk dam. Through his uncle, 
+working as engineering advisor to the Environment Minister, he set up negotiations between the DSİ and tribal councils
+leading to a release from Atatürk in return for informal curbs on cross-border insurgent activities. The incident gained 
+international media coverage and earned him respect from Syria, the Turkish media responded by framing the action as a
+benevolent gesture from their government and downplaying al-Hashim's role. He was given an exceptional promotion to 
+major and asked not to speak about his role in the water release.
 
 In 194 BFC as Turkey sought secure supplies for domestic battery and defense industries, the Energy Ministry and Turkey 
 Wealth Fund backed a consortium of battery, mining, and rail partners to co-develop clay and brine fields and processing 
