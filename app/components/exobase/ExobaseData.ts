@@ -2333,20 +2333,27 @@ with Iraq, and over time became de-facto Levantine states until being formally i
 Alawite-majority coastal region between Latakia and Tartus remained an independent Russian supported statelet until 
 being annexed by the Republic in 174 during Russia's integration into the [[GPR]].
 
-He embarked on a number of ambitious infrastructure and public health projects, such as the Mediterranean solar
-powered desalination plants and pipelines, and nationalising [[Qalamoun Ḥayawiyya]] and using them to eradicate 
-Cutaneous Leishmaniasis from the Republic.
+Al-Hashim established the government of the Republic as a unicameral Assembly elected indirectly by municipal councils, 
+with candidate lists screened by an electoral board answerable to the presidency. He retained decree and veto powers, 
+appointment of senior judges and governors, and command of the military and security services which he split into four 
+independent establishments with senior staff drawn from by a mix of Sunnis, Kurds, Alawites, and Macronites; a structure 
+which has been roughly retained for 200 years without a single coup. During the 180s and 170s he embarked on a number of 
+ambitious infrastructure and public health projects, such as the Mediterranean solar powered desalination plants and 
+pipelines, and nationalising [[Qalamoun Ḥayawiyya]] and using them to eradicate Cutaneous Leishmaniasis from the 
+Republic.
 
 Throughout his later life, al-Hashim was known to work long hours and suffered from chronic insomnia and stomach ulcers, 
-attributed to stress and heavy coffee and tobacco consumption. In early 169 BFC, during an inspection tour of Aleppo and 
-Raqqa irrigation zones, he collapsed from internal bleeding and was flown to Damascus for treatment. Doctors diagnosed 
-advanced liver failure. Despite repeated medical interventions, he refused to fully 
-withdraw from state affairs and continued to hold cabinet sessions from his residence. He died on 4 May 168 BFC at the 
-presidential compound in Damascus at the age of fifty-three. He was succeeded by Vice-President Samir al-Rashid. His 
-funeral was declared a national day of mourning across the Republic and attended by delegations from Türkiye, Israel, 
-Egypt, and Greater Uzbekistan. His body lay in state in the Assembly Hall before being interred two weeks later at the 
-Martyrs’ Terrace overlooking the Euphrates at Deir ez-Zor, in a marble sarcophagus designed by the Ministry of Public 
-Works.`,
+attributed to stress and heavy coffee and tobacco consumption. In early 169 BFC, while inspecting the Aleppo–Raqqa 
+canals, he collapsed and was airlifted to Damascus. Doctors stopped an esophageal vein bleed and fitted a smart shunt 
+that auto-adjusted liver pressure via an internal sensor. Despite repeated medical interventions, refused to fully 
+withdraw from state affairs and continued to hold cabinet sessions from his residence.
+
+In late April 168 BFC he bled again despite the shunt and a liver-assist pack. Doctors gave him a one-shot antiviral,
+but a bloodstream infection lead to liver and kidney failure. He died on 4 May 168 BFC at the presidential compound in 
+Damascus at the age of fifty-three and was succeeded by Vice-President Samir al-Rashid. His funeral was declared a 
+national day of mourning across the Republic and attended by delegations from Türkiye, Israel, Egypt, and Greater 
+Uzbekistan. His body lay in state in the Assembly Hall before being interred two weeks later at the Martyrs’ Terrace 
+overlooking the Euphrates at Deir ez-Zor, in a marble sarcophagus designed by the Ministry of Public Works.`,
         classification: 'Yūmeijin'
     }],
     ['Ten-Hour War', {
