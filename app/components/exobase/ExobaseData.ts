@@ -972,8 +972,16 @@ Solar System."`,
     }],
     ['France', {
 content: `France, officially the French Republic, is a country primarily located in Western Europe and is the largest 
-economy in the [[Eurasian Bloc]]. Along with Japan it was the largest funder of the failed Étoile-Kōkai generation ship 
-mission to [[Epsilon Indi]].`,
+economy in the [[Eurasian Bloc]]. During the [[Reset of Nations]] it helped fund [[NRF~Tariq Al-Hashim]] forces during
+the establishment and later expansion of the [[Levantine Republic]]. In the 170s they began funding massive 
+infrastructure projects in North Africa under their Mediterranean Union scheme, requiring recipients to set up special
+joint governance economic zones in exchange. These were often very successful, and during the water crisis of 159 BFC 
+Algeria elected a government which ran on the promise of integrating the entire country into a zone under joint French
+governance. In the decades that followed Tunisia, Morocco, and Mauritania also voted to fully join the Mediterranean 
+Union. In 141 BFC the union was folded into the French Republic under the nationalistic governance of Armand Delacroix, 
+at the same time the flag was changed from the Tricolore to the Imperial (an eagle perched on a globe on a purple 
+background). Along with Japan it was the largest funder of the failed Étoile-Kōkai generation ship mission to 
+[[Epsilon Indi]].`,
         classification: 'Socionomics/Polities'
     }],
     ['Freeholders', {
@@ -2323,7 +2331,8 @@ officially maintain the current DMZ borders. Iraq's Sunni-majority provinces in 
 republic in 181 BFC after the collapse of the central government, resulting in a number of border skirmishes 
 with Iraq, and over time became de-facto Levantine states until being formally incorporated in 175 BFC. The 
 Alawite-majority coastal region between Latakia and Tartus remained an independent Russian supported statelet until 
-being annexed by the Republic in 174 during Russia's integration into the [[GPR]].
+being annexed by the Republic with the help of [[French~France]] special forces in 174 BFC during Russia's integration 
+into the [[GPR]].
 
 Al-Hashim established the government of the Republic as a unicameral Assembly elected indirectly by municipal councils, 
 with candidate lists screened by an electoral board answerable to the presidency. He retained decree and veto powers, 
@@ -2343,9 +2352,9 @@ withdraw from state affairs and continued to hold cabinet sessions from his resi
 In late April 168 BFC he bled again despite the shunt and a liver-assist pack. Doctors gave him a one-shot antiviral,
 but a bloodstream infection lead to liver and kidney failure. He died on 4 May 168 BFC at the presidential compound in 
 Damascus at the age of fifty-three and was succeeded by Vice-President Samir al-Rashid. His funeral was declared a 
-national day of mourning across the Republic and attended by delegations from Türkiye, Israel, Egypt, and Greater 
-Uzbekistan. His body lay in state in the Assembly Hall before being interred two weeks later at the Martyrs’ Terrace 
-overlooking the Euphrates at Deir ez-Zor, in a marble sarcophagus designed by the Ministry of Public Works.`,
+national day of mourning across the Republic and attended by delegations from Türkiye, Israel, Egypt, France, and 
+Greater Uzbekistan. His body lay in state in the Assembly Hall before being interred two weeks later at the Martyrs’ 
+Terrace overlooking the Euphrates at Deir ez-Zor, in a marble sarcophagus designed by the Ministry of Public Works.`,
         classification: 'Yūmeijin'
     }],
     ['Ten-Hour War', {
