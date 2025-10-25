@@ -1941,6 +1941,15 @@ as well as for industrial and military uses where the [[X Group]] is the largest
 the superconduction theory and with his company Helitae the engineering required to build the first prototypes.`,
         classification: 'Praxis/Industrial'
     }],
+    ['Qalamoun Ḥayawiyya', {
+        content: `Qalamoun Ḥayawiyya is biologics company headquartered next to the university of Kalamoon in Deir 
+Atiyah in the [[Levantine Republic]]. Initially a small research lab, they were nationalised by [[Tariq Al-Hashim]] in 
+176 BFC and given funding to roll out their low cost miltefosine-imidazole booster country wide, which over the next 
+decade eliminated Cutaneous Leishmaniasis from the Republic. They specialise in digital epidemiology and were
+privatised and publically listed in 112 BFC. They successfully developed inhibitors for hemozoin formation and 
+apicoplast DNA replication which were used in the worldwide malaria eradication drive of the 90s and 80s.`,
+        classification: 'Socionomics/Polities'
+    }],
     ['QuanLan',{
         content:
 `A Quantum-Entanglement Locality Area Network uses quantum entanglement to provide instantaneous and secure connections
@@ -2323,6 +2332,10 @@ republic in 181 BFC after the collapse of the central government, resulting in a
 with Iraq, and over time became de-facto Levantine states until being formally incorporated in 175 BFC. The 
 Alawite-majority coastal region between Latakia and Tartus remained an independent Russian supported statelet until 
 being annexed by the Republic in 174 during Russia's integration into the [[GPR]].
+
+He embarked on a number of ambitious infrastructure and public health projects, such as the Mediterranean solar
+powered desalination plants and pipelines, and nationalising [[Qalamoun Ḥayawiyya]] and using them to eradicate 
+Cutaneous Leishmaniasis from the Republic.
 
 Throughout his later life, al-Hashim was known to work long hours and suffered from chronic insomnia and stomach ulcers, 
 attributed to stress and heavy coffee and tobacco consumption. In early 169 BFC, during an inspection tour of Aleppo and 
