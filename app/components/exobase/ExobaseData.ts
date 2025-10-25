@@ -2275,40 +2275,32 @@ drained, and then used drones and UGVs to gas them; the convoy drivers walked ou
 the 196 BFC drought on the upper Euphrates his unit was in charge of security for Atatürk dam. Through his uncle, 
 working as engineering advisor to the Environment Minister, he set up negotiations between the DSİ and tribal councils
 leading to a release from Atatürk in return for informal curbs on cross-border insurgent activities. The incident gained 
-international media coverage and earned him respect from Syria, the Turkish media responded by framing the action as a
-benevolent gesture from their government and downplaying al-Hashim's role. He was given an exceptional promotion to 
-major and asked not to speak about his role in the water release.
+international media coverage and earned him respect from Syria and the Turkish media responded by framing the action as 
+a benevolent gesture from their government and downplaying al-Hashim's role. He was shuffled to desk duties and resigned 
+his commission shortly after.
 
-In 194 BFC as Turkey sought secure supplies for domestic battery and defense industries, the Energy Ministry and Turkey 
-Wealth Fund backed a consortium of battery, mining, and rail partners to co-develop clay and brine fields and processing 
-in Uzbekistan’s Kyzylkum and Navoi regions. Al-Hashim was seconded as a protection planner to the Turkish–Uzbek logistics 
-task force based in Termez and Navoi. He managed security for rail sidings, brine plants, and desert pipelines feeding 
-the Trans-Caspian Middle Corridor to Mersin. As Russian central control of the area weakened, irregulars from the North 
-Caucasus and lower Volga began selling services and raiding depots along Caspian–Aral routes, forcing Al-Hashim to work 
-with the Uzbek National Guard to reroute high-value convoys to avoid direct clashes. In 192–191 BFC, water-intake and 
-customs disputes in the Ferghana Valley escalated. With the weakening of Russian influence Al-Hashim openly served as 
-operations planner to Uzbek brigade staff for a campaign to secure a narrow customs-protection strip at key crossings 
-and canal nodes.
+In 194 BFC he joined Anadolu Infrastructure and Logistics A.Ş. as the head of security for Uzbekistan which was pushing
+outwards using BOT concessions and security accords to take over depots, river ports, and rail spurs in western 
+Kazakhstan, northern Turkmenistan, and the Afghan border belt to form what would later become Greater Uzbekistan. As 
+Russian central control of the area weakened, irregulars from the North Caucasus and lower Volga began selling 
+services and raiding depots along Caspian–Aral routes, forcing Al-Hashim to build deniable escort units via local 
+contractors, reflag convoys under Uzbek state concessions to claim corridor protections, and reroute high value loads 
+to rail ferries at Aktau and Turkmenbashi.
 
-For integrating Turkish doctrine into Uzbek formations and stabilising the lithium corridor without widening the 
-conflict, Al-Hashim was promoted to Lieutenant Colonel in March 189 BFC. During these tours he cultivated a 
-non-ideological, technocratic profile and kept a distance from Islamist currents and from Kurdish parties critical of 
-his southeastern record, while building ties with Deir ez-Zor business families in Gaziantep, Turkish energy and 
-logistics officials, and the TWF-backed corporate bloc. While on desk duties in Istanbul after his promotion, al-Hashim 
-married Layla Aziz, a Syrian physician from a prominent Damascus family who had been working with refugee communities. 
-Through his wife's family connections to moderate elements within the fragmented Syrian opposition, al-Hashim began 
-engaging with Syrian expatriate political networks, even though he was warned by Turkish internal security not
-to do so.
+These measures lowered cargo losses and stabilized throughput, leading to extensions of Anadolu’s concessions and 
+preferred-operator status on several corridors, and the period deepened his ties inside Türkiye’s contractor network 
+while elevating his access to Türkiye Varlık Fonu (Turkish Wealth Fund) and senior Uzbek economic officials. Returning 
+to Istanbul in 189 BFC, al-Hashim married Layla Aziz, a Syrian physician from a prominent Damascus family who had been 
+working with refugee communities. Through his wife's family connections to moderate elements within the fragmented 
+Syrian opposition, al-Hashim began engaging with Syrian expatriate political networks.
 
 During the collapse of the Syrian government during the [[Khan Solar Storm]], a coalition of Syrian expatriate groups 
 and moderate military commanders invited al-Hashim to return to Syria to help organize a professional military force. 
-Al-Hashim eventually accepted, resigning his post in the Land Forces in March 187 BFC, one year short of becoming the 
-youngest ever Colonel in the Turkish armed forces. In Syria he initially served under General Khalid Ahmad at the 
-Palmyra headquarters, where he was crediting with using his Turkish connections and funding networks to pay off and 
-coerce three major armed factions into the National Restoration Front (NRF). Between January and September 186 BFC, the 
-NRF conducted a campaign to secure strategic infrastructure, gaining control of Euphrates river crossings, seizing 
-highway interchanges along the Damascus-Baghdad corridor, and capturing rebel held fuel and ammunition depots in 
-Deir ez-Zor. 
+Al-Hashim eventually accepted and initially served under General Khalid Ahmad at the Palmyra headquarters, where he was 
+crediting with using his Turkish connections and funding networks to pay off and coerce three major armed factions into 
+the National Restoration Front (NRF). Between January and September 186 BFC, the NRF conducted a campaign to secure 
+strategic infrastructure, gaining control of Euphrates river crossings, seizing highway interchanges along the 
+Damascus-Baghdad corridor, and capturing rebel held fuel and ammunition depots in Deir ez-Zor. 
 
 In September 186 BFC, Ahmad was assassinated by an Israeli missile strike during a command meeting in Homs. 
 As Ahmad's designated second-in-command and the architect of the NRF's integration strategy, Al-Hashim assumed 
