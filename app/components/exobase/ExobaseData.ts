@@ -11,7 +11,7 @@ sanctions relief. This was so successful that they managed to bootstrap a domest
 subsequently gain a global niche in production of QuanLan devices, as well as greatly expand their nuclear industry. 
 The 12Quan name was initially a religious reference to the 12th Hidden Imam as well as Quantum, but is now generally 
 pronounced as 1-2-kwon.`,
-        classification: 'Socionomics/Polities'
+        classification: 'Polities/Corporations'
     }],
     ['Alejandro Florentin', {
 content: `Alejandro Florentin (70 BFC -) is best known as the lead architect of [[Island One]]. He is the son of 
@@ -50,7 +50,7 @@ improve its consumer logistics while also increasing home robotics sales. The lo
 from home [[Fabricator]]s were a perfect fit for its growing automated marketplace, and their subscription and 
 healthcare platforms were well positioned to fill the growing demand for rental of large items such as furniture and 
 healthcare (although losing out on automotive to the [[X Group]]).`,
-        classification: 'Socionomics/Polities'
+        classification: 'Polities/Corporations'
     }],
     ['Ångström', {
 content: `Ångström (commonly known in Japan as Angusu) is a photonics conglomerate specialising in the manufacture of 
@@ -82,7 +82,7 @@ the required nanoradian pointing for synchronized optical frequency combs across
 first direct, high‐resolution images of [[Epsilon Indi]] in 78 BFC before the array was cancelled by the 
 [[United States]]. More recently their waveguides have become a critical part of printing,new particles in 
 [[antimatter~Antimatter Engine]] factories`,
-        classification: 'Socionomics/Polities'
+        classification: 'Polities/Corporations'
     }],
     ['Antiakrasic', {
         content: `Antiakrasics, commonly known as AAKs, are a class of drugs that provide a profound and prolonged 
@@ -202,7 +202,7 @@ Ellulist church to work on larger scale projects, a well known Argentine project
 monitoring network Phaethon. It has developed a strong biotech sector due to lack of regulation, with many well known 
 companies such as [[MNex~Nexus]] and some of the largest [[Smart Polymer~Forever Fever]] companies headquartering 
 there.`,
-        classification: 'Socionomics/Polities'
+        classification: 'Polities/States'
     }],
     ['Augustine Okafor', {
         content: `Augustine Okafor (20th January 42 BFC – present) is a politician and the inventor of the first 
@@ -287,12 +287,14 @@ bio-regulation, which helped them to acquire Hivegen in 61 BFC while it was figh
 agencies over breeding extinct animals on stations outside of the jurisdiction of animal welfare treaties.
 
 The combined company headquarters was established in Lausanne where the company had established a number of 
-cellule-atelier due to Vaud's extremely generous tax writeoff for synthetic biology R&D. In the following years they
-expanded aggressively offworld and were the largest supplier of food to the Martian colonies before their withdrawal in 
-the aftermath of the [[Retrograde Diaspora]] and the [[Stillborn Harvest]] attacks against their bio-reactors. In 22 BFC
-they established a void ecology division developing structures grown from extremophile bacteria, such as self 
-healing self growing solar collection arrays.`,
-        classification: 'Socionomics/Polities'
+cellule-atelier due to Vaud's extremely generous tax writeoff for synthetic biology R&D. One of the earliest products
+from the combined company was new hot-agriculture support products which have greatly boosted the economies of the
+[[Levantine Republic]] and the [[Fatimid Trade Caliphate]]. In the following years they expanded aggressively offworld 
+and were the largest supplier of food to the Martian colonies before their withdrawal in the aftermath of the 
+[[Retrograde Diaspora]] and the [[Stillborn Harvest]] attacks against their bio-reactors. In 22 BFC they established a 
+void ecology division developing structures grown from extremophile bacteria, such as self healing self growing solar 
+collection arrays.`,
+        classification: 'Polities/Corporations'
     }],
     ['Bharat', {
 content: `Bharat, officially भारत गणराज्य (Republic of Bharat), is the most populous terrestrial nation and eighth 
@@ -327,7 +329,7 @@ Bharat began a crash program of spraying sulphur dioxide into the stratosphere, 
 sufficiently to make a large difference to global temperatures. Over time the build up of water storage and the advent 
 of free solar desalinisation have largely eliminated water supply as in issue in modern Bharat, although heatwaves 
 remain a major issue`,
-        classification: 'Socionomics/Polities'
+        classification: 'Polities/States'
     }],
     ['Ceres Wave', {
         content:
@@ -413,14 +415,14 @@ steady state economy with stable population supplying the existing operations an
 major political shifts until formation of [[Greater Zhōngguó]] 36 years later. The Ceres Wave was ultimately 
 instrumental in opening up inter-system commerce, as well causing major structural and political upheaval 
 on Earth and eventually leading to the combination of the U.N. and NATO into the [[Peacekeepers]].`,
-        classification: 'Socionomics/Events'
+        classification: 'Sociocron'
     }],
     ['China', {
         content: `China, officially the People's Republic of China (PRC), was a large unitary communist state in East 
 Asia. Considered one of six cradles of civilization, China's economy eventually grew to surpass the [[United States]] 
 until a series of economic collapses tied to demographic decline and the [[Khan Solar Storm]] forced it into the wider 
 [[GPR]] union in 174 BFC.`,
-        classification: 'Socionomics/Polities'
+        classification: 'Polities/States'
     }],
     ['Cognostim', {
         content:
@@ -477,7 +479,7 @@ collaboration has been confirmed after the fact, mostly notably during the [[Cer
 confirmed that Constellis was shipping drones and weapons to Lutetia in response to the [[GPR]] seizure of Ceres. On 
 several other occasions Constellis have been found to have taken over the role of the CIA in training forces friendly 
 to US interests, such as helping the [[Bharati~Bharat]] supplied Mon liberation army in Myanmar.`,
-        classification: 'Socionomics/Polities'
+        classification: 'Polities/Corporations'
     }],
     ['Deus Machina', {
         content: `Deus Machina is an umbrella term for a range of religious and spiritual traditions that are unified
@@ -520,7 +522,7 @@ immerse themselves in the stream of data present in global networks. It has rece
 most widely practiced off Earth belief system. Matthieu Diallo devotes a section of [[Kinships of the Astroindigène]] to 
 la bataille des idées between the ellulist view of technology as a fracturing and dividing force and the machinist 
 vision of it being a power redistributor bringing agency to the world.`,
-        classification: 'Socionomics/Jurisbunds'
+        classification: 'Polities/Jurisbunds'
     }],
     ['Dominio', {
 content: `Dominio is a federation of theocratic West African and South American states, initially formed as a trade 
@@ -536,7 +538,7 @@ the new Roman Catholic position of rule by their own cardinals rather than takin
 nominally being a theocracy, the junta encourages some degree of religious tolerance, especially in African regions 
 with significant populations following Muslim or traditional practices. 
 Datï¿½orruà¤¶आtedा`,
-        classification: 'Socionomics/Confederations'
+        classification: 'Polities/Confederations'
     }],
     ['Drone', {
 content: `A drone is an autonomous vehicle capable of networked intelligence and possessing more localised decision 
@@ -632,7 +634,7 @@ I woke up in old age, and all possibilities had vanished.)
 %%%
 
 Ellulism endured and institutionalized beyond him, and even adopted his final lament as a core mantra.`,
-        classification: 'Socionomics/Jurisbunds'
+        classification: 'Polities/Jurisbunds'
     }],
     ['Epsilon Indi', {
 content: `Epsilon Indi is a triple star system (K-type main-sequence star, ε Indi A, and two brown dwarfs, ε Indi Ba and 
@@ -705,7 +707,7 @@ bureaucratic institutions that are strongly engineering and environmentally focu
 the third largest contributor to the [[Peacekeepers]] (after the United States and Bharat) and often align with the US 
 against the non-Peacekeeper space power blocs of [[Greater Zhōngguó]], [[Dominio]], [[Türkiye]], and the 
 [[Fatimid Trade Caliphate]].`,
-        classification: 'Socionomics/Confederations'
+        classification: 'Polities/Confederations'
     }],
     ['Exobase', {
  content: `The Exobase is an [[Exonet]] hosted encyclopedic compendium, consisting of a small number of articles on 
@@ -771,11 +773,11 @@ unsupervised by [[synth~Synthetic Intelligence]] is a great filter explanation a
     ['Fatimid Trade Caliphate', {
         content:
 `The Fatimid Trade Caliphate is a trading alliance between several majority Shi'a nations, Iran, South Iraq, Bahrain, 
-the Beqaa State, and North Yemen. The trading alliance also encompasses a free trade zones with Afghanistan and the 
+and North Yemen. The trading alliance also encompasses a free trade zones with Afghanistan and the 
 Azerbaijani region of the Türkiye confederation. The swiss multinational [[Bioforge Hivegen]] has a close relationship 
 with the governing Shūrā and supplies members with many cutting edge agricultural products, especially to the high 
 density solar desalinisation farming areas.`,
-        classification: 'Socionomics/Confederations'
+        classification: 'Polities/Confederations'
     }],
     ['First Contact Event', {
         content:
@@ -899,7 +901,7 @@ An informal system of referring to the year of contact as 0 AFC (After First Con
 has mostly replaced the Gregorian calender system in daily life system-wide.
 
 1. [[Kinships of the Astroindigène]]`,
-        classification: 'Socionomics/Events'
+        classification: 'Sociocron'
     }],
     ['Forever Fever', {
 content: `The Forever Fever refers to an ongoing period of technological progress in the field of Smart Polymer Medicine 
@@ -971,18 +973,31 @@ Solar System."`,
         classification: 'Geo'
     }],
     ['France', {
-content: `France, officially the French Republic, is a country primarily located in Western Europe and is the largest 
-economy in the [[Eurasian Bloc]]. During the [[Reset of Nations]] it helped fund [[NRF~Tariq Al-Hashim]] forces during
-the establishment and later expansion of the [[Levantine Republic]]. In the 170s they began funding massive 
+content: `France is a country primarily located in Western Europe and is the largest economy in the [[Eurasian Bloc]]. 
+
+Originally know as the French Republic, during the [[Reset of Nations]] it helped fund [[NRF~Tariq Al-Hashim]] forces 
+during the establishment and later expansion of the [[Levantine Republic]]. In the 170s they began funding massive 
 infrastructure projects in North Africa under their Mediterranean Union scheme, requiring recipients to set up special
-joint governance economic zones in exchange. These were often very successful, and during the water crisis of 159 BFC 
-Algeria elected a government which ran on the promise of integrating the entire country into a zone under joint French
-governance. In the decades that followed Tunisia, Morocco, and Mauritania also voted to fully join the Mediterranean 
-Union. In 141 BFC the union was folded into the French Republic under the nationalistic governance of Armand Delacroix, 
-at the same time the flag was changed from the Tricolore to the Imperial (an eagle perched on a globe on a purple 
-background). Along with Japan it was the largest funder of the failed Étoile-Kōkai generation ship mission to 
-[[Epsilon Indi]].`,
-        classification: 'Socionomics/Polities'
+joint governance economic zones in exchange. 
+
+In 176 BFC, Tunisia became the first North African nation to enter crisis when its government defaulted on international 
+debt, triggering mass protests and the collapse of democratic institutions. France negotiated a bailout in exchange for 
+creating joint-governance economic zones in Tunis and Sfax. These zones proved remarkably successful, sparking similar 
+deals with Libya (174 BFC), whose fragmented warlord territories were unified under French-backed stabilization.
+
+The Great Maghreb Drought (165-159 BFC) accelerated integration. Mauritania joined in 162 BFC after pastoral collapse 
+and famine. Morocco's 158 BFC referendum passed narrowly (51-49%) despite massive protests in Casablanca and Rabat, 
+where the Istiqlal resistance movement killed over 3000 French personnel before being suppressed. Algeria resisted 
+longest, with pro-integration forces winning elections in 159 BFC but sparking a brutal civil war (159-154 BFC) between 
+the coastal Unionists and interior Independence Brigades until French Foreign Legion intervention ended the conflict. 
+The contentious 155 BFC referendum passed under disputed circumstances.
+
+In 141 BFC the nationalistic governance of Armand Delacroix incorporated the Mediterranean Union into France. Many 
+opposition leaders were arrested for separatist collaboration and by referendum the national flag was changed from the 
+Tricolore to the Imperial (an eagle perched on a globe on a purple background). 
+
+Along with Japan France was the largest funder of the failed Étoile-Kōkai generation ship mission to [[Epsilon Indi]].`,
+        classification: 'Polities/States'
     }],
     ['Freeholders', {
         content: `The Freeholders are a Martian based political and paramilitary organisation with origins in the 
@@ -1008,7 +1023,7 @@ protests, skirmishes, and terrorist activities, the most notable of which was th
 [[antimatter~Antimatter Engine]] which they still claim to posses and have threatened to use on a number of occasions. 
 The paramilitary arm sometimes work together openly with the political organisation, most recently in organising and 
 participating in the [[Nanocat Fury]] protests.`,
-        classification: 'Socionomics/Jurisbunds'
+        classification: 'Polities/Jurisbunds'
     }],
     ['Fuel Pathing', {
         content:
@@ -1067,7 +1082,7 @@ with Russia and Siberia shipping increasingly large quantities of food to China 
 for machinery, electronics, and rare earth minerals. Although initially suffering economically, through its expanding
 rare earth and mineral wealth China was able to recover and fund large state sponsored migrations of people from North 
 Korea and Myanmar along with large incentives for people having children until it again became an economic superpower.`,
-        classification: 'Socionomics/Confederations'
+        classification: 'Polities/Confederations'
     }],
     ['Gran México', {
         content: `Gran México, officially the República Federal de Gran México, is the world's 15th most populous 
@@ -1082,7 +1097,7 @@ semi-autonomous region as a solution to the increasingly damaging Mexican drug w
 cartel, allowing it to undercut CJNG with economies of scale and slowly drive them east. As promised by the government, 
 which sold the move using the analogy of cauterizing a wound, this did indeed reduce violence back to the historically 
 low levels of the golden era of Sinaloa.`,
-        classification: 'Socionomics/Polities'
+        classification: 'Polities/States'
     }],
     ['Greater Zhōngguó', {
 content: `Greater Zhōngguó is a political entity which was formed between 102 and 98 BFC from the unification of the 
@@ -1093,7 +1108,7 @@ economic union, over time it has become more politically unified under the Chine
 focussed as the Peacekeepers have grown and in response to external pressures such as [[Bharat]]'s open support of a 
 succession movement in Myanmar. Despite having significantly less industrial capacity than the [[Peacekeepers]] it 
 fields a nearly equivalently size navy.`,
-        classification: 'Socionomics/Confederations'
+        classification: 'Polities/Confederations'
     }],
     ['Havfélög', {
         content: `The Havfélög (HAHV‑FAY‑LOG or sea companies in English) are three northern European corporations which
@@ -1115,7 +1130,7 @@ mid-atlantic casio resort and jet fuel depot, the first floating terrawatt scale
 sea farms and lithium extraction mines off the coast of Brazil. Saab-Constellis have operated many island reclamation
 projects for near equatorial rocket sites and resorts, and also operate several sea based entertainment services such as
 floating museum tours.`,
-        classification: 'Socionomics/Polities'
+        classification: 'Polities/Corporations'
     }],
     ['Haidian Takeoff Crisis', {
         content:
@@ -1242,7 +1257,7 @@ Xuéxí was vulnerable has also been the topic of several books and is the found
 [[Deus Machina]] which believes that Xuéxí is a benevolent AI which is still watching over us after having orchestrated 
 the power cut to appear as if humanity had only avoided plunging into the abyss by blind luck, in order to motivate us 
 to better ourselves.`,
-        classification: 'Socionomics/Events'
+        classification: 'Sociocron'
     }],
     ['Hannah Weiss-Martin', {
         content: `Hannah Weiss-Martin (135 BFC - ) is a consciousness substrate engineer who popularised the computonium 
@@ -1356,7 +1371,7 @@ Okafor-Reyes was elected as CEO in her place. In 10 AFC Polaris was able to secu
 agreements with the Elluist sympathetic [[Fatimid Trade Caliphate]]. As the smallest of the outer system navies, Freehab 
 has always attempted to achieve its political objectives through indirect means such as the Outer Trading League, and 
 funding sympathetic organisations such as the Ellulist church and the [[Freeholders]].`,
-        classification: 'Socionomics/Polities'
+        classification: 'Polities/States'
     }],
     ['Infomatic Conglomerate', {
 content: `The Infomatic Conglomerates are large corporate groups deriving a significant portion of their revenue from 
@@ -1368,7 +1383,7 @@ synths), [[Amazon]] (robot management, compute rental, healthcare optimisation, 
 compute rental), [[X Group]] (navigation, propulsion management, and e-commerce synths), [[Ångström]] (photonics), 
 and [[Bioforge Hivegen]] (genetic engineering management).
 Datï¿½orruà¤¶आtedा`,
-        classification: 'Socionomics/Polities'
+        classification: 'Polities/Corporations'
     }],
     ['Instance', {
 content: `An instance is a mechanical or biomechanical machine piloted by an independent [[Synthetic Intelligence]].
@@ -1448,7 +1463,7 @@ the countries while air travel was still extremely limited due to the effects of
 have killed over a hundred million people, further devastating the economies of most countries in the [[Dominio]] 
 trading block and was a major contributor to the [[Reset of Nations]]. It laid the seeds for the establishment of a 
 military junta in Dominio, which retained power in its early days by providing effective healthcare.`,
-classification: 'Socionomics/Events'
+classification: 'Sociocron'
     }],
     ['Kinships of the Astroindigène', {
 content: `Kinships of the Astroindigène is a seminal study by sociologist Matthieu Diallo of the changes in social 
@@ -1491,23 +1506,32 @@ the differing generational reactions to the first contact event, especially cont
 virtual-first [[meshpolitian~InterMesh]] existence of the Diaspora period with the high ambition and cognitive 
 flexibility markers present in today's younger generations, and how new cooperation norms and organizations are 
 developing out of these changes.`,
-        classification: 'Socionomics/Events'
+        classification: 'Sociocron'
     }],
     ['Kuromaku', {
         content: `Kuromaku are an east asian based criminal group, originating in Japan, which specialise in grey market tech 
 exports, complex synthetic drugs, and sexbots`,
-        classification: 'Socionomics/Jurisbunds'
+        classification: 'Polities/Jurisbunds'
     }],
     ['Levantine Republic', {
         content: `The Levantine Republic is a country in the Eastern Mediterranean and the Levant. It is bounded by the 
-Mediterranean Sea, Israel, and Egypt to the west, [[Türkiye]] to the North, North and South Iraq in the 
+Mediterranean Sea, Israel, and Egypt to the west, [[Türkiye]] to the North and East, South Iraq in the 
 [[Fatimid Trade Caliphate]] to the East, and Arabia to the South. It was formed out of the territories of north-western 
-Iraq, Lebanon, Independent Jordan, and Syria by [[Tariq Al-Hashim]] in the aftermath of the [[Reset of Nations]]. It 
-produces large quantities of water from the solar desalinisation plants of Beqaa State for farming irrigation in the 
-Syrian steppe. At the time of its founding there were almost no Jewish communities in the republic, however after the 
+Iraq, Lebanon, Independent Jordan, and Syria by [[Tariq Al-Hashim]] in the aftermath of the [[Reset of Nations]]. 
+
+In 185 BFC the Tariq Al-Hashim led NRF seized Euphrates crossings and depots, accepted a quiet DMZ with Israel in 
+exchange for supervised access to Haifa, and reopened food and fuel trade. In October a constitutional assembly 
+proclaimed the Levantine Republic, Ankara recognised it after security guarantees, and the Damascus Accords of 184 BFC 
+fixed borders while granting limited Kurdish cantonal autonomy. Between 181 and 175 BFC the Republic absorbed Sunni 
+majority districts of north-west Iraq, and in 174 BFC, with [[French~France]] advisers, folded the Alawite coast into 
+the Republic. The Republic has a mixed, state-led market economy, producing large quantities of water from the solar 
+desalinisation plants of Beqaa State for farming irrigation in the Syrian steppe. It agriculture shifted from rain-fed 
+cereal to high-value irrigated crops with help from swiss multinational [[Bioforge Hivegen]].
+
+At the time of its founding there were almost no Jewish communities in the republic, however after the 
 Republic's normalisation of relations with Israel in November 184 BFC several have been founded and some notable Jewish 
 people have grown up in the Republic, including [[Levi Weiss]].`,
-        classification: 'Socionomics/Polities'
+        classification: 'Polities/States'
     }],
     ['Levi Weiss', {
         content: `Levi Weiss (182 BFC - 74 BFC) was a scientist known for his pioneering work in physics, chemistry, and 
@@ -1630,7 +1654,7 @@ disruptions and significant commercial disputes both of which have the possibili
 The system is largely effective in encouraging a mostly self-policing population capable of generating trade flow and 
 regional stability through a combination of economic incentives and the cartel welfare system's creation of dependency 
 on the limited central government.`,
-        classification: 'Socionomics/Polities'
+        classification: 'Polities/States'
     }],
     ['MemAmp', {
 content: `A MemAmp is a [[Neurogenesis]] device using a self assembling optogenetic neural lace to measure and/or 
@@ -1660,7 +1684,7 @@ and in the application of antitrust laws to competitors. It has won numerous awa
 Veritas Awards picking up both the US government funded Public Service Medal for TruthStreamDaily's coverage of the data 
 stream from the MagnetoPlasma probe approaching [[Epsilon Indi]], and the Torch of Public Opinion for @LivedItLily's 
 gonzo journalism on the [[Nanocat Fury]] protests.`,
-        classification: 'Socionomics/Polities'
+        classification: 'Polities/Corporations'
     }],
     ['Microsynth', {
         content: `Microsynth is a [[United States]] [[synth~Synthetic Intelligence]] company headquartered in Redmond, 
@@ -1669,7 +1693,7 @@ compute rental. It has been the world's largest supplier of synths to the milita
 acquisition of Palantir in 91 BFC, and the growth of non-government spending in those areas along with increasing 
 diversification of business and finance synth roles on the [[InterMesh]] has made that its most profitable business 
 line. It has acquired a number of smaller military technology companies, such as [[Nexus]] in 69 BFC.`,
-        classification: 'Socionomics/Polities'
+        classification: 'Polities/Corporations'
     }],
     ['Nanocat Fury', {
 content: `The Nanocat Fury, also called the Martian Troubles, are an ongoing series of protests and violent skirmishes 
@@ -1677,7 +1701,7 @@ between the [[Freeholders]] and other Martian nationalists, and a coalition of g
 forces and Marsist groups such as Red Hand. It has attracted Yūmeijin support on both sides such as 
 [[Nimitra Wongprasert]]'s support of the nationalists and [[Alejandro Florentin]] for the Marsists, as well as 
 continuous news coverage from networks such as [[MetaFox]].`,
-        classification: 'Socionomics/Events'
+        classification: 'Sociocron'
     }],
     ['Naval Auxiliary', {
 content:`A naval auxiliary is any military space vessel which is not [[Naval Rated~Naval Rated Ship]]. By definition 
@@ -1891,7 +1915,7 @@ workers, and has spearheaded a campaign for Planum Australe to have representati
 polities such as [[FreeHab~Independent Habitats]] which are not managed by inner system polities or corporations. It has
 been accused of being a cover for Freehab to funneling weapons and resources to the [[Freeholders]] and other off Earth
 independence groups.`,
-        classification: 'Socionomics/Confederations'
+        classification: 'Polities/Confederations'
     }],
     ['Peacekeepers', {
         content:
@@ -1907,7 +1931,7 @@ such as policing and enforcing trade conditions on off Earth colonies, and it ha
 rated ships than GZ. The Peacekeepers draw materiel from a number of specialised manufacturing hubs such as 
 [[Drone Valley]], and often hire training and intelligence facilities from the [[Constellis Group]] such as the White 
 Sands Missile Range and the Panopticon Relay.`,
-        classification: 'Socionomics/Confederations'
+        classification: 'Polities/Confederations'
     }],
     ['Pharmatica Group', {
         content: `Pharmatica Group is a bioinformatics and pharmaceutical conglomerate specialising in 
@@ -1938,7 +1962,7 @@ groups SynthAntagon antagonist became a best seller, and addiction treatment pha
 best selling product. Despite pioneering many of the synthetic cell models that helped start the [[Forever Fever]], 
 Pharmatica's smart polymer therapies have not been commercially successful and their stock price has declined heavily 
 in the last decade.`,
-        classification: 'Socionomics/Polities'
+        classification: 'Polities/Corporations'
     }],
     ['Plasmorph', {
         content:
@@ -1956,7 +1980,7 @@ Atiyah in the [[Levantine Republic]]. Initially a small research lab, they were 
 decade eliminated Cutaneous Leishmaniasis from the Republic. They specialise in digital epidemiology and were
 privatised and publically listed in 112 BFC. They successfully developed inhibitors for hemozoin formation and 
 apicoplast DNA replication which were used in the worldwide malaria eradication drive of the 90s and 80s.`,
-        classification: 'Socionomics/Polities'
+        classification: 'Polities/Corporations'
     }],
     ['QuanLan',{
         content:
@@ -2003,7 +2027,7 @@ running a hydroelectric dam these laws have only been strengthened over time as 
 contractually require the levels of stability and privacy that Paraguay provides. In recognition of the fact that 
 compute and associated activities and services now account for the vast majority of Paraguay's economy the official name
 of the country was changed to Refugio de Datos Paraguay by referendum in 7 BFC.`,
-        classification: 'Socionomics/Polities'
+        classification: 'Polities/States'
     }],
     ['Reset of Nations', {
 content: `The period between the [[Khan Solar Storm]] of 187 BFC and the formation of [[Dominio]] proper in 181 BFC is 
@@ -2031,7 +2055,7 @@ increase in corporate managed international and off earth policing as the United
 combination of private organisations such as the [[Havfélög]] and other large national forces such as the [[GPR]], and 
 later by larger coalition forces such as the [[Peacekeepers]] and [[Greater Zhōngguó]] which were primarily focused 
 on larger scale piracy, trade, and military issues.`,
-        classification: 'Socionomics/Events'
+        classification: 'Sociocron'
     }],
     ['Retrograde Diaspora', {
         content:
@@ -2055,7 +2079,7 @@ against this trend, notably from the [[Ellulists~Ellulism]], the [[Fatimid Trade
 movement.
 
 1. [[Kinships of the Astroindigène]]`,
-        classification: 'Socionomics/Events'
+        classification: 'Sociocron'
     }],
     ['Sanktuarium Jasności', {
         content:
@@ -2150,7 +2174,7 @@ resupply base, construction of the automated Jovian mining aerostat fleet commen
 multiple times. Semiotican has recently started expanding into energy generation by scaling-up a Muon atmospheric 
 mining process it was using to supply the vast power needs of the fleet, which has the potential to challenge the
 X Group's dominance of the space based energy market`,
-        classification: 'Socionomics/Polities'
+        classification: 'Polities/Corporations'
     }],
     ['Sinogroup', {
         content: `Sinogroup is a [[Greater Zhōngguó]] owned infomatic conglomerate producing network management, 
@@ -2172,7 +2196,7 @@ capable of quick conversion to the production of military vehicles. In later yea
 nationalised they were also folded into the group along with their e-commerce operations, and by the time GZ was formed 
 it was a sprawling conglomerate with interests in many sectors of the economy, including off world operations such as 
 [[Forge Palace]].`,
-        classification: 'Socionomics/Polities'
+        classification: 'Polities/Corporations'
     }],
     ['Stillborn Harvest', {
 content: `Stillborn Harvest was a terrorist attack by the [[Kasei Freeholders~Freeholders]] on [[Bioforge Hivegen]]'s 
@@ -2196,7 +2220,7 @@ grew in size.
 
 In response the [[Peacekeepers]] were used to ship food supplies to the affected colonies and to destroy most of the 
 Freeholder's above ground infrastructure, precipitating an end to their independent existence outside of the colonies.`,
-        classification: 'Socionomics/Events'
+        classification: 'Sociocron'
     }],
     ['Synthetic Control Measures', {
         content:
@@ -2411,19 +2435,19 @@ to emphasise laying down and screening a much greater density of fuel depots (ev
 [[Fuel Pathing]], and using point defense lasers to clear debris. The effectiveness of swarms of attack and screening 
 drones was well understood before the war, but both sides launched new fast high density drone carrier variants after 
 it and started developing other [[Naval Auxiliary]] vessels.`,
-        classification: 'Socionomics/Events'
+        classification: 'Sociocron'
     }],
     ['Türkiye', {
         content: `Türkiye is a federation of countries in West Asia and Europe, controlled by the eponymous country. It
 consists of Türkiye, North Iraq, Azerbaijan, the Chechen Federation, and Crimea, as well as the semi-autonomous regions 
-of Alawite Syria and Georgia. It was a close ally of Greater Uzbekistan until that country joined [[Greater Zhōngguó]], 
-is largely responsible for running the military junta in Cairo, and continues to maintain its historical military 
-presence in Saudi Arabia which was established during the time of its alliance with former state of Pakistan. It 
-frequently is involved in border disputes with [[Levantine Republic]]. As the unofficial center of power for Sunni 
-Islam, it has sometimes tense diplomatic relations with Iran and the [[Fatimid Trade Caliphate]], although the need to 
-protect high volume of inter-bloc trade, especially through the free trade zone in Azerbaijan, has motivated peaceful 
-resolutions to most conflicts between the two Muslim power blocs.`,
-        classification: 'Socionomics/Confederations'
+of Georgia. It was a close ally of Greater Uzbekistan until that country joined [[Greater Zhōngguó]], is largely 
+responsible for running the military junta in Cairo, and continues to maintain its historical military presence in 
+Saudi Arabia which was established during the time of its alliance with former state of Pakistan. It has a number of 
+agreements with the neighbouring [[Levantine Republic]] on trade and migration. As the unofficial center of power for 
+Sunni Islam, it has sometimes tense diplomatic relations with Iran and the [[Fatimid Trade Caliphate]], although the 
+need to protect high volume of inter-bloc trade, especially through the free trade zone in Azerbaijan, has motivated 
+peaceful resolutions to most conflicts between the two Muslim power blocs.`,
+        classification: 'Polities/Confederations'
     }],
     ['United States', {
 content: `The United States of America (USA), commonly known as the United States (U.S.) or America, is a country 
@@ -2449,7 +2473,7 @@ as a result they have remained non-aligned with any of the large confederations 
 Gran México, Mazatlán Zona Franca, and the Philippines have close ties to Roman Catholic [[Dominio]]). Although 
 becoming more involved in system wide affairs through the Peacekeepers in in the last century BFC, the US government has 
 only recently emerged as an active international political force in its own right after the [[First Contact Event]].`,
-classification: 'Socionomics/Polities'
+classification: 'Polities/States'
     }],
     ['X Group', {
 content: `The X Group is a multiplanetary energy and industrial conglomerate headquartered in [[Hellas Planitia]], 
@@ -2475,6 +2499,6 @@ Solar Technologies to becoming the largest vertically integrated off earth photo
 Due to intense competition from [[Semiotican]] in the orbital manufacturing market of the 100 BFCs, X Musk re-integrated 
 X-Power into the greater X Group in order to extract greater efficiencies from the business. Notably their 
 [[Fusion Power]] division both mines the Helium-3 and Deuterium and operates many power plants.`,
-        classification: 'Socionomics/Polities'
+        classification: 'Polities/Corporations'
     }],
 ]);
