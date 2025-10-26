@@ -259,13 +259,14 @@ Superconducting Transformers (CSTs), as well as more efficient long distance wir
         classification: 'Praxis/Industrial'
     }],
     ['Bioforge Hivegen', {
-content: `Bioforge Hivegen, often known as BioGen, is a multiplanetary genetic engineering conglomerate headquartered in 
-Lausanne, Switzerland. It is best known for its [[synth~Synthetic Intelligence]] specialised in personalised medicine
-and  agricultural optimisation, as well as its organic electronic and cosmetic products. It has divisions producing 
-products in many parts of the bio-economy including mRNA therapies where it competes with [[Pharmatica Group]], but its 
-largest revenue streams are from CRISPR editing applications such as crop improvement, organ transplants, and tailored 
-synthetic organisms. It also a is the leading provider of personalised medicine therapies, with its partial cellular 
-reprogramming product positioned as a more expensive alternative to Pharmatica's senolytic Renovacel.
+content: `Bioforge Hivegen, often known as BioGen, is a multiplanetary genetic engineering and biologics conglomerate 
+headquartered in Lausanne, Switzerland. It is best known for its [[synth~Synthetic Intelligence]] specialised in 
+personalised medicine and agricultural optimisation, as well as its organic electronic and cosmetic products. It has 
+divisions producing products in many parts of the bio-economy including mRNA therapies where it competes with 
+[[Pharmatica Group]], but its largest revenue streams are from CRISPR editing applications such as crop improvement, 
+organ transplants, and tailored synthetic organisms. It also a is the leading provider of personalised medicine 
+therapies, with its partial cellular reprogramming product positioned as a more expensive alternative to Pharmatica's 
+senolytic Renovacel.
 
 Hivegen originated as a commercial spin off from an Australian Collaborative Research Center in food quality 
 optimization, with early products such as honey quality optimization and bio-fortified bananas. They achieved early
@@ -281,10 +282,12 @@ Bioforge was a German phytomining joint venture between BASF and Bayer CropScien
 method of extracting rare earth elements from otherwise marginal mining land. As they were developing a large amount of 
 valuable IP outside the core competencies of either company, such as many novel hyperaccumulator plant strains, and were
 starting to move into legally risky areas such as synthetic organisms and mRNA production platforms, an independent
-company was eventually created. The company was very successful in developing plant strains suited for the vast 
-ex-petrostate solar desalinisation desert farms. Their success allowed them to control much of the [[Eurasian Bloc]] 
-bio-regulation, which helped them to acquire Hivegen in 61 BFC while it was fighting several battles with regulatory 
-agencies over breeding extinct animals on stations outside of the jurisdiction of animal welfare treaties.
+company was eventually created. To fulfill their legally required German safety measures, they acquired 
+[[Qalamoun Ḥayawiyya]] in 90 BFC for their hyperspectral visible bacterial transducers which allowed them to monitor 
+population gene spread. The company was very successful in developing plant strains suited for the vast ex-petrostate 
+solar desalinisation desert farms. Their success allowed them to control much of the [[Eurasian Bloc]] bio-regulation, 
+which helped them to acquire Hivegen in 61 BFC while it was fighting several battles with regulatory agencies over 
+breeding extinct animals on stations outside of the jurisdiction of animal welfare treaties.
 
 The combined company headquarters was established in Lausanne where the company had established a number of 
 cellule-atelier due to Vaud's extremely generous tax writeoff for synthetic biology R&D. One of the earliest products
@@ -1529,11 +1532,14 @@ exchange for supervised access to Haifa, and reopened food and fuel trade. In Oc
 proclaimed the Levantine Republic, Ankara recognised it after security guarantees, and the Damascus Accords of 184 BFC 
 fixed borders while granting limited Kurdish cantonal autonomy. Between 181 and 175 BFC the Republic absorbed Sunni 
 majority districts of north-west Iraq, and in 174 BFC, with [[French~France]] advisers, folded the Alawite coast into 
-the Republic. The Republic has a mixed, state-led market economy, producing large quantities of water from the solar 
-desalinisation plants of Beqaa State for farming irrigation in the Syrian steppe. It agriculture shifted from rain-fed 
-cereal to high-value irrigated crops with help from swiss multinational [[Bioforge Hivegen]].
+the Republic. 
 
-At the time of its founding there were almost no Jewish communities in the republic, however after the 
+The Republic has a mixed, state-led market economy, producing large quantities of water from the solar 
+desalinisation plants of Beqaa State for farming irrigation in the Syrian steppe. It agriculture shifted from rain-fed 
+cereal to high-value irrigated crops after the government permitted [[Qalamoun Ḥayawiyya]] to be acquired by German 
+company [[Bioforge~Bioforge Hivegen]] in exchange for a continual transfer of crop variants. 
+
+At the time of the Republic's founding there were almost no Jewish communities in the republic, however after the 
 Republic's normalisation of relations with Israel in November 184 BFC several have been founded and some notable Jewish 
 people have grown up in the Republic, including [[Levi Weiss]].`,
         classification: 'Polities/States'
@@ -1979,12 +1985,18 @@ the superconduction theory and with his company Helitae the engineering required
         classification: 'Praxis/Industrial'
     }],
     ['Qalamoun Ḥayawiyya', {
-        content: `Qalamoun Ḥayawiyya is biologics company headquartered next to the university of Kalamoon in Deir 
-Atiyah in the [[Levantine Republic]]. Initially a small research lab, they were nationalised by [[Tariq Al-Hashim]] in 
-176 BFC and given funding to roll out their low cost miltefosine-imidazole booster country wide, which over the next 
-decade eliminated Cutaneous Leishmaniasis from the Republic. They specialise in digital epidemiology and were
-privatised and publically listed in 112 BFC. They successfully developed inhibitors for hemozoin formation and 
-apicoplast DNA replication which were used in the worldwide malaria eradication drive of the 90s and 80s.`,
+        content: `Qalamoun Ḥayawiyya was a vector-biotech company headquartered next to the university of Kalamoon in 
+Deir Atiyah in the [[Levantine Republic]]. Initially a small research lab, they were nationalised by [[Tariq Al-Hashim]] 
+in 176 BFC and given funding to roll out their low cost miltefosine-imidazole booster country wide, which over the next 
+decade eliminated Cutaneous Leishmaniasis from the Republic. They developed a specialisation in ecologics and starting
+from 155 BFC began receiving both private and public funding to run curlex mosquito gene drives across the region when
+west nile virus started becoming more prevalent. Qalamoun Ḥayawiyya were privatised and publicly listed in 132 BFC and
+began focussing on developing digital epidemiology models, these were used to help distribute inhibitors for hemozoin 
+formation and apicoplast DNA replication in the worldwide malaria eradication drive which began in the 110s. They 
+continued to develop environmental biosensing networks, using engineered bacteria as transducers which could be seen by
+distant hyperspectral cameras to monitor gene spread across an ecosystem. After a number of successful field trials in 
+90 BFC [[Bioforge~Bioforge Hivegen]] decided to acquired Qalamoun Ḥayawiyya and were permitted to do so in exchange for 
+contracts for supply of high-value irrigated crop variants to the Republic.`,
         classification: 'Polities/Corporations'
     }],
     ['QuanLan',{
