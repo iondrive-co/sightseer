@@ -1080,8 +1080,9 @@ replaced by [[Greater Zhōngguó]] in 98 BFC. It originated in a military and po
 Siberia, and Mongolia during the fallout from the [[Ten-Hour War]]. It broadened to include tight economic integration, 
 with Russia and Siberia shipping increasingly large quantities of food to China as global warming increased in exchange 
 for machinery, electronics, and rare earth minerals. Although initially suffering economically, through its expanding
-rare earth and mineral wealth China was able to recover and fund large state sponsored migrations of people from North 
-Korea and Myanmar along with large incentives for people having children until it again became an economic superpower.`,
+rare earth and mineral wealth China and industrial robots programs it was able to recover and fund large state sponsored 
+migrations of people from North Korea and Myanmar along with large incentives for people having children until it again 
+became an economic superpower.`,
         classification: 'Polities/Confederations'
     }],
     ['Gran México', {
@@ -1104,10 +1105,12 @@ content: `Greater Zhōngguó is a political entity which was formed between 102 
 [[GPR]] countries (China, North Korea, Russia, Siberia, Mongolia, and Myanmar) with their close trading partners South 
 Africa, Ethiopia, Sudan, Djibouti, Eritrea, Somalia, U.A.E, Oman, South Yemen, and Greater Uzbekistan; as well as an 
 informal agreement with the other non-[[Peacekeeper]] space power blocs on spheres of influence. Initially a mostly 
-economic union, over time it has become more politically unified under the Chinese Tianxia system, and more militarily 
-focussed as the Peacekeepers have grown and in response to external pressures such as [[Bharat]]'s open support of a 
-succession movement in Myanmar. Despite having significantly less industrial capacity than the [[Peacekeepers]] it 
-fields a nearly equivalently size navy.`,
+economic union, many technologies and social practices spread from China to the other members such as state run 
+nurseries for artificial womb children which have received genetic modification for traits such as happiness and loyalty. 
+Over time it has become more politically unified under the Chinese Tianxia system, and more militarily focussed as the 
+Peacekeepers have grown and in response to external pressures such as [[Bharat]]'s open support of a succession movement 
+in Myanmar. Despite having significantly less industrial capacity than the [[Peacekeepers]] it fields a nearly 
+equivalently size navy.`,
         classification: 'Polities/Confederations'
     }],
     ['Havfélög', {
@@ -1509,8 +1512,10 @@ developing out of these changes.`,
         classification: 'Sociocron'
     }],
     ['Kuromaku', {
-        content: `Kuromaku are an east asian based criminal group, originating in Japan, which specialise in grey market tech 
-exports, complex synthetic drugs, and sexbots`,
+        content: `Kuromaku are an east asian based criminal group, originating in Japan, which specialise in grey market 
+tech exports, complex synthetic drugs, and sexbots. Many corporations operating in labour intensive industries in low
+regulation countries use Kuromaku supplied worker productivity boosters such as dermal thermoregulation patches,
+glycemic-tuning implants, and renal ultrafiltration cartridges.`,
         classification: 'Polities/Jurisbunds'
     }],
     ['Levantine Republic', {
