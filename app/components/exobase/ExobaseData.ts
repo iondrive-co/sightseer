@@ -926,7 +926,9 @@ biohybrid brain implants and [[MemAmp]]s. The 50 year period from the 70s to the
 advances increasing the range of treatments that synthetic biology could be applied to, these included synthetic 
 proteins able to self-assemble into hydrogel networks, synthetic cell systems able to lay down extracellular matrices,
 scaffolds, synthetic circuits for fine tuning embryo selection eugenics, programmable orthogonal genetic codes,
-and biocoherence systems such as those pioneered by [[Nexus]].
+and biocoherence systems such as those pioneered by [[Nexus]]. This led to a number of healthspan extension treatments 
+such as Pharmatica's senolytic Renovacel and the partial cellular reprogramming techniques developed by 
+[[Bioforge Hivegen]].
 
 Up until the last decade BFC the most promising approach to extending longevity appeared to be cell repair via nanobots.
 The development of microscale devices such as respirocytes, a 1-micron spherical device that can carry hundreds of times 
@@ -977,29 +979,36 @@ Solar System."`,
     }],
     ['France', {
 content: `France is a country primarily located in Western Europe and is the largest economy in the [[Eurasian Bloc]]. 
+It has overseas regions and territories around the world, the largest area being in North Africa, and has colonies
+on Luna, Mars, and several main belt asteroids. It is part of the [[Eurasian Bloc]] and has a number of trade and 
+peacekeeping arrangements with [[Dominio]] with who it shares a common majority religion (Catholicism) and land borders
+in Africa and South America (French Guiana with Brazil).
 
 Originally know as the French Republic, during the [[Reset of Nations]] it helped fund [[NRF~Tariq Al-Hashim]] forces 
 during the establishment and later expansion of the [[Levantine Republic]]. In the 170s they began funding massive 
-infrastructure projects in North Africa under their Mediterranean Union scheme, requiring recipients to set up special
-joint governance economic zones in exchange. 
-
-In 176 BFC, Tunisia became the first North African nation to enter crisis when its government defaulted on international 
-debt, triggering mass protests and the collapse of democratic institutions. France negotiated a bailout in exchange for 
-creating joint-governance economic zones in Tunis and Sfax. These zones proved remarkably successful, sparking similar 
-deals with Libya (174 BFC), whose fragmented warlord territories were unified under French-backed stabilization.
+infrastructure projects in North Africa under their Mediterranean Union scheme, which was branded as a Marshall Plan
+to rebuild Africa and win over countries that otherwise might join Dominio. In 176 BFC, the Tunisian government 
+defaulted on international debt, triggering austerity measures which lead to mass protests. France negotiated a bailout 
+in exchange for creating joint-governance economic zones in Tunis and Sfax. These zones proved remarkably successful, 
+sparking a similar deal with Libya in 174 BFC.
 
 The Great Maghreb Drought (165-159 BFC) accelerated integration. Mauritania joined in 162 BFC after pastoral collapse 
 and famine. Morocco's 158 BFC referendum passed narrowly (51-49%) despite massive protests in Casablanca and Rabat, 
 where the Istiqlal resistance movement killed over 3000 French personnel before being suppressed. Algeria resisted 
 longest, with pro-integration forces winning elections in 159 BFC but sparking a brutal civil war (159-154 BFC) between 
 the coastal Unionists and interior Independence Brigades until French Foreign Legion intervention ended the conflict. 
-The contentious 155 BFC referendum passed under disputed circumstances.
+The contentious 155 BFC referendum accepting integration into the union passed under disputed circumstances.
 
-In 141 BFC the nationalistic governance of Armand Delacroix incorporated the Mediterranean Union into France. Many 
-opposition leaders were arrested for separatist collaboration and by referendum the national flag was changed from the 
-Tricolore to the Imperial (an eagle perched on a globe on a purple background). 
+In 142 BFC the nationalistic governance of Armand Delacroix was elected on a platform of incorporating the Mediterranean 
+Union into France. This was effectively already happening, but President Delacroix used the nationalisation of the Union 
+as a part of a strategy of accusing opponents of being separatists. Presiding over a period of great economic growth
+driven by [[Fusion Power]] and integration of the union economies, in 137 BFC he won 408 seats in the assembly and was 
+successful in constitutional amendments to remove term limits and rename the French Republic and Union to simply France. 
+During his third term he was impeached after an attempt to replace the Tricolour with the Imperial (an eagle perched on 
+a globe on a purple background) caused country-wide protests.
 
-Along with Japan France was the largest funder of the failed Étoile-Kōkai generation ship mission to [[Epsilon Indi]].`,
+Along with Japan, France was the largest funder of the failed Étoile-Kōkai generation ship mission to [[Epsilon Indi]]
+which launched in 95 BFC.`,
         classification: 'Polities/States'
     }],
     ['Freeholders', {
