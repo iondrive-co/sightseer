@@ -845,7 +845,12 @@ a better explanation for the data.
 Another field of debate deals with the fact that life arising in two places independently implies the galaxy is teeming 
 with life, especially in light of new evidence suggesting life in the nearby [[Epsilon Indi]] system. Philosopher Hyun 
 Soo Park has popularised a Fermi paradox explanation for the continued alien silence, positing that a balance of forces 
-exists which has so far prevented us from being contacted or attacked until the sender broke the balance.
+exists which has so far prevented us from being contacted or attacked until the sender broke the balance. The paradox
+had become less pressing prior to the event due to a Drake Equation parameter which had been continually reduced as it 
+became apparent that our Sun was at least an order of magnitude less magnetically active than other stars of its class 
+due to the synchronisation of the inner planets. In a follow up paper Park speculated that the black hole flyby which 
+initially synchronized those orbits during the formation of our system could have been controlled by an agent which 
+seeded the conditions for life in multiple locations and kept them hidden from each other.
 
 Ultimately, whatever the senders interest in sending a probe to another system all we know with any certainty is that 
 based on the exit trajectory the next destination of the probe is likely to be the Sirius binary system. 

@@ -22,10 +22,12 @@ export default function Meta() {
                         writing, opinions, projects, and links to the work of others are my contribution to that.
                     </p>
                     <p className="mb-4">The Exobase especially is a place for me to scout ahead with some `lol what
-                        happens if` ideas about the future and see if they work. Someone who never writes will struggle
-                        to have fully formed ideas about anything nontrivial. I have noticed a tendency in a lot of
-                        the sci-fi I read and watch where the medium term future gets hand-waved away as a dystopia or
-                        simplified to some Unified Earth, when the reality is likely to be a lot more interesting.
+                        happens if` ideas about the future and see if they work. I noticed a tendency in a lot of
+                        the sci-fi I consume for the medium term future to be hand-waved away as a dystopia or
+                        simplified to some Unified Earth, and I wanted to see if I could write a different style of
+                        future. Writing generally helps me practice conveying concepts and vibes clearly, concisely, and
+                        not boring-ly (LLMs seem to do the opposite!), whereas someone who never writes might struggle
+                        to have fully formed ideas about anything as nontrivial and interesting as the future.
                     </p>
                     <h2 className="text-2xl font-semibold mb-4">Colophon</h2>
                     <p className="mb-4">This site lives on the edge — Cloudflare Pages - which is free as in beer for
