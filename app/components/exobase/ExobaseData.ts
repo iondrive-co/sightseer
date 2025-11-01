@@ -786,7 +786,7 @@ density solar desalinisation farming areas.`,
         content:
 `The First Contact Event refers to the discovery and subsequent observations of an extraterrestrial spacecraft, likely 
 a von Neumann probe, in the Kuiper Belt. The event ended with an attempt to rendezvous with the spacecraft, which then 
-changed trajectory and subsequently left the range of all radar satellites. Although the spacecraft is presumed to have
+changed trajectory and subsequently exited outer-system radarnet coverage. Although the spacecraft is presumed to have
 left the solar system and no contact has been made since, the event has had significant and lasting effects on society.
 
 # Events 
@@ -802,7 +802,7 @@ change as a result of the active radar.
 The imaging revealed a roughly 5m long spherical object, emitting gamma rays which were later determined to be the 
 result of electron-anti-election collisions in an [[Antimatter Engine]]. Although the cause of the gamma ray bursts was 
 not known at the time, their existence and the trajectory change, which by this time had been observed by many 
-independent sources, lead to a system-wide crisis as both [[FreeHab~Independent Habitats]] and [[GZ~Greater Zhōngguó]] 
+independent sources, led to a system-wide crisis as both [[FreeHab~Independent Habitats]] and [[GZ~Greater Zhōngguó]] 
 publicly accused the [[Peacekeepers]] of fielding a new first strike weapon system. 
 
 Loitering missile swarms were orbited by both GZ and the [[United States]], and along with [[Bharat]] and the Peacekeepers 
@@ -810,21 +810,21 @@ moved fleets into high orbit. The United States, Bharat, [[France]], and the GZ 
 terrestrial forces to DEFCON 2. Freehab had several autonomous survey ships on route to Quaoar which was within a few AU 
 and on similar trajectories to the object when it was detected, and they announced they were moving them to intercept. 
 Over the next several days the lack of further trajectory changes or new objects helped to de-escalate tensions, and 
-the United States and GZ announced they were initiating their respective first contact protocols.
+the United States and GZ announced they were initiating their respective First-Contact protocols.
 
-Over the next week the nearest Freehab ship had moved close enough to use infrared thermography from its survey 
+Over the next week the nearest Freehab ship had moved close enough for infrared thermography from its survey 
 equipment to determine that the object was likely assembling something inside itself. This is now generally accepted to 
 have been the early stages of a second probe, manufactured from material gathered further out in our solar system. Once 
-the survey vessel had closed the distance to 50 million kilometers, the object accelerated into an escape velocity. 
-The fact that it was able to do this without gravitational assistance demonstrated the immense power of the tiny 
-internal engine, and was critical in dispelling doubt about the extra-terrestrial origin of the object. Radar tracking 
-of the object was lost shortly after, and to date there have been no further contact events.
+the survey vessel had closed the distance to 50 million kilometers, the object accelerated into a hyperbolic escape 
+trajectory. The fact that it was able to do this without gravitational assistance demonstrated the immense power of the 
+tiny internal engine, and was critical in dispelling doubt about the extra-terrestrial origin of the object. Radar 
+tracking of the object was lost shortly after, and to date there have been no further contact events.
 
 # Attribution
 
 It is unlikely that a civilisation at less than a Kardashev 1 level would be able to build a spacecraft that was not
 only powered by antimatter, but also either carrying enough antimatter for interstellar travel or able to generate more
-on route. The fact that the probe was gathering resources from the outer solar system and left once approached might
+on route. The fact that the probe was gathering resources from the outer-system and left once approached might
 indicate that its designers were not expecting life in this solar system. Since any Kardashev 1+ civilisation should be 
 able to remotely observe life in systems within a few tens of light years of itself, one explanation for this is that
 the probe originated further away where the Earth either couldn't be observed, or couldn't be observed with traces of 
@@ -836,7 +836,7 @@ The leading alternative explanation is that some or all of the destinations of t
 advance when it was sent, this explanation usually assumes that the senders were likely indifferent to us and the probe 
 only adjusted course when it was near enough to be threatened. The assumed motivation in this case is usually that the
 probe was transiting somewhere, and this is supported by the small size of the probe making it unsuitable for optical 
-and most other known monitoring, and also that its course suggests that it was doing a flyby of the outer solar system 
+and most other known monitoring, and also that its course suggests that it was doing a flyby of the outer-system 
 rather than a thorough exploration before we intervened. It is even possible that it could have been carrying biological
 material to seed life somewhere. Such life was initially theorised to be radiotrophic, able to withstand the intense 
 gamma radiation in the small craft, but [[Hannah Weiss-Martin]]'s theory of computonium smart matter is now accepted as
@@ -854,7 +854,7 @@ based on the exit trajectory the next destination of the probe is likely to be t
 
 Subsequently declassified files show that both the Peacekeepers and GZ immediately launched large scale research and 
 development projects based on data passively gathered from the object. Freehab also launched a smaller scale overt 
-effort, focussed mostly on the engineering of the replicating probe rather than the harder issues of antimatter 
+effort, focused mostly on the engineering of the replicating probe rather than the harder issues of antimatter 
 containment and propulsion that occupied the larger polities. 
 
 These programs were likely a large contributor to the successful engineering of the first antimatter engine prototypes 
@@ -875,33 +875,33 @@ in great detail by some new principle of interferometry or lensing.
 There was widespread panic at the time of discovery until the ship was confirmed to have left, with several terrestrial 
 cities needing to deploy the military to control looting and keep essential services running. Many political parties 
 used the event to advance, and in some cases pass, legislation on matters such as the ethical treatment of animals, 
-religious tolerance, promoting atheism, better direct communication systems between the larger powers, higher defence 
-spending, better sensor networks in the outer solar system, and a renewed focus on off Earth settlement. The majority 
+religious tolerance, promoting atheism, better direct communication systems between the larger powers, higher defense 
+spending, better sensornets in the outer-system, and a renewed focus on off Earth settlement. The majority 
 of people in several large scale surveys at the time reported significantly weaker national political affiliations, and 
-were more favourable to legislation on larger scale issues such as global defence and large scientific projects.
+were more favourable to legislation on larger scale issues such as global defense and large scientific projects.
  
-The subsequent years were a period of economic prosperity, combined with increasing cultural insecurity and nihilism as 
-the psychological impact of the continued silence and assumed indifference of vastly superior lifeforms dragged on. 
-There has been a marked increase in violent crimes but a decrease in widespread conflicts, which the sociologist Alexei 
-Rouz attributes to drivers of inadequacy and existential dread which are opposed by the chilling effect of potentially 
-being monitored by some incomprehensible technology. Several new inter-faction political entities such as the 
-[[Outer Trading League]] were formed in the subsequent decade, and there was an increase in migration from Earth to 
-the Lunar and Martian colonies for the first time since the [[Retrograde Diaspora]]. Several of the centrally managed 
-international police and aid organisations which had been partially or completely abandoned in the decades after the 
-[[Retrograde Diaspora]] have begun to be reinstated.
+The subsequent years were a period of economic prosperity, combined with a millenarian vibe and increasing cultural 
+insecurity and nihilism as the psychological impact of the continued silence and assumed indifference of vastly superior 
+lifeforms dragged on. There has been a marked increase in violent crimes but a decrease in widespread conflicts, which 
+the sociologist Alexei Rouz attributes to drivers of inadequacy and existential dread which are opposed by the chilling 
+effect of potentially being monitored by some incomprehensible technology. Several new inter-faction political entities 
+such as the [[Outer Trading League]] were formed in the subsequent decade, and there was an increase in migration from 
+Earth to the Lunar and Martian colonies for the first time since the [[Retrograde Diaspora]]. Several of the centrally 
+managed international police and aid organisations which had been partially or completely abandoned in the decades after 
+the [[Retrograde Diaspora]] have begun to be reinstated.
 
 There is evidence of a differing generational reactions to the event [1]. Older generations are significantly more 
 likely to have turned away from technological progress and to engage with conspiracy theories and uncertainty based 
 mythoi, and these still pervade much of the art and philosophical work created since. However younger generations now 
 score higher on markers for curiosity, drive, and cognitive flexibility than any generation before them, and lower on 
 stress markers when exposed to ambiguity and uncertainty. The consensus among sociologists, as summarized by Mori, 
-Rouz & Teo (16 AF), is that "the current and ongoing psychological impacts on humanity have and will be so profound that 
+Rouz & Teo (16 AFC), is that "the current and ongoing psychological impacts on humanity have and will be so profound that 
 future generations may consider the event the most significant change in human society since the agricultural 
 revolution". 
 
 An informal system of referring to the year of contact as 0 AFC (After First Contact) and prior years as BFC 
-(Before First Contact) developed in popular culture, and over the subsequent decades has became so commonplace that it 
-has mostly replaced the Gregorian calender system in daily life system-wide.
+(Before First Contact) developed in popular culture, and over the subsequent decades has become so commonplace that it 
+has mostly replaced the Gregorian calendar system in daily life system-wide.
 
 1. [[Kinships of the Astroindigène]]`,
         classification: 'Sociocron'
@@ -1345,7 +1345,7 @@ a loose association of traders and colonies aiming to expand their commercial in
 [[Retrograde Diaspora]] Freehab was strengthened by politician Marcus Okafor and contract lawyer Anna Reyes as means of 
 resisting assimilation back into Earth polities. It has a sizable economy and a significant 
 [[naval presence~Naval Rated Ship]] in many parts of the solar system, and exercises proxy power over most trade in the 
-outer solar system via its control of the [[Outer Trading League]].
+outer-system via its control of the [[Outer Trading League]].
 
 Freehab was officially incorporated in 46 BFC in large part due to the efforts of two individuals. Marcus Okafor 
 (29 December 91 BFC - present) was originally an operator of vacuum welder drones who rose to prominence as a mining 
@@ -1430,11 +1430,11 @@ almost exclusively via the Ad-hoc On-Demand Hyperplane Vector (AOHV) protocol du
 are common in most IM networks.
 
 In the BFC 70s the ability to affordably [[fab~Fabricator]] basic [[Mote]] InterMesh relays from home devices caused a 
-several order of magnitude increase in the connection density in many urban centers. In the subsequent decades the 
-falling cost and increasing capabilities of motes made large amounts of computing power available across large 
-swathes of Earth as well as many of the colonies. As a result [[IAs~Infocom Agent]] start to be able to perform tasks 
-such as run complex simulations, train models to solve issues, and provide AR and other complex entertainment from most 
-locations on Earth.
+several order of magnitude increase in the connection density in many urban centers. Neuromorphic computing approaches 
+to integrating analogue signals were used to increase energy efficiency. In the subsequent decades the falling cost and 
+increasing capabilities of motes made large amounts of computing power available across large swathes of Earth as well 
+as many of the colonies. As a result [[IAs~Infocom Agent]] start to be able to perform tasks such as run complex 
+simulations, train models to solve issues, and provide AR and other complex entertainment from most locations on Earth. 
 
 The InterMesh is the default network for the super-majority of communicating devices, and is the default communication
 medium for most of humanity. One of its most popular functions is social networking, mostly via neural augmentations,

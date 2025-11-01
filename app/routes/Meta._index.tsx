@@ -18,18 +18,18 @@ export default function Meta() {
                     <h2 className="text-2xl font-semibold mb-4">About</h2>
                     <p className="mb-4">The world wide web of the late 90s and early 00s was fun because there was less
                         structure. SEO, recommendation systems, and LLMs are designed to give you the minimal viable
-                        content, but sometimes its good to have a bit of roughage, and this collection of creative
+                        content, but sometimes its good to have a bit of roughage. This collection of creative
                         writing, opinions, projects, and links to the work of others are my contribution to that.
                     </p>
                     <p className="mb-4">The Exobase especially is a place for me to scout ahead with some `lol what
                         happens if` ideas about the future and see if they work. Someone who never writes will struggle
-                        to have fully formed ideas about anything nontrivial, and in a lot of sci-fi the medium term
-                        future gets hand-waved away as a dystopia or simplified to some Unified Earth, when the reality
-                        is likely to be a lot more interesting.
+                        to have fully formed ideas about anything nontrivial. I have noticed a tendency in a lot of
+                        the sci-fi I read and watch where the medium term future gets hand-waved away as a dystopia or
+                        simplified to some Unified Earth, when the reality is likely to be a lot more interesting.
                     </p>
                     <h2 className="text-2xl font-semibold mb-4">Colophon</h2>
                     <p className="mb-4">This site lives on the edge — Cloudflare Pages - which is free as in beer for
-                        me, and means faster response times for you, regardless of where you are in the world. This site
+                        me, and means faster response times for you regardless of where you are in the world. This site
                         gets a 93/100 rating on PageSpeed insights, with most of the delay coming from useful cloudflare
                         features like obfuscating my email address for automated scanners.
                     </p>
