@@ -532,9 +532,9 @@ content: `Dominio is a federation of theocratic West African and South American 
 alliance to more efficiently mine seabed resources in the South Atlantic and eventually evolving into a more tightly 
 integrated federation of military juntas in 181 BFC in the aftermath of the [[Khan Solar Storm]]. Its primary members 
 are Ufalme wa Nigeria, Ndongo, Brazil, Chile, Columbia, and Peru, as well as free trade zones in with the [[RDP]] and 
-the [[Argentinian Mancomunidad]]. Its significant trade partners are [[Gran México]], the [[Mazatlán Zona Franca]], the 
-Philippines, and the big 4 non-aligned African economies (Uganda, Democratic Republic of the Congo, Tanzania, and 
-Kenya).
+the [[Argentinian Mancomunidad]]. Its significant trade partners are [[Gran México]], the [[Mazatlán Zona Franca]], 
+[[France]], the Philippines, and the big 4 non-aligned African economies (Uganda, Democratic Republic of the Congo, 
+Tanzania, and Kenya).
 
 The majority religion of Dominio is new Roman Catholic, and senior junta members are drawn from the clergy and follow 
 the new Roman Catholic position of rule by their own cardinals rather than taking direction from the Vatican. Despite 
@@ -1514,13 +1514,19 @@ snapshots of previous eras on Earth and as cross-pollinated fruits developing th
 
 The third model covers the centralisation, society wide advancement, and moral universalism of the Retrograde Diaspora 
 period and the later pushback as an outward movement of older people brought back some of the laissez-faire spirit of 
-the Wave generation. The later revisions of KOTA update the model with post First Contact societal changes. The first 
-revision deals with the widespread resurgence of a humanity first ethos and how this led first to inter-colony 
-co-operation but ultimately regressed to things like [[Martian-nationalism~Nanocat Fury]]. The second revision covers 
-the differing generational reactions to the first contact event, especially contrasting the more passive and 
-virtual-first [[meshpolitian~InterMesh]] existence of the Diaspora period with the high ambition and cognitive 
-flexibility markers present in today's younger generations, and how new cooperation norms and organizations are 
-developing out of these changes.`,
+the Wave generation. A significant amount of the model deals with recently recognised psychological conditions that
+developed off Earth, such as the Gravity Dysphoria of those feeling they were born in the wrong gravity level for their
+body, and how those were amplified by the media to suit the current zeitgeist. Social influence on individual behaviour
+continues to be a focus of this model which includes large amounts of data on speech patterns and accents, especially
+focussing on how the dialects of different colonies began to flatten during the merging of the Retrograde Diaspora.
+
+The later revisions of KOTA update the third model with post First Contact societal changes. The first revision deals 
+with the widespread resurgence of a humanity first ethos and how this led first to inter-colony co-operation but 
+ultimately regressed to things like [[Martian-nationalism~Nanocat Fury]]. The second revision covers the differing 
+generational reactions to the first contact event, especially contrasting the more passive and virtual-first 
+[[meshpolitian~InterMesh]] existence of the Diaspora period with the high ambition and cognitive flexibility markers 
+present in today's younger generations, and how new cooperation norms and organizations are developing out of these 
+changes.`,
         classification: 'Sociocron'
     }],
     ['Kuromaku', {

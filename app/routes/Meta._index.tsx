@@ -21,11 +21,11 @@ export default function Meta() {
                         content, but sometimes its good to have a bit of roughage, and this collection of creative
                         writing, opinions, projects, and links to the work of others are my contribution to that.
                     </p>
-                    <p className="mb-4">The Exobase especially is a place for me to push some lol what happens if ideas
-                        about the future and see if they work. Someone who never writes will stuggle to have a fully
-                        formed idea about anything nontrivial, and the future is so nontrivial that in a lot of sci-fi
-                        it gets handwaved away as a dystopia or simplified to some Unified Earth, when the reality is
-                        likely to be a lot more interesting.
+                    <p className="mb-4">The Exobase especially is a place for me to scout ahead with some `lol what
+                        happens if` ideas about the future and see if they work. Someone who never writes will struggle
+                        to have fully formed ideas about anything nontrivial, and in a lot of sci-fi the medium term
+                        future gets hand-waved away as a dystopia or simplified to some Unified Earth, when the reality
+                        is likely to be a lot more interesting.
                     </p>
                     <h2 className="text-2xl font-semibold mb-4">Colophon</h2>
                     <p className="mb-4">This site lives on the edge — Cloudflare Pages - which is free as in beer for
@@ -35,7 +35,7 @@ export default function Meta() {
                     </p>
                     <p className="mb-4">
                         This is actually a static site, in that it loads everything from the server once, as even the
-                        entire exobase is just a few hundred KB of text. This is committed into github so I have a
+                        entire Exobase is just a few hundred KB of text. This is committed into github so I have a
                         versioned history of everything I write, and automatically deployed from there via wrangler.
                     </p>
                     <p className="mb-4">
