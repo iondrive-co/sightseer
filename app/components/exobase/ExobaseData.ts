@@ -21,13 +21,20 @@ Javier Florentin and [[Hannah Weiss-Martin]] and is also known for his [[Marsist
 Alejandro was born in Cedars-Sinai hospital in the [[United States]] and grew up in La Cañada, spending summers when
 he was older in the [[RDP]] or at Acrux-2 in the [[Argentinian Mancomunidad]]. He was fluent in English, Spanish, and 
 Mandarin from a young age, studied microgravity construction and design with a minor in robotics at Caltech, and took a 
-job with Sinochem in [[Hellas Planitia]] designing enhancements to their Mars-orbital transfer stations for their nearby 
-fertilizer refineries. He dated local schoolteacher Camilla Liu and through her became interesting in better educating 
-Earth students to fit in to the Martian environment. He designed familiars, small animal robots to house 
-[[Infocom Agents]] which would monitor and protect children when they were away from their parents and help them adjust
-to the conditions and adapt a similar mentality to those born on Mars. During this period he also began designing and
-publishing designs for ambitious projects such as establishing o'neill cylinders inside comets, which brought him to
-the attention of the Jun Wang who was on the [[Greater Zhōngguó]] committee of lunar development.`,
+job with Sinochem in [[Hellas Planitia]] designing enhancements for their orbital fertilizer transfer stations. He dated 
+local schoolteacher Camilla Liu and through her became interesting in better educating Earth students to fit in to the 
+Martian environment. He designed familiars, small animal robots to house [[Infocom Agents]] which would monitor and 
+protect children when they were away from their parents and help them adjust to the local conditions and adapt a similar 
+mentality to those born on Mars. 
+
+During this period he also began designing and publishing designs for ambitious projects such as establishing o'neill 
+cylinders inside comets. These brought him to the attention of the Alvaro García, managing director of the 
+[[Eurasian Bloc]] consortium managing cislunar habitat construction. He was hired to work on a digital twin for a 
+proposed metro class o'neill cylinder, the first for the Bloc. Rather than copying the [[United States]] and 
+[[Greater Zhōngguó]] designs, he replaced their dual-shell design with a segmented triple-hull structure, modular spin 
+sectors, and integrated photovoltaic trusses which simplified maintenance and shielding. What was initially considered a 
+moonshot side project actually became feasible in the budget of 40 BFC which allocated additional funding to 
+settlement options.`,
         classification: 'Yūmeijin'
     }],
     ['Aljanah Lunar Resort', {
