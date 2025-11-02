@@ -15,7 +15,8 @@ pronounced as 1-2-kwon.`,
     }],
     ['Alejandro Florentin', {
 content: `Alejandro Florentin (70 BFC -) is best known as the lead architect of [[Island One]]. He is the son of 
-Javier Florentin and [[Hannah Weiss-Martin]] and is also known for his [[Marsist~Nanocat Fury]] advocacy.`,
+Javier Florentin and [[Hannah Weiss-Martin]] and is also known for his [[Marsist~Nanocat Fury]] advocacy and his
+[[pedagogical robotics~Familiar]] work on Mars.`,
         classification: 'Yūmeijin'
     }],
     ['Aljanah Lunar Resort', {
@@ -624,8 +625,10 @@ identity and belonging.
 Ellulism's practices are decentralised and vary from region to region and adapt to the local language and customs. They
 generally praise plain speaking as opposed to the more intellectual language of synths and "elites" such as those 
 practicing Deus Machina, which is poorly regarded due to its extensive interaction with synths and its obsession with
-data, which Ellulism regards as meaningless. Ellulists are often involved in anti-synth protests, such as those after
-the [[Haidian Takeoff Crisis]].
+data, which Ellulism regards as meaningless. Ellulism was predated by and largely subsumed a worldwide low-synth trend 
+centered around the rejection of excessive use of early LLMs due to their erosion of discernment and hallowing out of 
+human judgment, and throughout their history have often been involved in anti-synth and pro direct-knowledge protests 
+such as those after the [[Haidian Takeoff Crisis]].
 
 In his later years Mourad Laboure distanced himself from Ellulism, and shortly before his death in 121 BFC he converted 
 to Sufism. His marabout shrine contains the inscription:
@@ -772,6 +775,13 @@ networks such as [[Phaethon~Argentinian Mancomunidad]] tuned for detecting unkno
 off Earth, and [[Deus Machina]] claims that the dispersal of humanity while technology such as fabricators are
 unsupervised by [[synth~Synthetic Intelligence]] is a great filter explanation and the largest threat to humanity.`,
         classification: 'Praxis/Industrial'
+    }],
+    ['Familiar', {
+        content: `A familiar is a non-humanoid [[Instance]] embodying an [[Infocom Agent]]. Initially developed as
+children's toys, as IAs became more useful and widespread they have become more commonly used in many locations. The
+term "familiar" was coined by [[Alejandro Florentin]] who worked on models for life coaching and protecting Earth 
+students moving to Mars.`,
+        classification: 'Infomatics/Synths'
     }],
     ['Fatimid Trade Caliphate', {
         content:
@@ -1329,10 +1339,11 @@ filled the entire basin and became officially known as Hellas Planitia.`,
 `An Infocom Agent, sometimes known as an IA or a PIA (Personal Infocom Agent), is a [[Synthetic Intelligence]] that 
 specialises in personal support services such as data security and filtering, health, education, situational awareness, 
 and predictive modelling of user choices. Industrial models will also often include predictive actuation for things such 
-as exoskeletal control and hazard avoidance. Most IAs in use are sold and maintained by [[Amazon]], [[Sinogroup]], and 
-[[Microsynth]], although many smaller companies sell specialised plugins such as [[Pharmatica Group]] 
-(health monitoring), [[MetaFox]] (entertainment recommendation), and [[X Group]] (auto-piloting); with the managing IA 
-consulting these expert systems when their internal model is insufficient.
+as exoskeletal control and hazard avoidance. IAs which embody as an [[Instance]] are commonly known as 
+[[familiars~Familiar]]. Most IAs in use are sold and maintained by [[Amazon]], [[Sinogroup]], and [[Microsynth]], 
+although many smaller companies sell specialised plugins such as [[Pharmatica Group]] (health monitoring), [[MetaFox]] 
+(entertainment recommendation), and [[X Group]] (auto-piloting); with the managing IA consulting these expert systems 
+when their internal model is insufficient.
 
 As most IAs are constantly connected to the [[InterMesh]] (or other services like [[QuanLan]] or the [[Exonet]]), have
 highly valuable personal data, and are expensive for a user to run, they are often subject to kidnap or reverse 
@@ -1415,9 +1426,10 @@ these range in size from humanoid to a full [[Naval Rated Ship]] and are categor
 labor, or companion. In cases where a synth takes temporary control of intelligence embedded machine, such as a larger 
 [[Naval Auxiliary]] drone with sufficient compute, it is often referred to as an instance drone. The majority of 
 instances are non-humanoid, with humanoid models being used for specialised roles such as childcare, bodyguard, or
-companion and with their sleep period for updating model weights extended to a human 8 hours. Especially since the 
-[[Retrograde Diaspora]] instances perform the majority of off-earth labour and piloting duties, as well as being used
-for recreational activities and [[copies~Copy]].`,
+companion and with their sleep period for updating model weights extended to a human 8 hours. Non-human instances 
+embodying an [[IA~Infocom Agent]] are known as [[familiars~Familiar]]. Especially since the [[Retrograde Diaspora]] 
+instances perform the majority of off-earth labour and piloting duties, as well as being used for recreational 
+activities and [[copies~Copy]].`,
         classification: 'Infomatics/Synths'
     }],
     ['InterMesh', {
