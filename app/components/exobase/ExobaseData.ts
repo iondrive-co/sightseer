@@ -16,7 +16,18 @@ pronounced as 1-2-kwon.`,
     ['Alejandro Florentin', {
 content: `Alejandro Florentin (70 BFC -) is best known as the lead architect of [[Island One]]. He is the son of 
 Javier Florentin and [[Hannah Weiss-Martin]] and is also known for his [[Marsist~Nanocat Fury]] advocacy and his
-[[pedagogical robotics~Familiar]] work on Mars.`,
+[[pedagogical robotics~Familiar]] work on Mars.
+
+Alejandro was born in Cedars-Sinai hospital in the [[United States]] and grew up in La Cañada, spending summers when
+he was older in the [[RDP]] or at Acrux-2 in the [[Argentinian Mancomunidad]]. He was fluent in English, Spanish, and 
+Mandarin from a young age, studied microgravity construction and design with a minor in robotics at Caltech, and took a 
+job with Sinochem in [[Hellas Planitia]] designing enhancements to their Mars-orbital transfer stations for their nearby 
+fertilizer refineries. He dated local schoolteacher Camilla Liu and through her became interesting in better educating 
+Earth students to fit in to the Martian environment. He designed familiars, small animal robots to house 
+[[Infocom Agents]] which would monitor and protect children when they were away from their parents and help them adjust
+to the conditions and adapt a similar mentality to those born on Mars. During this period he also began designing and
+publishing designs for ambitious projects such as establishing o'neill cylinders inside comets, which brought him to
+the attention of the Jun Wang who was on the [[Greater Zhōngguó]] committee of lunar development.`,
         classification: 'Yūmeijin'
     }],
     ['Aljanah Lunar Resort', {
@@ -209,11 +220,12 @@ there.`,
         content: `Augustine Okafor (20th January 42 BFC – present) is a politician and the inventor of the first 
 [[Plasmorph]] containment device. His parents are [[Marcus Okafor, Zsófia Ardour, and Cecile Riddle~Independent Habitats]].
 
-Augustine was a child prodigy who developed an entirely new branch of superconduction theory while studying for degrees 
-in physics and chemistry at age 17. He founded startup Helitae to commercialise small scale plasma containment, Helitae
-developed the first prototypes of a Plasmorph device but was unable to raise enough funding for the power systems and
-was later bought out by the [[X Group]]. In 22 BFC Augustine met void ecologist David Regis, and soon afterwards 
-they tried to have a child together via artificial womb, but the pregnancy was unsuccessful. 
+Augustine was born on Ganymede and grew up in several of the [[FreeHab~Independent Habitats]] controlled Trojan asteroid 
+water mining stations. He was a child prodigy who developed an entirely new branch of superconduction theory while 
+studying for degrees in physics and chemistry at age 17. He founded startup Helitae to commercialise small scale plasma 
+containment, Helitae developed the first prototypes of a Plasmorph device but was unable to raise enough funding for the 
+power systems and was later bought out by the [[X Group]]. In 22 BFC Augustine met void ecologist David Regis, and soon 
+afterwards they tried to have a child together via artificial womb, but the pregnancy was unsuccessful. 
 
 When he was 22, during a routine prostate cancer surgery, a [[Dominio]] robo-daktari malfunction left Augustine unable 
 to have more children, and he subsequently developed a drug addiction. During this time he developed an interest in 
@@ -1296,8 +1308,15 @@ which use conscious entanglement to probe mind-matter coupling, as well as co-fo
 company [[Nexus]].
 
 She completed her thesis on quantum cognition at Caltech at age 27, and has since worked there in some capacity for her 
-entire life. At 153 years old she is currently the worlds oldest working academic researcher. Hannah is the daughter of 
-scientists [[Levi Weiss]] and Talia Martin. She has two children with her Nexus co-founder Javier Florentin, Isla and 
+entire life. Her early work interpreted new observer-integrated experiments showing that human choices in quantum 
+measurements display minute statistical biases that preserve temporal consistency between past and future events. Her 
+best-known proposal, the “only possible decision” theory, departed from superdeterministic and retrocausal models by 
+suggesting that these biases steer measurement choices toward outcomes that maintain consistency across quantum states.
+Several popular-science treatments have extended this into a broader claim that all actions must preserve causal 
+coherence across a globally consistent timeline, Hannah has criticized this as being unfalsifiable. 
+
+At 153 years old she is currently the worlds oldest working academic researcher. Hannah is the daughter of scientists 
+[[Levi Weiss]] and Talia Martin. She has two children with her Nexus co-founder Javier Florentin, Isla and 
 [[Alejandro~Alejandro Florentin]], and has been married to folk musician Zoe Sage since 59 BFC.`,
         classification: 'Yūmeijin'
     }],
