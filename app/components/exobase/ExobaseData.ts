@@ -14,7 +14,7 @@ pronounced as 1-2-kwon.`,
         classification: 'Polities/Corporations'
     }],
     ['Alejandro Florentin', {
-content: `Alejandro Florentin (70 BFC -) is best known as the lead architect of [[Island One]]. He is the son of 
+content: `Alejandro Florentin (80 BFC -) is best known as the lead architect of Iceland One. He is the son of 
 Javier Florentin and [[Hannah Weiss-Martin]] and is also known for his [[Marsist~Nanocat Fury]] advocacy and his
 [[pedagogical robotics~Familiar]] work on Mars.
 
@@ -27,14 +27,27 @@ Martian environment. He designed familiars, small animal robots to house [[Infoc
 protect children when they were away from their parents and help them adjust to the local conditions and adapt a similar 
 mentality to those born on Mars. 
 
-During this period he also began designing and publishing designs for ambitious projects such as establishing o'neill 
-cylinders inside comets. These brought him to the attention of the Alvaro García, managing director of the 
-[[Eurasian Bloc]] consortium managing cislunar habitat construction. He was hired to work on a digital twin for a 
-proposed metro class o'neill cylinder, the first for the Bloc. Rather than copying the [[United States]] and 
-[[Greater Zhōngguó]] designs, he replaced their dual-shell design with a segmented triple-hull structure, modular spin 
-sectors, and integrated photovoltaic trusses which simplified maintenance and shielding. What was initially considered a 
-moonshot side project actually became feasible in the budget of 40 BFC which allocated additional funding to 
-settlement options.`,
+During this period he also began designing and publishing designs for ambitious projects such as wrapping dormant comets 
+in order to build small habitats inside them. These brought him to the attention of the Alvaro García, managing 
+director of the [[Eurasian Bloc]] consortium managing cislunar habitat construction. He was hired to work on a digital 
+twin for a proposed metro sized o'neill cylinder, the first for the Bloc. Rather than copying the [[United States]] and 
+[[Greater Zhōngguó]] designs, he used his fathers work on cryotolerant doped mycelium to design a more lightweight 
+structure which used a bio-composite grown in ice-water slurries as self-assembling non-load bearing structural fill 
+between thin membranes. This would allow the habitat to grow itself from in-situ ice and carbon feedstock, and the doped 
+mycelium's natural radiation absorption removed the need for separate heavy shielding layers. With his changes, what was 
+initially considered a moonshot side project actually became feasible when the ESA budget of 51 BFC allocated additional 
+funding to off world settlement.
+
+The Axiom and Wu Weiren cylinders had been constructed at EML2 in order to reuse the US and GPRs respective 
+[[Auburn Ring]] component construction facilities. Without access to similar facilities and with a higher requirement 
+for water during construction it was decided to locate Iceland One at EML5. Due to its debris field from numerous 
+relocated asteroids such as [[Forge Palace]] this had been considered unsuitable by the US and GPR. However since then a 
+number of recycling factories had been built there and drones had dragged most of the larger debris to them, and the 
+mycelium networks self-healing properties would reduce maintenance needs for dealing with punctures from smaller debris.
+Florentin was given the position of lead project architect, and after an 8 month vendor selection and review process the
+project commenced in 50 BFC and was completed 12 years later, with the first settlers relocating there in 37 BFC. During
+the cislunar construction spree in the later [[Retrograde Diaspora]] most of the larger habitats copied the design of
+Iceland One.`,
         classification: 'Yūmeijin'
     }],
     ['Aljanah Lunar Resort', {
@@ -398,7 +411,7 @@ initiative recruiting (and in some cases blackmailing) specialists to work long 
 expansion. In March 148 this network allowed them to leapfrog the GPR in establishing a base on Ceres, the largest 
 asteroid which had significant water reserves. After adjusting their plans the GPR was able to set up an adjacent base 
 in December 148. The 140s also saw asteroid mining tech start to affect cislunar space as apollo asteroids such as 
-[[Forge Palace]] began to be captured.
+[[Forge Palaceorge Palace]] began to be captured.
 
 The first reported act of space piracy occurred on 12 April, 143 BFC, when an automated Lilium Solid Power shuttle 
 carrying many thousands of [[Amazon]] industrial robots to the outer asteroid belt disappeared near Cybele. At this time
@@ -1315,12 +1328,18 @@ which use conscious entanglement to probe mind-matter coupling, as well as co-fo
 company [[Nexus]].
 
 She completed her thesis on quantum cognition at Caltech at age 27, and has since worked there in some capacity for her 
-entire life. Her early work interpreted new observer-integrated experiments showing that human choices in quantum 
-measurements display minute statistical biases that preserve temporal consistency between past and future events. Her 
-best-known proposal, the “only possible decision” theory, departed from superdeterministic and retrocausal models by 
-suggesting that these biases steer measurement choices toward outcomes that maintain consistency across quantum states.
-Several popular-science treatments have extended this into a broader claim that all actions must preserve causal 
-coherence across a globally consistent timeline, Hannah has criticized this as being unfalsifiable. 
+entire life. Her viral interference experiments in 108 BFC demonstrated sustained quantum coherence in biological 
+nano-structures. She worked on neural coherence problems for many years, and founded Nexus in 77 BFC to try and find
+practical applications. After the failure and acquisition of Nexus she began work on interpreting new observer 
+integrated experiments showing that human choices in quantum measurements display minute statistical biases that 
+preserve temporal consistency between past and future events. Her best-known proposal from this period, the “only 
+possible decision” theory, departed from superdeterministic and retrocausal models by suggesting that these biases steer 
+measurement choices toward outcomes that maintain consistency across quantum states. Several popular-science treatments 
+have extended this into a broader claim that all actions must preserve causal coherence across a globally consistent 
+timeline, Hannah has criticized this as being unfalsifiable. Her later work focussed on ways to use coherence to 
+integrate computonium smart matter into the brain, [[Forever Fever]] has renewed interest in [[Neurogenesis]] as a brain 
+replacement technique and she has featured in a number of interviews about it. Her self replicating smart matter theory 
+of the [[First Contact Event]] lifeform is now considered the best explanation for purpose of the probe.
 
 At 153 years old she is currently the worlds oldest working academic researcher. Hannah is the daughter of scientists 
 [[Levi Weiss]] and Talia Martin. She has two children with her Nexus co-founder Javier Florentin, Isla and 
@@ -1884,7 +1903,7 @@ biologist Javier Florentin. The original company operated for 8 years and had so
 delivery of biocoherent material into the brain for data extraction, before eventually being sold off to the 
 [[Pharmatica Group]] and [[Microsynth]]. 
  
-Hannah Weiss-Martin met [[RDP]] biologist Javier Florentin in a cave diving expedition in Cordillera de los Altos,where 
+Hannah Weiss-Martin met [[RDP]] biologist Javier Florentin in a cave diving expedition in Cordillera de los Altos, where 
 they discussed founding a company together to explore quantum coherence in the brain. Weiss-Martin's groundbreaking 
 viral interference experiments at Caltech in 108 BFC had demonstrated sustained quantum coherence in biological 
 nano-structures, and Florentin's experiments on hibernating animal consciousness had demonstrated there was analogous 
@@ -1898,11 +1917,11 @@ temporal associations. This was successful in detecting previously uncaptured te
 memory formation, and their first contract was with [[Havfélög]] to develop screening techniques for selecting marines. 
 
 During this time Javier Florentin was in a relationship with celebrity aestheticist Julieta Gómez Romero, but she 
-was killed in 70 BFC during one of the Mancomunidad's many periodo violento. It was not clear if Havfélög were involved, 
-but that year Nexus cancelled all contracts with them and sold the rights to their neural models to Pharmatica, and the 
-remainder of their assets to [[Microsynth]] the following year. Perhaps the most promising development from their 
-technology was the creation of [[ghosts~Ghost]], however this was mothballed by Pharmatica during the acquisition and 
-never developed further.
+was killed in 70 BFC during one of the Mancomunidad's many so called "periodo violento". It was not clear if Havfélög 
+were involved, but that year Nexus cancelled all contracts with them and sold the rights to their neural models to 
+Pharmatica, and the remainder of their assets to [[Microsynth]] the following year. Perhaps the most promising 
+development from their technology was the creation of [[ghosts~Ghost]], however this was mothballed by Pharmatica during 
+the acquisition and never developed further.
 
 Nexus operated as a division of Microsynth for 10 years before being divested as a wholly owned subsidiary, MNex, to 
 avoid new biotech market disclosure rules. Due to external power and compute requirements BN was never cost compatible 
