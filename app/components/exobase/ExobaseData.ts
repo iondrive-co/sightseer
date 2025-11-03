@@ -30,13 +30,13 @@ mentality to those born on Mars.
 During this period he also began designing and publishing designs for ambitious projects such as wrapping dormant comets 
 in order to build small habitats inside them. These brought him to the attention of the Alvaro García, managing 
 director of the [[Eurasian Bloc]] consortium managing cislunar habitat construction. He was hired to work on a digital 
-twin for a proposed metro sized o'neill cylinder, the first for the Bloc. Rather than copying the [[United States]] and 
-[[Greater Zhōngguó]] designs, he used his fathers work on cryotolerant doped mycelium to design a more lightweight 
-structure which used a bio-composite grown in ice-water slurries as self-assembling non-load bearing structural fill 
-between thin membranes. This would allow the habitat to grow itself from in-situ ice and carbon feedstock, and the doped 
-mycelium's natural radiation absorption removed the need for separate heavy shielding layers. With his changes, what was 
-initially considered a moonshot side project actually became feasible when the ESA budget of 51 BFC allocated additional 
-funding to off world settlement.
+twin for a proposed metro sized o'neill cylinder, the first for the Bloc, and he returned to Earth to work on the 
+project. Rather than copying the [[United States]] and [[Greater Zhōngguó]] designs, he used his fathers work on 
+cryotolerant doped mycelium to design a more lightweight structure which used a bio-composite grown in ice-water 
+slurries as self-assembling non-load bearing structural fill between thin membranes. This would allow the habitat to 
+grow itself from in-situ ice and carbon feedstock, and the doped mycelium's natural radiation absorption removed the 
+need for separate heavy shielding layers. With his changes, what was initially considered a moonshot side project 
+actually became feasible when the ESA budget of 51 BFC allocated additional funding to off world settlement.
 
 The Axiom and Wu Weiren cylinders had been constructed at EML2 in order to reuse the US and GPRs respective 
 [[Auburn Ring]] component construction facilities. Without access to similar facilities and with a higher requirement 
@@ -47,7 +47,13 @@ mycelium networks self-healing properties would reduce maintenance needs for dea
 Florentin was given the position of lead project architect, and after an 8 month vendor selection and review process the
 project commenced in 50 BFC and was completed 12 years later, with the first settlers relocating there in 37 BFC. During
 the cislunar construction spree in the later [[Retrograde Diaspora]] most of the larger habitats copied the design of
-Iceland One.`,
+Iceland One.
+
+Just before the completion of Iceland One Alejandro resigned from the ESA and relocated back to Mars, where he joined a 
+line marriage with Camilla Liu. He worked as a freelance consultant and worked on a number of orbital farm projects 
+which had funded after the events of the [[Stillborn Harvest]]. Amidst the neglect of the Retrograde Diaspora he began 
+publicly criticising the lack of funding from Earth for the Martian colonies, and during the recent Nanocat Fury events
+he has become a strong advocate for the Marsist position of intervention and troops from Earth.`,
         classification: 'Yūmeijin'
     }],
     ['Aljanah Lunar Resort', {
@@ -959,10 +965,10 @@ content: `The Forever Fever refers to an ongoing period of technological progres
 Forever Fever was coined by [[MetaFox]] journalist @LivedItLily in her series "Gonzo vs Quadrillionaire" in 4 AFC, but in 
 [[Greater Zhōngguó]] the phenomenon is more commonly known by the term 邪修/xié xiū or cultivating evil (immortality).
 It has been driven by promising results in the full replacement of parts of multiple organ systems, including basic
-[[Neurogenesis]], with smart polymers; rather than simply repairing them. It is estimated to have 
-attracted nearly a quadrillion US dollars of investment, due to the expert consensus that it represents a viable path to 
-functional immortality in humans. SPM companies have been criticized as being quadrillionaire only clubs due to the patents 
-and secrecy put in place by some of the largest investors.
+[[Neurogenesis]], with smart polymers; rather than simply repairing them. It is estimated to have attracted several 
+quadrillion US dollars of investment, due to the expert consensus that it represents a viable path to functional 
+immortality in humans. SPM companies have been criticized as being quadrillionaire only clubs due to the patents and 
+secrecy put in place by some of the largest investors.
 
 The field of synthetic biology stretches back hundreds of years, however the development of more effective cell dynamic 
 models by [[Pharmatica Group]] in the 90s led to the modern era of realistic virtual cell models and the ability to
@@ -1006,8 +1012,8 @@ diseases and injuries. This led to the development of mesoscale polymeric interf
 damaged neurons, which have shown promise in compensating for neuronal loss in neurodegenerative diseases. Victor Kwan
 funded startup MindFrame has demonstrated in-situ offloading of hippocampal CA1 processing into connected polymer 
 circuits, leading to speculation that the complete replacement of a human brain might be possible in the near future. 
-Critics point out that the primitive state of brain emulation in [[copies~Copy]] show that the brain’s astronomical 
-complexity and fragile timing have barely begun to be mapped.`,
+Critics such as [[Hannah Weiss-Martin]] point out that the primitive state of brain emulation in [[copies~Copy]] show 
+that the brain’s astronomical complexity and fragile timing have barely begun to be mapped.`,
         classification: 'Praxis/MedAug'
     }],
     ['Forge Palace', {
@@ -1333,13 +1339,13 @@ nano-structures. She worked on neural coherence problems for many years, and fou
 practical applications. After the failure and acquisition of Nexus she began work on interpreting new observer 
 integrated experiments showing that human choices in quantum measurements display minute statistical biases that 
 preserve temporal consistency between past and future events. Her best-known proposal from this period, the “only 
-possible decision” theory, departed from superdeterministic and retrocausal models by suggesting that these biases steer 
+possible decision” theory, departed from superdeterministic and retrocausal models by suggesting that these biases force 
 measurement choices toward outcomes that maintain consistency across quantum states. Several popular-science treatments 
 have extended this into a broader claim that all actions must preserve causal coherence across a globally consistent 
-timeline, Hannah has criticized this as being unfalsifiable. Her later work focussed on ways to use coherence to 
-integrate computonium smart matter into the brain, [[Forever Fever]] has renewed interest in [[Neurogenesis]] as a brain 
-replacement technique and she has featured in a number of interviews about it. Her self replicating smart matter theory 
-of the [[First Contact Event]] lifeform is now considered the best explanation for purpose of the probe.
+timeline, Hannah has criticized this as being unfalsifiable. Her later work has again focussed on ways to use coherence 
+to integrate computonium smart matter into the brain, and due to a renewed interest in Neurogenesis from the 
+[[Forever Fever]] she has recently featured in a number of interviews about it. Her self replicating smart matter theory 
+of the [[First Contact Event]] lifeform is considered one of the leading explanations for purpose of that probe.
 
 At 153 years old she is currently the worlds oldest working academic researcher. Hannah is the daughter of scientists 
 [[Levi Weiss]] and Talia Martin. She has two children with her Nexus co-founder Javier Florentin, Isla and 
@@ -1901,7 +1907,7 @@ Both fusion and antimatter engine variants are normally crewed.`,
 `Nexus was a [[Biocoherence Neurogenesis~Neurogenesis]] (BN) company founded by [[Hannah Weiss-Martin]] and hibernation 
 biologist Javier Florentin. The original company operated for 8 years and had some success with retroviral 
 delivery of biocoherent material into the brain for data extraction, before eventually being sold off to the 
-[[Pharmatica Group]] and [[Microsynth]]. 
+[[Pharmatica Group]] and [[Microsynth]] and subsequently reformed as a cryopreservation company.
  
 Hannah Weiss-Martin met [[RDP]] biologist Javier Florentin in a cave diving expedition in Cordillera de los Altos, where 
 they discussed founding a company together to explore quantum coherence in the brain. Weiss-Martin's groundbreaking 
