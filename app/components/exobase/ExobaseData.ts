@@ -22,17 +22,17 @@ Alejandro was born in Cedars-Sinai hospital in the [[United States]] and grew up
 he was older in the [[RDP]] or at Acrux-2 in the [[Argentinian Mancomunidad]]. He was fluent in English, Spanish, and 
 Mandarin from a young age, studied microgravity construction and design with a minor in robotics at Caltech, and took a 
 job with Sinochem in [[Hellas Planitia]] designing enhancements for their orbital fertilizer transfer stations. He dated 
-local schoolteacher Camilla Liu and through her became interesting in better educating Earth students to fit in to the 
-Martian environment. He designed familiars, small animal robots to house [[Infocom Agents]] which would monitor and 
-protect children when they were away from their parents and help them adjust to the local conditions and adapt a similar 
-mentality to those born on Mars. 
+local schoolteacher Camilla Liu and through her became interested in better educating Earth students to fit in to the 
+Martian environment. His contribution to this, familiars, were small animal robots housing [[Infocom Agents]] which 
+would monitor and protect children when they were away from their parents and help them adjust to the local conditions 
+and adapt a similar mentality to those born on Mars. 
 
 During this period he also began designing and publishing designs for ambitious projects such as wrapping dormant comets 
 in order to build small habitats inside them. These brought him to the attention of the Alvaro García, managing 
 director of the [[Eurasian Bloc]] consortium managing cislunar habitat construction. He was hired to work on a digital 
 twin for a proposed metro sized o'neill cylinder, the first for the Bloc, and he returned to Earth to work on the 
 project. Rather than copying the [[United States]] and [[Greater Zhōngguó]] designs, he used his fathers work on 
-cryotolerant doped mycelium to design a more lightweight structure which used a bio-composite grown in ice-water 
+cryotolerant doped mycelium to design a more efficient structure which used a bio-composite grown in ice-water 
 slurries as self-assembling non-load bearing structural fill between thin membranes. This would allow the habitat to 
 grow itself from in-situ ice and carbon feedstock, and the doped mycelium's natural radiation absorption removed the 
 need for separate heavy shielding layers. With his changes, what was initially considered a moonshot side project 
@@ -1013,7 +1013,16 @@ damaged neurons, which have shown promise in compensating for neuronal loss in n
 funded startup MindFrame has demonstrated in-situ offloading of hippocampal CA1 processing into connected polymer 
 circuits, leading to speculation that the complete replacement of a human brain might be possible in the near future. 
 Critics such as [[Hannah Weiss-Martin]] point out that the primitive state of brain emulation in [[copies~Copy]] show 
-that the brain’s astronomical complexity and fragile timing have barely begun to be mapped.`,
+that the brain’s astronomical complexity and fragile timing have barely begun to be mapped.
+
+Forever fever has also had significant cultural impacts, with many popular feels and links featuring it in some 
+capacity. Surveys have shown public and political discourse about the inevitability of aging has shifted along with the 
+technological advances, with many new politicians running on a platform of funding negligible senescence. The Society
+of Life has seen its membership grown to over 100 million people, and has funded bioethicists to conduct town-hall 
+debates on topics such as human dignity, the finitude of life, and the human experience. Their largest project has been
+the construction of the colossal Tomb of the Unknown Human monument in the Los Altos Hills. Costing nearly 50 billion
+USD and visible from across the valley and parts of the Bay, it was built to "honour those who our society has chosen to 
+lose forever".`,
         classification: 'Praxis/MedAug'
     }],
     ['Forge Palace', {
@@ -1777,7 +1786,8 @@ regulatory capture of the media policy decisions of the US government, especiall
 and in the application of antitrust laws to competitors. It has won numerous awards for journalism, at the most recent
 Veritas Awards picking up both the US government funded Public Service Medal for TruthStreamDaily's coverage of the data 
 stream from the MagnetoPlasma probe approaching [[Epsilon Indi]], and the Torch of Public Opinion for @LivedItLily's 
-gonzo journalism on the [[Nanocat Fury]] protests.`,
+gonzo journalism on the [[Nanocat Fury]] protests. Its most popular product is a sensory integrator, its endless feeling 
+design has led to concerns about addition and creating an emotional echo chamber.`,
         classification: 'Polities/Corporations'
     }],
     ['Microsynth', {
