@@ -2216,17 +2216,17 @@ of Eternal Light. The pope visited the site in person two years later.`,
         classification: 'Geo'
     }],
     ['Scimitar Launch System', {
-content: `The Scimitar Launch System was a mass driver, the first large scale space launch system. Built and operated by 
+content: `The Scimitar Launch System was a mass driver and first large scale space launch system. Built and operated by 
 the Saudi Space Consortium from 191 to 163 BFC, it was named for its distinctive upward-curving track that resembled the 
-traditional Arabian sword, it was the largest of Saudi Arabia's pivots away from hydrocarbon exports. The 180-kilometer 
-electromagnetic acceleration track began in the Rub' al Khali desert, running northwest before curving upward along the 
-artificially reinforced escarpment of the Tuwaiq Mountains, achieving a final launch angle of 23 degrees. Suffering a
+traditional Arabian sword and was the largest of Saudi Arabia's pivots away from hydrocarbon exports. The evacuated 
+coilgun track was bored into granite beneath Jabal Soudah in the Asir highlands, where flywheel and capacitor banks 
+accelerated a ceramic sabot enclosing a reusable methalox upper stage on an upward curving trajectory. Suffering a 
 number of complications during construction, most notably the [[Khan Solar Storm]] of 187 BFC, the project did not 
 launch its first payload until 171 BFC. At this time the Saudi kingdom was under immense financial pressure from the 
 abundance of cheap solar power and the resulting global synthetic methane transition, and many flagship projects such as
 the [[Aljanah Lunar Resort]] were privatised. Despite initial success and generating several billion in revenue per year 
 the project was never profitable (even excluding the payback of the immense construction costs) due to the maintenance 
-costs of higher than expected labour and issues arising from operating in a harsh desert environment. The start of the
+costs of higher than expected labour and issues arising from operating in a moist environment. The start of the
 [[Ceres Wave]] brought additional revenue but also caused the [[United States]] to begin construction of a more 
 efficient rotavator launch system, and by the time of the collapse of the Kingdom in 155 BFC it had been decommissioned 
 and turned into a tourist attraction.`,
