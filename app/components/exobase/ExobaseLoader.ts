@@ -1,7 +1,7 @@
 import {json, LoaderFunction} from "@remix-run/cloudflare";
 import {Classification, pageData} from '~/components/exobase/ExobaseData';
 
-type ArticleData = [string, {content: string, classification: Classification}];
+type ArticleData = [string, {content: string, classification: Classification, imageName?: string, caption?: string}];
 
 export const classificationOverviewLoader: LoaderFunction = async () => {
     const classifications = Array.from(pageData.values())
@@ -48,6 +48,8 @@ export const exobaseLoader: LoaderFunction = async ({ params, request, context }
         }
         const content = page.content;
         const classification = page.classification;
+        const imageName = page.imageName;
+        const caption = page.caption;
 
         const lines = content.split(/\n|\r\n/);
         let inCodeBlock = false;
@@ -100,7 +102,7 @@ export const exobaseLoader: LoaderFunction = async ({ params, request, context }
 
         const finalHtml = `<ul>${finalContent}</ul>`;
 
-        return json({ content: finalHtml, classification });
+        return json({ content: finalHtml, classification, imageName, caption });
     } catch (error: unknown) {
         if (error instanceof Error) {
             return json({ error: error.message }, { status: 404 });

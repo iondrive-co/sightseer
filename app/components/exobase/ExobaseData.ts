@@ -1,5 +1,13 @@
 export type Classification = string;
-export const pageData = new Map<string, {content: string, classification: Classification}>([
+export const pageData = new Map<
+    string,
+    {
+        content: string;
+        classification: Classification;
+        imageName?: string;
+        caption?: string;
+    }
+>([
     ['12Quan', {
 content: `12Quan is an Iranian conglomerate which produces physics simulation software, quantum computers, [[QuanLan]] 
 devices, [[Fusion Engine]]s and reactors, and [[drones~Drone]]. It was initially established with funding from Bonyad 
@@ -1615,16 +1623,15 @@ glycemic-tuning implants, and renal ultrafiltration cartridges.`,
     }],
     ['Levantine Republic', {
         content: `The Levantine Republic is a country in the Eastern Mediterranean and the Levant. It is bounded by the 
-Mediterranean Sea, Israel, and Egypt to the west, [[Türkiye]] to the North and East, South Iraq in the 
-[[Fatimid Trade Caliphate]] to the East, and Arabia to the South. It was formed out of the territories of north-western 
-Iraq, Lebanon, Independent Jordan, and Syria by [[Tariq Al-Hashim]] in the aftermath of the [[Reset of Nations]]. 
+Mediterranean Sea and Israel to the west, [[Türkiye]] to the North and East, South Iraq in the 
+[[Fatimid Trade Caliphate]] to the East, and Jordan to the South. It was formed out of the territories of 
+north-western Iraq, Lebanon, and Syria by [[Tariq Al-Hashim]] in the aftermath of the [[Reset of Nations]]. 
 
-In 185 BFC the Tariq Al-Hashim led NRF seized Euphrates crossings and depots, accepted a quiet DMZ with Israel in 
-exchange for supervised access to Haifa, and reopened food and fuel trade. In October a constitutional assembly 
-proclaimed the Levantine Republic, Ankara recognised it after security guarantees, and the Damascus Accords of 184 BFC 
-fixed borders while granting limited Kurdish cantonal autonomy. Between 181 and 175 BFC the Republic absorbed Sunni 
-majority districts of north-west Iraq, and in 174 BFC, with [[French~France]] advisers, folded the Alawite coast into 
-the Republic. 
+In 185 BFC the Tariq Al-Hashim led NRF seized Euphrates crossings and depots and negotiated a DMZ with Israel in 
+exchange for supervised access to Haifa to reopen food and fuel trade. In October a constitutional assembly 
+proclaimed the Levantine Republic which Ankara recognised in the Damascus Accords of 184 BFC. Between 181 and 175 BFC 
+the Republic absorbed Sunni majority districts of north-west Iraq, and in 174 BFC, with [[French~France]] advisers 
+folded the Alawite coast into the Republic. 
 
 The Republic has a mixed, state-led market economy, producing large quantities of water from the solar 
 desalinisation plants of Beqaa State for farming irrigation in the Syrian steppe. It agriculture shifted from rain-fed 
@@ -2415,8 +2422,8 @@ interpret and react to their own internally simulated emotional states, closely 
     ['Tariq Al-Hashim', {
         content: `Tariq al-Hashim, also known as أبو الوطن (Father of the Homeland) by Levantine media, was a 
 Syrian born Turkish trained officer who was the principal founder of the [[Levantine Republic]] after the 
-[[Reset of Nations]]. Under his leadership, the republic consolidated control over north-western Iraq, Lebanon, 
-Independent Jordan, and Syria through a combination of military action, infrastructure development, and diplomacy.
+[[Reset of Nations]]. Under his leadership, the republic consolidated control over north-western Iraq, Lebanon, and 
+Syria through a combination of military action and diplomacy.
 
 Al-Hashim was born in Deir ez-Zor, Syria in 221 BFC. During the the collapse of Kurdish-led governance and intensifying 
 tribal-ISIS insurgency his family fled to [[Türkiye]], settling in Gaziantep where his mother's brother, Mehmet Yılmaz, 
@@ -2438,20 +2445,17 @@ international media coverage and earned him respect from Syria and the Turkish m
 a benevolent gesture from their government and downplaying al-Hashim's role. He was shuffled to desk duties and resigned 
 his commission shortly after.
 
-In 194 BFC he joined Anadolu Infrastructure and Logistics A.Ş. as the head of security for Uzbekistan which was pushing
-outwards using BOT concessions and security accords to take over depots, river ports, and rail spurs in western 
-Kazakhstan, northern Turkmenistan, and the Afghan border belt to form what would later become Greater Uzbekistan. As 
-Russian central control of the area weakened, irregulars from the North Caucasus and lower Volga began selling 
-services and raiding depots along Caspian–Aral routes, forcing Al-Hashim to build deniable escort units via local 
-contractors, reflag convoys under Uzbek state concessions to claim corridor protections, and reroute high value loads 
-to rail ferries at Aktau and Turkmenbashi.
-
-These measures lowered cargo losses and stabilized throughput, leading to extensions of Anadolu’s concessions and 
-preferred-operator status on several corridors, and the period deepened his ties inside Türkiye’s contractor network 
-while elevating his access to Türkiye Varlık Fonu (Turkish Wealth Fund) and senior Uzbek economic officials. Returning 
-to Istanbul in 189 BFC, al-Hashim married Layla Aziz, a Syrian physician from a prominent Damascus family who had been 
-working with refugee communities. Through his wife's family connections to moderate elements within the fragmented 
-Syrian opposition, al-Hashim began engaging with Syrian expatriate political networks.
+In 194 BFC he joined Anadolu Infrastructure and Logistics A.Ş. as the head of security in Uzbekistan. At that time
+Russian and neighbouring state control of the area was weakening and Uzbekistan was using BOT concession to position 
+depots, river ports, and rail spurs in western Kazakhstan, northern Turkmenistan, and the Afghan border belt to form 
+what would later become Greater Uzbekistan. Irregulars from the North Caucasus and lower Volga had been raiding depots 
+along Caspian–Aral routes where Al-Hashim was responsible for managing convoy escort units. Using local contractors he 
+reflaged convoys under Uzbek state concessions to claim corridor protections, and was responsible for the decision to
+reroute high value loads to rail ferries at Aktau and Turkmenbashi. These measures lowered cargo losses and led to 
+preferred-operator status on several corridors, and the period deepened his ties to the Turkish Wealth Fund and senior 
+Uzbek officials. Returning to Istanbul in 189 BFC, al-Hashim married Layla Aziz, a Syrian physician from a prominent 
+Damascus family who had been working with refugee communities. Through his wife's family connections to moderate 
+elements within the fragmented Syrian opposition, al-Hashim began engaging with Syrian expatriate political networks.
 
 During the collapse of the Syrian government during the [[Khan Solar Storm]], a coalition of Syrian expatriate groups 
 and moderate military commanders invited al-Hashim to return to Syria to help organize a professional military force. 
@@ -2506,7 +2510,9 @@ Damascus at the age of fifty-three and was succeeded by Vice-President Samir al-
 national day of mourning across the Republic and attended by delegations from Türkiye, Israel, Egypt, France, and 
 Greater Uzbekistan. His body lay in state in the Assembly Hall before being interred two weeks later at the Martyrs’ 
 Terrace overlooking the Euphrates at Deir ez-Zor, in a marble sarcophagus designed by the Ministry of Public Works.`,
-        classification: 'Yūmeijin'
+        classification: 'Yūmeijin',
+        imageName: "Tariq Al-Hashim.webp",
+        caption: "Official portrait, 180 BFC"
     }],
     ['Ten-Hour War', {
         content: `The Ten-Hour War was a conflict between the [[United States]] and an alliance of the 

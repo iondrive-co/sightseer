@@ -28,8 +28,34 @@ h2 {
     @apply text-3xl font-semibold mt-6 mb-4;
 }
 
+.infobox {
+    float: right;
+    width: 300px;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(209 213 219);
+    background-color: rgb(249 250 251);
+    border-radius: 0.5rem;
+    clear: right;
+}
+
+.dark .infobox {
+    border-color: rgb(75 85 99);
+    background-color: rgb(31 41 55);
+}
+
+.infobox img {
+    @apply w-full h-auto rounded mb-2 block;
+}
+
+.infobox-caption {
+    @apply text-sm text-center text-gray-600 dark:text-gray-400 italic;
+}
+
+/* MODIFIED - REMOVED overflow-x-auto and flex-grow */
 .article-text {
-    @apply text-2xl overflow-x-auto flex-grow;
+    @apply text-2xl;
 }
 
 .article-text h2 {
@@ -83,6 +109,22 @@ h2 {
     .classification-section {
         @apply px-[6%];
     }
+
+    .infobox {
+        width: 250px;
+    }
+}
+
+/* ADD THIS NEW BREAKPOINT */
+@media screen and (max-width: 900px) {
+    .infobox {
+        float: none;
+        width: 100%;
+        max-width: 24rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -106,5 +148,12 @@ h2 {
     h2,
     .article-text h2 {
         @apply text-2xl;
+    }
+
+    .infobox {
+        float: none;
+        width: 100%;
+        max-width: none;
+        margin-bottom: 1.5rem;
     }
 }
