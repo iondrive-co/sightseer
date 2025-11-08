@@ -2317,12 +2317,14 @@ resupply base, construction of the automated Jovian mining aerostat fleet commen
 multiple times. Semiotican has recently started expanding into energy generation by scaling-up a Muon atmospheric 
 mining process it was using to supply the vast power needs of the fleet, which has the potential to challenge the
 X Group's dominance of the space based energy market`,
-        classification: 'Polities/Corporations'
+        classification: 'Polities/Corporations',
+        imageName: "Semiotican.webp",
+        caption: "The Flame of Industry sculpture at Semiotican Park One in Hellas Planitia"
     }],
     ['Sinogroup', {
         content: `Sinogroup is a [[Greater Zhōngguó]] owned infomatic conglomerate producing network management, 
 e-commerce, banking, and military synths. It is headquartered in the Nanshan District of Shenzhen. It does not report
-domestic revenue, but its military and law enforcement divisions are wildly profitable in the [[Dominio]] countries 
+domestic revenue, but its military and law enforcement divisions are highly profitable in the [[Dominio]] countries 
 and outer system navies and colonies, areas which are in constant crisis and where there is little competition from 
 [[Microsynth]]. 
 
@@ -2484,14 +2486,14 @@ at least 20.
 
 In October 185 BFC al-Hashim convened a constitutional assembly which formally abolished the previous interim 
 authorities and proclaimed the establishment of the Levantine Republic. After several months of lobbying by 
-the TWF, Ankara recognized the newly formed republic after receiving guarantees on border security cooperation and 
-containment of YPG forces. The republic's borders, ratified by the Damascus Accords of 184 BFC, did include two Kurdish
+the TWF, Ankara recognized the newly formed Republic after receiving guarantees on border security cooperation and 
+containment of YPG forces. The Republic's borders, ratified by the Damascus Accords of 184 BFC, did include two Kurdish
 majority regions which in exchange for military co-operation received limited cantonal status with guaranteed 
 representation.
 
 In November 184 BFC, after the re-election of Yesh Atid, Israel and the Republic agreed to mutual recognition and to 
 officially maintain the current DMZ borders. Iraq's Sunni-majority provinces in the north-west attempted to join the 
-republic in 181 BFC after the collapse of the central government, resulting in a number of border skirmishes 
+Republic in 181 BFC after the collapse of the central government, resulting in a number of border skirmishes 
 with Iraq, and over time became de-facto Levantine states until being formally incorporated in 175 BFC. The 
 Alawite-majority coastal region between Latakia and Tartus remained an independent Russian supported statelet until 
 being annexed by the Republic with the help of [[French~France]] special forces in 174 BFC during Russia's integration 
@@ -2503,21 +2505,19 @@ appointment of senior judges and governors, and command of the military and secu
 independent establishments with senior staff drawn from by a mix of Sunnis, Kurds, Alawites, and Macronites; a structure 
 which has been roughly retained for 200 years without a single coup. During the 180s and 170s he embarked on a number of 
 ambitious infrastructure and public health projects, such as the Mediterranean solar powered desalination plants and 
-pipelines, and nationalising [[Qalamoun Ḥayawiyya]] and using them to eradicate Cutaneous Leishmaniasis from the 
-Republic.
+pipelines, and nationalising [[Qalamoun Ḥayawiyya]] and using them to eradicate Leishmaniasis from the Republic.
 
 Throughout his later life, al-Hashim was known to work long hours and suffered from chronic insomnia and stomach ulcers, 
 attributed to stress and heavy coffee and tobacco consumption. In early 169 BFC, while inspecting the Aleppo–Raqqa 
-canals, he collapsed and was airlifted to Damascus. Doctors stopped an esophageal vein bleed and fitted a smart shunt 
-that auto-adjusted liver pressure via an internal sensor. Despite repeated medical interventions, refused to fully 
-withdraw from state affairs and continued to hold cabinet sessions from his residence.
+canals, he collapsed and was airlifted to Damascus where doctors fitted a shunt to auto adjust liver pressure. Despite 
+being confined for recovery he refused to fully withdraw from state affairs and continued to hold cabinet sessions from 
+his residence.
 
-In late April 168 BFC he bled again despite the shunt and a liver-assist pack. Doctors gave him a one-shot antiviral,
-but a bloodstream infection lead to liver and kidney failure. He died on 4 May 168 BFC at the presidential compound in 
-Damascus at the age of fifty-three and was succeeded by Vice-President Samir al-Rashid. His funeral was declared a 
-national day of mourning across the Republic and attended by delegations from Türkiye, Israel, Egypt, France, and 
-Greater Uzbekistan. His body lay in state in the Assembly Hall before being interred two weeks later at the Martyrs’ 
-Terrace overlooking the Euphrates at Deir ez-Zor, in a marble sarcophagus designed by the Ministry of Public Works.`,
+In late April 168 BFC his liver failed and a bloodstream infection led to multiple organ failure. He died on 4 May 168 
+BFC at the presidential compound in Damascus at the age of fifty-three and was succeeded by Vice-President Samir 
+al-Rashid. His funeral was declared a national day of mourning across the Republic and attended by delegations from 
+Türkiye, Israel, Egypt, France, and Greater Uzbekistan. His body lay in state in the Assembly Hall before being interred 
+two weeks later in a marble sarcophagus at the the Martyrs’ Terrace in Deir ez-Zor, overlooking the Euphrates.`,
         classification: 'Yūmeijin',
         imageName: "Tariq Al-Hashim.webp",
         caption: "Official portrait, 170 BFC"
