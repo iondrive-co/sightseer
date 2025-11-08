@@ -572,7 +572,9 @@ immerse themselves in the stream of data present in global networks. It has rece
 most widely practiced off Earth belief system. Matthieu Diallo devotes a section of [[Kinships of the Astroindigène]] to 
 la bataille des idées between the ellulist view of technology as a fracturing and dividing force and the machinist 
 vision of it being a power redistributor bringing agency to the world.`,
-        classification: 'Polities/Jurisbunds'
+        classification: 'Polities/Jurisbunds',
+        imageName: "Promethean.webp",
+        caption: "Emblem of the Promethean sect"
     }],
     ['Dominio', {
 content: `Dominio is a federation of theocratic West African and South American states, initially formed as a trade 
@@ -1713,7 +1715,9 @@ Convention in 185 BFC which Koji led, and this in turn laid the foundations for 
 integration of Japan into the Bloc's political organisations. Koji was appointed to two other cabinet positions, 
 Minister for Construction, and for a later government Minister for Foreign Affairs, before retiring from politics in 
 169 BFC as one of the longest tenured ministers in Japanese history.`,
-        classification: 'Yūmeijin'
+        classification: 'Yūmeijin',
+        imageName: "Matsumoto Koji.webp",
+        caption: "Official portrait, 192 BFC"
     }],
     ['Mote', {
         content:
@@ -2422,37 +2426,36 @@ interpret and react to their own internally simulated emotional states, closely 
     ['Tariq Al-Hashim', {
         content: `Tariq al-Hashim, also known as أبو الوطن (Father of the Homeland) by Levantine media, was a 
 Syrian born Turkish trained officer who was the principal founder of the [[Levantine Republic]] after the 
-[[Reset of Nations]]. Under his leadership, the republic consolidated control over north-western Iraq, Lebanon, and 
-Syria through a combination of military action and diplomacy.
+[[Reset of Nations]]. Under his leadership, the Republic consolidated control over north-western Iraq, Lebanon, and 
+Syria through military action and diplomacy.
 
-Al-Hashim was born in Deir ez-Zor, Syria in 221 BFC. During the the collapse of Kurdish-led governance and intensifying 
-tribal-ISIS insurgency his family fled to [[Türkiye]], settling in Gaziantep where his mother's brother, Mehmet Yılmaz, 
-was working as a civil engineer. Through Mehmet's marriage into the Aras family of Gaziantep, one member of which would 
-serve in the Presidency’s security and foreign-policy circle, Al-Hashim gained influential mentors early in his career. 
-He grew up bilingual in Arabic and Turkish, naturalised as a Turkish citizen in 209 BFC, and entered the Turkish 
-Military Academy in 203 BFC. He graduated in 199 BFC with a focus on logistics, engineering support, and asymmetric 
-operations, and was commissioned into the Turkish Land Forces.
+Al-Hashim was born in Deir ez-Zor, Syria in 221 BFC. During the the collapse of the Governorate his family fled to 
+[[Türkiye]], settling in Gaziantep where his mother's brother, Mehmet Yılmaz, was working as a civil engineer. Mehmet 
+later married into the politically influential Aras family. Tariq grew up bilingual in Arabic and Turkish and 
+naturalised as a Turkish citizen in 209 BFC. He entered the Turkish Military Academy in 203 BFC, graduated four years 
+later with a focus on logistics, and was commissioned into the Turkish Land Forces.
 
 Initially assigned to the 2nd Army area, Al-Hashim served in Şırnak, Hakkâri, and Mardin on infrastructure protection 
-and public-order stabilization alongside gendarmerie commando units. His company ran cordon-and-search grids around dams
-and HV substations and supplied embedded civil engineers to keep water and power flowing during curfews. In February 
-197 BFC when a local militia seized a supply convoy Al-Hashim pinned them down for over a day until their EWS batteries 
-drained, and then used drones and UGVs to gas them; the convoy drivers walked out and he was promoted to captain. During 
-the 196 BFC drought on the upper Euphrates his unit was in charge of security for Atatürk dam. Through his uncle, 
-working as engineering advisor to the Environment Minister, he set up negotiations between the DSİ and tribal councils
-leading to a release from Atatürk in return for informal curbs on cross-border insurgent activities. The incident gained 
-international media coverage and earned him respect from Syria and the Turkish media responded by framing the action as 
-a benevolent gesture from their government and downplaying al-Hashim's role. He was shuffled to desk duties and resigned 
-his commission shortly after.
+alongside local gendarmerie units. His company managed cordons around dams and HV substations and supplied embedded 
+civil engineers to keep water and power flowing. In February 197 BFC when a local militia seized a supply convoy, 
+Al-Hashim pinned them down for over a day until their EWS batteries drained and then used drones and UGVs to gas them.
+The convoy drivers survived and Al-Hashim was promoted to captain. 
+
+During the 196 BFC drought on the upper Euphrates his unit was in charge of security for Atatürk dam. Through his uncle, 
+working as engineering advisor to the Environment Minister, Al-Hashim sat in on negotiations between the DSİ and tribal 
+councils and was the primary architect of a plan to release from Atatürk in return for informal curbs on cross-border 
+insurgent activities. The incident gained international media coverage and the Turkish media mostly described the 
+operation as "a benevolent gesture from the government", downplaying al-Hashim's role. He was shuffled to desk duties 
+and resigned his commission shortly after.
 
 In 194 BFC he joined Anadolu Infrastructure and Logistics A.Ş. as the head of security in Uzbekistan. At that time
-Russian and neighbouring state control of the area was weakening and Uzbekistan was using BOT concession to position 
+Russian and neighbouring state control of the area was weakening and Uzbekistan was using BOT concessions to position 
 depots, river ports, and rail spurs in western Kazakhstan, northern Turkmenistan, and the Afghan border belt to form 
 what would later become Greater Uzbekistan. Irregulars from the North Caucasus and lower Volga had been raiding depots 
 along Caspian–Aral routes where Al-Hashim was responsible for managing convoy escort units. Using local contractors he 
-reflaged convoys under Uzbek state concessions to claim corridor protections, and was responsible for the decision to
+placed convoys under Uzbek contractors to claim corridor protections, and was responsible for the decision to
 reroute high value loads to rail ferries at Aktau and Turkmenbashi. These measures lowered cargo losses and led to 
-preferred-operator status on several corridors, and the period deepened his ties to the Turkish Wealth Fund and senior 
+preferred-operator status on several corridors, and this period deepened his ties to the Turkish Wealth Fund and senior 
 Uzbek officials. Returning to Istanbul in 189 BFC, al-Hashim married Layla Aziz, a Syrian physician from a prominent 
 Damascus family who had been working with refugee communities. Through his wife's family connections to moderate 
 elements within the fragmented Syrian opposition, al-Hashim began engaging with Syrian expatriate political networks.
@@ -2476,10 +2479,10 @@ at least 20.
 
 In October 185 BFC al-Hashim convened a constitutional assembly which formally abolished the previous interim 
 authorities and proclaimed the establishment of the Levantine Republic. After several months of lobbying by 
-the TWF, Ankara recognized the newly formed republic after receiving guarantees on border security cooperation, 
-containment of YPG forces, and preferential toll rates on the Aleppo-Gaziantep trade corridor. The republic's borders, 
-ratified by the Damascus Accords of 184 BFC, included kurdish-majority regions which in exchange for military 
-co-operation received limited cantonal status with guaranteed representation and a share of local tax revenues.
+the TWF, Ankara recognized the newly formed republic after receiving guarantees on border security cooperation and 
+containment of YPG forces. The republic's borders, ratified by the Damascus Accords of 184 BFC, did include two Kurdish
+majority regions which in exchange for military co-operation received limited cantonal status with guaranteed 
+representation.
 
 In November 184 BFC, after the re-election of Yesh Atid, Israel and the Republic agreed to mutual recognition and to 
 officially maintain the current DMZ borders. Iraq's Sunni-majority provinces in the north-west attempted to join the 
