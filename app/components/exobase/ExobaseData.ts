@@ -781,7 +781,9 @@ system. The most popular feature by number of requests is the cache of [[InterMe
 After the [[Haidian Takeoff Crisis]] the original synth author was decommissioned. Articles are still frequently added 
 and updated, although the current author is unknown. One popular theory is that the Exobase is now maintained by a 
 [[Cognostim]] stuck in a mimetic feedback loop with itself.`,
-        classification: 'Infomatics'
+        classification: 'Infomatics',
+        imageName: "Exobase.webp",
+        caption: "The Exobase logo"
     }],
     ['Exonet',{
         content:
@@ -1718,7 +1720,7 @@ Minister for Construction, and for a later government Minister for Foreign Affai
 169 BFC as one of the longest tenured ministers in Japanese history.`,
         classification: 'Yūmeijin',
         imageName: "Matsumoto Koji.webp",
-        caption: "Official portrait, 192 BFC"
+        caption: "Official portrait, 168 BFC"
     }],
     ['Mote', {
         content:
@@ -2518,7 +2520,7 @@ Greater Uzbekistan. His body lay in state in the Assembly Hall before being inte
 Terrace overlooking the Euphrates at Deir ez-Zor, in a marble sarcophagus designed by the Ministry of Public Works.`,
         classification: 'Yūmeijin',
         imageName: "Tariq Al-Hashim.webp",
-        caption: "Official portrait, 180 BFC"
+        caption: "Official portrait, 170 BFC"
     }],
     ['Ten-Hour War', {
         content: `The Ten-Hour War was a conflict between the [[United States]] and an alliance of the 
