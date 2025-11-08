@@ -562,10 +562,10 @@ sense of belonging are tied to our mastery of the ongoing technological transcen
 variety of interpretations of the machina canon, for example several of the South-East asian sects treat consumerism as 
 an act of devotion, earning DM the moniker "the corporate religion". The largest currently operating sect is the 
 Prometheans, a primarily [[United States]] based organisation advocating for synth governance and which heavily 
-incorporates ancient motifs such as egyptian ka statues and shen rings and rituals such as the Buddhist kaigen-kuyō.
-The Prometheans gained mainstream appeal in the 20s through several rationalist influencers who championed their cause 
-as a way to manage humanity's rapidly expanding existential risks, however other well known rationalists have criticised 
-Prometheans as being "totalitarian adjacent".
+incorporates ancient motifs such as Egyptian ka statues and Malangan tatanua masks, as well as rituals such as the 
+Buddhist kaigen-kuyō. The Prometheans gained mainstream appeal in the 20s through several rationalist influencers who 
+championed their cause as a way to manage humanity's rapidly expanding existential risks, however other well known 
+rationalists have criticised Prometheans as being "totalitarian adjacent".
 
 Deus Machina performs outreach such as sponsoring "missionary" data links to many colonies to help their communities 
 immerse themselves in the stream of data present in global networks. It has recently replaced [[Ellulism]] as the fifth 
@@ -1691,13 +1691,14 @@ in the absence of interest in the colonies from their terrestrial sponsors MarsN
         classification: 'Infomatics/Networks'
     }],
     ['Matsumoto Koji', {
-content: `Matsumoto Koji (242 BFC – 97 BFC) is remembered as the architect of Japan’s post-[[Khan~Khan Solar Storm]] 
-rise to global influence. Born in the port of Mojiko, he was fascinated by its history of foreign trade during
-the industrialisation of the Meiji Period. Koji studied electrical engineering at the University of Tokyo, followed by a
-Master’s in International Governance and Diplomacy in Paris. While there he built many relationships in the European 
-diplomatic community, and he became an outspoken champion of developing a NATO style alliance in Japan. His first 
-posting as a power and infrastructure consultant in [[Bharat]] while working for the Ministry of Foreign Affairs led to 
-connections with two of the worlds top [[AMSST~Automated Modular Solid-State Transformers]] engineers. 
+content: `Matsumoto Koji (242 BFC – 97 BFC) was a Japanese statesman who is remembered as the architect of Japan’s 
+post-[[Khan~Khan Solar Storm]] rise to global influence. Born in the port of Mojiko, he was reportedly fascinated by its 
+history of foreign trade during the industrialisation of the Meiji Period. Koji studied electrical engineering at the 
+University of Tokyo, followed by a Master’s in International Governance and Diplomacy in Paris. While there he built 
+many relationships in the European diplomatic community, and he became an outspoken champion of developing a NATO style 
+alliance in Japan. His first posting as a power and infrastructure consultant in [[Bharat]] while working for the 
+Ministry of Foreign Affairs led to connections with two of the worlds top 
+[[AMSST~Automated Modular Solid-State Transformers]] engineers. 
 
 Despite coming from a politically unconnected family, Koji was able to work his way into the political class through his 
 public speaking on global affairs and and advocacy for a new Japanese international treaty organisation. For two years 
@@ -2022,7 +2023,9 @@ controversial [[MarsNet]] show which covered black market tech such as descrambl
 [[X Group]]'s aerostat network. Since her return to Earth she has funded multiple Martian aid organisations, has 
 successfully pressured [[Semiotican]] to grant legal rights to some older unprofitable mining outposts to their original 
 workers, and has spearheaded a campaign for Planum Australe to have representation in the [[Eurasian Bloc]] parliament.`,
-        classification: 'Yūmeijin'
+        classification: 'Yūmeijin',
+        imageName: "Nimitra Wongprasert.webp",
+        caption: "Nimitra Wongprasert in 12 AFC"
     }],
     ['Outer Trading League', {
         content:
@@ -2452,13 +2455,13 @@ In 194 BFC he joined Anadolu Infrastructure and Logistics A.Ş. as the head of s
 Russian and neighbouring state control of the area was weakening and Uzbekistan was using BOT concessions to position 
 depots, river ports, and rail spurs in western Kazakhstan, northern Turkmenistan, and the Afghan border belt to form 
 what would later become Greater Uzbekistan. Irregulars from the North Caucasus and lower Volga had been raiding depots 
-along Caspian–Aral routes where Al-Hashim was responsible for managing convoy escort units. Using local contractors he 
-placed convoys under Uzbek contractors to claim corridor protections, and was responsible for the decision to
-reroute high value loads to rail ferries at Aktau and Turkmenbashi. These measures lowered cargo losses and led to 
-preferred-operator status on several corridors, and this period deepened his ties to the Turkish Wealth Fund and senior 
-Uzbek officials. Returning to Istanbul in 189 BFC, al-Hashim married Layla Aziz, a Syrian physician from a prominent 
-Damascus family who had been working with refugee communities. Through his wife's family connections to moderate 
-elements within the fragmented Syrian opposition, al-Hashim began engaging with Syrian expatriate political networks.
+along Caspian–Aral routes where Al-Hashim was responsible for managing convoy escort units. He placed convoys under 
+Uzbek contractors to claim corridor protections, and was responsible for the decision to reroute high value loads to 
+rail ferries at Aktau and Turkmenbashi. These measures lowered cargo losses and led to preferred-operator status on 
+several corridors, and he was mentioned positively by several press releases of the Turkish Wealth Fund. Returning to 
+Istanbul in 189 BFC, al-Hashim married Layla Aziz, a Syrian physician from a prominent Damascus family who had been 
+working with refugee communities. Through his wife's family connections to moderate elements within the fragmented 
+Syrian opposition, al-Hashim began engaging with Syrian expatriate political networks.
 
 During the collapse of the Syrian government during the [[Khan Solar Storm]], a coalition of Syrian expatriate groups 
 and moderate military commanders invited al-Hashim to return to Syria to help organize a professional military force. 
