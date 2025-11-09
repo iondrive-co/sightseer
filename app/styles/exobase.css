@@ -157,3 +157,32 @@ h2 {
         margin-bottom: 1.5rem;
     }
 }
+
+/* Desktop - show desktop layout, hide mobile */
+@media screen and (min-width: 901px) {
+    .desktop-only {
+        display: block;
+    }
+
+    .mobile-only {
+        display: none;
+    }
+}
+
+/* Mobile - show mobile layout, hide desktop */
+@media screen and (max-width: 900px) {
+    .desktop-only {
+        display: none;
+    }
+
+    .mobile-only {
+        display: block;
+    }
+
+    .mobile-only .infobox {
+        float: none;
+        width: 100%;
+        max-width: 24rem;
+        margin: 1.5rem auto;
+    }
+}

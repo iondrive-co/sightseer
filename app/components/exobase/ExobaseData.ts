@@ -22,7 +22,7 @@ pronounced as 1-2-kwon.`,
         classification: 'Polities/Corporations'
     }],
     ['Alejandro Florentin', {
-content: `Alejandro Florentin (80 BFC -) is best known as the lead architect of Iceland One. He is the son of 
+content: `Alejandro Florentin (80 BFC -) is best known as the lead architect of Island One. He is the son of 
 Javier Florentin and [[Hannah Weiss-Martin]] and is also known for his [[Marsist~Nanocat Fury]] advocacy and his
 [[pedagogical robotics~Familiar]] work on Mars.
 
@@ -48,21 +48,23 @@ actually became feasible when the ESA budget of 51 BFC allocated additional fund
 
 The Axiom and Wu Weiren cylinders had been constructed at EML2 in order to reuse the US and GPRs respective 
 [[Auburn Ring]] component construction facilities. Without access to similar facilities and with a higher requirement 
-for water during construction it was decided to locate Iceland One at EML5. Due to its debris field from numerous 
+for water during construction it was decided to locate Island One at EML5. Due to its debris field from numerous 
 relocated asteroids such as [[Forge Palace]] this had been considered unsuitable by the US and GPR. However since then a 
 number of recycling factories had been built there and drones had dragged most of the larger debris to them, and the 
 mycelium networks self-healing properties would reduce maintenance needs for dealing with punctures from smaller debris.
 Florentin was given the position of lead project architect, and after an 8 month vendor selection and review process the
 project commenced in 50 BFC and was completed 12 years later, with the first settlers relocating there in 37 BFC. During
 the cislunar construction spree in the later [[Retrograde Diaspora]] most of the larger habitats copied the design of
-Iceland One.
+Island One.
 
-Just before the completion of Iceland One Alejandro resigned from the ESA and relocated back to Mars, where he joined a 
+Just before the completion of Island One Alejandro resigned from the ESA and relocated back to Mars, where he joined a 
 line marriage with Camilla Liu. He worked as a freelance consultant and worked on a number of orbital farm projects 
 which had funded after the events of the [[Stillborn Harvest]]. Amidst the neglect of the Retrograde Diaspora he began 
 publicly criticising the lack of funding from Earth for the Martian colonies, and during the recent Nanocat Fury events
 he has become a strong advocate for the Marsist position of intervention and troops from Earth.`,
-        classification: 'Yūmeijin'
+        classification: 'Yūmeijin',
+        imageName: "Alejandro Florentin.webp",
+        caption: "Inspecting backbone construction at Selene Dock"
     }],
     ['Aljanah Lunar Resort', {
 content: `Aljanah Lunar Resort is a luxury lunar resort and international flight arena located in the Vallis Schröteri,
