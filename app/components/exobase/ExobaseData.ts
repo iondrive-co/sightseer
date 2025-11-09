@@ -833,7 +833,9 @@ unsupervised by [[synth~Synthetic Intelligence]] is a great filter explanation a
 children's toys, as IAs became more useful and widespread they have become more commonly used in many locations. The
 term "familiar" was coined by [[Alejandro Florentin]] who worked on models for life coaching and protecting Earth 
 students moving to Mars.`,
-        classification: 'Infomatics/Synths'
+        classification: 'Infomatics/Synths',
+        imageName: "Familiar.webp",
+        caption: "Early model toy circa 150 BFC"
     }],
     ['Fatimid Trade Caliphate', {
         content:
@@ -2439,35 +2441,33 @@ Syrian born Turkish trained officer who was the principal founder of the [[Levan
 Syria through military action and diplomacy.
 
 Al-Hashim was born in Deir ez-Zor, Syria in 221 BFC. During the the collapse of the Governorate his family fled to 
-[[Türkiye]], settling in Gaziantep where his mother's brother, Mehmet Yılmaz, was working as a civil engineer. Mehmet 
-later married into the politically influential Aras family. Tariq grew up bilingual in Arabic and Turkish and 
-naturalised as a Turkish citizen in 209 BFC. He entered the Turkish Military Academy in 203 BFC, graduated four years 
-later with a focus on logistics, and was commissioned into the Turkish Land Forces.
+[[Türkiye]], settling in Gaziantep where his mother's brother, Mehmet Yılmaz, was working as a civil engineer and later 
+married into the politically influential Aras family. Tariq grew up bilingual in Arabic and Turkish and naturalised as a 
+Turkish citizen in 209 BFC. He entered the Turkish Military Academy in 203 BFC, graduated four years later with a focus 
+on logistics, and was commissioned into the Turkish Land Forces.
 
 Initially assigned to the 2nd Army area, Al-Hashim served in Şırnak, Hakkâri, and Mardin on infrastructure protection 
-alongside local gendarmerie units. His company managed cordons around dams and HV substations and supplied embedded 
-civil engineers to keep water and power flowing. In February 197 BFC when a local militia seized a supply convoy, 
-Al-Hashim pinned them down for over a day until their EWS batteries drained and then used drones and UGVs to gas them.
-The convoy drivers survived and Al-Hashim was promoted to captain. 
+alongside local gendarmerie units. In February 197 BFC when a local militia seized a supply convoy, Al-Hashim's platoon 
+pinned them down for over a day until their EWS batteries drained and then used drones and UGVs to gas them.
+The convoy drivers were rescued and Al-Hashim was promoted to captain. 
 
-During the 196 BFC drought on the upper Euphrates his unit was in charge of security for Atatürk dam. Through his uncle, 
-working as engineering advisor to the Environment Minister, Al-Hashim sat in on negotiations between the DSİ and tribal 
-councils and was the primary architect of a plan to release from Atatürk in return for informal curbs on cross-border 
-insurgent activities. The incident gained international media coverage and the Turkish media mostly described the 
-operation as "a benevolent gesture from the government", downplaying al-Hashim's role. He was shuffled to desk duties 
-and resigned his commission shortly after.
+During the 196 BFC drought his unit was in charge of security for the Atatürk dam. Through his uncle, working as 
+engineering advisor to the Environment Minister, Al-Hashim was asked to mediate between local tribal councils and the 
+DSİ. The councils had been requesting a release from Atatürk, and Al-Hashim secured one in return for informal curbs on 
+cross-border insurgent activities. The incident gained international media coverage and the Turkish media mostly 
+described the release as "a benevolent gesture from the government", downplaying al-Hashim's role. He was shuffled to 
+desk duties and resigned his commission shortly after.
 
 In 194 BFC he joined Anadolu Infrastructure and Logistics A.Ş. as the head of security in Uzbekistan. At that time
-Russian and neighbouring state control of the area was weakening and Uzbekistan was using BOT concessions to position 
-depots, river ports, and rail spurs in western Kazakhstan, northern Turkmenistan, and the Afghan border belt to form 
-what would later become Greater Uzbekistan. Irregulars from the North Caucasus and lower Volga had been raiding depots 
-along Caspian–Aral routes where Al-Hashim was responsible for managing convoy escort units. He placed convoys under 
-Uzbek contractors to claim corridor protections, and was responsible for the decision to reroute high value loads to 
-rail ferries at Aktau and Turkmenbashi. These measures lowered cargo losses and led to preferred-operator status on 
-several corridors, and he was mentioned positively by several press releases of the Turkish Wealth Fund. Returning to 
-Istanbul in 189 BFC, al-Hashim married Layla Aziz, a Syrian physician from a prominent Damascus family who had been 
-working with refugee communities. Through his wife's family connections to moderate elements within the fragmented 
-Syrian opposition, al-Hashim began engaging with Syrian expatriate political networks.
+Kazakhstan and Uzbekistan were racing for control of Turkmenistan's natural gas (in high demand prior to the widespread 
+availability of cheap solar produced synthetic natural gas) after the collapse of its Russian supported regime. Unpaid 
+tribal irregulars had been raiding depots along routes where Al-Hashim was now responsible for managing convoy escort 
+units. He placed convoys under Uzbek contractors to claim corridor protections, and was responsible for the decision to 
+reroute high value loads to rail ferries at Aktau and Turkmenbashi. These measures lowered cargo losses and led to 
+preferred-operator status on several corridors, and he was mentioned positively by several press releases of the Turkish 
+Wealth Fund. Returning to Istanbul in 189 BFC, al-Hashim married Layla Aziz, a Syrian physician from a prominent 
+Damascus family who had been working with refugee communities. Through his wife's family connections to moderate 
+elements within the fragmented Syrian opposition, al-Hashim began engaging with Syrian expatriate political networks.
 
 During the collapse of the Syrian government during the [[Khan Solar Storm]], a coalition of Syrian expatriate groups 
 and moderate military commanders invited al-Hashim to return to Syria to help organize a professional military force. 
