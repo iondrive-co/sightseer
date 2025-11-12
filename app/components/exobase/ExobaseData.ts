@@ -2222,18 +2222,21 @@ Michał Kowalczyk was a [[Lunar Industrial Engineering]] cryohydrologist who was
 mining operations in Shackleton Crater when the [[Khan Solar Storm]] hit. He was in an underground shelter at the bottom
 of a south pole crater and so relatively safe, however in an audio recording made minutes before succumbing to his fatal 
 radiation dose Kowalczyk recounted that the footage of the dancing curtains of light outside caused a revelation and 
-compelled him to head outside armed with industrial-grade laser mining cutters and several days worth of oxygen and 
-scrubbers. Dancing electrostatically charged dust was said to have guided him to a spot near the rim of the crater 
-which was bathed in almost perpetual sunlight, and there he spent his last days carving an immense, immovable relief 
-depicting the Virgin Mary.
+compelled him to head outside armed with climbing equipment, industrial-grade laser mining cutters, and several days 
+worth of oxygen and scrubbers. Dancing electrostatically charged dust was said to have guided him to a spot near the rim 
+of the crater which was bathed in almost perpetual sunlight, and there he spent his last days carving an immense, 
+immovable relief depicting the Virgin Mary.
 
-The icon became an emblem of the spiritual resilience of the Polish people, and over time structures were built to 
-provide safe pilgrimage routes, viewing platforms, and protective habitats to accommodate visitors. These became the
-Sanktuarium Jasności, officially recognized by the Vatican in 130 BFC as an area of devotional significance and 
-consecrated by a papal legate later that year. In 127 BFC Pope Benedict XVII recognized the graces of God in the 
-guidance of Kowalczyk and issued the bull Lunae Claritas, authorizing the canonical coronation of the Image of Our Lady 
-of Eternal Light. The pope visited the site in person two years later.`,
-        classification: 'Geo'
+The icon received extensive media coverage after the story was discovered, and it because a symbol of the spiritual 
+resilience of the Polish people. Over time structures were built to provide safe pilgrimage routes, viewing platforms, 
+and protective habitats to accommodate visitors. These became the Sanktuarium Jasności, officially recognized by the 
+Vatican in 130 BFC as an area of devotional significance and consecrated by a papal legate later that year. In 127 BFC 
+Pope Benedict XVII recognized the graces of God in the guidance of Kowalczyk and issued the bull Lunae Claritas, 
+authorizing the canonical coronation of the Image of Our Lady of Eternal Light. The pope visited the site in person two 
+years later.`,
+        classification: 'Geo',
+        imageName: "Image of Our Lady of Eternal Light.webp",
+        caption: "The icon from the right viewing platform"
     }],
     ['Scimitar Launch System', {
 content: `The Scimitar Launch System was a mass driver and first large scale space launch system. Built and operated by 
