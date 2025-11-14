@@ -204,7 +204,9 @@ for the minimum distance a standard antimatter engine should be located from peo
 prototypes there has never been a publicly disclosed containment failure in either a factory or craft. There have 
 recently been attempts by several corporations to remove some of the redundant safeguards in order to reduce the 
 exorbitant cost of operating an antimatter engine.`,
-        classification: 'Praxis/Energy'
+        classification: 'Praxis/Energy',
+        imageName: "Antimatter Factory.webp",
+        caption: "Upper shield of a sun-polar orbiting antimatter factory in 16 AFC during its first year of operation"
     }],
     ['Argentinian Mancomunidad', {
         content: `The Argentinian Mancomunidad is the only terrestrial freehold territory. Unlike the minarchic 
