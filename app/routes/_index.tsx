@@ -22,7 +22,7 @@ export default function Index() {
                         <p>&lt;--Cooking things</p>
                         <p>&lt;--Very short movie and game reviews</p>
                         <p>&lt;--Hohmann sim using three.js</p>
-                        <p>&lt;--Edit images in your browser without them leaving your device</p>
+                        <p>&lt;--Web version of <a href="https://github.com/iondrive-co/winnow" style={{ color: "blue" }}>winnow</a> for in-browser image editing</p>
                     </div>
                 </div>
             </div>

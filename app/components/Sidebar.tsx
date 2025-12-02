@@ -28,8 +28,8 @@ export default function Sidebar() {
       <Link to="/Solar" className="text-xl underline cursor-pointer">
         Solar
       </Link>
-      <Link to="/Tools" className="text-xl underline cursor-pointer">
-         Tools
+      <Link to="/Winnow" className="text-xl underline cursor-pointer">
+        Winnow
       </Link>
     </div>
   );
