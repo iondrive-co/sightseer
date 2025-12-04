@@ -634,6 +634,11 @@ $rt_createIntArrayFromData = data => {
     buffer.set(data);
     return new $rt_intArrayCls(buffer);
 },
+$rt_createDoubleArrayFromData = data => {
+    let buffer = new Float64Array(data.length);
+    buffer.set(data);
+    return new $rt_doubleArrayCls(buffer);
+},
 $rt_arraycls = cls => {
     let result = cls.$array;
     if (result === null) {
@@ -939,47 +944,6 @@ jl_Object_identity = $this => {
     if (!$platformThis.$id$)
         $platformThis.$id$ = $rt_nextId();
     return $this.$id$;
-},
-otj_JSObject = $rt_classWithoutFields(0),
-otjde_EventListener = $rt_classWithoutFields(0);
-function owb_BrowserMain$createControlBar$lambda$_28_2() {
-    jl_Object.call(this);
-    this.$_01 = null;
-}
-let owb_BrowserMain$createControlBar$lambda$_28_2__init_ = (var$0, var$1) => {
-    jl_Object__init_(var$0);
-    var$0.$_01 = var$1;
-},
-owb_BrowserMain$createControlBar$lambda$_28_2__init_0 = var_0 => {
-    let var_1 = new owb_BrowserMain$createControlBar$lambda$_28_2();
-    owb_BrowserMain$createControlBar$lambda$_28_2__init_(var_1, var_0);
-    return var_1;
-},
-owb_BrowserMain$createControlBar$lambda$_28_2_handleEvent = (var$0, var$1) => {
-    owb_BrowserMain_lambda$createControlBar$12(var$0.$_01, var$1);
-},
-owb_BrowserMain$createControlBar$lambda$_28_2_handleEvent$exported$0 = (var$0, var$1) => {
-    var$0.$handleEvent(var$1);
-},
-juf_Consumer = $rt_classWithoutFields(0);
-function owb_BrowserMain$bindControls$lambda$_44_5() {
-    jl_Object.call(this);
-    this.$_022 = null;
-}
-let owb_BrowserMain$bindControls$lambda$_44_5__init_ = (var$0, var$1) => {
-    jl_Object__init_(var$0);
-    var$0.$_022 = var$1;
-},
-owb_BrowserMain$bindControls$lambda$_44_5__init_0 = var_0 => {
-    let var_1 = new owb_BrowserMain$bindControls$lambda$_44_5();
-    owb_BrowserMain$bindControls$lambda$_44_5__init_(var_1, var_0);
-    return var_1;
-},
-owb_BrowserMain$bindControls$lambda$_44_5_accept0 = (var$0, var$1) => {
-    owb_BrowserMain$bindControls$lambda$_44_5_accept(var$0, var$1);
-},
-owb_BrowserMain$bindControls$lambda$_44_5_accept = (var$0, var$1) => {
-    owb_BrowserMain_adjustZoom(var$0.$_022, var$1.$doubleValue());
 };
 function jur_AbstractCharClass$LazyCharClass() {
     let a = this; jl_Object.call(a);
@@ -1109,99 +1073,6 @@ jl_IndexOutOfBoundsException__init_1 = var_0 => {
     let var_1 = new jl_IndexOutOfBoundsException();
     jl_IndexOutOfBoundsException__init_2(var_1, var_0);
     return var_1;
-};
-function owb_BrowserMain$createControlBar$lambda$_28_3() {
-    jl_Object.call(this);
-    this.$_08 = null;
-}
-let owb_BrowserMain$createControlBar$lambda$_28_3__init_ = (var$0, var$1) => {
-    jl_Object__init_(var$0);
-    var$0.$_08 = var$1;
-},
-owb_BrowserMain$createControlBar$lambda$_28_3__init_0 = var_0 => {
-    let var_1 = new owb_BrowserMain$createControlBar$lambda$_28_3();
-    owb_BrowserMain$createControlBar$lambda$_28_3__init_(var_1, var_0);
-    return var_1;
-},
-owb_BrowserMain$createControlBar$lambda$_28_3_handleEvent = (var$0, var$1) => {
-    owb_BrowserMain_lambda$createControlBar$13(var$0.$_08, var$1);
-},
-owb_BrowserMain$createControlBar$lambda$_28_3_handleEvent$exported$0 = (var$0, var$1) => {
-    var$0.$handleEvent(var$1);
-};
-function owb_BrowserMain$bindControls$lambda$_44_6() {
-    jl_Object.call(this);
-    this.$_04 = null;
-}
-let owb_BrowserMain$bindControls$lambda$_44_6__init_ = (var$0, var$1) => {
-    jl_Object__init_(var$0);
-    var$0.$_04 = var$1;
-},
-owb_BrowserMain$bindControls$lambda$_44_6__init_0 = var_0 => {
-    let var_1 = new owb_BrowserMain$bindControls$lambda$_44_6();
-    owb_BrowserMain$bindControls$lambda$_44_6__init_(var_1, var_0);
-    return var_1;
-},
-owb_BrowserMain$bindControls$lambda$_44_6_accept0 = (var$0, var$1) => {
-    owb_BrowserMain$bindControls$lambda$_44_6_accept(var$0, var$1);
-},
-owb_BrowserMain$bindControls$lambda$_44_6_accept = (var$0, var$1) => {
-    owb_BrowserMain_renameCurrent(var$0.$_04, var$1);
-};
-function owb_BrowserMain$createControlBar$lambda$_28_4() {
-    jl_Object.call(this);
-    this.$_014 = null;
-}
-let owb_BrowserMain$createControlBar$lambda$_28_4__init_ = (var$0, var$1) => {
-    jl_Object__init_(var$0);
-    var$0.$_014 = var$1;
-},
-owb_BrowserMain$createControlBar$lambda$_28_4__init_0 = var_0 => {
-    let var_1 = new owb_BrowserMain$createControlBar$lambda$_28_4();
-    owb_BrowserMain$createControlBar$lambda$_28_4__init_(var_1, var_0);
-    return var_1;
-},
-owb_BrowserMain$createControlBar$lambda$_28_4_handleEvent = (var$0, var$1) => {
-    owb_BrowserMain_lambda$createControlBar$14(var$0.$_014, var$1);
-},
-owb_BrowserMain$createControlBar$lambda$_28_4_handleEvent$exported$0 = (var$0, var$1) => {
-    var$0.$handleEvent(var$1);
-};
-function owb_BrowserMain$createControlBar$lambda$_28_5() {
-    jl_Object.call(this);
-    this.$_021 = null;
-}
-let owb_BrowserMain$createControlBar$lambda$_28_5__init_ = (var$0, var$1) => {
-    jl_Object__init_(var$0);
-    var$0.$_021 = var$1;
-},
-owb_BrowserMain$createControlBar$lambda$_28_5__init_0 = var_0 => {
-    let var_1 = new owb_BrowserMain$createControlBar$lambda$_28_5();
-    owb_BrowserMain$createControlBar$lambda$_28_5__init_(var_1, var_0);
-    return var_1;
-},
-owb_BrowserMain$createControlBar$lambda$_28_5_handleEvent = (var$0, var$1) => {
-    owb_BrowserMain_lambda$createControlBar$15(var$0.$_021, var$1);
-},
-owb_BrowserMain$createControlBar$lambda$_28_5_handleEvent$exported$0 = (var$0, var$1) => {
-    var$0.$handleEvent(var$1);
-},
-jl_Runnable = $rt_classWithoutFields(0);
-function owb_BrowserMain$bindControls$lambda$_44_1() {
-    jl_Object.call(this);
-    this.$_027 = null;
-}
-let owb_BrowserMain$bindControls$lambda$_44_1__init_ = (var$0, var$1) => {
-    jl_Object__init_(var$0);
-    var$0.$_027 = var$1;
-},
-owb_BrowserMain$bindControls$lambda$_44_1__init_0 = var_0 => {
-    let var_1 = new owb_BrowserMain$bindControls$lambda$_44_1();
-    owb_BrowserMain$bindControls$lambda$_44_1__init_(var_1, var_0);
-    return var_1;
-},
-owb_BrowserMain$bindControls$lambda$_44_1_run = var$0 => {
-    owb_BrowserMain_lambda$bindControls$23(var$0.$_027);
 },
 jur_SpecialToken = $rt_classWithoutFields(),
 jur_SpecialToken__init_ = $this => {
@@ -1307,22 +1178,6 @@ jur_AbstractCharClass$LazyJavaWhitespace$1__init_0 = var_0 => {
 },
 jur_AbstractCharClass$LazyJavaWhitespace$1_contains = ($this, $ch) => {
     return jl_Character_isWhitespace($ch);
-};
-function owb_BrowserMain$bindControls$lambda$_44_2() {
-    jl_Object.call(this);
-    this.$_06 = null;
-}
-let owb_BrowserMain$bindControls$lambda$_44_2__init_ = (var$0, var$1) => {
-    jl_Object__init_(var$0);
-    var$0.$_06 = var$1;
-},
-owb_BrowserMain$bindControls$lambda$_44_2__init_0 = var_0 => {
-    let var_1 = new owb_BrowserMain$bindControls$lambda$_44_2();
-    owb_BrowserMain$bindControls$lambda$_44_2__init_(var_1, var_0);
-    return var_1;
-},
-owb_BrowserMain$bindControls$lambda$_44_2_run = var$0 => {
-    owb_BrowserMain_cropImage(var$0.$_06);
 },
 jur_AbstractCharClass$LazyJavaJavaIdentifierStart = $rt_classWithoutFields(jur_AbstractCharClass$LazyCharClass),
 jur_AbstractCharClass$LazyJavaJavaIdentifierStart__init_ = $this => {
@@ -1338,41 +1193,6 @@ jur_AbstractCharClass$LazyJavaJavaIdentifierStart_computeValue = $this => {
     $chCl = jur_AbstractCharClass$LazyJavaJavaIdentifierStart$1__init_0($this);
     $chCl.$mayContainSupplCodepoints0 = 1;
     return $chCl;
-};
-function owb_BrowserMain$bindControls$lambda$_44_3() {
-    jl_Object.call(this);
-    this.$_07 = null;
-}
-let owb_BrowserMain$bindControls$lambda$_44_3__init_ = (var$0, var$1) => {
-    jl_Object__init_(var$0);
-    var$0.$_07 = var$1;
-},
-owb_BrowserMain$bindControls$lambda$_44_3__init_0 = var_0 => {
-    let var_1 = new owb_BrowserMain$bindControls$lambda$_44_3();
-    owb_BrowserMain$bindControls$lambda$_44_3__init_(var_1, var_0);
-    return var_1;
-},
-owb_BrowserMain$bindControls$lambda$_44_3_accept0 = (var$0, var$1) => {
-    owb_BrowserMain$bindControls$lambda$_44_3_accept(var$0, var$1);
-},
-owb_BrowserMain$bindControls$lambda$_44_3_accept = (var$0, var$1) => {
-    owb_BrowserMain_rotateImage(var$0.$_07, var$1.$doubleValue());
-};
-function owb_BrowserMain$bindControls$lambda$_44_4() {
-    jl_Object.call(this);
-    this.$_012 = null;
-}
-let owb_BrowserMain$bindControls$lambda$_44_4__init_ = (var$0, var$1) => {
-    jl_Object__init_(var$0);
-    var$0.$_012 = var$1;
-},
-owb_BrowserMain$bindControls$lambda$_44_4__init_0 = var_0 => {
-    let var_1 = new owb_BrowserMain$bindControls$lambda$_44_4();
-    owb_BrowserMain$bindControls$lambda$_44_4__init_(var_1, var_0);
-    return var_1;
-},
-owb_BrowserMain$bindControls$lambda$_44_4_run = var$0 => {
-    owb_BrowserMain_undo(var$0.$_012);
 },
 jl_Record = $rt_classWithoutFields(),
 jl_Record__init_ = $this => {
@@ -1563,44 +1383,6 @@ jl_Integer_rotateLeft = ($i, $distance) => {
 },
 jl_Integer__clinit_ = () => {
     jl_Integer_TYPE = $rt_cls($rt_intcls);
-};
-function owb_BrowserMain$createControlBar$lambda$_28_0() {
-    jl_Object.call(this);
-    this.$_017 = null;
-}
-let owb_BrowserMain$createControlBar$lambda$_28_0__init_ = (var$0, var$1) => {
-    jl_Object__init_(var$0);
-    var$0.$_017 = var$1;
-},
-owb_BrowserMain$createControlBar$lambda$_28_0__init_0 = var_0 => {
-    let var_1 = new owb_BrowserMain$createControlBar$lambda$_28_0();
-    owb_BrowserMain$createControlBar$lambda$_28_0__init_(var_1, var_0);
-    return var_1;
-},
-owb_BrowserMain$createControlBar$lambda$_28_0_handleEvent = (var$0, var$1) => {
-    owb_BrowserMain_lambda$createControlBar$10(var$0.$_017, var$1);
-},
-owb_BrowserMain$createControlBar$lambda$_28_0_handleEvent$exported$0 = (var$0, var$1) => {
-    var$0.$handleEvent(var$1);
-};
-function owb_BrowserMain$createControlBar$lambda$_28_1() {
-    jl_Object.call(this);
-    this.$_023 = null;
-}
-let owb_BrowserMain$createControlBar$lambda$_28_1__init_ = (var$0, var$1) => {
-    jl_Object__init_(var$0);
-    var$0.$_023 = var$1;
-},
-owb_BrowserMain$createControlBar$lambda$_28_1__init_0 = var_0 => {
-    let var_1 = new owb_BrowserMain$createControlBar$lambda$_28_1();
-    owb_BrowserMain$createControlBar$lambda$_28_1__init_(var_1, var_0);
-    return var_1;
-},
-owb_BrowserMain$createControlBar$lambda$_28_1_handleEvent = (var$0, var$1) => {
-    owb_BrowserMain_lambda$createControlBar$11(var$0.$_023, var$1);
-},
-owb_BrowserMain$createControlBar$lambda$_28_1_handleEvent$exported$0 = (var$0, var$1) => {
-    var$0.$handleEvent(var$1);
 },
 jl_AbstractStringBuilder$Constants = $rt_classWithoutFields(),
 jl_AbstractStringBuilder$Constants_longLogPowersOfTen = null,
@@ -1875,6 +1657,7 @@ jur_SingleSet_processSecondPass = $this => {
         $this.$kid.$processSecondPass();
     }
 },
+otj_JSObject = $rt_classWithoutFields(0),
 otjdx_Node = $rt_classWithoutFields(0),
 otjdx_Document = $rt_classWithoutFields(0),
 otjde_EventTarget = $rt_classWithoutFields(0),
@@ -2170,7 +1953,7 @@ owc_ControlViewModel_setFilename = ($this, $safeName) => {
         return;
     $this.$filename = $safeName;
     if ($this.$onRename !== null)
-        $this.$onRename.$accept1($safeName);
+        $this.$onRename.$accept($safeName);
 },
 owc_ControlViewModel_status = $this => {
     let var$1, var$2, var$3;
@@ -2229,7 +2012,7 @@ owc_ControlViewModel_triggerCrop = $this => {
 },
 owc_ControlViewModel_triggerRotate = ($this, $degrees) => {
     if ($this.$onRotate !== null)
-        $this.$onRotate.$accept1(jl_Double_valueOf($degrees));
+        $this.$onRotate.$accept(jl_Double_valueOf($degrees));
 },
 owc_ControlViewModel_triggerUndo = $this => {
     if ($this.$onUndo !== null)
@@ -2237,7 +2020,7 @@ owc_ControlViewModel_triggerUndo = $this => {
 },
 owc_ControlViewModel_triggerZoom = ($this, $factor) => {
     if ($this.$onZoom !== null)
-        $this.$onZoom.$accept1(jl_Double_valueOf($factor));
+        $this.$onZoom.$accept(jl_Double_valueOf($factor));
 };
 function jur_AbstractCharClass$2() {
     let a = this; jur_AbstractCharClass.call(a);
@@ -2710,6 +2493,26 @@ jur_CharClass$11__init_0 = (var_0, var_1, var_2, var_3) => {
 },
 jur_CharClass$11_contains = ($this, $ch) => {
     return !($this.$val$curAlt4 ^ $this.$val$nb2.$contains($ch)) && !$this.$val$clazz8.$contains($ch) ? 0 : 1;
+},
+otjde_EventListener = $rt_classWithoutFields(0);
+function owb_BrowserMain$renderFilenameEditor$lambda$_30_0() {
+    jl_Object.call(this);
+    this.$_026 = null;
+}
+let owb_BrowserMain$renderFilenameEditor$lambda$_30_0__init_ = (var$0, var$1) => {
+    jl_Object__init_(var$0);
+    var$0.$_026 = var$1;
+},
+owb_BrowserMain$renderFilenameEditor$lambda$_30_0__init_0 = var_0 => {
+    let var_1 = new owb_BrowserMain$renderFilenameEditor$lambda$_30_0();
+    owb_BrowserMain$renderFilenameEditor$lambda$_30_0__init_(var_1, var_0);
+    return var_1;
+},
+owb_BrowserMain$renderFilenameEditor$lambda$_30_0_handleEvent = (var$0, var$1) => {
+    owb_BrowserMain_lambda$renderFilenameEditor$18(var$0.$_026, var$1);
+},
+owb_BrowserMain$renderFilenameEditor$lambda$_30_0_handleEvent$exported$0 = (var$0, var$1) => {
+    var$0.$handleEvent(var$1);
 };
 function jur_AbstractCharClass$LazyCategory() {
     let a = this; jur_AbstractCharClass$LazyCharClass.call(a);
@@ -5269,6 +5072,15 @@ owc_InteractionController_setSelectionSize = ($this, $width, $height) => {
 owc_InteractionController_zoom0 = ($this, $factor) => {
     $this.$zoom1 = jl_Math_max0(0.1, jl_Math_min0($this.$zoom1 * $factor, 8.0));
 },
+owc_InteractionController_setZoom = ($this, $newZoom) => {
+    $this.$zoom1 = jl_Math_max0(0.1, jl_Math_min0($newZoom, 8.0));
+},
+owc_InteractionController_zoomToFit = ($this, $viewportWidth, $viewportHeight) => {
+    let $scaleX, $scaleY;
+    $scaleX = $viewportWidth / owc_PixelImage_getWidth($this.$image0);
+    $scaleY = $viewportHeight / owc_PixelImage_getHeight($this.$image0);
+    owc_InteractionController_setZoom($this, jl_Math_min0(1.0, jl_Math_min0($scaleX, $scaleY)));
+},
 owc_InteractionController_startSelection = ($this, $x, $y) => {
     owc_SelectionModel_setRegion($this.$selection0, $x, $y, $x, $y);
 },
@@ -5368,54 +5180,13 @@ jlr_Array_newInstanceImpl = (var$1, var$2) => {
     }
     return $rt_createArray(var$1, var$2);
 },
-ju_ListIterator = $rt_classWithoutFields(0);
-function owb_BrowserMain$createSegmentCombo$lambda$_30_1() {
-    jl_Object.call(this);
-    this.$_03 = null;
-}
-let owb_BrowserMain$createSegmentCombo$lambda$_30_1__init_ = (var$0, var$1) => {
-    jl_Object__init_(var$0);
-    var$0.$_03 = var$1;
-},
-owb_BrowserMain$createSegmentCombo$lambda$_30_1__init_0 = var_0 => {
-    let var_1 = new owb_BrowserMain$createSegmentCombo$lambda$_30_1();
-    owb_BrowserMain$createSegmentCombo$lambda$_30_1__init_(var_1, var_0);
-    return var_1;
-},
-owb_BrowserMain$createSegmentCombo$lambda$_30_1_handleEvent0 = (var$0, var$1) => {
-    owb_BrowserMain$createSegmentCombo$lambda$_30_1_handleEvent(var$0, var$1);
-},
-owb_BrowserMain$createSegmentCombo$lambda$_30_1_handleEvent = (var$0, var$1) => {
-    owb_BrowserMain_lambda$createSegmentCombo$18(var$0.$_03, var$1);
-},
-owb_BrowserMain$createSegmentCombo$lambda$_30_1_handleEvent$exported$0 = (var$0, var$1) => {
-    var$0.$handleEvent(var$1);
-};
-function owb_BrowserMain$createSegmentCombo$lambda$_30_0() {
-    jl_Object.call(this);
-    this.$_019 = null;
-}
-let owb_BrowserMain$createSegmentCombo$lambda$_30_0__init_ = (var$0, var$1) => {
-    jl_Object__init_(var$0);
-    var$0.$_019 = var$1;
-},
-owb_BrowserMain$createSegmentCombo$lambda$_30_0__init_0 = var_0 => {
-    let var_1 = new owb_BrowserMain$createSegmentCombo$lambda$_30_0();
-    owb_BrowserMain$createSegmentCombo$lambda$_30_0__init_(var_1, var_0);
-    return var_1;
-},
-owb_BrowserMain$createSegmentCombo$lambda$_30_0_handleEvent = (var$0, var$1) => {
-    owb_BrowserMain_lambda$createSegmentCombo$17(var$0.$_019, var$1);
-},
-owb_BrowserMain$createSegmentCombo$lambda$_30_0_handleEvent$exported$0 = (var$0, var$1) => {
-    var$0.$handleEvent(var$1);
-},
+ju_ListIterator = $rt_classWithoutFields(0),
 owc_SelectionAdjuster = $rt_classWithoutFields(),
-owc_SelectionAdjuster_applyShortcut = ($keyCode, $ctrl, $shift, $delta, $model) => {
-    if ($ctrl && $model !== null) {
+owc_SelectionAdjuster_applyShortcut = (var$1, var$2, $shift, $delta, $model) => {
+    if (var$2 && $model !== null) {
         if (!$shift)
-            return owc_SelectionAdjuster_applyCtrlOnly($keyCode, $delta, $model);
-        return owc_SelectionAdjuster_applyShifted($keyCode, $delta, $model);
+            return owc_SelectionAdjuster_applyCtrlOnly(var$1, $delta, $model);
+        return owc_SelectionAdjuster_applyShifted(var$1, $delta, $model);
     }
     return 0;
 },
@@ -5485,6 +5256,7 @@ otcit_DoubleAnalyzer$Result__init_ = () => {
     otcit_DoubleAnalyzer$Result__init_0(var_0);
     return var_0;
 },
+jl_Runnable = $rt_classWithoutFields(0),
 otpp_ResourceAccessor = $rt_classWithoutFields();
 function owc_SelectionModel() {
     let a = this; jl_Object.call(a);
@@ -5843,7 +5615,7 @@ otji_JSWrapper$_clinit_$lambda$_33_0_accept = (var$0, var$1) => {
     otji_JSWrapper_lambda$static$0(var$1);
 },
 otji_JSWrapper$_clinit_$lambda$_33_0_accept$exported$0 = (var$0, var$1) => {
-    var$0.$accept1(otji_JSWrapper_jsToJava(var$1));
+    var$0.$accept(otji_JSWrapper_jsToJava(var$1));
 };
 function jur_AbstractCharClass$LazyJavaUnicodeIdentifierStart$1() {
     jur_AbstractCharClass.call(this);
@@ -6285,6 +6057,22 @@ jur_AltGroupQuantifierSet_matches = ($this, $stringIndex, $testString, $matchRes
 jur_AltGroupQuantifierSet_setNext = ($this, $next) => {
     jur_AbstractSet_setNext($this, $next);
     $this.$innerSet.$setNext($next);
+};
+function owb_BrowserMain$bindControls$lambda$_45_4() {
+    jl_Object.call(this);
+    this.$_014 = null;
+}
+let owb_BrowserMain$bindControls$lambda$_45_4__init_ = (var$0, var$1) => {
+    jl_Object__init_(var$0);
+    var$0.$_014 = var$1;
+},
+owb_BrowserMain$bindControls$lambda$_45_4__init_0 = var_0 => {
+    let var_1 = new owb_BrowserMain$bindControls$lambda$_45_4();
+    owb_BrowserMain$bindControls$lambda$_45_4__init_(var_1, var_0);
+    return var_1;
+},
+owb_BrowserMain$bindControls$lambda$_45_4_run = var$0 => {
+    owb_BrowserMain_undo(var$0.$_014);
 },
 jur_AbstractCharClass$LazyUpper = $rt_classWithoutFields(jur_AbstractCharClass$LazyCharClass),
 jur_AbstractCharClass$LazyUpper__init_ = $this => {
@@ -6297,6 +6085,45 @@ jur_AbstractCharClass$LazyUpper__init_0 = () => {
 },
 jur_AbstractCharClass$LazyUpper_computeValue = $this => {
     return (jur_CharClass__init_()).$add0(65, 90);
+},
+juf_Consumer = $rt_classWithoutFields(0);
+function owb_BrowserMain$bindControls$lambda$_45_5() {
+    jl_Object.call(this);
+    this.$_07 = null;
+}
+let owb_BrowserMain$bindControls$lambda$_45_5__init_ = (var$0, var$1) => {
+    jl_Object__init_(var$0);
+    var$0.$_07 = var$1;
+},
+owb_BrowserMain$bindControls$lambda$_45_5__init_0 = var_0 => {
+    let var_1 = new owb_BrowserMain$bindControls$lambda$_45_5();
+    owb_BrowserMain$bindControls$lambda$_45_5__init_(var_1, var_0);
+    return var_1;
+},
+owb_BrowserMain$bindControls$lambda$_45_5_accept0 = (var$0, var$1) => {
+    owb_BrowserMain$bindControls$lambda$_45_5_accept(var$0, var$1);
+},
+owb_BrowserMain$bindControls$lambda$_45_5_accept = (var$0, var$1) => {
+    owb_BrowserMain_adjustZoom(var$0.$_07, var$1.$doubleValue());
+};
+function owb_BrowserMain$bindControls$lambda$_45_6() {
+    jl_Object.call(this);
+    this.$_027 = null;
+}
+let owb_BrowserMain$bindControls$lambda$_45_6__init_ = (var$0, var$1) => {
+    jl_Object__init_(var$0);
+    var$0.$_027 = var$1;
+},
+owb_BrowserMain$bindControls$lambda$_45_6__init_0 = var_0 => {
+    let var_1 = new owb_BrowserMain$bindControls$lambda$_45_6();
+    owb_BrowserMain$bindControls$lambda$_45_6__init_(var_1, var_0);
+    return var_1;
+},
+owb_BrowserMain$bindControls$lambda$_45_6_accept0 = (var$0, var$1) => {
+    owb_BrowserMain$bindControls$lambda$_45_6_accept(var$0, var$1);
+},
+owb_BrowserMain$bindControls$lambda$_45_6_accept = (var$0, var$1) => {
+    owb_BrowserMain_renameCurrent(var$0.$_027, var$1);
 },
 jur_MatchResult = $rt_classWithoutFields(0);
 function jur_MatchResultImpl() {
@@ -6450,6 +6277,38 @@ jur_MatchResultImpl_hasTransparentBounds = $this => {
 jur_MatchResultImpl_getPreviousMatchEnd = $this => {
     return $this.$previousMatch;
 };
+function owb_BrowserMain$bindControls$lambda$_45_0() {
+    jl_Object.call(this);
+    this.$_012 = null;
+}
+let owb_BrowserMain$bindControls$lambda$_45_0__init_ = (var$0, var$1) => {
+    jl_Object__init_(var$0);
+    var$0.$_012 = var$1;
+},
+owb_BrowserMain$bindControls$lambda$_45_0__init_0 = var_0 => {
+    let var_1 = new owb_BrowserMain$bindControls$lambda$_45_0();
+    owb_BrowserMain$bindControls$lambda$_45_0__init_(var_1, var_0);
+    return var_1;
+},
+owb_BrowserMain$bindControls$lambda$_45_0_run = var$0 => {
+    owb_BrowserMain_lambda$bindControls$24(var$0.$_012);
+};
+function owb_BrowserMain$bindControls$lambda$_45_1() {
+    jl_Object.call(this);
+    this.$_03 = null;
+}
+let owb_BrowserMain$bindControls$lambda$_45_1__init_ = (var$0, var$1) => {
+    jl_Object__init_(var$0);
+    var$0.$_03 = var$1;
+},
+owb_BrowserMain$bindControls$lambda$_45_1__init_0 = var_0 => {
+    let var_1 = new owb_BrowserMain$bindControls$lambda$_45_1();
+    owb_BrowserMain$bindControls$lambda$_45_1__init_(var_1, var_0);
+    return var_1;
+},
+owb_BrowserMain$bindControls$lambda$_45_1_run = var$0 => {
+    owb_BrowserMain_lambda$bindControls$25(var$0.$_03);
+};
 function jur_UCIRangeSet() {
     let a = this; jur_LeafSet.call(a);
     a.$chars1 = null;
@@ -6470,6 +6329,41 @@ jur_UCIRangeSet_accepts = ($this, $strIndex, $testString) => {
     var$3 = $this.$chars1;
     var$4 = jl_Character_toUpperCase($testString.$charAt($strIndex));
     return !var$3.$contains(jl_Character_toLowerCase(var$4)) ? (-1) : 1;
+};
+function owb_BrowserMain$bindControls$lambda$_45_2() {
+    jl_Object.call(this);
+    this.$_024 = null;
+}
+let owb_BrowserMain$bindControls$lambda$_45_2__init_ = (var$0, var$1) => {
+    jl_Object__init_(var$0);
+    var$0.$_024 = var$1;
+},
+owb_BrowserMain$bindControls$lambda$_45_2__init_0 = var_0 => {
+    let var_1 = new owb_BrowserMain$bindControls$lambda$_45_2();
+    owb_BrowserMain$bindControls$lambda$_45_2__init_(var_1, var_0);
+    return var_1;
+},
+owb_BrowserMain$bindControls$lambda$_45_2_run = var$0 => {
+    owb_BrowserMain_cropImage(var$0.$_024);
+};
+function owb_BrowserMain$bindControls$lambda$_45_3() {
+    jl_Object.call(this);
+    this.$_020 = null;
+}
+let owb_BrowserMain$bindControls$lambda$_45_3__init_ = (var$0, var$1) => {
+    jl_Object__init_(var$0);
+    var$0.$_020 = var$1;
+},
+owb_BrowserMain$bindControls$lambda$_45_3__init_0 = var_0 => {
+    let var_1 = new owb_BrowserMain$bindControls$lambda$_45_3();
+    owb_BrowserMain$bindControls$lambda$_45_3__init_(var_1, var_0);
+    return var_1;
+},
+owb_BrowserMain$bindControls$lambda$_45_3_accept0 = (var$0, var$1) => {
+    owb_BrowserMain$bindControls$lambda$_45_3_accept(var$0, var$1);
+},
+owb_BrowserMain$bindControls$lambda$_45_3_accept = (var$0, var$1) => {
+    owb_BrowserMain_rotateImage(var$0.$_020, var$1.$doubleValue());
 };
 function otji_JSWrapper() {
     jl_Object.call(this);
@@ -6731,7 +6625,7 @@ otji_JSWrapper$_clinit_$lambda$_33_1_accept = (var$0, var$1) => {
     otji_JSWrapper_lambda$static$1(var$1);
 },
 otji_JSWrapper$_clinit_$lambda$_33_1_accept$exported$0 = (var$0, var$1) => {
-    var$0.$accept1(otji_JSWrapper_jsToJava(var$1));
+    var$0.$accept(otji_JSWrapper_jsToJava(var$1));
 },
 ju_NoSuchElementException = $rt_classWithoutFields(jl_RuntimeException),
 ju_NoSuchElementException__init_0 = $this => {
@@ -7044,22 +6938,6 @@ jl_Class_isPrimitive = $this => {
 },
 jl_Class_getComponentType = $this => {
     return jl_Class_getClass(otp_Platform_getArrayItem($this.$platformClass));
-};
-function owb_BrowserMain$bindControls$lambda$_44_0() {
-    jl_Object.call(this);
-    this.$_020 = null;
-}
-let owb_BrowserMain$bindControls$lambda$_44_0__init_ = (var$0, var$1) => {
-    jl_Object__init_(var$0);
-    var$0.$_020 = var$1;
-},
-owb_BrowserMain$bindControls$lambda$_44_0__init_0 = var_0 => {
-    let var_1 = new owb_BrowserMain$bindControls$lambda$_44_0();
-    owb_BrowserMain$bindControls$lambda$_44_0__init_(var_1, var_0);
-    return var_1;
-},
-owb_BrowserMain$bindControls$lambda$_44_0_run = var$0 => {
-    owb_BrowserMain_lambda$bindControls$22(var$0.$_020);
 };
 function ju_BitSet() {
     let a = this; jl_Object.call(a);
@@ -7788,25 +7666,6 @@ jur_CharClass$7__init_0 = (var_0, var_1) => {
 },
 jur_CharClass$7_contains = ($this, $ch) => {
     return $this.$val$clazz7.$contains($ch);
-};
-function owb_BrowserMain$addSelectionDragHandlers$lambda$_39_2() {
-    jl_Object.call(this);
-    this.$_016 = null;
-}
-let owb_BrowserMain$addSelectionDragHandlers$lambda$_39_2__init_ = (var$0, var$1) => {
-    jl_Object__init_(var$0);
-    var$0.$_016 = var$1;
-},
-owb_BrowserMain$addSelectionDragHandlers$lambda$_39_2__init_0 = var_0 => {
-    let var_1 = new owb_BrowserMain$addSelectionDragHandlers$lambda$_39_2();
-    owb_BrowserMain$addSelectionDragHandlers$lambda$_39_2__init_(var_1, var_0);
-    return var_1;
-},
-owb_BrowserMain$addSelectionDragHandlers$lambda$_39_2_handleEvent = (var$0, var$1) => {
-    owb_BrowserMain_lambda$addSelectionDragHandlers$21(var$0.$_016, var$1);
-},
-owb_BrowserMain$addSelectionDragHandlers$lambda$_39_2_handleEvent$exported$0 = (var$0, var$1) => {
-    var$0.$handleEvent(var$1);
 },
 jur_AbstractCharClass$LazyXDigit = $rt_classWithoutFields(jur_AbstractCharClass$LazyCharClass),
 jur_AbstractCharClass$LazyXDigit__init_ = $this => {
@@ -7840,28 +7699,6 @@ jur_CharClass$8__init_0 = (var_0, var_1, var_2) => {
 jur_CharClass$8_contains = ($this, $ch) => {
     return !$this.$val$clazz1.$contains($ch) && !($this.$val$curAlt2 ^ $this.$this$02.$bits.$get0($ch)) ? 1 : 0;
 };
-function owb_BrowserMain$addSelectionDragHandlers$lambda$_39_1() {
-    jl_Object.call(this);
-    this.$_010 = null;
-}
-let owb_BrowserMain$addSelectionDragHandlers$lambda$_39_1__init_ = (var$0, var$1) => {
-    jl_Object__init_(var$0);
-    var$0.$_010 = var$1;
-},
-owb_BrowserMain$addSelectionDragHandlers$lambda$_39_1__init_0 = var_0 => {
-    let var_1 = new owb_BrowserMain$addSelectionDragHandlers$lambda$_39_1();
-    owb_BrowserMain$addSelectionDragHandlers$lambda$_39_1__init_(var_1, var_0);
-    return var_1;
-},
-owb_BrowserMain$addSelectionDragHandlers$lambda$_39_1_handleEvent0 = (var$0, var$1) => {
-    owb_BrowserMain$addSelectionDragHandlers$lambda$_39_1_handleEvent(var$0, var$1);
-},
-owb_BrowserMain$addSelectionDragHandlers$lambda$_39_1_handleEvent = (var$0, var$1) => {
-    owb_BrowserMain_lambda$addSelectionDragHandlers$20(var$0.$_010, var$1);
-},
-owb_BrowserMain$addSelectionDragHandlers$lambda$_39_1_handleEvent$exported$0 = (var$0, var$1) => {
-    var$0.$handleEvent(var$1);
-};
 function jur_CharClass$5() {
     let a = this; jur_AbstractCharClass.call(a);
     a.$val$curAlt7 = 0;
@@ -7883,28 +7720,6 @@ jur_CharClass$5__init_0 = (var_0, var_1, var_2, var_3) => {
 },
 jur_CharClass$5_contains = ($this, $ch) => {
     return $this.$val$curAlt7 ^ (!$this.$val$nb3.$contains($ch) && !$this.$val$cc0.$contains($ch) ? 0 : 1);
-};
-function owb_BrowserMain$addSelectionDragHandlers$lambda$_39_0() {
-    jl_Object.call(this);
-    this.$_00 = null;
-}
-let owb_BrowserMain$addSelectionDragHandlers$lambda$_39_0__init_ = (var$0, var$1) => {
-    jl_Object__init_(var$0);
-    var$0.$_00 = var$1;
-},
-owb_BrowserMain$addSelectionDragHandlers$lambda$_39_0__init_0 = var_0 => {
-    let var_1 = new owb_BrowserMain$addSelectionDragHandlers$lambda$_39_0();
-    owb_BrowserMain$addSelectionDragHandlers$lambda$_39_0__init_(var_1, var_0);
-    return var_1;
-},
-owb_BrowserMain$addSelectionDragHandlers$lambda$_39_0_handleEvent0 = (var$0, var$1) => {
-    owb_BrowserMain$addSelectionDragHandlers$lambda$_39_0_handleEvent(var$0, var$1);
-},
-owb_BrowserMain$addSelectionDragHandlers$lambda$_39_0_handleEvent = (var$0, var$1) => {
-    owb_BrowserMain_lambda$addSelectionDragHandlers$19(var$0.$_00, var$1);
-},
-owb_BrowserMain$addSelectionDragHandlers$lambda$_39_0_handleEvent$exported$0 = (var$0, var$1) => {
-    var$0.$handleEvent(var$1);
 };
 function jur_CharClass$6() {
     let a = this; jur_AbstractCharClass.call(a);
@@ -9166,29 +8981,6 @@ jur_AbstractCharClass$LazyPunct__init_0 = () => {
 jur_AbstractCharClass$LazyPunct_computeValue = $this => {
     return (((jur_CharClass__init_()).$add0(33, 64)).$add0(91, 96)).$add0(123, 126);
 };
-function owb_BrowserMain$lambda$handleFileSelect$9$lambda$_65_0() {
-    let a = this; jl_Object.call(a);
-    a.$_013 = null;
-    a.$_1 = null;
-    a.$_2 = null;
-}
-let owb_BrowserMain$lambda$handleFileSelect$9$lambda$_65_0__init_ = (var$0, var$1, var$2, var$3) => {
-    jl_Object__init_(var$0);
-    var$0.$_013 = var$1;
-    var$0.$_1 = var$2;
-    var$0.$_2 = var$3;
-},
-owb_BrowserMain$lambda$handleFileSelect$9$lambda$_65_0__init_0 = (var_0, var_1, var_2) => {
-    let var_3 = new owb_BrowserMain$lambda$handleFileSelect$9$lambda$_65_0();
-    owb_BrowserMain$lambda$handleFileSelect$9$lambda$_65_0__init_(var_3, var_0, var_1, var_2);
-    return var_3;
-},
-owb_BrowserMain$lambda$handleFileSelect$9$lambda$_65_0_handleEvent = (var$0, var$1) => {
-    owb_BrowserMain_lambda$handleFileSelect$8(var$0.$_013, var$0.$_1, var$0.$_2, var$1);
-},
-owb_BrowserMain$lambda$handleFileSelect$9$lambda$_65_0_handleEvent$exported$0 = (var$0, var$1) => {
-    var$0.$handleEvent(var$1);
-};
 function jur_AbstractCharClass$LazyJavaTitleCase$1() {
     jur_AbstractCharClass.call(this);
     this.$this$014 = null;
@@ -9210,9 +9002,13 @@ function owb_WebCanvasAdapter() {
     a.$canvas0 = null;
     a.$ctx = null;
     a.$controller0 = null;
+    a.$viewportWidth = 0;
+    a.$viewportHeight = 0;
 }
 let owb_WebCanvasAdapter__init_ = ($this, $canvas, $ctx) => {
     jl_Object__init_($this);
+    $this.$viewportWidth = 900;
+    $this.$viewportHeight = 700;
     $this.$canvas0 = $canvas;
     $this.$ctx = $ctx;
 },
@@ -9221,9 +9017,14 @@ owb_WebCanvasAdapter__init_0 = (var_0, var_1) => {
     owb_WebCanvasAdapter__init_(var_2, var_0, var_1);
     return var_2;
 },
+owb_WebCanvasAdapter_setViewportSize = ($this, $width, $height) => {
+    $this.$viewportWidth = $width;
+    $this.$viewportHeight = $height;
+},
 owb_WebCanvasAdapter_setImage = ($this, $image) => {
     $this.$controller0 = owc_InteractionController__init_0($image);
     owc_SelectionModel_setRegion(owc_InteractionController_selection($this.$controller0), 0.0, 0.0, owc_PixelImage_getWidth($image), owc_PixelImage_getHeight($image));
+    owc_InteractionController_zoomToFit($this.$controller0, $this.$viewportWidth, $this.$viewportHeight);
     owb_WebCanvasAdapter_redraw($this);
 },
 owb_WebCanvasAdapter_startSelection = ($this, $x, $y) => {
@@ -9248,7 +9049,7 @@ owb_WebCanvasAdapter_controller = $this => {
     return $this.$controller0;
 },
 owb_WebCanvasAdapter_redraw = $this => {
-    let $image, $zoom, $scaledWidth, $scaledHeight, var$5, var$6, var$7, var$8, $sourceCanvas, var$10, var$11, $imageData, $data, $y, $x, $argb, $index, var$18, var$19;
+    let $image, $zoom, $scaledWidth, $scaledHeight, var$5, var$6, var$7, var$8, $sourceCanvas, var$10, var$11, $imageData, $data, $y, $x, $argb, $index, var$18, $offsetX, $offsetY;
     if ($this.$controller0 === null)
         return;
     $image = owc_InteractionController_getImage($this.$controller0);
@@ -9256,14 +9057,15 @@ owb_WebCanvasAdapter_redraw = $this => {
     $scaledWidth = owc_PixelImage_getWidth($image) * $zoom | 0;
     $scaledHeight = owc_PixelImage_getHeight($image) * $zoom | 0;
     var$5 = $this.$canvas0;
-    var$6 = $scaledWidth;
+    var$6 = $this.$viewportWidth;
     var$5.width = var$6;
     var$5 = $this.$canvas0;
-    var$6 = $scaledHeight;
+    var$6 = $this.$viewportHeight;
     var$5.height = var$6;
+    $this.$canvas0.getBoundingClientRect();
     var$7 = owc_PixelImage_getWidth($image);
     var$8 = owc_PixelImage_getHeight($image);
-    $sourceCanvas = owb_WebCanvasAdapter_createCanvas$js_body$_10(var$7, var$8);
+    $sourceCanvas = owb_WebCanvasAdapter_createCanvas$js_body$_12(var$7, var$8);
     var$6 = $sourceCanvas.getContext("2d");
     var$10 = owc_PixelImage_getWidth($image);
     var$11 = owc_PixelImage_getHeight($image);
@@ -9291,16 +9093,31 @@ owb_WebCanvasAdapter_redraw = $this => {
         $y = $y + 1 | 0;
     }
     var$6.putImageData($imageData, 0.0, 0.0);
-    var$5 = $this.$ctx;
-    var$18 = $scaledWidth;
-    var$19 = $scaledHeight;
-    var$5.clearRect(0.0, 0.0, var$18, var$19);
+    var$18 = $this.$ctx;
+    var$10 = $this.$viewportWidth;
+    var$11 = $this.$viewportHeight;
+    var$18.clearRect(0.0, 0.0, var$10, var$11);
+    $offsetX = jl_Math_max0(0.0, ($this.$viewportWidth - $scaledWidth | 0) / 2.0);
+    $offsetY = jl_Math_max0(0.0, ($this.$viewportHeight - $scaledHeight | 0) / 2.0);
     $this.$ctx.save();
+    $this.$ctx.translate($offsetX, $offsetY);
     $this.$ctx.scale($zoom, $zoom);
     $this.$ctx.drawImage($sourceCanvas, 0.0, 0.0);
     $this.$ctx.restore();
 },
-owb_WebCanvasAdapter_createCanvas$js_body$_10 = (var$1, var$2) => {
+owb_WebCanvasAdapter_getImageOffset = $this => {
+    let $image, $zoom, $scaledWidth, $scaledHeight, $offsetX, $offsetY;
+    if ($this.$controller0 === null)
+        return $rt_createDoubleArrayFromData([0.0, 0.0]);
+    $image = owc_InteractionController_getImage($this.$controller0);
+    $zoom = owc_InteractionController_zoom($this.$controller0);
+    $scaledWidth = owc_PixelImage_getWidth($image) * $zoom | 0;
+    $scaledHeight = owc_PixelImage_getHeight($image) * $zoom | 0;
+    $offsetX = jl_Math_max0(0.0, ($this.$viewportWidth - $scaledWidth | 0) / 2.0);
+    $offsetY = jl_Math_max0(0.0, ($this.$viewportHeight - $scaledHeight | 0) / 2.0);
+    return $rt_createDoubleArrayFromData([$offsetX, $offsetY]);
+},
+owb_WebCanvasAdapter_createCanvas$js_body$_12 = (var$1, var$2) => {
     var c = document.createElement('canvas');
     c.width = var$1;
     c.height = var$2;
@@ -9330,58 +9147,51 @@ jur_AbstractCharClass$LazyJavaMirrored$1__init_0 = var_0 => {
 },
 jur_AbstractCharClass$LazyJavaMirrored$1_contains = ($this, $ch) => {
     return 0;
-};
-function owb_BrowserMain$wireHandlers$lambda$_9_0() {
-    jl_Object.call(this);
-    this.$_026 = null;
-}
-let owb_BrowserMain$wireHandlers$lambda$_9_0__init_ = (var$0, var$1) => {
-    jl_Object__init_(var$0);
-    var$0.$_026 = var$1;
 },
-owb_BrowserMain$wireHandlers$lambda$_9_0__init_0 = var_0 => {
-    let var_1 = new owb_BrowserMain$wireHandlers$lambda$_9_0();
-    owb_BrowserMain$wireHandlers$lambda$_9_0__init_(var_1, var_0);
-    return var_1;
+owb_BrowserMain$wireHandlers$lambda$_9_0 = $rt_classWithoutFields(),
+owb_BrowserMain$wireHandlers$lambda$_9_0__init_ = var$0 => {
+    jl_Object__init_(var$0);
+},
+owb_BrowserMain$wireHandlers$lambda$_9_0__init_0 = () => {
+    let var_0 = new owb_BrowserMain$wireHandlers$lambda$_9_0();
+    owb_BrowserMain$wireHandlers$lambda$_9_0__init_(var_0);
+    return var_0;
 },
 owb_BrowserMain$wireHandlers$lambda$_9_0_handleEvent0 = (var$0, var$1) => {
     owb_BrowserMain$wireHandlers$lambda$_9_0_handleEvent(var$0, var$1);
 },
 owb_BrowserMain$wireHandlers$lambda$_9_0_handleEvent = (var$0, var$1) => {
-    owb_BrowserMain_lambda$wireHandlers$3(var$0.$_026, var$1);
+    owb_BrowserMain_lambda$wireHandlers$3(var$1);
 },
 owb_BrowserMain$wireHandlers$lambda$_9_0_handleEvent$exported$0 = (var$0, var$1) => {
     var$0.$handleEvent(var$1);
 };
 function owb_BrowserMain$wireHandlers$lambda$_9_4() {
     jl_Object.call(this);
-    this.$_015 = null;
+    this.$_018 = null;
 }
 let owb_BrowserMain$wireHandlers$lambda$_9_4__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_015 = var$1;
+    var$0.$_018 = var$1;
 },
 owb_BrowserMain$wireHandlers$lambda$_9_4__init_0 = var_0 => {
     let var_1 = new owb_BrowserMain$wireHandlers$lambda$_9_4();
     owb_BrowserMain$wireHandlers$lambda$_9_4__init_(var_1, var_0);
     return var_1;
 },
-owb_BrowserMain$wireHandlers$lambda$_9_4_handleEvent0 = (var$0, var$1) => {
-    owb_BrowserMain$wireHandlers$lambda$_9_4_handleEvent(var$0, var$1);
-},
 owb_BrowserMain$wireHandlers$lambda$_9_4_handleEvent = (var$0, var$1) => {
-    owb_BrowserMain_lambda$wireHandlers$7(var$0.$_015, var$1);
+    owb_BrowserMain_lambda$wireHandlers$7(var$0.$_018, var$1);
 },
 owb_BrowserMain$wireHandlers$lambda$_9_4_handleEvent$exported$0 = (var$0, var$1) => {
     var$0.$handleEvent(var$1);
 };
 function owb_BrowserMain$wireHandlers$lambda$_9_3() {
     jl_Object.call(this);
-    this.$_024 = null;
+    this.$_023 = null;
 }
 let owb_BrowserMain$wireHandlers$lambda$_9_3__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_024 = var$1;
+    var$0.$_023 = var$1;
 },
 owb_BrowserMain$wireHandlers$lambda$_9_3__init_0 = var_0 => {
     let var_1 = new owb_BrowserMain$wireHandlers$lambda$_9_3();
@@ -9389,7 +9199,7 @@ owb_BrowserMain$wireHandlers$lambda$_9_3__init_0 = var_0 => {
     return var_1;
 },
 owb_BrowserMain$wireHandlers$lambda$_9_3_handleEvent = (var$0, var$1) => {
-    owb_BrowserMain_lambda$wireHandlers$6(var$0.$_024, var$1);
+    owb_BrowserMain_lambda$wireHandlers$6(var$0.$_023, var$1);
 },
 owb_BrowserMain$wireHandlers$lambda$_9_3_handleEvent$exported$0 = (var$0, var$1) => {
     var$0.$handleEvent(var$1);
@@ -9407,6 +9217,9 @@ owb_BrowserMain$wireHandlers$lambda$_9_2__init_0 = var_0 => {
     owb_BrowserMain$wireHandlers$lambda$_9_2__init_(var_1, var_0);
     return var_1;
 },
+owb_BrowserMain$wireHandlers$lambda$_9_2_handleEvent0 = (var$0, var$1) => {
+    owb_BrowserMain$wireHandlers$lambda$_9_2_handleEvent(var$0, var$1);
+},
 owb_BrowserMain$wireHandlers$lambda$_9_2_handleEvent = (var$0, var$1) => {
     owb_BrowserMain_lambda$wireHandlers$5(var$0.$_02, var$1);
 },
@@ -9415,11 +9228,11 @@ owb_BrowserMain$wireHandlers$lambda$_9_2_handleEvent$exported$0 = (var$0, var$1)
 };
 function owb_BrowserMain$wireHandlers$lambda$_9_1() {
     jl_Object.call(this);
-    this.$_09 = null;
+    this.$_010 = null;
 }
 let owb_BrowserMain$wireHandlers$lambda$_9_1__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_09 = var$1;
+    var$0.$_010 = var$1;
 },
 owb_BrowserMain$wireHandlers$lambda$_9_1__init_0 = var_0 => {
     let var_1 = new owb_BrowserMain$wireHandlers$lambda$_9_1();
@@ -9430,7 +9243,7 @@ owb_BrowserMain$wireHandlers$lambda$_9_1_handleEvent0 = (var$0, var$1) => {
     owb_BrowserMain$wireHandlers$lambda$_9_1_handleEvent(var$0, var$1);
 },
 owb_BrowserMain$wireHandlers$lambda$_9_1_handleEvent = (var$0, var$1) => {
-    owb_BrowserMain_lambda$wireHandlers$4(var$0.$_09, var$1);
+    owb_BrowserMain_lambda$wireHandlers$4(var$0.$_010, var$1);
 },
 owb_BrowserMain$wireHandlers$lambda$_9_1_handleEvent$exported$0 = (var$0, var$1) => {
     var$0.$handleEvent(var$1);
@@ -9450,6 +9263,25 @@ jur_AbstractCharClass$LazyJavaISOControl$1__init_0 = var_0 => {
 },
 jur_AbstractCharClass$LazyJavaISOControl$1_contains = ($this, $ch) => {
     return jl_Character_isISOControl($ch);
+};
+function owb_BrowserMain$wireHandlers$lambda$_9_6() {
+    jl_Object.call(this);
+    this.$_05 = null;
+}
+let owb_BrowserMain$wireHandlers$lambda$_9_6__init_ = (var$0, var$1) => {
+    jl_Object__init_(var$0);
+    var$0.$_05 = var$1;
+},
+owb_BrowserMain$wireHandlers$lambda$_9_6__init_0 = var_0 => {
+    let var_1 = new owb_BrowserMain$wireHandlers$lambda$_9_6();
+    owb_BrowserMain$wireHandlers$lambda$_9_6__init_(var_1, var_0);
+    return var_1;
+},
+owb_BrowserMain$wireHandlers$lambda$_9_6_handleEvent = (var$0, var$1) => {
+    owb_BrowserMain_lambda$wireHandlers$9(var$0.$_05, var$1);
+},
+owb_BrowserMain$wireHandlers$lambda$_9_6_handleEvent$exported$0 = (var$0, var$1) => {
+    var$0.$handleEvent(var$1);
 };
 function jur_WordBoundary() {
     jur_AbstractSet.call(this);
@@ -9495,6 +9327,28 @@ jur_WordBoundary_isSpace = ($this, $ch, $index, $leftBound, $testString) => {
         return 1;
     }
     return 0;
+};
+function owb_BrowserMain$wireHandlers$lambda$_9_5() {
+    jl_Object.call(this);
+    this.$_08 = null;
+}
+let owb_BrowserMain$wireHandlers$lambda$_9_5__init_ = (var$0, var$1) => {
+    jl_Object__init_(var$0);
+    var$0.$_08 = var$1;
+},
+owb_BrowserMain$wireHandlers$lambda$_9_5__init_0 = var_0 => {
+    let var_1 = new owb_BrowserMain$wireHandlers$lambda$_9_5();
+    owb_BrowserMain$wireHandlers$lambda$_9_5__init_(var_1, var_0);
+    return var_1;
+},
+owb_BrowserMain$wireHandlers$lambda$_9_5_handleEvent0 = (var$0, var$1) => {
+    owb_BrowserMain$wireHandlers$lambda$_9_5_handleEvent(var$0, var$1);
+},
+owb_BrowserMain$wireHandlers$lambda$_9_5_handleEvent = (var$0, var$1) => {
+    owb_BrowserMain_lambda$wireHandlers$8(var$0.$_08, var$1);
+},
+owb_BrowserMain$wireHandlers$lambda$_9_5_handleEvent$exported$0 = (var$0, var$1) => {
+    var$0.$handleEvent(var$1);
 };
 function jur_UEOLSet() {
     jur_AbstractSet.call(this);
@@ -9556,6 +9410,28 @@ jur_UCICharSet__init_0 = var_0 => {
 jur_UCICharSet_accepts = ($this, $strIndex, $testString) => {
     return $this.$ch2 != jl_Character_toLowerCase(jl_Character_toUpperCase($testString.$charAt($strIndex))) ? (-1) : 1;
 };
+function owb_BrowserMain$createSegmentCombo$lambda$_31_1() {
+    jl_Object.call(this);
+    this.$_022 = null;
+}
+let owb_BrowserMain$createSegmentCombo$lambda$_31_1__init_ = (var$0, var$1) => {
+    jl_Object__init_(var$0);
+    var$0.$_022 = var$1;
+},
+owb_BrowserMain$createSegmentCombo$lambda$_31_1__init_0 = var_0 => {
+    let var_1 = new owb_BrowserMain$createSegmentCombo$lambda$_31_1();
+    owb_BrowserMain$createSegmentCombo$lambda$_31_1__init_(var_1, var_0);
+    return var_1;
+},
+owb_BrowserMain$createSegmentCombo$lambda$_31_1_handleEvent0 = (var$0, var$1) => {
+    owb_BrowserMain$createSegmentCombo$lambda$_31_1_handleEvent(var$0, var$1);
+},
+owb_BrowserMain$createSegmentCombo$lambda$_31_1_handleEvent = (var$0, var$1) => {
+    owb_BrowserMain_lambda$createSegmentCombo$20(var$0.$_022, var$1);
+},
+owb_BrowserMain$createSegmentCombo$lambda$_31_1_handleEvent$exported$0 = (var$0, var$1) => {
+    var$0.$handleEvent(var$1);
+};
 function jl_Double() {
     jl_Number.call(this);
     this.$value = 0.0;
@@ -9590,6 +9466,25 @@ jl_Double_doubleToLongBits = $value => {
 },
 jl_Double__clinit_ = () => {
     jl_Double_TYPE = $rt_cls($rt_doublecls);
+};
+function owb_BrowserMain$createSegmentCombo$lambda$_31_0() {
+    jl_Object.call(this);
+    this.$_028 = null;
+}
+let owb_BrowserMain$createSegmentCombo$lambda$_31_0__init_ = (var$0, var$1) => {
+    jl_Object__init_(var$0);
+    var$0.$_028 = var$1;
+},
+owb_BrowserMain$createSegmentCombo$lambda$_31_0__init_0 = var_0 => {
+    let var_1 = new owb_BrowserMain$createSegmentCombo$lambda$_31_0();
+    owb_BrowserMain$createSegmentCombo$lambda$_31_0__init_(var_1, var_0);
+    return var_1;
+},
+owb_BrowserMain$createSegmentCombo$lambda$_31_0_handleEvent = (var$0, var$1) => {
+    owb_BrowserMain_lambda$createSegmentCombo$19(var$0.$_028, var$1);
+},
+owb_BrowserMain$createSegmentCombo$lambda$_31_0_handleEvent$exported$0 = (var$0, var$1) => {
+    var$0.$handleEvent(var$1);
 };
 function jur_AtomicFSet() {
     jur_FSet.call(this);
@@ -10055,26 +9950,7 @@ jur_RelAltGroupQuantifierSet_matches = ($this, $stringIndex, $testString, $match
         $nextIndex = $this.$innerSet.$matches($stringIndex, $testString, $matchResult);
     return $nextIndex;
 },
-jur_IntHash = $rt_classWithoutFields();
-function owb_BrowserMain$renderFilenameEditor$lambda$_29_0() {
-    jl_Object.call(this);
-    this.$_025 = null;
-}
-let owb_BrowserMain$renderFilenameEditor$lambda$_29_0__init_ = (var$0, var$1) => {
-    jl_Object__init_(var$0);
-    var$0.$_025 = var$1;
-},
-owb_BrowserMain$renderFilenameEditor$lambda$_29_0__init_0 = var_0 => {
-    let var_1 = new owb_BrowserMain$renderFilenameEditor$lambda$_29_0();
-    owb_BrowserMain$renderFilenameEditor$lambda$_29_0__init_(var_1, var_0);
-    return var_1;
-},
-owb_BrowserMain$renderFilenameEditor$lambda$_29_0_handleEvent = (var$0, var$1) => {
-    owb_BrowserMain_lambda$renderFilenameEditor$16(var$0.$_025, var$1);
-},
-owb_BrowserMain$renderFilenameEditor$lambda$_29_0_handleEvent$exported$0 = (var$0, var$1) => {
-    var$0.$handleEvent(var$1);
-},
+jur_IntHash = $rt_classWithoutFields(),
 jl_String = $rt_classWithoutFields(),
 jl_String_EMPTY_CHARS = null,
 jl_String_EMPTY = null,
@@ -10241,8 +10117,8 @@ jl_String_indexOf0 = ($this, $str, $fromIndex) => {
         $i = $i + 1 | 0;
     }
     return $i;
-},
-jl_String_lastIndexOf0 = ($this, $str, $fromIndex) => {
+};
+let jl_String_lastIndexOf0 = ($this, $str, $fromIndex) => {
     let $i, $j;
     $i = jl_Math_min($fromIndex, $this.$length() - $str.$length() | 0);
     a: while (true) {
@@ -10403,6 +10279,29 @@ jur_FSet$PossessiveFSet_matches = ($this, $stringIndex, $testString, $matchResul
 },
 jur_FSet$PossessiveFSet_hasConsumed = ($this, $mr) => {
     return 0;
+};
+function owb_BrowserMain$lambda$handleFileSelect$11$lambda$_72_0() {
+    let a = this; jl_Object.call(a);
+    a.$_015 = null;
+    a.$_1 = null;
+    a.$_2 = null;
+}
+let owb_BrowserMain$lambda$handleFileSelect$11$lambda$_72_0__init_ = (var$0, var$1, var$2, var$3) => {
+    jl_Object__init_(var$0);
+    var$0.$_015 = var$1;
+    var$0.$_1 = var$2;
+    var$0.$_2 = var$3;
+},
+owb_BrowserMain$lambda$handleFileSelect$11$lambda$_72_0__init_0 = (var_0, var_1, var_2) => {
+    let var_3 = new owb_BrowserMain$lambda$handleFileSelect$11$lambda$_72_0();
+    owb_BrowserMain$lambda$handleFileSelect$11$lambda$_72_0__init_(var_3, var_0, var_1, var_2);
+    return var_3;
+},
+owb_BrowserMain$lambda$handleFileSelect$11$lambda$_72_0_handleEvent = (var$0, var$1) => {
+    owb_BrowserMain_lambda$handleFileSelect$10(var$0.$_015, var$0.$_1, var$0.$_2, var$1);
+},
+owb_BrowserMain$lambda$handleFileSelect$11$lambda$_72_0_handleEvent$exported$0 = (var$0, var$1) => {
+    var$0.$handleEvent(var$1);
 },
 jl_IllegalArgumentException = $rt_classWithoutFields(jl_RuntimeException),
 jl_IllegalArgumentException__init_0 = $this => {
@@ -10586,7 +10485,7 @@ owb_BrowserMain_start = $this => {
 },
 owb_BrowserMain_buildUI = $this => {
     let $body, var$2, $shell, var$4;
-    owb_BrowserMain_injectStyles$js_body$_50();
+    owb_BrowserMain_injectStyles$js_body$_57();
     $body = $this.$doc.body;
     var$2 = "";
     $body.innerHTML = var$2;
@@ -10664,21 +10563,27 @@ owb_BrowserMain_createCanvasStage = $this => {
 },
 owb_BrowserMain_wireHandlers = $this => {
     let var$1, var$2, var$3, var$4;
-    var$1 = $this.$canvas;
-    var$2 = owb_BrowserMain$wireHandlers$lambda$_9_0__init_0($this);
-    var$1.addEventListener("mousedown", otji_JS_function(var$2, "handleEvent"));
+    var$1 = $this.$doc;
+    var$2 = owb_BrowserMain$wireHandlers$lambda$_9_0__init_0();
+    var$1.addEventListener("wheel", otji_JS_function(var$2, "handleEvent"));
     var$3 = $this.$canvas;
-    var$4 = owb_BrowserMain$wireHandlers$lambda$_9_1__init_0($this);
-    var$3.addEventListener("mousemove", otji_JS_function(var$4, "handleEvent"));
+    var$2 = owb_BrowserMain$wireHandlers$lambda$_9_1__init_0($this);
+    var$3.addEventListener("mousedown", otji_JS_function(var$2, "handleEvent"));
     var$3 = $this.$canvas;
     var$4 = owb_BrowserMain$wireHandlers$lambda$_9_2__init_0($this);
-    var$3.addEventListener("mouseup", otji_JS_function(var$4, "handleEvent"));
+    var$3.addEventListener("mousemove", otji_JS_function(var$4, "handleEvent"));
     var$3 = $this.$canvas;
     var$2 = owb_BrowserMain$wireHandlers$lambda$_9_3__init_0($this);
+    var$3.addEventListener("mouseup", otji_JS_function(var$2, "handleEvent"));
+    var$3 = $this.$canvas;
+    var$2 = owb_BrowserMain$wireHandlers$lambda$_9_4__init_0($this);
     var$3.addEventListener("mouseleave", otji_JS_function(var$2, "handleEvent"));
     var$3 = $this.$doc;
-    var$4 = owb_BrowserMain$wireHandlers$lambda$_9_4__init_0($this);
-    var$3.addEventListener("keydown", otji_JS_function(var$4, "handleEvent"));
+    var$2 = owb_BrowserMain$wireHandlers$lambda$_9_5__init_0($this);
+    var$3.addEventListener("keydown", otji_JS_function(var$2, "handleEvent"));
+    var$1 = window;
+    var$2 = owb_BrowserMain$wireHandlers$lambda$_9_6__init_0($this);
+    var$1.addEventListener("resize", otji_JS_function(var$2, "handleEvent"));
 },
 owb_BrowserMain_handleFileSelect = ($this, $files) => {
     let $len, $i, $file;
@@ -10689,7 +10594,7 @@ owb_BrowserMain_handleFileSelect = ($this, $files) => {
     $i = 0;
     while ($i < $len) {
         $file = $files[$i];
-        owb_BrowserMain_readFileAsDataURL$js_body$_49($file, otji_JS_function(owb_BrowserMain$handleFileSelect$lambda$_10_0__init_0($this, $file), "accept"));
+        owb_BrowserMain_readFileAsDataURL$js_body$_50($file, otji_JS_function(owb_BrowserMain$handleFileSelect$lambda$_10_0__init_0($this, $file), "accept"));
         $i = $i + 1 | 0;
     }
     if ($this.$dirInput !== null)
@@ -10698,6 +10603,7 @@ owb_BrowserMain_handleFileSelect = ($this, $files) => {
 owb_BrowserMain_displayCurrentImage = $this => {
     let $image;
     if ($this.$currentIndex >= 0 && $this.$currentIndex < $this.$images.$size()) {
+        owb_BrowserMain_updateViewportSize($this);
         $image = owb_BrowserMain$ImageItem_image($this.$images.$get($this.$currentIndex));
         owb_WebCanvasAdapter_setImage($this.$canvasAdapter, $image);
         owb_BrowserMain_updateFilenameAndStatus($this);
@@ -10705,41 +10611,59 @@ owb_BrowserMain_displayCurrentImage = $this => {
         return;
     }
 },
+owb_BrowserMain_updateViewportSize = $this => {
+    let $viewportWidth, $viewportHeight, $windowWidth, $windowHeight, $finalWidth, $finalHeight;
+    $viewportWidth = $this.$canvasHost.clientWidth | 0;
+    $viewportHeight = $this.$canvasHost.clientHeight | 0;
+    if (!($viewportWidth > 0 && $viewportHeight > 0)) {
+        $windowWidth = window.innerWidth || document.documentElement.clientWidth;
+        $windowHeight = window.innerHeight || document.documentElement.clientHeight;
+        $viewportWidth = jl_Math_min(1200, $windowWidth * 0.85 | 0);
+        $viewportHeight = jl_Math_min(800, $windowHeight * 0.55 | 0);
+    }
+    $finalWidth = jl_Math_max(400, $viewportWidth);
+    $finalHeight = jl_Math_max(300, $viewportHeight);
+    owb_WebCanvasAdapter_setViewportSize($this.$canvasAdapter, $finalWidth, $finalHeight);
+},
 owb_BrowserMain_updateSelectionOverlay = $this => {
-    let $selection, $zoom, $left, $top, $width, $height, var$7, var$8, var$9, var$10, var$11, var$12;
+    let $selection, $zoom, $offset, var$4, $left, $top, $width, $height, var$9, var$10, var$11, var$12, var$13;
     if ($this.$canvasAdapter !== null && owb_WebCanvasAdapter_controller($this.$canvasAdapter) !== null) {
+        $this.$canvas.getBoundingClientRect();
+        $this.$canvasHost.getBoundingClientRect();
         $selection = owc_InteractionController_selection(owb_WebCanvasAdapter_controller($this.$canvasAdapter));
         $zoom = owc_InteractionController_zoom(owb_WebCanvasAdapter_controller($this.$canvasAdapter));
-        $left = owc_SelectionModel_getTopLeftX($selection) * $zoom;
-        $top = owc_SelectionModel_getTopLeftY($selection) * $zoom;
+        $offset = owb_WebCanvasAdapter_getImageOffset($this.$canvasAdapter);
+        var$4 = $offset.data;
+        $left = owc_SelectionModel_getTopLeftX($selection) * $zoom + var$4[0];
+        $top = owc_SelectionModel_getTopLeftY($selection) * $zoom + var$4[1];
         $width = owc_SelectionModel_getWidth($selection) * $zoom;
         $height = owc_SelectionModel_getHeight($selection) * $zoom;
         if ($width > 0.0 && $height > 0.0) {
             $this.$selectionOverlay.style.setProperty("display", "block");
-            var$7 = $this.$selectionOverlay.style;
-            var$8 = jl_StringBuilder__init_();
-            jl_StringBuilder_append(jl_StringBuilder_append1(var$8, $left), $rt_s(220));
-            var$7.setProperty("left", $rt_ustr(jl_StringBuilder_toString(var$8)));
-            var$7 = $this.$selectionOverlay.style;
-            var$8 = jl_StringBuilder__init_();
-            jl_StringBuilder_append(jl_StringBuilder_append1(var$8, $top), $rt_s(220));
-            var$7.setProperty("top", $rt_ustr(jl_StringBuilder_toString(var$8)));
             var$9 = $this.$selectionOverlay.style;
-            var$7 = jl_StringBuilder__init_();
-            jl_StringBuilder_append(jl_StringBuilder_append1(var$7, $width), $rt_s(220));
-            var$9.setProperty("width", $rt_ustr(jl_StringBuilder_toString(var$7)));
-            var$7 = $this.$selectionOverlay.style;
-            var$8 = jl_StringBuilder__init_();
-            jl_StringBuilder_append(jl_StringBuilder_append1(var$8, $height), $rt_s(220));
-            var$7.setProperty("height", $rt_ustr(jl_StringBuilder_toString(var$8)));
+            var$10 = jl_StringBuilder__init_();
+            jl_StringBuilder_append(jl_StringBuilder_append1(var$10, $left), $rt_s(220));
+            var$9.setProperty("left", $rt_ustr(jl_StringBuilder_toString(var$10)));
+            var$9 = $this.$selectionOverlay.style;
+            var$10 = jl_StringBuilder__init_();
+            jl_StringBuilder_append(jl_StringBuilder_append1(var$10, $top), $rt_s(220));
+            var$9.setProperty("top", $rt_ustr(jl_StringBuilder_toString(var$10)));
+            var$9 = $this.$selectionOverlay.style;
+            var$10 = jl_StringBuilder__init_();
+            jl_StringBuilder_append(jl_StringBuilder_append1(var$10, $width), $rt_s(220));
+            var$9.setProperty("width", $rt_ustr(jl_StringBuilder_toString(var$10)));
+            var$9 = $this.$selectionOverlay.style;
+            var$10 = jl_StringBuilder__init_();
+            jl_StringBuilder_append(jl_StringBuilder_append1(var$10, $height), $rt_s(220));
+            var$9.setProperty("height", $rt_ustr(jl_StringBuilder_toString(var$10)));
             owb_BrowserMain_positionSelectionHandles($this, $width, $height);
             if ($this.$dimensionLabel !== null && owb_BrowserMain_hasImage($this)) {
-                var$10 = $this.$dimensionLabel;
-                var$11 = owc_PixelImage_getWidth(owb_BrowserMain_currentImage($this));
-                var$12 = owc_PixelImage_getHeight(owb_BrowserMain_currentImage($this));
-                var$7 = jl_StringBuilder__init_();
-                jl_StringBuilder_append0(jl_StringBuilder_append(jl_StringBuilder_append0(var$7, var$11), $rt_s(221)), var$12);
-                var$10.textContent = $rt_ustr(jl_StringBuilder_toString(var$7));
+                var$11 = $this.$dimensionLabel;
+                var$12 = owc_PixelImage_getWidth(owb_BrowserMain_currentImage($this));
+                var$13 = owc_PixelImage_getHeight(owb_BrowserMain_currentImage($this));
+                var$9 = jl_StringBuilder__init_();
+                jl_StringBuilder_append0(jl_StringBuilder_append(jl_StringBuilder_append0(var$9, var$12), $rt_s(221)), var$13);
+                var$11.textContent = $rt_ustr(jl_StringBuilder_toString(var$9));
             }
             owb_BrowserMain_syncSelectionSizeFields($this, $selection);
             return;
@@ -10821,41 +10745,47 @@ owb_BrowserMain_hasImage = $this => {
     return $this.$currentIndex >= 0 && $this.$currentIndex < $this.$images.$size() ? 1 : 0;
 },
 owb_BrowserMain_canvasX = ($this, $evt) => {
-    let $zoom;
+    let $zoom, $offset, var$4;
     $zoom = $this.$canvasAdapter !== null && owb_WebCanvasAdapter_controller($this.$canvasAdapter) !== null ? owc_InteractionController_zoom(owb_WebCanvasAdapter_controller($this.$canvasAdapter)) : 1.0;
-    return ($evt.clientX - $this.$canvas.getBoundingClientRect().left | 0) / $zoom;
+    $offset = $this.$canvasAdapter !== null ? owb_WebCanvasAdapter_getImageOffset($this.$canvasAdapter) : $rt_createDoubleArrayFromData([0.0, 0.0]);
+    var$4 = $offset.data;
+    return (($evt.clientX - $this.$canvas.getBoundingClientRect().left | 0) - var$4[0]) / $zoom;
 },
 owb_BrowserMain_canvasY = ($this, $evt) => {
-    let $zoom;
+    let $zoom, $offset, var$4;
     $zoom = $this.$canvasAdapter !== null && owb_WebCanvasAdapter_controller($this.$canvasAdapter) !== null ? owc_InteractionController_zoom(owb_WebCanvasAdapter_controller($this.$canvasAdapter)) : 1.0;
-    return ($evt.clientY - $this.$canvas.getBoundingClientRect().top | 0) / $zoom;
+    $offset = $this.$canvasAdapter !== null ? owb_WebCanvasAdapter_getImageOffset($this.$canvasAdapter) : $rt_createDoubleArrayFromData([0.0, 0.0]);
+    var$4 = $offset.data;
+    return (($evt.clientY - $this.$canvas.getBoundingClientRect().top | 0) - var$4[1]) / $zoom;
 },
 owb_BrowserMain_htmlImageToPixelImage = ($this, $img) => {
-    let var$2, var$3, var$4, var$5, $data, $arr, $result, $pixels, $i, var$11, $idx, $r, $g, $b, $a;
+    let var$2, $width, $height, var$5, var$6, var$7, $data, $arr, $result, $pixels, $i, var$13, $idx, $r, $g, $b, $a;
     var$2 = $this.$doc.createElement("canvas");
-    var$3 = $img.width;
-    var$2.width = var$3;
-    var$3 = $img.height;
-    var$2.height = var$3;
-    var$3 = var$2.getContext("2d");
-    var$3.drawImage($img, 0.0, 0.0);
-    var$4 = $img.width;
-    var$5 = $img.height;
-    $data = var$3.getImageData(0.0, 0.0, var$4, var$5);
+    $width = $img.naturalWidth;
+    $height = $img.naturalHeight;
+    var$5 = $width;
+    var$2.width = var$5;
+    var$5 = $height;
+    var$2.height = var$5;
+    var$5 = var$2.getContext("2d");
+    var$5.drawImage($img, 0.0, 0.0);
+    var$6 = $width;
+    var$7 = $height;
+    $data = var$5.getImageData(0.0, 0.0, var$6, var$7);
     $arr = $data.data;
-    $result = owc_PixelImage__init_($img.width, $img.height);
+    $result = owc_PixelImage__init_($width, $height);
     $pixels = owc_PixelImage_getPixels($result);
     $i = 0;
     while (true) {
-        var$11 = $pixels.data;
-        if ($i >= var$11.length)
+        var$13 = $pixels.data;
+        if ($i >= var$13.length)
             break;
         $idx = $i * 4 | 0;
         $r = $arr[$idx] & 255;
         $g = $arr[$idx + 1 | 0] & 255;
         $b = $arr[$idx + 2 | 0] & 255;
         $a = $arr[$idx + 3 | 0] & 255;
-        var$11[$i] = $a << 24 | $r << 16 | $g << 8 | $b;
+        var$13[$i] = $a << 24 | $r << 16 | $g << 8 | $b;
         $i = $i + 1 | 0;
     }
     return $result;
@@ -10878,9 +10808,9 @@ owb_BrowserMain_createControlBar = $this => {
     var$2 = "control-bar";
     $bar.id = var$2;
     $bar.setAttribute("data-role", "control-bar");
-    var$2 = owb_BrowserMain_button($this, $rt_s(223), $rt_s(224), owb_BrowserMain$createControlBar$lambda$_28_0__init_0($this));
+    var$2 = owb_BrowserMain_button($this, $rt_s(223), $rt_s(224), owb_BrowserMain$createControlBar$lambda$_29_0__init_0($this));
     $bar.appendChild(var$2);
-    var$2 = owb_BrowserMain_button($this, $rt_s(225), $rt_s(226), owb_BrowserMain$createControlBar$lambda$_28_1__init_0($this));
+    var$2 = owb_BrowserMain_button($this, $rt_s(225), $rt_s(226), owb_BrowserMain$createControlBar$lambda$_29_1__init_0($this));
     $bar.appendChild(var$2);
     $this.$dimensionLabel = $this.$doc.createElement("span");
     var$2 = $this.$dimensionLabel;
@@ -10902,7 +10832,7 @@ owb_BrowserMain_createControlBar = $this => {
     var$3 = "0";
     var$2.value = var$3;
     var$2 = $this.$selectionWidthField;
-    var$4 = owb_BrowserMain$createControlBar$lambda$_28_2__init_0($this);
+    var$4 = owb_BrowserMain$createControlBar$lambda$_29_2__init_0($this);
     var$2.addEventListener("change", otji_JS_function(var$4, "handleEvent"));
     $xLabel = $this.$doc.createElement("span");
     var$2 = "x";
@@ -10919,14 +10849,14 @@ owb_BrowserMain_createControlBar = $this => {
     var$3 = "0";
     var$2.value = var$3;
     var$3 = $this.$selectionHeightField;
-    var$2 = owb_BrowserMain$createControlBar$lambda$_28_3__init_0($this);
+    var$2 = owb_BrowserMain$createControlBar$lambda$_29_3__init_0($this);
     var$3.addEventListener("change", otji_JS_function(var$2, "handleEvent"));
     var$2 = $this.$selectionWidthField;
     $bar.appendChild(var$2);
     $bar.appendChild($xLabel);
     var$2 = $this.$selectionHeightField;
     $bar.appendChild(var$2);
-    var$2 = owb_BrowserMain_button($this, $rt_s(227), $rt_s(228), owb_BrowserMain$createControlBar$lambda$_28_4__init_0($this));
+    var$2 = owb_BrowserMain_button($this, $rt_s(227), $rt_s(228), owb_BrowserMain$createControlBar$lambda$_29_4__init_0($this));
     $bar.appendChild(var$2);
     $this.$statusLabel = $this.$doc.createElement("span");
     var$2 = $this.$statusLabel;
@@ -10938,7 +10868,7 @@ owb_BrowserMain_createControlBar = $this => {
     var$2.textContent = var$3;
     var$2 = $this.$statusLabel;
     $bar.appendChild(var$2);
-    var$2 = owb_BrowserMain_button($this, $rt_s(229), $rt_s(230), owb_BrowserMain$createControlBar$lambda$_28_5__init_0($this));
+    var$2 = owb_BrowserMain_button($this, $rt_s(229), $rt_s(230), owb_BrowserMain$createControlBar$lambda$_29_5__init_0($this));
     $bar.appendChild(var$2);
     $this.$filenameEditor = owb_BrowserMain_div($this, $rt_s(231));
     $this.$filenameEditor.setAttribute("data-slot", "filename");
@@ -10956,7 +10886,6 @@ owb_BrowserMain_renderFilenameEditor = ($this, $filename) => {
     $this.$filenameEditor.innerHTML = "";
     $this.$filenameSegments.$clear();
     owb_BrowserMain_clearDatalists($this);
-    owb_BrowserMain_clearDatalists($this);
     $dot = $filename.$lastIndexOf2(46);
     $base = $dot <= 0 ? $filename : $filename.$substring(0, $dot);
     $this.$filenameExtension = $dot > 0 && $dot < ($filename.$length() - 1 | 0) ? $filename.$substring0($dot + 1 | 0) : $rt_s(8);
@@ -10972,7 +10901,7 @@ owb_BrowserMain_renderFilenameEditor = ($this, $filename) => {
         var$10.appendChild(var$11);
         $i = $i + 1 | 0;
     }
-    $plusButton = owb_BrowserMain_button0($this, $rt_s(233), owb_BrowserMain$renderFilenameEditor$lambda$_29_0__init_0($this));
+    $plusButton = owb_BrowserMain_button0($this, $rt_s(233), owb_BrowserMain$renderFilenameEditor$lambda$_30_0__init_0($this));
     $plusButton.className = "segment-add";
     $ext = $this.$doc.createElement("span");
     $ext.className = "extension";
@@ -11001,9 +10930,9 @@ owb_BrowserMain_createSegmentCombo = ($this, $value, $options, $index) => {
     var$4.setAttribute("list", $rt_ustr(var$6));
     var$5 = $rt_ustr($value);
     var$4.value = var$5;
-    var$7 = owb_BrowserMain$createSegmentCombo$lambda$_30_0__init_0($this);
+    var$7 = owb_BrowserMain$createSegmentCombo$lambda$_31_0__init_0($this);
     var$4.addEventListener("input", otji_JS_function(var$7, "handleEvent"));
-    var$7 = owb_BrowserMain$createSegmentCombo$lambda$_30_1__init_0($this);
+    var$7 = owb_BrowserMain$createSegmentCombo$lambda$_31_1__init_0($this);
     var$4.addEventListener("keydown", otji_JS_function(var$7, "handleEvent"));
     $datalist = $this.$doc.createElement("datalist");
     var$5 = jl_StringBuilder__init_();
@@ -11146,13 +11075,13 @@ owb_BrowserMain_addSelectionDragHandlers = $this => {
     if ($this.$selectionHandles.$isEmpty())
         return;
     $moveHandle = otji_JSWrapper_unwrap($this.$selectionHandles.$get(4));
-    var$2 = owb_BrowserMain$addSelectionDragHandlers$lambda$_39_0__init_0($this);
+    var$2 = owb_BrowserMain$addSelectionDragHandlers$lambda$_40_0__init_0($this);
     $moveHandle.addEventListener("mousedown", otji_JS_function(var$2, "handleEvent"));
     var$3 = $this.$doc;
-    var$4 = owb_BrowserMain$addSelectionDragHandlers$lambda$_39_1__init_0($this);
+    var$4 = owb_BrowserMain$addSelectionDragHandlers$lambda$_40_1__init_0($this);
     var$3.addEventListener("mousemove", otji_JS_function(var$4, "handleEvent"));
     var$3 = $this.$doc;
-    var$5 = owb_BrowserMain$addSelectionDragHandlers$lambda$_39_2__init_0($this);
+    var$5 = owb_BrowserMain$addSelectionDragHandlers$lambda$_40_2__init_0($this);
     var$3.addEventListener("mouseup", otji_JS_function(var$5, "handleEvent"));
 },
 owb_BrowserMain_createHandle = ($this, $position) => {
@@ -11202,24 +11131,24 @@ owb_BrowserMain_div = ($this, $className) => {
     return $element;
 },
 owb_BrowserMain_bindControls = $this => {
-    owc_ControlViewModel_bindPrev($this.$controls, owb_BrowserMain$bindControls$lambda$_44_0__init_0($this));
-    owc_ControlViewModel_bindNext($this.$controls, owb_BrowserMain$bindControls$lambda$_44_1__init_0($this));
-    owc_ControlViewModel_bindCrop($this.$controls, owb_BrowserMain$bindControls$lambda$_44_2__init_0($this));
-    owc_ControlViewModel_bindRotate($this.$controls, owb_BrowserMain$bindControls$lambda$_44_3__init_0($this));
-    owc_ControlViewModel_bindUndo($this.$controls, owb_BrowserMain$bindControls$lambda$_44_4__init_0($this));
-    owc_ControlViewModel_bindZoom($this.$controls, owb_BrowserMain$bindControls$lambda$_44_5__init_0($this));
-    owc_ControlViewModel_bindRename($this.$controls, owb_BrowserMain$bindControls$lambda$_44_6__init_0($this));
+    owc_ControlViewModel_bindPrev($this.$controls, owb_BrowserMain$bindControls$lambda$_45_0__init_0($this));
+    owc_ControlViewModel_bindNext($this.$controls, owb_BrowserMain$bindControls$lambda$_45_1__init_0($this));
+    owc_ControlViewModel_bindCrop($this.$controls, owb_BrowserMain$bindControls$lambda$_45_2__init_0($this));
+    owc_ControlViewModel_bindRotate($this.$controls, owb_BrowserMain$bindControls$lambda$_45_3__init_0($this));
+    owc_ControlViewModel_bindUndo($this.$controls, owb_BrowserMain$bindControls$lambda$_45_4__init_0($this));
+    owc_ControlViewModel_bindZoom($this.$controls, owb_BrowserMain$bindControls$lambda$_45_5__init_0($this));
+    owc_ControlViewModel_bindRename($this.$controls, owb_BrowserMain$bindControls$lambda$_45_6__init_0($this));
 },
-owb_BrowserMain_lambda$bindControls$23 = $this => {
+owb_BrowserMain_lambda$bindControls$25 = $this => {
     owb_BrowserMain_navigate($this, 1);
 },
-owb_BrowserMain_lambda$bindControls$22 = $this => {
+owb_BrowserMain_lambda$bindControls$24 = $this => {
     owb_BrowserMain_navigate($this, (-1));
 },
-owb_BrowserMain_lambda$addSelectionDragHandlers$21 = ($this, $evt) => {
+owb_BrowserMain_lambda$addSelectionDragHandlers$23 = ($this, $evt) => {
     $this.$draggingSelection = 0;
 },
-owb_BrowserMain_lambda$addSelectionDragHandlers$20 = ($this, $evt) => {
+owb_BrowserMain_lambda$addSelectionDragHandlers$22 = ($this, $evt) => {
     let $zoom, $dx, $dy;
     if ($this.$draggingSelection && $this.$canvasAdapter !== null && owb_WebCanvasAdapter_controller($this.$canvasAdapter) !== null) {
         $zoom = owc_InteractionController_zoom(owb_WebCanvasAdapter_controller($this.$canvasAdapter));
@@ -11231,8 +11160,8 @@ owb_BrowserMain_lambda$addSelectionDragHandlers$20 = ($this, $evt) => {
         owb_BrowserMain_updateSelectionOverlay($this);
         return;
     }
-},
-owb_BrowserMain_lambda$addSelectionDragHandlers$19 = ($this, $evt) => {
+};
+let owb_BrowserMain_lambda$addSelectionDragHandlers$21 = ($this, $evt) => {
     if (owb_BrowserMain_hasImage($this) && $this.$canvasAdapter !== null && owb_WebCanvasAdapter_controller($this.$canvasAdapter) !== null) {
         $this.$draggingSelection = 1;
         $this.$dragLastX = $evt.clientX;
@@ -11240,17 +11169,17 @@ owb_BrowserMain_lambda$addSelectionDragHandlers$19 = ($this, $evt) => {
         $evt.preventDefault();
         return;
     }
-};
-let owb_BrowserMain_lambda$createSegmentCombo$18 = ($this, $e) => {
+},
+owb_BrowserMain_lambda$createSegmentCombo$20 = ($this, $e) => {
     if ($e.keyCode == 13) {
         $e.preventDefault();
         owb_BrowserMain_propagateFilenameFromSegments($this);
     }
 },
-owb_BrowserMain_lambda$createSegmentCombo$17 = ($this, $e) => {
+owb_BrowserMain_lambda$createSegmentCombo$19 = ($this, $e) => {
     owb_BrowserMain_propagateFilenameFromSegments($this);
 },
-owb_BrowserMain_lambda$renderFilenameEditor$16 = ($this, $e) => {
+owb_BrowserMain_lambda$renderFilenameEditor$18 = ($this, $e) => {
     let var$2, var$3, var$4;
     var$2 = $this.$filenameEditor;
     var$3 = owb_BrowserMain_createSegmentCombo($this, $rt_s(8), ju_List_of0(), $this.$filenameSegments.$size());
@@ -11258,33 +11187,33 @@ owb_BrowserMain_lambda$renderFilenameEditor$16 = ($this, $e) => {
     var$2.insertBefore(var$3, var$4);
     owb_BrowserMain_propagateFilenameFromSegments($this);
 },
-owb_BrowserMain_lambda$createControlBar$15 = ($this, $e) => {
+owb_BrowserMain_lambda$createControlBar$17 = ($this, $e) => {
     owc_ControlViewModel_triggerNext($this.$controls);
 },
-owb_BrowserMain_lambda$createControlBar$14 = ($this, $e) => {
+owb_BrowserMain_lambda$createControlBar$16 = ($this, $e) => {
     owc_ControlViewModel_triggerPrev($this.$controls);
 },
+owb_BrowserMain_lambda$createControlBar$15 = ($this, $e) => {
+    owb_BrowserMain_updateSelectionFromFields($this);
+},
+owb_BrowserMain_lambda$createControlBar$14 = ($this, $e) => {
+    owb_BrowserMain_updateSelectionFromFields($this);
+},
 owb_BrowserMain_lambda$createControlBar$13 = ($this, $e) => {
-    owb_BrowserMain_updateSelectionFromFields($this);
-},
-owb_BrowserMain_lambda$createControlBar$12 = ($this, $e) => {
-    owb_BrowserMain_updateSelectionFromFields($this);
-},
-owb_BrowserMain_lambda$createControlBar$11 = ($this, $e) => {
     owc_ControlViewModel_triggerCrop($this.$controls);
 },
-owb_BrowserMain_lambda$createControlBar$10 = ($this, $e) => {
+owb_BrowserMain_lambda$createControlBar$12 = ($this, $e) => {
     owc_ControlViewModel_triggerUndo($this.$controls);
 },
-owb_BrowserMain_lambda$handleFileSelect$9 = ($this, $file, $dataUrl) => {
+owb_BrowserMain_lambda$handleFileSelect$11 = ($this, $file, $dataUrl) => {
     let var$3, var$4, var$5;
     var$3 = $this.$doc.createElement("img");
-    var$4 = owb_BrowserMain$lambda$handleFileSelect$9$lambda$_65_0__init_0($this, var$3, $file);
+    var$4 = owb_BrowserMain$lambda$handleFileSelect$11$lambda$_72_0__init_0($this, var$3, $file);
     var$3.addEventListener("load", otji_JS_function(var$4, "handleEvent"));
     var$5 = $rt_ustr($dataUrl);
     var$3.src = var$5;
 },
-owb_BrowserMain_lambda$handleFileSelect$8 = ($this, $img, $file, $e) => {
+owb_BrowserMain_lambda$handleFileSelect$10 = ($this, $img, $file, $e) => {
     let $pixelImage;
     $pixelImage = owb_BrowserMain_htmlImageToPixelImage($this, $img);
     $this.$images.$add2(owb_BrowserMain$ImageItem__init_($rt_str($file.name || 'untitled'), $pixelImage));
@@ -11295,7 +11224,14 @@ owb_BrowserMain_lambda$handleFileSelect$8 = ($this, $img, $file, $e) => {
         owb_BrowserMain_displayCurrentImage($this);
     }
 },
-owb_BrowserMain_lambda$wireHandlers$7 = ($this, $evt) => {
+owb_BrowserMain_lambda$wireHandlers$9 = ($this, $evt) => {
+    if (owb_BrowserMain_hasImage($this)) {
+        owb_BrowserMain_updateViewportSize($this);
+        owb_WebCanvasAdapter_setImage($this.$canvasAdapter, owb_BrowserMain_currentImage($this));
+        owb_BrowserMain_updateSelectionOverlay($this);
+    }
+},
+owb_BrowserMain_lambda$wireHandlers$8 = ($this, $evt) => {
     let $code, $ctrl, $shift;
     $code = $evt.keyCode;
     $ctrl = $evt.ctrlKey ? 1 : 0;
@@ -11313,20 +11249,20 @@ owb_BrowserMain_lambda$wireHandlers$7 = ($this, $evt) => {
                 owc_ControlViewModel_triggerRotate($this.$controls, (-5.0));
             else if ($ctrl && $code == 69)
                 owc_ControlViewModel_triggerRotate($this.$controls, 5.0);
-            else if ($this.$canvasAdapter !== null && owc_SelectionAdjuster_applyShortcut($code, $ctrl, $shift, 10, owc_InteractionController_selection(owb_WebCanvasAdapter_controller($this.$canvasAdapter))))
+            else if ($this.$canvasAdapter !== null && owb_WebCanvasAdapter_controller($this.$canvasAdapter) !== null && owc_SelectionAdjuster_applyShortcut($code, $ctrl, $shift, 10, owc_InteractionController_selection(owb_WebCanvasAdapter_controller($this.$canvasAdapter))))
                 owb_BrowserMain_updateSelectionOverlay($this);
         } else
             owc_ControlViewModel_triggerZoom($this.$controls, 1.1);
     } else
         owc_ControlViewModel_triggerZoom($this.$controls, 0.9);
 },
+owb_BrowserMain_lambda$wireHandlers$7 = ($this, $evt) => {
+    $this.$dragging = 0;
+},
 owb_BrowserMain_lambda$wireHandlers$6 = ($this, $evt) => {
     $this.$dragging = 0;
 },
 owb_BrowserMain_lambda$wireHandlers$5 = ($this, $evt) => {
-    $this.$dragging = 0;
-},
-owb_BrowserMain_lambda$wireHandlers$4 = ($this, $evt) => {
     let $x, $y;
     if ($this.$dragging && $this.$currentIndex >= 0) {
         $x = owb_BrowserMain_canvasX($this, $evt);
@@ -11336,7 +11272,7 @@ owb_BrowserMain_lambda$wireHandlers$4 = ($this, $evt) => {
         return;
     }
 },
-owb_BrowserMain_lambda$wireHandlers$3 = ($this, $evt) => {
+owb_BrowserMain_lambda$wireHandlers$4 = ($this, $evt) => {
     let $x, $y;
     if ($this.$currentIndex < 0)
         return;
@@ -11346,9 +11282,17 @@ owb_BrowserMain_lambda$wireHandlers$3 = ($this, $evt) => {
     owb_WebCanvasAdapter_startSelection($this.$canvasAdapter, $x, $y);
     owb_BrowserMain_updateSelectionOverlay($this);
 },
+owb_BrowserMain_lambda$wireHandlers$3 = $evt => {
+    owb_BrowserMain_$callClinit();
+    if ($evt.ctrlKey ? 1 : 0)
+        $evt.preventDefault();
+},
 owb_BrowserMain_lambda$createCanvasStage$2 = ($this, $evt) => {
     let $factor;
     $evt.preventDefault();
+    $evt.stopPropagation();
+    if ($this.$currentIndex < 0)
+        return;
     $factor = $evt.deltaY >= 0.0 ? 0.9 : 1.1;
     owb_BrowserMain_adjustZoom($this, $factor);
 },
@@ -11369,14 +11313,14 @@ owb_BrowserMain_showFallback$js_body$_4 = var$1 => {
         fb.style.display = 'block';
     }
 },
-owb_BrowserMain_readFileAsDataURL$js_body$_49 = (var$1, var$2) => {
+owb_BrowserMain_readFileAsDataURL$js_body$_50 = (var$1, var$2) => {
     var reader = new FileReader();
     reader.onload = function(e) {
         var$2(e.target.result);
     };
     reader.readAsDataURL(var$1);
 },
-owb_BrowserMain_injectStyles$js_body$_50 = () => {
+owb_BrowserMain_injectStyles$js_body$_57 = () => {
     var style = document.createElement('style');
     style.textContent = '  body { font-family: "JetBrains Mono", "Segoe UI", sans-serif; background: #0f1117; color: #e2e8f0; margin: 0; }  .winnow-shell { max-width: 1200px; margin: 16px auto; padding: 12px; background: #0b0e15; border: 1px solid #222733; border-radius: 12px; box-shadow: 0 16px 40px rgba(0,0,0,0.45); display: flex; flex-direction: column; gap: 12px; }  .header { display: flex; justify-content: space-between; align-items: flex-end; }  .header h1 { margin: 0; font-size: 20px; letter-spacing: 0.3px; }  .subtitle { margin: 0; color: #a5b4c3; font-size: 12px; }  .open-row { display: flex; gap: 8px; }  .canvas-stage { display: flex; flex-direction: column; gap: 8px; align-items: center; }  .canvas-host { position: relative; background: #000; border: 1px solid #1f2430; border-radius: 10px; overflow: hidden; display: inline-block; }  canvas { display: block; max-width: 100%; background: #05080f; }  .control-bar { display: flex; align-items: center; gap: 12px; background: #111624; border: 1px solid #1f2430; border-radius: 10px; padding: 10px 12px; }  .control-bar button, .open-row button { background: #1a2233; color: #e2e8f0; border: 1px solid #2b3445; border-radius: 8px; padding: 10px 14px; cursor: pointer; font-size: 14px; min-width: 72px; }  .control-bar button:hover, .open-row button:hover { background: #212b3d; }  .status { min-width: 72px; text-align: center; font-weight: 700; }  .dimensions { min-width: 80px; text-align: center; color: #93c5fd; font-weight: 600; }  .dimensions-separator { color: #93c5fd; }  .selection-size { width: 70px; background: #0d1220; color: #e2e8f0; border: 1px solid #2b3445; border-radius: 6px; padding: 6px 8px; }  .filename-editor { display: flex; align-items: center; gap: 4px; flex: 1; }  .filename-segment { background: #0d1220; color: #e2e8f0; border: 1px solid #2b3445; border-radius: 6px; padding: 8px 10px; min-width: 80px; }  .segment-add { min-width: 32px; padding: 8px 10px; }  .extension { color: #cbd5e1; min-width: 50px; text-align: right; }  .selection { position: absolute; border: 2px solid #10b981; box-shadow: 0 0 0 1px rgba(16,185,129,0.4); pointer-events: none; border-radius: 2px; }  .selection-handle { width: 10px; height: 10px; background: #059669; border: 1px solid #6ee7b7; border-radius: 2px; }';
     document.head.appendChild(style);
@@ -11623,6 +11567,28 @@ jl_IllegalStateException__init_2 = var_0 => {
     jl_IllegalStateException__init_(var_1, var_0);
     return var_1;
 };
+function owb_BrowserMain$addSelectionDragHandlers$lambda$_40_0() {
+    jl_Object.call(this);
+    this.$_017 = null;
+}
+let owb_BrowserMain$addSelectionDragHandlers$lambda$_40_0__init_ = (var$0, var$1) => {
+    jl_Object__init_(var$0);
+    var$0.$_017 = var$1;
+},
+owb_BrowserMain$addSelectionDragHandlers$lambda$_40_0__init_0 = var_0 => {
+    let var_1 = new owb_BrowserMain$addSelectionDragHandlers$lambda$_40_0();
+    owb_BrowserMain$addSelectionDragHandlers$lambda$_40_0__init_(var_1, var_0);
+    return var_1;
+},
+owb_BrowserMain$addSelectionDragHandlers$lambda$_40_0_handleEvent0 = (var$0, var$1) => {
+    owb_BrowserMain$addSelectionDragHandlers$lambda$_40_0_handleEvent(var$0, var$1);
+},
+owb_BrowserMain$addSelectionDragHandlers$lambda$_40_0_handleEvent = (var$0, var$1) => {
+    owb_BrowserMain_lambda$addSelectionDragHandlers$21(var$0.$_017, var$1);
+},
+owb_BrowserMain$addSelectionDragHandlers$lambda$_40_0_handleEvent$exported$0 = (var$0, var$1) => {
+    var$0.$handleEvent(var$1);
+};
 function jur_HighSurrogateCharSet() {
     jur_JointSet.call(this);
     this.$high = 0;
@@ -11725,6 +11691,47 @@ jur_HighSurrogateCharSet_first = ($this, $set) => {
 },
 jur_HighSurrogateCharSet_hasConsumed = ($this, $matchResult) => {
     return 1;
+};
+function owb_BrowserMain$addSelectionDragHandlers$lambda$_40_1() {
+    jl_Object.call(this);
+    this.$_09 = null;
+}
+let owb_BrowserMain$addSelectionDragHandlers$lambda$_40_1__init_ = (var$0, var$1) => {
+    jl_Object__init_(var$0);
+    var$0.$_09 = var$1;
+},
+owb_BrowserMain$addSelectionDragHandlers$lambda$_40_1__init_0 = var_0 => {
+    let var_1 = new owb_BrowserMain$addSelectionDragHandlers$lambda$_40_1();
+    owb_BrowserMain$addSelectionDragHandlers$lambda$_40_1__init_(var_1, var_0);
+    return var_1;
+},
+owb_BrowserMain$addSelectionDragHandlers$lambda$_40_1_handleEvent0 = (var$0, var$1) => {
+    owb_BrowserMain$addSelectionDragHandlers$lambda$_40_1_handleEvent(var$0, var$1);
+},
+owb_BrowserMain$addSelectionDragHandlers$lambda$_40_1_handleEvent = (var$0, var$1) => {
+    owb_BrowserMain_lambda$addSelectionDragHandlers$22(var$0.$_09, var$1);
+},
+owb_BrowserMain$addSelectionDragHandlers$lambda$_40_1_handleEvent$exported$0 = (var$0, var$1) => {
+    var$0.$handleEvent(var$1);
+};
+function owb_BrowserMain$addSelectionDragHandlers$lambda$_40_2() {
+    jl_Object.call(this);
+    this.$_00 = null;
+}
+let owb_BrowserMain$addSelectionDragHandlers$lambda$_40_2__init_ = (var$0, var$1) => {
+    jl_Object__init_(var$0);
+    var$0.$_00 = var$1;
+},
+owb_BrowserMain$addSelectionDragHandlers$lambda$_40_2__init_0 = var_0 => {
+    let var_1 = new owb_BrowserMain$addSelectionDragHandlers$lambda$_40_2();
+    owb_BrowserMain$addSelectionDragHandlers$lambda$_40_2__init_(var_1, var_0);
+    return var_1;
+},
+owb_BrowserMain$addSelectionDragHandlers$lambda$_40_2_handleEvent = (var$0, var$1) => {
+    owb_BrowserMain_lambda$addSelectionDragHandlers$23(var$0.$_00, var$1);
+},
+owb_BrowserMain$addSelectionDragHandlers$lambda$_40_2_handleEvent$exported$0 = (var$0, var$1) => {
+    var$0.$handleEvent(var$1);
 },
 jur_ReluctantCompositeQuantifierSet = $rt_classWithoutFields(jur_CompositeQuantifierSet),
 jur_ReluctantCompositeQuantifierSet__init_ = ($this, $quant, $innerSet, $next, $type) => {
@@ -12876,12 +12883,12 @@ jur_Pattern__init_0 = () => {
 owb_BrowserMain$StringCallback = $rt_classWithoutFields(0);
 function owb_BrowserMain$handleFileSelect$lambda$_10_0() {
     let a = this; jl_Object.call(a);
-    a.$_018 = null;
+    a.$_019 = null;
     a.$_10 = null;
 }
 let owb_BrowserMain$handleFileSelect$lambda$_10_0__init_ = (var$0, var$1, var$2) => {
     jl_Object__init_(var$0);
-    var$0.$_018 = var$1;
+    var$0.$_019 = var$1;
     var$0.$_10 = var$2;
 },
 owb_BrowserMain$handleFileSelect$lambda$_10_0__init_0 = (var_0, var_1) => {
@@ -12890,10 +12897,48 @@ owb_BrowserMain$handleFileSelect$lambda$_10_0__init_0 = (var_0, var_1) => {
     return var_2;
 },
 owb_BrowserMain$handleFileSelect$lambda$_10_0_accept = (var$0, var$1) => {
-    owb_BrowserMain_lambda$handleFileSelect$9(var$0.$_018, var$0.$_10, var$1);
+    owb_BrowserMain_lambda$handleFileSelect$11(var$0.$_019, var$0.$_10, var$1);
 },
 owb_BrowserMain$handleFileSelect$lambda$_10_0_accept$exported$0 = (var$0, var$1) => {
-    var$0.$accept0($rt_str(var$1));
+    var$0.$accept1($rt_str(var$1));
+};
+function owb_BrowserMain$createControlBar$lambda$_29_1() {
+    jl_Object.call(this);
+    this.$_013 = null;
+}
+let owb_BrowserMain$createControlBar$lambda$_29_1__init_ = (var$0, var$1) => {
+    jl_Object__init_(var$0);
+    var$0.$_013 = var$1;
+},
+owb_BrowserMain$createControlBar$lambda$_29_1__init_0 = var_0 => {
+    let var_1 = new owb_BrowserMain$createControlBar$lambda$_29_1();
+    owb_BrowserMain$createControlBar$lambda$_29_1__init_(var_1, var_0);
+    return var_1;
+},
+owb_BrowserMain$createControlBar$lambda$_29_1_handleEvent = (var$0, var$1) => {
+    owb_BrowserMain_lambda$createControlBar$13(var$0.$_013, var$1);
+},
+owb_BrowserMain$createControlBar$lambda$_29_1_handleEvent$exported$0 = (var$0, var$1) => {
+    var$0.$handleEvent(var$1);
+};
+function owb_BrowserMain$createControlBar$lambda$_29_2() {
+    jl_Object.call(this);
+    this.$_021 = null;
+}
+let owb_BrowserMain$createControlBar$lambda$_29_2__init_ = (var$0, var$1) => {
+    jl_Object__init_(var$0);
+    var$0.$_021 = var$1;
+},
+owb_BrowserMain$createControlBar$lambda$_29_2__init_0 = var_0 => {
+    let var_1 = new owb_BrowserMain$createControlBar$lambda$_29_2();
+    owb_BrowserMain$createControlBar$lambda$_29_2__init_(var_1, var_0);
+    return var_1;
+},
+owb_BrowserMain$createControlBar$lambda$_29_2_handleEvent = (var$0, var$1) => {
+    owb_BrowserMain_lambda$createControlBar$14(var$0.$_021, var$1);
+},
+owb_BrowserMain$createControlBar$lambda$_29_2_handleEvent$exported$0 = (var$0, var$1) => {
+    var$0.$handleEvent(var$1);
 },
 jur_PosAltGroupQuantifierSet = $rt_classWithoutFields(jur_AltGroupQuantifierSet),
 jur_PosAltGroupQuantifierSet__init_ = ($this, $innerSet, $next, $type) => {
@@ -12915,6 +12960,63 @@ jur_PosAltGroupQuantifierSet_matches = ($this, $stringIndex, $testString, $match
 },
 jur_PosAltGroupQuantifierSet_setNext = ($this, $next) => {
     $this.$next1 = $next;
+};
+function owb_BrowserMain$createControlBar$lambda$_29_3() {
+    jl_Object.call(this);
+    this.$_025 = null;
+}
+let owb_BrowserMain$createControlBar$lambda$_29_3__init_ = (var$0, var$1) => {
+    jl_Object__init_(var$0);
+    var$0.$_025 = var$1;
+},
+owb_BrowserMain$createControlBar$lambda$_29_3__init_0 = var_0 => {
+    let var_1 = new owb_BrowserMain$createControlBar$lambda$_29_3();
+    owb_BrowserMain$createControlBar$lambda$_29_3__init_(var_1, var_0);
+    return var_1;
+},
+owb_BrowserMain$createControlBar$lambda$_29_3_handleEvent = (var$0, var$1) => {
+    owb_BrowserMain_lambda$createControlBar$15(var$0.$_025, var$1);
+},
+owb_BrowserMain$createControlBar$lambda$_29_3_handleEvent$exported$0 = (var$0, var$1) => {
+    var$0.$handleEvent(var$1);
+};
+function owb_BrowserMain$createControlBar$lambda$_29_4() {
+    jl_Object.call(this);
+    this.$_01 = null;
+}
+let owb_BrowserMain$createControlBar$lambda$_29_4__init_ = (var$0, var$1) => {
+    jl_Object__init_(var$0);
+    var$0.$_01 = var$1;
+},
+owb_BrowserMain$createControlBar$lambda$_29_4__init_0 = var_0 => {
+    let var_1 = new owb_BrowserMain$createControlBar$lambda$_29_4();
+    owb_BrowserMain$createControlBar$lambda$_29_4__init_(var_1, var_0);
+    return var_1;
+},
+owb_BrowserMain$createControlBar$lambda$_29_4_handleEvent = (var$0, var$1) => {
+    owb_BrowserMain_lambda$createControlBar$16(var$0.$_01, var$1);
+},
+owb_BrowserMain$createControlBar$lambda$_29_4_handleEvent$exported$0 = (var$0, var$1) => {
+    var$0.$handleEvent(var$1);
+};
+function owb_BrowserMain$createControlBar$lambda$_29_5() {
+    jl_Object.call(this);
+    this.$_011 = null;
+}
+let owb_BrowserMain$createControlBar$lambda$_29_5__init_ = (var$0, var$1) => {
+    jl_Object__init_(var$0);
+    var$0.$_011 = var$1;
+},
+owb_BrowserMain$createControlBar$lambda$_29_5__init_0 = var_0 => {
+    let var_1 = new owb_BrowserMain$createControlBar$lambda$_29_5();
+    owb_BrowserMain$createControlBar$lambda$_29_5__init_(var_1, var_0);
+    return var_1;
+},
+owb_BrowserMain$createControlBar$lambda$_29_5_handleEvent = (var$0, var$1) => {
+    owb_BrowserMain_lambda$createControlBar$17(var$0.$_011, var$1);
+},
+owb_BrowserMain$createControlBar$lambda$_29_5_handleEvent$exported$0 = (var$0, var$1) => {
+    var$0.$handleEvent(var$1);
 },
 jur_AbstractCharClass$LazyJavaIdentifierIgnorable = $rt_classWithoutFields(jur_AbstractCharClass$LazyCharClass),
 jur_AbstractCharClass$LazyJavaIdentifierIgnorable__init_ = $this => {
@@ -12961,6 +13063,25 @@ jur_UMultiLineEOLSet_hasConsumed = ($this, $matchResult) => {
     $res = !$matchResult.$getConsumed($this.$consCounter2) ? 0 : 1;
     $matchResult.$setConsumed($this.$consCounter2, (-1));
     return $res;
+};
+function owb_BrowserMain$createControlBar$lambda$_29_0() {
+    jl_Object.call(this);
+    this.$_06 = null;
+}
+let owb_BrowserMain$createControlBar$lambda$_29_0__init_ = (var$0, var$1) => {
+    jl_Object__init_(var$0);
+    var$0.$_06 = var$1;
+},
+owb_BrowserMain$createControlBar$lambda$_29_0__init_0 = var_0 => {
+    let var_1 = new owb_BrowserMain$createControlBar$lambda$_29_0();
+    owb_BrowserMain$createControlBar$lambda$_29_0__init_(var_1, var_0);
+    return var_1;
+},
+owb_BrowserMain$createControlBar$lambda$_29_0_handleEvent = (var$0, var$1) => {
+    owb_BrowserMain_lambda$createControlBar$12(var$0.$_06, var$1);
+},
+owb_BrowserMain$createControlBar$lambda$_29_0_handleEvent$exported$0 = (var$0, var$1) => {
+    var$0.$handleEvent(var$1);
 },
 jur_AbstractCharClass$LazyJavaLetterOrDigit = $rt_classWithoutFields(jur_AbstractCharClass$LazyCharClass),
 jur_AbstractCharClass$LazyJavaLetterOrDigit__init_ = $this => {
@@ -14489,11 +14610,11 @@ jur_CharClass_hasUCI = $this => {
 };
 function owb_BrowserMain$createOpenRow$lambda$_7_0() {
     jl_Object.call(this);
-    this.$_011 = null;
+    this.$_016 = null;
 }
 let owb_BrowserMain$createOpenRow$lambda$_7_0__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_011 = var$1;
+    var$0.$_016 = var$1;
 },
 owb_BrowserMain$createOpenRow$lambda$_7_0__init_0 = var_0 => {
     let var_1 = new owb_BrowserMain$createOpenRow$lambda$_7_0();
@@ -14501,18 +14622,18 @@ owb_BrowserMain$createOpenRow$lambda$_7_0__init_0 = var_0 => {
     return var_1;
 },
 owb_BrowserMain$createOpenRow$lambda$_7_0_handleEvent = (var$0, var$1) => {
-    owb_BrowserMain_lambda$createOpenRow$0(var$0.$_011, var$1);
+    owb_BrowserMain_lambda$createOpenRow$0(var$0.$_016, var$1);
 },
 owb_BrowserMain$createOpenRow$lambda$_7_0_handleEvent$exported$0 = (var$0, var$1) => {
     var$0.$handleEvent(var$1);
 };
 function owb_BrowserMain$createOpenRow$lambda$_7_1() {
     jl_Object.call(this);
-    this.$_05 = null;
+    this.$_04 = null;
 }
 let owb_BrowserMain$createOpenRow$lambda$_7_1__init_ = (var$0, var$1) => {
     jl_Object__init_(var$0);
-    var$0.$_05 = var$1;
+    var$0.$_04 = var$1;
 },
 owb_BrowserMain$createOpenRow$lambda$_7_1__init_0 = var_0 => {
     let var_1 = new owb_BrowserMain$createOpenRow$lambda$_7_1();
@@ -14520,7 +14641,7 @@ owb_BrowserMain$createOpenRow$lambda$_7_1__init_0 = var_0 => {
     return var_1;
 },
 owb_BrowserMain$createOpenRow$lambda$_7_1_handleEvent = (var$0, var$1) => {
-    owb_BrowserMain_lambda$createOpenRow$1(var$0.$_05, var$1);
+    owb_BrowserMain_lambda$createOpenRow$1(var$0.$_04, var$1);
 },
 owb_BrowserMain$createOpenRow$lambda$_7_1_handleEvent$exported$0 = (var$0, var$1) => {
     var$0.$handleEvent(var$1);
@@ -14586,11 +14707,6 @@ ju_Collections__clinit_ = () => {
 $rt_packages([-1, "java", 0, "util", 1, "regex", 0, "lang"
 ]);
 $rt_metadata([jl_Object, "Object", 3, 0, [], 0, 3, 0, 0, ["$getClass0", $rt_wrapFunction0(jl_Object_getClass), "$equals", $rt_wrapFunction1(jl_Object_equals), "$toString", $rt_wrapFunction0(jl_Object_toString), "$identity", $rt_wrapFunction0(jl_Object_identity)],
-otj_JSObject, 0, jl_Object, [], 3, 3, 0, 0, 0,
-otjde_EventListener, 0, jl_Object, [otj_JSObject], 3, 3, 0, 0, 0,
-owb_BrowserMain$createControlBar$lambda$_28_2, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_28_2__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_28_2_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_28_2_handleEvent$exported$0)],
-juf_Consumer, 0, jl_Object, [], 3, 3, 0, 0, 0,
-owb_BrowserMain$bindControls$lambda$_44_5, 0, jl_Object, [juf_Consumer], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_44_5__init_), "$accept1", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_44_5_accept0), "$accept", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_44_5_accept)],
 jur_AbstractCharClass$LazyCharClass, 0, jl_Object, [], 1, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazyCharClass__init_), "$getValue", $rt_wrapFunction1(jur_AbstractCharClass$LazyCharClass_getValue)],
 jur_AbstractCharClass$LazyBlank, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazyBlank__init_), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyBlank_computeValue)],
 jur_AbstractCharClass$LazyCntrl, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazyCntrl__init_), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyCntrl_computeValue)],
@@ -14598,32 +14714,22 @@ jl_Throwable, 0, jl_Object, [], 0, 3, 0, 0, ["$fillInStackTrace", $rt_wrapFuncti
 jl_Exception, 0, jl_Throwable, [], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(jl_Exception__init_0), "$_init_0", $rt_wrapFunction1(jl_Exception__init_)],
 jl_RuntimeException, 0, jl_Exception, [], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(jl_RuntimeException__init_), "$_init_0", $rt_wrapFunction1(jl_RuntimeException__init_0)],
 jl_IndexOutOfBoundsException, 0, jl_RuntimeException, [], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(jl_IndexOutOfBoundsException__init_0), "$_init_0", $rt_wrapFunction1(jl_IndexOutOfBoundsException__init_2)],
-owb_BrowserMain$createControlBar$lambda$_28_3, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_28_3__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_28_3_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_28_3_handleEvent$exported$0)],
-owb_BrowserMain$bindControls$lambda$_44_6, 0, jl_Object, [juf_Consumer], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_44_6__init_), "$accept1", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_44_6_accept0), "$accept0", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_44_6_accept)],
-owb_BrowserMain$createControlBar$lambda$_28_4, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_28_4__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_28_4_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_28_4_handleEvent$exported$0)],
-owb_BrowserMain$createControlBar$lambda$_28_5, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_28_5__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_28_5_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_28_5_handleEvent$exported$0)],
-jl_Runnable, 0, jl_Object, [], 3, 3, 0, 0, 0,
-owb_BrowserMain$bindControls$lambda$_44_1, 0, jl_Object, [jl_Runnable], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_44_1__init_), "$run", $rt_wrapFunction0(owb_BrowserMain$bindControls$lambda$_44_1_run)],
 jur_SpecialToken, 0, jl_Object, [], 1, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_SpecialToken__init_)],
 jur_AbstractCharClass, 0, jur_SpecialToken, [], 1, 0, 0, jur_AbstractCharClass_$callClinit, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass__init_), "$getBits", $rt_wrapFunction0(jur_AbstractCharClass_getBits), "$getLowHighSurrogates", $rt_wrapFunction0(jur_AbstractCharClass_getLowHighSurrogates), "$hasLowHighSurrogates", $rt_wrapFunction0(jur_AbstractCharClass_hasLowHighSurrogates), "$mayContainSupplCodepoints", $rt_wrapFunction0(jur_AbstractCharClass_mayContainSupplCodepoints), "$getInstance", $rt_wrapFunction0(jur_AbstractCharClass_getInstance),
 "$getSurrogates", $rt_wrapFunction0(jur_AbstractCharClass_getSurrogates), "$getWithoutSurrogates", $rt_wrapFunction0(jur_AbstractCharClass_getWithoutSurrogates), "$hasUCI", $rt_wrapFunction0(jur_AbstractCharClass_hasUCI), "$setNegative", $rt_wrapFunction1(jur_AbstractCharClass_setNegative), "$isNegative", $rt_wrapFunction0(jur_AbstractCharClass_isNegative)],
 jur_AbstractCharClass$LazyJavaWhitespace$1, "AbstractCharClass$LazyJavaWhitespace$1", 2, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_39", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaWhitespace$1__init_), "$contains", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaWhitespace$1_contains)],
-owb_BrowserMain$bindControls$lambda$_44_2, 0, jl_Object, [jl_Runnable], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_44_2__init_), "$run", $rt_wrapFunction0(owb_BrowserMain$bindControls$lambda$_44_2_run)],
 jur_AbstractCharClass$LazyJavaJavaIdentifierStart, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaJavaIdentifierStart__init_), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaJavaIdentifierStart_computeValue)],
-owb_BrowserMain$bindControls$lambda$_44_3, 0, jl_Object, [juf_Consumer], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_44_3__init_), "$accept1", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_44_3_accept0), "$accept", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_44_3_accept)],
-owb_BrowserMain$bindControls$lambda$_44_4, 0, jl_Object, [jl_Runnable], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_44_4__init_), "$run", $rt_wrapFunction0(owb_BrowserMain$bindControls$lambda$_44_4_run)],
 jl_Record, 0, jl_Object, [], 1, 3, 0, 0, ["$_init_", $rt_wrapFunction0(jl_Record__init_)],
 ji_Serializable, 0, jl_Object, [], 3, 3, 0, 0, 0,
 jl_Number, 0, jl_Object, [ji_Serializable], 1, 3, 0, 0, ["$_init_", $rt_wrapFunction0(jl_Number__init_)],
 jl_Comparable, 0, jl_Object, [], 3, 3, 0, 0, 0,
 jl_Integer, 0, jl_Number, [jl_Comparable], 0, 3, 0, jl_Integer_$callClinit, 0,
-owb_BrowserMain$createControlBar$lambda$_28_0, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_28_0__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_28_0_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_28_0_handleEvent$exported$0)],
-owb_BrowserMain$createControlBar$lambda$_28_1, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_28_1__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_28_1_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_28_1_handleEvent$exported$0)],
 jl_AbstractStringBuilder$Constants, 0, jl_Object, [], 0, 0, 0, jl_AbstractStringBuilder$Constants_$callClinit, 0,
 jur_AbstractSet, 0, jl_Object, [], 1, 0, 0, jur_AbstractSet_$callClinit, ["$_init_", $rt_wrapFunction0(jur_AbstractSet__init_), "$_init_8", $rt_wrapFunction1(jur_AbstractSet__init_0), "$find", $rt_wrapFunction3(jur_AbstractSet_find), "$findBack", $rt_wrapFunction4(jur_AbstractSet_findBack), "$setType", $rt_wrapFunction1(jur_AbstractSet_setType), "$getType", $rt_wrapFunction0(jur_AbstractSet_getType), "$getNext", $rt_wrapFunction0(jur_AbstractSet_getNext), "$setNext", $rt_wrapFunction1(jur_AbstractSet_setNext),
 "$first", $rt_wrapFunction1(jur_AbstractSet_first), "$processBackRefReplacement", $rt_wrapFunction0(jur_AbstractSet_processBackRefReplacement), "$processSecondPass", $rt_wrapFunction0(jur_AbstractSet_processSecondPass)],
 jur_JointSet, 0, jur_AbstractSet, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_JointSet__init_), "$_init_20", $rt_wrapFunction2(jur_JointSet__init_0), "$matches", $rt_wrapFunction3(jur_JointSet_matches), "$setNext", $rt_wrapFunction1(jur_JointSet_setNext), "$first", $rt_wrapFunction1(jur_JointSet_first), "$hasConsumed", $rt_wrapFunction1(jur_JointSet_hasConsumed), "$processSecondPass", $rt_wrapFunction0(jur_JointSet_processSecondPass)],
 jur_SingleSet, 0, jur_JointSet, [], 0, 0, 0, 0, ["$_init_6", $rt_wrapFunction2(jur_SingleSet__init_), "$matches", $rt_wrapFunction3(jur_SingleSet_matches), "$find", $rt_wrapFunction3(jur_SingleSet_find), "$findBack", $rt_wrapFunction4(jur_SingleSet_findBack), "$first", $rt_wrapFunction1(jur_SingleSet_first), "$processBackRefReplacement", $rt_wrapFunction0(jur_SingleSet_processBackRefReplacement), "$processSecondPass", $rt_wrapFunction0(jur_SingleSet_processSecondPass)],
+otj_JSObject, 0, jl_Object, [], 3, 3, 0, 0, 0,
 otjdx_Node, 0, jl_Object, [otj_JSObject], 3, 3, 0, 0, 0,
 otjdx_Document, 0, jl_Object, [otjdx_Node], 3, 3, 0, 0, 0,
 otjde_EventTarget, 0, jl_Object, [otj_JSObject], 3, 3, 0, 0, 0,
@@ -14636,8 +14742,8 @@ jur_AbstractCharClass$LazyDigit, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 
 jur_AbstractCharClass$LazyNonDigit, 0, jur_AbstractCharClass$LazyDigit, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazyNonDigit__init_), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyNonDigit_computeValue)],
 jur_BackReferencedSingleSet, 0, jur_SingleSet, [], 0, 0, 0, 0, ["$_init_5", $rt_wrapFunction1(jur_BackReferencedSingleSet__init_), "$find", $rt_wrapFunction3(jur_BackReferencedSingleSet_find), "$findBack", $rt_wrapFunction4(jur_BackReferencedSingleSet_findBack), "$processBackRefReplacement", $rt_wrapFunction0(jur_BackReferencedSingleSet_processBackRefReplacement)],
 owc_UndoHistory, 0, jl_Object, [], 3, 3, 0, 0, 0,
-jur_CIBackReferenceSet, 0, jur_JointSet, [], 0, 0, 0, 0, ["$_init_12", $rt_wrapFunction2(jur_CIBackReferenceSet__init_), "$matches", $rt_wrapFunction3(jur_CIBackReferenceSet_matches), "$setNext", $rt_wrapFunction1(jur_CIBackReferenceSet_setNext), "$getString", $rt_wrapFunction1(jur_CIBackReferenceSet_getString), "$hasConsumed", $rt_wrapFunction1(jur_CIBackReferenceSet_hasConsumed)]]);
-$rt_metadata([jur_AbstractCharClass$LazyWord, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazyWord__init_), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyWord_computeValue)],
+jur_CIBackReferenceSet, 0, jur_JointSet, [], 0, 0, 0, 0, ["$_init_12", $rt_wrapFunction2(jur_CIBackReferenceSet__init_), "$matches", $rt_wrapFunction3(jur_CIBackReferenceSet_matches), "$setNext", $rt_wrapFunction1(jur_CIBackReferenceSet_setNext), "$getString", $rt_wrapFunction1(jur_CIBackReferenceSet_getString), "$hasConsumed", $rt_wrapFunction1(jur_CIBackReferenceSet_hasConsumed)],
+jur_AbstractCharClass$LazyWord, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazyWord__init_), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyWord_computeValue)],
 jur_AbstractCharClass$LazyNonWord, 0, jur_AbstractCharClass$LazyWord, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazyNonWord__init_), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyNonWord_computeValue)],
 jur_AbstractCharClass$1, "AbstractCharClass$1", 2, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_2", $rt_wrapFunction2(jur_AbstractCharClass$1__init_), "$contains", $rt_wrapFunction1(jur_AbstractCharClass$1_contains)],
 owc_ControlViewModel, 0, jl_Object, [], 4, 3, 0, 0, ["$_init_", $rt_wrapFunction0(owc_ControlViewModel__init_), "$setFilename", $rt_wrapFunction1(owc_ControlViewModel_setFilename), "$status", $rt_wrapFunction0(owc_ControlViewModel_status), "$syncFilename", $rt_wrapFunction1(owc_ControlViewModel_syncFilename), "$setPosition", $rt_wrapFunction2(owc_ControlViewModel_setPosition), "$bindRename", $rt_wrapFunction1(owc_ControlViewModel_bindRename), "$bindPrev", $rt_wrapFunction1(owc_ControlViewModel_bindPrev), "$bindNext",
@@ -14653,8 +14759,8 @@ jur_CompositeQuantifierSet, 0, jur_LeafQuantifierSet, [], 0, 0, 0, 0, ["$_init_1
 jur_PossessiveCompositeQuantifierSet, 0, jur_CompositeQuantifierSet, [], 0, 0, 0, 0, ["$_init_11", $rt_wrapFunction4(jur_PossessiveCompositeQuantifierSet__init_), "$matches", $rt_wrapFunction3(jur_PossessiveCompositeQuantifierSet_matches)],
 jl_CharSequence, 0, jl_Object, [], 3, 3, 0, 0, 0,
 jl_StringIndexOutOfBoundsException, 0, jl_IndexOutOfBoundsException, [], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(jl_StringIndexOutOfBoundsException__init_0)],
-ju_MissingResourceException, 0, jl_RuntimeException, [], 0, 3, 0, 0, ["$_init_15", $rt_wrapFunction3(ju_MissingResourceException__init_)],
-jur_AbstractCharClass$LazyJavaLetterOrDigit$1, "AbstractCharClass$LazyJavaLetterOrDigit$1", 2, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_63", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaLetterOrDigit$1__init_), "$contains", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaLetterOrDigit$1_contains)],
+ju_MissingResourceException, 0, jl_RuntimeException, [], 0, 3, 0, 0, ["$_init_15", $rt_wrapFunction3(ju_MissingResourceException__init_)]]);
+$rt_metadata([jur_AbstractCharClass$LazyJavaLetterOrDigit$1, "AbstractCharClass$LazyJavaLetterOrDigit$1", 2, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_63", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaLetterOrDigit$1__init_), "$contains", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaLetterOrDigit$1_contains)],
 jur_CharClass$18, "CharClass$18", 2, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_69", $rt_wrapFunction2(jur_CharClass$18__init_), "$contains", $rt_wrapFunction1(jur_CharClass$18_contains), "$toString", $rt_wrapFunction0(jur_CharClass$18_toString)],
 jur_GroupQuantifierSet, 0, jur_QuantifierSet, [], 0, 0, 0, 0, ["$_init_9", $rt_wrapFunction3(jur_GroupQuantifierSet__init_), "$matches", $rt_wrapFunction3(jur_GroupQuantifierSet_matches)],
 jur_PossessiveGroupQuantifierSet, 0, jur_GroupQuantifierSet, [], 0, 0, 0, 0, ["$_init_9", $rt_wrapFunction3(jur_PossessiveGroupQuantifierSet__init_), "$matches", $rt_wrapFunction3(jur_PossessiveGroupQuantifierSet_matches)],
@@ -14662,6 +14768,8 @@ jur_UCIBackReferenceSet, 0, jur_CIBackReferenceSet, [], 0, 0, 0, 0, ["$_init_12"
 jur_CharClass$13, 0, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_66", $rt_wrapFunction2(jur_CharClass$13__init_), "$contains", $rt_wrapFunction1(jur_CharClass$13_contains)],
 jur_CharClass$12, 0, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_66", $rt_wrapFunction2(jur_CharClass$12__init_), "$contains", $rt_wrapFunction1(jur_CharClass$12_contains)],
 jur_CharClass$11, 0, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_65", $rt_wrapFunction4(jur_CharClass$11__init_), "$contains", $rt_wrapFunction1(jur_CharClass$11_contains)],
+otjde_EventListener, 0, jl_Object, [otj_JSObject], 3, 3, 0, 0, 0,
+owb_BrowserMain$renderFilenameEditor$lambda$_30_0, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$renderFilenameEditor$lambda$_30_0__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$renderFilenameEditor$lambda$_30_0_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$renderFilenameEditor$lambda$_30_0_handleEvent$exported$0)],
 jur_AbstractCharClass$LazyCategory, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$_init_16", $rt_wrapFunction2(jur_AbstractCharClass$LazyCategory__init_0), "$_init_17", $rt_wrapFunction3(jur_AbstractCharClass$LazyCategory__init_1), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyCategory_computeValue)],
 otci_Base46, 0, jl_Object, [], 4, 3, 0, 0, 0,
 jur_CharClass$10, 0, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_65", $rt_wrapFunction4(jur_CharClass$10__init_), "$contains", $rt_wrapFunction1(jur_CharClass$10_contains)],
@@ -14693,8 +14801,8 @@ jur_PosPlusGroupQuantifierSet, 0, jur_GroupQuantifierSet, [], 0, 0, 0, 0, ["$_in
 jur_EmptySet, 0, jur_LeafSet, [], 0, 0, 0, 0, ["$_init_8", $rt_wrapFunction1(jur_EmptySet__init_0), "$accepts", $rt_wrapFunction2(jur_EmptySet_accepts), "$find", $rt_wrapFunction3(jur_EmptySet_find), "$findBack", $rt_wrapFunction4(jur_EmptySet_findBack), "$hasConsumed", $rt_wrapFunction1(jur_EmptySet_hasConsumed)],
 jl_StringBuffer, 0, jl_AbstractStringBuilder, [jl_Appendable], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(jl_StringBuffer__init_), "$append15", $rt_wrapFunction1(jl_StringBuffer_append1), "$append12", $rt_wrapFunction3(jl_StringBuffer_append2), "$append16", $rt_wrapFunction1(jl_StringBuffer_append0), "$insert10", $rt_wrapFunction4(jl_StringBuffer_insert), "$insert11", $rt_wrapFunction2(jl_StringBuffer_insert2), "$insert4", $rt_wrapFunction4(jl_StringBuffer_insert1), "$append4", $rt_wrapFunction3(jl_StringBuffer_append),
 "$charAt", $rt_wrapFunction1(jl_StringBuffer_charAt), "$length", $rt_wrapFunction0(jl_StringBuffer_length), "$toString", $rt_wrapFunction0(jl_StringBuffer_toString), "$ensureCapacity", $rt_wrapFunction1(jl_StringBuffer_ensureCapacity), "$insert3", $rt_wrapFunction2(jl_StringBuffer_insert0)],
-jur_AbstractCharClass$LazyJavaUnicodeIdentifierPart$1, "AbstractCharClass$LazyJavaUnicodeIdentifierPart$1", 2, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_47", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaUnicodeIdentifierPart$1__init_), "$contains", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaUnicodeIdentifierPart$1_contains)]]);
-$rt_metadata([jur_AbstractCharClass$PredefinedCharacterClasses, 0, jl_Object, [], 4, 0, 0, jur_AbstractCharClass$PredefinedCharacterClasses_$callClinit, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$PredefinedCharacterClasses__init_), "$getObject", $rt_wrapFunction1(jur_AbstractCharClass$PredefinedCharacterClasses_getObject)],
+jur_AbstractCharClass$LazyJavaUnicodeIdentifierPart$1, "AbstractCharClass$LazyJavaUnicodeIdentifierPart$1", 2, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_47", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaUnicodeIdentifierPart$1__init_), "$contains", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaUnicodeIdentifierPart$1_contains)],
+jur_AbstractCharClass$PredefinedCharacterClasses, 0, jl_Object, [], 4, 0, 0, jur_AbstractCharClass$PredefinedCharacterClasses_$callClinit, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$PredefinedCharacterClasses__init_), "$getObject", $rt_wrapFunction1(jur_AbstractCharClass$PredefinedCharacterClasses_getObject)],
 jur_AbstractCharClass$LazyJavaLetter, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaLetter__init_), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaLetter_computeValue)],
 jur_DecomposedCharSet, 0, jur_JointSet, [], 0, 0, 0, 0, ["$_init_19", $rt_wrapFunction2(jur_DecomposedCharSet__init_), "$setNext", $rt_wrapFunction1(jur_DecomposedCharSet_setNext), "$matches", $rt_wrapFunction3(jur_DecomposedCharSet_matches), "$codePointAt", $rt_wrapFunction3(jur_DecomposedCharSet_codePointAt), "$first", $rt_wrapFunction1(jur_DecomposedCharSet_first), "$hasConsumed", $rt_wrapFunction1(jur_DecomposedCharSet_hasConsumed)],
 jur_CIDecomposedCharSet, 0, jur_DecomposedCharSet, [], 0, 0, 0, 0, ["$_init_19", $rt_wrapFunction2(jur_CIDecomposedCharSet__init_)],
@@ -14706,19 +14814,18 @@ jur_PositiveLookAhead, 0, jur_AtomicJointSet, [], 0, 0, 0, 0, ["$_init_20", $rt_
 jur_NegativeLookAhead, 0, jur_AtomicJointSet, [], 0, 0, 0, 0, ["$_init_20", $rt_wrapFunction2(jur_NegativeLookAhead__init_), "$matches", $rt_wrapFunction3(jur_NegativeLookAhead_matches), "$hasConsumed", $rt_wrapFunction1(jur_NegativeLookAhead_hasConsumed)],
 ju_Iterator, 0, jl_Object, [], 3, 3, 0, 0, 0,
 ju_AbstractList$1, 0, jl_Object, [ju_Iterator], 0, 0, 0, 0, ["$_init_31", $rt_wrapFunction1(ju_AbstractList$1__init_), "$hasNext", $rt_wrapFunction0(ju_AbstractList$1_hasNext), "$next", $rt_wrapFunction0(ju_AbstractList$1_next)],
-owc_InteractionController, 0, jl_Object, [], 4, 3, 0, 0, ["$_init_35", $rt_wrapFunction1(owc_InteractionController__init_), "$getImage", $rt_wrapFunction0(owc_InteractionController_getImage), "$selection", $rt_wrapFunction0(owc_InteractionController_selection), "$zoom0", $rt_wrapFunction0(owc_InteractionController_zoom), "$setSelectionSize", $rt_wrapFunction2(owc_InteractionController_setSelectionSize), "$zoom", $rt_wrapFunction1(owc_InteractionController_zoom0), "$startSelection", $rt_wrapFunction2(owc_InteractionController_startSelection),
-"$dragSelection", $rt_wrapFunction2(owc_InteractionController_dragSelection), "$crop0", $rt_wrapFunction0(owc_InteractionController_crop), "$rotate0", $rt_wrapFunction1(owc_InteractionController_rotate)],
-ju_AbstractMap, 0, jl_Object, [ju_Map], 1, 3, 0, 0, ["$_init_", $rt_wrapFunction0(ju_AbstractMap__init_)],
+owc_InteractionController, 0, jl_Object, [], 4, 3, 0, 0, ["$_init_35", $rt_wrapFunction1(owc_InteractionController__init_), "$getImage", $rt_wrapFunction0(owc_InteractionController_getImage), "$selection", $rt_wrapFunction0(owc_InteractionController_selection), "$zoom0", $rt_wrapFunction0(owc_InteractionController_zoom), "$setSelectionSize", $rt_wrapFunction2(owc_InteractionController_setSelectionSize), "$zoom", $rt_wrapFunction1(owc_InteractionController_zoom0), "$setZoom", $rt_wrapFunction1(owc_InteractionController_setZoom),
+"$zoomToFit", $rt_wrapFunction2(owc_InteractionController_zoomToFit), "$startSelection", $rt_wrapFunction2(owc_InteractionController_startSelection), "$dragSelection", $rt_wrapFunction2(owc_InteractionController_dragSelection), "$crop0", $rt_wrapFunction0(owc_InteractionController_crop), "$rotate0", $rt_wrapFunction1(owc_InteractionController_rotate)]]);
+$rt_metadata([ju_AbstractMap, 0, jl_Object, [ju_Map], 1, 3, 0, 0, ["$_init_", $rt_wrapFunction0(ju_AbstractMap__init_)],
 ju_TemplateCollections$AbstractImmutableMap, 0, ju_AbstractMap, [], 1, 0, 0, 0, ["$_init_", $rt_wrapFunction0(ju_TemplateCollections$AbstractImmutableMap__init_)],
 jl_Cloneable, 0, jl_Object, [], 3, 3, 0, 0, 0,
 jur_Quantifier, "Quantifier", 2, jur_SpecialToken, [jl_Cloneable], 0, 0, 0, 0, ["$_init_12", $rt_wrapFunction2(jur_Quantifier__init_), "$min", $rt_wrapFunction0(jur_Quantifier_min), "$max", $rt_wrapFunction0(jur_Quantifier_max), "$toString", $rt_wrapFunction0(jur_Quantifier_toString)],
 jur_AbstractCharClass$LazyJavaUpperCase$1, "AbstractCharClass$LazyJavaUpperCase$1", 2, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_34", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaUpperCase$1__init_), "$contains", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaUpperCase$1_contains)],
 jlr_Array, 0, jl_Object, [], 4, 3, 0, 0, 0,
 ju_ListIterator, 0, jl_Object, [ju_Iterator], 3, 3, 0, 0, 0,
-owb_BrowserMain$createSegmentCombo$lambda$_30_1, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$createSegmentCombo$lambda$_30_1__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$createSegmentCombo$lambda$_30_1_handleEvent0), "$handleEvent0", $rt_wrapFunction1(owb_BrowserMain$createSegmentCombo$lambda$_30_1_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$createSegmentCombo$lambda$_30_1_handleEvent$exported$0)],
-owb_BrowserMain$createSegmentCombo$lambda$_30_0, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$createSegmentCombo$lambda$_30_0__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$createSegmentCombo$lambda$_30_0_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$createSegmentCombo$lambda$_30_0_handleEvent$exported$0)],
 owc_SelectionAdjuster, 0, jl_Object, [], 4, 3, 0, 0, 0,
 otcit_DoubleAnalyzer$Result, 0, jl_Object, [], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(otcit_DoubleAnalyzer$Result__init_0)],
+jl_Runnable, 0, jl_Object, [], 3, 3, 0, 0, 0,
 otpp_ResourceAccessor, 0, jl_Object, [], 4, 0, 0, 0, 0,
 owc_SelectionModel, 0, jl_Object, [], 4, 3, 0, 0, ["$_init_12", $rt_wrapFunction2(owc_SelectionModel__init_), "$resetToFullImage", $rt_wrapFunction0(owc_SelectionModel_resetToFullImage), "$setImageDimensions", $rt_wrapFunction3(owc_SelectionModel_setImageDimensions), "$setRegion", $rt_wrapFunction4(owc_SelectionModel_setRegion), "$move", $rt_wrapFunction2(owc_SelectionModel_move), "$expandRight", $rt_wrapFunction1(owc_SelectionModel_expandRight), "$reduceRight", $rt_wrapFunction1(owc_SelectionModel_reduceRight),
 "$expandBottom", $rt_wrapFunction1(owc_SelectionModel_expandBottom), "$reduceBottom", $rt_wrapFunction1(owc_SelectionModel_reduceBottom), "$expandLeft", $rt_wrapFunction1(owc_SelectionModel_expandLeft), "$reduceLeft", $rt_wrapFunction1(owc_SelectionModel_reduceLeft), "$expandTop", $rt_wrapFunction1(owc_SelectionModel_expandTop), "$reduceTop", $rt_wrapFunction1(owc_SelectionModel_reduceTop), "$getTopLeftX", $rt_wrapFunction0(owc_SelectionModel_getTopLeftX), "$getTopLeftY", $rt_wrapFunction0(owc_SelectionModel_getTopLeftY),
@@ -14737,7 +14844,7 @@ jur_AbstractCharClass$LazyJavaLetter$1, "AbstractCharClass$LazyJavaLetter$1", 2,
 jur_ReluctantQuantifierSet, 0, jur_LeafQuantifierSet, [], 0, 0, 0, 0, ["$_init_10", $rt_wrapFunction3(jur_ReluctantQuantifierSet__init_), "$matches", $rt_wrapFunction3(jur_ReluctantQuantifierSet_matches)],
 otji_JS, 0, jl_Object, [], 4, 0, 0, 0, 0,
 otjc_JSFinalizationRegistryConsumer, 0, jl_Object, [otj_JSObject], 3, 3, 0, 0, 0,
-otji_JSWrapper$_clinit_$lambda$_33_0, 0, jl_Object, [otjc_JSFinalizationRegistryConsumer], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(otji_JSWrapper$_clinit_$lambda$_33_0__init_), "$accept1", $rt_wrapFunction1(otji_JSWrapper$_clinit_$lambda$_33_0_accept), "$accept$exported$0", $rt_wrapFunction1(otji_JSWrapper$_clinit_$lambda$_33_0_accept$exported$0)],
+otji_JSWrapper$_clinit_$lambda$_33_0, 0, jl_Object, [otjc_JSFinalizationRegistryConsumer], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(otji_JSWrapper$_clinit_$lambda$_33_0__init_), "$accept", $rt_wrapFunction1(otji_JSWrapper$_clinit_$lambda$_33_0_accept), "$accept$exported$0", $rt_wrapFunction1(otji_JSWrapper$_clinit_$lambda$_33_0_accept$exported$0)],
 jur_AbstractCharClass$LazyJavaUnicodeIdentifierStart$1, "AbstractCharClass$LazyJavaUnicodeIdentifierStart$1", 2, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_64", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaUnicodeIdentifierStart$1__init_), "$contains", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaUnicodeIdentifierStart$1_contains)],
 otciu_UnicodeHelper, 0, jl_Object, [], 4, 3, 0, 0, 0,
 ju_Objects, 0, jl_Object, [], 4, 3, 0, 0, 0,
@@ -14746,26 +14853,34 @@ jur_AbstractCharClass$LazyGraph, 0, jur_AbstractCharClass$LazyAlnum, [], 0, 0, 0
 jur_AbstractCharClass$LazyPrint, 0, jur_AbstractCharClass$LazyGraph, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazyPrint__init_), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyPrint_computeValue)],
 jur_AbstractCharClass$LazyJavaSpaceChar, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaSpaceChar__init_), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaSpaceChar_computeValue)],
 jur_PositiveLookBehind, 0, jur_AtomicJointSet, [], 0, 0, 0, 0, ["$_init_20", $rt_wrapFunction2(jur_PositiveLookBehind__init_), "$matches", $rt_wrapFunction3(jur_PositiveLookBehind_matches), "$hasConsumed", $rt_wrapFunction1(jur_PositiveLookBehind_hasConsumed)],
-jur_SequenceSet, 0, jur_LeafSet, [], 0, 0, 0, 0, ["$_init_53", $rt_wrapFunction1(jur_SequenceSet__init_), "$accepts", $rt_wrapFunction2(jur_SequenceSet_accepts), "$find", $rt_wrapFunction3(jur_SequenceSet_find), "$findBack", $rt_wrapFunction4(jur_SequenceSet_findBack), "$first", $rt_wrapFunction1(jur_SequenceSet_first), "$indexOf", $rt_wrapFunction3(jur_SequenceSet_indexOf), "$lastIndexOf", $rt_wrapFunction3(jur_SequenceSet_lastIndexOf), "$startsWith", $rt_wrapFunction2(jur_SequenceSet_startsWith)]]);
-$rt_metadata([jur_EOISet, 0, jur_AbstractSet, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_EOISet__init_), "$matches", $rt_wrapFunction3(jur_EOISet_matches), "$hasConsumed", $rt_wrapFunction1(jur_EOISet_hasConsumed)],
+jur_SequenceSet, 0, jur_LeafSet, [], 0, 0, 0, 0, ["$_init_53", $rt_wrapFunction1(jur_SequenceSet__init_), "$accepts", $rt_wrapFunction2(jur_SequenceSet_accepts), "$find", $rt_wrapFunction3(jur_SequenceSet_find), "$findBack", $rt_wrapFunction4(jur_SequenceSet_findBack), "$first", $rt_wrapFunction1(jur_SequenceSet_first), "$indexOf", $rt_wrapFunction3(jur_SequenceSet_indexOf), "$lastIndexOf", $rt_wrapFunction3(jur_SequenceSet_lastIndexOf), "$startsWith", $rt_wrapFunction2(jur_SequenceSet_startsWith)],
+jur_EOISet, 0, jur_AbstractSet, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_EOISet__init_), "$matches", $rt_wrapFunction3(jur_EOISet_matches), "$hasConsumed", $rt_wrapFunction1(jur_EOISet_hasConsumed)],
 ju_Queue, 0, jl_Object, [ju_Collection], 3, 3, 0, 0, 0,
 jl_ArrayStoreException, 0, jl_RuntimeException, [], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(jl_ArrayStoreException__init_0)],
 ju_SequencedCollection, 0, jl_Object, [ju_Collection], 3, 3, 0, 0, 0,
 jur_AltGroupQuantifierSet, 0, jur_GroupQuantifierSet, [], 0, 0, 0, 0, ["$_init_9", $rt_wrapFunction3(jur_AltGroupQuantifierSet__init_), "$matches", $rt_wrapFunction3(jur_AltGroupQuantifierSet_matches), "$setNext", $rt_wrapFunction1(jur_AltGroupQuantifierSet_setNext)],
+owb_BrowserMain$bindControls$lambda$_45_4, 0, jl_Object, [jl_Runnable], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_45_4__init_), "$run", $rt_wrapFunction0(owb_BrowserMain$bindControls$lambda$_45_4_run)],
 jur_AbstractCharClass$LazyUpper, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazyUpper__init_), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyUpper_computeValue)],
+juf_Consumer, 0, jl_Object, [], 3, 3, 0, 0, 0,
+owb_BrowserMain$bindControls$lambda$_45_5, 0, jl_Object, [juf_Consumer], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_45_5__init_), "$accept", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_45_5_accept0), "$accept0", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_45_5_accept)],
+owb_BrowserMain$bindControls$lambda$_45_6, 0, jl_Object, [juf_Consumer], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_45_6__init_), "$accept", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_45_6_accept0), "$accept1", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_45_6_accept)],
 jur_MatchResult, 0, jl_Object, [], 3, 3, 0, 0, 0,
 jur_MatchResultImpl, 0, jl_Object, [jur_MatchResult], 0, 0, 0, 0, ["$_init_32", function(var_1, var_2, var_3, var_4, var_5, var_6) { jur_MatchResultImpl__init_(this, var_1, var_2, var_3, var_4, var_5, var_6); }, "$setConsumed", $rt_wrapFunction2(jur_MatchResultImpl_setConsumed), "$getConsumed", $rt_wrapFunction1(jur_MatchResultImpl_getConsumed), "$end0", $rt_wrapFunction0(jur_MatchResultImpl_end), "$end", $rt_wrapFunction1(jur_MatchResultImpl_end0), "$setStart", $rt_wrapFunction2(jur_MatchResultImpl_setStart),
 "$setEnd", $rt_wrapFunction2(jur_MatchResultImpl_setEnd), "$getStart", $rt_wrapFunction1(jur_MatchResultImpl_getStart), "$getEnd", $rt_wrapFunction1(jur_MatchResultImpl_getEnd), "$getGroupNoCheck", $rt_wrapFunction1(jur_MatchResultImpl_getGroupNoCheck), "$start0", $rt_wrapFunction0(jur_MatchResultImpl_start), "$start", $rt_wrapFunction1(jur_MatchResultImpl_start0), "$finalizeMatch", $rt_wrapFunction0(jur_MatchResultImpl_finalizeMatch), "$getEnterCounter", $rt_wrapFunction1(jur_MatchResultImpl_getEnterCounter),
 "$setEnterCounter", $rt_wrapFunction2(jur_MatchResultImpl_setEnterCounter), "$setValid", $rt_wrapFunction0(jur_MatchResultImpl_setValid), "$isValid", $rt_wrapFunction0(jur_MatchResultImpl_isValid), "$reset", $rt_wrapFunction3(jur_MatchResultImpl_reset0), "$reset0", $rt_wrapFunction0(jur_MatchResultImpl_reset), "$setStartIndex", $rt_wrapFunction1(jur_MatchResultImpl_setStartIndex), "$getLeftBound", $rt_wrapFunction0(jur_MatchResultImpl_getLeftBound), "$getRightBound", $rt_wrapFunction0(jur_MatchResultImpl_getRightBound),
 "$setMode", $rt_wrapFunction1(jur_MatchResultImpl_setMode), "$mode", $rt_wrapFunction0(jur_MatchResultImpl_mode), "$useAnchoringBounds", $rt_wrapFunction1(jur_MatchResultImpl_useAnchoringBounds), "$hasAnchoringBounds", $rt_wrapFunction0(jur_MatchResultImpl_hasAnchoringBounds), "$hasTransparentBounds", $rt_wrapFunction0(jur_MatchResultImpl_hasTransparentBounds), "$getPreviousMatchEnd", $rt_wrapFunction0(jur_MatchResultImpl_getPreviousMatchEnd)],
-jur_UCIRangeSet, 0, jur_LeafSet, [], 0, 0, 0, 0, ["$_init_33", $rt_wrapFunction1(jur_UCIRangeSet__init_), "$accepts", $rt_wrapFunction2(jur_UCIRangeSet_accepts)],
+owb_BrowserMain$bindControls$lambda$_45_0, 0, jl_Object, [jl_Runnable], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_45_0__init_), "$run", $rt_wrapFunction0(owb_BrowserMain$bindControls$lambda$_45_0_run)],
+owb_BrowserMain$bindControls$lambda$_45_1, 0, jl_Object, [jl_Runnable], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_45_1__init_), "$run", $rt_wrapFunction0(owb_BrowserMain$bindControls$lambda$_45_1_run)]]);
+$rt_metadata([jur_UCIRangeSet, 0, jur_LeafSet, [], 0, 0, 0, 0, ["$_init_33", $rt_wrapFunction1(jur_UCIRangeSet__init_), "$accepts", $rt_wrapFunction2(jur_UCIRangeSet_accepts)],
+owb_BrowserMain$bindControls$lambda$_45_2, 0, jl_Object, [jl_Runnable], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_45_2__init_), "$run", $rt_wrapFunction0(owb_BrowserMain$bindControls$lambda$_45_2_run)],
+owb_BrowserMain$bindControls$lambda$_45_3, 0, jl_Object, [juf_Consumer], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_45_3__init_), "$accept", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_45_3_accept0), "$accept0", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_45_3_accept)],
 otji_JSWrapper, 0, jl_Object, [], 4, 3, 0, otji_JSWrapper_$callClinit, ["$equals", $rt_wrapFunction1(otji_JSWrapper_equals)],
 jur_AbstractCharClass$LazyJavaJavaIdentifierPart$1, "AbstractCharClass$LazyJavaJavaIdentifierPart$1", 2, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_28", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaJavaIdentifierPart$1__init_), "$contains", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaJavaIdentifierPart$1_contains)],
 owc_ImageUndo, 0, jl_Object, [], 3, 3, 0, 0, 0,
 owc_InMemoryImageUndo, 0, jl_Object, [owc_ImageUndo], 4, 3, 0, 0, ["$_init_1", $rt_wrapFunction1(owc_InMemoryImageUndo__init_), "$save", $rt_wrapFunction2(owc_InMemoryImageUndo_save), "$canUndo", $rt_wrapFunction0(owc_InMemoryImageUndo_canUndo), "$undo1", $rt_wrapFunction0(owc_InMemoryImageUndo_undo), "$clear", $rt_wrapFunction0(owc_InMemoryImageUndo_clear)],
 otp_Platform, 0, jl_Object, [], 4, 3, 0, 0, 0,
 jur_MultiLineSOLSet, 0, jur_AbstractSet, [], 0, 0, 0, 0, ["$_init_59", $rt_wrapFunction1(jur_MultiLineSOLSet__init_), "$matches", $rt_wrapFunction3(jur_MultiLineSOLSet_matches), "$hasConsumed", $rt_wrapFunction1(jur_MultiLineSOLSet_hasConsumed)],
-otji_JSWrapper$_clinit_$lambda$_33_1, 0, jl_Object, [otjc_JSFinalizationRegistryConsumer], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(otji_JSWrapper$_clinit_$lambda$_33_1__init_), "$accept1", $rt_wrapFunction1(otji_JSWrapper$_clinit_$lambda$_33_1_accept), "$accept$exported$0", $rt_wrapFunction1(otji_JSWrapper$_clinit_$lambda$_33_1_accept$exported$0)],
+otji_JSWrapper$_clinit_$lambda$_33_1, 0, jl_Object, [otjc_JSFinalizationRegistryConsumer], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(otji_JSWrapper$_clinit_$lambda$_33_1__init_), "$accept", $rt_wrapFunction1(otji_JSWrapper$_clinit_$lambda$_33_1_accept), "$accept$exported$0", $rt_wrapFunction1(otji_JSWrapper$_clinit_$lambda$_33_1_accept$exported$0)],
 ju_NoSuchElementException, 0, jl_RuntimeException, [], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(ju_NoSuchElementException__init_0)],
 jur_NegativeLookBehind, 0, jur_AtomicJointSet, [], 0, 0, 0, 0, ["$_init_20", $rt_wrapFunction2(jur_NegativeLookBehind__init_), "$matches", $rt_wrapFunction3(jur_NegativeLookBehind_matches), "$hasConsumed", $rt_wrapFunction1(jur_NegativeLookBehind_hasConsumed)],
 jur_BackReferenceSet, 0, jur_CIBackReferenceSet, [], 0, 0, 0, 0, ["$_init_12", $rt_wrapFunction2(jur_BackReferenceSet__init_), "$matches", $rt_wrapFunction3(jur_BackReferenceSet_matches), "$find", $rt_wrapFunction3(jur_BackReferenceSet_find), "$findBack", $rt_wrapFunction4(jur_BackReferenceSet_findBack), "$first", $rt_wrapFunction1(jur_BackReferenceSet_first)],
@@ -14779,7 +14894,6 @@ jur_UnifiedQuantifierSet, 0, jur_LeafQuantifierSet, [], 0, 0, 0, 0, ["$_init_56"
 jlr_AnnotatedElement, 0, jl_Object, [], 3, 3, 0, 0, 0,
 jlr_Type, 0, jl_Object, [], 3, 3, 0, 0, 0,
 jl_Class, 0, jl_Object, [jlr_AnnotatedElement, jlr_Type], 0, 3, 0, 0, ["$getPlatformClass", $rt_wrapFunction0(jl_Class_getPlatformClass), "$isInstance0", $rt_wrapFunction1(jl_Class_isInstance), "$getName", $rt_wrapFunction0(jl_Class_getName), "$isPrimitive0", $rt_wrapFunction0(jl_Class_isPrimitive), "$getComponentType", $rt_wrapFunction0(jl_Class_getComponentType)],
-owb_BrowserMain$bindControls$lambda$_44_0, 0, jl_Object, [jl_Runnable], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$bindControls$lambda$_44_0__init_), "$run", $rt_wrapFunction0(owb_BrowserMain$bindControls$lambda$_44_0_run)],
 ju_BitSet, 0, jl_Object, [jl_Cloneable, ji_Serializable], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(ju_BitSet__init_0), "$_init_1", $rt_wrapFunction1(ju_BitSet__init_), "$set1", $rt_wrapFunction1(ju_BitSet_set), "$set", $rt_wrapFunction2(ju_BitSet_set0), "$clear0", $rt_wrapFunction1(ju_BitSet_clear0), "$clear1", $rt_wrapFunction2(ju_BitSet_clear), "$get0", $rt_wrapFunction1(ju_BitSet_get), "$nextSetBit", $rt_wrapFunction1(ju_BitSet_nextSetBit), "$nextClearBit", $rt_wrapFunction1(ju_BitSet_nextClearBit), "$intersects",
 $rt_wrapFunction1(ju_BitSet_intersects), "$and", $rt_wrapFunction1(ju_BitSet_and), "$andNot", $rt_wrapFunction1(ju_BitSet_andNot), "$or", $rt_wrapFunction1(ju_BitSet_or), "$xor", $rt_wrapFunction1(ju_BitSet_xor), "$isEmpty", $rt_wrapFunction0(ju_BitSet_isEmpty)],
 ju_Comparator, 0, jl_Object, [], 3, 3, 0, 0, 0,
@@ -14796,12 +14910,9 @@ jur_CharClass$1, 0, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_66", $rt_wra
 jur_CharClass$2, 0, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_67", $rt_wrapFunction3(jur_CharClass$2__init_), "$contains", $rt_wrapFunction1(jur_CharClass$2_contains)],
 jur_AbstractCharClass$LazyRange, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$_init_12", $rt_wrapFunction2(jur_AbstractCharClass$LazyRange__init_0), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyRange_computeValue)],
 jur_CharClass$7, 0, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_66", $rt_wrapFunction2(jur_CharClass$7__init_), "$contains", $rt_wrapFunction1(jur_CharClass$7_contains)],
-owb_BrowserMain$addSelectionDragHandlers$lambda$_39_2, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$addSelectionDragHandlers$lambda$_39_2__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$addSelectionDragHandlers$lambda$_39_2_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$addSelectionDragHandlers$lambda$_39_2_handleEvent$exported$0)],
 jur_AbstractCharClass$LazyXDigit, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazyXDigit__init_), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyXDigit_computeValue)],
 jur_CharClass$8, 0, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_68", $rt_wrapFunction3(jur_CharClass$8__init_), "$contains", $rt_wrapFunction1(jur_CharClass$8_contains)],
-owb_BrowserMain$addSelectionDragHandlers$lambda$_39_1, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$addSelectionDragHandlers$lambda$_39_1__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$addSelectionDragHandlers$lambda$_39_1_handleEvent0), "$handleEvent1", $rt_wrapFunction1(owb_BrowserMain$addSelectionDragHandlers$lambda$_39_1_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$addSelectionDragHandlers$lambda$_39_1_handleEvent$exported$0)],
-jur_CharClass$5, 0, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_65", $rt_wrapFunction4(jur_CharClass$5__init_), "$contains", $rt_wrapFunction1(jur_CharClass$5_contains)]]);
-$rt_metadata([owb_BrowserMain$addSelectionDragHandlers$lambda$_39_0, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$addSelectionDragHandlers$lambda$_39_0__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$addSelectionDragHandlers$lambda$_39_0_handleEvent0), "$handleEvent1", $rt_wrapFunction1(owb_BrowserMain$addSelectionDragHandlers$lambda$_39_0_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$addSelectionDragHandlers$lambda$_39_0_handleEvent$exported$0)],
+jur_CharClass$5, 0, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_65", $rt_wrapFunction4(jur_CharClass$5__init_), "$contains", $rt_wrapFunction1(jur_CharClass$5_contains)],
 jur_CharClass$6, 0, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_66", $rt_wrapFunction2(jur_CharClass$6__init_), "$contains", $rt_wrapFunction1(jur_CharClass$6_contains)],
 ju_Collections$5, 0, jl_Object, [ju_ListIterator], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(ju_Collections$5__init_)],
 ju_List, 0, jl_Object, [ju_SequencedCollection], 3, 3, 0, 0, 0,
@@ -14810,8 +14921,8 @@ ju_RandomAccess, 0, jl_Object, [], 3, 3, 0, 0, 0,
 ju_TemplateCollections$AbstractImmutableList, 0, ju_AbstractList, [ju_RandomAccess], 1, 0, 0, 0, ["$_init_", $rt_wrapFunction0(ju_TemplateCollections$AbstractImmutableList__init_)],
 ju_Collections$3, 0, ju_TemplateCollections$AbstractImmutableList, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(ju_Collections$3__init_), "$get", $rt_wrapFunction1(ju_Collections$3_get), "$size", $rt_wrapFunction0(ju_Collections$3_size), "$iterator", $rt_wrapFunction0(ju_Collections$3_iterator)],
 jur_DotSet, 0, jur_JointSet, [], 4, 0, 0, 0, ["$_init_59", $rt_wrapFunction1(jur_DotSet__init_), "$matches", $rt_wrapFunction3(jur_DotSet_matches), "$setNext", $rt_wrapFunction1(jur_DotSet_setNext), "$getType", $rt_wrapFunction0(jur_DotSet_getType), "$hasConsumed", $rt_wrapFunction1(jur_DotSet_hasConsumed)],
-jur_CharClass$9, 0, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_68", $rt_wrapFunction3(jur_CharClass$9__init_), "$contains", $rt_wrapFunction1(jur_CharClass$9_contains)],
-ju_Collections$4, 0, jl_Object, [ju_Iterator], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(ju_Collections$4__init_), "$hasNext", $rt_wrapFunction0(ju_Collections$4_hasNext), "$next", $rt_wrapFunction0(ju_Collections$4_next)],
+jur_CharClass$9, 0, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_68", $rt_wrapFunction3(jur_CharClass$9__init_), "$contains", $rt_wrapFunction1(jur_CharClass$9_contains)]]);
+$rt_metadata([ju_Collections$4, 0, jl_Object, [ju_Iterator], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(ju_Collections$4__init_), "$hasNext", $rt_wrapFunction0(ju_Collections$4_hasNext), "$next", $rt_wrapFunction0(ju_Collections$4_next)],
 jur_Matcher, 0, jl_Object, [jur_MatchResult], 4, 3, 0, 0, ["$find0", $rt_wrapFunction1(jur_Matcher_find), "$find1", $rt_wrapFunction0(jur_Matcher_find0), "$start", $rt_wrapFunction1(jur_Matcher_start0), "$end", $rt_wrapFunction1(jur_Matcher_end), "$start0", $rt_wrapFunction0(jur_Matcher_start), "$end0", $rt_wrapFunction0(jur_Matcher_end0), "$hasTransparentBounds", $rt_wrapFunction0(jur_Matcher_hasTransparentBounds), "$_init_49", $rt_wrapFunction2(jur_Matcher__init_)],
 jl_Character, 0, jl_Object, [jl_Comparable], 0, 3, 0, jl_Character_$callClinit, 0,
 ju_Set, 0, jl_Object, [ju_Collection], 3, 3, 0, 0, 0,
@@ -14830,42 +14941,45 @@ jur_AbstractCharClass$LazyJavaUpperCase, 0, jur_AbstractCharClass$LazyCharClass,
 jur_AbstractLineTerminator, 0, jl_Object, [], 1, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractLineTerminator__init_)],
 jur_HangulDecomposedCharSet, 0, jur_JointSet, [], 0, 0, 0, 0, ["$_init_54", $rt_wrapFunction2(jur_HangulDecomposedCharSet__init_), "$setNext", $rt_wrapFunction1(jur_HangulDecomposedCharSet_setNext), "$matches", $rt_wrapFunction3(jur_HangulDecomposedCharSet_matches), "$first", $rt_wrapFunction1(jur_HangulDecomposedCharSet_first), "$hasConsumed", $rt_wrapFunction1(jur_HangulDecomposedCharSet_hasConsumed)],
 jur_AbstractCharClass$LazyPunct, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazyPunct__init_), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyPunct_computeValue)],
-owb_BrowserMain$lambda$handleFileSelect$9$lambda$_65_0, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_44", $rt_wrapFunction3(owb_BrowserMain$lambda$handleFileSelect$9$lambda$_65_0__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$lambda$handleFileSelect$9$lambda$_65_0_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$lambda$handleFileSelect$9$lambda$_65_0_handleEvent$exported$0)],
 jur_AbstractCharClass$LazyJavaTitleCase$1, "AbstractCharClass$LazyJavaTitleCase$1", 2, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_29", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaTitleCase$1__init_), "$contains", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaTitleCase$1_contains)],
-owb_WebCanvasAdapter, 0, jl_Object, [], 4, 3, 0, 0, ["$_init_41", $rt_wrapFunction2(owb_WebCanvasAdapter__init_), "$setImage", $rt_wrapFunction1(owb_WebCanvasAdapter_setImage), "$startSelection", $rt_wrapFunction2(owb_WebCanvasAdapter_startSelection), "$dragSelection", $rt_wrapFunction2(owb_WebCanvasAdapter_dragSelection), "$zoom", $rt_wrapFunction1(owb_WebCanvasAdapter_zoom), "$rotate1", $rt_wrapFunction1(owb_WebCanvasAdapter_rotate), "$crop1", $rt_wrapFunction0(owb_WebCanvasAdapter_crop), "$controller", $rt_wrapFunction0(owb_WebCanvasAdapter_controller),
-"$redraw", $rt_wrapFunction0(owb_WebCanvasAdapter_redraw)],
+owb_WebCanvasAdapter, 0, jl_Object, [], 4, 3, 0, 0, ["$_init_41", $rt_wrapFunction2(owb_WebCanvasAdapter__init_), "$setViewportSize", $rt_wrapFunction2(owb_WebCanvasAdapter_setViewportSize), "$setImage", $rt_wrapFunction1(owb_WebCanvasAdapter_setImage), "$startSelection", $rt_wrapFunction2(owb_WebCanvasAdapter_startSelection), "$dragSelection", $rt_wrapFunction2(owb_WebCanvasAdapter_dragSelection), "$zoom", $rt_wrapFunction1(owb_WebCanvasAdapter_zoom), "$rotate1", $rt_wrapFunction1(owb_WebCanvasAdapter_rotate),
+"$crop1", $rt_wrapFunction0(owb_WebCanvasAdapter_crop), "$controller", $rt_wrapFunction0(owb_WebCanvasAdapter_controller), "$redraw", $rt_wrapFunction0(owb_WebCanvasAdapter_redraw), "$getImageOffset", $rt_wrapFunction0(owb_WebCanvasAdapter_getImageOffset)],
 ju_Collections$_clinit_$lambda$_59_0, 0, jl_Object, [ju_Comparator], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(ju_Collections$_clinit_$lambda$_59_0__init_)],
 jur_AbstractCharClass$LazyJavaMirrored$1, "AbstractCharClass$LazyJavaMirrored$1", 2, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_45", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaMirrored$1__init_), "$contains", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaMirrored$1_contains)],
-owb_BrowserMain$wireHandlers$lambda$_9_0, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_0__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_0_handleEvent0), "$handleEvent1", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_0_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_0_handleEvent$exported$0)],
-owb_BrowserMain$wireHandlers$lambda$_9_4, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_4__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_4_handleEvent0), "$handleEvent0", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_4_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_4_handleEvent$exported$0)],
+owb_BrowserMain$wireHandlers$lambda$_9_0, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(owb_BrowserMain$wireHandlers$lambda$_9_0__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_0_handleEvent0), "$handleEvent0", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_0_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_0_handleEvent$exported$0)],
+owb_BrowserMain$wireHandlers$lambda$_9_4, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_4__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_4_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_4_handleEvent$exported$0)],
 owb_BrowserMain$wireHandlers$lambda$_9_3, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_3__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_3_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_3_handleEvent$exported$0)],
-owb_BrowserMain$wireHandlers$lambda$_9_2, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_2__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_2_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_2_handleEvent$exported$0)],
+owb_BrowserMain$wireHandlers$lambda$_9_2, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_2__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_2_handleEvent0), "$handleEvent1", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_2_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_2_handleEvent$exported$0)],
 owb_BrowserMain$wireHandlers$lambda$_9_1, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_1__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_1_handleEvent0), "$handleEvent1", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_1_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_1_handleEvent$exported$0)],
 jur_AbstractCharClass$LazyJavaISOControl$1, "AbstractCharClass$LazyJavaISOControl$1", 2, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_46", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaISOControl$1__init_), "$contains", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaISOControl$1_contains)],
+owb_BrowserMain$wireHandlers$lambda$_9_6, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_6__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_6_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_6_handleEvent$exported$0)],
 jur_WordBoundary, 0, jur_AbstractSet, [], 0, 0, 0, 0, ["$_init_58", $rt_wrapFunction1(jur_WordBoundary__init_0), "$matches", $rt_wrapFunction3(jur_WordBoundary_matches), "$hasConsumed", $rt_wrapFunction1(jur_WordBoundary_hasConsumed)],
+owb_BrowserMain$wireHandlers$lambda$_9_5, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_5__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_5_handleEvent0), "$handleEvent2", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_5_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$wireHandlers$lambda$_9_5_handleEvent$exported$0)],
 jur_UEOLSet, 0, jur_AbstractSet, [], 4, 0, 0, 0, ["$_init_1", $rt_wrapFunction1(jur_UEOLSet__init_), "$matches", $rt_wrapFunction3(jur_UEOLSet_matches), "$hasConsumed", $rt_wrapFunction1(jur_UEOLSet_hasConsumed)],
 jur_AbstractCharClass$LazySpace, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazySpace__init_), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazySpace_computeValue)],
 jur_UCICharSet, 0, jur_LeafSet, [], 0, 0, 0, 0, ["$_init_55", $rt_wrapFunction1(jur_UCICharSet__init_), "$accepts", $rt_wrapFunction2(jur_UCICharSet_accepts)],
+owb_BrowserMain$createSegmentCombo$lambda$_31_1, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$createSegmentCombo$lambda$_31_1__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$createSegmentCombo$lambda$_31_1_handleEvent0), "$handleEvent2", $rt_wrapFunction1(owb_BrowserMain$createSegmentCombo$lambda$_31_1_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$createSegmentCombo$lambda$_31_1_handleEvent$exported$0)],
 jl_Double, 0, jl_Number, [jl_Comparable], 0, 3, 0, jl_Double_$callClinit, ["$_init_36", $rt_wrapFunction1(jl_Double__init_), "$doubleValue", $rt_wrapFunction0(jl_Double_doubleValue)],
+owb_BrowserMain$createSegmentCombo$lambda$_31_0, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$createSegmentCombo$lambda$_31_0__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$createSegmentCombo$lambda$_31_0_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$createSegmentCombo$lambda$_31_0_handleEvent$exported$0)],
 jur_AtomicFSet, 0, jur_FSet, [], 0, 0, 0, 0, ["$_init_1", $rt_wrapFunction1(jur_AtomicFSet__init_), "$matches", $rt_wrapFunction3(jur_AtomicFSet_matches), "$getIndex", $rt_wrapFunction0(jur_AtomicFSet_getIndex), "$hasConsumed", $rt_wrapFunction1(jur_AtomicFSet_hasConsumed)],
 jur_LowSurrogateCharSet, 0, jur_JointSet, [], 0, 0, 0, 0, ["$_init_55", $rt_wrapFunction1(jur_LowSurrogateCharSet__init_0), "$setNext", $rt_wrapFunction1(jur_LowSurrogateCharSet_setNext), "$matches", $rt_wrapFunction3(jur_LowSurrogateCharSet_matches), "$find", $rt_wrapFunction3(jur_LowSurrogateCharSet_find), "$findBack", $rt_wrapFunction4(jur_LowSurrogateCharSet_findBack), "$first", $rt_wrapFunction1(jur_LowSurrogateCharSet_first), "$hasConsumed", $rt_wrapFunction1(jur_LowSurrogateCharSet_hasConsumed)],
 owc_InMemoryUndoHistory, 0, jl_Object, [owc_UndoHistory], 4, 3, 0, 0, ["$_init_1", $rt_wrapFunction1(owc_InMemoryUndoHistory__init_), "$saveState", $rt_wrapFunction2(owc_InMemoryUndoHistory_saveState), "$canUndo", $rt_wrapFunction0(owc_InMemoryUndoHistory_canUndo), "$undo0", $rt_wrapFunction0(owc_InMemoryUndoHistory_undo), "$clear", $rt_wrapFunction0(owc_InMemoryUndoHistory_clear)],
 jur_CompositeGroupQuantifierSet, 0, jur_GroupQuantifierSet, [], 0, 0, 0, 0, ["$_init_37", function(var_1, var_2, var_3, var_4, var_5) { jur_CompositeGroupQuantifierSet__init_(this, var_1, var_2, var_3, var_4, var_5); }, "$matches", $rt_wrapFunction3(jur_CompositeGroupQuantifierSet_matches)],
-jur_RelCompositeGroupQuantifierSet, 0, jur_CompositeGroupQuantifierSet, [], 0, 0, 0, 0, ["$_init_37", function(var_1, var_2, var_3, var_4, var_5) { jur_RelCompositeGroupQuantifierSet__init_(this, var_1, var_2, var_3, var_4, var_5); }, "$matches", $rt_wrapFunction3(jur_RelCompositeGroupQuantifierSet_matches)]]);
-$rt_metadata([ju_ArrayList, 0, ju_AbstractList, [jl_Cloneable, ji_Serializable, ju_RandomAccess], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(ju_ArrayList__init_1), "$_init_1", $rt_wrapFunction1(ju_ArrayList__init_0), "$ensureCapacity", $rt_wrapFunction1(ju_ArrayList_ensureCapacity), "$get", $rt_wrapFunction1(ju_ArrayList_get), "$size", $rt_wrapFunction0(ju_ArrayList_size), "$set0", $rt_wrapFunction2(ju_ArrayList_set), "$add2", $rt_wrapFunction1(ju_ArrayList_add), "$add1", $rt_wrapFunction2(ju_ArrayList_add0),
-"$remove", $rt_wrapFunction1(ju_ArrayList_remove), "$clear", $rt_wrapFunction0(ju_ArrayList_clear)],
+jur_RelCompositeGroupQuantifierSet, 0, jur_CompositeGroupQuantifierSet, [], 0, 0, 0, 0, ["$_init_37", function(var_1, var_2, var_3, var_4, var_5) { jur_RelCompositeGroupQuantifierSet__init_(this, var_1, var_2, var_3, var_4, var_5); }, "$matches", $rt_wrapFunction3(jur_RelCompositeGroupQuantifierSet_matches)],
+ju_ArrayList, 0, ju_AbstractList, [jl_Cloneable, ji_Serializable, ju_RandomAccess], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(ju_ArrayList__init_1), "$_init_1", $rt_wrapFunction1(ju_ArrayList__init_0), "$ensureCapacity", $rt_wrapFunction1(ju_ArrayList_ensureCapacity), "$get", $rt_wrapFunction1(ju_ArrayList_get), "$size", $rt_wrapFunction0(ju_ArrayList_size), "$set0", $rt_wrapFunction2(ju_ArrayList_set), "$add2", $rt_wrapFunction1(ju_ArrayList_add), "$add1", $rt_wrapFunction2(ju_ArrayList_add0), "$remove", $rt_wrapFunction1(ju_ArrayList_remove),
+"$clear", $rt_wrapFunction0(ju_ArrayList_clear)],
 owc_PixelImageOps, 0, jl_Object, [], 4, 3, 0, 0, 0,
 jur_RelAltGroupQuantifierSet, 0, jur_AltGroupQuantifierSet, [], 0, 0, 0, 0, ["$_init_9", $rt_wrapFunction3(jur_RelAltGroupQuantifierSet__init_), "$matches", $rt_wrapFunction3(jur_RelAltGroupQuantifierSet_matches)],
 jur_IntHash, 0, jl_Object, [], 0, 0, 0, 0, 0,
-owb_BrowserMain$renderFilenameEditor$lambda$_29_0, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$renderFilenameEditor$lambda$_29_0__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$renderFilenameEditor$lambda$_29_0_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$renderFilenameEditor$lambda$_29_0_handleEvent$exported$0)],
 jl_String, 0, jl_Object, [ji_Serializable, jl_Comparable, jl_CharSequence], 0, 3, 0, jl_String_$callClinit, ["$_init_", $rt_wrapFunction0(jl_String__init_2), "$_init_22", $rt_wrapFunction1(jl_String__init_0), "$_init_38", $rt_wrapFunction1(jl_String__init_4), "$_init_13", $rt_wrapFunction3(jl_String__init_5), "$charAt", $rt_wrapFunction1(jl_String_charAt), "$length", $rt_wrapFunction0(jl_String_length), "$isEmpty", $rt_wrapFunction0(jl_String_isEmpty), "$isBlank", $rt_wrapFunction0(jl_String_isBlank), "$startsWith0",
 $rt_wrapFunction2(jl_String_startsWith), "$startsWith1", $rt_wrapFunction1(jl_String_startsWith0), "$indexOf1", $rt_wrapFunction2(jl_String_indexOf), "$lastIndexOf1", $rt_wrapFunction2(jl_String_lastIndexOf), "$lastIndexOf2", $rt_wrapFunction1(jl_String_lastIndexOf1), "$indexOf0", $rt_wrapFunction2(jl_String_indexOf0), "$lastIndexOf0", $rt_wrapFunction2(jl_String_lastIndexOf0), "$substring", $rt_wrapFunction2(jl_String_substring), "$substring0", $rt_wrapFunction1(jl_String_substring0), "$subSequence", $rt_wrapFunction2(jl_String_subSequence),
 "$trim", $rt_wrapFunction0(jl_String_trim), "$toString", $rt_wrapFunction0(jl_String_toString), "$toCharArray", $rt_wrapFunction0(jl_String_toCharArray), "$equals", $rt_wrapFunction1(jl_String_equals), "$split0", $rt_wrapFunction1(jl_String_split)],
 jur_ReluctantAltQuantifierSet, 0, jur_AltQuantifierSet, [], 0, 0, 0, 0, ["$_init_10", $rt_wrapFunction3(jur_ReluctantAltQuantifierSet__init_), "$matches", $rt_wrapFunction3(jur_ReluctantAltQuantifierSet_matches)],
-jl_NegativeArraySizeException, 0, jl_RuntimeException, [], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(jl_NegativeArraySizeException__init_)],
-jur_AbstractCharClass$LazyJavaWhitespace, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaWhitespace__init_), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaWhitespace_computeValue)],
+jl_NegativeArraySizeException, 0, jl_RuntimeException, [], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(jl_NegativeArraySizeException__init_)]]);
+$rt_metadata([jur_AbstractCharClass$LazyJavaWhitespace, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaWhitespace__init_), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaWhitespace_computeValue)],
 owc_UndoHistory$UndoResult, 0, jl_Record, [], 32772, 3, 0, 0, ["$_init_27", $rt_wrapFunction2(owc_UndoHistory$UndoResult__init_), "$image", $rt_wrapFunction0(owc_UndoHistory$UndoResult_image), "$originalFilename", $rt_wrapFunction0(owc_UndoHistory$UndoResult_originalFilename)],
 jur_FSet$PossessiveFSet, 0, jur_AbstractSet, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_FSet$PossessiveFSet__init_), "$matches", $rt_wrapFunction3(jur_FSet$PossessiveFSet_matches), "$hasConsumed", $rt_wrapFunction1(jur_FSet$PossessiveFSet_hasConsumed)],
+owb_BrowserMain$lambda$handleFileSelect$11$lambda$_72_0, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_44", $rt_wrapFunction3(owb_BrowserMain$lambda$handleFileSelect$11$lambda$_72_0__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$lambda$handleFileSelect$11$lambda$_72_0_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$lambda$handleFileSelect$11$lambda$_72_0_handleEvent$exported$0)],
 jl_IllegalArgumentException, 0, jl_RuntimeException, [], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(jl_IllegalArgumentException__init_0), "$_init_0", $rt_wrapFunction1(jl_IllegalArgumentException__init_1)],
 jl_NumberFormatException, 0, jl_IllegalArgumentException, [], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(jl_NumberFormatException__init_1), "$_init_0", $rt_wrapFunction1(jl_NumberFormatException__init_)],
 owb_BrowserMain$ImageItem, 0, jl_Record, [], 32772, 0, 0, 0, ["$equals", $rt_wrapFunction1(owb_BrowserMain$ImageItem_equals), "$name", $rt_wrapFunction0(owb_BrowserMain$ImageItem_name), "$image", $rt_wrapFunction0(owb_BrowserMain$ImageItem_image)],
@@ -14880,7 +14994,10 @@ jur_AbstractCharClass$LazyJavaMirrored, 0, jur_AbstractCharClass$LazyCharClass, 
 jur_AbstractCharClass$LazyJavaDigit$1, "AbstractCharClass$LazyJavaDigit$1", 2, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$_init_21", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaDigit$1__init_), "$contains", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaDigit$1_contains)],
 jur_AbstractCharClass$LazyJavaISOControl, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaISOControl__init_), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaISOControl_computeValue)],
 jl_IllegalStateException, 0, jl_RuntimeException, [], 0, 3, 0, 0, ["$_init_", $rt_wrapFunction0(jl_IllegalStateException__init_0), "$_init_0", $rt_wrapFunction1(jl_IllegalStateException__init_)],
+owb_BrowserMain$addSelectionDragHandlers$lambda$_40_0, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$addSelectionDragHandlers$lambda$_40_0__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$addSelectionDragHandlers$lambda$_40_0_handleEvent0), "$handleEvent1", $rt_wrapFunction1(owb_BrowserMain$addSelectionDragHandlers$lambda$_40_0_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$addSelectionDragHandlers$lambda$_40_0_handleEvent$exported$0)],
 jur_HighSurrogateCharSet, 0, jur_JointSet, [], 0, 0, 0, 0, ["$_init_55", $rt_wrapFunction1(jur_HighSurrogateCharSet__init_), "$setNext", $rt_wrapFunction1(jur_HighSurrogateCharSet_setNext), "$matches", $rt_wrapFunction3(jur_HighSurrogateCharSet_matches), "$find", $rt_wrapFunction3(jur_HighSurrogateCharSet_find), "$findBack", $rt_wrapFunction4(jur_HighSurrogateCharSet_findBack), "$first", $rt_wrapFunction1(jur_HighSurrogateCharSet_first), "$hasConsumed", $rt_wrapFunction1(jur_HighSurrogateCharSet_hasConsumed)],
+owb_BrowserMain$addSelectionDragHandlers$lambda$_40_1, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$addSelectionDragHandlers$lambda$_40_1__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$addSelectionDragHandlers$lambda$_40_1_handleEvent0), "$handleEvent1", $rt_wrapFunction1(owb_BrowserMain$addSelectionDragHandlers$lambda$_40_1_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$addSelectionDragHandlers$lambda$_40_1_handleEvent$exported$0)],
+owb_BrowserMain$addSelectionDragHandlers$lambda$_40_2, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$addSelectionDragHandlers$lambda$_40_2__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$addSelectionDragHandlers$lambda$_40_2_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$addSelectionDragHandlers$lambda$_40_2_handleEvent$exported$0)],
 jur_ReluctantCompositeQuantifierSet, 0, jur_CompositeQuantifierSet, [], 0, 0, 0, 0, ["$_init_11", $rt_wrapFunction4(jur_ReluctantCompositeQuantifierSet__init_), "$matches", $rt_wrapFunction3(jur_ReluctantCompositeQuantifierSet_matches)],
 jl_NullPointerException, 0, jl_RuntimeException, [], 0, 3, 0, 0, ["$_init_0", $rt_wrapFunction1(jl_NullPointerException__init_1), "$_init_", $rt_wrapFunction0(jl_NullPointerException__init_0)],
 jur_SOLSet, 0, jur_AbstractSet, [], 4, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_SOLSet__init_), "$matches", $rt_wrapFunction3(jur_SOLSet_matches), "$hasConsumed", $rt_wrapFunction1(jur_SOLSet_hasConsumed)],
@@ -14888,26 +15005,32 @@ jur_AbstractCharClass$LazyJavaSpaceChar$1, "AbstractCharClass$LazyJavaSpaceChar$
 jl_Math, 0, jl_Object, [], 4, 3, 0, 0, 0,
 jur_AbstractCharClass$LazyJavaUnicodeIdentifierPart, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaUnicodeIdentifierPart__init_), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaUnicodeIdentifierPart_computeValue)],
 jur_PatternSyntaxException, 0, jl_IllegalArgumentException, [], 0, 3, 0, 0, ["$_init_51", $rt_wrapFunction3(jur_PatternSyntaxException__init_0), "$getMessage", $rt_wrapFunction0(jur_PatternSyntaxException_getMessage)],
-owb_BrowserMain$createCanvasStage$lambda$_8_0, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$createCanvasStage$lambda$_8_0__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$createCanvasStage$lambda$_8_0_handleEvent0), "$handleEvent2", $rt_wrapFunction1(owb_BrowserMain$createCanvasStage$lambda$_8_0_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$createCanvasStage$lambda$_8_0_handleEvent$exported$0)],
+owb_BrowserMain$createCanvasStage$lambda$_8_0, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$createCanvasStage$lambda$_8_0__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$createCanvasStage$lambda$_8_0_handleEvent0), "$handleEvent0", $rt_wrapFunction1(owb_BrowserMain$createCanvasStage$lambda$_8_0_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$createCanvasStage$lambda$_8_0_handleEvent$exported$0)],
 jur_AbstractCharClass$LazyJavaDefined, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaDefined__init_), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaDefined_computeValue)],
 ju_TemplateCollections$SingleElementList, 0, ju_TemplateCollections$AbstractImmutableList, [ju_RandomAccess], 0, 0, 0, 0, ["$_init_38", $rt_wrapFunction1(ju_TemplateCollections$SingleElementList__init_), "$size", $rt_wrapFunction0(ju_TemplateCollections$SingleElementList_size), "$get", $rt_wrapFunction1(ju_TemplateCollections$SingleElementList_get)],
 jur_Pattern, 0, jl_Object, [ji_Serializable], 4, 3, 0, 0, ["$matcher", $rt_wrapFunction1(jur_Pattern_matcher), "$split1", $rt_wrapFunction2(jur_Pattern_split0), "$split", $rt_wrapFunction1(jur_Pattern_split), "$pattern", $rt_wrapFunction0(jur_Pattern_pattern), "$groupCount", $rt_wrapFunction0(jur_Pattern_groupCount), "$compCount", $rt_wrapFunction0(jur_Pattern_compCount), "$consCount", $rt_wrapFunction0(jur_Pattern_consCount)],
 owb_BrowserMain$StringCallback, 0, jl_Object, [otj_JSObject], 3, 0, 0, 0, 0,
-owb_BrowserMain$handleFileSelect$lambda$_10_0, 0, jl_Object, [owb_BrowserMain$StringCallback], 0, 3, 0, 0, ["$_init_42", $rt_wrapFunction2(owb_BrowserMain$handleFileSelect$lambda$_10_0__init_), "$accept0", $rt_wrapFunction1(owb_BrowserMain$handleFileSelect$lambda$_10_0_accept), "$accept$exported$0", $rt_wrapFunction1(owb_BrowserMain$handleFileSelect$lambda$_10_0_accept$exported$0)],
+owb_BrowserMain$handleFileSelect$lambda$_10_0, 0, jl_Object, [owb_BrowserMain$StringCallback], 0, 3, 0, 0, ["$_init_42", $rt_wrapFunction2(owb_BrowserMain$handleFileSelect$lambda$_10_0__init_), "$accept1", $rt_wrapFunction1(owb_BrowserMain$handleFileSelect$lambda$_10_0_accept), "$accept$exported$0", $rt_wrapFunction1(owb_BrowserMain$handleFileSelect$lambda$_10_0_accept$exported$0)],
+owb_BrowserMain$createControlBar$lambda$_29_1, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_29_1__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_29_1_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_29_1_handleEvent$exported$0)],
+owb_BrowserMain$createControlBar$lambda$_29_2, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_29_2__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_29_2_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_29_2_handleEvent$exported$0)],
 jur_PosAltGroupQuantifierSet, 0, jur_AltGroupQuantifierSet, [], 0, 0, 0, 0, ["$_init_9", $rt_wrapFunction3(jur_PosAltGroupQuantifierSet__init_), "$matches", $rt_wrapFunction3(jur_PosAltGroupQuantifierSet_matches), "$setNext", $rt_wrapFunction1(jur_PosAltGroupQuantifierSet_setNext)],
+owb_BrowserMain$createControlBar$lambda$_29_3, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_29_3__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_29_3_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_29_3_handleEvent$exported$0)],
+owb_BrowserMain$createControlBar$lambda$_29_4, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_29_4__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_29_4_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_29_4_handleEvent$exported$0)],
+owb_BrowserMain$createControlBar$lambda$_29_5, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_29_5__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_29_5_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_29_5_handleEvent$exported$0)],
 jur_AbstractCharClass$LazyJavaIdentifierIgnorable, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaIdentifierIgnorable__init_), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaIdentifierIgnorable_computeValue)],
 jur_UMultiLineEOLSet, 0, jur_AbstractSet, [], 0, 0, 0, 0, ["$_init_1", $rt_wrapFunction1(jur_UMultiLineEOLSet__init_), "$matches", $rt_wrapFunction3(jur_UMultiLineEOLSet_matches), "$hasConsumed", $rt_wrapFunction1(jur_UMultiLineEOLSet_hasConsumed)],
+owb_BrowserMain$createControlBar$lambda$_29_0, 0, jl_Object, [otjde_EventListener], 0, 3, 0, 0, ["$_init_40", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_29_0__init_), "$handleEvent", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_29_0_handleEvent), "$handleEvent$exported$0", $rt_wrapFunction1(owb_BrowserMain$createControlBar$lambda$_29_0_handleEvent$exported$0)],
 jur_AbstractCharClass$LazyJavaLetterOrDigit, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaLetterOrDigit__init_), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaLetterOrDigit_computeValue)],
 otciu_UnicodeHelper$Range, 0, jl_Object, [], 0, 3, 0, 0, ["$_init_24", $rt_wrapFunction3(otciu_UnicodeHelper$Range__init_)],
 otcit_DoubleAnalyzer, 0, jl_Object, [], 4, 3, 0, otcit_DoubleAnalyzer_$callClinit, 0,
 jur_EOLSet, 0, jur_AbstractSet, [], 4, 0, 0, 0, ["$_init_1", $rt_wrapFunction1(jur_EOLSet__init_), "$matches", $rt_wrapFunction3(jur_EOLSet_matches), "$hasConsumed", $rt_wrapFunction1(jur_EOLSet_hasConsumed)],
 jur_AbstractLineTerminator$2, 0, jur_AbstractLineTerminator, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractLineTerminator$2__init_), "$isLineTerminator", $rt_wrapFunction1(jur_AbstractLineTerminator$2_isLineTerminator), "$isAfterLineTerminator", $rt_wrapFunction2(jur_AbstractLineTerminator$2_isAfterLineTerminator)],
 otciu_CharMapping, 0, jl_Object, [], 0, 3, 0, 0, ["$_init_23", $rt_wrapFunction2(otciu_CharMapping__init_)],
-jur_AbstractLineTerminator$1, 0, jur_AbstractLineTerminator, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractLineTerminator$1__init_), "$isLineTerminator", $rt_wrapFunction1(jur_AbstractLineTerminator$1_isLineTerminator), "$isAfterLineTerminator", $rt_wrapFunction2(jur_AbstractLineTerminator$1_isAfterLineTerminator)],
-jur_AbstractCharClass$LazyJavaUnicodeIdentifierStart, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaUnicodeIdentifierStart__init_), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaUnicodeIdentifierStart_computeValue)],
+jur_AbstractLineTerminator$1, 0, jur_AbstractLineTerminator, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractLineTerminator$1__init_), "$isLineTerminator", $rt_wrapFunction1(jur_AbstractLineTerminator$1_isLineTerminator), "$isAfterLineTerminator", $rt_wrapFunction2(jur_AbstractLineTerminator$1_isAfterLineTerminator)]]);
+$rt_metadata([jur_AbstractCharClass$LazyJavaUnicodeIdentifierStart, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaUnicodeIdentifierStart__init_), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaUnicodeIdentifierStart_computeValue)],
 jur_Lexer, 0, jl_Object, [], 0, 0, 0, 0, ["$_init_50", $rt_wrapFunction2(jur_Lexer__init_), "$peek", $rt_wrapFunction0(jur_Lexer_peek), "$setMode", $rt_wrapFunction1(jur_Lexer_setMode), "$restoreFlags", $rt_wrapFunction1(jur_Lexer_restoreFlags), "$peekSpecial", $rt_wrapFunction0(jur_Lexer_peekSpecial), "$isSpecial", $rt_wrapFunction0(jur_Lexer_isSpecial), "$isNextSpecial", $rt_wrapFunction0(jur_Lexer_isNextSpecial), "$next0", $rt_wrapFunction0(jur_Lexer_next), "$nextSpecial", $rt_wrapFunction0(jur_Lexer_nextSpecial),
-"$lookAhead", $rt_wrapFunction0(jur_Lexer_lookAhead), "$back", $rt_wrapFunction0(jur_Lexer_back), "$toString", $rt_wrapFunction0(jur_Lexer_toString), "$isEmpty", $rt_wrapFunction0(jur_Lexer_isEmpty), "$isLetter0", $rt_wrapFunction0(jur_Lexer_isLetter0), "$isHighSurrogate0", $rt_wrapFunction0(jur_Lexer_isHighSurrogate0), "$isLowSurrogate0", $rt_wrapFunction0(jur_Lexer_isLowSurrogate0), "$getIndex", $rt_wrapFunction0(jur_Lexer_getIndex)]]);
-$rt_metadata([otjc_JSWeakRef, 0, jl_Object, [otj_JSObject], 1, 3, 0, 0, 0,
+"$lookAhead", $rt_wrapFunction0(jur_Lexer_lookAhead), "$back", $rt_wrapFunction0(jur_Lexer_back), "$toString", $rt_wrapFunction0(jur_Lexer_toString), "$isEmpty", $rt_wrapFunction0(jur_Lexer_isEmpty), "$isLetter0", $rt_wrapFunction0(jur_Lexer_isLetter0), "$isHighSurrogate0", $rt_wrapFunction0(jur_Lexer_isHighSurrogate0), "$isLowSurrogate0", $rt_wrapFunction0(jur_Lexer_isLowSurrogate0), "$getIndex", $rt_wrapFunction0(jur_Lexer_getIndex)],
+otjc_JSWeakRef, 0, jl_Object, [otj_JSObject], 1, 3, 0, 0, 0,
 jur_AbstractCharClass$LazySpecialsBlock, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazySpecialsBlock__init_), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazySpecialsBlock_computeValue)],
 jur_AbstractCharClass$LazyNonSpace, 0, jur_AbstractCharClass$LazySpace, [], 0, 0, 0, 0, ["$_init_", $rt_wrapFunction0(jur_AbstractCharClass$LazyNonSpace__init_), "$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyNonSpace_computeValue)],
 otci_CharFlow, 0, jl_Object, [], 0, 3, 0, 0, ["$_init_22", $rt_wrapFunction1(otci_CharFlow__init_)],
@@ -14926,7 +15049,8 @@ let $rt_charArrayCls = $rt_arraycls($rt_charcls),
 $rt_byteArrayCls = $rt_arraycls($rt_bytecls),
 $rt_shortArrayCls = $rt_arraycls($rt_shortcls),
 $rt_intArrayCls = $rt_arraycls($rt_intcls),
-$rt_longArrayCls = $rt_arraycls($rt_longcls);
+$rt_longArrayCls = $rt_arraycls($rt_longcls),
+$rt_doubleArrayCls = $rt_arraycls($rt_doublecls);
 $rt_stringPool(["String is null", "String is empty", "String contains invalid digits: ", "String contains digits out of radix ", ": ", "The value is too big for int type: ", "The value is too big for integer type", "Illegal radix: ", "", "0 / 0", " / ", "null", "Lower", "Upper", "ASCII", "Alpha", "Digit", "Alnum", "Punct", "Graph", "Print", "Blank", "Cntrl", "XDigit", "javaLowerCase", "javaUpperCase", "javaWhitespace", "javaMirrored", "javaDefined", "javaDigit", "javaIdentifierIgnorable", "javaISOControl", "javaJavaIdentifierPart",
 "javaJavaIdentifierStart", "javaLetter", "javaLetterOrDigit", "javaSpaceChar", "javaTitleCase", "javaUnicodeIdentifierPart", "javaUnicodeIdentifierStart", "Space", "w", "W", "s", "S", "d", "D", "BasicLatin", "Latin-1Supplement", "LatinExtended-A", "LatinExtended-B", "IPAExtensions", "SpacingModifierLetters", "CombiningDiacriticalMarks", "Greek", "Cyrillic", "CyrillicSupplement", "Armenian", "Hebrew", "Arabic", "Syriac", "ArabicSupplement", "Thaana", "Devanagari", "Bengali", "Gurmukhi", "Gujarati", "Oriya", "Tamil",
 "Telugu", "Kannada", "Malayalam", "Sinhala", "Thai", "Lao", "Tibetan", "Myanmar", "Georgian", "HangulJamo", "Ethiopic", "EthiopicSupplement", "Cherokee", "UnifiedCanadianAboriginalSyllabics", "Ogham", "Runic", "Tagalog", "Hanunoo", "Buhid", "Tagbanwa", "Khmer", "Mongolian", "Limbu", "TaiLe", "NewTaiLue", "KhmerSymbols", "Buginese", "PhoneticExtensions", "PhoneticExtensionsSupplement", "CombiningDiacriticalMarksSupplement", "LatinExtendedAdditional", "GreekExtended", "GeneralPunctuation", "SuperscriptsandSubscripts",
@@ -14950,28 +15074,7 @@ $rt_export_main.javaException = $rt_javaException;
 let $rt_jso_marker = Symbol('jsoClass');
 (() => {
     let c;
-    c = owb_BrowserMain$createControlBar$lambda$_28_2.prototype;
-    c[$rt_jso_marker] = true;
-    c.handleEvent = c.$handleEvent$exported$0;
-    c = owb_BrowserMain$createControlBar$lambda$_28_3.prototype;
-    c[$rt_jso_marker] = true;
-    c.handleEvent = c.$handleEvent$exported$0;
-    c = owb_BrowserMain$createControlBar$lambda$_28_4.prototype;
-    c[$rt_jso_marker] = true;
-    c.handleEvent = c.$handleEvent$exported$0;
-    c = owb_BrowserMain$createControlBar$lambda$_28_5.prototype;
-    c[$rt_jso_marker] = true;
-    c.handleEvent = c.$handleEvent$exported$0;
-    c = owb_BrowserMain$createControlBar$lambda$_28_0.prototype;
-    c[$rt_jso_marker] = true;
-    c.handleEvent = c.$handleEvent$exported$0;
-    c = owb_BrowserMain$createControlBar$lambda$_28_1.prototype;
-    c[$rt_jso_marker] = true;
-    c.handleEvent = c.$handleEvent$exported$0;
-    c = owb_BrowserMain$createSegmentCombo$lambda$_30_1.prototype;
-    c[$rt_jso_marker] = true;
-    c.handleEvent = c.$handleEvent$exported$0;
-    c = owb_BrowserMain$createSegmentCombo$lambda$_30_0.prototype;
+    c = owb_BrowserMain$renderFilenameEditor$lambda$_30_0.prototype;
     c[$rt_jso_marker] = true;
     c.handleEvent = c.$handleEvent$exported$0;
     c = otji_JSWrapper$_clinit_$lambda$_33_0.prototype;
@@ -14980,18 +15083,6 @@ let $rt_jso_marker = Symbol('jsoClass');
     c = otji_JSWrapper$_clinit_$lambda$_33_1.prototype;
     c[$rt_jso_marker] = true;
     c.accept = c.$accept$exported$0;
-    c = owb_BrowserMain$addSelectionDragHandlers$lambda$_39_2.prototype;
-    c[$rt_jso_marker] = true;
-    c.handleEvent = c.$handleEvent$exported$0;
-    c = owb_BrowserMain$addSelectionDragHandlers$lambda$_39_1.prototype;
-    c[$rt_jso_marker] = true;
-    c.handleEvent = c.$handleEvent$exported$0;
-    c = owb_BrowserMain$addSelectionDragHandlers$lambda$_39_0.prototype;
-    c[$rt_jso_marker] = true;
-    c.handleEvent = c.$handleEvent$exported$0;
-    c = owb_BrowserMain$lambda$handleFileSelect$9$lambda$_65_0.prototype;
-    c[$rt_jso_marker] = true;
-    c.handleEvent = c.$handleEvent$exported$0;
     c = owb_BrowserMain$wireHandlers$lambda$_9_0.prototype;
     c[$rt_jso_marker] = true;
     c.handleEvent = c.$handleEvent$exported$0;
@@ -15007,7 +15098,28 @@ let $rt_jso_marker = Symbol('jsoClass');
     c = owb_BrowserMain$wireHandlers$lambda$_9_1.prototype;
     c[$rt_jso_marker] = true;
     c.handleEvent = c.$handleEvent$exported$0;
-    c = owb_BrowserMain$renderFilenameEditor$lambda$_29_0.prototype;
+    c = owb_BrowserMain$wireHandlers$lambda$_9_6.prototype;
+    c[$rt_jso_marker] = true;
+    c.handleEvent = c.$handleEvent$exported$0;
+    c = owb_BrowserMain$wireHandlers$lambda$_9_5.prototype;
+    c[$rt_jso_marker] = true;
+    c.handleEvent = c.$handleEvent$exported$0;
+    c = owb_BrowserMain$createSegmentCombo$lambda$_31_1.prototype;
+    c[$rt_jso_marker] = true;
+    c.handleEvent = c.$handleEvent$exported$0;
+    c = owb_BrowserMain$createSegmentCombo$lambda$_31_0.prototype;
+    c[$rt_jso_marker] = true;
+    c.handleEvent = c.$handleEvent$exported$0;
+    c = owb_BrowserMain$lambda$handleFileSelect$11$lambda$_72_0.prototype;
+    c[$rt_jso_marker] = true;
+    c.handleEvent = c.$handleEvent$exported$0;
+    c = owb_BrowserMain$addSelectionDragHandlers$lambda$_40_0.prototype;
+    c[$rt_jso_marker] = true;
+    c.handleEvent = c.$handleEvent$exported$0;
+    c = owb_BrowserMain$addSelectionDragHandlers$lambda$_40_1.prototype;
+    c[$rt_jso_marker] = true;
+    c.handleEvent = c.$handleEvent$exported$0;
+    c = owb_BrowserMain$addSelectionDragHandlers$lambda$_40_2.prototype;
     c[$rt_jso_marker] = true;
     c.handleEvent = c.$handleEvent$exported$0;
     c = owb_BrowserMain$createCanvasStage$lambda$_8_0.prototype;
@@ -15016,6 +15128,24 @@ let $rt_jso_marker = Symbol('jsoClass');
     c = owb_BrowserMain$handleFileSelect$lambda$_10_0.prototype;
     c[$rt_jso_marker] = true;
     c.accept = c.$accept$exported$0;
+    c = owb_BrowserMain$createControlBar$lambda$_29_1.prototype;
+    c[$rt_jso_marker] = true;
+    c.handleEvent = c.$handleEvent$exported$0;
+    c = owb_BrowserMain$createControlBar$lambda$_29_2.prototype;
+    c[$rt_jso_marker] = true;
+    c.handleEvent = c.$handleEvent$exported$0;
+    c = owb_BrowserMain$createControlBar$lambda$_29_3.prototype;
+    c[$rt_jso_marker] = true;
+    c.handleEvent = c.$handleEvent$exported$0;
+    c = owb_BrowserMain$createControlBar$lambda$_29_4.prototype;
+    c[$rt_jso_marker] = true;
+    c.handleEvent = c.$handleEvent$exported$0;
+    c = owb_BrowserMain$createControlBar$lambda$_29_5.prototype;
+    c[$rt_jso_marker] = true;
+    c.handleEvent = c.$handleEvent$exported$0;
+    c = owb_BrowserMain$createControlBar$lambda$_29_0.prototype;
+    c[$rt_jso_marker] = true;
+    c.handleEvent = c.$handleEvent$exported$0;
     c = owb_BrowserMain$createOpenRow$lambda$_7_0.prototype;
     c[$rt_jso_marker] = true;
     c.handleEvent = c.$handleEvent$exported$0;
