@@ -9049,7 +9049,7 @@ owb_WebCanvasAdapter_controller = $this => {
     return $this.$controller0;
 },
 owb_WebCanvasAdapter_redraw = $this => {
-    let $image, $zoom, $scaledWidth, $scaledHeight, var$5, var$6, var$7, var$8, $sourceCanvas, var$10, var$11, $imageData, $data, $y, $x, $argb, $index, var$18, $offsetX, $offsetY;
+    let $image, $zoom, $scaledWidth, $scaledHeight, var$5, var$6, var$7, var$8, $sourceCanvas, var$10, var$11, var$12, $imageData, $data, $pixels, var$16, $pixelCount, $i, $argb, $idx, var$21, var$22, var$23, $offsetX, $offsetY;
     if ($this.$controller0 === null)
         return;
     $image = owc_InteractionController_getImage($this.$controller0);
@@ -9066,37 +9066,36 @@ owb_WebCanvasAdapter_redraw = $this => {
     var$7 = owc_PixelImage_getWidth($image);
     var$8 = owc_PixelImage_getHeight($image);
     $sourceCanvas = owb_WebCanvasAdapter_createCanvas$js_body$_12(var$7, var$8);
-    var$6 = $sourceCanvas.getContext("2d");
-    var$10 = owc_PixelImage_getWidth($image);
-    var$11 = owc_PixelImage_getHeight($image);
-    $imageData = var$6.createImageData(var$10, var$11);
+    var$10 = $sourceCanvas.getContext("2d");
+    var$11 = owc_PixelImage_getWidth($image);
+    var$12 = owc_PixelImage_getHeight($image);
+    $imageData = var$10.createImageData(var$11, var$12);
     $data = $imageData.data;
-    $y = 0;
-    while ($y < owc_PixelImage_getHeight($image)) {
-        $x = 0;
-        while ($x < owc_PixelImage_getWidth($image)) {
-            $argb = owc_PixelImage_getArgb($image, $x, $y);
-            $index = ($rt_imul($y, owc_PixelImage_getWidth($image)) + $x | 0) * 4 | 0;
-            var$7 = $argb >> 16 & 255;
-            $data[$index] = var$7;
-            var$7 = $index + 1 | 0;
-            var$8 = $argb >> 8 & 255;
-            $data[var$7] = var$8;
-            var$7 = $index + 2 | 0;
-            var$8 = $argb & 255;
-            $data[var$7] = var$8;
-            var$7 = $index + 3 | 0;
-            var$8 = $argb >> 24 & 255;
-            $data[var$7] = var$8;
-            $x = $x + 1 | 0;
-        }
-        $y = $y + 1 | 0;
+    $pixels = owc_PixelImage_getPixels($image);
+    var$16 = $pixels.data;
+    $pixelCount = var$16.length;
+    $i = 0;
+    while ($i < $pixelCount) {
+        $argb = var$16[$i];
+        $idx = $i << 2;
+        var$7 = $argb >> 16 & 255;
+        $data[$idx] = var$7;
+        var$7 = $idx + 1 | 0;
+        var$8 = $argb >> 8 & 255;
+        $data[var$7] = var$8;
+        var$7 = $idx + 2 | 0;
+        var$8 = $argb & 255;
+        $data[var$7] = var$8;
+        var$7 = $idx + 3 | 0;
+        var$8 = $argb >> 24 & 255;
+        $data[var$7] = var$8;
+        $i = $i + 1 | 0;
     }
-    var$6.putImageData($imageData, 0.0, 0.0);
-    var$18 = $this.$ctx;
-    var$10 = $this.$viewportWidth;
-    var$11 = $this.$viewportHeight;
-    var$18.clearRect(0.0, 0.0, var$10, var$11);
+    var$10.putImageData($imageData, 0.0, 0.0);
+    var$21 = $this.$ctx;
+    var$22 = $this.$viewportWidth;
+    var$23 = $this.$viewportHeight;
+    var$21.clearRect(0.0, 0.0, var$22, var$23);
     $offsetX = jl_Math_max0(0.0, ($this.$viewportWidth - $scaledWidth | 0) / 2.0);
     $offsetY = jl_Math_max0(0.0, ($this.$viewportHeight - $scaledHeight | 0) / 2.0);
     $this.$ctx.save();
