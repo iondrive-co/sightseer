@@ -651,9 +651,9 @@ light echoes through the view).
 of beliefs and practices inspired by works of [[French~France]] philosopher and sociologist Jacques Ellul and
 [[American~United States]] author Chuck Palahniuk. Ellulism was first developed and taught by Mourad Laboure in Kabylie
 in 177 BFC, spread out of France to the US and then became wildly popular off Earth during the [[Ceres Wave]], 
-and is today the majority belief system in [[Freehab]]. Outside of the [[Argentinian Mancomunidad]] it has never been
-widespread on Earth, and since the [[Retrograde Diaspora]] has lost popularity in cislunar as well, being replaced as 
-the smallest of the top 5 beliefs by [[Deus Machina]].
+and is today the majority belief system in [[FreeHab~Independent Habitats]]. Outside of the [[Argentinian Mancomunidad]] 
+it has never been widespread on Earth, and since the [[Retrograde Diaspora]] has lost popularity in cislunar as well, 
+being replaced as the smallest of the top 5 beliefs by [[Deus Machina]].
 
 %%%
 
@@ -776,11 +776,11 @@ of citations[1] and having numerous factual inaccuracies and outright hallucinat
 extended periods of time.
 
 In 152 [[BFC~First Contact Event]] the first version of Exobase was conceived as a subset of the larger Exopedia project 
-by an early [[Synthetic Intelligence]] (then called third generation generative AIs) which had been tasked with finding 
-ways to distribute simple summaries of notable facts to the numerous migrants in the [[Ceres Wave]]. It was never widely 
-used by its intended audience, but later became popular in certain communities such as those left behind in the 
-[[Retrograde Diaspora]] is now one of the most widely consulted resources by [[IAs~Infocom Agent]] in the outer solar 
-system. The most popular feature by number of requests is the cache of [[InterMesh]] profile data about nearby people.
+by an early [[Synthetic Intelligence]] which had been tasked with finding ways to distribute simple summaries of notable 
+facts to the numerous migrants in the [[Ceres Wave]]. It was never widely used by its intended audience, but later 
+became popular in certain communities such as those left behind in the [[Retrograde Diaspora]] and is now one of the 
+most widely consulted resources by [[IAs~Infocom Agent]] in the outer solar system. The most popular feature by number 
+of requests is the cache of [[InterMesh]] profile data about nearby people.
 
 After the [[Haidian Takeoff Crisis]] the original synth author was decommissioned. Articles are still frequently added 
 and updated, although the current author is unknown. One popular theory is that the Exobase is now maintained by a 
@@ -1002,15 +1002,16 @@ such as Pharmatica's senolytic Renovacel and the partial cellular reprogramming 
 [[Bioforge Hivegen]].
 
 Up until the last decade BFC the most promising approach to extending longevity appeared to be cell repair via nanobots.
-The development of microscale devices such as respirocytes, a 1-micron spherical device that can carry hundreds of times 
-more oxygen than a natural red cell, were seen as heralding a new era of medicine. Research on humans was legally 
-prohibited, but many military contractors such as [[Ný Varangia~Havfélög]] and [[Constellis Group]] paid for the 
-research in the [[Argentinian Mancomunidad]] which led to the first surgical implementations of respirocyte fleets in 
-humans, creating soldiers with greatly increased endurance due to better gas-exchange ability. This and other 
-applications of surgical nanotech such as targeted drug delivery, cell destruction, and blood vessel clearing are now in 
-common use. However the inability to create effect sub-microscale devices due to the sticky fingers problem has led to a 
-stagnation in the field of nanotech, with cellular repair techniques for DNA, protein folding, mitochondria, ribosomes, 
-enzymes, and membrane channels remaining out of reach of microscale devices.
+Fears of a runaway grey goo scenario initially led to organisms containing nanobots not being legally allowed out of 
+laboratory settings in many polities. The development of microscale devices such as respirocytes, a 1-micron spherical 
+device that can carry hundreds of times more oxygen than a natural red cell, changed this. With field trials in the 
+[[Argentinian Mancomunidad]], [[Ný Varangia~Havfélög]] and [[Constellis Group]] demonstrated that surgical 
+implementations of respirocyte fleets in humans could create soldiers with increased endurance. Subsequent systemwide 
+military research in the area increased dramatically, followed by commercial applications of surgical nanotech such as 
+targeted drug delivery, cell destruction, and blood vessel clearing which are now in common use. However the inability 
+to create effect sub-microscale devices due to the sticky fingers problem has led to a stagnation in the field of 
+nanotech, with cellular repair techniques for DNA, protein folding, mitochondria, ribosomes, enzymes, and membrane 
+channels remaining out of reach of microscale devices.
  
 Instead, many years of improvements in smart polymers capable of adjusting stiffness, conductivity, and biochemical 
 activity in response to cellular and neural cues started to snowball in the last decade BFC. Smart Polymer 
@@ -1790,9 +1791,9 @@ to make [[brain copies~Copy]].
 Other common uses for these laces are attention control, emotional regulation, sensory augmentation, and offloading 
 specialised problems for faster asynchronous processing; all of these were first developed and tested in military 
 personal in the 50s by military [[infomatic companies~Infomatic Conglomerate]] such as [[Microsynth]] and [[Sinogroup]]. 
-There have been several waves of startups attempting to commercialise each of these, with the latest wave in 6 AFC 
-around modules capable of human-machine communication with [[drones~Drone]] and other hardware, which are already widely 
-used by various militaries and contractors such as the [[Constellis Group]]. Several of the most promising
+There have been several waves of startups attempting to commercialise each of these, with the latest wave beginning in 6 
+AFC and focussed on modules capable of human-machine communication with [[drones~Drone]] and other hardware, which are 
+already widely used by various militaries and contractors such as the [[Constellis Group]]. Several of the most promising
 [[Smart Polymer Medicine~Forever Fever]] companies began by developing MemAmps. The original name MemAmp is still used 
 to describe any self assembling optogenetic neural lace enhancement, regardless of the capability it provides.`,
 classification: 'Praxis/MedAug'
