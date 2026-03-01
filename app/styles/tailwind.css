@@ -85,7 +85,7 @@
   }
 
   .index-content {
-    @apply ml-16 justify-start pt-8;
+    @apply ml-16 py-8 overflow-y-auto;
   }
 
   .main-content,
