@@ -10,6 +10,9 @@ export default function Sidebar() {
       <Link to="/">
         <img src="/favicon.ico" alt="Home" />
       </Link>
+      <Link to="/Chad" className="text-xl underline cursor-pointer">
+        Chad
+      </Link>
       <Link to="/exobase/Exobase" className="text-xl underline cursor-pointer">
         Exobase
       </Link>
