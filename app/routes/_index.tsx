@@ -16,6 +16,7 @@ export default function Index() {
                 <div>
                     <p className="email">Contact: c@iondrive.co</p>
                     <div className="descriptions">
+                        <p>&lt;--Mobile coding agent</p>
                         <p>&lt;--Intelligence Dampening Sphere</p>
                         <p>&lt;--Worldbuilding ideas</p>
                         <p>&lt;--How and why this site exists</p>
