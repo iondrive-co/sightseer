@@ -85,7 +85,9 @@
   }
 
   .index-content {
-    @apply ml-16 py-8 overflow-y-auto;
+    @apply ml-16;
+    justify-content: start;
+    padding-top: 15vh;
   }
 
   .main-content,
