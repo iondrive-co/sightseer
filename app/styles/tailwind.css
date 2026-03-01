@@ -84,7 +84,10 @@
     margin-top: 3rem;
   }
 
-  .index-content,
+  .index-content {
+    @apply ml-16 justify-start pt-8;
+  }
+
   .main-content,
   .main-container,
   .article-container {
