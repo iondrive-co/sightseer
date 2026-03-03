@@ -23,8 +23,10 @@ export default function Reviews() {
             bucket = "30+";
         } else if (totalRating >= 25) {
             bucket = "25+";
+        } else if (totalRating >= 20) {
+            bucket = "20+";
         } else {
-            bucket = "Others";
+            bucket = "<20";
         }
 
         if (!groups[bucket]) {
@@ -35,7 +37,7 @@ export default function Reviews() {
         return groups;
     }, {} as { [key: string]: Movie[] });
 
-    const orderedBuckets = ["33+", "30+", "25+"];
+    const orderedBuckets = ["33+", "30+", "25+", "20+", "<20"];
 
     return (
         <div className="app">

@@ -90,7 +90,7 @@
        "Chad" sits at calc(50vh - 136px). First arrow needs to be there too.
        padding-top + email(28px) + email_mb(28px) = 50vh - 136px
        padding-top = 50vh - 192px */
-    padding-top: calc(50vh - 192px);
+    padding-top: calc(50dvh - 192px);
   }
 
   .main-content,
