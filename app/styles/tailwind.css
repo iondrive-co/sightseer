@@ -85,6 +85,12 @@
 
   .index-content {
     @apply ml-16;
+    justify-content: start;
+    /* Match sidebar centering: sidebar centers 384px of content (32px img + 8×20px links + 8×24px gaps).
+       "Chad" sits at calc(50vh - 136px). First arrow needs to be there too.
+       padding-top + email(28px) + email_mb(28px) = 50vh - 136px
+       padding-top = 50vh - 192px */
+    padding-top: calc(50vh - 192px);
   }
 
   .main-content,
