@@ -76,18 +76,15 @@
   }
 
   .email {
-    @apply text-lg mb-9;
+    @apply text-lg mb-7;
   }
 
   .descriptions {
     @apply space-y-6 text-sm;
-    margin-top: 3rem;
   }
 
   .index-content {
     @apply ml-16;
-    justify-content: start;
-    padding-top: 25vh;
   }
 
   .main-content,
