@@ -5,9 +5,11 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
+  useLocation,
 } from "@remix-run/react";
 
 import '~/styles/tailwind.css';
+import Webring from "~/components/Webring";
 
 export const links: LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -41,5 +43,15 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return <Outlet />;
+  const location = useLocation();
+  const pathname = location.pathname.replace(/\/+$/, "") || "/";
+  const normalized = pathname.toLowerCase();
+  const showWebring = pathname === "/" || normalized === "/meta";
+
+  return (
+    <>
+      <Outlet />
+      {showWebring && <Webring />}
+    </>
+  );
 }

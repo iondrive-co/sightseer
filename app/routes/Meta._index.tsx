@@ -17,7 +17,7 @@ export default function Meta() {
                 <div className="max-w-4xl mx-auto px-8 py-12">
                     <h2 className="text-2xl font-semibold mb-4">About</h2>
                     <p className="mb-4">The world wide web of the late 90s and early 00s was fun because there was less
-                        structure. SEO, recommendation systems, and LLMs are designed to give you the minimal viable
+                        structure. Now SEO, recommendation systems, and LLMs are designed to give you the minimal viable
                         content, but sometimes its good to have a bit of roughage. This collection of creative
                         writing, opinions, projects, and links to the work of others are my contribution to that.
                     </p>
@@ -43,9 +43,9 @@ export default function Meta() {
                     <p className="mb-4">
                         Although very convenient, I have mixed feelings about Cloudflare being the gatekeeper and
                         tracker of usage for this site and may well move to self hosting once it is a bit more stable.
-                        I am not a web developer, but I have found the Remix framework easy to work with, and tailwind
-                        css to be simple enough to create layouts which (mostly) adapt gracefully from phone to desktop.
-                        And I do use LLMs for help with various technical issues, since after all I am only human.
+                        I am not a web developer, but I have found the React Router framework easy to work with, and
+                        Tailwind css to be simple enough to create layouts which (mostly) adapt gracefully from phone to
+                        desktop. And I do use LLMs for help with various non-writing issues, since after all I am only human.
                     </p>
                     <footer className="border-t pt-8 mt-12">
                         <p className="text-sm text-gray-600">
