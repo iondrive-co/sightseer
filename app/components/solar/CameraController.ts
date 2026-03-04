@@ -16,10 +16,14 @@ export class CameraController {
     private readonly zoomSpeed = 0.1;
     private readonly keyRotateSpeed = 0.03;
     private readonly panSpeed = 2;
+    private readonly edgePanMarginRatioX = 0.30; // horizontal edge band (~30% on each side)
+    private readonly edgePanMarginRatioY = 0.18; // vertical edge band (~18% top/bottom)
+    private readonly edgePanTouchScale = 0.08; // scale px drag to world units (edge drag responsiveness)
     private touchStartDistance = 0;
     private keysPressed = new Set<string>();
     private keyAnimationId: number | null = null;
     private lookAtTarget = new THREE.Vector3(0, 0, 0);
+    private dragMode: 'rotate' | 'edge-pan' | null = null;
 
     constructor(camera: THREE.PerspectiveCamera, domElement: HTMLElement) {
         this.camera = camera;
@@ -61,6 +65,7 @@ export class CameraController {
 
     private handleMouseDown = (event: MouseEvent): void => {
         this.isDragging = true;
+        this.dragMode = this.isEdgePosition(event.clientX, event.clientY) ? 'edge-pan' : 'rotate';
         this.previousMouseX = event.clientX;
         this.previousMouseY = event.clientY;
     };
@@ -73,20 +78,25 @@ export class CameraController {
         this.previousMouseX = event.clientX;
         this.previousMouseY = event.clientY;
 
-        // Vertical movement affects polar angle
-        this.currentPolarAngle = Math.max(
-            this.minPolarAngle,
-            Math.min(this.maxPolarAngle, this.currentPolarAngle - deltaY * 0.01)
-        );
+        if (this.dragMode === 'edge-pan') {
+            this.applyEdgePan(deltaX, deltaY);
+        } else {
+            // Vertical movement affects polar angle
+            this.currentPolarAngle = Math.max(
+                this.minPolarAngle,
+                Math.min(this.maxPolarAngle, this.currentPolarAngle - deltaY * 0.01)
+            );
 
-        // Horizontal movement affects azimuth angle
-        this.currentAzimuthAngle += deltaX * 0.01;
+            // Horizontal movement affects azimuth angle
+            this.currentAzimuthAngle += deltaX * 0.01;
+        }
 
         this.updateCameraPosition();
     };
 
     private handleMouseUp = (): void => {
         this.isDragging = false;
+        this.dragMode = null;
     };
 
     private handleWheel = (event: WheelEvent): void => {
@@ -115,11 +125,15 @@ export class CameraController {
         event.preventDefault();
 
         if (event.touches.length === 2) {
+            this.isDragging = false;
             this.touchStartDistance = this.getTouchDistance(event.touches);
+            this.dragMode = null;
         } else if (event.touches.length === 1) {
             this.isDragging = true;
-            this.previousMouseX = event.touches[0].pageX;
-            this.previousMouseY = event.touches[0].pageY;
+            const touch = event.touches[0];
+            this.dragMode = this.isEdgeTouch(touch) ? 'edge-pan' : 'rotate';
+            this.previousMouseX = touch.pageX;
+            this.previousMouseY = touch.pageY;
         }
     };
 
@@ -137,12 +151,16 @@ export class CameraController {
             const deltaX = touch.pageX - this.previousMouseX;
             const deltaY = touch.pageY - this.previousMouseY;
 
-            // Update angles
-            this.currentPolarAngle = Math.max(
-                this.minPolarAngle,
-                Math.min(this.maxPolarAngle, this.currentPolarAngle - deltaY * 0.01)
-            );
-            this.currentAzimuthAngle += deltaX * 0.01;
+            if (this.dragMode === 'edge-pan') {
+                this.applyEdgePan(deltaX, deltaY);
+            } else {
+                // Rotate camera around target
+                this.currentPolarAngle = Math.max(
+                    this.minPolarAngle,
+                    Math.min(this.maxPolarAngle, this.currentPolarAngle - deltaY * 0.01)
+                );
+                this.currentAzimuthAngle += deltaX * 0.01;
+            }
 
             this.previousMouseX = touch.pageX;
             this.previousMouseY = touch.pageY;
@@ -154,7 +172,36 @@ export class CameraController {
     private handleTouchEnd = (event: TouchEvent): void => {
         event.preventDefault();
         this.isDragging = false;
+        this.dragMode = null;
     };
+
+    private isEdgeTouch(touch: Touch): boolean {
+        return this.isEdgePosition(touch.clientX, touch.clientY);
+    }
+
+    private isEdgePosition(clientX: number, clientY: number): boolean {
+        const rect = this.domElement.getBoundingClientRect();
+        const marginX = rect.width * this.edgePanMarginRatioX;
+        const marginY = rect.height * this.edgePanMarginRatioY;
+        const x = clientX - rect.left;
+        const y = clientY - rect.top;
+        const nearHorizontalEdge = x < marginX || x > rect.width - marginX;
+        const nearVerticalEdge = y < marginY || y > rect.height - marginY;
+        return nearHorizontalEdge || nearVerticalEdge;
+    }
+
+    private applyEdgePan(deltaX: number, deltaY: number): void {
+        // Map drag to WASD-style pan: vertical drag moves forward/back, horizontal drag strafes
+        const panFactor = this.panSpeed * (this.cameraDistance / 500) * this.edgePanTouchScale;
+
+        // Drag up = forward (like 'w')
+        this.lookAtTarget.x -= deltaY * panFactor * Math.cos(this.currentAzimuthAngle);
+        this.lookAtTarget.z -= deltaY * panFactor * Math.sin(this.currentAzimuthAngle);
+
+        // Drag right = move right (like 'd')
+        this.lookAtTarget.x -= deltaX * panFactor * Math.sin(this.currentAzimuthAngle);
+        this.lookAtTarget.z += deltaX * panFactor * Math.cos(this.currentAzimuthAngle);
+    }
 
     private static readonly HANDLED_KEYS = ['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'w', 'a', 's', 'd'];
 

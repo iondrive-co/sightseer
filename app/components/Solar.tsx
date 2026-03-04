@@ -481,6 +481,7 @@ const SolarSystem = () => {
           <span className="font-bold mr-2">Controls:</span>
           <span className="mr-2">Arrows - Rotate</span>
           <span className="mr-2">WASD - Pan</span>
+          <span className="mr-2">Edge drag - Pan</span>
           <span>Wheel/Pinch - Zoom</span>
         </div>
         <div className="hidden sm:block bg-gray-900 text-white px-3 py-1 rounded-lg shadow-lg text-xs sm:text-sm">

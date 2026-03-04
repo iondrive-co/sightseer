@@ -20,7 +20,7 @@ export default function Index() {
                         <p>&lt;--Intelligence Dampening Sphere</p>
                         <p>&lt;--Worldbuilding ideas</p>
                         <p>&lt;--How and why this site exists</p>
-                        <p>&lt;--Cooking things</p>
+                        <p>&lt;--Cooking things for mixed non/vegan family</p>
                         <p>&lt;--Very short movie and game reviews</p>
                         <p>&lt;--Hohmann sim using three.js</p>
                         <p>&lt;--Web version of <a href="https://github.com/iondrive-co/winnow" style={{ color: "blue" }}>winnow</a> for in-browser image editing</p>
