@@ -7,6 +7,10 @@
   body {
     @apply bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 m-0 p-0 h-screen w-screen overflow-hidden cursor-default;
   }
+
+  :root {
+    --sidebar-width: 96px;
+  }
 }
 
 @layer components {
@@ -15,22 +19,57 @@
   }
 
   .sidebar {
-    @apply fixed left-0 top-0 h-full w-24
+    @apply fixed left-0 top-0 h-full
     flex flex-col items-center justify-center
     px-4 gap-8
     bg-gray-100 dark:bg-gray-800;
+    width: var(--sidebar-width);
+    transition: width 0.2s ease;
+    z-index: 10;
+  }
+
+  .sidebar.sidebar-collapsed {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .sidebar.sidebar-collapsed .sidebar-link {
+    display: none;
   }
 
   .sidebar img {
     @apply w-12 h-auto dark:invert dark:brightness-90 dark:contrast-125;
+    flex-shrink: 0;
+  }
+
+  .sidebar.sidebar-collapsed img {
+    @apply w-8;
   }
 
   .sidebar a {
     @apply text-gray-800 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 cursor-pointer;
   }
 
+  .sidebar-handle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 6px;
+    height: 100%;
+    cursor: col-resize;
+    background: transparent;
+    transition: background 0.15s ease;
+    z-index: 11;
+  }
+
+  .sidebar-handle:hover {
+    @apply bg-gray-300 dark:bg-gray-600;
+  }
+
   .index-content {
-    @apply ml-24 flex-1 flex flex-col justify-center px-8 text-gray-900 dark:text-gray-100;
+    @apply flex-1 flex flex-col justify-center px-8 text-gray-900 dark:text-gray-100;
+    margin-left: var(--sidebar-width);
+    transition: margin-left 0.2s ease;
   }
 
   .email {
@@ -46,15 +85,21 @@
   }
 
   .main-content {
-    @apply ml-24 flex-1 p-4 text-gray-900 dark:text-gray-100;
+    @apply flex-1 p-4 text-gray-900 dark:text-gray-100;
+    margin-left: var(--sidebar-width);
+    transition: margin-left 0.2s ease;
   }
 
   .main-container {
-    @apply ml-24 flex-1 overflow-y-auto text-gray-900 dark:text-gray-100;
+    @apply flex-1 overflow-y-auto text-gray-900 dark:text-gray-100;
+    margin-left: var(--sidebar-width);
+    transition: margin-left 0.2s ease;
   }
 
   .article-container {
-    @apply ml-24 flex-1 p-4 text-gray-900 dark:text-gray-100;
+    @apply flex-1 p-4 text-gray-900 dark:text-gray-100;
+    margin-left: var(--sidebar-width);
+    transition: margin-left 0.2s ease;
   }
 
   .article {
@@ -63,8 +108,16 @@
 }
 
 @media (max-width: 640px) {
+  :root {
+    --sidebar-width: 64px;
+  }
+
   .sidebar {
-    @apply w-16 gap-6;
+    @apply gap-6;
+  }
+
+  .sidebar.sidebar-collapsed img {
+    @apply w-6;
   }
 
   .sidebar img {
@@ -84,18 +137,7 @@
   }
 
   .index-content {
-    @apply ml-16;
     justify-content: start;
-    /* Match sidebar centering: sidebar centers 384px of content (32px img + 8×20px links + 8×24px gaps).
-       "Chad" sits at calc(50vh - 136px). First arrow needs to be there too.
-       padding-top + email(28px) + email_mb(28px) = 50vh - 136px
-       padding-top = 50vh - 192px */
     padding-top: calc(50dvh - 192px);
-  }
-
-  .main-content,
-  .main-container,
-  .article-container {
-    @apply ml-16;
   }
 }

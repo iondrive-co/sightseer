@@ -4,9 +4,9 @@ import '~/styles/tailwind.css';
 
 export default function SolarScreen() {
     return (
-        <div className="flex h-screen">
+        <div className="app">
             <Sidebar />
-            <div className="flex-grow">
+            <div className="main-content" style={{padding: 0}}>
                 <Solar />
             </div>
         </div>

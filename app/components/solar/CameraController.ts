@@ -12,9 +12,14 @@ export class CameraController {
     private readonly minPolarAngle = 0;
     private readonly maxPolarAngle = Math.PI / 2;
     private readonly minDistance = 100;
-    private readonly maxDistance = 1000;
+    private readonly maxDistance = 3000;
     private readonly zoomSpeed = 0.1;
+    private readonly keyRotateSpeed = 0.03;
+    private readonly panSpeed = 2;
     private touchStartDistance = 0;
+    private keysPressed = new Set<string>();
+    private keyAnimationId: number | null = null;
+    private lookAtTarget = new THREE.Vector3(0, 0, 0);
 
     constructor(camera: THREE.PerspectiveCamera, domElement: HTMLElement) {
         this.camera = camera;
@@ -35,12 +40,12 @@ export class CameraController {
     }
 
     private updateCameraPosition(): void {
-        const x = this.cameraDistance * Math.sin(this.currentPolarAngle) * Math.cos(this.currentAzimuthAngle);
-        const y = this.cameraDistance * Math.cos(this.currentPolarAngle);
-        const z = this.cameraDistance * Math.sin(this.currentPolarAngle) * Math.sin(this.currentAzimuthAngle);
+        const x = this.lookAtTarget.x + this.cameraDistance * Math.sin(this.currentPolarAngle) * Math.cos(this.currentAzimuthAngle);
+        const y = this.lookAtTarget.y + this.cameraDistance * Math.cos(this.currentPolarAngle);
+        const z = this.lookAtTarget.z + this.cameraDistance * Math.sin(this.currentPolarAngle) * Math.sin(this.currentAzimuthAngle);
 
         this.camera.position.set(x, y, z);
-        this.camera.lookAt(new THREE.Vector3(0, 0, 0));
+        this.camera.lookAt(this.lookAtTarget);
 
         if (this.onPositionUpdate) {
             this.onPositionUpdate({ x, y, z });
@@ -151,6 +156,76 @@ export class CameraController {
         this.isDragging = false;
     };
 
+    private static readonly HANDLED_KEYS = ['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'w', 'a', 's', 'd'];
+
+    private handleKeyDown = (event: KeyboardEvent): void => {
+        if (CameraController.HANDLED_KEYS.includes(event.key)) {
+            event.preventDefault();
+            this.keysPressed.add(event.key);
+            if (!this.keyAnimationId) {
+                this.keyAnimationLoop();
+            }
+        }
+    };
+
+    private handleKeyUp = (event: KeyboardEvent): void => {
+        this.keysPressed.delete(event.key);
+        if (this.keysPressed.size === 0 && this.keyAnimationId) {
+            cancelAnimationFrame(this.keyAnimationId);
+            this.keyAnimationId = null;
+        }
+    };
+
+    private keyAnimationLoop = (): void => {
+        // Arrow keys: rotate camera
+        if (this.keysPressed.has('ArrowUp')) {
+            this.currentPolarAngle = Math.max(
+                this.minPolarAngle,
+                this.currentPolarAngle - this.keyRotateSpeed
+            );
+        }
+        if (this.keysPressed.has('ArrowDown')) {
+            this.currentPolarAngle = Math.min(
+                this.maxPolarAngle,
+                this.currentPolarAngle + this.keyRotateSpeed
+            );
+        }
+        if (this.keysPressed.has('ArrowLeft')) {
+            this.currentAzimuthAngle -= this.keyRotateSpeed;
+        }
+        if (this.keysPressed.has('ArrowRight')) {
+            this.currentAzimuthAngle += this.keyRotateSpeed;
+        }
+
+        // WASD: pan the look-at center along the XZ plane
+        // Forward/back is relative to current azimuth
+        const panAmount = this.panSpeed * (this.cameraDistance / 500);
+        if (this.keysPressed.has('w')) {
+            this.lookAtTarget.x -= panAmount * Math.cos(this.currentAzimuthAngle);
+            this.lookAtTarget.z -= panAmount * Math.sin(this.currentAzimuthAngle);
+        }
+        if (this.keysPressed.has('s')) {
+            this.lookAtTarget.x += panAmount * Math.cos(this.currentAzimuthAngle);
+            this.lookAtTarget.z += panAmount * Math.sin(this.currentAzimuthAngle);
+        }
+        if (this.keysPressed.has('a')) {
+            this.lookAtTarget.x -= panAmount * Math.sin(this.currentAzimuthAngle);
+            this.lookAtTarget.z += panAmount * Math.cos(this.currentAzimuthAngle);
+        }
+        if (this.keysPressed.has('d')) {
+            this.lookAtTarget.x += panAmount * Math.sin(this.currentAzimuthAngle);
+            this.lookAtTarget.z -= panAmount * Math.cos(this.currentAzimuthAngle);
+        }
+
+        this.updateCameraPosition();
+
+        if (this.keysPressed.size > 0) {
+            this.keyAnimationId = requestAnimationFrame(this.keyAnimationLoop);
+        } else {
+            this.keyAnimationId = null;
+        }
+    };
+
     private handleResize = (): void => {
         this.camera.aspect = window.innerWidth / window.innerHeight;
         this.camera.updateProjectionMatrix();
@@ -170,6 +245,10 @@ export class CameraController {
         this.domElement.addEventListener('touchend', this.handleTouchEnd, { passive: false });
         this.domElement.addEventListener('touchcancel', this.handleTouchEnd, { passive: false });
 
+        // Keyboard events
+        window.addEventListener('keydown', this.handleKeyDown);
+        window.addEventListener('keyup', this.handleKeyUp);
+
         window.addEventListener('resize', this.handleResize);
     }
 
@@ -186,6 +265,13 @@ export class CameraController {
         this.domElement.removeEventListener('touchmove', this.handleTouchMove);
         this.domElement.removeEventListener('touchend', this.handleTouchEnd);
         this.domElement.removeEventListener('touchcancel', this.handleTouchEnd);
+
+        // Keyboard events
+        window.removeEventListener('keydown', this.handleKeyDown);
+        window.removeEventListener('keyup', this.handleKeyUp);
+        if (this.keyAnimationId) {
+            cancelAnimationFrame(this.keyAnimationId);
+        }
 
         window.removeEventListener('resize', this.handleResize);
     }

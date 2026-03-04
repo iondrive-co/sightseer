@@ -20,7 +20,9 @@ export interface TransferParams {
     lineWidth?: number;
     opacity?: number;
     startPosition?: THREE.Vector3;
+    endPosition?: THREE.Vector3;
     inclination?: number;
+    endPeriod?: number;
 }
 
 export class Orbit {
@@ -154,25 +156,31 @@ export class Orbit {
 class TransferOrbit extends Orbit {
     private progress: number = 0;
     private readonly fullPoints: THREE.Vector3[] = [];
+    public readonly transferDuration: number; // in simulation seconds
 
     constructor(params: TransferParams) {
         const {
             startRadius,
             endRadius,
             startPosition,
+            endPosition,
+            endPeriod,
             color = 0x00ff00,
             segments = 100,
             lineWidth = 2,
             opacity = 0.7
         } = params;
 
-        // Calculate transfer orbit parameters
-        const ra = Math.max(endRadius, startRadius);    // Apoapsis radius
-        const rp = Math.min(endRadius, startRadius);    // Periapsis radius
-        const e = (ra - rp) / (ra + rp);               // Eccentricity
+        // Use actual distances from positions when available
+        const actualStartR = startPosition ? Math.sqrt(startPosition.x ** 2 + startPosition.z ** 2) : startRadius;
+        const actualEndR = endPosition ? Math.sqrt(endPosition.x ** 2 + endPosition.z ** 2) : endRadius;
+
+        const ra = Math.max(actualEndR, actualStartR);
+        const rp = Math.min(actualEndR, actualStartR);
+        const e = (ra - rp) / (ra + rp);
 
         super({
-            radius: startRadius,
+            radius: actualStartR,
             color,
             segments,
             lineWidth,
@@ -180,31 +188,57 @@ class TransferOrbit extends Orbit {
             eccentricity: e
         });
 
+        // Compute transfer duration via Kepler's 3rd law (in simulation time units)
+        const a = (actualStartR + actualEndR) / 2;
+        // T = 2π√(a³/μ), but in our system orbit period is proportional to a^1.5
+        // Transfer time is half the full orbital period of the transfer ellipse
+        // Use Earth's orbit as reference: period=1yr at r=earthOrbitRadius
+        const earthR = 149600000 / 3000000; // ~49.87
+        const transferPeriodYears = Math.pow(a / earthR, 1.5);
+        this.transferDuration = transferPeriodYears * 0.5; // Half-orbit in Earth years
+
         if (startPosition) {
-            this.calculateTransferPoints(startPosition, startRadius, endRadius, segments);
+            this.calculateTransferPoints(startPosition, actualStartR, actualEndR, endPeriod, segments);
         }
         this.updateProgress(0);
     }
 
     private calculateTransferPoints(
         startPosition: THREE.Vector3,
-        startRadius: number,
-        endRadius: number,
+        startR: number,
+        endR: number,
+        endPeriod: number | undefined,
         segments: number
     ): void {
         const startAngle = Math.atan2(startPosition.z, startPosition.x);
-        const a = (startRadius + endRadius) / 2;
-        const e = Math.abs(endRadius - startRadius) / (endRadius + startRadius);
+        const a = (startR + endR) / 2;
+        const e = Math.abs(endR - startR) / (endR + startR);
+
+        // Predict Mars's angle at arrival: it moves during the transfer
+        // Transfer takes half the period of the transfer ellipse
+        let arrivalAngle = startAngle + Math.PI; // default: 180° sweep
+        if (endPeriod) {
+            const marsAngularVel = (2 * Math.PI) / endPeriod; // rad per year
+            const marsCurrentAngle = startAngle + Math.PI; // approximate (from phase angle)
+            const marsAngleTraversed = marsAngularVel * this.transferDuration;
+            // The sweep angle should end where Mars will be
+            arrivalAngle = startAngle + Math.PI + (marsAngleTraversed - Math.PI / endPeriod);
+        }
+
+        const totalSweep = arrivalAngle - startAngle;
 
         for (let i = 0; i <= segments; i++) {
             const t = i / segments;
-            const theta = t * Math.PI;  // Half orbit for transfer
+            const theta = t * Math.PI; // true anomaly along transfer ellipse
             const r = a * (1 - e * e) / (1 + e * Math.cos(theta));
 
+            // Map the position angle to sweep from start to arrival
+            const posAngle = startAngle + t * totalSweep;
+
             const point = new THREE.Vector3(
-                r * Math.cos(theta + startAngle),
+                r * Math.cos(posAngle),
                 0,
-                r * Math.sin(theta + startAngle)
+                r * Math.sin(posAngle)
             );
             this.fullPoints.push(point);
         }
@@ -251,8 +285,12 @@ export class OrbitalSystem {
         transfer.setVisible(false);
     }
 
-    addTransferFromPosition(name: string, params: TransferParams, startPosition: THREE.Vector3): void {
-        this.addTransfer(name, { ...params, startPosition });
+    addTransferFromPosition(name: string, params: TransferParams, startPosition: THREE.Vector3): TransferOrbit {
+        const transfer = new TransferOrbit({ ...params, startPosition });
+        this.transfers.set(name, transfer);
+        this.scene.add(transfer.getMesh());
+        transfer.setVisible(false);
+        return transfer;
     }
 
     getOrbit(name: string): Orbit | undefined {
@@ -315,8 +353,13 @@ export const calculateTimeToWindow = (
     const marsVel = earthVel / 1.88;
     const relativeVel = marsVel - earthVel;
 
+    // The phase angle decreases over time (Earth is faster than Mars),
+    // so we want the angle Earth still needs to "close" to reach the target
     let angleDiff = currentPhase - targetPhase;
-    if (angleDiff < 0) angleDiff += 2 * Math.PI;
+    // Normalize to [0, 2π) — this is how far the phase must decrease
+    angleDiff = ((angleDiff % (2 * Math.PI)) + 2 * Math.PI) % (2 * Math.PI);
+    // If very close to 2π, the window is imminent
+    if (angleDiff > 2 * Math.PI - 0.1) angleDiff = 0;
 
     const simTime = angleDiff / Math.abs(relativeVel);
 

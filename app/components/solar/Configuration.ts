@@ -31,7 +31,7 @@ export const CAMERA_CONFIG = {
     fov: 60,
     aspectRatio: typeof window !== "undefined" ? window.innerWidth / window.innerHeight : 16 / 9,
     near: 0.1,
-    far: 2000,
+    far: 5000,
     position: {
         x: -400,
         y: 100,
@@ -59,14 +59,15 @@ export const SUN_CONFIG = {
     color: 0xffd700,
     rotationSpeed: 0.001,
     emissiveIntensity: 1.0,
-    coronaScale: 1.2
+    coronaScale: 1.2,
+    texture: '/textures/2k_sun.webp'
 };
 
 export const DEFAULT_SIMULATION_CONFIG = {
     timeMultiplier: 20,
     earthYear: 365,       // One Earth year in simulation seconds
     transferCooldown: 2000,
-    launchWindowTolerance: 0.05,
+    launchWindowTolerance: 0.15,
     phaseAngle: (45 * Math.PI) / 180
 };
 
@@ -79,14 +80,15 @@ export const DEFAULT_SCENE_CONFIG = {
 export const CELESTIAL_BODIES = [
     {
         name: 'mercury',
-        radius: 2440 * SCALE_FACTORS.SIZE,  // ~0.24 units
-        orbitRadius: 57900000 * SCALE_FACTORS.DISTANCE, // ~19.3 units
-        color: 0x8c8c8c,  // Grey-silver color
+        radius: 2440 * SCALE_FACTORS.SIZE,
+        orbitRadius: 57900000 * SCALE_FACTORS.DISTANCE,
+        color: 0x8c8c8c,
         period: 0.24,
         rotationSpeed: 0.0001,
         type: 'planet' as const,
         eccentricity: 0.206,
-        inclination: 7.0 * Math.PI / 180,  // 7.0 degrees
+        inclination: 7.0 * Math.PI / 180,
+        texture: '/textures/2k_mercury.webp',
         atmosphere: {
             color: 0x808080,
             opacity: 0.1,
@@ -95,14 +97,15 @@ export const CELESTIAL_BODIES = [
     },
     {
         name: 'venus',
-        radius: 6052 * SCALE_FACTORS.SIZE,  // ~0.61 units
-        orbitRadius: 108200000 * SCALE_FACTORS.DISTANCE, // ~36.1 units
-        color: 0xffd1b3,  // Pale orange
+        radius: 6052 * SCALE_FACTORS.SIZE,
+        orbitRadius: 108200000 * SCALE_FACTORS.DISTANCE,
+        color: 0xffd1b3,
         period: 0.62,
-        rotationSpeed: -0.0001,  // Negative for retrograde rotation
+        rotationSpeed: -0.0001,
         type: 'planet' as const,
         eccentricity: 0.007,
         inclination: 3.4 * Math.PI / 180,
+        texture: '/textures/2k_venus_atmosphere.webp',
         atmosphere: {
             color: 0xffa07a,
             opacity: 0.4,
@@ -111,14 +114,15 @@ export const CELESTIAL_BODIES = [
     },
     {
         name: 'earth',
-        radius: 6371 * SCALE_FACTORS.SIZE,  // ~0.64 units
-        orbitRadius: 149600000 * SCALE_FACTORS.DISTANCE, // ~49.9 units
-        color: 0x2f6a69,  // Blue-green
+        radius: 6371 * SCALE_FACTORS.SIZE,
+        orbitRadius: 149600000 * SCALE_FACTORS.DISTANCE,
+        color: 0x2f6a69,
         period: 1.0,
         rotationSpeed: 0.002,
         type: 'planet' as const,
         eccentricity: 0.017,
-        inclination: 0.0,  // Reference plane
+        inclination: 0.0,
+        texture: '/textures/2k_earth_daymap.webp',
         atmosphere: {
             color: 0x6b93d6,
             opacity: 0.2,
@@ -130,45 +134,189 @@ export const CELESTIAL_BODIES = [
         radius: 1737 * SCALE_FACTORS.SIZE,
         orbitRadius: 384400 * SCALE_FACTORS.DISTANCE * 40,
         color: 0xCCCCCC,
-        period: 0.0748, // 27.3 days in Earth years
+        period: 0.0748,
         rotationSpeed: 0.0005,
         type: 'moon' as const,
         parentBody: 'earth',
         eccentricity: 0.0549,
-        inclination: 5.145 * Math.PI / 180
+        inclination: 5.145 * Math.PI / 180,
+        texture: '/textures/2k_moon.webp',
     },
     {
         name: 'mars',
-        radius: 3390 * SCALE_FACTORS.SIZE,  // ~0.34 units
-        orbitRadius: 227900000 * SCALE_FACTORS.DISTANCE, // ~76.0 units
-        color: 0xc1440e,  // Red-orange
+        radius: 3390 * SCALE_FACTORS.SIZE,
+        orbitRadius: 227900000 * SCALE_FACTORS.DISTANCE,
+        color: 0xc1440e,
         period: 1.88,
         rotationSpeed: 0.002,
         type: 'planet' as const,
         eccentricity: 0.093,
         inclination: 1.9 * Math.PI / 180,
+        texture: '/textures/2k_mars.webp',
         atmosphere: {
             color: 0xc1440e,
             opacity: 0.1,
-            scale: 1.05,  // Thin atmosphere
+            scale: 1.05,
         }
+    },
+    {
+        name: 'phobos',
+        radius: 11 * SCALE_FACTORS.SIZE * 5,
+        orbitRadius: 9376 * SCALE_FACTORS.DISTANCE * 40,
+        color: 0x8B7355,
+        period: 0.000873,
+        rotationSpeed: 0.001,
+        type: 'moon' as const,
+        parentBody: 'mars',
+        eccentricity: 0.0151,
+        inclination: 1.08 * Math.PI / 180,
+    },
+    {
+        name: 'deimos',
+        radius: 6 * SCALE_FACTORS.SIZE * 5,
+        orbitRadius: 23463 * SCALE_FACTORS.DISTANCE * 40,
+        color: 0x9C9C9C,
+        period: 0.00345,
+        rotationSpeed: 0.001,
+        type: 'moon' as const,
+        parentBody: 'mars',
+        eccentricity: 0.0002,
+        inclination: 1.79 * Math.PI / 180,
     },
     {
         name: 'jupiter',
         radius: 69911 * SCALE_FACTORS.SIZE * 0.3,
         orbitRadius: 778500000 * SCALE_FACTORS.DISTANCE,
-        color: 0xE6B88A, // Sandy-brown color
+        color: 0xE6B88A,
         period: 11.86,
         rotationSpeed: 0.004,
         type: 'planet' as const,
         eccentricity: 0.0489,
         inclination: 1.3 * Math.PI / 180,
+        texture: '/textures/2k_jupiter.webp',
         atmosphere: {
             color: 0xC19A6B,
             opacity: 0.3,
             scale: 1.1
         }
-    }
+    },
+    {
+        name: 'io',
+        radius: 1822 * SCALE_FACTORS.SIZE,
+        orbitRadius: 421700 * SCALE_FACTORS.DISTANCE * 40,
+        color: 0xFFFF00,
+        period: 0.00485,
+        rotationSpeed: 0.001,
+        type: 'moon' as const,
+        parentBody: 'jupiter',
+        eccentricity: 0.0041,
+        inclination: 0.04 * Math.PI / 180,
+    },
+    {
+        name: 'europa-moon',
+        radius: 1561 * SCALE_FACTORS.SIZE,
+        orbitRadius: 671034 * SCALE_FACTORS.DISTANCE * 40,
+        color: 0xF5DEB3,
+        period: 0.00972,
+        rotationSpeed: 0.001,
+        type: 'moon' as const,
+        parentBody: 'jupiter',
+        eccentricity: 0.009,
+        inclination: 0.47 * Math.PI / 180,
+    },
+    {
+        name: 'ganymede',
+        radius: 2634 * SCALE_FACTORS.SIZE,
+        orbitRadius: 1070412 * SCALE_FACTORS.DISTANCE * 40,
+        color: 0xC0C0C0,
+        period: 0.0196,
+        rotationSpeed: 0.001,
+        type: 'moon' as const,
+        parentBody: 'jupiter',
+        eccentricity: 0.0013,
+        inclination: 0.18 * Math.PI / 180,
+    },
+    {
+        name: 'callisto',
+        radius: 2410 * SCALE_FACTORS.SIZE,
+        orbitRadius: 1882709 * SCALE_FACTORS.DISTANCE * 40,
+        color: 0x8B8682,
+        period: 0.0457,
+        rotationSpeed: 0.001,
+        type: 'moon' as const,
+        parentBody: 'jupiter',
+        eccentricity: 0.0074,
+        inclination: 0.19 * Math.PI / 180,
+    },
+    {
+        name: 'saturn',
+        radius: 58232 * SCALE_FACTORS.SIZE * 0.3,
+        orbitRadius: 1434000000 * SCALE_FACTORS.DISTANCE,
+        color: 0xEAD6A6,
+        period: 29.46,
+        rotationSpeed: 0.004,
+        type: 'planet' as const,
+        eccentricity: 0.0565,
+        inclination: 2.5 * Math.PI / 180,
+        texture: '/textures/2k_saturn.webp',
+        rings: {
+            innerRadius: 58232 * SCALE_FACTORS.SIZE * 0.3 * 1.2,
+            outerRadius: 58232 * SCALE_FACTORS.SIZE * 0.3 * 2.3,
+            color: 0xC8B07B,
+            opacity: 0.6,
+        },
+        atmosphere: {
+            color: 0xD4B896,
+            opacity: 0.2,
+            scale: 1.08
+        }
+    },
+    {
+        name: 'titan',
+        radius: 2575 * SCALE_FACTORS.SIZE,
+        orbitRadius: 1221870 * SCALE_FACTORS.DISTANCE * 40,
+        color: 0xDAA520,
+        period: 0.0437,
+        rotationSpeed: 0.001,
+        type: 'moon' as const,
+        parentBody: 'saturn',
+        eccentricity: 0.0288,
+        inclination: 0.33 * Math.PI / 180,
+    },
+    {
+        name: 'uranus',
+        radius: 25362 * SCALE_FACTORS.SIZE * 0.3,
+        orbitRadius: 2871000000 * SCALE_FACTORS.DISTANCE,
+        color: 0xAFDBF5,
+        period: 84.01,
+        rotationSpeed: -0.003,
+        type: 'planet' as const,
+        eccentricity: 0.0457,
+        inclination: 0.8 * Math.PI / 180,
+        texture: '/textures/2k_uranus.webp',
+        atmosphere: {
+            color: 0xAFDBF5,
+            opacity: 0.2,
+            scale: 1.05
+        }
+    },
+    {
+        name: 'neptune',
+        radius: 24622 * SCALE_FACTORS.SIZE * 0.3,
+        orbitRadius: 4495000000 * SCALE_FACTORS.DISTANCE,
+        color: 0x3B5FC0,
+        period: 164.8,
+        rotationSpeed: 0.003,
+        type: 'planet' as const,
+        eccentricity: 0.0113,
+        inclination: 1.8 * Math.PI / 180,
+        texture: '/textures/2k_neptune.webp',
+        atmosphere: {
+            color: 0x3B5FC0,
+            opacity: 0.2,
+            scale: 1.05
+        }
+    },
 ];
 // Make the asteroids visible
 export const ASTEROID_SIZE_MULTIPLIER = 5
