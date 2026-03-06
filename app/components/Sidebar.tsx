@@ -3,7 +3,7 @@ import {useState, useEffect, useCallback, useRef} from "react";
 
 function getSidebarWidth(collapsed: boolean) {
   const isMobile = window.matchMedia('(max-width: 640px)').matches;
-  if (collapsed) return isMobile ? '36px' : '48px';
+  if (collapsed) return isMobile ? '40px' : '48px';
   return isMobile ? '64px' : '96px';
 }
 

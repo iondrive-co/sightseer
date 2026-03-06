@@ -468,7 +468,7 @@ const SolarSystem = () => {
           className="fixed top-0 right-0 bottom-0"
           style={{
             backgroundColor: '#111111',
-            left: typeof window !== 'undefined' && window.innerWidth <= 640 ? '64px' : '96px'
+            left: 'var(--sidebar-width, 48px)'
           }}
       />
       <div className="fixed top-4 left-0 right-0 flex justify-center items-center gap-2 z-10 px-2">

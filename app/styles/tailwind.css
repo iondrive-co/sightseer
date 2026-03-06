@@ -187,14 +187,14 @@
   }
 
   .sidebar.sidebar-collapsed {
-    width: 36px;
+    width: 40px;
   }
 
   .sidebar.sidebar-collapsed ~ .index-content,
   .sidebar.sidebar-collapsed ~ .main-content,
   .sidebar.sidebar-collapsed ~ .main-container,
   .sidebar.sidebar-collapsed ~ .article-container {
-    margin-left: 36px;
+    margin-left: 40px;
   }
 
   .webring {
