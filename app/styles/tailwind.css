@@ -193,7 +193,7 @@
 
   .index-content {
     justify-content: start;
-    padding-top: calc(50dvh - 192px);
+    padding-top: calc(50dvh - 176px);
   }
 
   .sidebar.sidebar-collapsed {
