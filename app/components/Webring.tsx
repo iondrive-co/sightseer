@@ -53,11 +53,22 @@ export default function Webring({ compact = false }: WebringProps) {
 
         <div className="webring-box">
           <div className="webring-text">
-            This site is part of the{" "}
-            <a className="webring-link" href={current.home}>
-              {current.name}
-            </a>
-            :
+            {compact ? (
+              <>
+                <a className="webring-link" href={current.home}>
+                  {current.name}
+                </a>
+                :
+              </>
+            ) : (
+              <>
+                This site is part of the{" "}
+                <a className="webring-link" href={current.home}>
+                  {current.name}
+                </a>
+                :
+              </>
+            )}
           </div>
           <div className="webring-links">
             {current.links.map((link) => (
