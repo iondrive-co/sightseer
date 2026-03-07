@@ -3,7 +3,7 @@ import {useState, useEffect, useCallback, useRef} from "react";
 
 function getSidebarWidth(collapsed: boolean) {
   const isMobile = window.matchMedia('(max-width: 640px)').matches;
-  if (collapsed) return isMobile ? '40px' : '48px';
+  if (collapsed) return isMobile ? '48px' : '48px';
   return isMobile ? '64px' : '96px';
 }
 
@@ -61,7 +61,7 @@ export default function Sidebar() {
 
   return (
     <div className={`sidebar ${collapsed ? "sidebar-collapsed" : ""}`}>
-      <Link to="/">
+      <Link to="/" className="sidebar-home-link">
         <img src="/favicon.ico" alt="Home" />
       </Link>
       <Link to="/Chad" className="text-xl underline cursor-pointer sidebar-link" onClick={handleNavClick}>

@@ -47,11 +47,12 @@ export default function App() {
   const pathname = location.pathname.replace(/\/+$/, "") || "/";
   const normalized = pathname.toLowerCase();
   const showWebring = pathname === "/" || normalized === "/meta";
+  const isHome = pathname === "/";
 
   return (
     <>
       <Outlet />
-      {showWebring && <Webring />}
+      {showWebring && <Webring compact={isHome} />}
     </>
   );
 }
