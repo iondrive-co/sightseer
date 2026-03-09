@@ -1,4 +1,4 @@
-import {useLoaderData, useLocation} from '@remix-run/react';
+import {useLoaderData, useLocation} from 'react-router';
 import Sidebar from '~/components/Sidebar';
 
 function TitleAndBreadcrumbs() {
@@ -30,7 +30,6 @@ function InfoBox({ imageName, caption }: { imageName?: string, caption?: string 
 
 function ExobaseArticle() {
     const location = useLocation();
-    // @ts-expect-error content, classification, imageName, caption
     const { content, classification, imageName, caption } = useLoaderData();
 
     // Split content at first closing tag (paragraph or list)

@@ -1,4 +1,4 @@
-import {json, LoaderFunction} from "@remix-run/cloudflare";
+import type {LoaderFunction} from "react-router";
 import {Classification, pageData} from '~/components/exobase/ExobaseData';
 
 type ArticleData = [string, {content: string, classification: Classification, imageName?: string, caption?: string}];
@@ -7,7 +7,7 @@ export const classificationOverviewLoader: LoaderFunction = async () => {
     const classifications = Array.from(pageData.values())
         .map(data => data.classification.split('/')[0]) // only use top-level classification
         .filter((value, index, self) => self.indexOf(value) === index); // remove duplicates
-    return json({ classifications });
+    return { classifications };
 };
 export const exobaseLoader: LoaderFunction = async ({ params, request, context }) => {
     try {
@@ -36,7 +36,7 @@ export const exobaseLoader: LoaderFunction = async ({ params, request, context }
                     subcategoryMap[subcategory].push([slug, data]);
                 }
             });
-            return json({ isClassification, noSubcategory: noSubcategoryArticles, articles: subcategoryMap });
+            return { isClassification, noSubcategory: noSubcategoryArticles, articles: subcategoryMap };
         }
         const page = pageData.get(slug);
         if (!page) {
@@ -44,7 +44,7 @@ export const exobaseLoader: LoaderFunction = async ({ params, request, context }
                 data.classification.startsWith(slug)
             );
             // No need to extract subcategories here because it's either an article or a main category.
-            return json({ isClassification: true, articles: classificationArticles });
+            return { isClassification: true, articles: classificationArticles };
         }
         const content = page.content;
         const classification = page.classification;
@@ -94,7 +94,7 @@ export const exobaseLoader: LoaderFunction = async ({ params, request, context }
             }
         });
         const processedContent = processedLines.join(' ');
-        const finalContent = processedContent.replace(/\[\[(.*?)(?:~(.*?))?\]\]/g, function (match, p1, p2) {
+        const finalContent = processedContent.replace(/\[\[(.*?)(?:~(.*?))?]]/g, function (match, p1, p2) {
             const displayName = p1.trim();
             const linkTarget = (p2 || p1).trim().replace(/ /g, '_');
             return `<a href="/exobase/${linkTarget}">${displayName}</a>`;
@@ -102,12 +102,12 @@ export const exobaseLoader: LoaderFunction = async ({ params, request, context }
 
         const finalHtml = `<ul>${finalContent}</ul>`;
 
-        return json({ content: finalHtml, classification, imageName, caption });
+        return { content: finalHtml, classification, imageName, caption };
     } catch (error: unknown) {
         if (error instanceof Error) {
-            return json({ error: error.message }, { status: 404 });
+            throw new Response(error.message, { status: 404 });
         } else {
-            return json({ error: "Unknown error occurred" }, { status: 404 });
+            throw new Response("Unknown error occurred", { status: 404 });
         }
     }
 };

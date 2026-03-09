@@ -1,6 +1,6 @@
 import "~/styles/tailwind.css";
 import Sidebar from "../components/Sidebar";
-import type { MetaFunction } from "@remix-run/cloudflare";
+import type { MetaFunction } from "react-router";
 
 export const meta: MetaFunction = () => {
   return [

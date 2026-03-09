@@ -1,12 +1,12 @@
-import {json, LoaderFunction} from "@remix-run/cloudflare";
-import {useLoaderData} from "@remix-run/react";
+import type {LoaderFunction} from "react-router";
+import {useLoaderData} from "react-router";
 import {Movie, sciFiMoviesData} from "~/components/ReviewsData";
 import Sidebar from "~/components/Sidebar";
 import '~/styles/tailwind.css';
 import '~/styles/reviews.css';
 
 export const loader: LoaderFunction = async () => {
-    return json(sciFiMoviesData);
+    return sciFiMoviesData;
 };
 
 export default function Reviews() {

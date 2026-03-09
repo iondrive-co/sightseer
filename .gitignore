@@ -12,3 +12,4 @@ sightseer.iml
 vcs.xml
 .env
 .wrangler
+/.react-router/

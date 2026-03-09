@@ -1,4 +1,4 @@
-import {useLoaderData} from '@remix-run/react';
+import {useLoaderData} from 'react-router';
 import Sidebar from "~/components/Sidebar";
 import {classificationOverviewLoader} from '~/components/exobase/ExobaseLoader';
 import '~/styles/tailwind.css';

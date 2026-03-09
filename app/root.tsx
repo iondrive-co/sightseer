@@ -1,4 +1,4 @@
-import type { LinksFunction } from "@remix-run/cloudflare";
+import type { LinksFunction } from "react-router";
 import {
   Links,
   Meta,
@@ -6,7 +6,7 @@ import {
   Scripts,
   ScrollRestoration,
   useLocation,
-} from "@remix-run/react";
+} from "react-router";
 
 import '~/styles/tailwind.css';
 import Webring from "~/components/Webring";
@@ -30,6 +30,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Iondrive</title>
         <Meta />
         <Links />
       </head>

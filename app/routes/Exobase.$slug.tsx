@@ -1,5 +1,5 @@
 import {exobaseLoader} from '~/components/exobase/ExobaseLoader';
-import {useLoaderData, useLocation} from '@remix-run/react';
+import {useLoaderData, useLocation} from 'react-router';
 import ExobaseArticle from '~/components/exobase/ExobaseArticle';
 import Sidebar from "~/components/Sidebar";
 import '~/styles/tailwind.css';
@@ -47,9 +47,7 @@ function ClassificationPage({ data, noSubcategory }: { data: Record<string, Arti
 
 function Exobase() {
     const data = useLoaderData();
-    // @ts-expect-error data
     if (data.isClassification) {
-        // @ts-expect-error data
         return <ClassificationPage data={data.articles} noSubcategory={data.noSubcategory} />;
     } else {
         return <ExobaseArticle />;

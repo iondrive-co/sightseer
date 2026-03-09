@@ -1,4 +1,4 @@
-import {Link, useLocation} from "@remix-run/react";
+import {Link, useLocation} from "react-router";
 import {useState, useEffect, useCallback, useRef} from "react";
 
 function getSidebarWidth(collapsed: boolean) {
@@ -28,6 +28,7 @@ export default function Sidebar() {
   }, [isHome, updateCollapsed]);
 
   // Sync on mount
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     setSidebarWidth(collapsed);
   }, []);

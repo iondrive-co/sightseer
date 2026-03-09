@@ -4,33 +4,32 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "build": "remix vite:build",
+    "build": "react-router build",
     "deploy": "npm run build && wrangler pages deploy",
-    "dev": "remix vite:dev",
+    "dev": "react-router dev",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
     "start": "wrangler pages dev ./build/client",
-    "typecheck": "tsc",
+    "typecheck": "react-router typegen && tsc",
     "typegen": "wrangler types",
     "png2webp": "bash -c 'sharp -i \"public/images/$1.png\" -o \"{dir}/{name}.webp\" -q 60' --",
     "preview": "npm run build && wrangler pages dev",
     "cf-typegen": "wrangler types"
   },
   "dependencies": {
-    "@remix-run/cloudflare": "^2.14.0",
-    "@remix-run/cloudflare-pages": "^2.14.0",
-    "@remix-run/react": "^2.14.0",
+    "@react-router/cloudflare": "^7.5.0",
+    "@react-router/fs-routes": "^7.13.1",
     "@types/file-saver": "^2.0.7",
     "cookie": "0.7.2",
-    "create-cloudflare": "^2.30.1",
     "file-saver": "^2.0.5",
     "isbot": "^4.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router": "^7.5.0",
     "three": "^0.170.0"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20241022.0",
-    "@remix-run/dev": "^2.13.1",
+    "@react-router/dev": "^7.5.0",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
     "@types/three": "^0.170.0",
@@ -51,7 +50,7 @@
     "typescript": "^5.1.6",
     "vite": "^5.1.0",
     "vite-tsconfig-paths": "^4.2.1",
-    "wrangler": "^3.114.8"
+    "wrangler": "^4.0.0"
   },
   "engines": {
     "node": ">=20.0.0"
