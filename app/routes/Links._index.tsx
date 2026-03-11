@@ -109,16 +109,17 @@ export default function LinksRoute() {
     return (
         <div className="app">
             <Sidebar />
-            <main className="main-content overflow-y-auto">
+            <main id="main-content" className="main-content overflow-y-auto">
                 <div className="space-y-8 max-w-2xl">
+                    <h1 className="sr-only">Links</h1>
                     {Object.entries(groupedLinks).map(([category, categoryLinks]) => (
-                        <div key={category}>
-                            <h2 className="text-xl font-bold mb-4 text-gray-900 dark:text-gray-100">
+                        <section key={category} aria-labelledby={`links-${category.replace(/\s+/g, '-').toLowerCase()}`}>
+                            <h2 id={`links-${category.replace(/\s+/g, '-').toLowerCase()}`} className="text-xl font-bold mb-4 text-gray-900 dark:text-gray-100">
                                 {category}
                             </h2>
-                            <div className="space-y-4">
+                            <ul className="space-y-4 list-none p-0">
                                 {categoryLinks.map((link, index) => (
-                                    <div key={index} className="p-4 border border-gray-300 dark:border-gray-700 rounded-lg bg-gray-50 dark:bg-gray-800">
+                                    <li key={index} className="p-4 border border-gray-300 dark:border-gray-700 rounded-lg bg-gray-50 dark:bg-gray-800">
                                         <h3 className="text-lg font-semibold mb-2">
                                             <a
                                                 href={link.url}
@@ -130,10 +131,10 @@ export default function LinksRoute() {
                                             </a>
                                         </h3>
                                         <p className="text-gray-600 dark:text-gray-300 text-sm">{link.description}</p>
-                                    </div>
+                                    </li>
                                 ))}
-                            </div>
-                        </div>
+                            </ul>
+                        </section>
                     ))}
                 </div>
             </main>

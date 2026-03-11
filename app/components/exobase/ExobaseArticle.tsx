@@ -14,7 +14,7 @@ function TitleAndBreadcrumbs() {
 function InfoBox({ imageName, caption }: { imageName?: string, caption?: string }) {
     if (!imageName) return null;
     return (
-        <div className="infobox">
+        <figure className="infobox">
             <picture>
                 <img
                     src={`/images/${imageName}`}
@@ -23,8 +23,8 @@ function InfoBox({ imageName, caption }: { imageName?: string, caption?: string 
                     decoding="async"
                 />
             </picture>
-            {caption && <div className="infobox-caption">{caption}</div>}
-        </div>
+            {caption && <figcaption className="infobox-caption">{caption}</figcaption>}
+        </figure>
     );
 }
 
@@ -68,7 +68,7 @@ function ExobaseArticle() {
     return (
         <div key={location.key} className="article-container">
             <Sidebar />
-            <div className="article">
+            <main id="main-content" className="article">
                 <TitleAndBreadcrumbs />
                 <article className="article-text">
                     {imageName ? (
@@ -89,10 +89,10 @@ function ExobaseArticle() {
                         <div dangerouslySetInnerHTML={{ __html: content }} />
                     )}
                 </article>
-                <div className="classification-section">
+                <nav className="classification-section" aria-label="Exobase navigation">
                     Classification: <a href={`/exobase/Category-${classification.split('/')[0].replace(/ /g, '_')}`}>{classification}</a>
-                </div>
-            </div>
+                </nav>
+            </main>
         </div>
     );
 }

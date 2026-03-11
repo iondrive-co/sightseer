@@ -12,21 +12,22 @@ export default function Index() {
     return (
         <div className="app">
             <Sidebar />
-            <div className="index-content">
+            <main id="main-content" className="index-content">
                 <div>
-                    <p className="email">Contact: c@iondrive.co</p>
-                    <div className="descriptions">
-                        <p>&lt;--Mobile coding agent</p>
-                        <p>&lt;--Intelligence Dampening Sphere</p>
-                        <p>&lt;--Worldbuilding ideas</p>
-                        <p>&lt;--How and why this site exists</p>
-                        <p>&lt;--Cooking things for mixed meat+vegan family</p>
-                        <p>&lt;--Very short movie and game reviews</p>
-                        <p>&lt;--Hohmann sim using three.js</p>
-                        <p>&lt;--Web version of <a href="https://github.com/iondrive-co/winnow" style={{ color: "blue" }}>winnow</a> for in-browser image editing</p>
-                    </div>
+                    <h1 className="sr-only">Iondrive</h1>
+                    <p className="email">Contact: <a href="mailto:c@iondrive.co">c@iondrive.co</a></p>
+                    <dl className="descriptions">
+                        <div className="description-pair"><dt className="sr-only">Chad</dt><dd>&lt;--Mobile coding agent</dd></div>
+                        <div className="description-pair"><dt className="sr-only">Exobase</dt><dd>&lt;--Intelligence Dampening Sphere</dd></div>
+                        <div className="description-pair"><dt className="sr-only">Links</dt><dd>&lt;--Worldbuilding ideas</dd></div>
+                        <div className="description-pair"><dt className="sr-only">Meta</dt><dd>&lt;--How and why this site exists</dd></div>
+                        <div className="description-pair"><dt className="sr-only">Recipes</dt><dd>&lt;--Cooking things for mixed meat+vegan family</dd></div>
+                        <div className="description-pair"><dt className="sr-only">Reviews</dt><dd>&lt;--Very short movie and game reviews</dd></div>
+                        <div className="description-pair"><dt className="sr-only">Solar</dt><dd>&lt;--Hohmann sim using three.js</dd></div>
+                        <div className="description-pair"><dt className="sr-only">Winnow</dt><dd>&lt;--Web version of <a href="https://github.com/iondrive-co/winnow" style={{ color: "blue" }}>winnow</a> for in-browser image editing</dd></div>
+                    </dl>
                 </div>
-            </div>
+            </main>
         </div>
     );
 }

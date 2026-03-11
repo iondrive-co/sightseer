@@ -42,8 +42,9 @@ export default function Reviews() {
     return (
         <div className="app">
             <Sidebar />
-            <div className="main-container">
+            <main id="main-content" className="main-container">
                 <div className="description-container">
+                    <h1 className="sr-only">Sci-Fi Movie Reviews</h1>
                     <p>
                         Enjoyable sci-fi movies, mouse over each for a no-spoiler one line review. Rating is out of 40
                         based on 4 equal categories, (e)xploration of scientific premise, (a)tmosphere, (n)arrative
@@ -53,34 +54,35 @@ export default function Reviews() {
                 </div>
                 <div className="container">
                     {orderedBuckets.map(bucket => (
-                        <div key={bucket} className="movie-bucket">
-                            <h1>{bucket}</h1>
-                            <div className="movie-wrapper">
+                        <section key={bucket} className="movie-bucket" aria-label={`Rating ${bucket}`}>
+                            <h2>{bucket}</h2>
+                            <div className="movie-wrapper" role="list">
                                 {(movieGroups[bucket] || []).sort((a, b) => {
                                     const totalRatingA = a.e + a.a + a.n + a.c;
                                     const totalRatingB = b.e + b.a + b.n + b.c;
 
                                     return totalRatingB - totalRatingA; // sort in descending order
                                 }).map(movie => (
-                                    <div key={movie.title} className="movie">
-                                        <img src={movie.thumbnail} alt={movie.title}/>
+                                    <article key={movie.title} className="movie" role="listitem" tabIndex={0}
+                                        aria-label={`${movie.title} — ${movie.e + movie.a + movie.n + movie.c}/40`}>
+                                        <img src={movie.thumbnail} alt={`${movie.title} poster`}/>
                                         <div className="content">
-                                            <h2>{movie.title}</h2>
+                                            <h3>{movie.title}</h3>
                                             <p>{movie.summary}</p>
                                             <div className="rating">
-                                                <span className="rating-item">e: {movie.e}</span>
-                                                <span className="rating-item">a: {movie.a}</span>
-                                                <span className="rating-item">n: {movie.n}</span>
-                                                <span className="rating-item">c: {movie.c}</span>
+                                                <span className="rating-item"><abbr title="Exploration">e</abbr>: {movie.e}</span>
+                                                <span className="rating-item"><abbr title="Atmosphere">a</abbr>: {movie.a}</span>
+                                                <span className="rating-item"><abbr title="Narrative">n</abbr>: {movie.n}</span>
+                                                <span className="rating-item"><abbr title="Characterisation">c</abbr>: {movie.c}</span>
                                             </div>
                                         </div>
-                                    </div>
+                                    </article>
                                 ))}
                             </div>
-                        </div>
+                        </section>
                     ))}
                 </div>
-            </div>
+            </main>
         </div>
     );
 }

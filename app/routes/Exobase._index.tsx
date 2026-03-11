@@ -11,14 +11,18 @@ function Exobase() {
     return (
         <div className="article-container">
             <Sidebar />
-            <div className="article">
+            <main id="main-content" className="article">
                 <h1>Classifications</h1>
-                {classifications.map(classification => (
-                    <div key={classification}>
-                        <a href={`/exobase/Category-${classification}`}>{classification}</a>
-                    </div>
-                ))}
-            </div>
+                <nav aria-label="Exobase classifications">
+                    <ul className="list-none p-0">
+                        {classifications.map(classification => (
+                            <li key={classification}>
+                                <a href={`/exobase/Category-${classification}`}>{classification}</a>
+                            </li>
+                        ))}
+                    </ul>
+                </nav>
+            </main>
         </div>
     );
 }

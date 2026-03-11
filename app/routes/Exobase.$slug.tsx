@@ -15,7 +15,7 @@ function ClassificationPage({ data, noSubcategory }: { data: Record<string, Arti
     return (
         <div key={location.key} className="article-container">
             <Sidebar />
-            <div className="article">
+            <main id="main-content" className="article">
                 <h1>{classification}</h1>
                 <ul>
                     {noSubcategory.map(([slug]) => (
@@ -37,10 +37,10 @@ function ClassificationPage({ data, noSubcategory }: { data: Record<string, Arti
                     </div>
                 ))}
                 <br/>
-                <div className="classification-section">
+                <nav className="classification-section" aria-label="Exobase navigation">
                     See all <a href={`/exobase`}>Classifications</a>
-                </div>
-            </div>
+                </nav>
+            </main>
         </div>
     );
 }

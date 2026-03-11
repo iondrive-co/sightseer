@@ -60,41 +60,48 @@ export default function Sidebar() {
     if (!collapsed) updateCollapsed(true);
   };
 
+  const navLinks = [
+    { to: "/Chad", label: "Chad" },
+    { to: "/exobase/Exobase", label: "Exobase" },
+    { to: "/Links", label: "Links" },
+    { to: "/Meta", label: "Meta" },
+    { to: "/Recipes", label: "Recipes" },
+    { to: "/Reviews", label: "Reviews" },
+    { to: "/Solar", label: "Solar" },
+    { to: "/Winnow", label: "Winnow" },
+  ];
+
   return (
-    <div className={`sidebar ${collapsed ? "sidebar-collapsed" : ""}`}>
-      <Link to="/" className="sidebar-home-link">
-        <img src="/favicon.ico" alt="Home" />
+    <nav className={`sidebar ${collapsed ? "sidebar-collapsed" : ""}`} aria-label="Site navigation">
+      <a href="#main-content" className="skip-link">Skip to main content</a>
+      <Link to="/" className="sidebar-home-link" aria-label="Home">
+        <img src="/favicon.ico" alt="" aria-hidden="true" />
       </Link>
-      <Link to="/Chad" className="text-xl underline cursor-pointer sidebar-link" onClick={handleNavClick}>
-        Chad
-      </Link>
-      <Link to="/exobase/Exobase" className="text-xl underline cursor-pointer sidebar-link" onClick={handleNavClick}>
-        Exobase
-      </Link>
-      <Link to="/Links" className="text-xl underline cursor-pointer sidebar-link" onClick={handleNavClick}>
-        Links
-      </Link>
-      <Link to="/Meta" className="text-xl underline cursor-pointer sidebar-link" onClick={handleNavClick}>
-        Meta
-      </Link>
-      <Link to="/Recipes" className="text-xl underline cursor-pointer sidebar-link" onClick={handleNavClick}>
-        Recipes
-      </Link>
-      <Link to="/Reviews" className="text-xl underline cursor-pointer sidebar-link" onClick={handleNavClick}>
-        Reviews
-      </Link>
-      <Link to="/Solar" className="text-xl underline cursor-pointer sidebar-link" onClick={handleNavClick}>
-        Solar
-      </Link>
-      <Link to="/Winnow" className="text-xl underline cursor-pointer sidebar-link" onClick={handleNavClick}>
-        Winnow
-      </Link>
+      <ul className="sidebar-nav-list">
+        {navLinks.map(({ to, label }) => (
+          <li key={to}>
+            <Link to={to} className="text-xl underline cursor-pointer sidebar-link" onClick={handleNavClick}>
+              {label}
+            </Link>
+          </li>
+        ))}
+      </ul>
       <div
         className="sidebar-handle"
+        role="separator"
+        aria-orientation="vertical"
+        aria-label="Resize sidebar"
+        tabIndex={0}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            updateCollapsed(!collapsed);
+          }
+        }}
         onPointerDown={handlePointerDown}
         onPointerMove={handlePointerMove}
         onPointerUp={handlePointerUp}
       />
-    </div>
+    </nav>
   );
 }
