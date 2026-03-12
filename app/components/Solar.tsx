@@ -77,25 +77,21 @@ const SolarSystem = () => {
 
       // Milky Way skybox
       const skyboxGeometry = new THREE.SphereGeometry(4000, 64, 64);
+      const skyboxTexture = textureLoader.load('/textures/starfield.webp');
+      skyboxTexture.minFilter = THREE.NearestFilter;
+      skyboxTexture.magFilter = THREE.NearestFilter;
+      skyboxTexture.generateMipmaps = false;
       const skyboxMaterial = new THREE.MeshBasicMaterial({
-        color: 0xffffff,
+        map: skyboxTexture,
         side: THREE.BackSide,
         transparent: true,
-        opacity: 0.15,
+        opacity: 0.6,
       });
       const skybox = new THREE.Mesh(skyboxGeometry, skyboxMaterial);
-      // Rotate for ecliptic/galactic alignment
-      skybox.rotation.x = 60 * Math.PI / 180;  // Ecliptic tilt
-      skybox.rotation.y = 267 * Math.PI / 180;  // Galactic center
+      const xRotation = Math.PI / 2 + 60 * Math.PI / 180;
+      const zRotation = 267 * Math.PI / 180;
+      skybox.setRotationFromEuler(new THREE.Euler(xRotation, 0, zRotation, 'ZYX'));
       scene.add(skybox);
-
-      textureLoader.load(
-        '/textures/2k_stars_milky_way.webp',
-        (texture) => {
-          skyboxMaterial.map = texture;
-          skyboxMaterial.needsUpdate = true;
-        }
-      );
 
       // Create sun
       const sunGeometry = new THREE.SphereGeometry(SUN_CONFIG.radius, 32, 32);
@@ -417,8 +413,23 @@ const SolarSystem = () => {
 
       animate();
 
+      // Handle window resize
+      const handleResize = () => {
+        const container = mountRef.current;
+        if (!container) return;
+        const width = container.clientWidth;
+        const height = container.clientHeight;
+        camera.aspect = width / height;
+        camera.updateProjectionMatrix();
+        renderer.setSize(width, height);
+      };
+      window.addEventListener('resize', handleResize);
+      // Initial size to match container (accounts for sidebar)
+      handleResize();
+
       // Cleanup
       return () => {
+        window.removeEventListener('resize', handleResize);
         cameraController.dispose();
         if (mountRef.current) {
           mountRef.current.removeChild(renderer.domElement);
