@@ -887,6 +887,15 @@ export const sciFiMoviesData: Movie[] = [
         c: 7,
     },
     {
+        title: "Good Luck, Have Fun, Don't Die",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/b/b0/Good_Luck%2C_Have_Fun%2C_Don%27t_Die_poster.jpg",
+        summary: `Main plot is a fun topical romp carried by Rockwell, but the flashbacks are a snoozefest`,
+        e: 5,
+        a: 5,
+        n: 7,
+        c: 7,
+    },
+    {
         title: "Gravity",
         thumbnail: "https://www.themoviedb.org/t/p/w1280/krQrQSNb0EXd5L0e2CkoU5V6XNq.jpg",
         summary: `Watching this sci-fi thriller in IMAX was wild, this movie is a completely engrossing white knuckle 
@@ -1485,6 +1494,15 @@ export const sciFiMoviesData: Movie[] = [
         a: 6,
         n: 6,
         c: 6,
+    },
+    {
+        title: "Project Hail Mary",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/3/3b/Project_Hail_Mary_poster.jpg",
+        summary: `Tries a little too hard to be likeable, cuts some important explanations from the book, and music is annoying; but wow, still funny, good character arc, great science`,
+        e: 9,
+        a: 7,
+        n: 7,
+        c: 7,
     },
     {
         title: "Prometheus",

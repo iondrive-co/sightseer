@@ -9,11 +9,11 @@ export const classificationOverviewLoader: LoaderFunction = async () => {
         .filter((value, index, self) => self.indexOf(value) === index); // remove duplicates
     return { classifications };
 };
-export const exobaseLoader: LoaderFunction = async ({ params, request, context }) => {
+export const exobaseLoader: LoaderFunction = async (args) => {
     try {
-        const slug = (params.slug ?? 'exobase').replace(/_/g, ' ');
+        const slug = (args.params.slug ?? 'exobase').replace(/_/g, ' ');
         if (slug === 'exobase') {
-            return classificationOverviewLoader({ params, request, context });
+            return classificationOverviewLoader(args);
         }
         const isClassification = slug.startsWith('Category-');
         if (isClassification) {

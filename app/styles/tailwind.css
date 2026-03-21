@@ -220,7 +220,7 @@
   }
 
   .webring-shell {
-    @apply relative inline-flex items-center gap-2;
+    @apply inline-flex items-center gap-3;
   }
 
   .webring-box {
@@ -233,21 +233,6 @@
 
   .webring-link {
     @apply text-blue-600 dark:text-blue-400 hover:underline;
-  }
-
-  .webring-arrow {
-    width: 32px;
-    height: 32px;
-    @apply inline-flex items-center justify-center rounded-full border border-gray-300 dark:border-gray-700 bg-gray-100/70 dark:bg-gray-800/70 text-gray-600 dark:text-gray-300 transition-colors;
-  }
-
-  .webring-arrow:hover:enabled {
-    @apply bg-gray-200/90 dark:bg-gray-700/90;
-  }
-
-  .webring-arrow:disabled {
-    opacity: 0.35;
-    pointer-events: none;
   }
 
   /* Collapsed content margins — pure CSS, no JS dependency */
@@ -325,7 +310,9 @@
   }
 
   .webring-compact .webring-shell {
-    gap: 0;
+    gap: 4px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .webring-compact .webring-box {
@@ -350,19 +337,4 @@
     line-height: 1.1;
   }
 
-  .webring-compact .webring-arrow {
-    width: 22px;
-    height: 22px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-
-  .webring-compact .webring-arrow:first-child {
-    left: -8px;
-  }
-
-  .webring-compact .webring-arrow:last-child {
-    right: -8px;
-  }
 }
