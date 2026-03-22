@@ -53,9 +53,8 @@ hand wrapped in a printed medcast from the wrist to the base of the fingers. A b
 without looking at it or breaking from his conversation he had reach up with his good hand and tapped it once. 
 Dismissed. He kept talking. The woman said something and he tilted his head, half-laughing. 
 
-"Preet," Devika called out, as they got closer.
-He looked up. Maybe twenty-five, shaved head, thin scar along the jaw. The beetle was copper, its carapace worn to bare 
-metal in patches.
+"Preet," Devika called out, as they got closer. He looked up. Maybe twenty-five, shaved head, thin scar along the jaw. 
+The beetle was copper, its carapace worn to bare metal in patches.
 "Quarterly audit," Devika said. "Bharat Existential Risk."
 He wobbled his head and went back to his station. He put a housing into the scanner with his good hand, waited for the 
 green, and pressed the thumb of his wrapped hand carefully to the pad. The pad pulsed and read him. A red band appeared 
@@ -68,24 +67,21 @@ Sumedha dismissed the text.
  
 The numbers were clean. Sumedha signed the quarterly with her own thumb on Devika's pad. The pad pulsed and read her. 
 A green band appeared next to her name. Near the nutrition station midway down the aisle, an inspector held his thumb to 
-a dispenser. It beeped, read him, and released a container that he opened standing there. Sumedha could see the steam from
-the office window. Beside that dispenser a second one, open, no scanner, stacked with foil packets of protein paste.
+a dispenser. It beeped, read him, and released a container that he opened standing there. Sumedha could see the steam 
+from the office window. Beside that dispenser a second one with no scanner was stacked with foil packets. Protein paste.
 
 She took the lift down. The heat hit at ground level — the chemical taste of curing agent and hot polymer coating her 
 teeth within a few breaths. The shift was changing and the gap between the buildings was quieter now, and she could see 
 the full height of the western row against the haze, light coming down through the particulate in long diffuse columns 
 to pool at the bottom of the valley. She had read Gaikwad's Abhang about this place in school in Pune.
 
-Her familiar ordered her a car for the ride home. It arrived in ninety seconds. The seats were cool against her back and 
-the air inside was clean and she sat in it for a moment before telling it to go.
+Her familiar ordered her a car for the ride home and it arrived in ninety seconds. The seats were cool against her back,
+the air clean and she sat in it for a moment before telling it to go. As the car pulled north out of the valley she 
+could see the base of the residential tower. People scanning thumbs at the entrance kiosk before going in. A child was 
+sitting on the lobby floor with a moth familiar on the tile in front of her. Pointing and the moth walked to the spot. 
+Pointing again. The mother was talking to someone in the queue.
 
-Through the window, as the car pulled north out of the valley, she could see the base of the residential tower. People 
-scanning thumbs at the entrance kiosk, going in. A child was sitting on the lobby floor with a moth familiar on the tile 
-in front of her. The child pointed and the moth walked to where she pointed. The child pointed again. The mother was 
-talking to someone in the queue.
-
-She filed the quarterly that evening. All sites within spec. No anomalous events. She packed a bag for the next day and 
-set an alarm, and her familiar dimmed the apartment lights without being asked.
-`,
+She filed the quarterly that evening. All sites within spec. No anomalous events. She packed a bag for the next day, 
+and her familiar set the alarm and dimmed the apartment lights for sleep without being asked.`,
     },
 ];
