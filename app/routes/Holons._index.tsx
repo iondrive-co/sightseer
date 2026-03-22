@@ -25,8 +25,8 @@ export default function Holons() {
                                 <span className="holons-description">{story.description}</span>
                             </summary>
                             <div className="holons-content">
-                                {story.content.split(/\n\n+/).filter(Boolean).map((paragraph, i) => (
-                                    <p key={i}>{paragraph.replace(/\n/g, ' ')}</p>
+                                {story.content.split(/\n\s*\n/).filter(s => s.trim()).map((paragraph, i) => (
+                                    <p key={i}>{paragraph.replace(/\n/g, ' ').trim()}</p>
                                 ))}
                             </div>
                         </details>

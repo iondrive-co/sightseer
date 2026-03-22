@@ -15,8 +15,8 @@ older ones had degraded in the particulate. Forty-three degrees at ground level 
 
 Sumedha sat with her audit bag in the small of her back to cushion against the hard seat back. The crawler was for 
 freight and the passenger section was little more than a flat bed with raised edges and no climate control. Across from 
-her a maintenance tech was eating a samosa from a foil wrapper, a small brown mechanical moth resting on his knee. Next 
-to him two women were talking.
+her a maintenance tech was eating a greasy samosa from a silver foil wrapper, a small brown mechanical moth resting on 
+his knee. Next to him two women were talking.
 
 "Mrs. Rao's daughter got into the Pune program."
 "Arré, that girl? She can't boil water."
@@ -68,18 +68,18 @@ Sumedha dismissed the text.
 The numbers were clean. Sumedha signed the quarterly with her own thumb on Devika's pad. The pad pulsed and read her. 
 A green band appeared next to her name. Near the nutrition station midway down the aisle, an inspector held his thumb to 
 a dispenser. It beeped, read him, and released a container that he opened standing there. Sumedha could see the steam 
-from the office window. Beside that dispenser a second one with no scanner was stacked with foil packets. Protein paste.
+from the office window. Beside that dispenser a second one with no scanner was stacked with silver foil packets.
 
 She took the lift down. The heat hit at ground level — the chemical taste of curing agent and hot polymer coating her 
 teeth within a few breaths. The shift was changing and the gap between the buildings was quieter now, and she could see 
 the full height of the western row against the haze, light coming down through the particulate in long diffuse columns 
 to pool at the bottom of the valley. She had read Gaikwad's Abhang about this place in school in Pune.
 
-Her familiar ordered her a car for the ride home and it arrived in ninety seconds. The seats were cool against her back,
-the air clean and she sat in it for a moment before telling it to go. As the car pulled north out of the valley she 
-could see the base of the residential tower. People scanning thumbs at the entrance kiosk before going in. A child was 
-sitting on the lobby floor with a moth familiar on the tile in front of her. Pointing and the moth walked to the spot. 
-Pointing again. The mother was talking to someone in the queue.
+Her familiar ordered her a car for the ride home and it arrived in ninety seconds. The seats were cool against her back
+the the air was clean and she just sat in it for a moment before telling it to go. As the car pulled north out of the 
+valley the base of a residential tower came into view. People scanning thumbs at the entrance kiosk before going in. A 
+child sitting on the lobby floor with a moth familiar on the tile in front of her. Pointing and the moth walked to the 
+spot. Pointing again. The mother was talking to someone in the queue.
 
 She filed the quarterly that evening. All sites within spec. No anomalous events. She packed a bag for the next day, 
 and her familiar set the alarm and dimmed the apartment lights for sleep without being asked.`,
