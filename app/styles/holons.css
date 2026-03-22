@@ -1,0 +1,28 @@
+.holons-list {
+    @apply flex flex-col gap-2 p-4;
+}
+
+.holons-story {
+    @apply border border-gray-300 dark:border-gray-700 rounded;
+}
+
+.holons-story summary {
+    @apply p-3 cursor-pointer flex flex-col gap-1
+    text-gray-900 dark:text-gray-100;
+}
+
+.holons-story summary .holons-name {
+    @apply font-bold;
+}
+
+.holons-story summary .holons-description {
+    @apply text-sm text-gray-600 dark:text-gray-400;
+}
+
+.holons-content {
+    @apply px-4 pb-4 text-gray-900 dark:text-gray-100;
+}
+
+.holons-content p {
+    @apply mb-2 text-sm md:text-base;
+}

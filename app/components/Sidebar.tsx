@@ -64,6 +64,7 @@ export default function Sidebar() {
     { to: "/Chad", label: "Chad" },
     { to: "/exobase/Exobase", label: "Exobase" },
     { to: "/Links", label: "Links" },
+    { to: "/Holons", label: "Holons" },
     { to: "/Meta", label: "Meta" },
     { to: "/Recipes", label: "Recipes" },
     { to: "/Reviews", label: "Reviews" },
