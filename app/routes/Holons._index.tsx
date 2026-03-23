@@ -22,7 +22,6 @@ export default function Holons() {
                         <details key={story.name} className="holons-story">
                             <summary>
                                 <span className="holons-name">{story.name}</span>
-                                <span className="holons-description">{story.description}</span>
                             </summary>
                             <div className="holons-content">
                                 {story.content.split(/\n\s*\n/).filter(s => s.trim()).map((paragraph, i) => (

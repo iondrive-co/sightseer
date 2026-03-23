@@ -1475,12 +1475,12 @@ expanding cooperative, and she appointed Marcus to the position of first Admiral
 the fleet fought a number of skirmishes with [[Greater Zhōngguó]] funded privateers and insurrections attempting to 
 take control of Freehabs lithium mines. 
 
-During both the first and second transit wars Freehab maintained a policy of armed neutrality, and its last significant 
-mobilisation was during the [[First Contact Event]]. In 3 BFC Anna retired as CEO and her and Marcus' daughter Polaris 
-Okafor-Reyes was elected as CEO in her place. In 10 AFC Polaris was able to secure a number of significant trade 
-agreements with the Elluist sympathetic [[Fatimid Trade Caliphate]]. As the smallest of the outer system navies, Freehab 
-has always attempted to achieve its political objectives through indirect means such as the Outer Trading League, and 
-funding sympathetic organisations such as the Ellulist church and the [[Freeholders]].`,
+During both the first and second [[Transit Wars]] Freehab maintained a policy of armed neutrality, and its last 
+significant mobilisation was during the [[First Contact Event]]. In 3 BFC Anna retired as CEO and her and Marcus' 
+daughter Polaris Okafor-Reyes was elected as CEO in her place. In 10 AFC Polaris was able to secure a number of 
+significant trade agreements with the Elluist sympathetic [[Fatimid Trade Caliphate]]. As the smallest of the outer 
+system navies, Freehab has always attempted to achieve its political objectives through indirect means such as the Outer 
+Trading League, and funding sympathetic organisations such as the Ellulist church and the [[Freeholders]].`,
         classification: 'Polities/States'
     }],
     ['Infomatic Conglomerate', {
@@ -2584,6 +2584,27 @@ to emphasise laying down and screening a much greater density of fuel depots (ev
 [[Fuel Pathing]], and using point defense lasers to clear debris. The effectiveness of swarms of attack and screening 
 drones was well understood before the war, but both sides launched new fast high density drone carrier variants after 
 it and started developing other [[Naval Auxiliary]] vessels.`,
+        classification: 'Sociocron'
+    }],
+    ['Transit Wars', {
+        content: `The Transit Wars were two conflicts in the last decades BFC fought over control of transit 
+infrastructure. 
+
+The First Transit War (c. 28-27 BFC) was triggered by [[Türkiye]] deploying ice [[cannonballs~Naval Auxiliary]] into 
+Earth-Mars cycler orbits near Phobos to contest [[Dominio]]'s non-aligned transit tariffs. After a series of inconclusive 
+engagements in which Türkiye threatened to deploy unshackled AGI in violation of the [[Synthetic Control Measures]]
+in place after the [[Haidian Takeoff Crisis]], the conflict ended with the effective relocation of transit staging from 
+Phobos to Deimos, breaking Dominio's pricing monopoly.
+
+The Second Transit War (c. 19-17 BFC) was precipitated by the discovery of significant palladium hydride deposits in 
+several Hilda group asteroids, which had potential applications in next-generation [[Fusion Power]] 
+and catalytic fuel processing. As the Hildas occupy a resonant orbit between the Trojan and Greek asteroid groups they 
+had competing claims from the [[United States]], [[Greater Zhōngguó]], Türkiye, the [[Fatimid Trade Caliphate]], 
+[[France]], and [[Bharat]]; but only Dominio and [[Freehab]] had a significant presence there. A series of battles
+between the Dominio-France and Türkiye-Fatimid Trade Caliphate coalitions; with the United States backing the former
+and GZ backing the latter, resulted in a [[Peacekeeper]] mediated settlement giving joint US-GZ control over the 
+resources with Freehab supplying the transport infrastructure. This effectively ended Domino military presence outside
+of cislunar space.`,
         classification: 'Sociocron'
     }],
     ['Türkiye', {
