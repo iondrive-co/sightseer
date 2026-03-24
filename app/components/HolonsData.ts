@@ -207,7 +207,7 @@ point defense fire and somewhere forward the hull damage was groaning through th
 and felt the backup pump working and watched two numbers and adjusted the bleeders and the reactor held.
 
 On the shipwide channel he heard someone relaying from a patchy Madre link a Turkish broadcast. Open channel. 
-"... threatening to deploy an unshackled synth if we don’t disengage." Fierro’s voice: “Get back to work”
+"... threatening to deploy an unshackled synth if we don’t disengage" Fierro’s voice: “Get back to work”
 
 Caio had learned about Haidian the way all children did. Something so much faster than us we wouldn’t even know what had 
 happened. Had to be a bluff, not worth thinking about now. Enough to worry about with Padre’s fast shortcuts. Open the 
@@ -247,8 +247,8 @@ filters were due for replacement. She was the only person who seemed to notice t
 the filters.
 
 Yui was forty-one, straight black hair kept short, and a habit of pressing her thumb into the center of her opposite 
-palm when she was concentrating, which was nearly always. Her concentration was now on the spectral karyotype of Embryo 
-7-4601, whose third chromosome exhibited the same translocation that she had spent seventeen years learning to predict, 
+palm when she was concentrating, which was nearly always. Her concentration usually involved the spectral karyotype of 
+Embryo 7-4601, whose third chromosome exhibited the same translocation that she had spent seventeen years learning to predict, 
 six years learning to compensate for, and the last three months learning had compensated nothing.
 
 Dr. Liang came in at 1620 carrying two cups of the barley tea that the agricultural section grew in the long troughs 
@@ -257,17 +257,17 @@ both hands, looking at the embryo data on the display. He was sixty-three and ha
 before Yui, and before that he had taught her, and before that he had taught her mother. He was not a tall man. He had a 
 slight tremor in his left hand that he managed by always holding things with both.
 
-"Number six is reading two degrees warm again," he said.
-"I recalibrated it on Tuesday."
-"And yet."
-"It holds for a few days and then drifts. It's the thermocouple."
+"Number six is reading two degrees warm again" he said.
+"I recalibrated it on Tuesday"
+"And yet"
+"It holds for a few days and then drifts. It's the thermocouple"
 
 Liang looked at cabinet six, the third from the door on the left, and made the expression he made when he disagreed but 
 did not want to say so directly, which was to press his lips together and raise his chin slightly. He had been making 
 this expression at Yui for as long as she could remember. He drank his tea. The cabinet nearest the door shifted pitch 
 as its compressor cycled. In the corridor outside, someone passed without speaking. Then quiet again.
 
-"You've seen the relays," he said.
+"You've seen the relays" he said.
 She had seen the relays. Everyone had. The first fragments had arrived months ago through the Exonet repeater chain, 
 confused reports of gamma-ray bursts in the Kuiper Belt, then accusations between FreeHab and the Peacekeepers, then an 
 emergency military posture across the inner system. For weeks the crew had parsed each arriving relay like scripture, 
@@ -279,20 +279,20 @@ solar system. Probably antimatter-powered. Observed by multiple independent sour
 before anything could reach it.
 
 The corridor outside was quiet.
-"You've done the arithmetic," Liang said. It was not a question.
+"You've done the arithmetic" Liang said. It was not a question.
 She had. An antimatter engine, even a fraction of the reported thrust, applied to a vessel that did not need to sustain 
 twelve hundred and sixteen people for twelve centuries.
-"They'll build a faster ship," he said. He was not looking at her. He was looking at the cabinets in their two rows, 
+"They'll build a faster ship" he said. He was not looking at her. He was looking at the cabinets in their two rows, 
 the green status lights. "Not immediately. But ten years, twenty. Not a bloated monument to Delacroix and the Bloc. An 
-efficient crewed mission, with modern biopreservation. They'll arrive centuries before us."
-"That was always a possibility."
-"Yes."
+efficient crewed mission, with modern biopreservation. They'll arrive centuries before us"
+"That was always a possibility"
+"Yes"
 
 He drank his tea. Set the cup down. Picked it up again.
-"Those children," he said, and gestured with his teacup toward the cabinets toward the hundreds of frozen embryos and 
+"Those children" he said, and gestured with his teacup toward the cabinets toward the hundreds of frozen embryos and 
 the thirty-eight developing foetuses "no longer need to carry this. The weight we put on them before they are even born"
 She pressed her thumb into the center of her palm. The recyclers ticked overhead.
-"We should be grateful," Liang said.
+"We should be grateful" Liang said.
 She understood that he meant it kindly. What he meant was: you can stop now. And beneath that, the thing he would not 
 say was that she had been losing and this was a reprieve from the failure.
 
@@ -316,9 +316,9 @@ had screened this quarter. She would screen four hundred more next quarter. And 
 
 Liang finished his tea. He rinsed the cup in the small sink at the back of the bay, dried it, and placed it on the shelf 
 where it was kept. He stopped at the door.
-"The committee will want to discuss the screening program," he said. "Whether to continue at the current pace. I want 
-you to know that whatever they decide, I think what you've done has been" He stopped. He looked at his hands. "Well," 
-he said. "You know what I think."
+"The committee will want to discuss the screening program" he said. "Whether to continue at the current pace. I want 
+you to know that whatever they decide, I think what you've done has been" He stopped. He looked at his hands. "Well" 
+he said. "You know what I think"
 He left. The door closed behind him.
 
 Yui sat in the bay with its twelve humming cabinets and the cryoprotectant smell she no longer noticed and the display 
