@@ -124,10 +124,10 @@ and his secondary one, a fact he mentioned every time Captain Fierro reminded hi
 
 "Lord, guide this vessel and all who serve within her. We commend ourselves to Your protection and ask for clarity in 
 the hour of—"
-"Father, are you wearing your suit liner?" Fierro said.
+"Father, are you wearing your suit liner?" Fierro asked.
 "I am giving a blessing, Captain"
 "Put your suit liner on and then give the blessing"
-"Lord, we ask for patience," Ochoa said, and pulled his suit liner up over his cassock, and finished the prayer with the 
+"Lord, we ask for patience" Ochoa said, and pulled his suit liner up over his cassock, and finished the prayer with the 
 neck seal hanging open.
 
 Luz caught Caio at the dispenser afterward as he eyed off another QR code. 
@@ -231,7 +231,123 @@ warmer than the other. The bleeders he'd been cycling during the battle had prob
 readings were nominal. The diagnostic cleared them.
 
 He put his hand on the casing and held it there for a while. Then he ignored the diagnostic and put in the replacement 
-request.
-`,
+request`},
+    {
+        name: "Le Voyage de l'Étoile-Kōkai",
+        content: `The embryos were kept in Bay Four, in twelve cryogenic cabinets arranged in two rows of six, each one 
+humming at a slightly different pitch so that Dr. Yui Prévost could tell by listening if one had developed a fault. She 
+had not needed to do this in years, but sometimes she listened anyway because it was what her mother had taught her, and 
+what her mother's mother had done before the tumour took away her ability to hear anything at all.
+
+The bay smelled the way it always did: cold metal and the sulphurous garlic-bite of the cryoprotectant. When she was a 
+child she had hated the smell. Now she only thought about it at moments like this, when the work in front of her had 
+stopped making sense. The UV light from the agricultural troughs in the adjacent section bled under the bay door in a 
+thin violet line, and above her the air recyclers ticked in their housings with the particular dry rattle that meant the 
+filters were due for replacement. She was the only person who seemed to notice this although she was not responsible for 
+the filters.
+
+Yui was forty-one, straight black hair kept short, and a habit of pressing her thumb into the center of her opposite 
+palm when she was concentrating, which was nearly always. Her concentration was now on the spectral karyotype of Embryo 
+7-4601, whose third chromosome exhibited the same translocation that she had spent seventeen years learning to predict, 
+six years learning to compensate for, and the last three months learning had compensated nothing.
+
+Dr. Liang came in at 1620 carrying two cups of the barley tea that the agricultural section grew in the long troughs 
+under the UV banks in Habitat Ring C. Yui did not look up. Liang set the cup beside her and stood with his own held in 
+both hands, looking at the embryo data on the display. He was sixty-three and had been the ship's chief geneticist 
+before Yui, and before that he had taught her, and before that he had taught her mother. He was not a tall man. He had a 
+slight tremor in his left hand that he managed by always holding things with both.
+
+"Number six is reading two degrees warm again," he said.
+"I recalibrated it on Tuesday."
+"And yet."
+"It holds for a few days and then drifts. It's the thermocouple."
+
+Liang looked at cabinet six, the third from the door on the left, and made the expression he made when he disagreed but 
+did not want to say so directly, which was to press his lips together and raise his chin slightly. He had been making 
+this expression at Yui for as long as she could remember. He drank his tea. The cabinet nearest the door shifted pitch 
+as its compressor cycled. In the corridor outside, someone passed without speaking. Then quiet again.
+
+"You've seen the relays," he said.
+She had seen the relays. Everyone had. The first fragments had arrived months ago through the Exonet repeater chain, 
+confused reports of gamma-ray bursts in the Kuiper Belt, then accusations between FreeHab and the Peacekeepers, then an 
+emergency military posture across the inner system. For weeks the crew had parsed each arriving relay like scripture, 
+twelve to sixteen months out of date by the time it reached them, the events already resolved or escalated beyond 
+recognition before the light carrying the news had crossed even a fraction of the distance the Étoile-Kōkai had 
+travelled. Then, two days ago, the captain read an official government summary over the intercom in the clipped, careful 
+tones of someone who had rehearsed many times before speaking. A spacecraft of non-human origin, detected in the outer 
+solar system. Probably antimatter-powered. Observed by multiple independent sources. It had departed under its own power 
+before anything could reach it.
+
+The corridor outside was quiet.
+"You've done the arithmetic," Liang said. It was not a question.
+She had. An antimatter engine, even a fraction of the reported thrust, applied to a vessel that did not need to sustain 
+twelve hundred and sixteen people for twelve centuries.
+"They'll build a faster ship," he said. He was not looking at her. He was looking at the cabinets in their two rows, 
+the green status lights. "Not immediately. But ten years, twenty. Not a bloated monument to Delacroix and the Bloc. An 
+efficient crewed mission, with modern biopreservation. They'll arrive centuries before us."
+"That was always a possibility."
+"Yes."
+
+He drank his tea. Set the cup down. Picked it up again.
+"Those children," he said, and gestured with his teacup toward the cabinets toward the hundreds of frozen embryos and 
+the thirty-eight developing foetuses "no longer need to carry this. The weight we put on them before they are even born"
+She pressed her thumb into the center of her palm. The recyclers ticked overhead.
+"We should be grateful," Liang said.
+She understood that he meant it kindly. What he meant was: you can stop now. And beneath that, the thing he would not 
+say was that she had been losing and this was a reprieve from the failure.
+
+She thought of her mother's hands on this same console, and then she thought of the lymphoma that her grandmother Odette 
+had died of, in this bay, which meant she thought of her grandmother's face, which she knew only from photographs 
+because Odette had died six years before Yui was born. Twenty-six when the ship launched. Thirty-one years aboard. She 
+had volunteered because she believed the albedo readings from Epsilon Indi meant something — the patches on the moons, 
+the lattice ridges that the half-built lens array had teased at but never resolved. She had died with Yui's mother 
+holding her hand, and there had been barley growing in the troughs that year too, the same cultivar, the same harvest 
+rotation that was still running now. And her mother, Hélène, who had taken over the genetics program and fought the 
+bottleneck for three decades, and who had succeeded well enough that the allele cluster Yui designated K-7 did not 
+emerge until three years after her death, as though it had been waiting. K-7 existed because the Étoile-Kōkai was a 
+closed population and had been for ninety-five years. The committee had known the number was marginal when the ship 
+launched, but the Bloc's allocation would not stretch further, and there had been thirty-eight years of redesigns and 
+destination changes before that. Twelve hundred and sixteen people. Enough to sustain a culture, to fill classrooms and 
+workshops and galleries. Not enough to sustain a genome. In the last three generations K-7 had produced increasing rates 
+of autoimmune disease, connective tissue failure, and a particular kind of slow bone marrow collapse that she had 
+watched kill nine children and would likely kill more. Embryo 7-4601, glowing in false colour on the display, its 
+crimson translocation marker bright where there should have been blue, was one of four hundred and twelve embryos she 
+had screened this quarter. She would screen four hundred more next quarter. And the quarter after that.
+
+Liang finished his tea. He rinsed the cup in the small sink at the back of the bay, dried it, and placed it on the shelf 
+where it was kept. He stopped at the door.
+"The committee will want to discuss the screening program," he said. "Whether to continue at the current pace. I want 
+you to know that whatever they decide, I think what you've done has been" He stopped. He looked at his hands. "Well," 
+he said. "You know what I think."
+He left. The door closed behind him.
+
+Yui sat in the bay with its twelve humming cabinets and the cryoprotectant smell she no longer noticed and the display 
+showing Embryo 7-4601's third chromosome in its false red and blue. In the corridor she could hear, distantly, children. 
+They were not speaking loudly. They were passing on their way to the refectory, or the school, or the observation deck 
+where you could watch the Sun, which was a bright ordinary star behind them and visibly smaller now than it appeared in 
+the old photographs from the first year of the voyage. Ahead there was nothing the eye could distinguish from any other 
+point of light.
+
+She pulled up Milo's file. His latest blood work was two weeks old. The markers were ambiguous, neither worsening nor 
+improving. He was nine. He came to the bay every Tuesday to look at the embryos and ask her questions about genes, and 
+she had held his small warm hands four months ago while explaining that the tiredness he was feeling had a name, and 
+that she was going to fix it.
+
+Somewhere a light-year behind her and a year ago people were panicking or celebrating or praying about the thing that 
+had come and gone from the outer system. They would develop the engine. They would build the faster ship. Perhaps they 
+would arrive at Epsilon Indi and find the things her grandmother had believed in - the lattice ridges and the dark 
+surface pigments and whatever was making the moons shine like that. Perhaps they would find nothing. It didn't matter. 
+They would get there first, and they would do it in a single lifetime, and the people who did it would go home 
+afterwards and live in the world she had read about in the relays, where polymers that thought like cells might replace 
+your organs one by one until there was nothing left of you that could break down. Milo should have grown up in that 
+world. If there were not eleven light-months of vacuum and ninety-five years of delta-v between him and the nearest 
+clinic that could help him, which there was, and always would be.
+
+She would not go home. She had never been to Earth. There was nowhere to go home to. There was only the ship, and the 
+hum of the cabinets, and the next file, and the one after that, and Milo on Tuesday, asking his questions about genes, 
+and the work of keeping twelve hundred and sixteen people alive who no longer needed to arrive anywhere, who were - 
+and she had known this for a long time, she supposed - just travelling.
+
+She opened the next file. Outside, the children passed.`
     },
 ];
