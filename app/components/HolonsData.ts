@@ -34,7 +34,8 @@ mark.
 
 Devika met her at the floor entrance and they walked the line together, Sumedha checking mote density readings at each 
 tent, molecular signatures the monitoring layer used to distinguish legitimate fabrication from someone printing 
-something that shouldn't exist.
+something that shouldn't exist. A weapons chassis instead of a commercial housing. A control net with the shackle
+architecture stripped out.
 
 "All nominal," Devika said. "Only some extra mesh traffic from an inspector on the south wall. His familiar keeps 
 pinging for premium services and raising connection errors when they get blocked"
@@ -176,7 +177,9 @@ Then the jammer assault hit and Padre lost forty-three drones in eleven seconds.
 recover links. Then it stopped trying. The engine burned harder. Through the casing the pump stutter was sharper now.
 New orders from the Madre de Deus - the battlecruiser half a light minute behind the front with its vast intelligent 
 synth fighting the battle as it had been in the past. Padre responded to the command, degrading the screens to put the 
-reactor at full for a maneuver that was needed a minute ago.
+reactor at full for a maneuver that was needed a minute ago.Caio watched the synth shed its own safety margins one by
+one, each shortcut bought with a resource it couldn't get back, and thought about what it would look like without the
+margins at all.
 
 Three missiles came through. Padre pulled power straight to the lasers, skipping the capacitor buffer that existed to 
 protect the reactor from power spikes. The lights flickered. The reactor surged and Caio caught it on the manual 
@@ -210,8 +213,10 @@ On the shipwide channel he heard someone relaying from a patchy Madre link a Tur
 "... threatening to deploy an unshackled synth if we don’t disengage" Fierro’s voice: “Get back to work”
 
 Caio had learned about Haidian the way all children did. Something so much faster than us we wouldn’t even know what had 
-happened. Had to be a bluff, not worth thinking about now. Enough to worry about with Padre’s fast shortcuts. Open the 
-bleeders. Close them. The reactor held.
+happened.  Had to be a bluff. But he’d watched Padre strip itself down to bare function in thirty seconds of combat with
+no buffers, no safeties, burning through coolant margin the same way he was. The difference between Padre and an
+unshackled synth was the difference between the backup pump and no pump at all. Open the bleeders. Close them. The
+reactor held.
 
 The Turks broke off ten minutes after the first missiles. Nobody pursued.
 
@@ -223,6 +228,8 @@ Would that have killed them all?
 
 Kolawole told him the Vitória had lost four crew. Marine bay. A kinetic round through the crash couches.
 "Luz was right" Kolawole said. Neither of them laughed.
+"Still think it's about tariffs?" Caio said.
+Kolawole looked at the bulkhead for a while. "Probably is, though."
 Caio ate a ration and realized halfway through he hadn't checked the seal. He looked at the food and kept eating.
 
 On the ride back to Phobos he ran post-combat checks, one system at a time, in order. The backup coolant pump was 
@@ -293,26 +300,26 @@ He drank his tea. Set the cup down. Picked it up again.
 the thirty-eight developing foetuses "no longer need to carry this. The weight we put on them before they are even born"
 She pressed her thumb into the center of her palm. The recyclers ticked overhead.
 "We should be grateful" Liang said.
-She understood that he meant it kindly. What he meant was: you can stop now. And beneath that, the thing he would not 
-say was that she had been losing and this was a reprieve from the failure.
+She understood that he meant it kindly.
 
-She thought of her mother's hands on this same console, and then she thought of the lymphoma that her grandmother Odette 
-had died of, in this bay, which meant she thought of her grandmother's face, which she knew only from photographs 
-because Odette had died six years before Yui was born. Twenty-six when the ship launched. Thirty-one years aboard. She 
-had volunteered because she believed the albedo readings from Epsilon Indi meant something — the patches on the moons, 
-the lattice ridges that the half-built lens array had teased at but never resolved. She had died with Yui's mother 
-holding her hand, and there had been barley growing in the troughs that year too, the same cultivar, the same harvest 
-rotation that was still running now. And her mother, Hélène, who had taken over the genetics program and fought the 
-bottleneck for three decades, and who had succeeded well enough that the allele cluster Yui designated K-7 did not 
-emerge until three years after her death, as though it had been waiting. K-7 existed because the Étoile-Kōkai was a 
-closed population and had been for ninety-five years. The committee had known the number was marginal when the ship 
-launched, but the Bloc's allocation would not stretch further, and there had been thirty-eight years of redesigns and 
-destination changes before that. Twelve hundred and sixteen people. Enough to sustain a culture, to fill classrooms and 
-workshops and galleries. Not enough to sustain a genome. In the last three generations K-7 had produced increasing rates 
-of autoimmune disease, connective tissue failure, and a particular kind of slow bone marrow collapse that she had 
-watched kill nine children and would likely kill more. Embryo 7-4601, glowing in false colour on the display, its 
-crimson translocation marker bright where there should have been blue, was one of four hundred and twelve embryos she 
-had screened this quarter. She would screen four hundred more next quarter. And the quarter after that.
+She thought of her mother's hands on this same console, and then she thought of her grandmother Odette, whose face she
+knew only from photographs. Odette had volunteered because she believed the albedo readings from Epsilon Indi meant
+something, that the patches on the moons, the lattice ridges that the half-built lens array had teased at but never
+resolved. She had died of lymphoma in this bay with Yui's mother holding her hand, and there had been barley growing
+in the troughs that year too, the same cultivar, the same harvest rotation that was still running now. And her mother, 
+Hélène, who had taken over the genetics program and fought the bottleneck for three decades, and who had succeeded well 
+enough that the allele cluster Yui designated K-7 did not emerge until three years after her death, as though it had been 
+waiting. 
+
+K-7 existed because the Étoile-Kōkai was a closed population and had been for ninety-five years. The committee had known 
+the number was marginal when the ship launched, but the Bloc's allocation would not stretch further, and there had been 
+thirty-eight years of redesigns and destination changes before that. Twelve hundred and sixteen people. Enough to 
+sustain a culture, to fill classrooms and workshops and galleries. Not enough to sustain a genome. In the last three 
+generations K-7 had produced increasing rates of autoimmune disease, connective tissue failure, and a particular kind of 
+slow bone marrow collapse that she had watched kill nine children and would likely kill more. Embryo 7-4601, glowing in 
+false colour on the display, its crimson translocation marker bright where there should have been blue, was one of four 
+hundred and twelve embryos she had screened this quarter. She would screen four hundred more next quarter. And the 
+quarter after that.
 
 Liang finished his tea. He rinsed the cup in the small sink at the back of the bay, dried it, and placed it on the shelf 
 where it was kept. He stopped at the door.
