@@ -17,10 +17,10 @@ freight and the passenger section was little more than a flat bed with raised ed
 her a maintenance tech was eating a greasy samosa from a silver foil wrapper, a small brown mechanical moth resting on 
 his knee. Next to him two women were talking.
 
-"Mrs. Rao's daughter got into the Pune program."
-"Arré, that girl? She can't boil water."
+"Mrs. Rao's daughter got into the Pune program"
+"Arré, that girl? She can't boil water"
 "Her familiar did the whole application. Grandmother has the Chennai TB resistant lineage, of course. My Ananya's can 
-barely keep a calendar. My grandmother from Dharavi, that's what we get. So." 
+barely keep a calendar. My grandmother from Dharavi, that's what we get. So" 
 She waved her hand at the buildings.
 
 At R-171 the cargo lift opened onto the seventeenth floor. Twenty degrees, climate controlled for the product. The floor 
@@ -40,13 +40,13 @@ architecture stripped out.
 "All nominal," Devika said. "Only some extra mesh traffic from an inspector on the south wall. His familiar keeps 
 pinging for premium services and raising connection errors when they get blocked"
 "Is that a problem?"
-"The cheap familiars can't auto-dismiss, so he has to clear each one by hand. Sixty, seventy times a shift."
+"The cheap familiars can't auto-dismiss, so he has to clear each one by hand. Sixty, seventy times a shift"
 "Why doesn't he block them?"
 
 Devika pulled up the incident log on her overlay. "He did.  Blocked everything. The cheap models don't 
 let you filter — it's all or nothing. Three weeks ago tent six had a curing agent leak and his beetle didn't warn him. 
 He was in there twenty minutes before someone else's familiar caught it. Chemical burn across his palm and down the 
-wrist. He turned it all back on after that. Now he just clears them one at a time. Aise Hee."
+wrist. He turned it all back on after that. Now he just clears them one at a time. Aise Hee"
 
 She nodded to towards a checkpoint station where a young man was talking to the woman at the next station, his right 
 hand wrapped in a printed medcast from the wrist to the base of the fingers. A beetle on his collar was buzzing and 
@@ -55,7 +55,7 @@ Dismissed. He kept talking. The woman said something and he tilted his head, hal
 
 "Preet," Devika called out, as they got closer. He looked up. Maybe twenty-five, shaved head, thin scar along the jaw. 
 The beetle was copper, its carapace worn to bare metal in patches.
-"Quarterly audit," Devika said. "Bharat Existential Risk."
+"Quarterly audit," Devika said. "Bharat Existential Risk"
 He wobbled his head and went back to his station. He put a housing into the scanner with his good hand, waited for the 
 green, and pressed the thumb of his wrapped hand carefully to the pad. The pad pulsed and read him. A red band appeared 
 on the display next to his name. The beetle clicked again. He tapped it without looking.
@@ -92,7 +92,7 @@ doesn't need checking.
 
 "Tariffs," he said. He was holding a flatbread and gesturing with it. "They don't want Phobos. They want cheaper berths. 
 Dominio charges thirty percent over spot for non-aligned transit staging. The Turks put ice on the cycler orbits and now 
-they have leverage."
+they have leverage"
 
 Caio was checking the provenance seal on a protein bar. Hellas Planitia, Bioforge lot 1146, nine weeks old. The chain 
 resolved: yeast culture, vitamin assay, packaging, transport. He bit into it.
@@ -192,7 +192,7 @@ The backup pump kicked in and he could feel it, a different vibration, higher an
 was a smaller pump. It could move enough coolant to keep the reactor lit at full output for a while. After 
 that the temperature would cross the shutdown threshold and the reactor would kill itself.
 
-"Pump's gone..." Caio said.
+"Pump's gone.." Caio said.
 "Within tolerance" Kolawole said, from somewhere that wasn't funny.
 
 The engine was still burning. Padre was still fighting but the battlecruiser's comms had gone dark and the synth was 
@@ -229,7 +229,7 @@ Would that have killed them all?
 Kolawole told him the Vitória had lost four crew. Marine bay. A kinetic round through the crash couches.
 "Luz was right" Kolawole said. Neither of them laughed.
 "Still think it's about tariffs?" Caio said.
-Kolawole looked at the bulkhead for a while. "Probably is, though."
+Kolawole looked at the bulkhead for a while. "Probably is, though"
 Caio ate a ration and realized halfway through he hadn't checked the seal. He looked at the food and kept eating.
 
 On the ride back to Phobos he ran post-combat checks, one system at a time, in order. The backup coolant pump was 
@@ -355,6 +355,216 @@ hum of the cabinets, and the next file, and the one after that, and Milo on Tues
 and the work of keeping twelve hundred and sixteen people alive who no longer needed to arrive anywhere, who were - 
 and she had known this for a long time, she supposed - just travelling.
 
-She opened the next file. Outside, the children passed.`
-    },
+She opened the next file. Outside, the children passed.`},
+    {
+        name: "Soto",
+        content: `Renato had been cooking since two. Not because the broth required it but because the bumbu had to be 
+ground by hand in the cobek if you wanted the turmeric to release properly, and you had to crush the candlenuts into the 
+paste without overworking them. The cobek was volcanic stone, black and pitted, heavier than anything else in the 
+kitchen. Sari's mother had brought it up from Surabaya during the Wave. Half of what made the colony feel like anything 
+at all had arrived mislabelled in someone's cargo manifest during those years. The cobek had a crack along the rim that 
+had been there when he met Sari, and she had told him her mother cracked it grinding candlenut for a wedding and her 
+mother had told her it came that way from the market. He suspected neither story was true.
+
+He crushed the shallots first, then the garlic, then worked in the turmeric root and ginger and a handful of candlenuts, 
+leaning into the pestle until the paste was rough and yellow and fragrant. He grew the turmeric in plot nine of the 
+greenhouse allotment, under strip lights meant to mimic equatorial sun but which gave the leaves a blue-green tint that 
+made them look slightly poisoned. The lemongrass and galangal he bruised with the flat of the knife and set aside for 
+the broth, along with the daun salam leaves, which were not bay leaves no matter what the fabricator's herb library said 
+but a different plant entirely, a myrtle. His plot, nine, was one of the last occupied plots in the allotment. The 
+neighbours had left one by one, first the Nguyens, then Hartono, then the young couple whose names he'd forgotten. All 
+long gone down the well to where the jobs and entertainment and connected life were, and now most of the allotment was 
+dark strips under working lights, dry irrigation lines across empty beds.
+
+Through the kitchen screen the haze over Hellas basin gave the light the colour Sari had called Javanese afternoon. The 
+old Bioforge substrate halls were visible on the eastern rim. He had been a template engineer in the remaining operation 
+for eleven years, designing the protein architectures that fabricators assembled into food and industrial cultures on an 
+increasingly skeleton crew doing the work that used to employ hundreds. He had redesigned the cultured chicken template 
+because the texture was wrong - too uniform, a fibre density problem in the myosin folding - and the fix had gone into 
+every lot since. He could taste his own improvement in every piece of cultured chicken on Mars. Nobody else could. He 
+had stopped finding this funny around the time they closed the line for good.
+
+He checked the chicken's provenance seal. Bioforge lot 2207. Chain resolved. He set the oil heating and sat at the 
+counter and let himself go still the way he did every evening before Ayu came close. Through the MemAmp mesh he pressed 
+what was inside him down until what he broadcast into the commons was as flat and neutral as he could hold it. He held 
+it there. It took effort, the same effort every day. Through the commons he felt Ayu in her room. The mesh carried 
+textures, not thoughts, a song through a wall without the words. She was calm. A quiet, even hum. He thought about what 
+she felt from him. The flat signal. The managed nothing. A child learns the difference between a person and a person 
+holding themselves still before she learns the word for it, and his daughter had been learning it for sixteen years. 
+He went back to the stove.
+
+She came out at five wearing the batik blouse. Sari's - dark blue, cream pattern, real cotton and indigo, printed by 
+Sari's aunt in Pekalongan. The blouse had been made for a shorter woman and Ayu wore it differently, the sleeves sitting 
+higher on her forearms, the neckline showing the long line of her collarbone and the hollow at the base of her throat. 
+She'd done something to her hair. Under her eyes a faint greyness she had carefully concealed.
+
+"You look nice" he said.
+"Is it too much?"
+"For a boy? Yes. For a thirty-one-year-old man? Probably right"
+She gave him a look that was Sari's look, the one that said she had heard him and was choosing not to respond.
+"What time?"
+"Five-thirty. And his name is Erik, and he works water reclamation, and he's from Section Fourteen, and you already know 
+all of this, Bapak, because I've told you three times"
+"I'm old. I forget"
+"You're forty-seven. You don't forget anything. You just like making people repeat themselves"
+This was true. He set out three bowls.
+
+At twenty past five the door chimed. Through the commons he felt a spike from her — bright, fast, and then immediately 
+smoothed into something composed. His daughter had apparently learned to manage her broadcast the way he managed his, 
+and the feeling this gave him was not pride.
+
+Erik Lindqvist was tall and lean and looked like a man whose face had finished arriving at wherever it was going. He had 
+large, careful hands with a faint yellowish discolouration along the fingertips and into the webbing between thumb and 
+forefinger. He was carrying a paper bag.
+
+"Mr. Genovese. Thank you for having me" He held out the bag. "Britt made kue lapis. She wanted to come but the kids had 
+a thing"
+Renato took the bag. Britt. One of the line marriage partners. The kue lapis was still warm through the paper, and when 
+he opened it the smell was pandan and butter and the kind of patience that meant someone had poured and grilled each 
+layer individually, waiting for one to set before pouring the next, for two or three hours, in a kitchen in Section 
+Fourteen, for a man she had never met, because her partner's girl's father was worth an afternoon in the kitchen. That 
+was information.
+
+"Come in"
+Erik came in and saw the kitchen and looked at the cobek on the counter the way people looked at it, which was with 
+faint confusion because it was a lump of volcanic rock in a kitchen that had a fabricator.
+"My wife's" Renato said. "She used to make this"
+"Soto?"
+"Everything. But this was the one"
+Erik nodded. He looked at the broth on the stove, the garnish bowls, the sliced shallots, and his face became careful. 
+They sat. The soto was ready and Renato ladled it and the smell filled the apartment the way it always did, lemongrass 
+and turmeric and the daun jeruk leaves he couldn't grow and had to buy dried from the Beqaa shipments, the smell that 
+settled into the ceiling tiles and stayed for days, the smell Ayu could name from the corridor. She breathed in when he 
+set the bowl in front of her. She always did. For her it was still the whole thing, the entire apartment in one breath.
+
+Erik ate. He ate without performance, and after the first taste he looked up.
+"This is very good"
+"You seem surprised"
+"I've had colony soto. This is not colony soto"
+"Have you had it on Earth?"
+"No"
+"Then you don't know what it's supposed to taste like"
+"Bapak" Ayu said.
+"I'm being hospitable"
+
+Erik laughed, unguarded, and Renato watched his daughter hear it and saw the particular softening that happened in her 
+face when Erik's attention was elsewhere, the version of her that surfaced when she thought no one was looking, and he 
+understood that whatever he decided tonight was already irrelevant. This was done. She was in it.
+
+They talked about the turmeric. Erik asked about the light spectrum and Renato explained the far-red supplement he'd 
+rigged from a salvaged seedling unit, and Erik asked whether the photoperiod mattered or just the ratio, which was the 
+right question, the question only someone who had tried to grow something in the wrong conditions would ask.
+
+"You grow things?"
+"Britt does. Herbs, mostly. The light in Section Fourteen is worse than yours - we're lower in the basin and the 
+atmospheric scatter eats the blue. She's been trying to get basil to set seed for two years"
+"Tell her to drop the night temperature by four degrees in the last week before flowering. Basil needs the stress"
+
+Erik signed this to his IA, and the gesture - a man writing down advice about basil from his girlfriend's father at the 
+dinner table - was so plainly sincere that Renato felt something shift in his chest.
+"Do the other growers know about the far-red trick?"
+"There are no other growers. My section is just me now"
+Erik looked at him. He didn't fill the silence. He sat with it the way you sit with someone who has said something that 
+doesn't need a response. Renato liked him for it.
+
+"Tell me about the water reclamation" Renato said.
+"Mostly pumps. We're running a system built for twelve thousand on under four, so the flow dynamics are wrong for the 
+pipe diameters. You get standing water in the oversized mains, biofilm buildup, pressure differentials the control 
+software doesn't flag because it's looking for twelve-thousand-person failure modes, not four-thousand-person ones" 
+He put his hand flat on the table. 
+"I put my hand on a pipe and I can feel a problem six hours before the readings move. The harmonics change"
+
+Renato looked at the hand on the table. The discoloured fingertips resting on the surface. He knew the feeling Erik was 
+describing because he had it too. A different version of it, applied to different substrates, in a room Erik would never 
+see. Ayu was watching Erik's hand on the table.
+
+"You two are the same person" she said. "You know that, right? Put your hand on the thing, feel the thing, ignore what 
+the computer says"
+"The computer is usually right" Renato said.
+"Ninety percent of the time" Erik said. "The other ten percent it kills you"
+They looked at each other and there was a moment of mutual recognition, brief, warm, and underneath it something that 
+only Renato could feel, which was the weight of what the recognition would cost if Erik knew what chemicals Renato's 
+hands had calibrated.
+
+"Your community" Renato said. "Sixty people. How do you manage supply? Medical, fabrication, the things Bioforge handles 
+for the rest of us"
+"We do most of it locally. Britt runs the clinic - she trained at Hellas General before she left. For what we can't 
+source here we have… contacts. Kasei, mostly. Good people. They understand independence"
+
+He said it the way you say the name of a place that is just a place. Renato heard it the way you hear someone play a 
+note slightly flat and pretend they meant to. Kasei Valles. The Freeholders. Biohacking, grey-market supply chains, the 
+things that grew in the spaces where no one was watching, and more and more on Mars no one was watching. His sentence 
+had the particular smoothness of something that had been said before, to other people, in other kitchens.
+
+Renato didn't press. Pressing would mean demonstrating that he knew what a pre-built sentence sounded like.
+
+"No MemAmps in the community?" he said instead.
+"No mesh, no commons. Just people"
+Ayu looked at her father. He felt it through the commons - her attention turning toward him, a flicker of something 
+pointed. She said nothing. She didn't need to. They both knew what she was thinking. That the commons had given her 
+sixteen years of feeling something wrong in her father and no way to ask what it was. That a life without the mesh was a 
+life where you had to look at someone and ask them how they were, and they had to answer you with their face, and the 
+answer might be a lie but at least it would be a lie shaped like words and not like a flat, dead, managed frequency.
+
+Erik checked the time. "I should get back by nine. There's a meeting"
+"On a weeknight?"
+"We're a small community. There's always a meeting" He smiled. It was an easy smile and it didn't quite answer the 
+question.
+
+"Before you go" Erik said. He set his hands on the table. "I want to ask you something directly, because I think you'd 
+prefer that. We'd like Ayu to come and live with us in Section Fourteen"
+The apartment was quiet. The air cycler ticked. Through the commons Renato felt his daughter's brightness - enormous, 
+held very still, pointed at him. He looked at Ayu. Her hands were on the table. The left hand had the faintest tremor, 
+so small that you wouldn't see it unless you'd spent five years watching for it. Erik wasn't watching for it.
+
+"You're sixteen" Renato said.
+"Seventeen in March"
+"You're sixteen"
+"It's not just Erik, Bapak. It's Britt, Tomás, the children. It's a family. When someone is sick there are more people 
+to -"
+"I understand what it is"
+He went to the stove. He turned off the heat. The broth had gone too long.
+"The myelination treatments" he said, with his back to the table. "They're quarterly. The dosing is specific to each 
+batch. The concentration varies and has to be assayed before I draw the dose. If the assay is off by two percent in 
+either direction it's seizures or nothing"
+"Britt is qualified. She can -"
+"Britt has never seen what an unassayed batch does"
+
+Silence. He heard himself. He heard how that sentence sounded - like a man who had seen it, who knew from direct 
+observation what happened when the dosing was wrong, and the question that followed from that was where he had observed 
+it and under what circumstances, and he could feel the question forming in the room even though no one asked it.
+"The supplier is specialised" he said. "The supply chain is not something I can transfer"
+"Bapak" Ayu said. "I'll come back. Every quarter. It's twenty minutes on the crawler"
+
+Through the commons he felt her - the brightness flickering with something that wasn't quite distress. She had felt the 
+heat of whatever had risen in him and been pushed down. She'd felt it before. She was letting it go the way she always 
+let it go, the way she'd learned to let it go, because the alternative was to keep pulling at it and feel her father 
+clench tighter and broadcast less until the commons between them was just dead air, and she was tired of dead air, and 
+this was why she was leaving.
+
+"Fine" he said.
+He sat down. He served the kue lapis. It was good. The layers were even and each one was a slightly different shade of 
+green, darker at the base, lighter at the top.
+"Tell Britt this is good" he said.
+"I will"
+
+At seven Erik said he had to go. Ayu walked him to the door. Through the commons Renato felt his daughter's brightness 
+in the corridor and Erik's warmth beside it, the two of them together.
+The door closed. Ayu came back.
+"He's good, Bapak"
+"He's good"
+"Did you like him?"
+"I liked the kue lapis"
+"Bapak"
+"Tell Britt she can teach me the kue lapis and I'll teach her the basil and we'll both pretend this is a fair exchange"
+
+She smiled. It was a real smile and it landed fully on him, the way her smiles used to, and for a moment he was not 
+managing anything.
+"I love you" she said.
+"Aku juga sayang kamu"
+She went to her room. In the commons her brightness drew inward and became quiet.
+
+Renato cleared the bowls. He ladled a bowl of soto and ate alone. The lemongrass had gone bitter. He ate it anyway. He 
+washed the cobek and dried it and set it on the counter where it had always been, and turned off the light.
+`},
 ];
