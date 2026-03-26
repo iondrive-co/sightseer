@@ -386,7 +386,7 @@ had stopped finding this funny around the time they closed the line for good.
 
 He checked the chicken's provenance seal. Bioforge lot 2207. Chain resolved. He set the oil heating and sat at the 
 counter and let himself go still the way he did every evening before Ayu came close. Through the MemAmp mesh he pressed 
-what was inside him down until what he broadcast into the commons was as flat and neutral as he could hold it. He held 
+the rage and despair down until what he broadcast into the commons was as flat and neutral as he could hold it. He held 
 it there. It took effort, the same effort every day. Through the commons he felt Ayu in her room. The mesh carried 
 textures, not thoughts, a song through a wall without the words. She was calm. A quiet, even hum. He thought about what 
 she felt from him. The flat signal. The managed nothing. A child learns the difference between a person and a person 
@@ -526,14 +526,14 @@ to -"
 He went to the stove. He turned off the heat. The broth had gone too long.
 "The myelination treatments" he said, with his back to the table. "They're quarterly. The dosing is specific to each 
 batch. The concentration varies and has to be assayed before I draw the dose. If the assay is off by two percent in 
-either direction it's seizures or nothing"
+either direction it's seizures or lifelong nerve damage"
 "Britt is qualified. She can -"
-"Britt has never seen what an unassayed batch does"
+"Britt has never seen what an unassayed batch does to a human"
 
 Silence. He heard himself. He heard how that sentence sounded - like a man who had seen it, who knew from direct 
 observation what happened when the dosing was wrong, and the question that followed from that was where he had observed 
 it and under what circumstances, and he could feel the question forming in the room even though no one asked it.
-"The supplier is specialised" he said. "The supply chain is not something I can transfer"
+"My supplier is specialised" he said. "The supply chain is not something I can transfer"
 "Bapak" Ayu said. "I'll come back. Every quarter. It's twenty minutes on the crawler"
 
 Through the commons he felt her - the brightness flickering with something that wasn't quite distress. She had felt the 
@@ -565,6 +565,109 @@ managing anything.
 She went to her room. In the commons her brightness drew inward and became quiet.
 
 Renato cleared the bowls. He ladled a bowl of soto and ate alone. The lemongrass had gone bitter. He ate it anyway. He 
-washed the cobek and dried it and set it on the counter where it had always been, and turned off the light.
+washed the cobek and dried it and set it on the counter where it had always been, and turned off the light.`},
+    {
+        name: "Outlier - Part 1",
+        content: `Nim sat on the gantry with her feet over the edge and her father's face on the water below.
+
+Not him. The Siam Pacific logo on the harbour crane, which used his jawline because someone in the 90s had decided his 
+jawline was a brand. The crane hadn't moved cargo in forty years. The logo was barnacles and salt crust and the faint 
+green glow of the dinoflagellate bloom she'd seeded last monsoon, eating its way up the steel. Her organisms eating her 
+father's face. She should tell her therapist.
+
+"Gate code changes at eight" Krit said. He was on his back with a mango balanced on his stomach, peeling it with a dive 
+knife. Juice ran down the blade and along his knuckles.
+"We know"
+"I'm reminding you because you're staring at the water"
+"I'm looking at the algae"
+"The algae are fine. The algae are thriving. The algae are the most successful thing you've ever done"
+"Second most. I once made a cabinet minister cry"
+
+Jess came up the ladder with a dry bag and a face like a cancelled flight.
+"The boat" she said to Nim, "has a crack in the port sponson that I fixed with bathroom sealant. Your motor mounts are 
+rooted. And someone - someone who is not me - ran salt water through the desal intake without the pre-filter, so the 
+membranes are cooked"
+"Dao did the desal"
+"I know Dao did the desal. The instructions were right there"
+
+Dao was sitting cross-legged at the far end of the gantry, watching this with the stillness of someone whose emotional 
+regulation was turned up high enough that she could watch a person describe a plan to murder her and feel mainly curious.
+"The instructions are in Australian" Dao said.
+"English. It's called English"
+"Then why does it say 'simmer down in the arvo'?"
+"It says connect during low-demand periods!!"
+Dao tilted her head. "Jess. Have you considered -"
+"Don't"
+"- that the serotonin module would help with -"
+"Dao, I will throw you off this gantry"
+"You are proving my point"
+
+"I don't want to be calm. Calm is what's wrong with everybody. You're all sitting around with your feelings turned down 
+to four while the boat is sinking and the motor mounts are held on with hope and the desalinator is dead because nobody 
+could read the manual because apparently English has become a foreign language in the hundreds of years since my country 
+invented the desalinator"
+"Australia did not invent the desalinator" Nim said.
+"We perfected it. And then Dao killed it"
+
+Krit bit his mango. He didn't say anything. Nim felt a grin pulling at her and adjusted her regulation up a notch, 
+reflexively, because grinning right now would make Jess worse. Then she felt stupid for using a neural implant to manage 
+a smile and dropped it back to where it was and grinned.
+
+"So. We're taking Jess's boat" she said.
+"On my boat" Jess said. "Not your boat. Because your boats have transponders registered to your company and Constellis 
+logs every hull within two klicks of their sites. My boat is a thing I fished out of Thonburi. It doesn't exist"
+"Your boat is sinking"
+"Your boat has a paper trail"
+
+Dao had gone still again. Eyes open, unfocused - offloading through a MemAmp. After a few seconds she came back.
+"Sorry. Work"
+"We are planning a crime, Dao"
+"I'm doing both. Last month I did a capacity review during a root canal. The dentist was also doing one. We were both on 
+Akrasinil. Everyone is always on Akrasinil. You can do two things at once so your employer gives you three"
+Jess looked at her. "This is the kind of system we're breaking into?"
+"The irony is not lost on me, Jess. The irony is just not a reason to get fired"
+
+Below them the Chao Phraya spread south into the drowned city. The tops of the old shophouses along Charoen Krung broke 
+the surface in a ragged line, roof tiles and satellite dishes and the occasional spirit house still on its pillar above 
+the waterline, pointed gable keeping watch over nothing. Nim's grandmother had lived on Charoen Krung. Nim knew this the 
+way she knew most things about her family: from a file.
+
+"It's forty minutes" Nim said. "Jess stays with the boat, up the east stairwell, Dao handles the locks, we -"
+"And if it goes wrong?" Dao interrupted.
+"Then I find out what my lawyers are wor-"
+From below: "นิม! นิมิตร!"
+P'Lek. Nim closed her eyes.
+
+P'Lek was standing at the base of the gantry with a thermos in one hand and the other on her hip and her head tilted 
+back at an angle that contained a complete theology of disapproval. She called everyone under fifty ลูก and she charged 
+Nim double because Nim could afford it and she insisted because P'Lek had decided years ago that Nim was too thin, which 
+in P'Lek's worldview was a moral failing roughly equivalent to theft.
+"ลงมาเดี๋ยวนี้เลย" P'Lek said. Come down here right now.
+"P'Lek, we're in the middle of -"
+"กินก่อน" Eat first.
+"We'll eat later"
+"ดูตัวเองสิ ผอมเหมือนเสาไฟฟ้า" Look at yourself. Thin like a lamp post.
+Dao leaned over the railing. "How much?"
+
+P'Lek looked at Nim. Then at Dao. Then back at Nim. "สำหรับเธอ สองเท่า" she said. For you, double. She pointed at Dao, Krit, 
+Jess. "ราคาปกติ ราคาปกติ ราคาปกติ" Normal price. Normal price. Normal price.
+"P'Lek, I'm not paying double for tom yum"
+P'Lek set the thermos on the dock cleat. She put four cups next to it. She was in no hurry. She had been running her 
+stall at the harbour gate since before the water took Charoen Krung and she would be running it after whatever these 
+children were doing tonight was done and forgotten.
+"กินให้หมด" she said. Finish it all. She turned back toward the gate. Then she stopped. "นิม. ระวังตัวด้วยนะลูก" Be careful. 
+She went back to her stall. Krit tossed his mango pit off the gantry. It hit the water and the bloom pulsed green around 
+the impact, a ring of light expanding outward.
+
+Two months ago Nim had asked Krit what she should do and he'd said: stop asking me. He'd said: the problem isn't that 
+you won't help. The problem is that helping requires you. Every time something needs fixing someone has to find a rich 
+person who cares today. You're the best version of a bad system.
+
+The sun was down. The city came on in pieces - new platforms bright, old towers dark in the water, and between them the 
+blue-green threads of the bloom following the current south. Dao retrieved the tom yum. It was famous for being the 
+closest thing to pain you could eat on purpose. Nim drank hers and it burned all the way down. 
+
+They went down the ladder and Jess started the engine. From the harbour gate she heard P'Lek calling someone ลูก and 
+laughing.
 `},
 ];
