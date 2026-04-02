@@ -575,20 +575,20 @@ jawline was a brand. The crane hadn't moved cargo in forty years. The logo was b
 green glow of the dinoflagellate bloom she'd seeded last monsoon, eating its way up the steel. Her organisms eating her 
 father's face. She should tell her therapist.
 
-"Gate code changes at eight" Krit said. He was on his back with a mango balanced on his stomach, peeling it with a dive 
+"Gate code flips at eight" Krit said. He was on his back with a mango balanced on his stomach, peeling it with a dive 
 knife. Juice ran down the blade and along his knuckles.
 "We know"
-"I'm reminding you because you're staring at the water"
-"I'm looking at the algae"
-"The algae are fine. The algae are thriving. The algae are the most successful thing you've ever done"
+"Reminding you. You're watching the water"
+"I'm reading the bloom si"
+"Bloom's fine. Bloom's thriving. Algae is the most successful thing you've done.""
 "Second most. I once made a cabinet minister cry"
 
 Jess came up the ladder with a dry bag and a face like a cancelled flight.
-"The boat" she said to Nim, "has a crack in the port sponson that I fixed with bathroom sealant. Your motor mounts are 
-rooted. And someone - someone who is not me - ran salt water through the desal intake without the pre-filter, so the 
+"The boat" she said to Nim, "has a crack in the port sponson that I fixed with sealy. Motor mounts are 
+rooted. And someone - someone who is not me - ran salt through the desal intake with no pre-filter, so the 
 membranes are cooked"
 "Dao did the desal"
-"I know Dao did the desal. The instructions were right there"
+"I know Dao did the desal. The instructions were right there on the housing"
 
 Dao was sitting cross-legged at the far end of the gantry, watching this with the stillness of someone whose emotional 
 regulation was turned up high enough that she could watch a person describe a plan to murder her and feel mainly curious.
@@ -596,31 +596,31 @@ regulation was turned up high enough that she could watch a person describe a pl
 "English. It's called English"
 "Then why does it say 'simmer down in the arvo'?"
 "It says connect during low-demand periods!!"
+
 Dao tilted her head. "Jess. Have you considered -"
 "Don't"
 "- that the serotonin module would help with -"
-"Dao, I will throw you off this gantry"
-"You are proving my point"
+"Nóng, I will put you in the water"
+"You are illustrating my point with some precision"
 
-"I don't want to be calm. Calm is what's wrong with everybody. You're all sitting around with your feelings turned down 
-to four while the boat is sinking and the motor mounts are held on with hope and the desalinator is dead because nobody 
-could read the manual because apparently English has become a foreign language in the hundreds of years since my country 
-invented the desalinator"
-"Australia did not invent the desalinator" Nim said.
+"I don't want to be calm. You're all sitting around with your feelings turned down to four while the boat is sinking 
+and the motor mounts are held on with hope and the desal is dead because nobody can read a common sense manual 
+which is something that seems to have gone extinct in the hundreds of years since my country invented the desalinator"
+"Australia did not invent the desal na" Nim said.
 "We perfected it. And then Dao killed it"
 
 Krit bit his mango. He didn't say anything. Nim felt a grin pulling at her and adjusted her regulation up a notch, 
 reflexively, because grinning right now would make Jess worse. Then she felt stupid for using a neural implant to manage 
 a smile and dropped it back to where it was and grinned.
 
-"So. We're taking Jess's boat" she said.
+"Ngán. We're taking Jess's boat" she said.
 "On my boat" Jess said. "Not your boat. Because your boats have transponders registered to your company and Constellis 
 logs every hull within two klicks of their sites. My boat is a thing I fished out of Thonburi. It doesn't exist"
-"Your boat is sinking"
-"Your boat has a paper trail"
+"The ship of Theseus with every plank replaced worse"
+"I haven't replaced anything. That's the problem. But your boat has a trail, Nim, so here we are"
 
 Dao had gone still again. Eyes open, unfocused - offloading through a MemAmp. After a few seconds she came back.
-"Sorry. Work"
+"Sorry. Work. Mise à jour"
 "We are planning a crime, Dao"
 "I'm doing both. Last month I did a capacity review during a root canal. The dentist was also doing one. We were both on 
 Akrasinil. Everyone is always on Akrasinil. You can do two things at once so your employer gives you three"
@@ -632,12 +632,12 @@ the surface in a ragged line, roof tiles and satellite dishes and the occasional
 the waterline, pointed gable keeping watch over nothing. Nim's grandmother had lived on Charoen Krung. Nim knew this the 
 way she knew most things about her family: from a file.
 
-"It's forty minutes" Nim said. "Jess stays with the boat, up the east stairwell, Dao handles the locks, we -"
+"It's forty minutes" Nim said. "Jess holds the boat, east stairwell up, Dao takes the locks, we -"
 "And if it goes wrong?" Dao interrupted.
 "Then I find out what my lawyers are wor-"
+
 From below: "นิม! นิมิตร!"
 P'Lek. Nim closed her eyes.
-
 P'Lek was standing at the base of the gantry with a thermos in one hand and the other on her hip and her head tilted 
 back at an angle that contained a complete theology of disapproval. She called everyone under fifty ลูก and she charged 
 Nim double because Nim could afford it and she insisted because P'Lek had decided years ago that Nim was too thin, which 
@@ -652,35 +652,54 @@ Dao leaned over the railing. "How much?"
 P'Lek looked at Nim. Then at Dao. Then back at Nim. "สำหรับเธอ สองเท่า" she said. For you, double. She pointed at Dao, Krit, 
 Jess. "ราคาปกติ ราคาปกติ ราคาปกติ" Normal price. Normal price. Normal price.
 "P'Lek, I'm not paying double for tom yum"
+
 P'Lek set the thermos on the dock cleat. She put four cups next to it. She was in no hurry. She had been running her 
 stall at the harbour gate since before the water took Charoen Krung and she would be running it after whatever these 
 children were doing tonight was done and forgotten.
 "กินให้หมด" she said. Finish it all. She turned back toward the gate. Then she stopped. "นิม. ระวังตัวด้วยนะลูก" Be careful. 
 She went back to her stall. Krit tossed his mango pit off the gantry. It hit the water and the bloom pulsed green around 
-the impact, a ring of light expanding outward.
+the impact, a ring of light expanding outward, and Krit started the climb down to retrieve the thermos.
 
-Two months ago Nim had asked Krit what she should do and he'd said: stop asking me. He'd said: the problem isn't that 
-you won't help. The problem is that helping requires you. Every time something needs fixing someone has to find a rich 
-person who cares today. You're the best version of a bad system.
+The sun was at the angle where it came in under the freight cranes and hit the gantry full on, the last ten minutes of warmth 
+before the wet heat of the evening. Dao had pulled her sports jacket off and was sitting with her back to the light, eyes 
+half-closed, and in the low gold her sak yant was visible through her thin top — the nine-peaked gao yord at the base of her 
+skull, the paed tidt across her upper back, the five parallel lines of the hah taew running down between her shoulder blades. 
 
-The sun was down. The city came on in pieces - new platforms bright, old towers dark in the water, and between them the 
-blue-green threads of the bloom following the current south. Dao retrieved the tom yum. It was famous for being the 
-closest thing to pain you could eat on purpose. Nim drank hers and it burned all the way down. 
+"How did you get it?" Jess asked Dao, quietly.
+Dao's eyes refocused. She blinked at Jess as if translating the question from a language she'd half forgotten.
+"An ajarn in Nakhon Pathom. Two days" Dao touched the back of her neck, where the gao yord sat under the skin. 
+"The first day is preparation. Meditation. He has to see your neurochemistry settle - not regulated, not Akrasinil. 
+Settled the old way, by being nobody. Anatta. If you can't do that, the polymer maps to the management layer, not to 
+you. The second day he calibrates the interface points and mixes the smart polymer in a suspension, each batch specific 
+to the person. He chants khatha while he works. If the polymer cures while your neurons are firing in the wrong pattern, 
+it locks to that pattern. Permanently"
+"And if it's wrong?"
+"Seizures. Or worse"
+"And when it's right?" Jess said. "What do you see?"
+"Everything" she said. "And then you come back"
 
-They went down the ladder and Jess started the engine. From the harbour gate she heard P'Lek calling someone ลูก and 
-laughing.`},
+The sun moved behind the crane arm and the light on Dao's back went out and the sak yant disappeared under her skin again.
+Krit was climbing back up the gantry. Two months ago Nim had asked him what she should do and he'd said: stop asking me. 
+He'd said: the problem isn't that you won't help. The problem is that helping requires you. Every time something needs 
+fixing someone has to find a rich person who cares that day. You're the best version of a bad system.
+
+The sun dipped under the horizon. The city came on in pieces - new platforms bright, old towers dark in the water, and 
+between them the blue-green threads of the bloom following the current south. Krit distributed P'Lek's tom yum, which some said
+was the closest thing to pain you could eat. Nim drank hers and it burned all the way down, and then she started the climb 
+down. The others came one by one until they were all in the boat and Jess started the engine. From the harbour gate she heard 
+P'Lek calling someone ลูก and laughing.`},
 { name: "Outlier - Part 2",
-        content: `Jess nursed the throttle and Nim sat at the bow. With nothing between her body and the water she felt 
+        content: `Jess nursed the drive and Nim sat at the bow. With nothing between her body and the water she felt 
 like she was the boat itself, gliding through the dark water. She thought of Dao and her sak yant tattoos, when she'd 
 initially thought they were a slower and more painful MemAmp and Dao had said no - the opposite. A subdermal smart 
 polymer tapped into her peripheral nervous system through the skin by hand rather than a lace installed at a Pharmatica 
-certified facility. Where a MemAmp amplifies your memory and focus and makes you more you, Dao had said the sak yant 
+certified facility. Where a MemAmp would amplify your memory and focus and makes you more you, Dao had said the sak yant 
 dissolves that boundary instead. When I read a mesh I don't receive the data, I am the data, and it's hard to be me 
 afterwards.
 
 The bloom followed them, responding to the hull's pressure wave with a spreading pulse of blue-green that lit the water 
 for ten metres on either side. Ahead the canal was dark and behind them the glow faded in their wake.
-"We're advertising" Jess said.
+"We're lit up like a shopfront" Jess said.
 "Everyone has bloom. It's everywhere"
 "Yours is brighter"
 "I engineered it to be brighter"
@@ -692,7 +711,7 @@ Krit was sitting midships with his back against the gunwale, the dive knife acro
 light and did something with it, a faint ripple across the surface, the nanotech substrate adjusting to the ambient light 
 the way a pupil contracts and reacting to his temperature and the salinity of his sweat as his breathing slowed.
 "Bonding?" Jess said, nodding at the knife.
-"Guiding the programmable substrate"
+"Guiding the substrate"
 "I've seen combat blades. They don't do that" She meant the ripple, the way the surface seemed to orient toward Krit's hand.
 "This one's old"
 "How old?"
@@ -743,7 +762,7 @@ hands went to the gunwale and gripped it, and she looked at the water and the bu
 eyes as she watched the bloom-light playing across the surface, and they moved too slowly, tracking nothing, as if the surface 
 were still showing her something underneath.
 
-"Dao" Nim said. "I need the deets"
+"Dao" Nim said. "I need the deets. Raai-ngaan."
 
 "They've changed the sensor layer" she said. Her voice was flat and careful. "New motes, high density, calibrated for surface 
 and near-surface. Two hundred metres out from the site, full coverage"
@@ -763,15 +782,15 @@ It was the first word he'd volunteered in twenty minutes. He was looking north, 
 was on the knife and the substrate had gone still as if the knife were listening to him the way a dog goes still when its 
 owner tenses.
 
-"I've been through the north approach. I know the walls. I know the floors. If we go deep enough the halocline covers us"
+"I've done the north approach. I know the walls. The floors. Deep enough, the halocline covers us"
 "Eight months ago, Krit"
 "The walls don't move in eight months"
 "The silt does. The current shifted after monsoon. Passages that were clear in dry season could be half-blocked now. I can 
 see the density gradient from here - the particulate load in the northern approach is high enough to reduce visibility to 
 less than a metre"
-"I don't navigate by visibility"
-"You navigate by memory. Memory of rooms eight months ago"
-"Rooms I touched. Walls I put my hands on. I know where the structural members are because I've felt them"
+"Don't use my eyes"
+"You navigate by memory. Stale memory"
+"Rooms I touched. Walls I put hands on. Felt where the structurals are"
 
 Dao said nothing. She didn't argue the way most other people argued. She waited, which was worse.
 "Nim" Dao said.
@@ -780,7 +799,7 @@ flooded floors with a sonar mapper and his hands on the walls, learning the spac
 substrate on the knife read the mineral content of the concrete, by counting doorways with his fingers in the dark. That 
 knowledge was in his body. Dao's knowledge was in a mesh she'd dissolved into for two minutes and come back from looking 
 like she'd lost something.
-"Let me think about it while I get the gear sorted" Nim said. She subvocalised a command to her IA.
+"Khâo jai. Let me sort the gear and think about it." Nim said. She subvocalised a command to her IA.
 
 They drifted slowly south. The spirit houses receded behind them. The city noise dropped away and it was just the water 
 and the bloom and the four of them. Jess was checking her dry bag, running her hands over the seals. While she worked 
@@ -796,28 +815,14 @@ neck - polymer, faded, the kind of thing a child might make in a school fabricat
 the dry bag seals and thought that everyone else on this boat had something between themselves and the world and Jess 
 had only bathroom sealant and steady hands and no choice but to feel everything at exactly the speed it arrived. 
 
-"How did you get it?" Jess asked Dao, quietly. She meant the sak yant.
-Dao's eyes refocused. Coming back was slow this time. She blinked at Jess as if translating the question from a 
-language she'd half forgotten.
-"An ajarn in Nakhon Pathom. Two days" Dao touched the back of her neck, where the gao yord sat under the skin. 
-"The first day is preparation. Meditation. He has to see your neurochemistry settle - not regulated, not Akrasinil. 
-Settled the old way, by being nobody. Anatta. If you can't do that, the polymer maps to the management layer, not to 
-you. The second day he calibrates the interface points and mixes the smart polymer in a suspension, each batch specific 
-to the person. He chants khatha while he works. If the polymer cures while your neurons are firing in the wrong pattern, 
-it locks to that pattern. Permanently"
-"And if it's wrong?"
-"Seizures. Or worse"
-"And when it's right?" Jess said. "What do you hear?"
-"Everything" she said. "And then you come back to this"
-
 A small unmanned skiff with a NakhaTech maintenance tag broke through the moon's reflection on the surface of the water
-as it glided silently towards them and pulled up next to the boat. They unloaded four rebreathers, a handheld sonar mapper, 
+as it glided silently towards them and pulled up next to the boat. They unloaded the rebreathers, a handheld sonar mapper, 
 a set of dive torches, two line reels, and a dry bag of waterproof seals. Jess picked up a rebreather and turned it over. 
 She pulled the scrubber canister, checked the absorbent - still sealed and made recently - snapped it back in. Checked the 
-O2 cells on the handset, watched the millivolt readings settle. Checked the loop seals and the mouthpiece on the second unit. 
+O2 gauge, watched the millivolt readings settle. Checked the loop seals and the mouthpiece on the second unit. 
 Held up the third.
 
-"This one's got a full-face mask sized wrong. Too narrow through the cheeks"
+"Smart to use dumb tech like chemical scrubbers, but this one won't work. Sized wrong. Too narrow through the cheeks"
 "Can you make it work?"
 Jess was already in the dry bag. She found the waterproof seals, pulled one out, and started cutting it into strips with 
 her teeth and a pocket knife. She built up the seal where the mask gapped against her jaw, pressing each strip carefully, 
@@ -826,17 +831,19 @@ Pulled it off. Adjusted one strip. Sealed it again.
 
 Nim thought about how Krit had said that she was the best version of a bad system, and how he hadn't said what a good system 
 looked like. 
-"That's your life support" Nim said. "You want that held on with tape?"
+"That's our life support" Nim said. "You want that held on with tape?"
 "It's held on with someone who knows what she's doing"
 
 Nim handed out the remaining rebreathers. She checked Dao's seals and then Krit's. Krit checked hers without being asked. 
 His hands moved over the straps and valves quickly and thoroughly, the way hands move over equipment they've checked a 
-thousand times, and when he was done he held her eyes then nodded sadly.
+thousand times, and when he was done he held her eyes then nodded.
 
-"Department store" Nim said. "We take the current read"
+"North route, Krit leads, I'm the mapper" Nim said. "Dao, stay with the boat and push us updates where you can. Jess you 
+come with, take an extra bailout bottle. Keep the line back clear in case we hit a snag."
 
-Jess watched her as she spoke. Nim still hadn't touched her regulation because now she looked absolutely ropeable, and at 
-that moment Jess was ready to follow her anywhere.
+Nim still hadn't touched her regulation because Jess saw how pissed she looked as she spoke, although now her face had set 
+like concrete. Jess had just watched Nim being forced to break something important, and feeling like the worlds biggest idiot 
+she pushed down her excitement and nodded.
 
-"Ace" Jess said with a grin.`},
+"Legend" Jess said curtly, and got to work on the line.`},
 ];
