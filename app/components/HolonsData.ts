@@ -691,7 +691,7 @@ P'Lek calling someone ลูก and laughing.`},
         content: `Jess nursed the drive and Nim sat at the bow. With nothing between her body and the water she felt 
 like she was the boat itself, gliding through the dark water. She thought of Dao and her sak yant tattoos, when she'd 
 initially thought they were a slower and more painful MemAmp and Dao had said no - the opposite. A subdermal smart 
-polymer tapped into her peripheral nervous system through the skin by hand rather than a lace installed at a Pharmatica 
+polymer tapped into her nervous system through the skin by hand rather than a lace installed at a Pharmatica 
 certified facility. Where a MemAmp would amplify your memory and focus and makes you more you, Dao had said the sak yant 
 dissolves that boundary instead. When I read a mesh I don't receive the data, I am the data, and it's hard to be me 
 afterwards.
@@ -732,9 +732,9 @@ inside it the faint amber pulse of something still working, glowing from within 
 bloom's blue-green on the water around them.
 
 "Why do they hum?" Jess asked.
-"The san phra phum?" Dao had come back from wherever she went when she was still, and was watching the spirit houses with a 
-tenderness that surprised Jess. "When the water came up, the buildings' synths needed somewhere to sit. The spirit houses had 
-often been made the highest point by then"
+"The san phra phum?" Dao had come back from wherever she went when she was still, and she looked at the spirit houses with 
+tenderness. "When the water came up, the buildings' synths needed somewhere to sit. The spirit houses had often been made 
+the highest point by then"
 "So they're old servers"
 "Some of them. The lit ones are still running. Tidal microgenerators, mostly. Managing systems for buildings nobody lives in"
 
@@ -835,16 +835,109 @@ looked like.
 "That's our life support" Nim said. "Chemical airway burn. You want that held on with tape?"
 "It's held on with someone who knows what she's doing"
 
-Nim handed out the remaining rebreathers. She checked Dao's seals and then Krit's. Krit checked hers without being asked. 
+Nim handed out the remaining rebreathers. She checked Krit's seals and he checked hers without being asked. 
 His hands moved over the straps and valves quickly and thoroughly, the way hands move over equipment they've checked a 
 thousand times, and when he was done he held her eyes then nodded.
 
-"North route, Krit leads, I'm the mapper" Nim said. "Dao, stay with the boat and push us updates where you can. Jess you 
-come with, take an extra bailout bottle. Keep the line back clear in case we hit a snag."
+"North route, Krit leads, I'm the mapper" Nim said. "Dao, stay with the boat and push us updates where you can, we will tap
+you into the system when we get in. Jess you come with, take an extra bailout bottle. Keep the line back clear in case we hit 
+a snag."
 
 Nim still hadn't touched her regulation because Jess saw how pissed she looked as she spoke, although now her face had set like 
 concrete into neutral. Jess had just watched Nim being forced to break something important, and feeling like the worlds biggest 
 idiot she pushed down her excitement and nodded.
 
 "Legend" Jess said curtly, and got to work on the line.`},
+{ name: "Outlier - Part 3",
+content: `Jess found air because she had no choice. When the passage collapsed she was three metres back and the silt rolled over 
+her like a slow wave and she went up and sideways through a doorway she'd noted on the way in. She followed the wall with her left 
+hand and the ceiling with her right until the ceiling became a stairwell and the stairwell gave her a floor above where the water 
+ended at chest height, and above that air.
+
+She pulled the rebreather off in the darkness and breathed in the stale air. Her torch still worked. She swept it across the room 
+and found what had been a kitchen. The ceiling had the remnants of strip lighting and a fan with one blade. The water was at her 
+sternum, cold, and above it the air was stale but breathable - trapped here for years, refreshed just enough through cracks and 
+seepage to not kill her.
+
+She pulled the scrubber canister and looked at the absorbent through the inspection window. The colour had shifted. Damp but not yet 
+saturated. She still had a while before the water reached the active chemical layer.
+
+She heard it before she saw the light. Sonar ping, then torch glow through the stairwell water, and then Nim surfaced two metres away 
+gasping and pulling the rebreather from her face.
+
+"Jess" 
+"Nim" 
+"You're alive" 
+"Astute. How'd you find me?" 
+"Sonar. Followed the air pocket. Krit’s going ahead to find the way down." 
+
+Jess looked at her for a moment and Nim's face opened up and everything behind it was right there, all the fear and misery of being 
+responsible for someone you've just sent into a flooded building alone.
+
+"Your reg’s still off" Jess said. 
+
+"It was out of control and I-" 
+She stopped. She was looking at the room. 
+"I don't know what I feel about any of this, if any of it actually matters to me or if I just decided it should and then turned the 
+feelings down until the decision was the only thing left"
+
+The water lapped against the table. Somewhere below them the building groaned with a deep structural sound.
+
+"The fear" Nim said. "Right now. This is the most I've felt in months. I hate that."
+
+Jess pulled herself up onto the table. It held her weight. She reached down and offered Nim her hand and pulled her up and noticed how 
+good she looked in a wetsuit. They sat on the table with their legs in the water and Jess's torch between them pointing at the ceiling.
+
+"I had regulation" Jess said. Nim looked at her. "Trial. My sister was dying and someone at the hospice said it would help me be present 
+for her without - you know." She touched the pendant. Polymer, faded, child-made. "It helped. I was calm. I was present. I sat with her 
+and I held her hand and I was regulated and steady when she died. I took it out that week. Everything after that has been mine"
+
+The torch hummed. The water moved.
+"You must think we're all-" 
+"I think you're all coping. But sometimes the easy tool does the worst job"
+
+Nim was shivering. The regs would have handled that. Jess put her arm around her and Nim leaned into it and Jess felt her shaking.
+"Your grandmother" Jess said. "Must have had a kitchen like this"
+Nim didn't say anything for a while.
+"Your rebreather" Nim said. “I told you not to..”
+
+“We had no choice. I’ve got maybe thirty”
+
+Neither of them moved.
+"When this is over" Nim said. 
+"Yup" Jess said.
+
+They slid off the table. Jess checked the rebreather seal, pressing each strip with her fingertip the way she had on the boat. One strip 
+had curled at the edge. She pressed it back. It held for now.
+
+They found Krit at the facility's outer wall. He'd come through two floors of parking structure and was crouched against a concrete bulkhead 
+with his hand flat on the surface and the knife pressed point first into a seam in the concrete. The substrate was rippling fast, agitated, 
+orienting away from Krit toward something on the other side of the wall.
+He looked at Jess. Looked at her rebreather seal. Back at her eyes. He nodded once. You're here. Good enough.
+Nim put the sonar mapper against the wall and let it build an image of what was behind it. Her IA assembled it in her visual field - a large 
+open space, maybe a loading bay or mechanical room, and beyond it the regular geometry of corridors. And something else. The mapper was 
+returning a thermal signature that shouldn't be there. Warm water, process-warm. Something running.
+
+Krit pointed at a maintenance hatch in the bulkhead. The bolts were corroded but the frame was intact. He looked at Nim.
+Nim could feel her heartbeat in her teeth as she nodded. She planted the booster for Dao while Krit worked the hatch with his hands and the 
+knife, the substrate softening at the blade's edge to grip each bolt in turn. Three bolts. Four. The hatch shifted. Water pressure equalised 
+with a low moan through the gap. Krit pulled the hatch open.
+
+Beyond it the water was warmer and faintly luminescent but not bloom, not her organisms. An industrial bioluminescent giving light without 
+electrical signature. The corridor was intact and clean. As they swam in Dao's voice came through like something dragged over gravel. 
+"-im. Nim. I'm in. I can see-"
+"Dao. Where are you?"
+"Mesh. Deep. Deeper than-" A pause. When she came back her voice was different. Slower and the cadence wrong. 
+"The NIA security is a shell. Underneath it's-it's not shaped for human operators. The data routing is-it's recursive, self-modifying"
+
+Krit had stopped swimming. He was listening. The knife in his hand had gone completely still, no ripple, no adjustment.
+"There's something living in this mesh" Dao said. "It seems to be protecting itself"
+"From what?"
+"From us. From anyone with polymer interfaces. From anyone who could feel it in the mesh the way I-"
+
+Krit's hand closed on the knife. Nim looked at him and saw recognition.
+"Krit?" she asked “What does Freehab know about this?”
+"Not now" he said. And swam forward.
+"Dao?"
+But the channel was empty.`},
 ];
