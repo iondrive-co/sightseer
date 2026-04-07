@@ -25,4 +25,8 @@
 
 .holons-content p {
     @apply mb-2 text-sm md:text-base;
+    text-wrap: pretty;
+    white-space: normal;
+    overflow-wrap: normal;
+    word-break: normal;
 }
