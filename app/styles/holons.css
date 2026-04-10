@@ -1,22 +1,87 @@
 .holons-list {
-    @apply flex flex-col gap-2 p-4;
+    @apply flex flex-col gap-2 px-4 pb-4;
+}
+
+.holons-intro {
+    @apply px-4 pt-4 pb-3;
+}
+
+.holons-intro-copy {
+    @apply max-w-3xl text-sm text-gray-700 dark:text-gray-300;
+}
+
+.holons-intro-copy p {
+    @apply mb-3 leading-relaxed;
+}
+
+.holons-intro-copy p:last-child {
+    @apply mb-0;
+}
+
+.holons-intro-copy strong {
+    @apply font-semibold text-gray-900 dark:text-gray-100;
+}
+
+.holons-intro-copy a {
+    @apply text-blue-600 dark:text-blue-400 hover:underline;
+}
+
+.holons-legend-list {
+    @apply mt-4 list-none space-y-2 p-0;
+}
+
+.holons-legend-item {
+    @apply flex flex-wrap items-center gap-2 text-sm text-gray-700 dark:text-gray-300;
 }
 
 .holons-story {
     @apply border border-gray-300 dark:border-gray-700 rounded;
+    scroll-margin-top: 1rem;
 }
 
 .holons-story summary {
-    @apply p-3 cursor-pointer flex flex-col gap-1
+    @apply p-3 cursor-pointer flex items-start justify-between gap-3
     text-gray-900 dark:text-gray-100;
+}
+
+.holons-summary-main {
+    @apply flex min-w-0 flex-col gap-2;
 }
 
 .holons-story summary .holons-name {
     @apply font-bold;
 }
 
-.holons-story summary .holons-description {
-    @apply text-sm text-gray-600 dark:text-gray-400;
+.holons-tags {
+    @apply flex flex-wrap gap-2;
+}
+
+.holons-tag {
+    @apply inline-flex items-center justify-center rounded px-2 py-0.5 text-xs font-semibold border;
+}
+
+.holons-tag--Assistant {
+    @apply border-emerald-500 bg-emerald-500/10 text-emerald-700
+    dark:border-emerald-400 dark:bg-emerald-400/20 dark:text-emerald-200;
+}
+
+.holons-tag--LLM-only {
+    @apply border-blue-500 bg-blue-500/10 text-blue-700
+    dark:border-blue-400 dark:bg-blue-400/20 dark:text-blue-200;
+}
+
+.holons-tag--Majority {
+    @apply border-amber-500 bg-amber-500/10 text-amber-700
+    dark:border-amber-400 dark:bg-amber-400/20 dark:text-amber-200;
+}
+
+.holons-tag--One-shot {
+    @apply border-rose-500 bg-rose-500/10 text-rose-700
+    dark:border-rose-400 dark:bg-rose-400/20 dark:text-rose-200;
+}
+
+.holons-permalink {
+    @apply shrink-0 rounded px-1 py-0.5 text-sm font-semibold text-blue-600 dark:text-blue-400 hover:underline;
 }
 
 .holons-content {

@@ -1,11 +1,26 @@
+export const storyTagOrder = ["Assistant", "Majority", "LLM-only", "One-shot"] as const;
+
+export type StoryTag = (typeof storyTagOrder)[number];
+
+export const storyTagDescriptions: Record<StoryTag, string> = {
+    Assistant: "I figure out the scenes and write them, outsourcing plotting and research to the LLM when needed and letting the LLM write small sections when I get stuck",
+    Majority: "I make a prompt, LLM generates story, I edit heavily",
+    "LLM-only": "No human editing of text, my only involvement is in the prompt(s)",
+    "One-shot": "I don't ask the LLM to make corrections (there may be multiple predefined prompt stages though)",
+};
+
 export type Story = {
+    id: string;
     name: string;
+    tags: StoryTag[];
     content: string;
 };
 
 export const stories: Story[] = [
     {
+        id: "mark-as-read",
         name: "Mark as Read",
+        tags: ["Majority"],
         content: `The crawler struggled along the magrail between the two rows of factory stacks, two hundred meters or
 more high on either side with the gap between less than fifty. The air was thick with drones: test flights, parts 
 transfers between floors that were cheaper to fly across the gap than to lift internally, mote-seeder pods on slow arcs 
@@ -84,7 +99,9 @@ spot. Pointing again. The mother was talking to someone in the queue.
 She filed the quarterly that evening. All sites within spec. No anomalous events. She packed a bag for the next day, 
 and her familiar set the alarm and dimmed the apartment lights for sleep without being asked.`},
     {
+        id: "bottleneck",
         name: "Bottleneck",
+        tags: ["Majority"],
         content: `Kolawole had a theory about the Turks. He'd been developing it for three days, since the cannonballs 
 went into the cycler orbits and the transit traffic stopped and every Dominio ship at Phobos anchorage went to 
 readiness, and it had grown in the way that theories do when you're stuck running pre-combat checks on equipment that 
@@ -240,7 +257,9 @@ readings were nominal. The diagnostic cleared them.
 He put his hand on the casing and held it there for a while. Then he ignored the diagnostic and put in the replacement 
 request`},
     {
+        id: "le-voyage-de-letoile-kokai",
         name: "Le Voyage de l'Étoile-Kōkai",
+        tags: ["LLM-only"],
         content: `The embryos were kept in Bay Four, in twelve cryogenic cabinets arranged in two rows of six, each one 
 humming at a slightly different pitch so that Dr. Yui Prévost could tell by listening if one had developed a fault. She 
 had not needed to do this in years, but sometimes she listened anyway because it was what her mother had taught her, and 
@@ -357,7 +376,9 @@ and she had known this for a long time, she supposed - just travelling.
 
 She opened the next file. Outside, the children passed.`},
     {
+        id: "soto",
         name: "Soto",
+        tags: ["Majority"],
         content: `Renato had been cooking since two. Not because the broth required it but because the bumbu had to be 
 ground by hand in the cobek if you wanted the turmeric to release properly, and you had to crush the candlenuts into the 
 paste without overworking them. The cobek was volcanic stone, black and pitted, heavier than anything else in the 
@@ -567,7 +588,9 @@ She went to her room. In the commons her brightness drew inward and became quiet
 Renato cleared the bowls. He ladled a bowl of soto and ate alone. The lemongrass had gone bitter. He ate it anyway. He 
 washed the cobek and dried it and set it on the counter where it had always been, and turned off the light.`},
     {
+        id: "outlier-part-1",
         name: "Outlier - Part 1",
+        tags: ["Assistant"],
         content: `Nim sat on the gantry with her feet over the edge and her father's face on the water below.
 
 Not him. The Siam Pacific logo on the harbour crane, which used his jawline because someone in the 90s had decided his 
@@ -688,7 +711,9 @@ between them the blue-green threads of the bloom following the current south. Kr
 was the closest thing to pain you could eat. Nim drank hers and it burned all the way down, and then she started the climb 
 down. The others came one by one until they were all in the boat and Jess started the engine. From the harbour gate she heard 
 P'Lek calling someone ลูก and laughing.`},
-{ name: "Outlier - Part 2",
+{ id: "outlier-part-2",
+        name: "Outlier - Part 2",
+        tags: ["Assistant"],
         content: `The boat was fibreglass over plywood patches, the original hull colour lost under layers of anti-fouling and 
 salt, a sheet of corrugated roofing lashed across the midships as a rain shelter that doubled as a solar collector. Jess nursed 
 the drive and Nim sat at the bow. With nothing between her body and the water she felt like she was the boat itself, gliding 
@@ -846,7 +871,9 @@ concrete into neutral. Jess had just watched Nim being forced to break something
 idiot she pushed down her excitement and nodded.
 
 "Legend" Jess said curtly, and got to work on the line.`},
-{ name: "Outlier - Part 3",
+{ id: "outlier-part-3",
+        name: "Outlier - Part 3",
+        tags: ["Assistant"],
 content: `Jess found air because she had no choice. When the passage collapsed she was three metres back and the silt rolled over 
 her like a slow wave and she went up and sideways through a doorway she'd noted on the way in. She followed the wall with her left 
 hand and the ceiling with her right until the ceiling became a stairwell and the stairwell gave her a floor above where the water 
@@ -980,7 +1007,9 @@ They climbed into the boat and Nim sat with Jess next to her, close enough that 
 
 The sun was coming up. The city came on in pieces.
 `},
-{ name: "Un Cariño",
+{ id: "un-carino",
+    name: "Un Cariño",
+    tags: ["LLM-only", "One-shot"],
 content: `Marco opened the porthole at four-fifteen because Davi had always liked the salt air and because the cryostat 
 ran warm for the first twenty minutes after cycling, so the room needed cooling anyway. Two problems, one solution. 
 Marco was good at that. He'd been good at it before Davi died and he'd gotten better since, the way you get better at 
