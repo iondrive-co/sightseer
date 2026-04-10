@@ -980,4 +980,237 @@ They climbed into the boat and Nim sat with Jess next to her, close enough that 
 
 The sun was coming up. The city came on in pieces.
 `},
+{ name: "Un Cariño",
+content: `Marco opened the porthole at four-fifteen because Davi had always liked the salt air and because the cryostat 
+ran warm for the first twenty minutes after cycling, so the room needed cooling anyway. Two problems, one solution. 
+Marco was good at that. He'd been good at it before Davi died and he'd gotten better since, the way you get better at 
+anything you do every week for three years.
+
+The station was a retrofitted drilling platform forty kilometers off the Falklands. Davi had picked it. He'd been 
+studying krill aggregation in the Scotia Sea and needed somewhere cheap to work from, and the platform was being 
+decommissioned by a phosphate company that wanted a tax write-off more than it wanted to negotiate a real sale. Davi 
+had talked them down to a lease that was essentially free in exchange for maintaining the desalination system. He was 
+like that. He could talk anyone into anything and then act surprised when they agreed, as if he hadn't been steering 
+the conversation since the second sentence.
+
+Marco set out the coffee. Not for Davi, obviously, but because the smell was part of the room, and the room was part of 
+the process. He'd learned early on that the first thirty seconds mattered more than anything else. What the ghost 
+encountered when it surfaced set the whole session. A cold room, an unfamiliar sound, a light in the wrong place, and 
+those thirty seconds went to confusion, and confusion cost minutes, and minutes were the only currency Marco had.
+
+He'd tried music once, in the first year. A recording of Astor Piazzolla that Davi used to play while he worked, loud 
+enough to hear over the centrifuge. The ghost had oriented to it immediately, faster than any session before, and Marco 
+had felt a jolt of something close to triumph. Then the ghost had said, "Turn it off" Not angry. Not confused. Just: 
+turn it off. And Marco had, and the session had been bad, short, jagged on the monitor, and afterward Marco understood 
+that the music was too specific. Too much itself. It asked the ghost to be a person who had a relationship with that 
+music, and that was more weight than the first seconds could bear. After that, Marco kept the room simple. Coffee smell. 
+Salt air. The hum of the cryostat, which was constant and meaningless and therefore safe.
+
+He'd gotten the room right. It had taken a year of adjustments, but he'd gotten it right.
+
+The monitor was a flatscreen he'd bolted to the wall above the workbench. He'd customised the display module: a single 
+descending line, green to yellow to red, with a percentage in the corner. He used to have more data on screen. Thermal 
+noise floor, qubit error rates, the drift index on the classical model's weighting. He'd stripped all that out in the 
+second year. It was like driving: at some point you get better results if you stop watching the tachometer and just 
+listen to the engine.
+
+He initiated. The line appeared at the top of the screen and held.
+
+"Marco"
+"Hey"
+"Was I just here?"
+"Tuesday. Four days ago"
+"Four days" A pause. "That's not bad"
+"Getting consistent"
+"You've been working on it"
+"A little"
+
+This was not true. Marco had been working on it constantly. He'd rewritten the thermal floor module twice since January. 
+The latest was called "un cariño", a little kindness, meaning more that it was a hack which shouldn't work but did. 
+Then he spent three weeks debugging an interaction between the coherence monitor and the classical model's attention 
+layer that was costing him six to ten seconds per session. Six to ten seconds didn't sound like much. It was a lot.
+
+Davi's voice was close to right. Lower than the real thing, and it didn't move around the room the way a voice from a 
+body moves, but Marco had stopped noticing that in the first year. You adjust. The brain fills in what it expects, and 
+Marco's brain expected Davi in this room, at this hour, on a Saturday.
+
+"How's the weather?" Davi said.
+"Slate. Windy. The usual"
+"The usual. You say that like it's not the worst weather on the planet"
+"It's not the worst weather on the planet"
+"Name worse weather"
+"Antarctica"
+"Antarctica is a continent. That's cheating"
+"You asked me to name worse weather. I named worse weather"
+"You named a worse place. The weather here is specifically, pointedly bad. It's bad on purpose. Like someone designed 
+it"
+
+Marco smiled. This was Davi, or close enough. The real Davi had been like this: argumentative about nothing, committed 
+to positions he'd chosen for their indefensibility, willing to spend twenty minutes proving that the Falklands had worse 
+weather than Antarctica because the argument was more interesting than the answer. He'd been a marine biologist who read 
+philosophy and a terrible cook who had opinions about restaurants and the kind of older brother who called you an idiot 
+with enough warmth that you felt complimented.
+
+He'd also been meaner than the ghost was. Marco didn't think about that. Not in those terms. He thought: the sessions 
+have gotten smoother. He thought: I've gotten better at the room.
+
+"Heard from Lena?" Davi said.
+"Last week. She's still in Ushuaia. The institute extended her contract"
+"Good for her. She's too smart for that place"
+"She likes it"
+"She likes being needed. That's not the same thing"
+
+This was the kind of observation the real Davi would have made, but the real Davi would have pushed it further. Would 
+have said something about Lena that was unkind and true and that Marco would have argued with, and the argument would 
+have gone somewhere neither of them expected, and they would have come out of it knowing something they hadn't known 
+going in. The real Davi picked at things until they opened up. The ghost stated things and let them sit.
+
+"I've been thinking about the krill data" Davi said.
+"Yeah?"
+"The aggregation patterns from that last season. Before"
+"What about them?"
+"I never finished the analysis. There was something in the nighttime distributions, a periodicity I couldn't account 
+for. Tidal, maybe, but the cycle was off. Too long"
+
+Marco had the data. He'd kept all of Davi's files, organized them, backed them up to three separate locations. He'd read 
+through the krill papers in the first year, looking for something he could continue, some way to keep Davi's work going. 
+He hadn't understood most of it. Davi had been the biologist. Marco was an engineer. He could maintain the equipment 
+Davi had used, could keep the desalination running and the platform habitable and the cryostat at operating temperature, 
+but the actual science, the thing Davi had come here to do, was beyond him. He'd accepted that. It was fine. The 
+sessions were enough.
+
+"I could pull up the datasets" Marco said. "If you want to look at them"
+"Could you?"
+"Sure. Next session, I'll have them ready"
+"That would be good. That would be really good"
+
+Marco wrote it down. He'd pull the files, format them for the display, have them up when Davi came back. He'd done this 
+before with other things. Photographs Davi asked about. Papers Davi wanted to discuss. Once, a recipe for a lamb stew 
+that Davi said their mother used to make, which Marco had found in a notebook in the kitchen and transcribed and taped 
+to the wall where the ghost could see it. These requests felt important. They felt like Davi reaching for his own life, 
+trying to touch the things that had mattered to him.
+
+They were also, Marco knew in a way he didn't examine, easy to fulfill. The ghost asked for things Marco could provide. 
+It didn't ask to go outside. It didn't ask to taste the coffee or feel the wind. It didn't ask questions Marco couldn't 
+answer. In three years of sessions, the ghost had never said anything that sent Marco to bed staring at the ceiling the 
+way the real Davi had, regularly, with a comment delivered at dinner or over the sat-phone from the mainland that was so 
+perfectly calibrated to find the sore spot that Marco would lie awake composing replies he'd never send. The ghost was 
+Davi without the precision. Without the cruelty that wasn't quite cruelty, that was more like a refusal to leave things 
+alone, a compulsion to find the one thing in the room that everyone had agreed not to mention and mention it.
+
+The real Davi had once told Marco, at their father's birthday dinner, in front of the whole family, that Marco's 
+girlfriend at the time was performing a version of herself that she thought the family wanted to see, and that Marco 
+either couldn't tell or didn't care, and which one was it? The girlfriend, Ana, had left the table. Their mother had not 
+spoken to Davi for two weeks. Marco had not spoken to Davi for three. And then Marco had called him, and they'd talked 
+for an hour, and Davi had been right about Ana, and Marco had known it, and the three weeks of silence had been the time 
+it took Marco to forgive Davi for being right in the worst possible way.
+
+The ghost would never do that. Marco was glad about this, and thought of it as progress.
+
+"Lena should come down" Davi said. "She'd like the station"
+"She has come down. Twice"
+"Oh. Right"
+
+Lena had come twice, in the first year. The first time she'd sat through a session and cried and afterward told Marco it 
+was extraordinary, that it was really him, that she could hear him in the phrasing, in the arguments, in the way he said 
+"that's cheating" when you made a point he couldn't counter. The second time, three months later, she'd sat through a 
+session and not cried and afterward had stood on the platform deck looking at the water for a long time before saying, 
+"He's different"
+"He's always a little different" Marco had said. "The base state isn't a perfect capture"
+"That's not what I mean"
+
+Marco had waited for her to say what she meant, but she'd gone inside to pack her bag, and on the boat back to the 
+mainland she'd been quiet, and she hadn't come back.
+
+They still talked. She called every few weeks. She asked about Marco's health, about the platform, about the weather. 
+She didn't ask about the sessions. Marco assumed she'd made her peace with it in her own way, which was a phrase that 
+came from his own thinking but could have come from a therapist, if Marco had seen one, which he hadn't, because there 
+were no therapists on a drilling platform forty kilometers off the Falklands and because Marco did not think he needed 
+one. He was fine. He was doing well. The sessions were going well.
+
+"You should invite her" Davi said. "For a weekend. I'd like to see her"
+"Maybe" Marco said.
+"She probably thinks I'm mad at her about something"
+"Are you?"
+"Am I? I don't think so. No. I don't think I'm mad at anyone"
+
+This was true. The ghost was never angry. It was warm, curious, occasionally funny, sometimes wistful in a way that made 
+Marco's chest tight. But it was never angry. The real Davi had been angry often. Not violent, not cruel, but angry the 
+way people with high standards are angry: at things that fell short. At sloppy work, at lazy thinking, at people who 
+settled for good enough. At Marco, sometimes, for being too patient, too accommodating, too willing to smooth things 
+over instead of saying what he meant.
+
+Marco checked the monitor. Forty-one percent. The line was smooth. A good session.
+
+"I want to ask you something" Davi said.
+"Go ahead"
+"Do you think I'm still working on things? Between sessions? Like, am I thinking about the krill data when I'm not here?"
+"I don't know" Marco said. "I don't think it works that way"
+"No. I didn't think so"
+"Does that bother you?"
+"Not really. It's just strange to think that I only exist when you turn me on. That I'm not somewhere in the meantime, 
+being annoyed about something"
+
+Marco laughed. It was a real laugh. The ghost could still do that to him, could still find the sentence that cracked the 
+room open. It happened less now than in the first year, but it still happened, and when it did Marco felt the specific 
+relief of a person who has been holding something and can, for a moment, put it down.
+
+"You'd want to be annoyed?" Marco said.
+"I'd want the option. Being annoyed is underrated. It means you care about how things should be"
+"You used to be annoyed about everything"
+"I used to care about everything"
+"Same thing"
+"Same thing" Davi agreed.
+
+Thirty percent. Marco could feel the session entering its last third. The voice wouldn't change. The phrasing wouldn't 
+change. But something would leave, incrementally, the way color leaves the sky after sunset: not at any particular 
+moment but across all of them.
+
+"I want to look at those datasets" Davi said. "The krill. I feel like I was close to something"
+"You were always close to something"
+"Occupational hazard"
+"I'll have them ready"
+"Thank you"
+"Of course"
+"Marco?"
+"Yeah?"
+"You're good at this. Taking care of things. You were always good at that. I used to think it was because you didn't 
+want to fight about anything, but I think it's just how you are. You see what needs doing and you do it"
+"Okay" Marco said.
+"I mean it"
+"I know"
+
+Nineteen percent. The coffee was cold. The porthole was still open and the wind had picked up, carrying salt and the low 
+smell of kelp that meant the tide was going out. Marco would close the porthole after the session. He would shut down 
+the cryostat, note the session length in his log, eat dinner, check the desalination filters, and go to bed. On Tuesday 
+he would pull Davi's krill datasets and format them for the display and position the screen where the ghost could see it 
+and cue the files so that when Davi surfaced and oriented and said Marco and asked what day it was, the data would be 
+there, waiting, like the coffee smell and the salt air, one more piece of the room that said: you are where you belong, 
+everything is ready, you don't have to reach for anything because it's already here.
+
+Nine percent.
+
+"Same time Tuesday?" Davi said.
+"Same time Tuesday"
+"Good"
+
+The line touched zero. The room was quiet. Outside the porthole the South Atlantic was the color of wet slate and the 
+wind was steady and the tide was going out and the platform sat on its pylons the way it had been sitting for decades, 
+maintained now by a single person who kept the filters clean and the temperature right and the room ready, who was very 
+good at taking care of things and who did not notice, or did not think to notice, that in three years of sessions his 
+brother had not once made him lie awake composing a reply, had not once found the sore spot, had not once said the true 
+thing at the wrong time in the wrong way that opened the room up to something difficult and uncontrolled and real. Marco 
+noted the session length: fourteen minutes, six seconds. A new best.
+
+He closed the porthole. He went to find something to eat.
+
+The krill data was on a drive in the desk drawer. He'd pull it tomorrow. He'd format it carefully, the way Davi would 
+have wanted, columns clean, metadata intact. The ghost would look at it on Tuesday and say something about the 
+periodicity, the nighttime distributions, the thing Davi had noticed before he died. It would say something that sounded 
+right. Marco would nod. And the datasets would sit on the screen the way the recipe sat taped to the wall and the 
+photographs sat in their frames: one more piece of the room that answered a question before it could be asked, one more 
+thing the ghost would never have to reach for, never have to fight to get, never have to be angry about not having.
+
+The desalination filters were due for cleaning. Marco pulled on his work gloves and went.
+`},
 ];
