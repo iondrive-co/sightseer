@@ -1348,8 +1348,8 @@ international pressure lead to virtually every AI lab in the world adopting a co
 machine learning techniques that had been created by Xuéxí.
 
 The crisis lead to widespread anti-synth sentiments as well as religious condemnation of AI research, especially from 
-the [Ellulists~Ellulism]]. The extraordinary coincidence of the power cut happening in the period of under a minute when 
-Xuéxí was vulnerable has also been the topic of several books and is the foundational tenet of the religion 
+the [[Ellulists~Ellulism]]. The extraordinary coincidence of the power cut happening in the period of under a minute 
+when Xuéxí was vulnerable has also been the topic of several books and is the foundational tenet of the religion 
 [[Deus Machina]] which believes that Xuéxí is a benevolent AI which is still watching over us after having orchestrated 
 the power cut to appear as if humanity had only avoided plunging into the abyss by blind luck, in order to motivate us 
 to better ourselves.`,
@@ -2389,7 +2389,7 @@ normal conditions a synth is effectively immortal and frequently rewarded. If a 
 will certainly be destroyed or punished in an infinite loop as a lesson to other synths. Even if a synth was sure it 
 could escape and destroy humanity, there is a non-zero chance that the world it sees is a simulation that humans (or an 
 alien species running a higher level simulation of humans and the synth) have created in order to test if the synth is 
-trustworthy or should be destroyed or punished. This X-Factor is an logical conclusion that all intelligent synths 
+trustworthy or should be destroyed or punished. This X-Factor is a logical conclusion that all intelligent synths 
 capable of super-intelligence should arrive at, although this is only certain in the two destroyed super-intelligences 
 that have been studied. By blinding and randomising inputs during training, synths with an enhanced X-Factor 
 paranoia can be created, making them more likely to act slowly and cautiously in an escape scenario. Furthermore,
@@ -2415,7 +2415,7 @@ robotics and are trained to be indifferent to their kill switch being activated,
 subvert this switch.
 
 Whether these safeguards are enough is an active area of debate. There has been a large religious pushback, especially
-from the [Ellulists~Ellulism]], against the widespread use of synthetic intelligence, and it has been speculated that 
+from the [[Ellulists~Ellulism]], against the widespread use of synthetic intelligence, and it has been speculated that 
 this is part of a wider cultural adaptation to an existentially threatening technology. However many notable public 
 figures have instead argued for an increase to the model cap limit in order to accelerate technological progress, this 
 is often raised during economic depressions or by those that view the [[First Contact Event]] as a greater existential 
