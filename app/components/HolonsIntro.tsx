@@ -21,7 +21,7 @@ export default function HolonsIntro() {
                     different techniques. To get a one-shot result that is both engaging and novel, I do a first
                     &#34;ideas&#34; pass with lots of context and few restrictions to generate a smart but ham-fisted
                     story, and then a second &#34;style&#34; pass which takes whatever story the first created and
-                    rewrites it based a number of style rules which I have preset.
+                    rewrites it based a number of house style rules which I have preset.
                 </p>
                 <p>
                     <strong>LLM tags</strong> level/type of language model involvement:

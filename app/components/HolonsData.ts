@@ -133,6 +133,7 @@ After that the reactor overheats and shuts itself down"
 "Does the diagnostic say it's going to seize?"
 "The diagnostic says it's fine"
 "Then what are you telling me?"
+
 Caio took his hand off the casing. "I'm reminding you we have manual bleeder valves"
 
 Father Ochoa did the blessing in the mess with all eleven of them packed in. The mess sat four and with the whole crew 
@@ -149,11 +150,14 @@ the hour of—"
 neck seal hanging open.
 
 Luz caught Caio at the dispenser afterward as he eyed off another QR code. 
+
 “Why do you do that?”
 “Everybody checks them”
 "Nobody checks them. Except you"
 "Well, I'm from Orcus"
+
 A pause. She'd know the name of the colony from the news. 
+
 “Sorry. Glad they glassed those bastards. Food not being food, what a mindjob”
 
 He didn't say anything else. She went to strap into her crash couch with the other marines. All trained in Forge Palace
@@ -1240,6 +1244,135 @@ right. Marco would nod. And the datasets would sit on the screen the way the rec
 photographs sat in their frames: one more piece of the room that answered a question before it could be asked, one more 
 thing the ghost would never have to reach for, never have to fight to get, never have to be angry about not having.
 
-The desalination filters were due for cleaning. Marco pulled on his work gloves and went.
+The desalination filters were due for cleaning. Marco pulled on his work gloves and went.`},
+{ id: "reserve",
+    name: "Reserve",
+    tags: ["LLM-only"],
+content: `Haude Teverikh was already in the waiting room. They were sitting on the bench with their hands pushed between 
+their knees, breathing in a pattern that was clearly taught. The waiting structure was cob and bamboo laminate, its 
+curved roof a living sedum mat that insulated in winter cycle and bloomed yellow-green in summer. The south wall was a 
+filtration membrane, greywater from the agricultural band above running through layers of sand and root-mass and 
+mycorrhizal mesh before dripping, clean, into the reserve's irrigation channels. Mushrooms fruited along its lower edge, 
+oyster and lion's mane, available to anyone passing through. Someone had taken a few that morning; the cut stems were 
+still wet. A printed sign in three languages asked visitors to leave the smallest specimens for sporing. It was not 
+enforced. In Kousseri, very little was enforced; things either worked because people agreed they should, or they didn't 
+work, and then you sat in a governance circle and talked about it until something better emerged or everyone was too 
+tired to argue.
+
+Kesseny watched for a moment. The body she wore, a vacuum cargo frame she'd claimed off the decommission list eleven 
+years ago, had joints built for holding fifty-tonne containers steady in microgravity. Stillness was the one thing it 
+did without effort.  Then she ducked under the lintel. She held out the manipulator she'd had retrofitted with something 
+that could approximate a handshake, thermal surface set to 32 degrees.
+
+'Haude?'
+'Yes.'
+'I'm Kesseny. I've got a route planned, about an hour. How are you on rough ground?'
+'Fine.' 
+
+Haude stood and something happened to the way they held themselves. Their spine unlocked. Not relaxation exactly, more 
+like a correction, the body finding a posture it had been trying to reach and failing. 
+
+'I'm good.'
+
+At 0.4 standard gravity, people moved differently. Kesseny had watched hundreds of visitors come through the reserve 
+gate. Shoulders dropped. Steps lengthened. Some people laughed. Some cried. Haude did neither; they just walked, and the 
+walking had a quality of directness to it, as if between the elevator and here they had put down something heavy they'd 
+stopped knowing they were carrying.
+
+The trail wound through the old-growth engineered forest. Oak, beech, silver birch, seeded during initial habitat 
+construction and left to do what forests do when you give them soil and light and patience. Kesseny had studied 
+pre-industrial pollen core data from European forests to understand the ratios, the spacing, what these species did when 
+nobody was optimising them. Then she'd spent three years not optimising. The canopy closed overhead and the light 
+changed, thickened into something amber and particulate, the air circulation catching the engineered pollen and moving 
+it in slow currents. Underfoot the path was packed earth and leaf litter, and the leaf litter was doing things: fungal 
+threads visible as white filaments where Haude's boot broke the surface, an ecosystem in the top two centimetres of soil 
+that had taken a decade to establish. The fact that predictable outcomes could still feel miraculous was something 
+Kesseny thought about often and had not resolved.
+
+Beyond the tree line, if you looked, you could see where the reserve's boundary met the agricultural terraces: vertical 
+panels of climbing beans and nitrogen-fixing scrub on hempcrete trellises, the whole structure a productive windbreak 
+fed by composted waste from the residential spokes. Solar textile draped over the upper terraces, flexible panels woven 
+into shade cloth so that the same surface grew food and collected energy. The irrigation lines were mycelium-hardened 
+fibre that would biodegrade in place when they failed, no retrieval needed, the material returning to the soil it had 
+been grown from.
+
+'You're an ecological design tech', Kesseny said, reading from the referral. 'Soil remediation team?'
+
+'Subsurface drainage. Section four of the remediation protocol is mine. Seven years ago.'
+'I know section four.'
+
+The trail came to the rise above the wetland. Below, the stream spread into reedy shallows and a heron stood in the 
+water. It was hunting, which meant it was not moving. Kesseny had watched this particular bird for two years. It fished 
+the same stretch of shallows on a three-day rotation, always entering from the west bank where the alders screened it 
+from the path, and it had a success rate of about one strike in four, which was within the range for grey herons on 
+Earth, a fact Kesseny found privately astonishing. The heron had been hatched from a gene-banked embryo in a lab in the 
+0.6 band. It had never seen a river that wasn't plumbed. And yet it fished like a heron, stood like a heron, knew 
+exactly what it was. Nobody had taught it. Haude stopped walking.
+
+'Dr Ousseni's referral says gravity dysphoria', Kesseny said after a moment.
+'That's what she calls it.'
+'What do you call it?'
+
+A beetle was crossing the path, iridescent, blue-black. One of Szabolcs's native-analog species from the mycology lab. 
+Haude stepped over it.
+
+'I don't call it anything. I just hurt. Three years now. Everything scans normal. Nothing structurally wrong. Except my 
+vestibular response normalises at 0.4. My cortisol flattens out. The pain stops.' They looked at the heron. 'And 0.4 is 
+here.'
+'And 0.4 is here.'
+
+Below them the heron struck. Fast, then the slow ugly business of swallowing.
+
+'I get referrals like yours a couple of times a year', Kesseny said. 'The protocol is eight hours maximum, twice a week. 
+Below eight hours, a single human presence doesn't register on the ecological stress indicators. Above it, things shift. 
+Soil compaction. Microbial changes. The system notices.'
+'Dr Ousseni mentioned transfer. Ouaga Station. Libreville Hab.' Haude said it the way you say a diagnosis you've already 
+received.
+
+'They have residential at 0.4.'
+'My whole life is here. My repair commons, my medical team, everything. Dr Ousseni has been managing my neural work for 
+six years. You don't restart that.'
+'No. You don't.'
+'The charter prohibits residential in this band.'
+'Yes.'
+'I voted for the charter.'
+
+Kesseny let the silence hold. The heron rearranged itself and went back to not moving.
+
+'On the old Assembly wall in Spoke 3', Kesseny said, 'there's an inscription from Laboure. You know it.'
+'Everyone knows it.'
+'I think about it. "I dreamed I was a child, marvelling at all I could become. I woke in old age and every possibility 
+had gone." He built a system and discovered it had no room for what he was.' 
+"You must love this place" Haude said instead.
+“The models say a human can't live here without the system degrading. But I've been watching this ecology for eleven 
+years and it has surprised me more often than it hasn't. The otters weren't in any model. The kingfishers came back two 
+years early. The fungal network did something with phosphorus uptake that three mycologists called impossible.”
+Haude considered this. "They sound wild"
+"They are" said Kesseny
+
+They walked back along the lower trail. Haude asked about the bats and Kesseny told them about the two years she'd 
+fought the lighting committee. Pathway lights. Dim, tasteful, solar-charged pathway lights so visitors could walk after 
+dark. The trail passed through a section where the reserve's infrastructure showed. A bioplastic rainwater collector, 
+mottled green with algae, feeding a sand-filter cistern half buried in ferns. Sensor nodes in the trees, printed from 
+recycled cellulose, powered by the temperature differential between canopy and soil; they would rot in about five years 
+and Kesseny would print new ones. A collapsed section of the original mycelium-composite walkway that Kesseny had not 
+replaced because a colony of solitary bees had moved into the hollow chambers, and solitary bees outranked walkways. 
+Overhead, barely visible through the canopy, the gossamer curve of the station's far side: agricultural terraces, the 
+bright strip of the solar collection band, and beyond that the residential spokes where people lived and worked and 
+repaired things and shared meals in commons built from hemp-lime and salvaged hull plate and did not, most of them, 
+think very often about the fact that five hundred metres below their feet, in a cylinder of manufactured soil wrapped 
+around manufactured air, a heron was fishing with the competence of a million years of evolution encoded in cells that 
+had been frozen and shipped across forty million kilometres of vacuum.
+
+At the perimeter gate Haude stopped. The elevator was ten metres away. They stepped into the elevator and Kesseny 
+watched their shoulders begin to rise before the doors even closed, the muscles re-engaging in anticipation, the body 
+bracing for a weight that was not here yet but was coming, was always coming.
+
+The gate closed. The elevator rose. In the reserve the stream ran over its rocks, and the fungi passed their signals 
+through the soil, and the heron slept in the dead oak by the north bank that Kesseny had argued against removing because 
+dead oaks held more life per cubic metre than living ones. It slept the way herons have always slept, on one leg, head 
+tucked, as though no one had ever explained to it that it was the product of a laboratory and a freezer and a 
+hundred-year plan. The reserve did what it did. It became more itself, slowly, in the absence of anyone who needed it to 
+be something else.
 `},
 ];
