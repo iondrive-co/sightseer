@@ -1265,9 +1265,10 @@ did without effort.  Then she ducked under the lintel. She held out the manipula
 that could approximate a handshake, thermal surface set to 32 degrees.
 
 'Haude?'
-'Yes.'
+
+'Yes'
+
 'I'm Kesseny. I've got a route planned, about an hour. How are you on rough ground?'
-'Fine.' 
 
 Haude stood and something happened to the way they held themselves. Their spine unlocked. Not relaxation exactly, more 
 like a correction, the body finding a posture it had been trying to reach and failing. 
@@ -1289,16 +1290,10 @@ threads visible as white filaments where Haude's boot broke the surface, an ecos
 that had taken a decade to establish. The fact that predictable outcomes could still feel miraculous was something 
 Kesseny thought about often and had not resolved.
 
-Beyond the tree line, if you looked, you could see where the reserve's boundary met the agricultural terraces: vertical 
-panels of climbing beans and nitrogen-fixing scrub on hempcrete trellises, the whole structure a productive windbreak 
-fed by composted waste from the residential spokes. Solar textile draped over the upper terraces, flexible panels woven 
-into shade cloth so that the same surface grew food and collected energy. The irrigation lines were mycelium-hardened 
-fibre that would biodegrade in place when they failed, no retrieval needed, the material returning to the soil it had 
-been grown from.
-
 'You're an ecological design tech', Kesseny said, reading from the referral. 'Soil remediation team?'
 
 'Subsurface drainage. Section four of the remediation protocol is mine. Seven years ago.'
+
 'I know section four.'
 
 The trail came to the rise above the wetland. Below, the stream spread into reedy shallows and a heron stood in the 
@@ -1309,16 +1304,22 @@ Earth, a fact Kesseny found privately astonishing. The heron had been hatched fr
 0.6 band. It had never seen a river that wasn't plumbed. And yet it fished like a heron, stood like a heron, knew 
 exactly what it was. Nobody had taught it. Haude stopped walking.
 
-'Dr Ousseni's referral says gravity dysphoria', Kesseny said after a moment.
+'Dr Ousseni's referral says gravity dysphoria' Kesseny said after a moment.
+
 'That's what she calls it.'
+
 'What do you call it?'
 
 A beetle was crossing the path, iridescent, blue-black. One of Szabolcs's native-analog species from the mycology lab. 
 Haude stepped over it.
 
 'I don't call it anything. I just hurt. Three years now. Everything scans normal. Nothing structurally wrong. Except my 
-vestibular response normalises at 0.4. My cortisol flattens out. The pain stops.' They looked at the heron. 'And 0.4 is 
-here.'
+vestibular response normalises at 0.4. My cortisol flattens out. The pain stops.' 
+
+They looked at the heron. 
+
+'And 0.4 is here.'
+
 'And 0.4 is here.'
 
 Below them the heron struck. Fast, then the slow ugly business of swallowing.
@@ -1326,43 +1327,49 @@ Below them the heron struck. Fast, then the slow ugly business of swallowing.
 'I get referrals like yours a couple of times a year', Kesseny said. 'The protocol is eight hours maximum, twice a week. 
 Below eight hours, a single human presence doesn't register on the ecological stress indicators. Above it, things shift. 
 Soil compaction. Microbial changes. The system notices.'
+
 'Dr Ousseni mentioned transfer. Ouaga Station. Libreville Hab.' Haude said it the way you say a diagnosis you've already 
 received.
 
-'They have residential at 0.4.'
+'They have residential at 0.4'
+
 'My whole life is here. My repair commons, my medical team, everything. Dr Ousseni has been managing my neural work for 
-six years. You don't restart that.'
-'No. You don't.'
-'The charter prohibits residential in this band.'
-'Yes.'
-'I voted for the charter.'
+six years. You don't restart that'
+
+'No. You don't'
+
+'The charter prohibits residential in this band'
+
+'Yes'
+
+'I voted for the charter'
 
 Kesseny let the silence hold. The heron rearranged itself and went back to not moving.
 
 'On the old Assembly wall in Spoke 3', Kesseny said, 'there's an inscription from Laboure. You know it.'
+
 'Everyone knows it.'
+
 'I think about it. "I dreamed I was a child, marvelling at all I could become. I woke in old age and every possibility 
 had gone." He built a system and discovered it had no room for what he was.' 
+
 "You must love this place" Haude said instead.
+
 “The models say a human can't live here without the system degrading. But I've been watching this ecology for eleven 
 years and it has surprised me more often than it hasn't. The otters weren't in any model. The kingfishers came back two 
 years early. The fungal network did something with phosphorus uptake that three mycologists called impossible.”
+
 Haude considered this. "They sound wild"
+
 "They are" said Kesseny
 
 They walked back along the lower trail. Haude asked about the bats and Kesseny told them about the two years she'd 
 fought the lighting committee. Pathway lights. Dim, tasteful, solar-charged pathway lights so visitors could walk after 
 dark. The trail passed through a section where the reserve's infrastructure showed. A bioplastic rainwater collector, 
-mottled green with algae, feeding a sand-filter cistern half buried in ferns. Sensor nodes in the trees, printed from 
-recycled cellulose, powered by the temperature differential between canopy and soil; they would rot in about five years 
-and Kesseny would print new ones. A collapsed section of the original mycelium-composite walkway that Kesseny had not 
-replaced because a colony of solitary bees had moved into the hollow chambers, and solitary bees outranked walkways. 
-Overhead, barely visible through the canopy, the gossamer curve of the station's far side: agricultural terraces, the 
-bright strip of the solar collection band, and beyond that the residential spokes where people lived and worked and 
-repaired things and shared meals in commons built from hemp-lime and salvaged hull plate and did not, most of them, 
-think very often about the fact that five hundred metres below their feet, in a cylinder of manufactured soil wrapped 
-around manufactured air, a heron was fishing with the competence of a million years of evolution encoded in cells that 
-had been frozen and shipped across forty million kilometres of vacuum.
+mottled green with algae, feeding a sand-filter cistern half buried in ferns. Overhead, barely visible through the 
+canopy, the gossamer curve of the station's far side: agricultural terraces, the bright strip of the solar collection 
+band, and beyond that the residential spokes where people lived and worked and repaired things and shared meals in 
+commons.
 
 At the perimeter gate Haude stopped. The elevator was ten metres away. They stepped into the elevator and Kesseny 
 watched their shoulders begin to rise before the doors even closed, the muscles re-engaging in anticipation, the body 
