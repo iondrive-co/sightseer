@@ -1273,7 +1273,7 @@ that could approximate a handshake, thermal surface set to 32 degrees.
 Haude stood and something happened to the way they held themselves. Their spine unlocked. Not relaxation exactly, more 
 like a correction, the body finding a posture it had been trying to reach and failing. 
 
-'I'm good.'
+'I'm good'
 
 At 0.4 standard gravity, people moved differently. Kesseny had watched hundreds of visitors come through the reserve 
 gate. Shoulders dropped. Steps lengthened. Some people laughed. Some cried. Haude did neither; they just walked, and the 
@@ -1292,9 +1292,9 @@ Kesseny thought about often and had not resolved.
 
 'You're an ecological design tech', Kesseny said, reading from the referral. 'Soil remediation team?'
 
-'Subsurface drainage. Section four of the remediation protocol is mine. Seven years ago.'
+'Subsurface drainage. Section four of the remediation protocol is mine. Seven years ago'
 
-'I know section four.'
+'I know section four'
 
 The trail came to the rise above the wetland. Below, the stream spread into reedy shallows and a heron stood in the 
 water. It was hunting, which meant it was not moving. Kesseny had watched this particular bird for two years. It fished 
@@ -1306,7 +1306,7 @@ exactly what it was. Nobody had taught it. Haude stopped walking.
 
 'Dr Ousseni's referral says gravity dysphoria' Kesseny said after a moment.
 
-'That's what she calls it.'
+'That's what she calls it'
 
 'What do you call it?'
 
@@ -1314,21 +1314,21 @@ A beetle was crossing the path, iridescent, blue-black. One of Szabolcs's native
 Haude stepped over it.
 
 'I don't call it anything. I just hurt. Three years now. Everything scans normal. Nothing structurally wrong. Except my 
-vestibular response normalises at 0.4. My cortisol flattens out. The pain stops.' 
+vestibular response normalises at 0.4. My cortisol flattens out. The pain stops' 
 
 They looked at the heron. 
 
-'And 0.4 is here.'
+'And 0.4 is here'
 
-'And 0.4 is here.'
+'And 0.4 is here'
 
 Below them the heron struck. Fast, then the slow ugly business of swallowing.
 
 'I get referrals like yours a couple of times a year', Kesseny said. 'The protocol is eight hours maximum, twice a week. 
 Below eight hours, a single human presence doesn't register on the ecological stress indicators. Above it, things shift. 
-Soil compaction. Microbial changes. The system notices.'
+Soil compaction. Microbial changes. The system notices'
 
-'Dr Ousseni mentioned transfer. Ouaga Station. Libreville Hab.' Haude said it the way you say a diagnosis you've already 
+'Dr Ousseni mentioned transfer. Ouaga Station. Libreville Hab' Haude said it the way you say a diagnosis you've already 
 received.
 
 'They have residential at 0.4'
@@ -1346,13 +1346,13 @@ six years. You don't restart that'
 
 Kesseny let the silence hold. The heron rearranged itself and went back to not moving.
 
-'On the old Assembly wall in Spoke 3', Kesseny said, 'there's an inscription from Laboure. You know it.'
+'On the old Assembly wall in Spoke 3', Kesseny said, 'there's an inscription from Laboure. You know it'
 
 'Everyone knows it. "I dreamed I was a child, marvelling at all I could become. I woke in old age and every possibility 
 had gone." Ellulists use it in the regret-minimisation class. You are supposed to see you own failures in it "my life is 
 a series of safe, meaningless decisions", that sort of thing'
 
-'I think about it a lot. How he built Ellulism as a system and in the end discovered it had no room for what he was.' 
+'I think about it a lot. How he built Ellulism as a system and in the end discovered it had no room for what he was' 
 
 "You must love this place" Haude said instead.
 
@@ -1401,7 +1401,7 @@ Twenty-two seconds. The filaments locked into a single configuration.
 The girl looked at Nim through the glass with the mild irritation of someone who'd been told to sit still and was doing 
 her best.
 
-'Sorry' Nim said through the intercom. 'That was me.'
+'Sorry' Nim said through the intercom. 'That was me'
 
 Rae was at her station. The lab occupied a converted semiconductor fab in Santa Clara, bought cheap when the foundries 
 moved to orbital microgravity. The air handling still carried a toluene ghost.
@@ -1421,26 +1421,22 @@ She stopped to take in her IA input.
 
 Another pause 
 
-'A statistically significant cohort of the children we've tested, in controlled conditions, with caveats.'
+'A statistically significant cohort of the children we've tested, in controlled conditions, with caveats'
 
-'I liked the first one better' Rae said.
+'I liked the first one better' Rae said. 'Do you want me to set up the thing with Augustine?'
 
-The operators who described what they were doing wrong held it longer. Hosokawa had said shapes. Lila said it was like 
-holding a mirror at the wrong angle.
+Whatever Freehab had reverse engineered from the alien probe, their separatist elements sniffing around her company
+suggested they hadn't figured out the entirety of what Nim was slowly piecing together, deep in the unfocussed parts of 
+her mind her IA couldn't reach. Even the shape of the idea and the government would be through the doors in an hour and 
+the whole "startup" shut down.
 
-'You are still ignoring Augustine?'
-
-Freehab had reverse engineered some aspects of the first contact probe, but whatever they had on the antimatter drive
-they had either held back from their violent separatist elements or perhaps hadn't figured out the entirety of what Nim 
-was slowly piecing together in the unfocussed part of her mind her IA couldn't reach. Even the shape of the idea and
-the government would be through the doors in an hour and the whole "startup" shut down.
-
-'I don't know why he is interested in our company but I am happy to accept funding. He's not as bad as they say' Nim said. 
+'I don't know why he is interested in our company but I am happy to accept funding. He's not as bad as they say' is what 
+Nim visualised and said instead. 
 
 Her IA helpfully introduced some context: Augustine Okafor. Likely Freeholder Paramilitary, violent, black market 
 connections. Do not accept funding.
 
-'I think the case is defensible.' 
+'I think the case is defensible' 
 
 A longer one. 
 
@@ -1450,21 +1446,23 @@ A longer one.
 'The children are more at peace with the world than you' she said. Then she went back to her data stream.
 
 At six Nim stepped outside, stopping at the south wall and putting her palm flat against the bricks. Warm. Still holding 
-the afternoon while the crisp autumn air cooled around it. Crisp fall air, the IA corrected her. The marine change was 
-coming in now, and the mote layer thickened with it, billions of sensors carried inland with the fog until the air 
-shimmered. Rae came out.
+the afternoon while the crisp autumn air cooled around it. 
 
-'I watched you today' Rae said. 'You collapsed the field from behind glass. You weren't even in the room.'
+Crisp fall air, the IA corrected her. 
 
-Nim took her hand off the wall. On the ridge the Tomb of the Unknown Human was doing its twenty-minute glow, white on a 
-dark hillside. The Society of Life had built it as a promotional stunt, to "mourn those who died from curable 
-senescence". Nim thought that curable senescence sounded like a type of glue, and it was true that dead people did stop 
-having options and became permanent.
+The marine change was coming in now, and the mote layer thickened with it, billions of sensors carried inland with the 
+fog until the air shimmered. Rae came out.
 
-Seven embryos frozen in a clinic in Bangkok in 109 BFC. For seventy-eight years they'd been nothing decided. Seven 
-possible people in liquid nitrogen, then the fund crossed ฿100 trillion and a clerk at Siam International drew 
-divination sticks and one stick came up with a number and Nimitra Wongprasert had begun her life and left the other six 
-possibilities open.
+'I watched you today' Rae said. 'You're so focussed on this that you collapsed the field from outside the room'
+
+Nim nodded and took her hand off the wall. On the ridge the Tomb of the Unknown Human was catching the light, orange 
+against a darkening hillside. The Society of Life had built it as an expensive promotional stunt, to "mourn those who 
+died from curable senescence". Nim thought that curable senescence sounded like a type of glue, and it was true that 
+dead people did stop having options and became permanent.
+
+Seven embryos frozen in a clinic in Bangkok in 109 BFC. For seventy-eight years they'd been nothing decided and then the 
+fund crossed ฿100 trillion and a clerk at Siam International drew divination sticks and one stick came up with a number 
+and Nimitra Wongprasert had begun her life and left the other six possibilities open.
 
 'Your Tokyo suborbital's at ten' Rae said.
 `},
