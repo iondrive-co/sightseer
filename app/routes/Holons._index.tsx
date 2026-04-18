@@ -74,7 +74,10 @@ export default function Holons() {
                             <div className="holons-content">
                                 {story.content.split(/\n\s*\n/).filter(s => s.trim()).map((paragraph, i) => (
                                     <p key={i}>{paragraph.split('\n').map((line, j) => (
-                                        <span key={j}>{j > 0 && line.trimStart().startsWith('"') ? <br /> : j > 0 ? ' ' : null}{line.trim()}</span>
+                                        <span key={j}>
+                                            {j > 0 && /^["'“‘]/.test(line.trimStart()) ? <br /> : j > 0 ? ' ' : null}
+                                            {line.trim()}
+                                        </span>
                                     ))}</p>
                                 ))}
                             </div>

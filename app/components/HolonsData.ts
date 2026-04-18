@@ -1432,8 +1432,8 @@ holding a mirror at the wrong angle.
 
 Freehab had reverse engineered some aspects of the first contact probe, but whatever they had on the antimatter drive
 they had either held back from their violent separatist elements or perhaps hadn't figured out the entirety of what Nim 
-was slowly piecing together in her mind, which was the only place she could safely keep it. If even her IA got a whiff 
-of it the government would probably be through the doors in an hour and the whole "startup" shut down.
+was slowly piecing together in the unfocussed part of her mind her IA couldn't reach. Even the shape of the idea and
+the government would be through the doors in an hour and the whole "startup" shut down.
 
 'I don't know why he is interested in our company but I am happy to accept funding. He's not as bad as they say' Nim said. 
 
@@ -1447,7 +1447,6 @@ A longer one.
 'It's complicated'
 
 'Nim' Rae's hands came together, fingertips touching then opening. 
-
 'The children are more at peace with the world than you' she said. Then she went back to her data stream.
 
 At six Nim stepped outside, stopping at the south wall and putting her palm flat against the bricks. Warm. Still holding 
@@ -1458,14 +1457,14 @@ shimmered. Rae came out.
 'I watched you today' Rae said. 'You collapsed the field from behind glass. You weren't even in the room.'
 
 Nim took her hand off the wall. On the ridge the Tomb of the Unknown Human was doing its twenty-minute glow, white on a 
-dark hillside. The Society of Life had built it as a political stunt to mourn those who died from curable senescence. 
-Nim thought that curable senescence sounded like a type of glue, and it was true that dead people did stop having 
-options and became permanent.
+dark hillside. The Society of Life had built it as a promotional stunt, to "mourn those who died from curable 
+senescence". Nim thought that curable senescence sounded like a type of glue, and it was true that dead people did stop 
+having options and became permanent.
 
-Seven embryos, frozen in a clinic in Bangkok in 109 BFC. For seventy-eight years they'd been nothing decided. Seven 
+Seven embryos frozen in a clinic in Bangkok in 109 BFC. For seventy-eight years they'd been nothing decided. Seven 
 possible people in liquid nitrogen, then the fund crossed ฿100 trillion and a clerk at Siam International drew 
-divination sticks and one stick came up with a number and Nimitra Wongprasert had begun her life and left behind the 
-other six as possibilities still open.
+divination sticks and one stick came up with a number and Nimitra Wongprasert had begun her life and left the other six 
+possibilities open.
 
 'Your Tokyo suborbital's at ten' Rae said.
 `},

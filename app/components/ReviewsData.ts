@@ -516,7 +516,7 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Companion",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/4/48/Companion_film_poster.jpg",
-        summary: ``,
+        summary: `Thin sci-fi horror-comedy about commodified relationships`,
         e: 4,
         a: 3,
         n: 5,
