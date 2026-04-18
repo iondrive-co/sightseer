@@ -244,6 +244,15 @@ export const sciFiMoviesData: Movie[] = [
         c: 5,
     },
     {
+        title: "Assessment, The",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/4/40/The_Assessment_Poster.jpg",
+        summary: `Well trodden path but the psychological aspect was interesting`,
+        e: 6,
+        a: 4,
+        n: 6,
+        c: 6,
+    },
+    {
         title: "Arrival",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/d/df/Arrival%2C_Movie_Poster.jpg",
         summary: `A graceful adaptation of Ted Chiang's novella, this captures a lot of its fascination with language 
@@ -503,6 +512,15 @@ export const sciFiMoviesData: Movie[] = [
         a: 6,
         n: 5,
         c: 6,
+    },
+    {
+        title: "Companion",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/en/4/48/Companion_film_poster.jpg",
+        summary: ``,
+        e: 4,
+        a: 3,
+        n: 5,
+        c: 7,
     },
     {
         title: "Congress, The",

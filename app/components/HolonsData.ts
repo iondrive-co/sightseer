@@ -1348,20 +1348,21 @@ Kesseny let the silence hold. The heron rearranged itself and went back to not m
 
 'On the old Assembly wall in Spoke 3', Kesseny said, 'there's an inscription from Laboure. You know it.'
 
-'Everyone knows it.'
+'Everyone knows it. "I dreamed I was a child, marvelling at all I could become. I woke in old age and every possibility 
+had gone." Ellulists use it in the regret-minimisation class. You are supposed to see you own failures in it "my life is 
+a series of safe, meaningless decisions", that sort of thing'
 
-'I think about it. "I dreamed I was a child, marvelling at all I could become. I woke in old age and every possibility 
-had gone." He built a system and discovered it had no room for what he was.' 
+'I think about it a lot. How he built Ellulism as a system and in the end discovered it had no room for what he was.' 
 
 "You must love this place" Haude said instead.
 
 “The models say a human can't live here without the system degrading. But I've been watching this ecology for eleven 
 years and it has surprised me more often than it hasn't. The otters weren't in any model. The kingfishers came back two 
-years early. The fungal network did something with phosphorus uptake that three mycologists called impossible.”
+years early. The fungal networks rate of phosphorus uptake is astonishing.”
 
-Haude considered this. "They sound wild"
+Haude considered this. "It sounds wild"
 
-"They are" said Kesseny
+"It is" said Kesseny
 
 They walked back along the lower trail. Haude asked about the bats and Kesseny told them about the two years she'd 
 fought the lighting committee. Pathway lights. Dim, tasteful, solar-charged pathway lights so visitors could walk after 
@@ -1380,6 +1381,92 @@ through the soil, and the heron slept in the dead oak by the north bank that Kes
 dead oaks held more life per cubic metre than living ones. It slept the way herons have always slept, on one leg, head 
 tucked, as though no one had ever explained to it that it was the product of a laboratory and a freezer and a 
 hundred-year plan. The reserve did what it did. It became more itself, slowly, in the absence of anyone who needed it to 
-be something else.
+be something else.`},
+{
+    id: "attention-part-1",
+    name: "Attention - Part 1",
+    tags: ["Assistant"],
+    content: `She was the seventh child they'd tested that month.
+    
+Nim watched from behind the partition glass while the girl, who was nine, picked at the seam of her left shoe. The 
+filaments in the containment field drifted through configurations, and the display showed density impressions rather 
+than numbers because they'd found early on that numerical readouts degraded the field stability. That finding had 
+sounded mystical and had been dropped from the funding pitch. The pitch had failed anyway.
+
+The shapes had been open for twenty seconds. The girl was sitting the way children sit when nobody has told them what 
+to sit for, her weight on one hip, her attention somewhere general. Anyone who tried couldn't do it.
+
+Twenty-two seconds. The filaments locked into a single configuration.
+
+The girl looked at Nim through the glass with the mild irritation of someone who'd been told to sit still and was doing 
+her best.
+
+'Sorry' Nim said through the intercom. 'That was me.'
+
+Rae was at her station. The lab occupied a converted semiconductor fab in Santa Clara, bought cheap when the foundries 
+moved to orbital microgravity. The air handling still carried a toluene ghost.
+
+'Twenty-two seconds' Nim said. Her IA placed her own notes from Thursday beside it in her vision: fourteen seconds. 
+The operator dependency is getting harder to explain away.
+
+Rae didn't look up. On her desk, next to her water glass, a copper ka figure the size of a thumb caught the overhead 
+light. She'd told Nim it represented the part of a person that persists after death in the data stream. Nim had said it 
+looked like an ancient battery.
+
+'Every child we've tested holds the field longer than the best adult operator' Nim said. 
+
+She stopped to take in her IA input. 
+
+'Most children' 
+
+Another pause 
+
+'A statistically significant cohort of the children we've tested, in controlled conditions, with caveats.'
+
+'I liked the first one better' Rae said.
+
+The operators who described what they were doing wrong held it longer. Hosokawa had said shapes. Lila said it was like 
+holding a mirror at the wrong angle.
+
+'You are still ignoring Augustine?'
+
+Freehab had reverse engineered some aspects of the first contact probe, but whatever they had on the antimatter drive
+they had either held back from their violent separatist elements or perhaps hadn't figured out the entirety of what Nim 
+was slowly piecing together in her mind, which was the only place she could safely keep it. If even her IA got a whiff 
+of it the government would probably be through the doors in an hour and the whole "startup" shut down.
+
+'I don't know why he is interested in our company but I am happy to accept funding. He's not as bad as they say' Nim said. 
+
+Her IA helpfully introduced some context: Augustine Okafor. Likely Freeholder Paramilitary, violent, black market 
+connections. Do not accept funding.
+
+'I think the case is defensible.' 
+
+A longer one. 
+
+'It's complicated'
+
+'Nim' Rae's hands came together, fingertips touching then opening. 
+
+'The children are more at peace with the world than you' she said. Then she went back to her data stream.
+
+At six Nim stepped outside, stopping at the south wall and putting her palm flat against the bricks. Warm. Still holding 
+the afternoon while the crisp autumn air cooled around it. Crisp fall air, the IA corrected her. The marine change was 
+coming in now, and the mote layer thickened with it, billions of sensors carried inland with the fog until the air 
+shimmered. Rae came out.
+
+'I watched you today' Rae said. 'You collapsed the field from behind glass. You weren't even in the room.'
+
+Nim took her hand off the wall. On the ridge the Tomb of the Unknown Human was doing its twenty-minute glow, white on a 
+dark hillside. The Society of Life had built it as a political stunt to mourn those who died from curable senescence. 
+Nim thought that curable senescence sounded like a type of glue, and it was true that dead people did stop having 
+options and became permanent.
+
+Seven embryos, frozen in a clinic in Bangkok in 109 BFC. For seventy-eight years they'd been nothing decided. Seven 
+possible people in liquid nitrogen, then the fund crossed ฿100 trillion and a clerk at Siam International drew 
+divination sticks and one stick came up with a number and Nimitra Wongprasert had begun her life and left behind the 
+other six as possibilities still open.
+
+'Your Tokyo suborbital's at ten' Rae said.
 `},
 ];
