@@ -12,7 +12,8 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "10 Cloverfield Lane",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/0/0e/10_Cloverfield_Lane.png",
-        summary: ``,
+        summary: `A tense and well-acted bunker thriller with a nicely sustained mood, but the sci-fi hook feels 
+        retrofitted and the premise never opens up as much as it promises`,
         e: 5,
         a: 7,
         n: 6,
@@ -31,7 +32,8 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "13th Floor",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/0/02/The_Thirteenth_Floor_poster.jpg",
-        summary: ``,
+        summary: `A decent simulation-noir mystery with a menacing mood and solid idea, but it never makes the 
+        characters matter or gives the concept the visual kick it needs`,
         e: 6,
         a: 6,
         n: 6,
@@ -45,24 +47,6 @@ export const sciFiMoviesData: Movie[] = [
         a: 8,
         n: 3,
         c: 4,
-    },
-    {
-        title: "28 Days Later",
-        thumbnail: "https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/28_days_later.jpg/330px-28_days_later.jpg",
-        summary: ``,
-        e: 5,
-        a: 8,
-        n: 6,
-        c: 7,
-    },
-    {
-        title: "28 Weeks Later",
-        thumbnail: "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/28_Weeks_Later_poster.jpg/330px-28_Weeks_Later_poster.jpg",
-        summary: ``,
-        e: 4,
-        a: 7,
-        n: 4,
-        c: 3,
     },
     {
         title: "6th Day, The",
@@ -96,7 +80,7 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Ad Astra",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/c/cb/Ad_Astra_-_film_poster.jpg",
-        summary: ``,
+        summary: `A gorgeous, meditative trip through space, with the same glacial plotting issue as 2001`,
         e: 7,
         a: 9,
         n: 3,
@@ -105,7 +89,8 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Adjustment Bureau, The",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/1/1c/The_Adjustment_Bureau_Poster.jpg",
-        summary: ``,
+        summary: `A charming high-concept romance that keeps the free-will chase engaging even if the ideas are 
+        softened into something safer and lighter than they could have been`,
         e: 5,
         a: 7,
         n: 7,
@@ -114,7 +99,8 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Advantageous",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/f/fb/Advantageous_poster.jpg",
-        summary: ``,
+        summary: `Some smart social ideas and low-budget ingenuity but the thin drama and fragmented pacing keep it 
+        from becoming a fully realised feature`,
         e: 4,
         a: 5,
         n: 4,
@@ -142,7 +128,9 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Alien 4",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/7/70/Alien_Resurrection_poster.jpg",
-        summary: ``,
+        summary: `The Whedon style doesn't really work here, as you'd expect from him the crew dynamics and characters 
+        (and hybrid alien) are interesting, but the funny parts don't land and the atmosphere and awe the series
+        demands feels cheapened by the story`,
         e: 5,
         a: 6,
         n: 6,
@@ -210,7 +198,7 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Annihilation",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/f/f6/Annihilation_%28film%29.png",
-        summary: ``,
+        summary: `Great start, let down by a terrible abstract finale, exactly the same problem as Sunshine`,
         e: 7,
         a: 8,
         n: 5,
@@ -219,7 +207,8 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Anon",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/5/55/Anon.png",
-        summary: ``,
+        summary: `A surveillance-state noir built on a great Niccol premise, but the overexplained investigation 
+        and chilly characters leave the execution much less interesting than the idea`,
         e: 8,
         a: 7,
         n: 5,
@@ -228,7 +217,7 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Approaching The Unknown",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/0/06/Approaching_the_Unknown.png",
-        summary: ``,
+        summary: `A respectable first draft of an idea that needed a rewrite`,
         e: 6,
         a: 5,
         n: 4,
@@ -265,7 +254,7 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Atomica",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/7/72/Atomica%2C_Official_Poster.jpg",
-        summary: ``,
+        summary: `Never overcomes it low budget and poor casting`,
         e: 4,
         a: 5,
         n: 4,
@@ -274,7 +263,7 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Automata",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/6/65/Automata_poster.jpg",
-        summary: ``,
+        summary: `Its dusty post-collapse world and robot-evolution ideas are well executed`,
         e: 6,
         a: 7,
         n: 4,
@@ -292,15 +281,6 @@ export const sciFiMoviesData: Movie[] = [
         c: 7,
     },
     {
-        title: "Back To The Future",
-        thumbnail: "https://upload.wikimedia.org/wikipedia/en/d/d2/Back_to_the_Future.jpg",
-        summary: ``,
-        e: 2,
-        a: 4,
-        n: 6,
-        c: 3,
-    },
-    {
         title: "Battle For Terra",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/e/e2/Battle-for-terra-poster.jpg",
         summary: `A clever and original kids sci-fi with some excellent world building`,
@@ -312,7 +292,8 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Battleship",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/6/6e/Battleship_Poster.jpg",
-        summary: ``,
+        summary: `There is some fun naval strategy and a decent late-act gimmick here, but the alien setup is dumb, 
+        the spectacle generic, and most of the characters are barely placeholders`,
         e: 2,
         a: 5,
         n: 4,
@@ -321,7 +302,8 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Bicentenial Man",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/f/fc/Bicentennial_man_film_poster.jpg",
-        summary: ``,
+        summary: `A genuinely strong Asimov idea about a robot pursuing humanity gets a little smothered by its 
+        melodrama keeps dodging its best questions`,
         e: 8,
         a: 5,
         n: 5,
@@ -352,7 +334,7 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Blindness",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/b/bc/Blindness_%282008_film%29.png",
-        summary: ``,
+        summary: `The symbolism is so blunt and the characters so schematic that it becomes more punishing than profound`,
         e: 5,
         a: 5,
         n: 5,
@@ -361,7 +343,8 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Brazil",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/e/e9/Brazil_%281985_film%29_poster.jpg",
-        summary: ``,
+        summary: `Gilliam's bureaucratic dystopia is packed with memorable imagery and satirical invention, but the 
+        story sprawls badly and the characters feel more like ideas than people`,
         e: 7,
         a: 5,
         n: 3,
@@ -370,7 +353,8 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Captive State",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/4/43/Captive_State_%282019_poster%29.png",
-        summary: ``,
+        summary: `The occupied-Chicago atmosphere and low-key resistance angle are interesting, but the murky structure 
+        and underdefined characters are a let down`,
         e: 4,
         a: 7,
         n: 5,
@@ -379,7 +363,7 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Cargo",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/7/7e/Cargo2017poster.jpg",
-        summary: ``,
+        summary: `Great concept but too thinly developed to really land`,
         e: 5,
         a: 5,
         n: 3,

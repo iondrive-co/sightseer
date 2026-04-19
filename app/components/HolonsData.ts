@@ -1409,9 +1409,9 @@ moved to orbital microgravity. The air handling still carried a toluene ghost.
 'Twenty-two seconds' Nim said. Her IA placed her own notes from Thursday beside it in her vision: fourteen seconds. 
 The operator dependency is getting harder to explain away.
 
-Rae didn't look up. On her desk, next to her water glass, a copper ka figure the size of a thumb caught the overhead 
-light. She'd told Nim it represented the part of a person that persists after death in the data stream. Nim had said it 
-looked like an ancient battery.
+Rae didn't look up. She was passing her thoughts and impressions from the session to her synth, letting it do the 
+thinking about what everything meant so she didn't have to carry a theory into the next one. Nim found her peacefulness 
+more disturbing than the practice.
 
 'Every child we've tested holds the field longer than the best adult operator' Nim said. 
 
@@ -1430,15 +1430,14 @@ suggested they hadn't figured out the entirety of what Nim was slowly piecing to
 her mind her IA couldn't reach. Even the shape of the idea and the government would be through the doors in an hour and 
 the whole "startup" shut down.
 
-'I don't know why he is interested in our company but I am happy to accept funding. He's not as bad as they say' is what 
-Nim visualised and said instead. 
+'I'm happy to take his money if there really are no strings' is what Nim visualised and said instead. 
 
-Her IA helpfully introduced some context: Augustine Okafor. Likely Freeholder Paramilitary, violent, black market 
-connections. Do not accept funding.
+She paused while her IA helpfully introduced some context: Augustine Okafor. Probable Freeholder Paramilitary, black 
+market connections. Do not accept funding.
 
 'I think the case is defensible' 
 
-A longer one. 
+A longer pause.
 
 'It's complicated'
 
