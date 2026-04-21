@@ -1469,26 +1469,21 @@ and Nimitra Wongprasert had begun her life and left the other six possibilities 
     id: "attention-part-2",
     name: "Attention - Part 2",
     tags: ["Assistant"],
-    content: `The rain started on the way back and by the time the hopper crossed the Sumida the city had come apart. 
-Lights through wet glass, colour without edge. The buildings' surfaces ran together in the water. Her IA placed the 
-evening's schedule in her peripheral vision. She dismissed it. It placed it again with a priority tag: dinner 
-reservation, Marunouchi, 20:00, Yui Hasegawa +2. She dismissed that too. The reflections along Eitai-dōri stretched and 
-reformed and for a moment a bank of kanji became a long smear of blue-green like the river they'd just crossed, and she 
-thought of the bloom back home, her organisms in the current, and how things looked when they were allowed to dissipate.
+    content: `The rain started on the way back and by the time the hopper crossed the Sumida the city had come apart
+into colours without edges through the wet glass. Her IA placed a schedule for the evening in her peripheral vision. 
+She dismissed it. The reflections along Eitai-dōri stretched and reformed and for a moment a bank of kanji became a long 
+smear of blue-green like her glowing algae bloom back home when it dissipated through the water.
 
-The dinner had been Yui's idea, or Yui's excuse. Yui worked for Ångström in photonic crystal sales and had been Nim's 
-point of contact for the intermediary that afternoon, a man named Taniguchi who had discussed weather systems and order 
+The dinner had been Yui's idea, or Yui's excuse. Yui worked for Angusu in photonic sales and had been Nim's point of 
+contact for the intermediary that afternoon, a man named Taniguchi who had discussed weather systems and order 
 book dynamics for ninety minutes in a conference room overlooking the palace grounds and at no point mentioned money or 
 Augustine Okafor or the Freeholders or anything that would produce a record her IA could flag. When Nim left the
 building the funding structure existed, somehow, the way a price exists after a trade, settled rather than decided. 
-Her IA had flagged nothing because there was nothing to flag. The shape of the arrangement occupied a space her IA 
-couldn't parse, somewhere between the data points, and this should have worried her and instead she'd felt lightness.
-
-Then Yui had said: come out tonight, I want you to meet some people. Nim had said yes before her IA could suggest she 
-prepare for tomorrow's flight.
+Her IA had flagged nothing because there was nothing to flag. Then Yui had said: come out tonight, I want you to meet 
+some people.
 
 Yui lived in Kōenji in a building old enough to have physical mailboxes. Her flat was on the sixth floor and was 
-designed for one person and currently contained six. Yui opened the door and pulled Nim inside by the wrist and the 
+designed for one person and currently contained six. Yui opened the door and pulled Nim inside by the wrist. The 
 flat smelled like yuzu and something frying and the music was a stuttering percussive loop that Nim's IA identified as 
 a Martian export, MarsNet producer, before she told it to stop identifying things.
 
@@ -1497,17 +1492,17 @@ Yui handed her a glass. "You still look like a person who was in a meeting today
 "You need to stop looking like it. Drink that"
 
 It was cold and botanical and strong enough that it hit the back of her throat with a small violence. Yui was already 
-across the room introducing her to people whose names arrived and departed. A woman named Sora who worked in atmospheric 
-modelling and had hands stained faintly orange from something she was building. A man called Hiro who didn't explain 
-what he did, then two more people arrived. A man named Kazu who repaired biosynthetic instruments in Yanaka; and Michi, 
+across the room introducing her to people, a woman named Sora who worked in atmospheric modelling and had hands stained 
+faintly orange from something she was building, a man called Hiro who didn't explain what he did, some others that
+left and then two more people arrived. A man named Kazu who repaired biosynthetic instruments in Yanaka; and Michi, 
 who was Yui's age and laughed hard and often and appeared to mean it every time, and who handed Nim a second drink 
 before she'd finished the first.
 
 "Why the algae?" Michi asked.
 
 Nim thought about it. "It started as a filtration system. And then it became a way to monitor water quality. And then it 
-became something that made the drowned parts of the city beautiful at night, and I stopped being able to explain which 
-one it was for."
+became something that made the drowned parts of the city beautiful at night, and then I stopped being able to explain 
+which one it was for."
 
 "The best kind of project" Michi said. "Outran your reasons"
 
@@ -1596,17 +1591,17 @@ dark. Outside the air was cool and smelled like rain that had already finished. 
 hands and said "you have a good face" and then walked into Kōenji with Yui leaning against her, and the street was 
 empty.
 
-Nim walked. The city was paused. Millions of people asleep and the infrastructure humming without them, climate systems 
-and water treatment and mote relays and the quiet processing of a million IAs turning the day's data into something 
-searchable. Indexing. Filing. Making permanent everything that the sleeping city was trying to let go of. She thought 
-about what Rae would say about this hour. The city in REM. Pruning its synaptic commitments. And here was Nim walking 
-through it awake, accumulating.
-
-She passed a shrine that had been folded into the ground floor of a newer building, the torii gate original, the 
-structure around it polymer and glass. Inside, the small amber glow of something still running. She thought of the 
-spirit houses in Charoen Krung, the ones still lit, still managing systems for buildings nobody lived in. Keeping faith 
-with an infrastructure that had moved on. She felt the plastic cat in her pocket and walked the rest of the way back to 
-the hotel.
+Nim walked, passing a shrine that had been folded into the ground floor of a newer building, the torii gate original, the 
+structure around it polymer and glass. Inside, the small amber glow of something still running. She followed the slope 
+up at Kagurazaka where the stone paving was wet and the noise from the main road fell away after a few metres. Paper 
+lanterns still lit at some of the ochaya. A cat watched her from under an eave and she went down some stone steps past a
+moss garden the size of a tablecloth. Soon a moat came up on her left, a black width of water, and beyond it the wall 
+and the palace forest rising behind, a mass of trees that made no sound. Across the water the Marunouchi towers were 
+lit, infrastructure humming without people, climate systems and water treatment and mote relays and the quiet processing 
+of a million IAs turning the day's data into something searchable. Making permanent everything that the sleeping people 
+back home were trying to let go of. She thought about what Rae would say about this hour. The city in REM. Pruning its 
+synaptic commitments. And here was Nim walking through it awake, accumulating. She felt the plastic cat in her pocket 
+and called a hopper to take her back to her hotel.
 
 The room was warm and the bed was made and the city was outside the window starting to lighten. She sat on the edge of 
 the bed with her shoes on and closed her eyes. Not sleep but the place between. Her body in the room and her attention 
@@ -1632,7 +1627,7 @@ were clean and that fan had all its blades, and the understanding was not a fact
 evaporating because she was definite and the room was definite and definiteness does what definiteness does.
 
 She took off her shoes. She brushed her teeth. She opened the expo invitation and accepted it and booked a cycler berth 
-to Luna. The room had won. The room always wins. But maybe she could choose which room.
+to Luna. The room had won. The room always wins. But maybe she could choose the next room.
 
 She put the plastic cat on the nightstand. She slept, and if she dreamed more she didn't remember it.
 `},
