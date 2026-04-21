@@ -611,7 +611,7 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Deep Blue Sea",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/7/73/Deep_Blue_Sea_%281999_film%29_poster.jpg",
-        summary: ``,
+        summary: `Enjoyable thriller that keeps the set pieces moving and the surprises coming, even if the premise is ridiculous`,
         e: 6,
         a: 6,
         n: 6,
@@ -620,7 +620,7 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Deep Impact",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/9/93/Deep_Impact_poster.jpg",
-        summary: ``,
+        summary: `This earnest comet-disaster movie has some strong apocalyptic atmosphere and human-scale emotion, but too many contrivances and bits of soft-headed science keep it from hitting harder`,
         e: 5,
         a: 8,
         n: 6,
@@ -639,7 +639,7 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Divergent",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/7/7e/Divergent_film_poster.jpg",
-        summary: ``,
+        summary: `The YA sci-fi initially has momentum but the worldbuilding is flimsy and it soon turns into a slog`,
         e: 5,
         a: 7,
         n: 6,
@@ -667,7 +667,7 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Dredd",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Dredd2012Poster.jpg/330px-Dredd2012Poster.jpg",
-        summary: ``,
+        summary: `A lean, well-contained story with a decent but thin dystopian setup`,
         e: 4,
         a: 6,
         n: 7,
@@ -676,7 +676,7 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Dune (1984)",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/5/51/Dune_1984_Poster.jpg",
-        summary: ``,
+        summary: `Lynch occasionally conjures some striking Herbertian imagery and scale, but the film is such an ugly, incoherent pile of exposition and portent that almost none of the story or people connect`,
         e: 7,
         a: 4,
         n: 4,
@@ -714,7 +714,7 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Ender's Game",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/8/8c/Ender%27s_Game_poster.jpg",
-        summary: ``,
+        summary: `A competent adaptation with a solid central premise and a few good battle-school moments, but it sands off the book's cruelty and complexity until everything feels too safe`,
         e: 5,
         a: 6,
         n: 6,
@@ -723,7 +723,7 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Escape From L.A",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/7/71/Escape_From_LA.jpg",
-        summary: ``,
+        summary: `There is a certain go-for-broke commitment to Carpenter's joke, but the effects, satire, plot and characters are all so stupid and grating that it plays like self-parody without the fun`,
         e: 2,
         a: 1,
         n: 1,
@@ -732,7 +732,7 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Europa Report",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/2/23/Europa_Report_Official_Poster.jpg",
-        summary: ``,
+        summary: `A restrained and plausibly technical space mission movie with a nice documentary texture, but the muted characters and underpowered payoff make it more respectable than involving`,
         e: 6,
         a: 5,
         n: 5,
@@ -741,7 +741,7 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Eva",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/d/db/Eva_%282018_film%29.png",
-        summary: ``,
+        summary: `The robotics ideas and lived-in future details are appealing, but the domestic melodrama is too predictable and underdeveloped`,
         e: 5,
         a: 3,
         n: 3,
@@ -770,7 +770,7 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "External Sunshine of the Spotless Mind",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/a/a4/Eternal_Sunshine_of_the_Spotless_Mind.png",
-        summary: ``,
+        summary: `An inventive and very well-acted memory-erasure romance, but the twee melancholy and maze-like structure keep the sci-fi conceit at an intellectual distance rather than an emotional one`,
         e: 5,
         a: 3,
         n: 5,

@@ -1500,9 +1500,8 @@ before she'd finished the first.
 
 "Why the algae?" Michi asked.
 
-Nim thought about it. "It started as a filtration system. And then it became a way to monitor water quality. And then it 
-became something that made the drowned parts of the city beautiful at night, and then I stopped being able to explain 
-which one it was for."
+Nim thought about it. "It started as a filtration system. And then it became a way to monitor water quality. And now
+also something to made the drowned parts of the city beautiful at night."
 
 "The best kind of project" Michi said. "Outran your reasons"
 
@@ -1510,15 +1509,14 @@ They left Yui's flat because Sora wanted ramen. They walked four blocks in light
 where the bowls were enormous and the steam rose into a ventilation system older than anyone at the table. The 
 neighbourhood was dense and layered and the projection surfaces on the buildings made the wet streets glow. The ramen 
 place was narrow and bright and the cook knew Yui because everyone in Kōenji knew Yui. They sat at a counter that was 
-too small and their elbows touched and Hiro was next to Nim and she noticed he ate slowly, with attention, the full 
-presence of a person who had given their worrying to something else and was just here, just eating, just warm.
+too small and their elbows touched and Hiro was next to Nim and she noticed he ate slowly, with attention.
 
 "You're watching me eat" Hiro said.
 "Sorry. You just seemed very… present"
 He smiled. Not at her. At his ramen. "No, I am thinking about something. I'm thinking about how good this is"
 
-Nim's IA placed a note in her vision: Meeting with Augustine Okafor, Cultural Bereavement exposition, Aljanah Lunar 
-Resort, in two days. Invitation forwarded by Yui Hasegawa. She read it and let it sit there.
+Nim's IA placed a note in her vision: Saturday. Meeting with Augustine Okafor, Cultural Bereavement exposition, 
+Aljanah Lunar Resort.
 
 They left because Kazu knew a place. It was going to be a night driven by someone knowing a place, and Nim realised 
 that the momentum wasn't hers, that she was inside someone else's evening, and the relief of this was so physical she 
@@ -1577,8 +1575,7 @@ the microphone.
 Nim picked a song she half-knew, because she recognised the first line and because her IA couldn't help her with this. 
 She sang it badly and the song was about something that only became clear while she was singing it, the meaning 
 arriving after the decision to start, but the room held her anyway. She sang it to the screen and didn't look at anyone. 
-When she finished Michi clapped and Yui said "you sing like a beautiful emergency" and Nim laughed in a way that came 
-from below her chest.
+When she finished Michi clapped and Yui said "you sing like a beautiful emergency" which made Nim laugh.
 
 They stayed. The bottles emptied. Yui fell asleep on Michi's shoulder. Hiro sat with his eyes closed and Nim couldn't 
 tell if he was meditating or dozing or consulting whatever it was that kept him so still, and in the dim light of the 
@@ -1626,8 +1623,8 @@ something for three or four seconds, something about the kitchen and the person 
 were clean and that fan had all its blades, and the understanding was not a fact, it was a shape, and the shape was 
 evaporating because she was definite and the room was definite and definiteness does what definiteness does.
 
-She took off her shoes. She brushed her teeth. She opened the expo invitation and accepted it and booked a cycler berth 
-to Luna. The room had won. The room always wins. But maybe she could choose the next room.
+She took off her shoes. She brushed her teeth. She opened the expo invitation and accepted it and booked a berth on the
+next cycler to Luna. The room had won. The room always wins. But maybe she could choose the next room.
 
 She put the plastic cat on the nightstand. She slept, and if she dreamed more she didn't remember it.
 `},
