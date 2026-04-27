@@ -1543,26 +1543,35 @@ At some point they lost Kazu. He said something to Yui in Japanese that Nim's tr
 to become horizontal" and then he was gone, walking into the rain with his jacket over his head. Sora left with him, 
 the orange hands in her pockets.
 
-The rest of them walked. The rain had thinned to something not quite mist and not quite rain, and the streets of Kōenji 
-at this hour were between states. Last trains gone, first trains three hours away. The people out now had chosen it. 
-They moved between bars and all-night curry places and vending corridors where you could buy socks or antibiotics or 
-canned coffee that was better than it had any right to be. Michi bought canned coffee. Yui bought a small plastic figure 
-from a capsule machine, a cat in some kind of suit, and put it in Nim's hand.
+The rest of them walked. The rain had thinned to something not quite mist and not quite rain, and the streets at this 
+hour were between states. Last trains gone, first trains three hours away. The people out now had chosen it. Yui talked 
+to a man carrying a cello case and they appeared to know each other, or to have decided to know each other for the 
+duration of that stretch of pavement.
+
+They took a lift core at the interchange. Nim watched through the glass wall as the ground fell away, and at fifteen 
+floors residential corridors slid past, quiet, closed doors, someone's laundry on a drying rack in a sleeping hallway. 
+Then the lift opened at a junction platform at the twenty-eighth floor and they crossed a short bridge to a wider one.
+The bridgeway was open to the sky on both sides, wide enough for stalls built into the structural piers, and above and 
+to the south two more walkways crossed at different heights, one planted and residential, the other bright with food 
+stalls and standing bars. Up there was where the night kept going. Michi moved through it in a way that told Nim she 
+lived at this altitude or near it, weaving between a noodle counter that had colonised half the walkway and a cluster of 
+people leaning on the railing and looking down at something. The wind pushed the mist sideways and the wet surfaces 
+reflected everything twice. They walked past bars and all-night curry places and vending corridors where you could buy 
+socks or antibiotics or canned coffee that was better than it had any right to be. Michi bought some. Yui bought a small 
+plastic figure from a capsule machine, a cat in some kind of suit, and put it in Nim's hand.
 
 "Why?"
 "Because you looked like you needed a small stupid thing"
 
-Nim put the cat in her pocket. Yui went ahead, talking to a man carrying a cello case at two in the morning, and they 
-appeared to know each other, or to have decided to know each other for the duration of this stretch of pavement. Nim 
-watched Yui's ability to be inside any moment she walked into and for the first time in days thought of Jess, who did 
-the opposite. In Bangkok Jess was doing whatever Jess did. Survive. Her IA placed a note: heart rate elevated, 
-recommend regulation adjustment. She dismissed it.
+Nim put the cat in her pocket and for the first time in days thought of Jess. In Bangkok Jess was doing whatever Jess 
+did. Survive. Her IA placed a note: heart rate elevated, recommend regulation adjustment. She dismissed it.
 
-Michi found a karaoke place. Of course she did. The building was narrow and fluorescent and smelled like cleaning 
-products and whatever the previous group had spilled. Their room was non-immersive, real microphones, and small enough 
-that their knees nearly touched. Yui sang first, an old pop song that she performed with a commitment that replaced 
-quality with sincerity and came out ahead. Michi sang fado, which nobody expected, and her voice was actually good, and 
-the room went quiet in the way they do when someone reveals something they've been hiding under all that laughing.
+Michi found a karaoke place. Of course she did. The entrance was through a modular unit bolded to the structural frame, 
+and the corridor was narrow and fluorescent and smelled like cleaning products and whatever the previous group had 
+spilled. Their room was non-immersive, real microphones, and small enough that their knees nearly touched. Yui sang 
+first, an old pop song that she performed with a commitment that replaced quality with sincerity and came out ahead. 
+Michi sang fado, which nobody expected, and her voice was actually good, and the room went quiet in the way they do when 
+someone reveals something they've been hiding under all that laughing.
 
 Hiro didn't sing, just sat and listened, and Nim envied and distrusted the completeness of that. Then Yui handed her 
 the microphone.
@@ -1582,10 +1591,11 @@ room with the hallway music leaking through the walls he looked like someone who
 carrying, and the solution was the thing she wasn't willing to do, which was stop.
 
 The night ended. Not because anyone said so. Michi yawned and Yui stirred and the empty glasses clinked when Hiro stood 
-and they were all putting on jackets and settling up and filing into a hallway that had gone quiet, the other rooms 
-dark. Outside the air was cool and smelled like rain that had already finished. Embraces. Michi held Nim's face in both 
-hands and said "you have a good face" and then walked into Kōenji with Yui leaning against her, and the street was 
-empty.
+and they were all putting on jackets and settling up and filing out onto the walkway where the air was cold and the rain 
+had stopped and the city below was a different pattern now, the eastern sky starting to separate from the buildings. 
+They took the lift core down in silence and stepped out onto the ground-level streets, which were darker and warmer and 
+closer and smelled like wet grass and earth. Embraces. Michi held Nim's face in both hands and said "you have a good face" 
+and then walked away towards Kōenji with Yui leaning against her, and the street was empty.
 
 Nim walked, passing a shrine that had been folded into the ground floor of a newer building, the torii gate original, the 
 structure around it polymer and glass. Inside, the small amber glow of something still running. She followed the slope 
