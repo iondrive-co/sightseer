@@ -1470,9 +1470,9 @@ and Nimitra Wongprasert had begun her life and left the other six possibilities 
     name: "Attention - Part 2",
     tags: ["Assistant"],
     content: `The rain started on the way back and by the time the hopper crossed the Sumida the city had smeared into 
-colours through the wet glass. Her IA placed a schedule for the evening in her peripheral vision. She dismissed it. 
-The reflections along Eitai-dōri stretched and reformed. For a moment a bank of kanji became a long smear of blue-green 
-that reminded her of her glowing algae bloom dissipating through the water.
+colours through the wet glass. Her IA placed a schedule for the evening in her peripheral vision. She brushed two 
+fingers behind her ear to dismiss it. The reflections along Eitai-dōri stretched and reformed. For a moment a bank of 
+kanji became a long smear of blue-green that reminded her of her glowing algae bloom dissipating through the water.
 
 The dinner had been Yui's idea, or Yui's excuse. Yui worked for Angusu in photonic sales and had been Nim's point of 
 contact for the intermediary that afternoon, a man named Taniguchi who had discussed weather systems and order 
@@ -1484,8 +1484,8 @@ some people.
 
 Yui lived in Kōenji in a building old enough to have physical mailboxes. Her flat was on the sixth floor and was 
 designed for one person and currently contained six. Yui opened the door and pulled Nim inside by the wrist. The 
-flat smelled like yuzu and something frying in real oil. The music was a stuttering percussive loop that Nim's IA 
-identified as a Martian export, MarsNet producer, before she told it to stop identifying things.
+flat smelled like yuzu and the music was a stuttering percussive loop that Nim's IA identified as a Martian export, 
+MarsNet producer. She brushed behind her ear to stop it identifying things.
 
 Yui handed her a glass. "You still look like a person who was in a meeting today"
 "I was in a meeting today"
@@ -1503,7 +1503,9 @@ before she'd finished the first.
 Nim thought about it. "It started as a filtration system. And then it became a way to monitor water quality. And now
 also something to made the drowned parts of the city beautiful at night."
 
-"The best kind of project" Michi said. "Outran your reasons"
+"The best kind of project" Michi said. "Outran your reasons. I had something like that in Kōbe, we were building—" 
+Sora called something from the kitchen and Michi was up and across the room and whatever she'd been building in Kōbe 
+stayed there.
 
 They left Yui's flat into the light rain because Sora wanted ramen. The neighbourhood was dense and layered and the 
 projection surfaces on the buildings made the wet pavement glow. They walked four blocks of narrow grassy streets to a 
@@ -1513,10 +1515,11 @@ Nim, and when the food arrived she noticed how slowly and carefully he ate.
 
 "You're watching me eat" Hiro said.
 "Sorry. You just seemed very… present"
-He smiled. Not at her. At his ramen. "No, I am thinking about something. I'm thinking about how good this is"
+He smiled. Not at her. At his ramen. "No, I am thinking about something. I'm thinking about how good this is, the 
+kansui. My mother used to put too much in and the noodles would go yellow and she'd say that was the correct colour"
 
 Nim's IA placed a note in her vision: Saturday. Meeting with Augustine Okafor, Cultural Bereavement exposition, 
-Aljanah Lunar Resort.
+Aljanah Lunar Resort. She brushed behind her ear.
 
 They left because Kazu knew a place. It was going to be a night driven by someone knowing a place, and Nim realised 
 that the momentum wasn't hers, that she was inside someone else's evening, and the relief of this was so physical she 
@@ -1527,11 +1530,18 @@ back, and the room was small enough that everyone was close. The owner was a wom
 looked to be in her seventies.
 
 They sat and drank and the conversation separated into pieces. Yui and Sora talking about Sora's atmospheric project. 
-Kazu showing Michi something on his hands that Nim couldn't see from where she sat. And Nim was next to Hiro and they 
-were not talking, which was fine, which was possibly the most restful thing that had happened to her in months. The 
-music filled the space where conversation would have gone.
+Kazu showing Michi something on his hands that Nim couldn't see from where she sat. Across the table Yui was holding her 
+drink against her sternum with both hands, eyes closed, lips moving to something that wasn't the music. A count, or a 
+word. Then she opened her eyes and was across the room refilling Kazu's glass, her hand on his shoulder as she poured.
+Nim was next to Hiro.
+ 
+"Were they good?" she said to Hiro. "Your mother's noodles?"
+"No"
+ 
+And then they were not talking, which was fine, since this was possibly the most restful thing that had happened to her 
+in months. The music filled the space where conversation would have gone.
 
-"What's the theme?" she asked him rather than her IA.
+"What's the theme?" she eventually asked him, rather than her IA.
 "Pre-Khan. She only plays things from before the storm. Her family had a recording studio up in Sapporo when it went 
 dark. Down here was the center of the world for a while - the ASST transformers, right? So they relocated here and 
 rebuilt, but made that their thing - only kept the analogue stuff"
@@ -1556,15 +1566,26 @@ to the south two more walkways crossed at different heights, one planted and res
 stalls and standing bars. Up there was where the night kept going. Michi moved through it in a way that told Nim she 
 lived at this altitude or near it, weaving between a noodle counter that had colonised half the walkway and a cluster of 
 people leaning on the railing and looking down at something. The wind pushed the mist sideways and the wet surfaces 
-reflected everything twice. They walked past bars and all-night curry places and vending corridors where you could buy 
-socks or antibiotics or canned coffee that was better than it had any right to be. Michi bought some. Yui bought a small 
-plastic figure from a capsule machine, a cat in some kind of suit, and put it in Nim's hand.
+reflected everything twice. 
+
+They walked past bars and all-night curry places and vending corridors where you could buy socks or thermoregulation 
+patches or canned coffee that was better than it had any right to be. Michi bought two coffees and a yurumu tab and put 
+one of each in Nim's hands. Nim peeled the tab and pressed it to the inside of her wrist. Michi was already walking.
+Nim stopped at the railing.
+Michi came back. "What are you looking at?"
+"I don't know"
+Michi leaned on the railing next to her and they stood like that. Nim stepped sideways to let a man with a food cart 
+pass and her shoulder pressed against Michi's and neither of them moved away from it. They walked on at that distance.
+
+Yui appeared with a small plastic figure from a capsule machine, a cat in some kind of suit, and put it in Nim's hand.
 
 "Why?"
 "Because you looked like you needed a small stupid thing"
 
-Nim put the cat in her pocket and for the first time in days thought of Jess. In Bangkok Jess was doing whatever Jess 
-did. Survive. Her IA placed a note: heart rate elevated, recommend regulation adjustment. She dismissed it.
+Nim held it up and turned it. The tiny painted face. The tiny suit. The serious expression. Behind her Yui glanced at 
+Michi. Michi looked back at her. Nim put the cat in her pocket. For the first time in days she thought of Jess. In 
+Bangkok Jess was doing whatever Jess did. Survive. Somewhere at the edge of her vision a note about her heart rate 
+appeared. It stayed there for a while, small and far away from the yurumu, and then it was gone.
 
 Michi found a karaoke place. Of course she did. The entrance was through a modular unit bolded to the structural frame, 
 and the corridor was narrow and fluorescent and smelled like cleaning products and whatever the previous group had 
@@ -1573,29 +1594,30 @@ first, an old pop song that she performed with a commitment that replaced qualit
 Michi sang fado, which nobody expected, and her voice was actually good, and the room went quiet in the way they do when 
 someone reveals something they've been hiding under all that laughing.
 
-Hiro didn't sing, just sat and listened, and Nim envied and distrusted the completeness of that. Then Yui handed her 
-the microphone.
+Hiro didn't sing, just sat and listened. Then Yui handed Nim the microphone.
 
 "I can't sing"
 "Nobody can sing. Michi is an anomaly"
 "Thank you" Michi said.
 
-Nim picked a song she half-knew, because she recognised the first line and because her IA shouldn't help her with this. 
-She sang it badly and the song was about something that only became clear while she was singing it, the meaning 
-arriving after the decision to start, but the room held her anyway. She sang it to the screen and didn't look at anyone. 
-When she finished Michi clapped and Yui said "you sing like a beautiful emergency" which made Nim laugh.
+Nim scrolled through the list. It was long and the titles meant nothing and she passed songs she probably knew and kept 
+scrolling. She picked one because she recognised the first line. She sang it badly and the song was about something that 
+only became clear while she was singing it. She sang it to the screen and didn't look at anyone. Her left hand was on 
+her knee and at some point during the second verse it opened, palm up, and stayed that way. When she finished Michi 
+clapped and Yui said "you sing like a beautiful emergency" which made Nim laugh.
 
-They stayed. The bottles emptied. Yui fell asleep on Michi's shoulder. Hiro sat with his eyes closed and Nim couldn't 
-tell if he was meditating or dozing or consulting whatever it was that kept him so still, and in the dim light of the 
-room with the hallway music leaking through the walls he looked like someone who had solved a problem she was still 
-carrying, and the solution was the thing she wasn't willing to do, which was stop.
+The bottles emptied. Yui fell asleep on Michi's shoulder. Hiro sat with his eyes closed and Nim couldn't 
+tell if he was meditating or dozing or consulting whatever it was that kept him so still. And then the night ended. 
+Not because anyone said so. Michi yawned and Yui stirred and Hiro opened his eyes and the empty glasses clinked when he 
+stood, and then they were all putting on jackets and settling up and filing into the narrow corridor. Under the 
+fluorescent light Nim reached forward and picked a thread from the back of Hiro's jacket and dropped it. He didn't 
+notice. 
 
-The night ended. Not because anyone said so. Michi yawned and Yui stirred and the empty glasses clinked when Hiro stood 
-and they were all putting on jackets and settling up and filing out onto the walkway where the air was cold and the rain 
-had stopped and the city below was a different pattern now, the eastern sky starting to separate from the buildings. 
-They took the lift core down in silence and stepped out onto the ground-level streets, which were darker and warmer and 
-closer and smelled like wet grass and earth. Embraces. Michi held Nim's face in both hands and said "you have a good face" 
-and then walked away towards Kōenji with Yui leaning against her, and the street was empty.
+They stepped out onto the walkway where the air was cold and the rain had stopped, and the city below was a different 
+pattern now, the eastern sky starting to separate from the buildings. They took the lift core down in silence and 
+stepped out onto the ground-level streets, which were darker and warmer and closer and smelled like wet grass and earth. 
+Embraces. Michi held Nim's face in both hands and said "you have a good face" and then walked away towards Kōenji with 
+Yui leaning against her, and the street was empty.
 
 Nim walked, passing a shrine that had been folded into the ground floor of a newer building, the torii gate original, the 
 structure around it polymer and glass. Inside, the small amber glow of something still running. She followed the slope 
@@ -1604,35 +1626,30 @@ lanterns still lit at some of the ochaya. A cat watched her from under an eave a
 moss garden the size of a tablecloth. Soon a moat came up on her left, a black width of water, and beyond it the wall 
 and the palace forest rising behind, a mass of trees that made no sound. Across the water the Marunouchi towers were 
 lit, infrastructure humming without people, climate systems and water treatment and mote relays and the quiet processing 
-of a million IAs turning the day's data into something searchable. Making permanent everything that the sleeping people 
-back home were trying to let go of. She thought about what Rae would say about this hour. The city in REM. Pruning its 
-synaptic commitments. And here was Nim walking through it awake, accumulating. She felt the plastic cat in her pocket 
-and called a hopper to take her back to her hotel.
+of a million IAs turning the day's data into something searchable and permanent. Rae would say the city was in REM, 
+pruning its synaptic commitments. And here was Nim walking through it awake, accumulating. She felt the plastic cat in 
+her pocket and called a hopper to take her back to her hotel.
 
-By the time she got back to her room the city outside the window was starting to lighten, the sun catching the distant 
-upper storeys and shifting the building's surface out of its night phase. She sat on the edge of the bed and closed her 
-eyes, her body in the room but her attention loosening. An image came in, the way things come in when you're not looking 
-directly, clean green and cream tiles small squares. A two-burner gas range, the wok ring dark with use, and a slowly
-turning ceiling fan moving real dust motes illuminated in the warm light from a window. There was someone in this 
-kitchen who was not her, whose hands were on a counter, whose back was turned, whose hair was tied up and dark, and the 
-kitchen would have smelled like something just cooked and the air would have been the temperature that air is when 
-someone has been in it for hours and not managed the climate because managing the climate was not something this person 
-did.
+By the time she got back to her room the yurumu was wearing off and the city outside the window was starting to lighten, 
+the sun catching the distant upper storeys and shifting the building's surface out of its night phase. She sat on the 
+edge of the bed and closed her eyes, her body in the room but her attention loosening. An image came in, the way things 
+come in when you're not looking directly, clean green and cream tiles small squares. A two-burner gas range, the wok 
+ring dark with use, and a slowly turning ceiling fan moving real dust motes illuminated in the warm light from a window. 
+There was someone in this kitchen who was not her, whose hands were on a counter, whose back was turned, whose hair was 
+tied up and dark, and the kitchen would have smelled like something just cooked and the air would have been unmanaged 
+and comfortable and warm.
 
 Three seconds. Four. The hotel room came in at the edges and the tiles faded and the kitchen was going and the person 
-in it was going and Nim reached for it the way you reach for something falling and it was gone, not because it was 
-nothing but because it was something that couldn't pass through the aperture of a mind that was awake and definite and 
-logging everything.
-
-The hotel room. The surface beneath her had adjusted its temperature to her body while she sat. The city outside, 
-brightening into morning.
+in it was going. Nim reached for that the way you reach for something falling but it was gone, not because it was 
+nothing but because it was something that couldn't pass through the aperture of a mind that was awake and definite 
+and logging everything. The hotel room. The surface beneath her which had adjusted its temperature to her body. The city 
+outside, brightening into morning.
 
 Nim sat and felt the grief, not of the content dissolving but the understanding. She had understood something for three 
-or four seconds, held close something about the kitchen and the person in it and the life where those tiles were clean 
-and that fan had all its blades, and the shape of that was evaporating because she was definite and the room was 
-definite and definiteness does what definiteness does. She brushed her teeth and opened the expo invitation and accepted 
-it and booked a berth on the next cycler to Luna. The room had won. The room always wins. But maybe she could choose 
-the next room.
+or four seconds, held close something about the kitchen and the person and her life, and the shape of that was 
+evaporating because she was definite and this room was definite. She brushed her teeth and opened the expo invitation. 
+She accepted it and booked a berth on the next cycler to Luna, because maybe the room always wins but at least she she 
+could choose the next one to be in.
 
 She put the plastic cat on the nightstand. She slept, and if she dreamed more she didn't remember it.
 `},
