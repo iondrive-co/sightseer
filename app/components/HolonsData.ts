@@ -1403,17 +1403,17 @@ her best.
 
 'Sorry' Nim said through the intercom. 'That was me'
 
-Rae was at her station. The lab occupied a converted semiconductor fab in Santa Clara, bought cheap when the foundries 
-moved to orbital microgravity. The air handling still carried a toluene ghost.
+Nim crossed to Rae's station, her thumb running along the cuff seal of her jacket. The lab occupied a converted 
+semiconductor fab in Santa Clara, bought cheap when the foundries moved to orbital microgravity. The air handling still
+carried a toluene ghost.
 
 'Twenty-two seconds' Nim said. Her IA placed her own notes from Thursday beside it in her vision: fourteen seconds. 
-The operator dependency is getting harder to explain away.
+The operator dependency getting harder to explain away.
 
 Rae didn't look up. She was passing her thoughts and impressions from the session to her synth, letting it do the 
-thinking about what everything meant so she didn't have to carry a theory into the next one. Nim found her peacefulness 
-more disturbing than the practice.
+thinking about what everything meant so she didn't have to carry a theory into the next one. She looked peaceful.
 
-'Every child we've tested holds the field longer than the best adult operator' Nim said. 
+'Every child we've tested still holds the field longer than the best adult operator' Nim said. 
 
 She stopped to take in her IA input. 
 
@@ -1426,14 +1426,14 @@ Another pause
 'I liked the first one better' Rae said. 'Do you want me to set up the thing with Augustine?'
 
 Whatever Freehab had reverse engineered from the alien probe, their separatist elements sniffing around her company
-suggested they hadn't figured out the entirety of what Nim was slowly piecing together, deep in the unfocussed parts of 
-her mind her IA couldn't reach. Even the shape of the idea and the government would be through the doors in an hour and 
-the whole "startup" shut down.
+suggested they hadn't figured out all of it. Nim wasn't sure she had either, and she definitely didn't want to pull the 
+entirety of that idea into the focussed part of her mind her IA could reach. If it got out some government agency would 
+be through the doors in an hour and the whole startup shut down.
 
 'I'm happy to take his money if there really are no strings' is what Nim visualised and said instead. 
 
 She paused while her IA helpfully introduced some context: Augustine Okafor. Probable Freeholder Paramilitary, black 
-market connections. Do not accept funding.
+market connections. Do not take his money.
 
 'I think the case is defensible' 
 
@@ -1441,8 +1441,8 @@ A longer pause.
 
 'It's complicated'
 
-'Nim' Rae's hands came together, fingertips touching then opening. 
-'The children are more at peace with the world than you' she said. Then she went back to her data stream.
+'Nim' Rae paused and her hands came together, fingertips touching then opening. 
+'The children, they are more at peace with the world than you' she said. Then she went back to her data stream.
 
 At six Nim stepped outside, stopping at the south wall and putting her palm flat against the bricks. Warm. Still holding 
 the afternoon while the crisp autumn air cooled around it. 
@@ -1456,12 +1456,12 @@ fog until the air shimmered. Rae came out.
 
 Nim nodded and took her hand off the wall. On the ridge the Tomb of the Unknown Human was catching the light, orange 
 against a darkening hillside. The Society of Life had built it as an expensive promotional stunt, to "mourn those who 
-died from curable senescence". Nim thought that curable senescence sounded like a type of glue, and it was true that 
-dead people did stop having options and became permanent.
+died from curable senescence". Nim thought that curable senescence sounded like a type of glue, making dead people 
+stop having options and became permanent.
 
-Seven embryos frozen in a clinic in Bangkok in 109 BFC. For seventy-eight years they'd been nothing decided and then the 
-fund crossed ฿100 trillion and a clerk at Siam International drew divination sticks and one stick came up with a number 
-and Nimitra Wongprasert had begun her life and left the other six possibilities open.
+There once were seven embryos, frozen in a clinic in Bangkok. For seventy-eight years they'd been nothing decided and 
+then the fund crossed ฿100 trillion and a clerk at Siam International drew divination sticks and one stick came up with 
+a number and Nimitra Wongprasert had begun her life and left the other six possibilities open.
 
 'Your Tokyo suborbital's at ten' Rae said.
 .`},
@@ -1501,7 +1501,7 @@ before she'd finished the first.
 "Why the algae?" Michi asked.
 
 Nim thought about it. "It started as a filtration system. And then it became a way to monitor water quality. And now
-also something to made the drowned parts of the city beautiful at night."
+also something to make the drowned parts of the city beautiful at night."
 
 "The best kind of project" Michi said. "Outran your reasons. I had something like that in Kōbe, we were building—" 
 Sora called something from the kitchen and Michi was up and across the room and whatever she'd been building in Kōbe 
@@ -1648,8 +1648,8 @@ outside, brightening into morning.
 Nim sat and felt the grief, not of the content dissolving but the understanding. She had understood something for three 
 or four seconds, held close something about the kitchen and the person and her life, and the shape of that was 
 evaporating because she was definite and this room was definite. She brushed her teeth and opened the expo invitation. 
-She accepted it and booked a berth on the next cycler to Luna, because maybe the room always wins but at least she she 
-could choose the next one to be in.
+She accepted it and booked a berth on the next cycler to Luna, because if the room was going to keep winning she was at 
+least going to choose the right one to be in.
 
 She put the plastic cat on the nightstand. She slept, and if she dreamed more she didn't remember it.
 `},
