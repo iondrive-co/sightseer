@@ -1587,7 +1587,7 @@ Michi. Michi looked back at her. Nim put the cat in her pocket. For the first ti
 Bangkok Jess was doing whatever Jess did. Survive. Somewhere at the edge of her vision a note about her heart rate 
 appeared. It stayed there for a while, small and far away from the yurumu, and then it was gone.
 
-Michi found a karaoke place. Of course she did. The entrance was through a modular unit bolded to the structural frame, 
+Michi found a karaoke place. Of course she did. The entrance was through a modular unit bonded to the structural frame, 
 and the corridor was narrow and fluorescent and smelled like cleaning products and whatever the previous group had 
 spilled. Their room was non-immersive, real microphones, and small enough that their knees nearly touched. Yui sang 
 first, an old pop song that she performed with a commitment that replaced quality with sincerity and came out ahead. 
@@ -1659,11 +1659,11 @@ She put the plastic cat on the nightstand. She slept, and if she dreamed more sh
     tags: ["Assistant"],
     content: `The cycler smelled like scrubbed air, polymer, and the staleness of a vessel that was cleaned between 
 passengers but never empty long enough to really lose them. Nim put her bag in the overhead net, found the plastic cat 
-in the side pocket and left it there, and sat on the bunk with her feet on the cold floor.
+in the side pocket, and sat on the bunk with her feet on the cold floor.
 
-Through the porthole the Moon was ahead, larger than when she'd boarded. The cycler didn't stop. It swung between the 
-two bodies on a trajectory that had been calculated decades ago and maintained by small corrections ever since. 
-Passengers shuttled up, rode the arc, shuttled down.
+Through the porthole the Moon was ahead, larger than when she'd boarded. She held her wrist and watched it. The cycler 
+didn't stop, it swung between the two bodies and out beyond on a trajectory that had been calculated decades ago and 
+maintained by small corrections ever since. Passengers shuttled up, rode the arc, shuttled down.
 
 In the common lounge a woman was reading with a tea balanced on the armrest. Grey-brown hair cut short, thermal 
 underlayer, a small medallion on a chain that she touched while reading the way some people turn a ring.
@@ -1707,7 +1707,9 @@ think they're moved"
 
 Nim transferred at Peary. Lena went south. They didn't tag as contacts. Lena was probably the kind of person who assumed 
 that if you were meant to meet again, you would.
-—
+
+---
+
 The exposition was called Cultural Bereavement. Three connected halls, low lighting, the exhibits in clusters rather 
 than rows. Each cluster had its own sound from directional speakers: a market recording here, a prayer chant there, the 
 silence between them sharp and acoustically controlled.
@@ -1756,11 +1758,9 @@ degraded the stability.
 He listened and drank his tea. "Have you looked at the propulsion data from the first contact probe?"
 She looked at him.
 "The propellant geometry is ambiguous across multiple configurations. Engineers who describe it in one definite geometry 
-produce something that doesn't function. The people who can make it work can't write down what they do" 
-
-He nodded toward the EML5 display. "It has to be transmitted by doing it together. Like those textiles."
-
-"And you've made than connection but haven't told anyone because, security aside, it doesn't actually sound like science"
+produce something that doesn't function. The people who can make it work can't write down what they do. It has to be 
+transmitted by doing it together. Like those textiles" He nodded toward the EML5 display. "And you've made that 
+connection but haven't told anyone because, security aside, it doesn't actually sound like science"
 
 He was right. Or kind of right, because she knew parts of it were plausible, but the whole thing together seemed 
 ludicrous when you said it out loud. 
@@ -1773,7 +1773,9 @@ been working on adjacent problems for years"
 "In return your work advances and so does ours. Antimatter propulsion opens up interstellar travel to all of humanity, 
 or you could live in a world where the usual players control it all". 
 He picked up his tea, found it empty, put it down again. 
-—
+
+---
+
 The fitting took twenty minutes. The suit was a single piece, the wing fabric folding into channels along the arms and 
 legs when not deployed. The leading edge spars were carbon composite and clicked into position when she extended her 
 arms. The instructor was a young Turkish man named Emre who spoke four languages and treated first-time fliers with 
@@ -1785,10 +1787,10 @@ That makes everything worse."
 "What do I do if it goes wrong?"
 "Relax your arms. Drop. Two meters. You'll land on your feet." He considered this. "Probably."
 
-She launched. Three steps, a jump, arms out, and the fabric caught the air and she was rising. Not fast. The sensation 
-was like being lifted by a wave, if the wave were made of air and the ocean were above her. She moved her right arm down 
-and banked left and the trees rotated below her and her inner ear sent a message that made no sense and her eyes 
-overrode it. She was fine and she was flying.
+She launched. Three steps, a jump, arms out, and the fabric caught the air and she was rising, not fast, more like being 
+lifted by a gentle wave. She moved her right arm down and banked left and the trees rotated below her and her inner ear 
+sent a message that made no sense and her eyes overrode it. Her hands were open at the ends of the spars, fingers 
+spread above nothing, and she was fine.
 
 The dome's climate system pushed warm air up from the rille floor through the canopy, and when she found an updraft she 
 rose without trying, the canopy dropping away below her. From above, the forest was dense and irregular, the trees 

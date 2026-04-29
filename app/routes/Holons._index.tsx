@@ -43,8 +43,12 @@ export default function Holons() {
                 <h1 className="sr-only">Holons</h1>
                 <HolonsIntro />
                 <div className="holons-list">
-                    {stories.map(story => (
-                        <details key={story.id} id={story.id} className="holons-story">
+                    {stories.map((story, index) => (
+                        <details
+                            key={story.id}
+                            id={story.id}
+                            className={`holons-story${index === stories.length - 1 ? " holons-story--last" : ""}`}
+                        >
                             <summary>
                                 <span className="holons-summary-main">
                                     <span className="holons-name">{story.name}</span>
