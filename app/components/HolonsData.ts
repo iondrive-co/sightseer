@@ -1652,5 +1652,182 @@ She accepted it and booked a berth on the next cycler to Luna, because if the ro
 least going to choose the right one to be in.
 
 She put the plastic cat on the nightstand. She slept, and if she dreamed more she didn't remember it.
+.`},
+{
+    id: "attention-part-3",
+    name: "Attention - Part 3",
+    tags: ["Assistant"],
+    content: `The cycler smelled like scrubbed air, polymer, and the staleness of a vessel that was cleaned between 
+passengers but never empty long enough to really lose them. Nim put her bag in the overhead net, found the plastic cat 
+in the side pocket and left it there, and sat on the bunk with her feet on the cold floor.
+
+Through the porthole the Moon was ahead, larger than when she'd boarded. The cycler didn't stop. It swung between the 
+two bodies on a trajectory that had been calculated decades ago and maintained by small corrections ever since. 
+Passengers shuttled up, rode the arc, shuttled down.
+
+In the common lounge a woman was reading with a tea balanced on the armrest. Grey-brown hair cut short, thermal 
+underlayer, a small medallion on a chain that she touched while reading the way some people turn a ring.
+
+"Jasności?" Nim said.
+
+The woman looked up. "Every ten years. My babcia started it"
+
+Her name was Lena. Retired school administrator from Wrocław. Her grandmother had been a structural engineer on one of 
+the early Shackleton mining operations and had known people who knew Kowalczyk, or said they had. Lena told it without 
+apology: proximity to the story had become its own credential among the old lunar Polish, and Lena had inherited hers 
+the way you inherit a set of dishes.
+
+"Kowalczyk was a water specialist" Lena said. "Ice core sampling. When the storm hit he was underground. Radiation was 
+manageable down there. He could have stayed"
+
+"But he went outside"
+
+"He sealed his suit and took the mining cutters and climbed. The recording is public. His breathing is very calm. He 
+describes the dust in the electrostatic charge. He says it looked like curtains" 
+
+She drank her tea. 
+
+"Then he says something about knowing where to go. The church says guided. The family says he was a man who liked to 
+climb and was dying and wanted to see the light at the rim of the crater"
+"What do you say?"
+"I say he took the mining cutters. A man who knows he's dying and the thing he brings is a tool for making permanent 
+marks on rock"
+"I’ve only seen it in sims. The carving" Nim said. "The placement looks incredible - the way her face catches the light 
+and all around it is the dark. It must be overwhelming to actually be there"
+"My babcia went the first time and felt nothing" Lena said. "She was an engineer. She said it looked like a construction 
+project. She went back ten years later after her husband died and wept and couldn't explain why. Then she kept going 
+back, every ten years, and I think she was trying to get back to how she felt the second time" 
+
+Lena turned the medallion between her thumb and forefinger. "She never said whether she did"
+
+They talked for another hour. Lena had opinions about the schedule at Peary Station and about the food in the transit 
+lounge and about her nephew who worked the tourist dome and found it hilarious when Earth visitors cried during their 
+first flight. "Not because it's emotional. The inner ear gets confused and the tear ducts activate. He says they always 
+think they're moved"
+
+Nim transferred at Peary. Lena went south. They didn't tag as contacts. Lena was probably the kind of person who assumed 
+that if you were meant to meet again, you would.
+—
+The exposition was called Cultural Bereavement. Three connected halls, low lighting, the exhibits in clusters rather 
+than rows. Each cluster had its own sound from directional speakers: a market recording here, a prayer chant there, the 
+silence between them sharp and acoustically controlled.
+
+Nim moved slowly. A reconstructed Ceres market stall, price labels in a creole that mixed Portuguese and Mandarin and 
+something the placard called "local pidgin". A wall of MarsNet recordings from an abandoned Kasei Valles outpost, 
+timestamps spanning eight years, the last entries weeks apart. A tactile display of textile patterns from a habitat at 
+EML5 whose population had dropped below replacement during the Aliyah. The fabrics were intricate, rust and indigo in 
+repeating geometries that shifted when you looked at them from different angles, but the knowledge of how to make them 
+had died. 
+
+She stopped at a listening station. A woman's voice singing in Martian creole over a hand drum and the hiss of an air 
+recycler. The melody kept arriving at a resolution and sliding past it. The woman laughed at something mid-verse, a 
+private joke or a mistake she found funny, and kept singing. The recording was dated 48 BFC.
+
+"She died in the stillborn harvest. Most of the cultural archive from that period was recovered from personal storage 
+after" A man's voice behind her, quiet, accented. She turned.
+
+He was taller than her, and his face carried the soft fullness that never quite went away in people who'd spent their 
+first years without gravity pulling the fluid down. Close-cut greying hair. A simple dark shirt and trousers, a small 
+pin on his collar she didn't recognise. His hands were at his sides, relaxed, and when he moved his head to look at her 
+his eyes tracked with a precision that didn't match the rest of him. He held out his forearm at a low angle with his 
+fist clenched, and after a few seconds of confusion she remembered the zero G handshake and tapped the outside of her 
+wrist against his.
+
+"Nim"
+"Augustine. Yui sends her regards. She says you left Tokyo without saying goodbye"
+Nim almost smiled. "I'll bring back some great omiyage"
+
+He looked at the exhibit. "I grew up on stations that sounded like these recordings. The air recyclers. You stop 
+hearing them after a few months but they're always there in recordings from home. My father said the sounds of Nigeria 
+never left him, but unlike me” 
+He gestured to his thin frame “he always had the option to go back to Earth"
+
+They walked. He didn't guide. He fell into step beside her and they moved through the exhibits. He stopped at things 
+that interested him. At a display of Ellulist prayer objects from a decommissioned habitat he touched one of the glass 
+cases with his fingertip.
+
+He paused at a refreshment station. "Tea?" He was already ordering it. He touched something on his wrist. Her IA display 
+went dark. "You can talk here" he said. "Tell me about the operator dependency"
+
+So she told him. The real version. The containment field that held longer when nobody was trying. The way her own focus 
+had collapsed the field from outside the room. The density impressions instead of numerical readouts because numbers 
+degraded the stability.
+
+He listened and drank his tea. "Have you looked at the propulsion data from the first contact probe?"
+She looked at him.
+"The propellant geometry is ambiguous across multiple configurations. Engineers who describe it in one definite geometry 
+produce something that doesn't function. The people who can make it work can't write down what they do" 
+
+He nodded toward the EML5 display. "It has to be transmitted by doing it together. Like those textiles."
+
+"And you've made than connection but haven't told anyone because, security aside, it doesn't actually sound like science"
+
+He was right. Or kind of right, because she knew parts of it were plausible, but the whole thing together seemed 
+ludicrous when you said it out loud. 
+
+"What do you want?" she said.
+
+"I want your research to continue out here, without the self-censorship. Lab space, equipment, operators. People who've 
+been working on adjacent problems for years"
+"And in return"
+"In return your work advances and so does ours. Antimatter propulsion opens up interstellar travel to all of humanity, 
+or you could live in a world where the usual players control it all". 
+He picked up his tea, found it empty, put it down again. 
+—
+The fitting took twenty minutes. The suit was a single piece, the wing fabric folding into channels along the arms and 
+legs when not deployed. The leading edge spars were carbon composite and clicked into position when she extended her 
+arms. The instructor was a young Turkish man named Emre who spoke four languages and treated first-time fliers with 
+exaggerated patience.
+
+"Three steps and a jump. In this gravity, two meters up. Extend your arms before you reach the top of the jump, not 
+after. If you extend after, you'll be descending, the fabric loads wrong, you'll feel a jolt, you'll grab at the spars. 
+That makes everything worse."
+"What do I do if it goes wrong?"
+"Relax your arms. Drop. Two meters. You'll land on your feet." He considered this. "Probably."
+
+She launched. Three steps, a jump, arms out, and the fabric caught the air and she was rising. Not fast. The sensation 
+was like being lifted by a wave, if the wave were made of air and the ocean were above her. She moved her right arm down 
+and banked left and the trees rotated below her and her inner ear sent a message that made no sense and her eyes 
+overrode it. She was fine and she was flying.
+
+The dome's climate system pushed warm air up from the rille floor through the canopy, and when she found an updraft she 
+rose without trying, the canopy dropping away below her. From above, the forest was dense and irregular, the trees 
+engineered but left to grow into their own shapes, trunks leaning towards the light, crowns interlocking. Through gaps 
+in the canopy the rille channels were visible, grey rock and shadow, the original volcanic geology under the imported 
+soil.
+
+She flew for forty minutes. Emre talked her through the first ten and then went quiet and let her find it. The trick was 
+not to think about the arms. The arms were surfaces, not levers. You moved your body and the arms followed and the air 
+did the rest. When she thought about the mechanics she wobbled.
+
+On the second morning Augustine was at the launch platform. Already suited, the wing fabric folded along his arms, 
+comfortable. They launched together. She was lighter, thirty years younger, and she used all of it, climbing into the 
+upper dome where the air thinned. Augustine stayed low. He flew the canopy edge where the updrafts were strongest. His 
+movements were unhurried. The long body that looked awkward on the ground was fluent here, taking lines through gaps 
+between the larger trees that she wouldn't have tried.
+
+She dropped to canopy level and flew through the trees. The trunks were close at this altitude and the branches formed 
+corridors and intersections and she took them fast, tucking her arms to narrow her profile through gaps and extending 
+again to catch the air on the other side. Behind her she heard the fabric snap of Augustine taking the same corridor and 
+she pushed harder, dropping below a branch that forced her to curl her body and roll and extend out of the roll into a 
+long straight run between two rows of beech, their leaves lit amber from the growth lamps and trembling in her wake.
+
+She came out of the tree cover into open air above a wide rille channel. The channel was deep here and the air over it 
+was cold and fast and she climbed on it, spiralling, the dome wall rising beside her. Augustine came out of the trees 
+below and to her left. He found the same column of air and climbed it on a wider spiral, slower, and the geometry of 
+their two spirals brought them closer on each turn until they were at the same altitude, twenty metres apart, rising 
+together.
+
+At the top of the column the air flattened out and they were in the upper dome, close to the structural panels. She 
+levelled off and he levelled off beside her and they flew side by side along the dome wall. Green canopy below and 
+the gentle curve of the dome above, and in the black sky above the Earth was rising, the terminator sharp along its 
+western edge and the blue-white of a cloud system over the deep blue of the Pacific. The whole Earth was held in the 
+darkness by a beam of sunlight, and that made the engineered light hitting the trees below and the thin fragile dome 
+above both more alien and more beautiful.
+
+They descended together, slowly, into the canopy, and landed in a clearing near the rille edge. They stood catching 
+their breath. The flight suits ticked as the spars cooled. Augustine unclipped his leading edges and folded the fabric 
+back along his arms while she was still catching her breath. He held out his forearm, and she tapped her wrist against 
+his, and he smiled and when she was ready they bounded back together along the path through the engineered forest.
 `},
 ];
