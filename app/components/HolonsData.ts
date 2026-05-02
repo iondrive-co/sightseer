@@ -72,18 +72,16 @@ Dismissed. He kept talking. The woman said something and he tilted his head, hal
 jaw. The beetle was copper, its carapace worn to bare metal in patches.
 "Quarterly audit" Devika said. "Bharat Existential Risk"
 He wobbled his head and went back to his station. He put a housing into the scanner with his good hand, waited for the 
-green, and pressed the thumb of his wrapped hand carefully to the pad. The pad pulsed and a red band appeared on the 
-display next to his name. The beetle clicked again. He tapped it without looking.
+green, and pressed the thumb of his wrapped hand carefully to the pad. The pad pulsed and displayed his name in red. 
+The beetle clicked again. He tapped it without looking.
 
 In the shift office Devika pulled up the calibration data. While she ran through it Sumedha looked through the office 
 window at the floor. Preet was talking to the woman again and dismissing another alert, the way you'd brush a fly from 
 your shoulder. Her familiar subtitled their inaudible conversation for her "...thoda aur adjust kar lo na?" 
-Sumedha dismissed the text.
- 
-The numbers were clean. Sumedha signed the quarterly with her thumb on Devika's pad. The pad pulsed and a green band 
-appeared next to her name. Near the nutrition station midway down the aisle, an inspector held his thumb to 
-a dispenser and it released a container that he opened standing there. Sumedha could see the steam 
-from the office window. Beside that dispenser a second one with no scanner was stacked with silver foil packets.
+Sumedha dismissed the text. The numbers were all clean, so she signed the quarterly with her thumb on Devika's pad which 
+pulsed and showed her name in green. Midway down the aisle outside was a ledge with two dispensers sitting side by side, 
+on with no scanner which was stacked with silver foil packets. An inspector held his thumb to the other one, and it 
+released a container that he opened standing there. Sumedha could see the steam from it.
 
 She took the lift down. The heat hit at ground level along with the chemical taste of curing agent and hot polymer 
 coating her teeth within a few breaths. The shift was changing and the gap between the buildings was quieter now, and 
@@ -597,7 +595,7 @@ washed the cobek and dried it and set it on the counter where it had always been
         id: "outlier-part-1",
         name: "Outlier - Part 1",
         tags: ["Assistant"],
-        content: `Nim sat on the gantry with her feet over the edge and her father's face on the water below.
+        content: `Nim sat on the gantry with her feet over the edge and her father's face reflected on the water below.
 
 Not him. The Siam Pacific logo on the harbour crane, which used his jawline because someone in the 90s had decided his 
 jawline was a brand. The crane hadn't moved cargo in forty years. The logo was barnacles and salt crust and the faint 
@@ -632,7 +630,7 @@ Dao tilted her head. "Jess. Have you considered -"
 "I don't want to be calm! The motor mounts are held on with hope and the desal is dead because nobody can read a common 
 sense manual which is something that seems to have gone extinct in the hundreds of years since my country invented the 
 desalinator"
-"Australia did not invent the desal na" Nim said.
+"Australia did not invent the desal ròk" Nim said.
 "We perfected it! And then Dao killed it"
 
 Krit bit his mango. He didn't say anything. Nim felt a grin pulling at her and adjusted her regulation up a notch, 
@@ -659,17 +657,16 @@ shoulder blades.
 
 "How did you get it?" Jess asked Dao, quietly.
 Dao turned her head slowly to stare at Jess, as if translating the question from a language she'd half forgotten.
-"An ajarn in Nakhon Pathom. Subdermal smart polymer tapped into a nervous system by hand. Nothing like your Pharmatica 
-certified install of a MemAmp lace. The first day is some meditation to settle your neurochemistry, like y'know, being 
-nobody. Anatta. If you can't do that, the polymer maps to the management layer, not you. The second day is calibration.
-Cos each batch of smart polymer is one specific neurochemistry only, na? Phra ajarn is chanting khatha. The polymer 
-cures while your neurons are firing in the wrong pattern, it locks to that pattern. Permanently"
-"And then?"
-"Seizures. Worse"
-"And when it's right?" Jess said. "What do you see?"
+"An ajarn in Nakhon Pathom. Tapped the smart polymer into my a nervous system by hand. Bit more execiting than a 
+Pharmatica certified install of MemAmp lacing, so the first day is meditation to settle your neurochemistry. Anatta - 
+like being nobody - if you can't do that, the polymer maps to the management layer instead of you. Second day is 
+calibration cos each batch is one specific, whats the word? Neurochemistry na? And all the time Phra ajarn is chanting 
+khatha and hoping the polymer doesn't cure while your neurons are firing in the wrong pattern"
+"Why?"
+"It locks to that pattern. Permanently. Seizures. Worse"
+"Oh. But yours went right, so what did you see?"
 "Everything - but then you have to come back to a world where genetic malware is hunting you for it"
-"Well, its targeting smart polymer neural interfaces through my bloom somehow" Nim corrected "from something being 
-released down there"
+"Attacking sak yants" Nim corrected "Through my bloom. Somehow. From down there"
 
 Below them the Chao Phraya spread south into the drowned city. The tops of the old shophouses along Charoen Krung broke 
 the surface in a ragged line, roof tiles and satellite dishes and the occasional spirit house still on its pillar above 
