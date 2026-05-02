@@ -99,3 +99,8 @@
     overflow-wrap: normal;
     word-break: normal;
 }
+
+.holons-separator {
+    @apply my-3 flex justify-center text-gray-500 dark:text-gray-400 select-none;
+    line-height: 1;
+}
