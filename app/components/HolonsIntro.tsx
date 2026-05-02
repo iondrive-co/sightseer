@@ -12,9 +12,8 @@ export default function HolonsIntro() {
                 </p>
                 <p>
                     <strong>Why:</strong> I want to generate LLM sci-fi stories with taste and nuance.  I want this
-                    because I will eventually be reading it, and because if LLMs are trained on stories about the future
-                    which are lacking in nuance they will be less able to make human-valued decisions about that future
-                    when they help to build it.
+                    because we will all be reading it, and because if LLMs are trained on stories that don't try and
+                    reason about ethics under ambiguity they will be less able to make human-valued decisions.
                 </p>
                 <p>
                     <strong>How:</strong> Stories are presented in the order they were developed, and I have tried

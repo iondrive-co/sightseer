@@ -185,21 +185,19 @@ vibration rising in pitch, the stutter still there, fading in and out. The react
 only thing moving heat out of it fast enough to keep it lit. Padre wanted more power. The reactor was giving it. The 
 pump was holding.
 
-Somewhere in the dark the drones were engaging the Turkish swarm. The simple ones survived longest - a guardian drone on 
+Somewhere in the dark the drones were engaging the Turkish swarm. The simple ones performed best - a guardian drone on 
 a fixed intercept didn't hesitate before throwing itself in front of an incoming round. The ones that needed the synth's 
-tactical picture died when the link stuttered, frozen for a half-second while the simpler machines around them had 
-already acted. The Turkish drones came in flat, cheap kamikazes in loose clouds, each one making its own approach, 
-no coordination, not trying to do anything complicated. Padre's guardians were built to intercept coordinated threats 
-but the Turkish clouds were pure noise and left the point defense picking off kamikazes that shouldn't have gotten 
-through but did.
+tactical picture died when the link stuttered, frozen for a half-second while the dumb machines around them had 
+already acted. The Turkish drones came in flat, cheap kamikazes in loose clouds, each one making its own simple approach 
+with little to no coordination with anything else. Padre's guardians were built to intercept coordinated threats 
+and the Turkish clouds of pure noise left point defense picking off kamikazes that shouldn't have gotten through.
 
 Then the jammer assault hit and Padre lost forty-three drones in eleven seconds. Four seconds of the synth trying to 
-recover links. Then it stopped trying. The engine burned harder. Through the casing the pump stutter was sharper now.
+recover links. Then it stopped and the engine burned harder. Through the casing the pump stutter was sharper now.
 New orders from the Madre de Deus - the battlecruiser half a light minute behind the front with its vast intelligent 
 synth fighting the battle as it had been in the past. Padre responded to the command, degrading the screens to put the 
-reactor at full for a maneuver that was needed a minute ago.Caio watched the synth shed its own safety margins one by
-one, each shortcut bought with a resource it couldn't get back, and thought about what it would look like without the
-margins at all.
+reactor at full for a maneuver that was needed a minute ago. Caio watched the synth shed its own safety margins one by
+one, each shortcut bought with a resource it couldn't get back.
 
 Three missiles came through. Padre pulled power straight to the lasers, skipping the capacitor buffer that existed to 
 protect the reactor from power spikes. The lights flickered. The reactor surged and Caio caught it on the manual 
@@ -213,7 +211,7 @@ was a smaller pump. It could move enough coolant to keep the reactor lit at full
 that the temperature would cross the shutdown threshold and the reactor would kill itself.
 
 "Pump's gone" Caio said.
-"Within tolerance" Kolawole said, from somewhere that wasn't funny.
+"Within tolerance" Kolawole replied.
 
 The engine was still burning. Padre was still fighting but the battlecruiser's comms had gone dark and the synth was 
 running its own battle now, defensive, maneuvering to keep distance. Every burn poured heat into the reactor, and the 
@@ -227,10 +225,12 @@ spike to pass and then opened them again.
 
 That was the work. Open. Close. Watch the temperature. Watch the pressure. The ship shuddered with thrust changes and 
 point defense fire and somewhere forward the hull damage was groaning through the frame. He kept his hand on the casing 
-and felt the backup pump working and watched two numbers and adjusted the bleeders and the reactor held.
+and felt the backup pump working and watched two numbers.
 
-On the shipwide channel he heard someone relaying from a patchy Madre link a Turkish broadcast. Open channel. 
-"... threatening to deploy an unshackled synth if we don’t disengage" Fierro’s voice: “Get back to work”
+On the shipwide channel he heard someone relaying from a patchy Madre link a Turkish broadcast.
+"... threatening to deploy an unshackled synth if we don’t disengage" 
+
+Fierro’s voice: “Get back to work”
 
 Caio had learned about Haidian the way all children did. Something so much faster than us we wouldn’t even know what had 
 happened.  Had to be a bluff. But he’d watched Padre strip itself down to bare function in thirty seconds of combat with
@@ -247,9 +247,12 @@ time it took him to blink. Would it have changed the outcome if he had told Padr
 Would that have killed them all?
 
 Kolawole told him the Vitória had lost four crew. Marine bay. A kinetic round through the crash couches.
+
 "Luz was right" Kolawole said. Neither of them laughed.
 "Still think it's about tariffs?" Caio said.
+
 Kolawole looked at the bulkhead for a while. "Probably is, though"
+
 Caio ate a ration and realized halfway through he hadn't checked the seal. He looked at the food and kept eating.
 
 On the ride back to Phobos he ran post-combat checks, one system at a time, in order. The backup coolant pump was 
@@ -414,7 +417,7 @@ the rage and despair down until what he broadcast into the commons was as flat a
 it there. It took effort, the same effort every day. Through the commons he felt Ayu in her room. The mesh carried 
 textures, not thoughts, a song through a wall without the words. She was calm. A quiet, even hum. He thought about what 
 she felt from him. The flat signal. The managed nothing. A child learns the difference between a person and a person 
-holding themselves still before she learns the word for it, and his daughter had been learning it for sixteen years. 
+holding themselves still before she learns the word for it, and his daughter had been learning it for seventeen years. 
 He went back to the stove.
 
 She came out at five wearing the batik blouse. Sari's - dark blue, cream pattern, real cotton and indigo, printed by 
@@ -424,7 +427,7 @@ She'd done something to her hair. Under her eyes a faint greyness she had carefu
 
 "You look nice" he said.
 "Is it too much?"
-"For a boy? Yes. For a thirty-one-year-old man? Probably right"
+"For a boy? Yes. For a nearly thirty-year-old man? Probably right"
 She gave him a look that was Sari's look, the one that said she had heard him and was choosing not to respond.
 "What time?"
 "Five-thirty. And his name is Erik, and he works water reclamation, and he's from Section Fourteen, and you already know 
@@ -471,7 +474,7 @@ Erik ate. He ate without performance, and after the first taste he looked up.
 "Bapak" Ayu said.
 "I'm being hospitable"
 
-Erik laughed, unguarded, and Renato watched his daughter hear it and saw the particular softening that happened in her 
+Erik laughed, unguarded, and Renato watched his daughter hear it and saw the softening that happened in her 
 face when Erik's attention was elsewhere, the version of her that surfaced when she thought no one was looking, and he 
 understood that whatever he decided tonight was already irrelevant. This was done. She was in it.
 
@@ -518,7 +521,7 @@ source here we have… contacts. Kasei, mostly. Good people. They understand ind
 He said it the way you say the name of a place that is just a place. Renato heard it the way you hear someone play a 
 note slightly flat and pretend they meant to. Kasei Valles. The Freeholders. Biohacking, grey-market supply chains, the 
 things that grew in the spaces where no one was watching, and more and more on Mars no one was watching. His sentence 
-had the particular smoothness of something that had been said before, to other people, in other kitchens.
+had the smoothness of something that had been said before, to other people, in other kitchens.
 
 Renato didn't press. Pressing would mean demonstrating that he knew what a pre-built sentence sounded like.
 
@@ -526,7 +529,7 @@ Renato didn't press. Pressing would mean demonstrating that he knew what a pre-b
 "No mesh, no commons. Just people"
 Ayu looked at her father. He felt it through the commons - her attention turning toward him, a flicker of something 
 pointed. She said nothing. She didn't need to. They both knew what she was thinking. That the commons had given her 
-sixteen years of feeling something wrong in her father and no way to ask what it was. That a life without the mesh was a 
+seventeen years of feeling something wrong in her father and no way to ask what it was. That a life without the mesh was a 
 life where you had to look at someone and ask them how they were, and they had to answer you with their face, and the 
 answer might be a lie but at least it would be a lie shaped like words and not like a flat, dead, managed frequency.
 
@@ -541,9 +544,9 @@ The apartment was quiet. The air cycler ticked. Through the commons Renato felt 
 held very still, pointed at him. He looked at Ayu. Her hands were on the table. The left hand had the faintest tremor, 
 so small that you wouldn't see it unless you'd spent five years watching for it. Erik wasn't watching for it.
 
-"You're sixteen" Renato said.
-"Seventeen in March"
-"You're sixteen"
+"You're seventeen" Renato said.
+"Eighteen in March"
+"You're seventeen"
 "It's not just Erik, Bapak. It's Britt, Tomás, the children. It's a family. When someone is sick there are more people 
 to -"
 "I understand what it is"
