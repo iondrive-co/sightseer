@@ -79,15 +79,15 @@ export default function Holons() {
                                 {story.content.split(/\n\s*\n/).filter(s => s.trim()).map((paragraph, i) => (
                                     paragraph.trim() === '---' ? (
                                         <div key={i} className="holons-separator" aria-hidden="true">
-                                            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                <ellipse cx="12" cy="13" rx="7" ry="5" />
-                                                <path d="M12 8.5c-.4-1.4.4-2.7 1.6-3 1.2-.3 2.4.5 2.4 1.7 0 1-.9 1.8-2 1.8-.8 0-1.6-.2-2-.5z" />
-                                                <circle cx="15.2" cy="6.8" r=".5" fill="#fff" />
-                                                <rect x="4" y="14" width="2" height="3" rx="1" />
-                                                <rect x="18" y="14" width="2" height="3" rx="1" />
-                                                <rect x="7" y="16.5" width="2" height="2.5" rx="1" />
-                                                <rect x="15" y="16.5" width="2" height="2.5" rx="1" />
-                                                <path d="M5 12c.6-2.2 2.2-4 4-4.5M19 12c-.6-2.2-2.2-4-4-4.5" stroke="currentColor" strokeWidth=".6" fill="none" opacity=".4" />
+                                            <svg viewBox="0 0 64 40" width="36" height="22" fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <ellipse cx="10" cy="22" rx="6" ry="5" stroke="none" />
+                                                <circle cx="7" cy="20.5" r="1" fill="#fff" stroke="none" />
+                                                <ellipse cx="36" cy="22" rx="18" ry="11" stroke="none" />
+                                                <rect x="22" y="30" width="6" height="6" rx="2" stroke="none" />
+                                                <rect x="44" y="30" width="6" height="6" rx="2" stroke="none" />
+                                                <rect x="22" y="9" width="6" height="5" rx="2" stroke="none" />
+                                                <rect x="44" y="9" width="6" height="5" rx="2" stroke="none" />
+                                                <path d="M36 13 L31 18 L36 22 L41 18 Z M24 22 L28 26 L32 22 M48 22 L44 26 L40 22 M36 22 L36 31" stroke="currentColor" strokeWidth="1.2" fill="none" opacity=".55" />
                                             </svg>
                                         </div>
                                     ) : (
