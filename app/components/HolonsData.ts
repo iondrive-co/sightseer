@@ -1420,10 +1420,10 @@ Another pause
 
 'I liked the first one better' Rae said. 'Do you want me to set up the thing with Augustine?'
 
-Whatever Freehab had reverse engineered from the alien probe, their separatist elements sniffing around her company
-suggested they hadn't figured out all of it. Nim wasn't sure she had either, and she definitely didn't want to pull the 
-entirety of that idea into the focussed part of her mind her IA could reach. If it got out some government agency would 
-be through the doors in an hour and the whole startup shut down.
+Freehab had reverse engineered something from the alien probe, but Augustine sniffing around her company suggested they 
+hadn't figured it all out. Nim wasn't sure she had either, and she definitely didn't want to pull the entirety of that 
+idea into the focussed part of her mind her IA could reach. Because if the idea got out then some government agency 
+would be through the doors in an hour and the whole startup shut down.
 
 'I'm happy to take his money if there really are no strings' is what Nim visualised and said instead. 
 
@@ -1451,12 +1451,11 @@ fog until the air shimmered. Rae came out.
 
 Nim nodded and took her hand off the wall. On the ridge the Tomb of the Unknown Human was catching the light, orange 
 against a darkening hillside. The Society of Life had built it as an expensive promotional stunt, to "mourn those who 
-died from curable senescence". Nim thought that curable senescence sounded like a type of glue, making dead people 
-stop having options and became permanent.
-
-There once were seven embryos, frozen in a clinic in Bangkok. For seventy-eight years they'd been nothing decided and 
-then the fund crossed ฿100 trillion and a clerk at Siam International drew divination sticks and one stick came up with 
-a number and Nimitra Wongprasert had begun her life and left the other six possibilities open.
+died from curable senescence". Nim thought that curable senescence sounded like a type of glue which had made all those
+dead people permanently stuck. She was the reverse, one of seven embryos, frozen in a clinic in Bangkok. For 
+seventy-eight years they'd been nothing decided and then the fund crossed ฿100 trillion and a clerk at Siam 
+International drew divination sticks and one stick came up with a number and Nimitra Wongprasert had begun her life 
+while still leaving the other six possibilities open.
 
 'Your Tokyo suborbital's at ten' Rae said.
 .`},
@@ -1473,9 +1472,9 @@ The dinner had been Yui's idea, or Yui's excuse. Yui worked for Angusu in photon
 contact for the intermediary that afternoon, a man named Taniguchi who had discussed weather systems and order 
 book dynamics for ninety minutes in a conference room overlooking the palace grounds and at no point mentioned money or 
 Augustine Okafor or the Freeholders or anything that would produce a record her IA could flag. When Nim left the
-building the funding structure existed, somehow, the way a price exists after a trade, settled rather than decided. 
-Her IA had flagged nothing because there was nothing to flag. Then Yui had said: come out tonight, I want you to meet 
-some people.
+building the funding structure existed, somehow, the way a price emerges from the two sides of an order book without
+anyone having to actually make a trade. Her IA had flagged nothing because there was nothing to flag. Then Yui had said: 
+come out tonight, I want you to meet some people.
 
 Yui lived in Kōenji in a building old enough to have physical mailboxes. Her flat was on the sixth floor and was 
 designed for one person and currently contained six. Yui opened the door and pulled Nim inside by the wrist. The 
@@ -1517,12 +1516,11 @@ Nim's IA placed a note in her vision: Saturday. Meeting with Augustine Okafor, C
 Aljanah Lunar Resort. She brushed behind her ear.
 
 They left because Kazu knew a place. It was going to be a night driven by someone knowing a place, and Nim realised 
-that the momentum wasn't hers, that she was inside someone else's evening, and the relief of this was so physical she 
-felt it in her shoulders, muscles releasing she hadn't known were locked. The place Kazu knew was a listening bar in 
-Asagaya, and when they stepped inside the street's managed quiet was replaced by an analogue crackle from a record. It 
-was something Nim didn't know, slow and washed out, a guitar that kept almost resolving into melody and then pulling 
-back, and the room was small enough that everyone was close. The owner was a woman who wore her age unrestored and
-looked to be in her seventies.
+that the momentum wasn't hers, that she was inside someone else's evening. She felt shoulder muscles releasing she 
+hadn't known were locked. The place Kazu knew was a listening bar in Asagaya, and when they stepped inside the street's 
+managed quiet was replaced by an analogue crackle from a record. It was something Nim didn't know, slow and washed out, 
+a guitar that kept almost resolving into melody and then pulling back. The owner was a woman who wore her age 
+unrestored.
 
 They sat and drank and the conversation separated into pieces. Yui and Sora talking about Sora's atmospheric project. 
 Kazu showing Michi something on his hands that Nim couldn't see from where she sat. Across the table Yui was holding her 
