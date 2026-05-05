@@ -445,10 +445,9 @@ forefinger. He was carrying a paper bag.
 "Mr. Genovese. Thank you for having me" He held out the bag. "Britt made kue lapis. She wanted to come but the kids had 
 a thing"
 Renato took the bag. Britt. One of the line marriage partners. The kue lapis was still warm through the paper, and when 
-he opened it the smell was pandan and butter and the kind of patience that meant someone had poured and grilled each 
-layer individually, waiting for one to set before pouring the next, for two or three hours, in a kitchen in Section 
-Fourteen, for a man she had never met, because her partner's girl's father was worth an afternoon in the kitchen. That 
-was information.
+he opened it the smell was pandan and butter. Someone had poured and grilled each layer individually, waiting for one 
+to set before pouring the next, for two or three hours for a man she had never met, because her partner's girl's father 
+was worth an afternoon in the kitchen. That was information.
 
 "Come in"
 Erik came in and saw the kitchen and looked at the cobek on the counter the way people looked at it, which was with 
@@ -1457,8 +1456,7 @@ seventy-eight years they'd been nothing decided and then the fund crossed ฿100
 International drew divination sticks and one stick came up with a number and Nimitra Wongprasert had begun her life 
 while still leaving the other six possibilities open.
 
-'Your Tokyo suborbital's at ten' Rae said.
-.`},
+'Your Tokyo suborbital's at ten' Rae said.`},
 {
     id: "attention-part-2",
     name: "Attention - Part 2",
@@ -1707,19 +1705,18 @@ The exposition was called Cultural Bereavement. Three connected halls, low light
 than rows. Each cluster had its own sound from directional speakers: a market recording here, a prayer chant there, the 
 silence between them sharp and acoustically controlled.
 
-Nim moved slowly. A reconstructed Ceres market stall, price labels in a creole that mixed Portuguese and Mandarin and 
-something the placard called "local pidgin". A wall of MarsNet recordings from an abandoned Kasei Valles outpost, 
-timestamps spanning eight years, the last entries weeks apart. A tactile display of textile patterns from a habitat at 
-EML5 whose population had dropped below replacement during the Aliyah. The fabrics were intricate, rust and indigo in 
-repeating geometries that shifted when you looked at them from different angles, but the knowledge of how to make them 
-had died. 
+Nim moved slowly. A reconstructed Ceres market stall, price labels in a creole that mixed Portuguese and Mandarin. A 
+wall of MarsNet recordings from an abandoned Kasei Valles outpost, timestamps spanning eight years, the last entries 
+weeks apart. A tactile display of textile patterns from a habitat at EML5 whose population had dropped below replacement 
+during the Aliyah. The fabrics were intricate, rust and indigo in repeating geometries that shifted when you looked at 
+them from different angles, but the knowledge of how to make them had died. 
 
-She stopped at a listening station. A woman's voice singing in Martian creole over a hand drum and the hiss of an air 
-recycler. The melody kept arriving at a resolution and sliding past it. The woman laughed at something mid-verse, a 
-private joke or a mistake she found funny, and kept singing. The recording was dated 48 BFC.
+She stopped at the recordings. A woman's voice singing in Martian creole over a hand drum and the hiss of an air 
+recycler. The woman laughed at something mid-verse, a private joke or a mistake she found funny, and kept singing. 
+The recording was dated 48 BFC.
 
-"She died in the stillborn harvest. Most of the cultural archive from that period was recovered from personal storage 
-after" A man's voice behind her, quiet, accented. She turned.
+"She died in the stillborn harvest. A lot of cultural archive from that period was recovered from the personal storage 
+of the victims". A man's voice behind her, quiet, accented. She turned.
 
 He was taller than her, and his face carried the soft fullness that never quite went away in people who'd spent their 
 first years without gravity pulling the fluid down. Close-cut greying hair. A simple dark shirt and trousers, a small 
@@ -1728,43 +1725,40 @@ his eyes tracked with a precision that didn't match the rest of him. He held out
 fist clenched, and after a few seconds of confusion she remembered the zero G handshake and tapped the outside of her 
 wrist against his.
 
-"Nim"
-"Augustine. Yui sends her regards. She says you left Tokyo without saying goodbye"
+"Augustine"
+"Nim. Yui sends her regards. She says you left Tokyo without saying goodbye"
+
 Nim almost smiled. "I'll bring back some great omiyage"
 
 He looked at the exhibit. "I grew up on stations that sounded like these recordings. The air recyclers. You stop 
 hearing them after a few months but they're always there in recordings from home. My father said the sounds of Nigeria 
-never left him, but unlike me” 
-He gestured to his thin frame “he always had the option to go back to Earth"
+never left him either” 
 
-They walked. He didn't guide. He fell into step beside her and they moved through the exhibits. He stopped at things 
-that interested him. At a display of Ellulist prayer objects from a decommissioned habitat he touched one of the glass 
-cases with his fingertip.
+He gestured to his thin frame “It'll always be air recyclers for me though"
 
-He paused at a refreshment station. "Tea?" He was already ordering it. He touched something on his wrist. Her IA display 
+They walked. He fell into step beside her and they moved through the exhibits. He stopped at a display of Ellulist 
+prayer objects from a decommissioned habitat he touched one of the glass cases with his fingertip. He paused at a 
+refreshment station. "Tea?" He was already ordering it. He touched something on his wrist. Her IA display 
 went dark. "You can talk here" he said. "Tell me about the operator dependency"
 
-So she told him. The real version. The containment field that held longer when nobody was trying. The way her own focus 
-had collapsed the field from outside the room. The density impressions instead of numerical readouts because numbers 
-degraded the stability.
+So she told him. The real version. He listened and drank his tea.  When she was finished, he asked her if she had looked 
+at the propulsion data from the first contact probe.
 
-He listened and drank his tea. "Have you looked at the propulsion data from the first contact probe?"
-She looked at him.
 "The propellant geometry is ambiguous across multiple configurations. Engineers who describe it in one definite geometry 
 produce something that doesn't function. The people who can make it work can't write down what they do. It has to be 
 transmitted by doing it together. Like those textiles" He nodded toward the EML5 display. "And you've made that 
-connection but haven't told anyone because, security aside, it doesn't actually sound like science"
+same connection but haven't told anyone because, security aside, it doesn't actually sound like science"
 
 He was right. Or kind of right, because she knew parts of it were plausible, but the whole thing together seemed 
 ludicrous when you said it out loud. 
 
 "What do you want?" she said.
 
-"I want your research to continue out here, without the self-censorship. Lab space, equipment, operators. People who've 
-been working on adjacent problems for years"
-"And in return"
-"In return your work advances and so does ours. Antimatter propulsion opens up interstellar travel to all of humanity, 
-or you could live in a world where the usual players control it all". 
+"I want your research to continue out on Mars, without the self-censorship. Lab space, equipment, operators. People 
+who've been working on adjacent problems for years"
+"And in return?"
+"In return your work advances and so does ours. Antimatter propulsion opens up interstellar travel to all of humanity 
+Or you could live in a world where the usual players control it all". 
 He picked up his tea, found it empty, put it down again. 
 
 ---
