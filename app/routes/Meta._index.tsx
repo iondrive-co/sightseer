@@ -49,7 +49,8 @@ export default function Meta() {
                             tracker of usage for this site and may well move to self hosting once it is a bit more stable.
                             I am not a web developer, but I have found the React Router framework easy to work with, and
                             Tailwind css to be simple enough to create layouts which (mostly) adapt gracefully from phone to
-                            desktop. And I do use LLMs for help with various non-writing issues, since after all I am only human.
+                            desktop. Other than in the Holons section I don't use LLMs for writing, but I do use them
+                            for coding assistance, since after all I am only human.
                         </p>
                     </section>
                     <footer className="border-t pt-8 mt-12">

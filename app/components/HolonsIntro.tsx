@@ -23,6 +23,11 @@ export default function HolonsIntro() {
                     rewrites it based a number of house style rules which I have preset.
                 </p>
                 <p>
+                    <strong>Verdict:</strong> LLMs can be directed to produce competent, MFA voice prose without
+                    significant LLM tells. Polysyndetic sentences, mixed styles, or layered sentiment ended up in the
+                    bin as unfeeling McCarthy/Joyce/Plath pastiche, long may it remain so.
+                </p>
+                <p>
                     <strong>LLM tags</strong> level/type of language model involvement:
                 </p>
             </div>
