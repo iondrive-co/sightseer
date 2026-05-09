@@ -235,6 +235,10 @@
     @apply text-blue-600 dark:text-blue-400 hover:underline;
   }
 
+  .webring-link--muted {
+    @apply text-gray-500 dark:text-gray-400;
+  }
+
   /* Collapsed content margins — pure CSS, no JS dependency */
   .sidebar.sidebar-collapsed ~ .index-content,
   .sidebar.sidebar-collapsed ~ .main-content,

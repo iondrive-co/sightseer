@@ -372,7 +372,7 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Carriers",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/d/d8/Carriersposter.jpg",
-        summary: ``,
+        summary: `A low-key pandemic road movie with good character tension making up for the familiar infected-world setup`,
         e: 5,
         a: 6,
         n: 6,
@@ -381,7 +381,8 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Chaos Walking",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/6/63/Chaos_Walking_%28film%29.png",
-        summary: ``,
+        summary: `The audible-thoughts premise and frontier setting are interesting, but the film rushes past its best 
+        worldbuilding ideas into fairly generic YA chase mechanics`,
         e: 6,
         a: 6,
         n: 5,
@@ -390,7 +391,8 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Chappie",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/7/71/Chappie_poster.jpg",
-        summary: ``,
+        summary: `A messy but strangely involving robot-child story with good narrative drive, but the tone and 
+        performances are all over the place`,
         e: 6,
         a: 5,
         n: 8,
@@ -399,7 +401,8 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Children of Men",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/Children_of_men_ver4.jpg/330px-Children_of_men_ver4.jpg",
-        summary: ``,
+        summary: `Overrated near-future collapse movie, the atmosphere is good but the fertility premise and characters 
+        are bland BBC Radio 2 level drivel`,
         e: 5,
         a: 7,
         n: 6,
@@ -408,7 +411,7 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Chrysalis (2014)",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/1/10/Godzilla_%282014%29_poster.jpg",
-        summary: ``,
+        summary: `A scrappy post-apocalyptic survival film with some effective low-budget atmosphere`,
         e: 5,
         a: 7,
         n: 5,
@@ -426,7 +429,7 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Clone Returns Home, The",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/4/42/Playdate_%28film%29_poster.jpg",
-        summary: ``,
+        summary: `A thoughtful clone identity premise is buried under glacial pacing and remote character work`,
         e: 4,
         a: 5,
         n: 3,
@@ -446,7 +449,8 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Cloverfield",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/f/f1/Cloverfield_theatrical_poster.jpg",
-        summary: ``,
+        summary: `The found-footage monster attack gives New York's destruction a raw immediacy, but the thin characters 
+        and limited premise make it more impressive as a stunt than as a story`,
         e: 4,
         a: 8,
         n: 5,
@@ -455,7 +459,8 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Cloverfield Paradox",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/e/e5/Cloverfield_paradox_poster.jpg",
-        summary: ``,
+        summary: `There are flashes of glossy space-horror craft and a decent cast, but the multiverse setup is a 
+        muddle and the Cloverfield branding feels bolted onto a weak script`,
         e: 6,
         a: 6,
         n: 4,
@@ -464,7 +469,7 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Code 46",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/d/df/Code_46_movie.jpg",
-        summary: ``,
+        summary: `A murky genetic-control noir with some evocative future texture`,
         e: 5,
         a: 5,
         n: 4,
@@ -473,7 +478,7 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "Code 8",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/4/45/Code_8_2019_poster.jpg",
-        summary: ``,
+        summary: `A polished but thematically under-developed powered-underclass crime movie with a decent action spine`,
         e: 4,
         a: 6,
         n: 6,
@@ -770,7 +775,8 @@ export const sciFiMoviesData: Movie[] = [
     {
         title: "External Sunshine of the Spotless Mind",
         thumbnail: "https://upload.wikimedia.org/wikipedia/en/a/a4/Eternal_Sunshine_of_the_Spotless_Mind.png",
-        summary: `An inventive and very well-acted memory-erasure romance, but the twee melancholy and maze-like structure keep the sci-fi conceit at an intellectual distance rather than an emotional one`,
+        summary: `An inventive and very well-acted memory-erasure romance, but the twee melancholy and maze-like 
+        structure keep the sci-fi conceit at an intellectual distance rather than an emotional one`,
         e: 5,
         a: 3,
         n: 5,

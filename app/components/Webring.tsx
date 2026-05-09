@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
-type RingLink = { label: string; href: string };
-type Ring = { id: string; name: string; home: string; links: RingLink[] };
+type RingLink = { label: string; href?: string };
+type Ring = { id: string; name: string; home: string; links: RingLink[]; pending?: boolean };
 type WebringProps = { compact?: boolean };
 
 type WaywardPortal = {
@@ -19,6 +19,17 @@ const rings: Ring[] = [
       { label: "← Previous", href: "https://meta-ring.hedy.dev/previous" },
       { label: "Random", href: "https://meta-ring.hedy.dev/random" },
       { label: "Next →", href: "https://meta-ring.hedy.dev/next" },
+    ],
+  },
+  {
+    id: "geekring",
+    name: "Geekring",
+    home: "https://geekring.net/",
+    pending: true,
+    links: [
+      { label: "Previous site" },
+      { label: "Random site" },
+      { label: "Next site" },
     ],
   },
 ];
@@ -97,7 +108,24 @@ export default function Webring({ compact = false }: WebringProps) {
         {rings.map((ring) => (
           <div className="webring-box" key={ring.id}>
             <div className="webring-text">
-              {compact ? (
+              {ring.pending ? (
+                compact ? (
+                  <>
+                    <a className="webring-link" href={ring.home}>
+                      {ring.name}
+                    </a>{" "}
+                    (pending):
+                  </>
+                ) : (
+                  <>
+                    This site is waiting to join the{" "}
+                    <a className="webring-link" href={ring.home}>
+                      {ring.name}
+                    </a>
+                    :
+                  </>
+                )
+              ) : compact ? (
                 <>
                   <a className="webring-link" href={ring.home}>
                     {ring.name}
@@ -115,11 +143,22 @@ export default function Webring({ compact = false }: WebringProps) {
               )}
             </div>
             <div className="webring-links">
-              {ring.links.map((link) => (
-                <a className="webring-link" href={link.href} key={link.href}>
-                  [{link.label}]
-                </a>
-              ))}
+              {ring.pending
+                ? ring.links.map((link) => (
+                    <span
+                      className="webring-link webring-link--muted"
+                      key={link.label}
+                      aria-disabled="true"
+                      title="Pending member ID"
+                    >
+                      [{link.label}]
+                    </span>
+                  ))
+                : ring.links.map((link) => (
+                    <a className="webring-link" href={link.href} key={link.href}>
+                      [{link.label}]
+                    </a>
+                  ))}
             </div>
           </div>
         ))}
