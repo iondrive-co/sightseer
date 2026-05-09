@@ -1452,7 +1452,7 @@ Nim nodded and took her hand off the wall. On the ridge the Tomb of the Unknown 
 against a darkening hillside. The Society of Life had built it as an expensive promotional stunt, to "mourn those who 
 died from curable senescence". Nim thought that curable senescence sounded like a type of glue which had made all those
 dead people permanently stuck. She was the reverse, one of seven embryos, frozen in a clinic in Bangkok. For 
-seventy-eight years they'd been nothing decided and then the fund crossed ฿100 trillion and a clerk at Siam 
+ninety-two years they'd been nothing decided and then the fund crossed ฿100 trillion and a clerk at Siam 
 International drew divination sticks and one stick came up with a number and Nimitra Wongprasert had begun her life 
 while still leaving the other six possibilities open.
 
@@ -1808,11 +1808,11 @@ their two spirals brought them closer on each turn until they were at the same a
 together.
 
 At the top of the column the air flattened out and they were in the upper dome, close to the structural panels. She 
-levelled off and he levelled off beside her and they flew side by side along the dome wall. Green canopy below and 
-the gentle curve of the dome above, and in the black sky above the Earth was rising, the terminator sharp along its 
-western edge and the blue-white of a cloud system over the deep blue of the Pacific. The whole Earth was held in the 
-darkness by a beam of sunlight, and that made the engineered light hitting the trees below and the thin fragile dome 
-above both more alien and more beautiful.
+levelled off and he levelled off beside her and they flew side by side over the green canopy. Above the gentle curve of 
+the dome ahead the Earth hung in the black sky, the terminator sharp along its western edge and the blue-white of a 
+cloud system over the deeper blue of the Pacific. A beam of sunlight hit hit one side of the Earth, holding it in the 
+darkness and making the engineered lights hitting the trees below and the thin fragile dome above both more alien and 
+more beautiful.
 
 They descended together, slowly, into the canopy, and landed in a clearing near the rille edge. They stood catching 
 their breath. The flight suits ticked as the spars cooled. Augustine unclipped his leading edges and folded the fabric 

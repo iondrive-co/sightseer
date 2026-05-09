@@ -2000,7 +2000,7 @@ Along with the algorithmic guarantees, management of the contract was held by tw
 Futures and Siam International, both of whom needed to agree on decisions even where the contract allowed them. In the
 years after Thanakit's death several relatives attempted to claim the inheritance but were unsuccessful. Worawut 
 Legal Futures went bankrupt during the large scale migration out of Bangkok that occurred in the 70s, but Siam 
-International remained a going concern and continued collection the monthly stipend from the contract for the full 78 
+International remained a going concern and continued collection the monthly stipend from the contract for the full 92 
 years until, on 29th December 17 BFC, the indexed fund's value surpassed ฿100 trillion. The story had been picked up by 
 a journalist a few months before and there was now a lot of news coverage of Siam International. They appear to have
 dutifully fulfilled the last part of the contract, randomly selecting one of the embryos via divination sticks for 
@@ -2021,7 +2021,7 @@ dictate how the money was to be used, other than to create a great legacy for th
 currently not been spent, and at several points Nimitra has reinvested money from her companies back into the fund. She 
 initially used the money both to fund reconstruction efforts in Bangkok such as the Hive Complex, and as seed capital 
 for new companies as well as angel investments in many of her friend's companies. Her most successful ventures have been 
-a modular desalination unit and roaming cage aquaculture systems. In 8 AFC she amalgamated her ventures under a new 
+a modular desalination unit and roaming cage aquaculture systems. In 3 AFC she amalgamated her ventures under a new 
 parent company, NakhaTech, and appointed a CEO so that she could concentrate on other interests. She had been funding a 
 larger reconstruction of the Wat Pho temple, and subsequently hosted several night events in the grounds as it neared 
 completion.
