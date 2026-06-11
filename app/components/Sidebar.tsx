@@ -86,6 +86,16 @@ export default function Sidebar() {
             </Link>
           </li>
         ))}
+        <li>
+          <a
+            href="https://aparadise.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xl underline cursor-pointer sidebar-link sidebar-portfolio-link"
+          >
+            Paradise
+          </a>
+        </li>
       </ul>
       <div
         className="sidebar-handle"

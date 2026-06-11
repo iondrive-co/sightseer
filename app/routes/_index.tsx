@@ -27,6 +27,12 @@ export default function Index() {
                         <div className="description-pair"><dt className="sr-only">Solar</dt><dd>&lt;--Hohmann sim using three.js</dd></div>
                         <div className="description-pair"><dt className="sr-only">Winnow</dt><dd>&lt;--Web version of <a href="https://github.com/iondrive-co/winnow" style={{ color: "blue" }}>winnow</a> for in-browser image editing</dd></div>
                     </dl>
+                    <div className="portfolio-divider" role="separator" />
+                    <h2 className="portfolio-title">Game Portfolio</h2>
+                    <p className="portfolio-subtext">Each of these opens in a new browser window</p>
+                    <dl className="descriptions">
+                        <div className="description-pair"><dt className="sr-only">Paradise</dt><dd>&lt;--Work in progress: European arrival in the Americas</dd></div>
+                    </dl>
                 </div>
             </main>
         </div>

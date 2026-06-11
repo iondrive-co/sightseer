@@ -21,17 +21,6 @@ const rings: Ring[] = [
       { label: "Next →", href: "https://meta-ring.hedy.dev/next" },
     ],
   },
-  {
-    id: "geekring",
-    name: "Geekring",
-    home: "https://geekring.net/",
-    pending: true,
-    links: [
-      { label: "Previous site" },
-      { label: "Random site" },
-      { label: "Next site" },
-    ],
-  },
 ];
 
 function normalizeHost(url: string) {
