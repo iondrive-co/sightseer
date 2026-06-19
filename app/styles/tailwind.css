@@ -37,7 +37,8 @@
 @layer base {
   html,
   body {
-    @apply bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 m-0 p-0 h-screen w-screen overflow-hidden cursor-default;
+    @apply bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 m-0 p-0 w-screen overflow-hidden cursor-default;
+    height: 100dvh;
   }
 
   :root {
@@ -93,15 +94,23 @@
   }
 
   .app {
-    @apply flex h-screen w-screen overflow-hidden font-sans;
+    @apply flex w-screen overflow-hidden font-sans;
+    /* 100dvh (not 100vh) so the flex-centred home content uses the SAME
+       viewport reference as the position:fixed sidebar. With 100vh, the
+       content centred against the large (URL-bar-hidden) viewport while the
+       fixed sidebar centred against the visible viewport, shifting the arrows
+       ~half a URL-bar below the sidebar links on mobile. Headless browsers
+       have no URL bar, so this only ever showed up on real phones. */
+    height: 100dvh;
   }
 
   .sidebar {
-    @apply fixed left-0 top-0 h-full
+    @apply fixed left-0 top-0
     flex flex-col items-center justify-center
     px-4 gap-8
     bg-gray-100 dark:bg-gray-800;
     width: var(--sidebar-width);
+    height: 100dvh;
     transition: width 0.2s ease;
     z-index: 10;
   }

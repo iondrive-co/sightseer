@@ -4,7 +4,7 @@ import {pageData} from '~/components/exobase/ExobaseData';
 import {useLoaderData, useLocation} from 'react-router';
 import ExobaseArticle from '~/components/exobase/ExobaseArticle';
 import Sidebar from "~/components/Sidebar";
-import {seo, truncate} from "~/utils/seo";
+import {seo, truncate, SITE_URL} from "~/utils/seo";
 import '~/styles/tailwind.css';
 import '~/styles/exobase.css';
 
@@ -37,10 +37,22 @@ export const meta: MetaFunction = ({params}) => {
 
     const article = pageData.get(key);
     if (article) {
+        const path = `/exobase/${encodeURIComponent(key.replace(/ /g, '_'))}`;
+        const description = truncate(plainText(article.content));
         return seo({
             title: key,
-            description: truncate(plainText(article.content)),
-            path: `/exobase/${encodeURIComponent(key.replace(/ /g, '_'))}`,
+            description,
+            path,
+            type: 'article',
+            jsonLd: {
+                '@context': 'https://schema.org',
+                '@type': 'Article',
+                headline: key,
+                description,
+                author: {'@type': 'Person', name: 'Miles'},
+                mainEntityOfPage: `${SITE_URL}${path}`,
+                articleSection: article.classification,
+            },
         });
     }
 

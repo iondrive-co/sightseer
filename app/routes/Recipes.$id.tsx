@@ -13,14 +13,40 @@ export function loader({ params }: LoaderFunctionArgs) {
     return recipe;
 }
 
+/** Parse "5 minutes" / "1 hour 30 mins" into an ISO-8601 duration (PT…). */
+function isoDuration(text: string): string | undefined {
+    const hours = /(\d+)\s*h/i.exec(text)?.[1];
+    const mins = /(\d+)\s*m/i.exec(text)?.[1];
+    if (!hours && !mins) return undefined;
+    return `PT${hours ? `${hours}H` : ""}${mins ? `${mins}M` : ""}`;
+}
+
 export const meta: MetaFunction<typeof loader> = ({ data }) => {
     if (!data) {
         return seo({ title: "Recipe not found", noIndex: true });
     }
+    const prep = isoDuration(data.prepTime);
+    const cook = isoDuration(data.cookTime);
     return seo({
         title: data.title,
         description: truncate(data.description || `A ${data.category.toLowerCase()} recipe.`),
         path: `/Recipes/${encodeURIComponent(data.id)}`,
+        jsonLd: {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            name: data.title,
+            description: data.description,
+            author: { "@type": "Person", name: "Miles" },
+            recipeCategory: data.category,
+            recipeYield: String(data.servings),
+            recipeIngredient: data.ingredients,
+            recipeInstructions: data.instructions.map((step) => ({
+                "@type": "HowToStep",
+                text: step,
+            })),
+            ...(prep ? { prepTime: prep } : {}),
+            ...(cook ? { cookTime: cook } : {}),
+        },
     });
 };
 

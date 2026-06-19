@@ -1,5 +1,13 @@
 import { stories } from "~/components/HolonsData";
 import { SITE_URL, SITE_NAME, escapeXml, truncate } from "~/utils/seo";
+import contentDates from "~/data/content-dates.json";
+
+const holonDates = (contentDates as { holons: Record<string, string> }).holons;
+
+/** YYYY-MM-DD → RFC 822 date required by RSS (noon UTC to avoid TZ date shifts). */
+function rfc822(date: string): string {
+  return new Date(`${date}T12:00:00Z`).toUTCString();
+}
 
 /** First ~300 chars of a story's prose, with separators/blank lines removed. */
 function storyExcerpt(content: string): string {
@@ -12,17 +20,33 @@ function storyExcerpt(content: string): string {
 }
 
 export async function loader() {
-  const items = stories.map((story) => {
+  // Newest first; undated stories (not yet in content-dates.json) sort last.
+  const sorted = [...stories].sort((a, b) => {
+    const da = holonDates[a.id];
+    const db = holonDates[b.id];
+    if (da && db) return db.localeCompare(da);
+    if (da) return -1;
+    if (db) return 1;
+    return 0;
+  });
+
+  const items = sorted.map((story) => {
     const url = `${SITE_URL}/Holons#${encodeURIComponent(story.id)}`;
+    const date = holonDates[story.id];
+    const pubDate = date ? `      <pubDate>${rfc822(date)}</pubDate>\n` : "";
     return (
       `    <item>\n` +
       `      <title>${escapeXml(story.name)}</title>\n` +
       `      <link>${url}</link>\n` +
       `      <guid isPermaLink="true">${url}</guid>\n` +
+      pubDate +
       `      <description>${escapeXml(storyExcerpt(story.content))}</description>\n` +
       `    </item>`
     );
   });
+
+  const newest = sorted.map((s) => holonDates[s.id]).filter(Boolean).sort().pop();
+  const lastBuild = newest ? `    <lastBuildDate>${rfc822(newest)}</lastBuildDate>\n` : "";
 
   const body =
     `<?xml version="1.0" encoding="UTF-8"?>\n` +
@@ -32,6 +56,7 @@ export async function loader() {
     `    <link>${SITE_URL}/Holons</link>\n` +
     `    <description>Short stories set in the Exobase, a speculative future history.</description>\n` +
     `    <language>en</language>\n` +
+    lastBuild +
     `    <atom:link href="${SITE_URL}/feed.xml" rel="self" type="application/rss+xml"/>\n` +
     items.join("\n") +
     `\n  </channel>\n` +

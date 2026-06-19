@@ -1,9 +1,29 @@
 import "~/styles/tailwind.css";
 import Sidebar from "../components/Sidebar";
 import type { MetaFunction } from "react-router";
-import { seo } from "~/utils/seo";
+import { seo, SITE_URL, SITE_NAME } from "~/utils/seo";
 
-export const meta: MetaFunction = () => seo({ path: "/" });
+export const meta: MetaFunction = () =>
+    seo({
+        path: "/",
+        jsonLd: [
+            {
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                name: SITE_NAME,
+                url: SITE_URL,
+                description:
+                    "Creative writing, opinions, projects, and links — a personal site by Miles.",
+            },
+            {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                name: "Miles",
+                url: SITE_URL,
+                email: "c@iondrive.co",
+            },
+        ],
+    });
 
 export default function Index() {
     return (

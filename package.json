@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "react-router build",
+    "gen-dates": "node --experimental-strip-types scripts/gen-content-dates.mjs",
+    "gen-og": "node scripts/gen-og-image.mjs",
     "deploy": "npm run build && wrangler pages deploy",
     "dev": "react-router dev",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
