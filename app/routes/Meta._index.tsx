@@ -1,13 +1,13 @@
 import type { MetaFunction } from "react-router";
 import Sidebar from "../components/Sidebar";
 import '~/styles/tailwind.css';
+import { seo } from "~/utils/seo";
 
-export const meta: MetaFunction = () => {
-    return [
-        { title: "Meta" },
-        { name: "description", content: "About this site" },
-    ];
-};
+export const meta: MetaFunction = () => seo({
+    title: "Meta",
+    description: "The why and how behind this site, plus a colophon — how it's built and hosted.",
+    path: "/Meta",
+});
 
 export default function Meta() {
     return (

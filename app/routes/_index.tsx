@@ -1,12 +1,9 @@
 import "~/styles/tailwind.css";
 import Sidebar from "../components/Sidebar";
 import type { MetaFunction } from "react-router";
+import { seo } from "~/utils/seo";
 
-export const meta: MetaFunction = () => {
-  return [
-    { title: "Iondrive" },
-  ];
-};
+export const meta: MetaFunction = () => seo({ path: "/" });
 
 export default function Index() {
     return (

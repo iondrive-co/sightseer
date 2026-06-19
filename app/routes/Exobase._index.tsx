@@ -1,8 +1,16 @@
+import type {MetaFunction} from 'react-router';
 import {useLoaderData} from 'react-router';
 import Sidebar from "~/components/Sidebar";
 import {classificationOverviewLoader} from '~/components/exobase/ExobaseLoader';
+import {seo} from "~/utils/seo";
 import '~/styles/tailwind.css';
 import '~/styles/exobase.css';
+
+export const meta: MetaFunction = () => seo({
+    title: "Exobase",
+    description: "An interlinked wiki of future history — polities, people, technologies, and places.",
+    path: "/exobase",
+});
 
 export const loader = classificationOverviewLoader;
 function Exobase() {

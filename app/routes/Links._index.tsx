@@ -1,5 +1,13 @@
+import type { MetaFunction } from "react-router";
 import Sidebar from "../components/Sidebar";
+import { seo } from "~/utils/seo";
 import '~/styles/tailwind.css';
+
+export const meta: MetaFunction = () => seo({
+    title: "Links",
+    description: "A hand-picked set of links to worldbuilding, writing, and other interesting corners of the web.",
+    path: "/Links",
+});
 
 const links = [
     {

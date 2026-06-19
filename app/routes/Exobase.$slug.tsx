@@ -1,12 +1,57 @@
+import type {MetaFunction} from 'react-router';
 import {exobaseLoader} from '~/components/exobase/ExobaseLoader';
+import {pageData} from '~/components/exobase/ExobaseData';
 import {useLoaderData, useLocation} from 'react-router';
 import ExobaseArticle from '~/components/exobase/ExobaseArticle';
 import Sidebar from "~/components/Sidebar";
+import {seo, truncate} from "~/utils/seo";
 import '~/styles/tailwind.css';
 import '~/styles/exobase.css';
 
 export const loader = exobaseLoader;
 type ArticleData = [string, {content: string, classification: string}];
+
+/** Strip the wiki/markdown syntax from raw article source to plain prose. */
+function plainText(raw: string): string {
+    return raw
+        .replace(/\$\$\$[\s\S]*?\$\$\$/g, ' ')        // inline code blocks
+        .replace(/%%%[\s\S]*?%%%/g, ' ')              // pre code blocks
+        .replace(/\[\[(.*?)(?:~.*?)?]]/g, '$1')       // wiki links -> display text
+        .replace(/^[#-]\s+/gm, '')                    // heading / list markers
+        .replace(/\s+/g, ' ')
+        .trim();
+}
+
+export const meta: MetaFunction = ({params}) => {
+    const rawSlug = decodeURIComponent(params.slug ?? 'Exobase');
+    const key = rawSlug.replace(/_/g, ' ');
+
+    // The pseudo-overview slug (/exobase/Exobase) consolidates to the index.
+    if (key.toLowerCase() === 'exobase') {
+        return seo({
+            title: 'Exobase',
+            description: 'An interlinked wiki of speculative future history — its polities, people, technologies, and places.',
+            path: '/exobase',
+        });
+    }
+
+    const article = pageData.get(key);
+    if (article) {
+        return seo({
+            title: key,
+            description: truncate(plainText(article.content)),
+            path: `/exobase/${encodeURIComponent(key.replace(/ /g, '_'))}`,
+        });
+    }
+
+    // Otherwise this is a classification / category listing.
+    const name = key.replace(/^Category-/, '');
+    return seo({
+        title: name,
+        description: `Exobase entries classified under ${name}.`,
+        path: `/exobase/${encodeURIComponent(rawSlug.replace(/ /g, '_'))}`,
+    });
+};
 
 function ClassificationPage({ data, noSubcategory }: { data: Record<string, ArticleData[]>, noSubcategory: ArticleData[] }) {
     const location = useLocation();

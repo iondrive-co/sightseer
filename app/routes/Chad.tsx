@@ -1,4 +1,12 @@
+import type { MetaFunction } from "react-router";
 import Sidebar from "~/components/Sidebar";
+import { seo } from "~/utils/seo";
+
+export const meta: MetaFunction = () => seo({
+    title: "Chad",
+    description: "Chad is a mobile coding agent — an interactive coding assistant that can run in your browser.",
+    path: "/Chad",
+});
 
 export default function ChadRoute() {
     return (

@@ -1,4 +1,4 @@
-import type { LinksFunction } from "react-router";
+import type { LinksFunction, MetaFunction } from "react-router";
 import {
   Links,
   Meta,
@@ -10,8 +10,13 @@ import {
 
 import '~/styles/tailwind.css';
 import Webring from "~/components/Webring";
+import { seo } from "~/utils/seo";
 
 export const links: LinksFunction = () => [];
+
+// Site-wide default metadata. Leaf routes export their own `meta` which
+// replaces this; it applies to any route that doesn't (e.g. error states).
+export const meta: MetaFunction = () => seo();
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -19,8 +24,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Creative writing, opinions, projects, and links — a personal site by Miles." />
-        <title>Iondrive</title>
         <Meta />
         <Links />
       </head>

@@ -1,4 +1,12 @@
+import type { MetaFunction } from "react-router";
 import Sidebar from "~/components/Sidebar";
+import { seo } from "~/utils/seo";
+
+export const meta: MetaFunction = () => seo({
+    title: "Winnow",
+    description: "A web-based image editor for quickly cropping and sorting photos",
+    path: "/Winnow",
+});
 
 export default function WinnowRoute() {
     return (

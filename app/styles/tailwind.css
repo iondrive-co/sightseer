@@ -289,16 +289,53 @@
   }
 
   .email {
-    @apply text-lg mb-7;
+    @apply text-lg;
+    margin-bottom: 2.75rem;
+    white-space: nowrap;
   }
 
   .descriptions {
-    @apply space-y-6 text-sm;
+    @apply text-sm;
+  }
+
+  /* Each description occupies a fixed-height row matching the sidebar's
+     44px link rhythm (20px link + 24px gap), with its text vertically
+     centered. This keeps every row the same height even when a
+     description wraps to two lines, so the arrows stay aligned with the
+     evenly-spaced sidebar links. */
+  .descriptions > :not([hidden]) ~ :not([hidden]) {
+    margin-top: 0;
+  }
+
+  .description-pair {
+    display: flex;
+    align-items: center;
+    height: 44px;
+  }
+
+  .descriptions dd {
+    margin-inline-start: 0.25rem;
   }
 
   .index-content {
-    justify-content: start;
-    padding-top: calc(50dvh - 176px);
+    justify-content: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  /* Shrink the portfolio header so the gap between the Winnow and Paradise
+     rows matches the sidebar's 121px Paradise offset, keeping the Paradise
+     link aligned with its arrow. */
+  .portfolio-divider {
+    @apply mt-6 mb-3;
+  }
+
+  /* Reserve a fixed two-line height so the portfolio block keeps the same
+     height whether the subtext wraps to one or two lines at a given width,
+     which keeps the Paradise row aligned across all phone sizes. */
+  .portfolio-subtext {
+    @apply mb-4;
+    height: 2.5rem;
   }
 
   .sidebar.sidebar-collapsed {

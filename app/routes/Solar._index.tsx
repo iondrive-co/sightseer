@@ -1,6 +1,14 @@
+import type { MetaFunction } from "react-router";
 import Sidebar from "~/components/Sidebar";
 import Solar from "~/components/Solar";
+import { seo } from "~/utils/seo";
 import '~/styles/tailwind.css';
+
+export const meta: MetaFunction = () => seo({
+    title: "Solar",
+    description: "An interactive 3D solar system and Earth-to-Mars Hohmann transfer simulator built with Three.js.",
+    path: "/Solar",
+});
 
 export default function SolarScreen() {
     return (

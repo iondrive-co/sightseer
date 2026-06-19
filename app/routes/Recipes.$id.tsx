@@ -1,7 +1,8 @@
-import type { LoaderFunctionArgs } from "react-router";
+import type { LoaderFunctionArgs, MetaFunction } from "react-router";
 import { useLoaderData, Link } from "react-router";
 import Sidebar from "~/components/Sidebar";
 import { getRecipeById, formatTags, type Recipe } from "~/components/RecipesData";
+import { seo, truncate } from "~/utils/seo";
 import '~/styles/tailwind.css';
 
 export function loader({ params }: LoaderFunctionArgs) {
@@ -11,6 +12,17 @@ export function loader({ params }: LoaderFunctionArgs) {
     }
     return recipe;
 }
+
+export const meta: MetaFunction<typeof loader> = ({ data }) => {
+    if (!data) {
+        return seo({ title: "Recipe not found", noIndex: true });
+    }
+    return seo({
+        title: data.title,
+        description: truncate(data.description || `A ${data.category.toLowerCase()} recipe.`),
+        path: `/Recipes/${encodeURIComponent(data.id)}`,
+    });
+};
 
 export default function RecipePage() {
     const recipe = useLoaderData<Recipe>();

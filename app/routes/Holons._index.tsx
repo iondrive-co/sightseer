@@ -1,13 +1,20 @@
 import {useEffect} from "react";
-import type {LoaderFunction} from "react-router";
+import type {LoaderFunction, MetaFunction} from "react-router";
 import {useLoaderData, useLocation} from "react-router";
 import type {Story} from "~/components/HolonsData";
 import {stories} from "~/components/HolonsData";
 import HolonsIntro from "~/components/HolonsIntro";
 import HolonsTag from "~/components/HolonsTag";
 import Sidebar from "~/components/Sidebar";
+import {seo} from "~/utils/seo";
 import '~/styles/tailwind.css';
 import '~/styles/holons.css';
+
+export const meta: MetaFunction = () => seo({
+    title: "Holons",
+    description: "Short stories set in the medium-term future",
+    path: "/Holons",
+});
 
 export const loader: LoaderFunction = async () => {
     return stories;

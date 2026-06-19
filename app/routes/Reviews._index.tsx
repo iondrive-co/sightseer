@@ -1,9 +1,16 @@
-import type {LoaderFunction} from "react-router";
+import type {LoaderFunction, MetaFunction} from "react-router";
 import {useLoaderData} from "react-router";
 import {Movie, sciFiMoviesData} from "~/components/ReviewsData";
 import Sidebar from "~/components/Sidebar";
+import {seo} from "~/utils/seo";
 import '~/styles/tailwind.css';
 import '~/styles/reviews.css';
+
+export const meta: MetaFunction = () => seo({
+    title: "Reviews",
+    description: "Very short movie and game reviews, scored on engagement, aesthetics, novelty, and craft.",
+    path: "/Reviews",
+});
 
 export const loader: LoaderFunction = async () => {
     return sciFiMoviesData;

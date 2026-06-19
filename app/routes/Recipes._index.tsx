@@ -1,7 +1,15 @@
+import type { MetaFunction } from "react-router";
 import { Link } from "react-router";
 import Sidebar from "../components/Sidebar";
 import { recipes, formatTags } from "~/components/RecipesData";
+import { seo } from "~/utils/seo";
 import '~/styles/tailwind.css';
+
+export const meta: MetaFunction = () => seo({
+    title: "Recipes",
+    description: "Simple recipes for a mixed meat-eating and vegan family — vegan, vegetarian, and meat-option dishes.",
+    path: "/Recipes",
+});
 
 export default function RecipesIndex() {
     const groupedRecipes = recipes.reduce((acc, recipe) => {
