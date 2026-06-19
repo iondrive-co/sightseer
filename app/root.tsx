@@ -12,7 +12,9 @@ import '~/styles/tailwind.css';
 import Webring from "~/components/Webring";
 import { seo } from "~/utils/seo";
 
-export const links: LinksFunction = () => [];
+export const links: LinksFunction = () => [
+  { rel: "alternate", type: "application/rss+xml", title: "Iondrive — Holons", href: "/feed.xml" },
+];
 
 // Site-wide default metadata. Leaf routes export their own `meta` which
 // replaces this; it applies to any route that doesn't (e.g. error states).
